@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sijoitukset</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .header img {
+            width: 100px;
+            height: auto;
+        }
+        .header h1 {
+            color: rgb(0, 100, 40);
+            font-size: 1.5rem;
+            margin: 10px 0 0;
+        }
+        .sijoitus-table {
+            width: 60%;
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+        .sijoitus-table th, .sijoitus-table td {
+            border: 1px solid #ccc;
+            padding: 4px;
+            text-align: center;
+        }
+        .sijoitus-table th {
+            background-color: #f4f4f4;
+        }
+        .sijoitus-table th span {
+            display: block;
+        }
+        .year-cell {
+            font-weight: bold;
+        }
+        .year-cell a {
+            color: black;
+            text-decoration: none;
+        }
+        .year-cell a:hover {
+            text-decoration: underline;
+        }
+        .highlight-green {
+            background-color: rgb(0, 100, 40);
+            color: white;
+            font-weight: bold;
+        }
+        .highlight-gray {
+            background-color: lightgray;
+        }
+        .highlight-red {
+            background-color: red;
+            color: white;
+            font-weight: bold;
+        }
+        .highlight-gold {
+            background-color: #ffd700;
+            font-weight: bold;
+        }
+        .link {
+            color: black;
+            text-decoration: none;
+        }
+        .link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <a href="index.html" class="logo-link">
+            <img src="logot/HPS.jpg" alt="HPS Logo">
+            <p class="logo-text">HPS Tilastot<br>1917-2024</p>
+        </a>
+        <nav>
+            <ul class="menu">
+                <li><a href="sijoitukset.html" class="active">Sijoitukset</a></li>
+                <li><a href="kaudet.html">Kaudet</a></li>
+                <li><a href="pelaajat.html">Pelaajat</a></li>
+                <li><a href="vastustajat.html">Vastustajat</a></li>
+                <li><a href="tietoja.html">Tietoja</a></li>
+            </ul>
+        </nav>
+    </div>
+    <main>
+        <div class="header">
+            <img src="logot/HPS.jpg" alt="HPS Logo">
+            <h1>Sarjasijoitukset</h1>
+            <h1>1918-2024</h1>
+
+        </div>
+        <table class="sijoitus-table">
+            <thead>
+                <tr style="background-color: white;">
+                    <th></th>
+                    <th class="history-cell">
+                        <span>Ykkösliiga 2024-</span>
+                        <span>Veikkausliiga 1992-</span>
+                        <span>Futisliiga 1990-91</span>
+                        <span>SM-sarja 1980-89</span>
+                        <span>Mestaruussarja -1979</span>
+                    </th>
+                    <th class="history-cell">
+                        <span>Ykkönen 2024-</span>
+                        <span>Ykkönen 1994-2023</span>
+                        <span>1. divisioona 1973-1993</span>
+                        <span>2. divisioona 1970-72</span>
+                        <span>Suomensarja -1969</span>
+                    </th>
+                    <th class="history-cell">
+                        <span>Kakkonen 2024-</span>
+                        <span>Kakkonen 1994-2023</span>
+                        <span>2. divisioona 1973-1993</span>
+                        <span>3. divisioona 1970-72</span>
+                        <span>Maakuntasarja -1969</span>
+                    </th>
+                    <th class="history-cell">
+                        <span>Kolmonen 2024-</span>
+                        <span>Kolmonen 1994-2023</span>
+                        <span>3. divisioona 1973-1993</span>
+                        <span>4. divisioona 1970-72</span>
+                        <span>Aluesarja -1969</span>
+                    </th>
+                    <th class="history-cell">
+                        <span>Nelonen 2024-</span>
+                        <span>Nelonen 1994-2023</span>
+                        <span>4. divisioona 1973-1993</span>
+                    </th>
+                    <th class="history-cell">
+                        <span>Vitonen 2024-</span>
+                        <span>Vitonen 1994-2023</span>
+                        <span>5. divisioona 1978-1993</span>
+                    </th>
+                    <th class="history-cell">
+                        <span>Kutonen 2024-</span>
+                        <span>Kutonen 1994-2023</span>
+                        <span>6. divisioona 1979-1993</span>
+                    </th>
+                    <th class="history-cell">
+                        <span>Seiska 2024-</span>
+                        <span>Seiska 1994-2023</span>
+                        <span>7. divisioona 1987-1993</span>
+                    </th>
+                </tr>
+                <tr style="background-color: #f4f4f4;">
+                    <th>Vuosi</th>
+                    <th><span>1.</span><span>sarjataso</span></th>
+                    <th><span>2.</span><span>sarjataso</span></th>
+                    <th><span>3.</span><span>sarjataso</span></th>
+                    <th><span>4.</span><span>sarjataso</span></th>
+                    <th><span>5.</span><span>sarjataso</span></th>
+                    <th><span>6.</span><span>sarjataso</span></th>
+                    <th><span>7.</span><span>sarjataso</span></th>
+                    <th><span>8.</span><span>sarjataso</span></th>
+                </tr>
+            </thead>
+            
+            
+            <tbody id="table-body">
+                <!-- Rows will be populated dynamically -->
+            </tbody>
+        </table>
+    </main>
+    <script>
+fetch('sijoitukset.json')
+    .then(response => response.json())
+    .then(data => {
+        const tableBody = document.getElementById('table-body');
+        const years = [...new Set(data.map(item => item.Vuosi))].sort((a, b) => b - a);
+
+        years.forEach(year => {
+            const row = document.createElement('tr');
+            row.innerHTML = `<td class="year-cell"><a href="kaudet.html?year=${year}" class="link">${year}</a></td>`;
+            for (let i = 1; i <= 8; i++) {
+                const cellData = data.find(item => item.Vuosi === year && item.sarjataso === `${i}. sarjataso`);
+                const cell = document.createElement('td');
+
+                if (cellData) {
+                    cell.innerHTML = `
+                        <a href="kaudet.html?year=${year}" class="link">
+                            <img src="logot/HPS.jpg" alt="HPS Logo" style="width: 20px; height: 20px; margin-right: 5px;">
+                            ${cellData.Sijoitus}
+                        </a>`;
+                    if (cellData.tulos === 'nousi') {
+                        cell.className = 'highlight-green';
+                    } else if (cellData.tulos === 'säilyi') {
+                        cell.className = 'highlight-gray';
+                    } else if (cellData.tulos === 'putosi') {
+                        cell.className = 'highlight-red';
+                    } else if (cellData.tulos === 'mestari') {
+                        cell.className = 'highlight-gold';
+                    }
+                }
+                row.appendChild(cell);
+            }
+            tableBody.appendChild(row);
+        });
+    })
+    .catch(error => console.error('Error loading sijoitukset.json:', error));
+
+    </script>
+</body>
+</html>

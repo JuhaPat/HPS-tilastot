@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ottelukortti</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .match-header {
+            color: rgb(0, 100, 40); /* Vihreä fontti */
+            font-size: 2rem;
+            text-align: center;
+        }
+        .match-details {
+            font-size: 1.2rem;
+            text-align: center;
+            margin-top: 10px;
+        }
+        .match-logos {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px; /* Väli logojen ja tuloksen välillä */
+        }
+        .team-logo {
+            width: 75px;
+            height: 75px;
+        }
+        .team-name {
+            font-size: 1.8rem; /* Suurempi fonttikoko */
+            font-weight: bold;
+            color: black;
+            text-align: center;
+            margin-bottom: 10px; /* Väli nimen ja logon välillä */
+        }
+        .score {
+            font-size: 2rem;
+            font-weight: bold;
+            text-align: center;
+            margin: 0 50px; /* Väli logojen ja tuloksen välillä */
+        }
+        .team-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .scorer-list {
+            margin-top: 10px;
+            text-align: center;
+            font-size: 1rem;
+            color: black;
+        }
+        .scorer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 5px;
+        }
+        .scorer img {
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <a href="index.html" class="logo-link">
+            <img src="HPS-logo.jpg" alt="HPS Logo" class="logo">
+            <p class="logo-text">HPS Tilastot<br>1917-2024</p>
+        </a>
+        <nav>
+            <ul class="menu">
+                <li><a href="sijoitukset.html">Sijoitukset</a></li>
+                <li><a href="kaudet.html">Kaudet</a></li>
+                <li><a href="pelaajat.html">Pelaajat</a></li>
+                <li><a href="vastustajat.html">Vastustajat</a></li>
+                <li><a href="tietoja.html">Tietoja</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <main>
+        <div id="match-content">
+            <!-- Ottelun tiedot haetaan ja asetetaan JavaScriptillä -->
+        </div>
+    </main>
+
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const otteluId = parseInt(urlParams.get('ottelu_id'), 10); // Muutetaan numeroksi
+
+        if (otteluId) {
+            fetch('ottelut.json')
+                .then(response => response.json())
+                .then(matches => {
+                    const match = matches.find(m => parseInt(m.ottelu_id, 10) === otteluId); // Vertaillaan numeroina
+                    if (!match) {
+                        document.getElementById('match-content').innerHTML = '<p>Ottelua ei löytynyt!</p>';
+                        return;
+                    }
+
+                    fetch('sarjataulukot.json')
+                        .then(response => response.json())
+                        .then(teams => {
+                            const teamLogos = {};
+                            teams.forEach(team => {
+                                if (team.Joukkue && team.Logo) {
+                                    teamLogos[team.Joukkue] = team.Logo;
+                                }
+                            });
+
+                            const matchContent = `
+                                <h1 class="match-header">${match.Kilpailu}</h1>
+                                <p class="match-details">${match.Stadion}, ${match.Kaupunki}</p>
+                                <p class="match-details">${match.Päivämäärä}</p>
+                                <div class="match-logos">
+                                    <div class="team-container">
+                                        <p class="team-name">${match.Kotijoukkue}</p>
+                                        <img src="/logot/${teamLogos[match.Kotijoukkue] || ''}" alt="${match.Kotijoukkue}" class="team-logo">
+                                        <div class="scorer-list">
+                                            <div class="scorer">
+                                                <img src="/logot/Pallo.jpg" alt="Pallo">
+                                                <span>Knuutinen 13'</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="score">${match.maalit_koti}-${match.maalit_vieras}</div>
+                                    <div class="team-container">
+                                        <p class="team-name">${match.Vierasjoukkue}</p>
+                                        <img src="/logot/${teamLogos[match.Vierasjoukkue] || ''}" alt="${match.Vierasjoukkue}" class="team-logo">
+                                        <div class="scorer-list">
+                                            <div class="scorer">
+                                                <img src="/logot/Pallo.jpg" alt="Pallo">
+                                                <span>Knuutinen 13'</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            `;
+
+                            document.getElementById('match-content').innerHTML = matchContent;
+                        })
+                        .catch(error => console.error('Virhe ladattaessa joukkueiden tietoja:', error));
+                })
+                .catch(error => console.error('Virhe ladattaessa ottelutietoja:', error));
+        } else {
+            document.getElementById('match-content').innerHTML = '<p>Ottelun tiedot puuttuvat!</p>';
+        }
+    </script>
+</body>
+</html>

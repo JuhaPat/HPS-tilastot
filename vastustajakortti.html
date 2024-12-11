@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vastustajakortti</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .opponent-header {
+            color: rgb(0, 100, 40); /* Vihreä fontti */
+            font-size: 2rem;
+            text-align: center;
+        }
+        .opponent-details {
+            font-size: 1.2rem;
+            text-align: center;
+            margin-top: 10px;
+        }
+        .opponent-logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .team-logo {
+            width: 100px;
+            height: 100px;
+        }
+        .matches-list {
+            width: 60%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        .matches-list th, .matches-list td {
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+        .matches-list th {
+            background-color: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <a href="index.html" class="logo-link">
+            <img src="HPS-logo.jpg" alt="HPS Logo" class="logo">
+            <p class="logo-text">HPS Tilastot<br>1917-2024</p>
+        </a>
+        <nav>
+            <ul class="menu">
+                <li><a href="sijoitukset.html">Sijoitukset</a></li>
+                <li><a href="kaudet.html">Kaudet</a></li>
+                <li><a href="pelaajat.html">Pelaajat</a></li>
+                <li><a href="vastustajat.html" class="active">Vastustajat</a></li>
+                <li><a href="tietoja.html">Tietoja</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <main>
+        <div id="opponent-content">
+            <!-- Vastustajan tiedot haetaan ja asetetaan JavaScriptillä -->
+        </div>
+        <table class="matches-list" id="opponent-matches-table">
+            <thead>
+                <tr>
+                    <th>Päivämäärä</th>
+                    <th>Kilpailu</th>
+                    <th>Stadion</th>
+                    <th>Kaupunki</th>
+                    <th>HPS</th>
+                    <th>Vastustaja</th>
+                    <th>Tulos</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Ottelut täytetään JavaScriptillä -->
+            </tbody>
+        </table>
+    </main>
+
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const opponentName = urlParams.get('joukkue');
+
+        if (opponentName) {
+            fetch('sarjataulukot.json')
+                .then(response => response.json())
+                .then(teams => {
+                    const team = teams.find(t => t.Joukkue === opponentName);
+                    const logo = team ? `/logot/${team.Logo}` : '';
+                    
+                    fetch('ottelut.json')
+                        .then(response => response.json())
+                        .then(matches => {
+                            const opponentMatches = matches.filter(match => 
+                                match.Kotijoukkue === opponentName || match.Vierasjoukkue === opponentName
+                            );
+
+                            const earliestMatch = opponentMatches.reduce((earliest, match) => {
+                                const matchDate = new Date(match.Päivämäärä.replace(/(\d{1,2})\.(\d{1,2})\.(\d{4})/, '$3-$2-$1'));
+                                return matchDate < earliest ? matchDate : earliest;
+                            }, new Date());
+
+                            const latestMatch = opponentMatches.reduce((latest, match) => {
+                                const matchDate = new Date(match.Päivämäärä.replace(/(\d{1,2})\.(\d{1,2})\.(\d{4})/, '$3-$2-$1'));
+                                return matchDate > latest ? matchDate : latest;
+                            }, new Date(0));
+
+                            const opponentContent = `
+                                <h1 class="opponent-header">${opponentName}</h1>
+                                <div class="opponent-logo">
+                                    <img src="${logo}" alt="${opponentName}" class="team-logo">
+                                </div>
+                                <p class="opponent-details">Ensimmäinen kohtaaminen: ${earliestMatch.toLocaleDateString('fi-FI')}</p>
+                                <p class="opponent-details">Viimeisin kohtaaminen: ${latestMatch.toLocaleDateString('fi-FI')}</p>
+                            `;
+
+                            document.getElementById('opponent-content').innerHTML = opponentContent;
+
+                            const tableBody = document.getElementById('opponent-matches-table').querySelector('tbody');
+                            tableBody.innerHTML = opponentMatches.map(match => `
+                                <tr>
+                                    <td>${match.Päivämäärä}</td>
+                                    <td>${match.Kilpailu}</td>
+                                    <td>${match.Stadion}</td>
+                                    <td>${match.Kaupunki}</td>
+                                    <td>${match.Kotijoukkue === 'HPS' ? 'HPS' : ''}</td>
+                                    <td>${match.Kotijoukkue === opponentName ? match.Kotijoukkue : match.Vierasjoukkue}</td>
+                                    <td>${match.maalit_koti}-${match.maalit_vieras}</td>
+                                </tr>
+                            `).join('');
+                        })
+                        .catch(error => console.error('Virhe ladattaessa ottelutietoja:', error));
+                })
+                .catch(error => console.error('Virhe ladattaessa logotietoja:', error));
+        } else {
+            document.getElementById('opponent-content').innerHTML = '<p>Vastustajan tiedot puuttuvat!</p>';
+        }
+    </script>
+</body>
+</html>

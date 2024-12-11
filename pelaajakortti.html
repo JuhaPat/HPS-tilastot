@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pelaajakortti</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .player-info {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Keskitetään kuva ja tiedot */
+            margin-bottom: 20px;
+        }
+
+        .player-photo {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+
+        .player-details h1 {
+            margin: 0;
+            font-size: 1.8rem; /* Suurempi fonttikoko nimelle */
+            color: rgb(0, 100, 40); /* Väri muutettu */
+        }
+
+        .player-details p {
+            margin: 5px 0;
+            font-size: 0.9rem;
+            color: #555;
+        }
+
+        .league-table {
+            width: 50%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            font-size: 0.9rem;
+            table-layout: fixed;
+        }
+
+        .league-table th, .league-table td {
+            border: 1px solid #ddd;
+            padding: 5px;
+            text-align: center;
+        }
+
+        .league-table th {
+            background-color: #f2f2f2;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .total-row {
+            font-weight: bold;
+            background-color: #e6e6e6;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <a href="index.html" class="logo-link">
+            <img src="HPS-logo.jpg" alt="HPS Logo" class="logo">
+            <p class="logo-text">HPS Tilastot<br>1917-2024</p>
+        </a>
+        <nav>
+            <ul class="menu">
+                <li><a href="sijoitukset.html">Sijoitukset</a></li>
+                <li><a href="kaudet.html">Kaudet</a></li>
+                <li><a href="pelaajat.html">Pelaajat</a></li>
+                <li><a href="vastustajat.html">Vastustajat</a></li>
+                <li><a href="tietoja.html">Tietoja</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <main>
+        <div class="player-info">
+            <img src="pelaajakuvat/pelaajakuva.jpg" alt="Pelaajan kuva" class="player-photo">
+            <div class="player-details">
+                <h1 id="player-name"></h1>
+                <p id="player-birth">s. 1.1.1900</p>
+                <p id="player-death">k. 1.1.1900</p>
+                <p id="player-positions"><strong>Pelipaikat:</strong> -</p>
+                <p id="player-roles"><strong>Muut roolit:</strong> -</p>
+            </div>
+        </div>
+        <table id="player-stats" class="league-table">
+            <thead>
+                <tr>
+                    <th>Vuosi</th>
+                    <th>Sarjataso</th>
+                    <th>Pelit yhteensä</th>
+                    <th>Maalit yhteensä</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Pelaajan tilastot täytetään JavaScriptillä -->
+            </tbody>
+            <tfoot>
+                <tr class="total-row">
+                    <td>Yhteensä</td>
+                    <td>-</td>
+                    <td id="total-games">0</td>
+                    <td id="total-goals">0</td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const sukunimi = urlParams.get('sukunimi');
+        const etunimi = urlParams.get('etunimi');
+
+        document.getElementById('player-name').textContent = `${etunimi} ${sukunimi}`;
+
+        // Päivitetään syntymä- ja kuolinaika (voi tulla JSON-datasta)
+        document.getElementById('player-birth').textContent = 's. 1.1.1900';
+        document.getElementById('player-death').textContent = 'k. 1.1.1900';
+
+        let sarjataulukot = {};
+
+        // Lataa sarjataulukot JSON-tiedostosta
+        fetch('sarjataulukot.json')
+            .then(response => response.json())
+            .then(data => {
+                sarjataulukot = data.reduce((acc, row) => {
+                    acc[row.Kausi] = row.Sarjataso;
+                    return acc;
+                }, {});
+            });
+
+        fetch('pelaajat.json')
+            .then(response => response.json())
+            .then(data => {
+                const playerStats = document.getElementById('player-stats').querySelector('tbody');
+                const totalGamesCell = document.getElementById('total-games');
+                const totalGoalsCell = document.getElementById('total-goals');
+
+                const filteredData = data.filter(record =>
+                    record["Koko nimi"] === `${etunimi} ${sukunimi}`
+                );
+
+                const yearStats = {};
+                let totalGames = 0;
+                let totalGoals = 0;
+                const positions = new Set();
+                const roles = new Set();
+
+                filteredData.forEach(record => {
+                    const year = record["Kausi"];
+                    if (!yearStats[year]) {
+                        yearStats[year] = {
+                            sarjataso: sarjataulukot[year] || 'Ei tietoa',
+                            pelit: 0,
+                            maalit: 0
+                        };
+                    }
+                    yearStats[year].pelit += record["Ottelut"] || 0;
+                    yearStats[year].maalit += record["Maalit"] || 0;
+
+                    totalGames += record["Ottelut"] || 0;
+                    totalGoals += record["Maalit"] || 0;
+
+                    // Kerätään pelipaikat ja roolit
+                    if (record["Pelipaikka"]) positions.add(record["Pelipaikka"]);
+                    if (record["Muu rooli"]) roles.add(record["Muu rooli"]);
+                });
+
+                Object.keys(yearStats)
+                    .sort((a, b) => a - b)
+                    .forEach(year => {
+                        const tr = document.createElement('tr');
+                        tr.innerHTML = `
+                            <td>${year}</td>
+                            <td>${yearStats[year].sarjataso}</td>
+                            <td>${yearStats[year].pelit}</td>
+                            <td>${yearStats[year].maalit}</td>
+                        `;
+                        playerStats.appendChild(tr);
+                    });
+
+                totalGamesCell.textContent = totalGames;
+                totalGoalsCell.textContent = totalGoals;
+
+                // Päivitetään pelipaikat ja roolit
+                document.getElementById('player-positions').textContent = `Pelipaikat: ${[...positions].join(', ') || '-'}`;
+                document.getElementById('player-roles').textContent = `Muut roolit: ${[...roles].join(', ') || '-'}`;
+            })
+            .catch(error => console.error('Virhe ladattaessa dataa:', error));
+    </script>
+</body>
+</html>
