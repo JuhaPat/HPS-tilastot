@@ -2,8 +2,8 @@
  {
   "ottelu_id": 202426,
   "Kausi": 2024,
-  "Päivämäärä": "10\/19\/2024",
-  "Kilpailu": "Karsinta Miesten Kakkoseen ",
+  "Päivämäärä": "10.19.2024",
+  "Kilpailu": "Karsinta Miesten Kakkoseen",
   "Stadion": "JYA Housing Areena",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -14,8 +14,8 @@
  {
   "ottelu_id": 202425,
   "Kausi": 2024,
-  "Päivämäärä": "10\/15\/2024",
-  "Kilpailu": "Karsinta Miesten Kakkoseen ",
+  "Päivämäärä": "10.15.2024",
+  "Kilpailu": "Karsinta Miesten Kakkoseen",
   "Kaupunki": "Espoo",
   "Kotijoukkue": "EsPa",
   "Vierasjoukkue": "HPS",
@@ -25,19 +25,19 @@
  {
   "ottelu_id": 202424,
   "Kausi": 2024,
-  "Päivämäärä": "10\/04\/2024",
+  "Päivämäärä": "10.04.2024",
   "Kilpailu": "Kolmonen",
   "Stadion": "JYA Housing Areena",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "MPS\/Atletico Malmi",
+  "Vierasjoukkue": "MPS.Atletico Malmi",
   "maalit_koti": 3,
   "maalit_vieras": 2
  },
  {
   "ottelu_id": 202423,
   "Kausi": 2024,
-  "Päivämäärä": "09\/28\/2024",
+  "Päivämäärä": "09.28.2024",
   "Kilpailu": "Kolmonen",
   "Stadion": "Kontula",
   "Kaupunki": "Helsinki",
@@ -49,7 +49,7 @@
  {
   "ottelu_id": 202422,
   "Kausi": 2024,
-  "Päivämäärä": "09\/20\/2024",
+  "Päivämäärä": "09.20.2024",
   "Kilpailu": "Kolmonen",
   "Stadion": "JYA Housing Areena",
   "Kaupunki": "Helsinki",
@@ -61,7 +61,7 @@
  {
   "ottelu_id": 202421,
   "Kausi": 2024,
-  "Päivämäärä": "09\/13\/2024",
+  "Päivämäärä": "09.13.2024",
   "Kilpailu": "Kolmonen",
   "Stadion": "Saari Areena",
   "Kaupunki": "Helsinki",
@@ -73,7 +73,7 @@
  {
   "ottelu_id": 202420,
   "Kausi": 2024,
-  "Päivämäärä": "09\/06\/2024",
+  "Päivämäärä": "09.06.2024",
   "Kilpailu": "Kolmonen",
   "Stadion": "JYA Housing Areena",
   "Kaupunki": "Helsinki",
@@ -85,11 +85,11 @@
  {
   "ottelu_id": 202419,
   "Kausi": 2024,
-  "Päivämäärä": "08\/29\/2024",
+  "Päivämäärä": "08.29.2024",
   "Kilpailu": "Kolmonen",
   "Stadion": "Jätkäsaari",
   "Kaupunki": "Helsinki",
-  "Kotijoukkue": "PPJ\/Lauttasaari",
+  "Kotijoukkue": "PPJ.Lauttasaari",
   "Vierasjoukkue": "HPS",
   "maalit_koti": 1,
   "maalit_vieras": 1
@@ -97,7 +97,7 @@
  {
   "ottelu_id": 202418,
   "Kausi": 2024,
-  "Päivämäärä": "08\/23\/2024",
+  "Päivämäärä": "08.23.2024",
   "Kilpailu": "Kolmonen",
   "Stadion": "JYA Housing Areena",
   "Kaupunki": "Helsinki",
@@ -109,7 +109,7 @@
  {
   "ottelu_id": 202417,
   "Kausi": 2024,
-  "Päivämäärä": "08\/16\/2024",
+  "Päivämäärä": "08.16.2024",
   "Kilpailu": "Kolmonen",
   "Stadion": "Töölö Pallokenttä",
   "Kaupunki": "Helsinki",
@@ -121,7 +121,7 @@
  {
   "ottelu_id": 202416,
   "Kausi": 2024,
-  "Päivämäärä": "08\/09\/2024",
+  "Päivämäärä": "08.09.2024",
   "Kilpailu": "Kolmonen",
   "Stadion": "Brahenkenttä",
   "Kaupunki": "Helsinki",
@@ -133,7 +133,7 @@
  {
   "ottelu_id": 202415,
   "Kausi": 2024,
-  "Päivämäärä": "08\/02\/2024",
+  "Päivämäärä": "08.02.2024",
   "Kilpailu": "Kolmonen",
   "Stadion": "Töölö Pallokenttä",
   "Kaupunki": "Helsinki",
@@ -145,7 +145,7 @@
  {
   "ottelu_id": 202414,
   "Kausi": 2024,
-  "Päivämäärä": "07\/26\/2024",
+  "Päivämäärä": "07.26.2024",
   "Kilpailu": "Kolmonen",
   "Stadion": "JYA Housing Areena",
   "Kaupunki": "Helsinki",
@@ -157,7 +157,7 @@
  {
   "ottelu_id": 202413,
   "Kausi": 2024,
-  "Päivämäärä": "06\/28\/2024",
+  "Päivämäärä": "06.28.2024",
   "Kilpailu": "Kolmonen",
   "Stadion": "JYA Housing Areena",
   "Kaupunki": "Helsinki",
@@ -169,11 +169,11 @@
  {
   "ottelu_id": 202412,
   "Kausi": 2024,
-  "Päivämäärä": "06\/18\/2024",
+  "Päivämäärä": "06.18.2024",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pukinmäki",
   "Kaupunki": "Helsinki",
-  "Kotijoukkue": "MPS\/Atletico Malmi",
+  "Kotijoukkue": "MPS.Atletico Malmi",
   "Vierasjoukkue": "HPS",
   "maalit_koti": 4,
   "maalit_vieras": 0
@@ -181,7 +181,7 @@
  {
   "ottelu_id": 202411,
   "Kausi": 2024,
-  "Päivämäärä": "06\/15\/2024",
+  "Päivämäärä": "06.15.2024",
   "Kilpailu": "Kolmonen",
   "Stadion": "Keskuskenttä",
   "Kaupunki": "Loviisa",
@@ -193,7 +193,7 @@
  {
   "ottelu_id": 202410,
   "Kausi": 2024,
-  "Päivämäärä": "06\/07\/2024",
+  "Päivämäärä": "06.07.2024",
   "Kilpailu": "Kolmonen",
   "Stadion": "JYA Housing Areena",
   "Kaupunki": "Helsinki",
@@ -205,7 +205,7 @@
  {
   "ottelu_id": 202409,
   "Kausi": 2024,
-  "Päivämäärä": "05\/31\/2024",
+  "Päivämäärä": "05.31.2024",
   "Kilpailu": "Kolmonen",
   "Stadion": "Puotila",
   "Kaupunki": "Helsinki",
@@ -217,19 +217,19 @@
  {
   "ottelu_id": 202408,
   "Kausi": 2024,
-  "Päivämäärä": "05\/24\/2024",
+  "Päivämäärä": "05.24.2024",
   "Kilpailu": "Kolmonen",
   "Stadion": "JYA Housing Areena",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "PPJ\/Lauttasaari",
+  "Vierasjoukkue": "PPJ.Lauttasaari",
   "maalit_koti": 5,
   "maalit_vieras": 0
  },
  {
   "ottelu_id": 202407,
   "Kausi": 2024,
-  "Päivämäärä": "05\/17\/2024",
+  "Päivämäärä": "05.17.2024",
   "Kilpailu": "Kolmonen",
   "Stadion": "Vuosaari",
   "Kaupunki": "Helsinki",
@@ -241,7 +241,7 @@
  {
   "ottelu_id": 202406,
   "Kausi": 2024,
-  "Päivämäärä": "05\/13\/2024",
+  "Päivämäärä": "05.13.2024",
   "Kilpailu": "Kolmonen",
   "Stadion": "JYA Housing Areena",
   "Kaupunki": "Helsinki",
@@ -253,7 +253,7 @@
  {
   "ottelu_id": 202405,
   "Kausi": 2024,
-  "Päivämäärä": "05\/03\/2024",
+  "Päivämäärä": "05.03.2024",
   "Kilpailu": "Kolmonen",
   "Stadion": "JYA Housing Areena",
   "Kaupunki": "Helsinki",
@@ -265,7 +265,7 @@
  {
   "ottelu_id": 202404,
   "Kausi": 2024,
-  "Päivämäärä": "04\/26\/2024",
+  "Päivämäärä": "04.26.2024",
   "Kilpailu": "Kolmonen",
   "Stadion": "JYA Housing Areena",
   "Kaupunki": "Helsinki",
@@ -277,7 +277,7 @@
  {
   "ottelu_id": 202403,
   "Kausi": 2024,
-  "Päivämäärä": "04\/20\/2024",
+  "Päivämäärä": "04.20.2024",
   "Kilpailu": "Kolmonen",
   "Stadion": "Väinämöinen",
   "Kaupunki": "Helsinki",
@@ -289,19 +289,19 @@
  {
   "ottelu_id": 202402,
   "Kausi": 2024,
-  "Päivämäärä": "04\/02\/2024",
+  "Päivämäärä": "04.02.2024",
   "Kilpailu": "Suomen Cup",
   "Stadion": "Töölö Pallokenttä",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "MPS\/Atletico Malmi",
+  "Vierasjoukkue": "MPS.Atletico Malmi",
   "maalit_koti": 0,
   "maalit_vieras": 2
  },
  {
   "ottelu_id": 202401,
   "Kausi": 2024,
-  "Päivämäärä": "03\/10\/2024",
+  "Päivämäärä": "03.10.2024",
   "Kilpailu": "Suomen Cup",
   "Stadion": "Tali halli",
   "Kaupunki": "Helsinki",
@@ -313,7 +313,7 @@
  {
   "ottelu_id": 202326,
   "Kausi": 2023,
-  "Päivämäärä": "10\/06\/2023",
+  "Päivämäärä": "10.06.2023",
   "Kilpailu": "Kolmonen",
   "Stadion": "Myyrmäen jalkapallostadion",
   "Kaupunki": "Vantaa",
@@ -325,35 +325,35 @@
  {
   "ottelu_id": 202325,
   "Kausi": 2023,
-  "Päivämäärä": "09\/29\/2023",
+  "Päivämäärä": "09.29.2023",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pakila Road",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "MPS\/Atletico Malmi",
+  "Vierasjoukkue": "MPS.Atletico Malmi",
   "maalit_koti": 0,
   "maalit_vieras": 1
  },
  {
   "ottelu_id": 202324,
   "Kausi": 2023,
-  "Päivämäärä": "09\/22\/2023",
+  "Päivämäärä": "09.22.2023",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pakila Road",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "Gnistan\/Ogeli",
+  "Vierasjoukkue": "Gnistan.Ogeli",
   "maalit_koti": 7,
   "maalit_vieras": 0
  },
  {
   "ottelu_id": 202323,
   "Kausi": 2023,
-  "Päivämäärä": "09\/15\/2023",
+  "Päivämäärä": "09.15.2023",
   "Kilpailu": "Kolmonen",
   "Stadion": "Jätkäsaari",
   "Kaupunki": "Helsinki",
-  "Kotijoukkue": "PPJ\/Ruoholahti",
+  "Kotijoukkue": "PPJ.Ruoholahti",
   "Vierasjoukkue": "HPS",
   "maalit_koti": 0,
   "maalit_vieras": 4
@@ -361,11 +361,11 @@
  {
   "ottelu_id": 202322,
   "Kausi": 2023,
-  "Päivämäärä": "09\/09\/2023",
+  "Päivämäärä": "09.09.2023",
   "Kilpailu": "Kolmonen",
   "Stadion": "Tali",
   "Kaupunki": "Helsinki",
-  "Kotijoukkue": "Toukolan Teräs\/2022",
+  "Kotijoukkue": "Toukolan Teräs.2022",
   "Vierasjoukkue": "HPS",
   "maalit_koti": 0,
   "maalit_vieras": 5
@@ -373,7 +373,7 @@
  {
   "ottelu_id": 202321,
   "Kausi": 2023,
-  "Päivämäärä": "09\/01\/2023",
+  "Päivämäärä": "09.01.2023",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pakila Road",
   "Kaupunki": "Helsinki",
@@ -385,7 +385,7 @@
  {
   "ottelu_id": 202320,
   "Kausi": 2023,
-  "Päivämäärä": "08\/24\/2023",
+  "Päivämäärä": "08.24.2023",
   "Kilpailu": "Kolmonen",
   "Stadion": "Ala-Malmi",
   "Kaupunki": "Helsinki",
@@ -397,7 +397,7 @@
  {
   "ottelu_id": 202319,
   "Kausi": 2023,
-  "Päivämäärä": "08\/18\/2023",
+  "Päivämäärä": "08.18.2023",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pakila Road",
   "Kaupunki": "Helsinki",
@@ -409,7 +409,7 @@
  {
   "ottelu_id": 202318,
   "Kausi": 2023,
-  "Päivämäärä": "08\/15\/2023",
+  "Päivämäärä": "08.15.2023",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pakila Road",
   "Kaupunki": "Helsinki",
@@ -421,7 +421,7 @@
  {
   "ottelu_id": 202317,
   "Kausi": 2023,
-  "Päivämäärä": "08\/10\/2023",
+  "Päivämäärä": "08.10.2023",
   "Kilpailu": "Kolmonen",
   "Stadion": "Töölö Pallokenttä",
   "Kaupunki": "Helsinki",
@@ -433,7 +433,7 @@
  {
   "ottelu_id": 202316,
   "Kausi": 2023,
-  "Päivämäärä": "08\/04\/2023",
+  "Päivämäärä": "08.04.2023",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pakila Road",
   "Kaupunki": "Helsinki",
@@ -445,7 +445,7 @@
  {
   "ottelu_id": 202315,
   "Kausi": 2023,
-  "Päivämäärä": "07\/28\/2023",
+  "Päivämäärä": "07.28.2023",
   "Kilpailu": "Kolmonen",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "FC Kontu",
@@ -456,10 +456,10 @@
  {
   "ottelu_id": 202314,
   "Kausi": 2023,
-  "Päivämäärä": "07\/01\/2023",
+  "Päivämäärä": "07.01.2023",
   "Kilpailu": "Kolmonen",
   "Kaupunki": "Helsinki",
-  "Kotijoukkue": "MPS\/Atletico Malmi",
+  "Kotijoukkue": "MPS.Atletico Malmi",
   "Vierasjoukkue": "HPS",
   "maalit_koti": 3,
   "maalit_vieras": 2
@@ -467,7 +467,7 @@
  {
   "ottelu_id": 202313,
   "Kausi": 2023,
-  "Päivämäärä": "06\/21\/2023",
+  "Päivämäärä": "06.21.2023",
   "Kilpailu": "Kolmonen",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "SAPA",
@@ -478,10 +478,10 @@
  {
   "ottelu_id": 202312,
   "Kausi": 2023,
-  "Päivämäärä": "06\/14\/2023",
+  "Päivämäärä": "06.14.2023",
   "Kilpailu": "Kolmonen",
   "Kaupunki": "Helsinki",
-  "Kotijoukkue": "Gnistan\/Ogeli",
+  "Kotijoukkue": "Gnistan.Ogeli",
   "Vierasjoukkue": "HPS",
   "maalit_koti": 0,
   "maalit_vieras": 3
@@ -489,29 +489,29 @@
  {
   "ottelu_id": 202311,
   "Kausi": 2023,
-  "Päivämäärä": "06\/09\/2023",
+  "Päivämäärä": "06.09.2023",
   "Kilpailu": "Kolmonen",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "PPJ\/Ruoholahti",
+  "Vierasjoukkue": "PPJ.Ruoholahti",
   "maalit_koti": 1,
   "maalit_vieras": 0
  },
  {
   "ottelu_id": 202310,
   "Kausi": 2023,
-  "Päivämäärä": "06\/02\/2023",
+  "Päivämäärä": "06.02.2023",
   "Kilpailu": "Kolmonen",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "Toukolan Teräs\/2022",
+  "Vierasjoukkue": "Toukolan Teräs.2022",
   "maalit_koti": 5,
   "maalit_vieras": 0
  },
  {
   "ottelu_id": 202309,
   "Kausi": 2023,
-  "Päivämäärä": "05\/26\/2023",
+  "Päivämäärä": "05.26.2023",
   "Kilpailu": "Kolmonen",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "LPS",
@@ -522,7 +522,7 @@
  {
   "ottelu_id": 202308,
   "Kausi": 2023,
-  "Päivämäärä": "05\/22\/2023",
+  "Päivämäärä": "05.22.2023",
   "Kilpailu": "Kolmonen",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -533,7 +533,7 @@
  {
   "ottelu_id": 202307,
   "Kausi": 2023,
-  "Päivämäärä": "05\/16\/2023",
+  "Päivämäärä": "05.16.2023",
   "Kilpailu": "Suomen Cup",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -544,7 +544,7 @@
  {
   "ottelu_id": 202306,
   "Kausi": 2023,
-  "Päivämäärä": "05\/12\/2023",
+  "Päivämäärä": "05.12.2023",
   "Kilpailu": "Kolmonen",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HerTo",
@@ -555,7 +555,7 @@
  {
   "ottelu_id": 202305,
   "Kausi": 2023,
-  "Päivämäärä": "05\/05\/2023",
+  "Päivämäärä": "05.05.2023",
   "Kilpailu": "Kolmonen",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -566,10 +566,10 @@
  {
   "ottelu_id": 202304,
   "Kausi": 2023,
-  "Päivämäärä": "04\/28\/2023",
+  "Päivämäärä": "04.28.2023",
   "Kilpailu": "Suomen Cup",
   "Kaupunki": "Helsinki",
-  "Kotijoukkue": "ToTe\/Taiskin Tykit(M4)",
+  "Kotijoukkue": "ToTe.Taiskin Tykit(M4)",
   "Vierasjoukkue": "HPS",
   "maalit_koti": 0,
   "maalit_vieras": 6
@@ -577,7 +577,7 @@
  {
   "ottelu_id": 202303,
   "Kausi": 2023,
-  "Päivämäärä": "04\/21\/2023",
+  "Päivämäärä": "04.21.2023",
   "Kilpailu": "Kolmonen",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -588,7 +588,7 @@
  {
   "ottelu_id": 202302,
   "Kausi": 2023,
-  "Päivämäärä": "03\/31\/2023",
+  "Päivämäärä": "03.31.2023",
   "Kilpailu": "Suomen Cup",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "LJS",
@@ -599,7 +599,7 @@
  {
   "ottelu_id": 202301,
   "Kausi": 2023,
-  "Päivämäärä": "03\/19\/2023",
+  "Päivämäärä": "03.19.2023",
   "Kilpailu": "Suomen Cup",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "CLE",
@@ -610,19 +610,19 @@
  {
   "ottelu_id": 202226,
   "Kausi": 2022,
-  "Päivämäärä": "10\/09\/2022",
+  "Päivämäärä": "10.09.2022",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "MPS\/Atletico Malmi",
+  "Vierasjoukkue": "MPS.Atletico Malmi",
   "maalit_koti": 2,
   "maalit_vieras": 0
  },
  {
   "ottelu_id": 202225,
   "Kausi": 2022,
-  "Päivämäärä": "10\/01\/2022",
+  "Päivämäärä": "10.01.2022",
   "Kilpailu": "Kolmonen",
-  "Kotijoukkue": "PKKU\/2",
+  "Kotijoukkue": "PKKU.2",
   "Vierasjoukkue": "HPS",
   "maalit_koti": 0,
   "maalit_vieras": 4
@@ -630,7 +630,7 @@
  {
   "ottelu_id": 202224,
   "Kausi": 2022,
-  "Päivämäärä": "09\/25\/2022",
+  "Päivämäärä": "09.25.2022",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "Inter Helsinki",
   "Vierasjoukkue": "HPS",
@@ -640,7 +640,7 @@
  {
   "ottelu_id": 202223,
   "Kausi": 2022,
-  "Päivämäärä": "09\/16\/2022",
+  "Päivämäärä": "09.16.2022",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "HPS",
   "Vierasjoukkue": "TiPS",
@@ -650,7 +650,7 @@
  {
   "ottelu_id": 202222,
   "Kausi": 2022,
-  "Päivämäärä": "09\/09\/2022",
+  "Päivämäärä": "09.09.2022",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "HPS",
   "Vierasjoukkue": "FC Kuusysi",
@@ -660,7 +660,7 @@
  {
   "ottelu_id": 202221,
   "Kausi": 2022,
-  "Päivämäärä": "09\/01\/2022",
+  "Päivämäärä": "09.01.2022",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "NouLa",
   "Vierasjoukkue": "HPS",
@@ -670,7 +670,7 @@
  {
   "ottelu_id": 202220,
   "Kausi": 2022,
-  "Päivämäärä": "08\/26\/2022",
+  "Päivämäärä": "08.26.2022",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "HPS",
   "Vierasjoukkue": "KoiPS",
@@ -680,7 +680,7 @@
  {
   "ottelu_id": 202219,
   "Kausi": 2022,
-  "Päivämäärä": "08\/18\/2022",
+  "Päivämäärä": "08.18.2022",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "LPS",
   "Vierasjoukkue": "HPS",
@@ -690,7 +690,7 @@
  {
   "ottelu_id": 202218,
   "Kausi": 2022,
-  "Päivämäärä": "08\/12\/2022",
+  "Päivämäärä": "08.12.2022",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "HPS",
   "Vierasjoukkue": "TuPS",
@@ -700,7 +700,7 @@
  {
   "ottelu_id": 202217,
   "Kausi": 2022,
-  "Päivämäärä": "08\/05\/2022",
+  "Päivämäärä": "08.05.2022",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "RiPS",
   "Vierasjoukkue": "HPS",
@@ -710,27 +710,27 @@
  {
   "ottelu_id": 202216,
   "Kausi": 2022,
-  "Päivämäärä": "07\/29\/2022",
+  "Päivämäärä": "07.29.2022",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "JäPS\/47",
+  "Vierasjoukkue": "JäPS.47",
   "maalit_koti": 0,
   "maalit_vieras": 2
  },
  {
   "ottelu_id": 202215,
   "Kausi": 2022,
-  "Päivämäärä": "07\/01\/2022",
+  "Päivämäärä": "07.01.2022",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "PKKU\/2",
+  "Vierasjoukkue": "PKKU.2",
   "maalit_koti": 2,
   "maalit_vieras": 1
  },
  {
   "ottelu_id": 202214,
   "Kausi": 2022,
-  "Päivämäärä": "06\/17\/2022",
+  "Päivämäärä": "06.17.2022",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "HPS",
   "Vierasjoukkue": "Inter Helsinki",
@@ -740,9 +740,9 @@
  {
   "ottelu_id": 202213,
   "Kausi": 2022,
-  "Päivämäärä": "06\/14\/2022",
+  "Päivämäärä": "06.14.2022",
   "Kilpailu": "Kolmonen",
-  "Kotijoukkue": "MPS\/Atletico Malmi",
+  "Kotijoukkue": "MPS.Atletico Malmi",
   "Vierasjoukkue": "HPS",
   "maalit_koti": 1,
   "maalit_vieras": 1
@@ -750,7 +750,7 @@
  {
   "ottelu_id": 202212,
   "Kausi": 2022,
-  "Päivämäärä": "06\/10\/2022",
+  "Päivämäärä": "06.10.2022",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "TiPS",
   "Vierasjoukkue": "HPS",
@@ -760,7 +760,7 @@
  {
   "ottelu_id": 202211,
   "Kausi": 2022,
-  "Päivämäärä": "06\/01\/2022",
+  "Päivämäärä": "06.01.2022",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "FC Kuusysi",
   "Vierasjoukkue": "HPS",
@@ -770,7 +770,7 @@
  {
   "ottelu_id": 202210,
   "Kausi": 2022,
-  "Päivämäärä": "05\/27\/2022",
+  "Päivämäärä": "05.27.2022",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "HPS",
   "Vierasjoukkue": "NouLa",
@@ -780,7 +780,7 @@
  {
   "ottelu_id": 202209,
   "Kausi": 2022,
-  "Päivämäärä": "05\/21\/2022",
+  "Päivämäärä": "05.21.2022",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "KoiPS",
   "Vierasjoukkue": "HPS",
@@ -790,7 +790,7 @@
  {
   "ottelu_id": 202208,
   "Kausi": 2022,
-  "Päivämäärä": "05\/13\/2022",
+  "Päivämäärä": "05.13.2022",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "HPS",
   "Vierasjoukkue": "LPS",
@@ -800,7 +800,7 @@
  {
   "ottelu_id": 202207,
   "Kausi": 2022,
-  "Päivämäärä": "05\/07\/2022",
+  "Päivämäärä": "05.07.2022",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "TuPS",
   "Vierasjoukkue": "HPS",
@@ -810,7 +810,7 @@
  {
   "ottelu_id": 202206,
   "Kausi": 2022,
-  "Päivämäärä": "04\/29\/2022",
+  "Päivämäärä": "04.29.2022",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "HPS",
   "Vierasjoukkue": "RiPS",
@@ -820,9 +820,9 @@
  {
   "ottelu_id": 202205,
   "Kausi": 2022,
-  "Päivämäärä": "04\/24\/2022",
+  "Päivämäärä": "04.24.2022",
   "Kilpailu": "Kolmonen",
-  "Kotijoukkue": "JäPS\/47",
+  "Kotijoukkue": "JäPS.47",
   "Vierasjoukkue": "HPS",
   "maalit_koti": 1,
   "maalit_vieras": 3
@@ -830,7 +830,7 @@
  {
   "ottelu_id": 202204,
   "Kausi": 2022,
-  "Päivämäärä": "04\/12\/2022",
+  "Päivämäärä": "04.12.2022",
   "Kilpailu": "Suomen Cup",
   "Kotijoukkue": "HPS",
   "Vierasjoukkue": "Atlantis FC",
@@ -840,9 +840,9 @@
  {
   "ottelu_id": 202203,
   "Kausi": 2022,
-  "Päivämäärä": "04\/03\/2022",
+  "Päivämäärä": "04.03.2022",
   "Kilpailu": "Suomen Cup",
-  "Kotijoukkue": "PPS\/Old Stars(M4)",
+  "Kotijoukkue": "PPS.Old Stars(M4)",
   "Vierasjoukkue": "HPS",
   "maalit_koti": 2,
   "maalit_vieras": 6
@@ -850,7 +850,7 @@
  {
   "ottelu_id": 202202,
   "Kausi": 2022,
-  "Päivämäärä": "03\/11\/2022",
+  "Päivämäärä": "03.11.2022",
   "Kilpailu": "Suomen Cup",
   "Kotijoukkue": "HPS",
   "Vierasjoukkue": "LePa(M4)",
@@ -860,9 +860,9 @@
  {
   "ottelu_id": 202201,
   "Kausi": 2022,
-  "Päivämäärä": "02\/19\/2022",
+  "Päivämäärä": "02.19.2022",
   "Kilpailu": "Suomen Cup",
-  "Kotijoukkue": "Sexypöxyt\/M35(M35)",
+  "Kotijoukkue": "Sexypöxyt.M35(M35)",
   "Vierasjoukkue": "HPS",
   "maalit_koti": 0,
   "maalit_vieras": 7
@@ -870,7 +870,7 @@
  {
   "ottelu_id": 202116,
   "Kausi": 2021,
-  "Päivämäärä": "10\/08\/2021",
+  "Päivämäärä": "10.08.2021",
   "Kilpailu": "Kolmonen",
   "Stadion": "Jätkäsaari",
   "Kaupunki": "Helsinki",
@@ -882,7 +882,7 @@
  {
   "ottelu_id": 202115,
   "Kausi": 2021,
-  "Päivämäärä": "10\/02\/2021",
+  "Päivämäärä": "10.02.2021",
   "Kilpailu": "Kolmonen",
   "Stadion": "Laajasalo",
   "Kaupunki": "Helsinki",
@@ -894,7 +894,7 @@
  {
   "ottelu_id": 202114,
   "Kausi": 2021,
-  "Päivämäärä": "09\/24\/2021",
+  "Päivämäärä": "09.24.2021",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pakila Road",
   "Kaupunki": "Helsinki",
@@ -906,7 +906,7 @@
  {
   "ottelu_id": 202113,
   "Kausi": 2021,
-  "Päivämäärä": "09\/17\/2021",
+  "Päivämäärä": "09.17.2021",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pakila Road",
   "Kaupunki": "Helsinki",
@@ -918,19 +918,19 @@
  {
   "ottelu_id": 202112,
   "Kausi": 2021,
-  "Päivämäärä": "09\/07\/2021",
+  "Päivämäärä": "09.07.2021",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pakila Road",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "MPS\/Atletico Malmi",
+  "Vierasjoukkue": "MPS.Atletico Malmi",
   "maalit_koti": 1,
   "maalit_vieras": 1
  },
  {
   "ottelu_id": 202111,
   "Kausi": 2021,
-  "Päivämäärä": "09\/01\/2021",
+  "Päivämäärä": "09.01.2021",
   "Kilpailu": "Kolmonen",
   "Stadion": "Havukoski",
   "Kaupunki": "Vantaa",
@@ -942,19 +942,19 @@
  {
   "ottelu_id": 202110,
   "Kausi": 2021,
-  "Päivämäärä": "08\/27\/2021",
+  "Päivämäärä": "08.27.2021",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pakila Road",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "MPS\/Atletico Malmi",
+  "Vierasjoukkue": "MPS.Atletico Malmi",
   "maalit_koti": 2,
   "maalit_vieras": 0
  },
  {
   "ottelu_id": 202109,
   "Kausi": 2021,
-  "Päivämäärä": "08\/24\/2021",
+  "Päivämäärä": "08.24.2021",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pakila Road",
   "Kaupunki": "Helsinki",
@@ -966,11 +966,11 @@
  {
   "ottelu_id": 202108,
   "Kausi": 2021,
-  "Päivämäärä": "08\/21\/2021",
+  "Päivämäärä": "08.21.2021",
   "Kilpailu": "Kolmonen",
   "Stadion": "Väinämöinen",
   "Kaupunki": "Helsinki",
-  "Kotijoukkue": "HIFK\/2",
+  "Kotijoukkue": "HIFK.2",
   "Vierasjoukkue": "HPS",
   "maalit_koti": 1,
   "maalit_vieras": 1
@@ -978,7 +978,7 @@
  {
   "ottelu_id": 202107,
   "Kausi": 2021,
-  "Päivämäärä": "08\/13\/2021",
+  "Päivämäärä": "08.13.2021",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pakila Road",
   "Kaupunki": "Helsinki",
@@ -990,7 +990,7 @@
  {
   "ottelu_id": 202106,
   "Kausi": 2021,
-  "Päivämäärä": "08\/06\/2021",
+  "Päivämäärä": "08.06.2021",
   "Kilpailu": "Kolmonen",
   "Stadion": "Laajasalo",
   "Kaupunki": "Helsinki",
@@ -1002,7 +1002,7 @@
  {
   "ottelu_id": 202105,
   "Kausi": 2021,
-  "Päivämäärä": "08\/03\/2021",
+  "Päivämäärä": "08.03.2021",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pakila Road",
   "Kaupunki": "Helsinki",
@@ -1014,7 +1014,7 @@
  {
   "ottelu_id": 202104,
   "Kausi": 2021,
-  "Päivämäärä": "07\/03\/2021",
+  "Päivämäärä": "07.03.2021",
   "Kilpailu": "Kolmonen",
   "Stadion": "Töölö Pallokenttä",
   "Kaupunki": "Helsinki",
@@ -1026,11 +1026,11 @@
  {
   "ottelu_id": 202103,
   "Kausi": 2021,
-  "Päivämäärä": "06\/22\/2021",
+  "Päivämäärä": "06.22.2021",
   "Kilpailu": "Kolmonen",
   "Stadion": "Töölö Pallokenttä",
   "Kaupunki": "Helsinki",
-  "Kotijoukkue": "SAPA\/3",
+  "Kotijoukkue": "SAPA.3",
   "Vierasjoukkue": "HPS",
   "maalit_koti": 2,
   "maalit_vieras": 2
@@ -1038,19 +1038,19 @@
  {
   "ottelu_id": 202102,
   "Kausi": 2021,
-  "Päivämäärä": "06\/18\/2021",
+  "Päivämäärä": "06.18.2021",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pakila Road",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "FC Espoo\/2",
+  "Vierasjoukkue": "FC Espoo.2",
   "maalit_koti": 3,
   "maalit_vieras": 1
  },
  {
   "ottelu_id": 202101,
   "Kausi": 2021,
-  "Päivämäärä": "06\/11\/2021",
+  "Päivämäärä": "06.11.2021",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pakila Road",
   "Kaupunki": "Helsinki",
@@ -1062,7 +1062,7 @@
  {
   "ottelu_id": 202017,
   "Kausi": 2020,
-  "Päivämäärä": "10\/10\/2020",
+  "Päivämäärä": "10.10.2020",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "HPS",
   "Vierasjoukkue": "CLE",
@@ -1072,7 +1072,7 @@
  {
   "ottelu_id": 202016,
   "Kausi": 2020,
-  "Päivämäärä": "10\/02\/2020",
+  "Päivämäärä": "10.02.2020",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "SexyPöxyt",
   "Vierasjoukkue": "HPS",
@@ -1082,7 +1082,7 @@
  {
   "ottelu_id": 202015,
   "Kausi": 2020,
-  "Päivämäärä": "09\/25\/2020",
+  "Päivämäärä": "09.25.2020",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "HPS",
   "Vierasjoukkue": "Toukolan Teräs",
@@ -1092,7 +1092,7 @@
  {
   "ottelu_id": 202014,
   "Kausi": 2020,
-  "Päivämäärä": "09\/18\/2020",
+  "Päivämäärä": "09.18.2020",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "KäPa",
   "Vierasjoukkue": "HPS",
@@ -1102,17 +1102,17 @@
  {
   "ottelu_id": 202013,
   "Kausi": 2020,
-  "Päivämäärä": "09\/11\/2020",
+  "Päivämäärä": "09.11.2020",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "FC Espoo\/2",
+  "Vierasjoukkue": "FC Espoo.2",
   "maalit_koti": 4,
   "maalit_vieras": 0
  },
  {
   "ottelu_id": 202012,
   "Kausi": 2020,
-  "Päivämäärä": "09\/02\/2020",
+  "Päivämäärä": "09.02.2020",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "LPS",
   "Vierasjoukkue": "HPS",
@@ -1122,17 +1122,17 @@
  {
   "ottelu_id": 202011,
   "Kausi": 2020,
-  "Päivämäärä": "08\/28\/2020",
+  "Päivämäärä": "08.28.2020",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "EIF\/Akademi",
+  "Vierasjoukkue": "EIF.Akademi",
   "maalit_koti": 3,
   "maalit_vieras": 3
  },
  {
   "ottelu_id": 202010,
   "Kausi": 2020,
-  "Päivämäärä": "08\/21\/2020",
+  "Päivämäärä": "08.21.2020",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "HPS",
   "Vierasjoukkue": "NuPS",
@@ -1142,7 +1142,7 @@
  {
   "ottelu_id": 202009,
   "Kausi": 2020,
-  "Päivämäärä": "08\/13\/2020",
+  "Päivämäärä": "08.13.2020",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "Töölön Taisto",
   "Vierasjoukkue": "HPS",
@@ -1152,7 +1152,7 @@
  {
   "ottelu_id": 202008,
   "Kausi": 2020,
-  "Päivämäärä": "08\/07\/2020",
+  "Päivämäärä": "08.07.2020",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "HPS",
   "Vierasjoukkue": "HerTo",
@@ -1162,7 +1162,7 @@
  {
   "ottelu_id": 202007,
   "Kausi": 2020,
-  "Päivämäärä": "08\/01\/2020",
+  "Päivämäärä": "08.01.2020",
   "Kilpailu": "Kolmonen",
   "Stadion": "Matinkylä",
   "Kaupunki": "Espoo",
@@ -1174,19 +1174,19 @@
  {
   "ottelu_id": 202006,
   "Kausi": 2020,
-  "Päivämäärä": "07\/24\/2020",
+  "Päivämäärä": "07.24.2020",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pakila Road",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "Atlantis FC\/Akatemia",
+  "Vierasjoukkue": "Atlantis FC.Akatemia",
   "maalit_koti": 2,
   "maalit_vieras": 7
  },
  {
   "ottelu_id": 202005,
   "Kausi": 2020,
-  "Päivämäärä": "07\/15\/2020",
+  "Päivämäärä": "07.15.2020",
   "Kilpailu": "Kolmonen",
   "Stadion": "Karjaa",
   "Kaupunki": "Raasepori",
@@ -1198,7 +1198,7 @@
  {
   "ottelu_id": 202004,
   "Kausi": 2020,
-  "Päivämäärä": "07\/09\/2020",
+  "Päivämäärä": "07.09.2020",
   "Kilpailu": "Kolmonen",
   "Stadion": "Espoonlahti",
   "Kaupunki": "Espoo",
@@ -1210,7 +1210,7 @@
  {
   "ottelu_id": 202003,
   "Kausi": 2020,
-  "Päivämäärä": "07\/03\/2020",
+  "Päivämäärä": "07.03.2020",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pakila Road",
   "Kaupunki": "Helsinki",
@@ -1222,7 +1222,7 @@
  {
   "ottelu_id": 202002,
   "Kausi": 2020,
-  "Päivämäärä": "06\/26\/2020",
+  "Päivämäärä": "06.26.2020",
   "Kilpailu": "Kolmonen",
   "Stadion": "Keskuskenttä",
   "Kaupunki": "Kirkkonummi",
@@ -1234,7 +1234,7 @@
  {
   "ottelu_id": 202001,
   "Kausi": 2020,
-  "Päivämäärä": "06\/17\/2020",
+  "Päivämäärä": "06.17.2020",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pakila Road",
   "Kaupunki": "Helsinki",
@@ -1246,9 +1246,9 @@
  {
   "ottelu_id": 201922,
   "Kausi": 2019,
-  "Päivämäärä": "10\/05\/2019",
+  "Päivämäärä": "10.05.2019",
   "Kilpailu": "Kolmonen",
-  "Kotijoukkue": "EIF\/Akademi",
+  "Kotijoukkue": "EIF.Akademi",
   "Vierasjoukkue": "HPS",
   "maalit_koti": 1,
   "maalit_vieras": 2
@@ -1256,7 +1256,7 @@
  {
   "ottelu_id": 201921,
   "Kausi": 2019,
-  "Päivämäärä": "09\/27\/2019",
+  "Päivämäärä": "09.27.2019",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "HPS",
   "Vierasjoukkue": "FC FINNKURD",
@@ -1266,7 +1266,7 @@
  {
   "ottelu_id": 201920,
   "Kausi": 2019,
-  "Päivämäärä": "09\/20\/2019",
+  "Päivämäärä": "09.20.2019",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "SexyPöxyt",
   "Vierasjoukkue": "HPS",
@@ -1276,7 +1276,7 @@
  {
   "ottelu_id": 201919,
   "Kausi": 2019,
-  "Päivämäärä": "09\/13\/2019",
+  "Päivämäärä": "09.13.2019",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "HPS",
   "Vierasjoukkue": "Töölön Taisto",
@@ -1286,9 +1286,9 @@
  {
   "ottelu_id": 201918,
   "Kausi": 2019,
-  "Päivämäärä": "09\/05\/2019",
+  "Päivämäärä": "09.05.2019",
   "Kilpailu": "Kolmonen",
-  "Kotijoukkue": "HIFK\/2",
+  "Kotijoukkue": "HIFK.2",
   "Vierasjoukkue": "HPS",
   "maalit_koti": 2,
   "maalit_vieras": 3
@@ -1296,7 +1296,7 @@
  {
   "ottelu_id": 201917,
   "Kausi": 2019,
-  "Päivämäärä": "08\/30\/2019",
+  "Päivämäärä": "08.30.2019",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "HPS",
   "Vierasjoukkue": "BK-46",
@@ -1306,7 +1306,7 @@
  {
   "ottelu_id": 201916,
   "Kausi": 2019,
-  "Päivämäärä": "08\/23\/2019",
+  "Päivämäärä": "08.23.2019",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "Atlantis FC",
   "Vierasjoukkue": "HPS",
@@ -1316,7 +1316,7 @@
  {
   "ottelu_id": 201915,
   "Kausi": 2019,
-  "Päivämäärä": "08\/18\/2019",
+  "Päivämäärä": "08.18.2019",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "EsPa",
   "Vierasjoukkue": "HPS",
@@ -1326,7 +1326,7 @@
  {
   "ottelu_id": 201914,
   "Kausi": 2019,
-  "Päivämäärä": "08\/09\/2019",
+  "Päivämäärä": "08.09.2019",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "HPS",
   "Vierasjoukkue": "FC HIK",
@@ -1336,17 +1336,17 @@
  {
   "ottelu_id": 201913,
   "Kausi": 2019,
-  "Päivämäärä": "08\/02\/2019",
+  "Päivämäärä": "08.02.2019",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "FC Espoo\/2",
+  "Vierasjoukkue": "FC Espoo.2",
   "maalit_koti": 1,
   "maalit_vieras": 1
  },
  {
   "ottelu_id": 201912,
   "Kausi": 2019,
-  "Päivämäärä": "07\/26\/2019",
+  "Päivämäärä": "07.26.2019",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "NuPS",
   "Vierasjoukkue": "HPS",
@@ -1356,17 +1356,17 @@
  {
   "ottelu_id": 201911,
   "Kausi": 2019,
-  "Päivämäärä": "07\/03\/2019",
+  "Päivämäärä": "07.03.2019",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "EIF\/Akademi",
+  "Vierasjoukkue": "EIF.Akademi",
   "maalit_koti": 3,
   "maalit_vieras": 0
  },
  {
   "ottelu_id": 201910,
   "Kausi": 2019,
-  "Päivämäärä": "06\/26\/2019",
+  "Päivämäärä": "06.26.2019",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "FC FINNKURD",
   "Vierasjoukkue": "HPS",
@@ -1376,7 +1376,7 @@
  {
   "ottelu_id": 201909,
   "Kausi": 2019,
-  "Päivämäärä": "06\/19\/2019",
+  "Päivämäärä": "06.19.2019",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "HPS",
   "Vierasjoukkue": "SexyPöxyt",
@@ -1386,7 +1386,7 @@
  {
   "ottelu_id": 201908,
   "Kausi": 2019,
-  "Päivämäärä": "06\/13\/2019",
+  "Päivämäärä": "06.13.2019",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "Töölön Taisto",
   "Vierasjoukkue": "HPS",
@@ -1396,17 +1396,17 @@
  {
   "ottelu_id": 201907,
   "Kausi": 2019,
-  "Päivämäärä": "06\/07\/2019",
+  "Päivämäärä": "06.07.2019",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "HIFK\/2",
+  "Vierasjoukkue": "HIFK.2",
   "maalit_koti": 1,
   "maalit_vieras": 1
  },
  {
   "ottelu_id": 201906,
   "Kausi": 2019,
-  "Päivämäärä": "05\/29\/2019",
+  "Päivämäärä": "05.29.2019",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "BK-46",
   "Vierasjoukkue": "HPS",
@@ -1416,7 +1416,7 @@
  {
   "ottelu_id": 201905,
   "Kausi": 2019,
-  "Päivämäärä": "05\/24\/2019",
+  "Päivämäärä": "05.24.2019",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "HPS",
   "Vierasjoukkue": "Atlantis FC",
@@ -1426,7 +1426,7 @@
  {
   "ottelu_id": 201904,
   "Kausi": 2019,
-  "Päivämäärä": "05\/17\/2019",
+  "Päivämäärä": "05.17.2019",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "HPS",
   "Vierasjoukkue": "EsPa",
@@ -1436,7 +1436,7 @@
  {
   "ottelu_id": 201903,
   "Kausi": 2019,
-  "Päivämäärä": "05\/10\/2019",
+  "Päivämäärä": "05.10.2019",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "FC HIK",
   "Vierasjoukkue": "HPS",
@@ -1446,9 +1446,9 @@
  {
   "ottelu_id": 201902,
   "Kausi": 2019,
-  "Päivämäärä": "05\/03\/2019",
+  "Päivämäärä": "05.03.2019",
   "Kilpailu": "Kolmonen",
-  "Kotijoukkue": "FC Espoo\/2",
+  "Kotijoukkue": "FC Espoo.2",
   "Vierasjoukkue": "HPS",
   "maalit_koti": 2,
   "maalit_vieras": 1
@@ -1456,7 +1456,7 @@
  {
   "ottelu_id": 201901,
   "Kausi": 2019,
-  "Päivämäärä": "04\/26\/2019",
+  "Päivämäärä": "04.26.2019",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "HPS",
   "Vierasjoukkue": "NuPS",
@@ -1466,17 +1466,17 @@
  {
   "ottelu_id": 201822,
   "Kausi": 2018,
-  "Päivämäärä": "10\/06\/2018",
+  "Päivämäärä": "10.06.2018",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "FC Viikingit\/2",
+  "Vierasjoukkue": "FC Viikingit.2",
   "maalit_koti": 1,
   "maalit_vieras": 0
  },
  {
   "ottelu_id": 201821,
   "Kausi": 2018,
-  "Päivämäärä": "09\/28\/2018",
+  "Päivämäärä": "09.28.2018",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "TiPS",
   "Vierasjoukkue": "HPS",
@@ -1486,17 +1486,17 @@
  {
   "ottelu_id": 201820,
   "Kausi": 2018,
-  "Päivämäärä": "09\/21\/2018",
+  "Päivämäärä": "09.21.2018",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "HIFK\/3",
+  "Vierasjoukkue": "HIFK.3",
   "maalit_koti": 3,
   "maalit_vieras": 0
  },
  {
   "ottelu_id": 201819,
   "Kausi": 2018,
-  "Päivämäärä": "09\/13\/2018",
+  "Päivämäärä": "09.13.2018",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "FC POHU",
   "Vierasjoukkue": "HPS",
@@ -1506,7 +1506,7 @@
  {
   "ottelu_id": 201818,
   "Kausi": 2018,
-  "Päivämäärä": "09\/07\/2018",
+  "Päivämäärä": "09.07.2018",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "HPS",
   "Vierasjoukkue": "TuPS",
@@ -1516,7 +1516,7 @@
  {
   "ottelu_id": 201817,
   "Kausi": 2018,
-  "Päivämäärä": "08\/30\/2018",
+  "Päivämäärä": "08.30.2018",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "FC Futura",
   "Vierasjoukkue": "HPS",
@@ -1526,7 +1526,7 @@
  {
   "ottelu_id": 201816,
   "Kausi": 2018,
-  "Päivämäärä": "08\/24\/2018",
+  "Päivämäärä": "08.24.2018",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "HPS",
   "Vierasjoukkue": "Ponnistajat",
@@ -1536,7 +1536,7 @@
  {
   "ottelu_id": 201815,
   "Kausi": 2018,
-  "Päivämäärä": "08\/17\/2018",
+  "Päivämäärä": "08.17.2018",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "HPS",
   "Vierasjoukkue": "VJS",
@@ -1546,7 +1546,7 @@
  {
   "ottelu_id": 201814,
   "Kausi": 2018,
-  "Päivämäärä": "08\/10\/2018",
+  "Päivämäärä": "08.10.2018",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "HPS",
   "Vierasjoukkue": "FC Kontu",
@@ -1556,7 +1556,7 @@
  {
   "ottelu_id": 201813,
   "Kausi": 2018,
-  "Päivämäärä": "08\/05\/2018",
+  "Päivämäärä": "08.05.2018",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "EsPa",
   "Vierasjoukkue": "HPS",
@@ -1566,7 +1566,7 @@
  {
   "ottelu_id": 201812,
   "Kausi": 2018,
-  "Päivämäärä": "07\/28\/2018",
+  "Päivämäärä": "07.28.2018",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "SibboV",
   "Vierasjoukkue": "HPS",
@@ -1576,9 +1576,9 @@
  {
   "ottelu_id": 201811,
   "Kausi": 2018,
-  "Päivämäärä": "06\/28\/2018",
+  "Päivämäärä": "06.28.2018",
   "Kilpailu": "Kolmonen",
-  "Kotijoukkue": "FC Viikingit\/2",
+  "Kotijoukkue": "FC Viikingit.2",
   "Vierasjoukkue": "HPS",
   "maalit_koti": 0,
   "maalit_vieras": 1
@@ -1586,7 +1586,7 @@
  {
   "ottelu_id": 201810,
   "Kausi": 2018,
-  "Päivämäärä": "06\/20\/2018",
+  "Päivämäärä": "06.20.2018",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "HPS",
   "Vierasjoukkue": "TiPS",
@@ -1596,9 +1596,9 @@
  {
   "ottelu_id": 201809,
   "Kausi": 2018,
-  "Päivämäärä": "06\/16\/2018",
+  "Päivämäärä": "06.16.2018",
   "Kilpailu": "Kolmonen",
-  "Kotijoukkue": "HIFK\/3",
+  "Kotijoukkue": "HIFK.3",
   "Vierasjoukkue": "HPS",
   "maalit_koti": 2,
   "maalit_vieras": 0
@@ -1606,7 +1606,7 @@
  {
   "ottelu_id": 201808,
   "Kausi": 2018,
-  "Päivämäärä": "06\/08\/2018",
+  "Päivämäärä": "06.08.2018",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "HPS",
   "Vierasjoukkue": "FC POHU",
@@ -1616,7 +1616,7 @@
  {
   "ottelu_id": 201807,
   "Kausi": 2018,
-  "Päivämäärä": "05\/31\/2018",
+  "Päivämäärä": "05.31.2018",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "TuPS",
   "Vierasjoukkue": "HPS",
@@ -1626,7 +1626,7 @@
  {
   "ottelu_id": 201806,
   "Kausi": 2018,
-  "Päivämäärä": "05\/25\/2018",
+  "Päivämäärä": "05.25.2018",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "HPS",
   "Vierasjoukkue": "FC Futura",
@@ -1636,7 +1636,7 @@
  {
   "ottelu_id": 201805,
   "Kausi": 2018,
-  "Päivämäärä": "05\/20\/2018",
+  "Päivämäärä": "05.20.2018",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "Ponnistajat",
   "Vierasjoukkue": "HPS",
@@ -1646,7 +1646,7 @@
  {
   "ottelu_id": 201804,
   "Kausi": 2018,
-  "Päivämäärä": "05\/12\/2018",
+  "Päivämäärä": "05.12.2018",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "VJS",
   "Vierasjoukkue": "HPS",
@@ -1656,7 +1656,7 @@
  {
   "ottelu_id": 201803,
   "Kausi": 2018,
-  "Päivämäärä": "05\/06\/2018",
+  "Päivämäärä": "05.06.2018",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "FC Kontu",
   "Vierasjoukkue": "HPS",
@@ -1666,7 +1666,7 @@
  {
   "ottelu_id": 201802,
   "Kausi": 2018,
-  "Päivämäärä": "04\/27\/2018",
+  "Päivämäärä": "04.27.2018",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "HPS",
   "Vierasjoukkue": "EsPa",
@@ -1676,7 +1676,7 @@
  {
   "ottelu_id": 201801,
   "Kausi": 2018,
-  "Päivämäärä": "04\/20\/2018",
+  "Päivämäärä": "04.20.2018",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "HPS",
   "Vierasjoukkue": "SibboV",
@@ -1686,7 +1686,7 @@
  {
   "ottelu_id": 201727,
   "Kausi": 2017,
-  "Päivämäärä": "10\/07\/2017",
+  "Päivämäärä": "10.07.2017",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pakila Road",
   "Kaupunki": "Helsinki",
@@ -1698,11 +1698,11 @@
  {
   "ottelu_id": 201726,
   "Kausi": 2017,
-  "Päivämäärä": "09\/28\/2017",
+  "Päivämäärä": "09.28.2017",
   "Kilpailu": "Kolmonen",
   "Stadion": "Keskuskenttä",
   "Kaupunki": "Tammisaari",
-  "Kotijoukkue": "EIF\/Akademi",
+  "Kotijoukkue": "EIF.Akademi",
   "Vierasjoukkue": "HPS",
   "maalit_koti": 2,
   "maalit_vieras": 2
@@ -1710,7 +1710,7 @@
  {
   "ottelu_id": 201725,
   "Kausi": 2017,
-  "Päivämäärä": "09\/20\/2017",
+  "Päivämäärä": "09.20.2017",
   "Kilpailu": "Kolmonen",
   "Stadion": "Matinkylä",
   "Kaupunki": "Espoo",
@@ -1722,7 +1722,7 @@
  {
   "ottelu_id": 201724,
   "Kausi": 2017,
-  "Päivämäärä": "09\/13\/2017",
+  "Päivämäärä": "09.13.2017",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pakila Road",
   "Kaupunki": "Helsinki",
@@ -1734,7 +1734,7 @@
  {
   "ottelu_id": 201723,
   "Kausi": 2017,
-  "Päivämäärä": "09\/07\/2017",
+  "Päivämäärä": "09.07.2017",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pukinmäki",
   "Kaupunki": "Helsinki",
@@ -1746,7 +1746,7 @@
  {
   "ottelu_id": 201722,
   "Kausi": 2017,
-  "Päivämäärä": "08\/30\/2017",
+  "Päivämäärä": "08.30.2017",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pakila Road",
   "Kaupunki": "Helsinki",
@@ -1758,7 +1758,7 @@
  {
   "ottelu_id": 201721,
   "Kausi": 2017,
-  "Päivämäärä": "08\/24\/2017",
+  "Päivämäärä": "08.24.2017",
   "Kilpailu": "Kolmonen",
   "Stadion": "Lassila",
   "Kaupunki": "Helsinki",
@@ -1770,19 +1770,19 @@
  {
   "ottelu_id": 201720,
   "Kausi": 2017,
-  "Päivämäärä": "08\/20\/2017",
+  "Päivämäärä": "08.20.2017",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pakila Road",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "EIF\/Akademi",
+  "Vierasjoukkue": "EIF.Akademi",
   "maalit_koti": 3,
   "maalit_vieras": 1
  },
  {
   "ottelu_id": 201719,
   "Kausi": 2017,
-  "Päivämäärä": "08\/17\/2017",
+  "Päivämäärä": "08.17.2017",
   "Kilpailu": "Kolmonen",
   "Stadion": "Espoonlahti",
   "Kaupunki": "Espoo",
@@ -1794,7 +1794,7 @@
  {
   "ottelu_id": 201718,
   "Kausi": 2017,
-  "Päivämäärä": "08\/09\/2017",
+  "Päivämäärä": "08.09.2017",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pakila Road",
   "Kaupunki": "Helsinki",
@@ -1806,11 +1806,11 @@
  {
   "ottelu_id": 201717,
   "Kausi": 2017,
-  "Päivämäärä": "08\/05\/2017",
+  "Päivämäärä": "08.05.2017",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pukinmäki",
   "Kaupunki": "Helsinki",
-  "Kotijoukkue": "MPS\/Atletico Malmi",
+  "Kotijoukkue": "MPS.Atletico Malmi",
   "Vierasjoukkue": "HPS",
   "maalit_koti": 3,
   "maalit_vieras": 2
@@ -1818,19 +1818,19 @@
  {
   "ottelu_id": 201716,
   "Kausi": 2017,
-  "Päivämäärä": "07\/26\/2017",
+  "Päivämäärä": "07.26.2017",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pakila Road",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "FC Honka\/Akatemia",
+  "Vierasjoukkue": "FC Honka.Akatemia",
   "maalit_koti": 2,
   "maalit_vieras": 2
  },
  {
   "ottelu_id": 201715,
   "Kausi": 2017,
-  "Päivämäärä": "07\/01\/2017",
+  "Päivämäärä": "07.01.2017",
   "Kilpailu": "Kolmonen",
   "Stadion": "Espoonlahti",
   "Kaupunki": "Espoo",
@@ -1842,7 +1842,7 @@
  {
   "ottelu_id": 201714,
   "Kausi": 2017,
-  "Päivämäärä": "06\/14\/2017",
+  "Päivämäärä": "06.14.2017",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pakila Road",
   "Kaupunki": "Helsinki",
@@ -1854,7 +1854,7 @@
  {
   "ottelu_id": 201713,
   "Kausi": 2017,
-  "Päivämäärä": "06\/09\/2017",
+  "Päivämäärä": "06.09.2017",
   "Kilpailu": "Kolmonen",
   "Stadion": "Ala-Malmi",
   "Kaupunki": "Helsinki",
@@ -1866,7 +1866,7 @@
  {
   "ottelu_id": 201712,
   "Kausi": 2017,
-  "Päivämäärä": "05\/31\/2017",
+  "Päivämäärä": "05.31.2017",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pakila Road",
   "Kaupunki": "Helsinki",
@@ -1878,7 +1878,7 @@
  {
   "ottelu_id": 201711,
   "Kausi": 2017,
-  "Päivämäärä": "05\/28\/2017",
+  "Päivämäärä": "05.28.2017",
   "Kilpailu": "Kolmonen",
   "Stadion": "Virkkala",
   "Kaupunki": "Lohja",
@@ -1890,7 +1890,7 @@
  {
   "ottelu_id": 201710,
   "Kausi": 2017,
-  "Päivämäärä": "05\/19\/2017",
+  "Päivämäärä": "05.19.2017",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pakila Road",
   "Kaupunki": "Helsinki",
@@ -1902,7 +1902,7 @@
  {
   "ottelu_id": 201709,
   "Kausi": 2017,
-  "Päivämäärä": "05\/10\/2017",
+  "Päivämäärä": "05.10.2017",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pakila Road",
   "Kaupunki": "Helsinki",
@@ -1914,7 +1914,7 @@
  {
   "ottelu_id": 201708,
   "Kausi": 2017,
-  "Päivämäärä": "05\/05\/2017",
+  "Päivämäärä": "05.05.2017",
   "Kilpailu": "Kolmonen",
   "Stadion": "Töölön Pallokenttä ",
   "Kaupunki": "Helsinki",
@@ -1926,23 +1926,23 @@
  {
   "ottelu_id": 201707,
   "Kausi": 2017,
-  "Päivämäärä": "04\/26\/2017",
+  "Päivämäärä": "04.26.2017",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pakila Road",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "MPS\/Atletico Malmi",
+  "Vierasjoukkue": "MPS.Atletico Malmi",
   "maalit_koti": 2,
   "maalit_vieras": 1
  },
  {
   "ottelu_id": 201706,
   "Kausi": 2017,
-  "Päivämäärä": "04\/21\/2017",
+  "Päivämäärä": "04.21.2017",
   "Kilpailu": "Kolmonen",
   "Stadion": "Tapiola",
   "Kaupunki": "Espoo",
-  "Kotijoukkue": "FC Honka\/Akatemia",
+  "Kotijoukkue": "FC Honka.Akatemia",
   "Vierasjoukkue": "HPS",
   "maalit_koti": 5,
   "maalit_vieras": 1
@@ -1950,7 +1950,7 @@
  {
   "ottelu_id": 201705,
   "Kausi": 2017,
-  "Päivämäärä": "03\/26\/2017",
+  "Päivämäärä": "03.26.2017",
   "Kilpailu": "Kolmonen talvi",
   "Stadion": "Kartano",
   "Kaupunki": "Helsinki",
@@ -1962,11 +1962,11 @@
  {
   "ottelu_id": 201704,
   "Kausi": 2017,
-  "Päivämäärä": "03\/11\/2017",
+  "Päivämäärä": "03.11.2017",
   "Kilpailu": "Kolmonen talvi",
   "Stadion": "Töölön Pallokenttä ",
   "Kaupunki": "Helsinki",
-  "Kotijoukkue": "HIFK\/2",
+  "Kotijoukkue": "HIFK.2",
   "Vierasjoukkue": "HPS",
   "maalit_koti": 3,
   "maalit_vieras": 1
@@ -1974,7 +1974,7 @@
  {
   "ottelu_id": 201703,
   "Kausi": 2017,
-  "Päivämäärä": "02\/10\/2017",
+  "Päivämäärä": "02.10.2017",
   "Kilpailu": "Kolmonen talvi",
   "Stadion": "Töölön Pallokenttä ",
   "Kaupunki": "Helsinki",
@@ -1986,7 +1986,7 @@
  {
   "ottelu_id": 201702,
   "Kausi": 2017,
-  "Päivämäärä": "02\/03\/2017",
+  "Päivämäärä": "02.03.2017",
   "Kilpailu": "Kolmonen talvi",
   "Stadion": "Töölön Pallokenttä ",
   "Kaupunki": "Helsinki",
@@ -1998,23 +1998,23 @@
  {
   "ottelu_id": 201701,
   "Kausi": 2017,
-  "Päivämäärä": "01\/20\/2017",
+  "Päivämäärä": "01.20.2017",
   "Kilpailu": "Kolmonen talvi",
   "Stadion": "Töölön Pallokenttä ",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "KäPa\/United",
+  "Vierasjoukkue": "KäPa.United",
   "maalit_koti": 3,
   "maalit_vieras": 2
  },
  {
   "ottelu_id": 201626,
   "Kausi": 2016,
-  "Päivämäärä": "10\/08\/2016",
+  "Päivämäärä": "10.08.2016",
   "Kilpailu": "Kolmonen",
   "Stadion": "Tapanila",
   "Kaupunki": "Helsinki",
-  "Kotijoukkue": "MPS\/Old Stars",
+  "Kotijoukkue": "MPS.Old Stars",
   "Vierasjoukkue": "HPS",
   "maalit_koti": 1,
   "maalit_vieras": 1
@@ -2022,7 +2022,7 @@
  {
   "ottelu_id": 201625,
   "Kausi": 2016,
-  "Päivämäärä": "09\/28\/2016",
+  "Päivämäärä": "09.28.2016",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pakila Road",
   "Kaupunki": "Helsinki",
@@ -2034,11 +2034,11 @@
  {
   "ottelu_id": 201624,
   "Kausi": 2016,
-  "Päivämäärä": "09\/24\/2016",
+  "Päivämäärä": "09.24.2016",
   "Kilpailu": "Kolmonen",
   "Stadion": "Itä-Hakkila",
   "Kaupunki": "Vantaa",
-  "Kotijoukkue": "I-HK\/OMV",
+  "Kotijoukkue": "I-HK.OMV",
   "Vierasjoukkue": "HPS",
   "maalit_koti": 0,
   "maalit_vieras": 6
@@ -2046,7 +2046,7 @@
  {
   "ottelu_id": 201623,
   "Kausi": 2016,
-  "Päivämäärä": "09\/14\/2016",
+  "Päivämäärä": "09.14.2016",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pakila Road",
   "Kaupunki": "Helsinki",
@@ -2058,7 +2058,7 @@
  {
   "ottelu_id": 201622,
   "Kausi": 2016,
-  "Päivämäärä": "09\/06\/2016",
+  "Päivämäärä": "09.06.2016",
   "Kilpailu": "Kolmonen",
   "Stadion": "Kaleva UP",
   "Kaupunki": "Kerava",
@@ -2070,7 +2070,7 @@
  {
   "ottelu_id": 201621,
   "Kausi": 2016,
-  "Päivämäärä": "08\/31\/2016",
+  "Päivämäärä": "08.31.2016",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pakila Road",
   "Kaupunki": "Helsinki",
@@ -2082,7 +2082,7 @@
  {
   "ottelu_id": 201620,
   "Kausi": 2016,
-  "Päivämäärä": "08\/27\/2016",
+  "Päivämäärä": "08.27.2016",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pihlajamäki",
   "Kaupunki": "Helsinki",
@@ -2094,7 +2094,7 @@
  {
   "ottelu_id": 201619,
   "Kausi": 2016,
-  "Päivämäärä": "08\/20\/2016",
+  "Päivämäärä": "08.20.2016",
   "Kilpailu": "Kolmonen",
   "Stadion": "Keskusurheilukenttä",
   "Kaupunki": "Sipoo",
@@ -2106,7 +2106,7 @@
  {
   "ottelu_id": 201618,
   "Kausi": 2016,
-  "Päivämäärä": "08\/10\/2016",
+  "Päivämäärä": "08.10.2016",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pakila Road",
   "Kaupunki": "Helsinki",
@@ -2118,7 +2118,7 @@
  {
   "ottelu_id": 201617,
   "Kausi": 2016,
-  "Päivämäärä": "08\/03\/2016",
+  "Päivämäärä": "08.03.2016",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pakila Road",
   "Kaupunki": "Helsinki",
@@ -2130,11 +2130,11 @@
  {
   "ottelu_id": 201616,
   "Kausi": 2016,
-  "Päivämäärä": "07\/29\/2016",
+  "Päivämäärä": "07.29.2016",
   "Kilpailu": "Kolmonen",
   "Stadion": "Tapiola",
   "Kaupunki": "Espoo",
-  "Kotijoukkue": "FC Honka\/Akatemia",
+  "Kotijoukkue": "FC Honka.Akatemia",
   "Vierasjoukkue": "HPS",
   "maalit_koti": 4,
   "maalit_vieras": 1
@@ -2142,19 +2142,19 @@
  {
   "ottelu_id": 201615,
   "Kausi": 2016,
-  "Päivämäärä": "06\/29\/2016",
+  "Päivämäärä": "06.29.2016",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pakila Road",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "MPS\/Old Stars",
+  "Vierasjoukkue": "MPS.Old Stars",
   "maalit_koti": 4,
   "maalit_vieras": 2
  },
  {
   "ottelu_id": 201614,
   "Kausi": 2016,
-  "Päivämäärä": "06\/21\/2016",
+  "Päivämäärä": "06.21.2016",
   "Kilpailu": "Kolmonen",
   "Stadion": "Keski-Espoo",
   "Kaupunki": "Espoo",
@@ -2166,19 +2166,19 @@
  {
   "ottelu_id": 201613,
   "Kausi": 2016,
-  "Päivämäärä": "06\/15\/2016",
+  "Päivämäärä": "06.15.2016",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pakila Road",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "I-HK\/OMV",
+  "Vierasjoukkue": "I-HK.OMV",
   "maalit_koti": 0,
   "maalit_vieras": 1
  },
  {
   "ottelu_id": 201612,
   "Kausi": 2016,
-  "Päivämäärä": "06\/07\/2016",
+  "Päivämäärä": "06.07.2016",
   "Kilpailu": "Kolmonen",
   "Stadion": "Myllypuro",
   "Kaupunki": "Helsinki",
@@ -2190,7 +2190,7 @@
  {
   "ottelu_id": 201611,
   "Kausi": 2016,
-  "Päivämäärä": "06\/01\/2016",
+  "Päivämäärä": "06.01.2016",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pakila Road",
   "Kaupunki": "Helsinki",
@@ -2202,7 +2202,7 @@
  {
   "ottelu_id": 201610,
   "Kausi": 2016,
-  "Päivämäärä": "05\/27\/2016",
+  "Päivämäärä": "05.27.2016",
   "Kilpailu": "Kolmonen",
   "Stadion": "Laaksolahti",
   "Kaupunki": "Espoo",
@@ -2214,7 +2214,7 @@
  {
   "ottelu_id": 201609,
   "Kausi": 2016,
-  "Päivämäärä": "05\/18\/2016",
+  "Päivämäärä": "05.18.2016",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pakila Road",
   "Kaupunki": "Helsinki",
@@ -2226,7 +2226,7 @@
  {
   "ottelu_id": 201608,
   "Kausi": 2016,
-  "Päivämäärä": "05\/11\/2016",
+  "Päivämäärä": "05.11.2016",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pakila Road",
   "Kaupunki": "Helsinki",
@@ -2238,7 +2238,7 @@
  {
   "ottelu_id": 201607,
   "Kausi": 2016,
-  "Päivämäärä": "05\/05\/2016",
+  "Päivämäärä": "05.05.2016",
   "Kilpailu": "Kolmonen",
   "Stadion": "Tapulikaupunki",
   "Kaupunki": "Helsinki",
@@ -2250,7 +2250,7 @@
  {
   "ottelu_id": 201606,
   "Kausi": 2016,
-  "Päivämäärä": "04\/28\/2016",
+  "Päivämäärä": "04.28.2016",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pallokenttä",
   "Kaupunki": "Porvoo",
@@ -2262,19 +2262,19 @@
  {
   "ottelu_id": 201605,
   "Kausi": 2016,
-  "Päivämäärä": "04\/22\/2016",
+  "Päivämäärä": "04.22.2016",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pakila Road",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "FC Honka\/Akatemia",
+  "Vierasjoukkue": "FC Honka.Akatemia",
   "maalit_koti": 2,
   "maalit_vieras": 2
  },
  {
   "ottelu_id": 201604,
   "Kausi": 2016,
-  "Päivämäärä": "03\/20\/2016",
+  "Päivämäärä": "03.20.2016",
   "Kilpailu": "Kolmonen talvi",
   "Stadion": "Kartano",
   "Kaupunki": "Helsinki",
@@ -2286,11 +2286,11 @@
  {
   "ottelu_id": 201603,
   "Kausi": 2016,
-  "Päivämäärä": "02\/14\/2016",
+  "Päivämäärä": "02.14.2016",
   "Kilpailu": "Kolmonen talvi",
   "Stadion": "Tali halli",
   "Kaupunki": "Helsinki",
-  "Kotijoukkue": "HIFK\/2",
+  "Kotijoukkue": "HIFK.2",
   "Vierasjoukkue": "HPS",
   "maalit_koti": 0,
   "maalit_vieras": 7
@@ -2298,7 +2298,7 @@
  {
   "ottelu_id": 201602,
   "Kausi": 2016,
-  "Päivämäärä": "02\/07\/2016",
+  "Päivämäärä": "02.07.2016",
   "Kilpailu": "Kolmonen talvi",
   "Stadion": "Kartano",
   "Kaupunki": "Helsinki",
@@ -2310,7 +2310,7 @@
  {
   "ottelu_id": 201601,
   "Kausi": 2016,
-  "Päivämäärä": "01\/31\/2016",
+  "Päivämäärä": "01.31.2016",
   "Kilpailu": "Suomen Cup",
   "Stadion": "Töölön Pallokenttä",
   "Kaupunki": "Helsinki",
@@ -2322,7 +2322,7 @@
  {
   "ottelu_id": 201525,
   "Kausi": 2015,
-  "Päivämäärä": "10\/04\/2015",
+  "Päivämäärä": "10.04.2015",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pakila Road",
   "Kaupunki": "Helsinki",
@@ -2334,7 +2334,7 @@
  {
   "ottelu_id": 201524,
   "Kausi": 2015,
-  "Päivämäärä": "09\/26\/2015",
+  "Päivämäärä": "09.26.2015",
   "Kilpailu": "Kolmonen",
   "Stadion": "Töölön Pallokenttä",
   "Kaupunki": "Helsinki",
@@ -2346,19 +2346,19 @@
  {
   "ottelu_id": 201523,
   "Kausi": 2015,
-  "Päivämäärä": "09\/16\/2015",
+  "Päivämäärä": "09.16.2015",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pakila Road",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "EIF\/Akademi",
+  "Vierasjoukkue": "EIF.Akademi",
   "maalit_koti": 4,
   "maalit_vieras": 2
  },
  {
   "ottelu_id": 201522,
   "Kausi": 2015,
-  "Päivämäärä": "09\/11\/2015",
+  "Päivämäärä": "09.11.2015",
   "Kilpailu": "Kolmonen",
   "Stadion": "Leppävaara",
   "Kaupunki": "Espoo",
@@ -2370,7 +2370,7 @@
  {
   "ottelu_id": 201521,
   "Kausi": 2015,
-  "Päivämäärä": "09\/02\/2015",
+  "Päivämäärä": "09.02.2015",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pakila Road",
   "Kaupunki": "Helsinki",
@@ -2382,19 +2382,19 @@
  {
   "ottelu_id": 201520,
   "Kausi": 2015,
-  "Päivämäärä": "08\/26\/2015",
+  "Päivämäärä": "08.26.2015",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pakila Road",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "KäPa\/PuLe",
+  "Vierasjoukkue": "KäPa.PuLe",
   "maalit_koti": 1,
   "maalit_vieras": 0
  },
  {
   "ottelu_id": 201519,
   "Kausi": 2015,
-  "Päivämäärä": "08\/21\/2015",
+  "Päivämäärä": "08.21.2015",
   "Kilpailu": "Kolmonen",
   "Stadion": "Espoonlahti",
   "Kaupunki": "Espoo",
@@ -2406,7 +2406,7 @@
  {
   "ottelu_id": 201518,
   "Kausi": 2015,
-  "Päivämäärä": "08\/12\/2015",
+  "Päivämäärä": "08.12.2015",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pakila Road",
   "Kaupunki": "Helsinki",
@@ -2418,7 +2418,7 @@
  {
   "ottelu_id": 201517,
   "Kausi": 2015,
-  "Päivämäärä": "08\/07\/2015",
+  "Päivämäärä": "08.07.2015",
   "Kilpailu": "Kolmonen",
   "Stadion": "Harju",
   "Kaupunki": "Lohja",
@@ -2430,7 +2430,7 @@
  {
   "ottelu_id": 201516,
   "Kausi": 2015,
-  "Päivämäärä": "07\/29\/2015",
+  "Päivämäärä": "07.29.2015",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pakila Road",
   "Kaupunki": "Helsinki",
@@ -2442,7 +2442,7 @@
  {
   "ottelu_id": 201515,
   "Kausi": 2015,
-  "Päivämäärä": "07\/22\/2015",
+  "Päivämäärä": "07.22.2015",
   "Kilpailu": "Kolmonen",
   "Stadion": "Tali",
   "Kaupunki": "Helsinki",
@@ -2454,7 +2454,7 @@
  {
   "ottelu_id": 201514,
   "Kausi": 2015,
-  "Päivämäärä": "07\/04\/2015",
+  "Päivämäärä": "07.04.2015",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pihlajamäki",
   "Kaupunki": "Helsinki",
@@ -2466,7 +2466,7 @@
  {
   "ottelu_id": 201513,
   "Kausi": 2015,
-  "Päivämäärä": "06\/24\/2015",
+  "Päivämäärä": "06.24.2015",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pakila Road",
   "Kaupunki": "Helsinki",
@@ -2478,11 +2478,11 @@
  {
   "ottelu_id": 201512,
   "Kausi": 2015,
-  "Päivämäärä": "06\/16\/2015",
+  "Päivämäärä": "06.16.2015",
   "Kilpailu": "Kolmonen",
   "Stadion": "Österby",
   "Kaupunki": "Tammisaari",
-  "Kotijoukkue": "EIF\/Akademi",
+  "Kotijoukkue": "EIF.Akademi",
   "Vierasjoukkue": "HPS",
   "maalit_koti": 0,
   "maalit_vieras": 0
@@ -2490,7 +2490,7 @@
  {
   "ottelu_id": 201511,
   "Kausi": 2015,
-  "Päivämäärä": "06\/10\/2015",
+  "Päivämäärä": "06.10.2015",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pakila Road",
   "Kaupunki": "Helsinki",
@@ -2502,7 +2502,7 @@
  {
   "ottelu_id": 201510,
   "Kausi": 2015,
-  "Päivämäärä": "06\/05\/2015",
+  "Päivämäärä": "06.05.2015",
   "Kilpailu": "Kolmonen",
   "Stadion": "Kuoppanummi",
   "Kaupunki": "Vihti",
@@ -2514,11 +2514,11 @@
  {
   "ottelu_id": 201509,
   "Kausi": 2015,
-  "Päivämäärä": "05\/28\/2015",
+  "Päivämäärä": "05.28.2015",
   "Kilpailu": "Kolmonen",
   "Stadion": "Käpylä",
   "Kaupunki": "Helsinki",
-  "Kotijoukkue": "KäPa\/PuLe",
+  "Kotijoukkue": "KäPa.PuLe",
   "Vierasjoukkue": "HPS",
   "maalit_koti": 0,
   "maalit_vieras": 1
@@ -2526,7 +2526,7 @@
  {
   "ottelu_id": 201508,
   "Kausi": 2015,
-  "Päivämäärä": "05\/20\/2015",
+  "Päivämäärä": "05.20.2015",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pakila Road",
   "Kaupunki": "Helsinki",
@@ -2538,7 +2538,7 @@
  {
   "ottelu_id": 201507,
   "Kausi": 2015,
-  "Päivämäärä": "05\/13\/2015",
+  "Päivämäärä": "05.13.2015",
   "Kilpailu": "Kolmonen",
   "Stadion": "Rukki Areena",
   "Kaupunki": "Hanko",
@@ -2550,7 +2550,7 @@
  {
   "ottelu_id": 201506,
   "Kausi": 2015,
-  "Päivämäärä": "05\/06\/2015",
+  "Päivämäärä": "05.06.2015",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pakila Road",
   "Kaupunki": "Helsinki",
@@ -2562,7 +2562,7 @@
  {
   "ottelu_id": 201505,
   "Kausi": 2015,
-  "Päivämäärä": "04\/22\/2015",
+  "Päivämäärä": "04.22.2015",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pakila Road",
   "Kaupunki": "Helsinki",
@@ -2574,7 +2574,7 @@
  {
   "ottelu_id": 201504,
   "Kausi": 2015,
-  "Päivämäärä": "04\/17\/2015",
+  "Päivämäärä": "04.17.2015",
   "Kilpailu": "Kolmonen",
   "Stadion": "Laaksolahti",
   "Kaupunki": "Espoo",
@@ -2586,7 +2586,7 @@
  {
   "ottelu_id": 201503,
   "Kausi": 2015,
-  "Päivämäärä": "03\/17\/2015",
+  "Päivämäärä": "03.17.2015",
   "Kilpailu": "Suomen Cup",
   "Stadion": "Matinkylä",
   "Kaupunki": "Espoo",
@@ -2598,7 +2598,7 @@
  {
   "ottelu_id": 201502,
   "Kausi": 2015,
-  "Päivämäärä": "02\/25\/2015",
+  "Päivämäärä": "02.25.2015",
   "Kilpailu": "Suomen Cup",
   "Stadion": "Pajulahti",
   "Kotijoukkue": "Orimattilan Pedot",
@@ -2609,9 +2609,9 @@
  {
   "ottelu_id": 201501,
   "Kausi": 2015,
-  "Päivämäärä": "02\/15\/2015",
+  "Päivämäärä": "02.15.2015",
   "Kilpailu": "Suomen Cup",
-  "Kotijoukkue": "HJK\/Laajasalo",
+  "Kotijoukkue": "HJK.Laajasalo",
   "Vierasjoukkue": "HPS",
   "maalit_koti": 1,
   "maalit_vieras": 2
@@ -2619,7 +2619,7 @@
  {
   "ottelu_id": 201429,
   "Kausi": 2014,
-  "Päivämäärä": "10\/04\/2014",
+  "Päivämäärä": "10.04.2014",
   "Kilpailu": "Kolmonen",
   "Stadion": "Matinkylä",
   "Kaupunki": "Espoo",
@@ -2631,7 +2631,7 @@
  {
   "ottelu_id": 201428,
   "Kausi": 2014,
-  "Päivämäärä": "09\/24\/2014",
+  "Päivämäärä": "09.24.2014",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pakila Road",
   "Kaupunki": "Helsinki",
@@ -2643,7 +2643,7 @@
  {
   "ottelu_id": 201427,
   "Kausi": 2014,
-  "Päivämäärä": "09\/20\/2014",
+  "Päivämäärä": "09.20.2014",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "FC HIK",
   "Vierasjoukkue": "HPS",
@@ -2653,7 +2653,7 @@
  {
   "ottelu_id": 201426,
   "Kausi": 2014,
-  "Päivämäärä": "09\/10\/2014",
+  "Päivämäärä": "09.10.2014",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pakila Road",
   "Kaupunki": "Helsinki",
@@ -2665,11 +2665,11 @@
  {
   "ottelu_id": 201425,
   "Kausi": 2014,
-  "Päivämäärä": "09\/06\/2014",
+  "Päivämäärä": "09.06.2014",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pukinmäki",
   "Kaupunki": "Helsinki",
-  "Kotijoukkue": "MPS\/Atletico Malmi",
+  "Kotijoukkue": "MPS.Atletico Malmi",
   "Vierasjoukkue": "HPS",
   "maalit_koti": 2,
   "maalit_vieras": 0
@@ -2677,7 +2677,7 @@
  {
   "ottelu_id": 201424,
   "Kausi": 2014,
-  "Päivämäärä": "08\/27\/2014",
+  "Päivämäärä": "08.27.2014",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pakila Road",
   "Kaupunki": "Helsinki",
@@ -2689,7 +2689,7 @@
  {
   "ottelu_id": 201423,
   "Kausi": 2014,
-  "Päivämäärä": "08\/22\/2014",
+  "Päivämäärä": "08.22.2014",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "EBK",
   "Vierasjoukkue": "HPS",
@@ -2699,21 +2699,21 @@
  {
   "ottelu_id": 201422,
   "Kausi": 2014,
-  "Päivämäärä": "08\/13\/2014",
+  "Päivämäärä": "08.13.2014",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pakila Road",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "EIF\/Akademi",
+  "Vierasjoukkue": "EIF.Akademi",
   "maalit_koti": 0,
   "maalit_vieras": 3
  },
  {
   "ottelu_id": 201421,
   "Kausi": 2014,
-  "Päivämäärä": "08\/09\/2014",
+  "Päivämäärä": "08.09.2014",
   "Kilpailu": "Kolmonen",
-  "Kotijoukkue": "PK-35\/VJS",
+  "Kotijoukkue": "PK-35.VJS",
   "Vierasjoukkue": "HPS",
   "maalit_koti": 2,
   "maalit_vieras": 1
@@ -2721,7 +2721,7 @@
  {
   "ottelu_id": 201420,
   "Kausi": 2014,
-  "Päivämäärä": "07\/29\/2014",
+  "Päivämäärä": "07.29.2014",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "NuPS",
   "Vierasjoukkue": "HPS",
@@ -2731,7 +2731,7 @@
  {
   "ottelu_id": 201419,
   "Kausi": 2014,
-  "Päivämäärä": "07\/23\/2014",
+  "Päivämäärä": "07.23.2014",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pakila Road",
   "Kaupunki": "Helsinki",
@@ -2743,7 +2743,7 @@
  {
   "ottelu_id": 201418,
   "Kausi": 2014,
-  "Päivämäärä": "07\/02\/2014",
+  "Päivämäärä": "07.02.2014",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pakila Road",
   "Kaupunki": "Helsinki",
@@ -2755,7 +2755,7 @@
  {
   "ottelu_id": 201417,
   "Kausi": 2014,
-  "Päivämäärä": "06\/25\/2014",
+  "Päivämäärä": "06.25.2014",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "ESC",
   "Vierasjoukkue": "HPS",
@@ -2765,7 +2765,7 @@
  {
   "ottelu_id": 201416,
   "Kausi": 2014,
-  "Päivämäärä": "06\/18\/2014",
+  "Päivämäärä": "06.18.2014",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pakila Road",
   "Kaupunki": "Helsinki",
@@ -2777,7 +2777,7 @@
  {
   "ottelu_id": 201415,
   "Kausi": 2014,
-  "Päivämäärä": "06\/13\/2014",
+  "Päivämäärä": "06.13.2014",
   "Kilpailu": "Kolmonen",
   "Stadion": "Kumpula",
   "Kaupunki": "Helsinki",
@@ -2789,19 +2789,19 @@
  {
   "ottelu_id": 201414,
   "Kausi": 2014,
-  "Päivämäärä": "06\/04\/2014",
+  "Päivämäärä": "06.04.2014",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pakila Road",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "MPS\/Atletico Malmi",
+  "Vierasjoukkue": "MPS.Atletico Malmi",
   "maalit_koti": 2,
   "maalit_vieras": 1
  },
  {
   "ottelu_id": 201413,
   "Kausi": 2014,
-  "Päivämäärä": "05\/28\/2014",
+  "Päivämäärä": "05.28.2014",
   "Kilpailu": "Kolmonen",
   "Kaupunki": "Lohja",
   "Kotijoukkue": "LoPa",
@@ -2812,7 +2812,7 @@
  {
   "ottelu_id": 201412,
   "Kausi": 2014,
-  "Päivämäärä": "05\/21\/2014",
+  "Päivämäärä": "05.21.2014",
   "Kilpailu": "Kolmonen",
   "Stadion": "Tapulikaupunki",
   "Kaupunki": "Helsinki",
@@ -2824,10 +2824,10 @@
  {
   "ottelu_id": 201411,
   "Kausi": 2014,
-  "Päivämäärä": "05\/14\/2014",
+  "Päivämäärä": "05.14.2014",
   "Kilpailu": "Kolmonen",
   "Kaupunki": "Tammisaari",
-  "Kotijoukkue": "EIF\/Akademi",
+  "Kotijoukkue": "EIF.Akademi",
   "Vierasjoukkue": "HPS",
   "maalit_koti": 1,
   "maalit_vieras": 0
@@ -2835,19 +2835,19 @@
  {
   "ottelu_id": 201410,
   "Kausi": 2014,
-  "Päivämäärä": "05\/07\/2014",
+  "Päivämäärä": "05.07.2014",
   "Kilpailu": "Kolmonen",
   "Stadion": "Töölön Pallokenttä",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "PK-35\/VJS",
+  "Vierasjoukkue": "PK-35.VJS",
   "maalit_koti": 1,
   "maalit_vieras": 3
  },
  {
   "ottelu_id": 201409,
   "Kausi": 2014,
-  "Päivämäärä": "05\/02\/2014",
+  "Päivämäärä": "05.02.2014",
   "Kilpailu": "Kolmonen",
   "Stadion": "Tali halli",
   "Kaupunki": "Helsinki",
@@ -2859,7 +2859,7 @@
  {
   "ottelu_id": 201408,
   "Kausi": 2014,
-  "Päivämäärä": "04\/25\/2014",
+  "Päivämäärä": "04.25.2014",
   "Kilpailu": "Kolmonen",
   "Stadion": "Kontula",
   "Kaupunki": "Helsinki",
@@ -2871,11 +2871,11 @@
  {
   "ottelu_id": 201407,
   "Kausi": 2014,
-  "Päivämäärä": "04\/15\/2014",
+  "Päivämäärä": "04.15.2014",
   "Kilpailu": "Kolmonen talvi",
   "Stadion": "Pitäjänmäki",
   "Kaupunki": "Helsinki",
-  "Kotijoukkue": "MPS\/Atletico Malmi",
+  "Kotijoukkue": "MPS.Atletico Malmi",
   "Vierasjoukkue": "HPS",
   "maalit_koti": 4,
   "maalit_vieras": 0
@@ -2883,7 +2883,7 @@
  {
   "ottelu_id": 201406,
   "Kausi": 2014,
-  "Päivämäärä": "04\/08\/2014",
+  "Päivämäärä": "04.08.2014",
   "Kilpailu": "Kolmonen talvi",
   "Stadion": "Pitäjänmäki",
   "Kaupunki": "Helsinki",
@@ -2895,7 +2895,7 @@
  {
   "ottelu_id": 201405,
   "Kausi": 2014,
-  "Päivämäärä": "03\/23\/2014",
+  "Päivämäärä": "03.23.2014",
   "Kilpailu": "Kolmonen talvi",
   "Stadion": "Pallokenttä Töölö",
   "Kaupunki": "Helsinki",
@@ -2907,7 +2907,7 @@
  {
   "ottelu_id": 201404,
   "Kausi": 2014,
-  "Päivämäärä": "03\/14\/2014",
+  "Päivämäärä": "03.14.2014",
   "Kilpailu": "Kolmonen talvi",
   "Stadion": "Pallokenttä Töölö",
   "Kaupunki": "Helsinki",
@@ -2919,7 +2919,7 @@
  {
   "ottelu_id": 201403,
   "Kausi": 2014,
-  "Päivämäärä": "02\/22\/2014",
+  "Päivämäärä": "02.22.2014",
   "Kilpailu": "Kolmonen talvi",
   "Stadion": "Kartano",
   "Kaupunki": "Helsinki",
@@ -2931,7 +2931,7 @@
  {
   "ottelu_id": 201402,
   "Kausi": 2014,
-  "Päivämäärä": "02\/08\/2014",
+  "Päivämäärä": "02.08.2014",
   "Kilpailu": "Kolmonen talvi",
   "Stadion": "Pallokenttä Töölö",
   "Kaupunki": "Helsinki",
@@ -2943,11 +2943,11 @@
  {
   "ottelu_id": 201401,
   "Kausi": 2014,
-  "Päivämäärä": "01\/11\/2014",
+  "Päivämäärä": "01.11.2014",
   "Kilpailu": "Suomen Cup",
   "Stadion": "Tali halli",
   "Kaupunki": "Helsinki",
-  "Kotijoukkue": "HJK\/Töölö",
+  "Kotijoukkue": "HJK.Töölö",
   "Vierasjoukkue": "HPS",
   "maalit_koti": 1,
   "maalit_vieras": 0
@@ -2962,7 +2962,7 @@
  {
   "ottelu_id": 201322,
   "Kausi": 2013,
-  "Päivämäärä": "09\/27\/2013",
+  "Päivämäärä": "09.27.2013",
   "Kilpailu": "Kolmonen",
   "Stadion": "Kontula",
   "Kaupunki": "Helsinki",
@@ -2974,7 +2974,7 @@
  {
   "ottelu_id": 201321,
   "Kausi": 2013,
-  "Päivämäärä": "09\/19\/2013",
+  "Päivämäärä": "09.19.2013",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "Akilles",
   "Vierasjoukkue": "HPS",
@@ -2984,7 +2984,7 @@
  {
   "ottelu_id": 201320,
   "Kausi": 2013,
-  "Päivämäärä": "09\/10\/2013",
+  "Päivämäärä": "09.10.2013",
   "Kilpailu": "Kolmonen",
   "Stadion": "Ala-Malmi",
   "Kaupunki": "Helsinki",
@@ -2996,7 +2996,7 @@
  {
   "ottelu_id": 201319,
   "Kausi": 2013,
-  "Päivämäärä": "09\/04\/2013",
+  "Päivämäärä": "09.04.2013",
   "Kilpailu": "Kolmonen",
   "Stadion": "Töölön Pallokenttä",
   "Kaupunki": "Helsinki",
@@ -3008,7 +3008,7 @@
  {
   "ottelu_id": 201318,
   "Kausi": 2013,
-  "Päivämäärä": "08\/27\/2013",
+  "Päivämäärä": "08.27.2013",
   "Kilpailu": "Kolmonen",
   "Stadion": "Ala-Malmi",
   "Kaupunki": "Helsinki",
@@ -3020,7 +3020,7 @@
  {
   "ottelu_id": 201317,
   "Kausi": 2013,
-  "Päivämäärä": "08\/21\/2013",
+  "Päivämäärä": "08.21.2013",
   "Kilpailu": "Kolmonen",
   "Stadion": "Tali",
   "Kaupunki": "Helsinki",
@@ -3032,7 +3032,7 @@
  {
   "ottelu_id": 201316,
   "Kausi": 2013,
-  "Päivämäärä": "08\/13\/2013",
+  "Päivämäärä": "08.13.2013",
   "Kilpailu": "Kolmonen",
   "Stadion": "Ala-Malmi",
   "Kaupunki": "Helsinki",
@@ -3044,7 +3044,7 @@
  {
   "ottelu_id": 201315,
   "Kausi": 2013,
-  "Päivämäärä": "08\/09\/2013",
+  "Päivämäärä": "08.09.2013",
   "Kilpailu": "Kolmonen",
   "Kotijoukkue": "FC Espoo",
   "Vierasjoukkue": "HPS",
@@ -3054,7 +3054,7 @@
  {
   "ottelu_id": 201314,
   "Kausi": 2013,
-  "Päivämäärä": "07\/30\/2013",
+  "Päivämäärä": "07.30.2013",
   "Kilpailu": "Kolmonen",
   "Stadion": "Ala-Malmi",
   "Kaupunki": "Helsinki",
@@ -3066,7 +3066,7 @@
  {
   "ottelu_id": 201313,
   "Kausi": 2013,
-  "Päivämäärä": "07\/25\/2013",
+  "Päivämäärä": "07.25.2013",
   "Kilpailu": "Kolmonen",
   "Stadion": "Ala-Malmi",
   "Kaupunki": "Helsinki",
@@ -3078,7 +3078,7 @@
  {
   "ottelu_id": 201312,
   "Kausi": 2013,
-  "Päivämäärä": "06\/27\/2013",
+  "Päivämäärä": "06.27.2013",
   "Kilpailu": "Kolmonen",
   "Stadion": "Ala-Malmi",
   "Kaupunki": "Helsinki",
@@ -3090,7 +3090,7 @@
  {
   "ottelu_id": 201311,
   "Kausi": 2013,
-  "Päivämäärä": "06\/18\/2013",
+  "Päivämäärä": "06.18.2013",
   "Kilpailu": "Kolmonen",
   "Stadion": "Ala-Malmi",
   "Kaupunki": "Helsinki",
@@ -3102,7 +3102,7 @@
  {
   "ottelu_id": 201310,
   "Kausi": 2013,
-  "Päivämäärä": "06\/11\/2013",
+  "Päivämäärä": "06.11.2013",
   "Kilpailu": "Kolmonen",
   "Stadion": "Ala-Malmi",
   "Kaupunki": "Helsinki",
@@ -3114,7 +3114,7 @@
  {
   "ottelu_id": 201309,
   "Kausi": 2013,
-  "Päivämäärä": "06\/06\/2013",
+  "Päivämäärä": "06.06.2013",
   "Kilpailu": "Kolmonen",
   "Stadion": "Laaksolahti",
   "Kaupunki": "Espoo",
@@ -3126,7 +3126,7 @@
  {
   "ottelu_id": 201308,
   "Kausi": 2013,
-  "Päivämäärä": "05\/28\/2013",
+  "Päivämäärä": "05.28.2013",
   "Kilpailu": "Kolmonen",
   "Stadion": "Ala-Malmi",
   "Kaupunki": "Helsinki",
@@ -3138,7 +3138,7 @@
  {
   "ottelu_id": 201307,
   "Kausi": 2013,
-  "Päivämäärä": "05\/23\/2013",
+  "Päivämäärä": "05.23.2013",
   "Kilpailu": "Kolmonen",
   "Stadion": "Korso",
   "Kaupunki": "Vantaa",
@@ -3150,7 +3150,7 @@
  {
   "ottelu_id": 201306,
   "Kausi": 2013,
-  "Päivämäärä": "05\/14\/2013",
+  "Päivämäärä": "05.14.2013",
   "Kilpailu": "Kolmonen",
   "Stadion": "Tali halli",
   "Kaupunki": "Helsinki",
@@ -3162,7 +3162,7 @@
  {
   "ottelu_id": 201305,
   "Kausi": 2013,
-  "Päivämäärä": "05\/10\/2013",
+  "Päivämäärä": "05.10.2013",
   "Kilpailu": "Kolmonen",
   "Stadion": "Koivusaari",
   "Kaupunki": "Järvenpää",
@@ -3174,7 +3174,7 @@
  {
   "ottelu_id": 201304,
   "Kausi": 2013,
-  "Päivämäärä": "05\/02\/2013",
+  "Päivämäärä": "05.02.2013",
   "Kilpailu": "Kolmonen",
   "Stadion": "Tali halli",
   "Kaupunki": "Helsinki",
@@ -3204,7 +3204,7 @@
  {
   "ottelu_id": 201301,
   "Kausi": 2013,
-  "Päivämäärä": "03\/10\/2013",
+  "Päivämäärä": "03.10.2013",
   "Kilpailu": "Suomen Cup",
   "Kotijoukkue": "HPS",
   "Vierasjoukkue": "Futura",
@@ -3214,7 +3214,7 @@
  {
   "ottelu_id": 201222,
   "Kausi": 2012,
-  "Päivämäärä": "10\/07\/2012",
+  "Päivämäärä": "10.07.2012",
   "Kilpailu": "Kolmonen",
   "Stadion": "Gamla Sportplan",
   "Kaupunki": "Hanko",
@@ -3226,7 +3226,7 @@
  {
   "ottelu_id": 201221,
   "Kausi": 2012,
-  "Päivämäärä": "09\/27\/2012",
+  "Päivämäärä": "09.27.2012",
   "Kilpailu": "Kolmonen",
   "Stadion": "Tali halli",
   "Kaupunki": "Helsinki",
@@ -3238,23 +3238,23 @@
  {
   "ottelu_id": 201220,
   "Kausi": 2012,
-  "Päivämäärä": "09\/18\/2012",
+  "Päivämäärä": "09.18.2012",
   "Kilpailu": "Kolmonen",
   "Stadion": "Ala-Malmi",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "HDS\/Mondial",
+  "Vierasjoukkue": "HDS.Mondial",
   "maalit_koti": 3,
   "maalit_vieras": 1
  },
  {
   "ottelu_id": 201219,
   "Kausi": 2012,
-  "Päivämäärä": "09\/14\/2012",
+  "Päivämäärä": "09.14.2012",
   "Kilpailu": "Kolmonen",
   "Stadion": "Tapanila",
   "Kaupunki": "Helsinki",
-  "Kotijoukkue": "MPS\/Atletico Malmi",
+  "Kotijoukkue": "MPS.Atletico Malmi",
   "Vierasjoukkue": "HPS",
   "maalit_koti": 6,
   "maalit_vieras": 1
@@ -3262,7 +3262,7 @@
  {
   "ottelu_id": 201218,
   "Kausi": 2012,
-  "Päivämäärä": "09\/06\/2012",
+  "Päivämäärä": "09.06.2012",
   "Kilpailu": "Kolmonen",
   "Stadion": "Ala-Malmi",
   "Kaupunki": "Helsinki",
@@ -3274,11 +3274,11 @@
  {
   "ottelu_id": 201217,
   "Kausi": 2012,
-  "Päivämäärä": "08\/29\/2012",
+  "Päivämäärä": "08.29.2012",
   "Kilpailu": "Kolmonen",
   "Stadion": "Leppävaara",
   "Kaupunki": "Espoo",
-  "Kotijoukkue": "FC Espoo\/Akatemia",
+  "Kotijoukkue": "FC Espoo.Akatemia",
   "Vierasjoukkue": "HPS",
   "maalit_koti": 0,
   "maalit_vieras": 0
@@ -3286,23 +3286,23 @@
  {
   "ottelu_id": 201216,
   "Kausi": 2012,
-  "Päivämäärä": "08\/23\/2012",
+  "Päivämäärä": "08.23.2012",
   "Kilpailu": "Kolmonen",
   "Stadion": "Ala-Malmi",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "EIF\/Akademi",
+  "Vierasjoukkue": "EIF.Akademi",
   "maalit_koti": 0,
   "maalit_vieras": 2
  },
  {
   "ottelu_id": 201215,
   "Kausi": 2012,
-  "Päivämäärä": "08\/19\/2012",
+  "Päivämäärä": "08.19.2012",
   "Kilpailu": "Kolmonen",
   "Stadion": "Tapiola",
   "Kaupunki": "Espoo",
-  "Kotijoukkue": "Honka\/3",
+  "Kotijoukkue": "Honka.3",
   "Vierasjoukkue": "HPS",
   "maalit_koti": 4,
   "maalit_vieras": 2
@@ -3310,7 +3310,7 @@
  {
   "ottelu_id": 201214,
   "Kausi": 2012,
-  "Päivämäärä": "08\/07\/2012",
+  "Päivämäärä": "08.07.2012",
   "Kilpailu": "Kolmonen",
   "Stadion": "Ala-Malmi",
   "Kaupunki": "Helsinki",
@@ -3322,7 +3322,7 @@
  {
   "ottelu_id": 201213,
   "Kausi": 2012,
-  "Päivämäärä": "08\/02\/2012",
+  "Päivämäärä": "08.02.2012",
   "Kilpailu": "Kolmonen",
   "Stadion": "Vapaalanaukee",
   "Kaupunki": "Vantaa",
@@ -3334,7 +3334,7 @@
  {
   "ottelu_id": 201212,
   "Kausi": 2012,
-  "Päivämäärä": "07\/26\/2012",
+  "Päivämäärä": "07.26.2012",
   "Kilpailu": "Kolmonen",
   "Stadion": "Ala-Malmi",
   "Kaupunki": "Helsinki",
@@ -3346,7 +3346,7 @@
  {
   "ottelu_id": 201211,
   "Kausi": 2012,
-  "Päivämäärä": "06\/26\/2012",
+  "Päivämäärä": "06.26.2012",
   "Kilpailu": "Kolmonen",
   "Stadion": "Ala-Malmi",
   "Kaupunki": "Helsinki",
@@ -3358,7 +3358,7 @@
  {
   "ottelu_id": 201210,
   "Kausi": 2012,
-  "Päivämäärä": "06\/20\/2012",
+  "Päivämäärä": "06.20.2012",
   "Kilpailu": "Kolmonen",
   "Stadion": "Hamari",
   "Kaupunki": "Porvoo",
@@ -3370,11 +3370,11 @@
  {
   "ottelu_id": 201209,
   "Kausi": 2012,
-  "Päivämäärä": "06\/15\/2012",
+  "Päivämäärä": "06.15.2012",
   "Kilpailu": "Kolmonen",
   "Stadion": "Töölön Pallokenttä",
   "Kaupunki": "Helsinki",
-  "Kotijoukkue": "HDS\/Mondial",
+  "Kotijoukkue": "HDS.Mondial",
   "Vierasjoukkue": "HPS",
   "maalit_koti": 1,
   "maalit_vieras": 3
@@ -3382,19 +3382,19 @@
  {
   "ottelu_id": 201208,
   "Kausi": 2012,
-  "Päivämäärä": "06\/07\/2012",
+  "Päivämäärä": "06.07.2012",
   "Kilpailu": "Kolmonen",
   "Stadion": "Ala-Malmi",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "MPS\/Atletico Malmi",
+  "Vierasjoukkue": "MPS.Atletico Malmi",
   "maalit_koti": 3,
   "maalit_vieras": 0
  },
  {
   "ottelu_id": 201207,
   "Kausi": 2012,
-  "Päivämäärä": "05\/29\/2012",
+  "Päivämäärä": "05.29.2012",
   "Kilpailu": "Kolmonen",
   "Stadion": "Vapaalanaukee",
   "Kaupunki": "Vantaa",
@@ -3406,23 +3406,23 @@
  {
   "ottelu_id": 201206,
   "Kausi": 2012,
-  "Päivämäärä": "05\/24\/2012",
+  "Päivämäärä": "05.24.2012",
   "Kilpailu": "Kolmonen",
   "Stadion": "Ala-Malmi",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "FC Espoo\/Akatemia",
+  "Vierasjoukkue": "FC Espoo.Akatemia",
   "maalit_koti": 4,
   "maalit_vieras": 0
  },
  {
   "ottelu_id": 201205,
   "Kausi": 2012,
-  "Päivämäärä": "05\/18\/2012",
+  "Päivämäärä": "05.18.2012",
   "Kilpailu": "Kolmonen",
   "Stadion": "Tammisaari",
   "Kaupunki": "Tammisaari",
-  "Kotijoukkue": "EIF\/Akademi",
+  "Kotijoukkue": "EIF.Akademi",
   "Vierasjoukkue": "HPS",
   "maalit_koti": 2,
   "maalit_vieras": 2
@@ -3430,19 +3430,19 @@
  {
   "ottelu_id": 201204,
   "Kausi": 2012,
-  "Päivämäärä": "05\/10\/2012",
+  "Päivämäärä": "05.10.2012",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pitäjänmäki",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "Honka\/3",
+  "Vierasjoukkue": "Honka.3",
   "maalit_koti": 2,
   "maalit_vieras": 3
  },
  {
   "ottelu_id": 201203,
   "Kausi": 2012,
-  "Päivämäärä": "05\/03\/2012",
+  "Päivämäärä": "05.03.2012",
   "Kilpailu": "Kolmonen",
   "Stadion": "Tali halli",
   "Kaupunki": "Helsinki",
@@ -3454,7 +3454,7 @@
  {
   "ottelu_id": 201202,
   "Kausi": 2012,
-  "Päivämäärä": "04\/26\/2012",
+  "Päivämäärä": "04.26.2012",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pitäjänmäki",
   "Kaupunki": "Helsinki",
@@ -3466,7 +3466,7 @@
  {
   "ottelu_id": 201201,
   "Kausi": 2012,
-  "Päivämäärä": "04\/22\/2012",
+  "Päivämäärä": "04.22.2012",
   "Kilpailu": "Kolmonen",
   "Stadion": "Laaksolahti",
   "Kaupunki": "Espoo",
@@ -3478,7 +3478,7 @@
  {
   "ottelu_id": 201200,
   "Kausi": 2012,
-  "Päivämäärä": "03\/05\/2012",
+  "Päivämäärä": "03.05.2012",
   "Kilpailu": "Suomen Cup",
   "Kotijoukkue": "HPS",
   "Vierasjoukkue": "Klubi-04",
@@ -3488,7 +3488,7 @@
  {
   "ottelu_id": 201126,
   "Kausi": 2011,
-  "Päivämäärä": "10\/02\/2011",
+  "Päivämäärä": "10.02.2011",
   "Kilpailu": "Kolmonen",
   "Stadion": "Lukion tekonurmi",
   "Kaupunki": "Järvenpää",
@@ -3500,7 +3500,7 @@
  {
   "ottelu_id": 201125,
   "Kausi": 2011,
-  "Päivämäärä": "09\/20\/2011",
+  "Päivämäärä": "09.20.2011",
   "Kilpailu": "Kolmonen",
   "Stadion": "Siltamäki",
   "Kaupunki": "Helsinki",
@@ -3512,7 +3512,7 @@
  {
   "ottelu_id": 201124,
   "Kausi": 2011,
-  "Päivämäärä": "09\/14\/2011",
+  "Päivämäärä": "09.14.2011",
   "Kilpailu": "Kolmonen",
   "Stadion": "Myyrmäen jalkapallostadion",
   "Kaupunki": "Vantaa",
@@ -3524,7 +3524,7 @@
  {
   "ottelu_id": 201123,
   "Kausi": 2011,
-  "Päivämäärä": "09\/07\/2011",
+  "Päivämäärä": "09.07.2011",
   "Kilpailu": "Kolmonen",
   "Stadion": "Siltamäki",
   "Kaupunki": "Helsinki",
@@ -3536,7 +3536,7 @@
  {
   "ottelu_id": 201122,
   "Kausi": 2011,
-  "Päivämäärä": "08\/31\/2011",
+  "Päivämäärä": "08.31.2011",
   "Kilpailu": "Kolmonen",
   "Stadion": "Kontula",
   "Kaupunki": "Helsinki",
@@ -3548,11 +3548,11 @@
  {
   "ottelu_id": 201121,
   "Kausi": 2011,
-  "Päivämäärä": "08\/23\/2011",
+  "Päivämäärä": "08.23.2011",
   "Kilpailu": "Kolmonen",
   "Stadion": "Oulunkylä",
   "Kaupunki": "Helsinki",
-  "Kotijoukkue": "Gnistan\/Ogeli",
+  "Kotijoukkue": "Gnistan.Ogeli",
   "Vierasjoukkue": "HPS",
   "maalit_koti": 0,
   "maalit_vieras": 3
@@ -3560,7 +3560,7 @@
  {
   "ottelu_id": 201120,
   "Kausi": 2011,
-  "Päivämäärä": "08\/17\/2011",
+  "Päivämäärä": "08.17.2011",
   "Kilpailu": "Kolmonen",
   "Stadion": "Siltamäki",
   "Kaupunki": "Helsinki",
@@ -3572,17 +3572,17 @@
  {
   "ottelu_id": 201119,
   "Kausi": 2011,
-  "Päivämäärä": "08\/11\/2011",
+  "Päivämäärä": "08.11.2011",
   "Kilpailu": "Kolmonen",
   "Stadion": "Myyrmäen jalkapallostadion",
   "Kaupunki": "Vantaa",
-  "Kotijoukkue": "PK-35\/VJS",
+  "Kotijoukkue": "PK-35.VJS",
   "Vierasjoukkue": "HPS"
  },
  {
   "ottelu_id": 201118,
   "Kausi": 2011,
-  "Päivämäärä": "08\/07\/2011",
+  "Päivämäärä": "08.07.2011",
   "Kilpailu": "Kolmonen",
   "Stadion": "Siltamäki",
   "Kaupunki": "Helsinki",
@@ -3594,19 +3594,19 @@
  {
   "ottelu_id": 201117,
   "Kausi": 2011,
-  "Päivämäärä": "08\/03\/2011",
+  "Päivämäärä": "08.03.2011",
   "Kilpailu": "Kolmonen",
   "Stadion": "Siltamäki",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "FC Espoo\/Akatemia",
+  "Vierasjoukkue": "FC Espoo.Akatemia",
   "maalit_koti": 1,
   "maalit_vieras": 4
  },
  {
   "ottelu_id": 201116,
   "Kausi": 2011,
-  "Päivämäärä": "07\/28\/2011",
+  "Päivämäärä": "07.28.2011",
   "Kilpailu": "Kolmonen",
   "Stadion": "Tuusulan UK",
   "Kaupunki": "Tuusula",
@@ -3616,7 +3616,7 @@
  {
   "ottelu_id": 201115,
   "Kausi": 2011,
-  "Päivämäärä": "06\/28\/2011",
+  "Päivämäärä": "06.28.2011",
   "Kilpailu": "Kolmonen",
   "Stadion": "Siltamäki",
   "Kaupunki": "Helsinki",
@@ -3628,7 +3628,7 @@
  {
   "ottelu_id": 201114,
   "Kausi": 2011,
-  "Päivämäärä": "06\/21\/2011",
+  "Päivämäärä": "06.21.2011",
   "Kilpailu": "Kolmonen",
   "Stadion": "Matinkylä",
   "Kaupunki": "Espoo",
@@ -3640,7 +3640,7 @@
  {
   "ottelu_id": 201113,
   "Kausi": 2011,
-  "Päivämäärä": "06\/15\/2011",
+  "Päivämäärä": "06.15.2011",
   "Kilpailu": "Kolmonen",
   "Stadion": "Siltamäki",
   "Kaupunki": "Helsinki",
@@ -3652,7 +3652,7 @@
  {
   "ottelu_id": 201112,
   "Kausi": 2011,
-  "Päivämäärä": "06\/07\/2011",
+  "Päivämäärä": "06.07.2011",
   "Kilpailu": "Kolmonen",
   "Stadion": "Tikkurila",
   "Kaupunki": "Vantaa",
@@ -3662,7 +3662,7 @@
  {
   "ottelu_id": 201111,
   "Kausi": 2011,
-  "Päivämäärä": "06\/01\/2011",
+  "Päivämäärä": "06.01.2011",
   "Kilpailu": "Kolmonen",
   "Stadion": "Siltamäki",
   "Kaupunki": "Helsinki",
@@ -3674,19 +3674,19 @@
  {
   "ottelu_id": 201110,
   "Kausi": 2011,
-  "Päivämäärä": "05\/25\/2011",
+  "Päivämäärä": "05.25.2011",
   "Kilpailu": "Kolmonen",
   "Stadion": "Siltamäki",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "Gnistan\/Ogeli",
+  "Vierasjoukkue": "Gnistan.Ogeli",
   "maalit_koti": 4,
   "maalit_vieras": 0
  },
  {
   "ottelu_id": 201109,
   "Kausi": 2011,
-  "Päivämäärä": "05\/17\/2011",
+  "Päivämäärä": "05.17.2011",
   "Kilpailu": "Kolmonen",
   "Stadion": "Tali halli",
   "Kaupunki": "Helsinki",
@@ -3698,29 +3698,29 @@
  {
   "ottelu_id": 201108,
   "Kausi": 2011,
-  "Päivämäärä": "05\/12\/2011",
+  "Päivämäärä": "05.12.2011",
   "Kilpailu": "Kolmonen",
   "Stadion": "Tali halli",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "PK-35\/VJS",
+  "Vierasjoukkue": "PK-35.VJS",
   "maalit_koti": 1,
   "maalit_vieras": 4
  },
  {
   "ottelu_id": 201107,
   "Kausi": 2011,
-  "Päivämäärä": "05\/04\/2011",
+  "Päivämäärä": "05.04.2011",
   "Kilpailu": "Kolmonen",
   "Stadion": "Leppävaara",
   "Kaupunki": "Espoo",
-  "Kotijoukkue": "FC Espoo\/Akatemia",
+  "Kotijoukkue": "FC Espoo.Akatemia",
   "Vierasjoukkue": "HPS"
  },
  {
   "ottelu_id": 201106,
   "Kausi": 2011,
-  "Päivämäärä": "04\/27\/2011",
+  "Päivämäärä": "04.27.2011",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pirkkola",
   "Kaupunki": "Helsinki",
@@ -3732,7 +3732,7 @@
  {
   "ottelu_id": 201105,
   "Kausi": 2011,
-  "Päivämäärä": "04\/19\/2011",
+  "Päivämäärä": "04.19.2011",
   "Kilpailu": "Kolmonen",
   "Stadion": "Söderkulla",
   "Kaupunki": "Sipoo",
@@ -3744,7 +3744,7 @@
  {
   "ottelu_id": 201104,
   "Kausi": 2011,
-  "Päivämäärä": "03\/13\/2011",
+  "Päivämäärä": "03.13.2011",
   "Kilpailu": "Suomen Cup",
   "Kotijoukkue": "HPS",
   "Vierasjoukkue": "FC Espoo",
@@ -3754,7 +3754,7 @@
  {
   "ottelu_id": 201103,
   "Kausi": 2011,
-  "Päivämäärä": "01\/30\/2011",
+  "Päivämäärä": "01.30.2011",
   "Kilpailu": "Harjoitusottelu",
   "Kotijoukkue": "FC Puotila",
   "Vierasjoukkue": "HPS",
@@ -3764,7 +3764,7 @@
  {
   "ottelu_id": 201102,
   "Kausi": 2011,
-  "Päivämäärä": "01\/29\/2011",
+  "Päivämäärä": "01.29.2011",
   "Kilpailu": "Harjoitusottelu",
   "Kotijoukkue": "HPS",
   "Vierasjoukkue": "FC POHU",
@@ -3774,17 +3774,17 @@
  {
   "ottelu_id": 201101,
   "Kausi": 2011,
-  "Päivämäärä": "01\/21\/2011",
+  "Päivämäärä": "01.21.2011",
   "Kilpailu": "Talvisarja",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "FC Viikingit\/2",
+  "Vierasjoukkue": "FC Viikingit.2",
   "maalit_koti": 2,
   "maalit_vieras": 2
  },
  {
   "ottelu_id": 201022,
   "Kausi": 2010,
-  "Päivämäärä": "10\/10\/2010",
+  "Päivämäärä": "10.10.2010",
   "Kilpailu": "Kolmonen",
   "Stadion": "Kallio",
   "Kaupunki": "Helsinki",
@@ -3796,7 +3796,7 @@
  {
   "ottelu_id": 201021,
   "Kausi": 2010,
-  "Päivämäärä": "10\/02\/2010",
+  "Päivämäärä": "10.02.2010",
   "Kilpailu": "Kolmonen",
   "Stadion": "Oulunkylä",
   "Kaupunki": "Helsinki",
@@ -3808,7 +3808,7 @@
  {
   "ottelu_id": 201020,
   "Kausi": 2010,
-  "Päivämäärä": "09\/23\/2010",
+  "Päivämäärä": "09.23.2010",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pallomylly",
   "Kaupunki": "Helsinki",
@@ -3820,7 +3820,7 @@
  {
   "ottelu_id": 201019,
   "Kausi": 2010,
-  "Päivämäärä": "09\/14\/2010",
+  "Päivämäärä": "09.14.2010",
   "Kilpailu": "Kolmonen",
   "Stadion": "Tali",
   "Kaupunki": "Helsinki",
@@ -3832,7 +3832,7 @@
  {
   "ottelu_id": 201018,
   "Kausi": 2010,
-  "Päivämäärä": "09\/07\/2010",
+  "Päivämäärä": "09.07.2010",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pirkkola",
   "Kaupunki": "Helsinki",
@@ -3844,7 +3844,7 @@
  {
   "ottelu_id": 201017,
   "Kausi": 2010,
-  "Päivämäärä": "09\/03\/2010",
+  "Päivämäärä": "09.03.2010",
   "Kilpailu": "Kolmonen",
   "Stadion": "Kumpula",
   "Kaupunki": "Helsinki",
@@ -3856,19 +3856,19 @@
  {
   "ottelu_id": 201016,
   "Kausi": 2010,
-  "Päivämäärä": "08\/24\/2010",
+  "Päivämäärä": "08.24.2010",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pirkkola",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "MPS\/Atletico",
+  "Vierasjoukkue": "MPS.Atletico",
   "maalit_koti": 0,
   "maalit_vieras": 3
  },
  {
   "ottelu_id": 201015,
   "Kausi": 2010,
-  "Päivämäärä": "08\/17\/2010",
+  "Päivämäärä": "08.17.2010",
   "Kilpailu": "Kolmonen",
   "Stadion": "Matinkylä",
   "Kaupunki": "Espoo",
@@ -3880,7 +3880,7 @@
  {
   "ottelu_id": 201014,
   "Kausi": 2010,
-  "Päivämäärä": "08\/10\/2010",
+  "Päivämäärä": "08.10.2010",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pirkkola",
   "Kaupunki": "Helsinki",
@@ -3892,7 +3892,7 @@
  {
   "ottelu_id": 201013,
   "Kausi": 2010,
-  "Päivämäärä": "08\/03\/2010",
+  "Päivämäärä": "08.03.2010",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pirkkola",
   "Kaupunki": "Helsinki",
@@ -3904,7 +3904,7 @@
  {
   "ottelu_id": 201012,
   "Kausi": 2010,
-  "Päivämäärä": "07\/29\/2010",
+  "Päivämäärä": "07.29.2010",
   "Kilpailu": "Kolmonen",
   "Stadion": "Tali",
   "Kaupunki": "Helsinki",
@@ -3916,7 +3916,7 @@
  {
   "ottelu_id": 201011,
   "Kausi": 2010,
-  "Päivämäärä": "07\/01\/2010",
+  "Päivämäärä": "07.01.2010",
   "Kilpailu": "Kolmonen",
   "Stadion": "Urheilupuisto",
   "Kaupunki": "Kirkkonummi",
@@ -3928,7 +3928,7 @@
  {
   "ottelu_id": 201010,
   "Kausi": 2010,
-  "Päivämäärä": "06\/23\/2010",
+  "Päivämäärä": "06.23.2010",
   "Kilpailu": "Kolmonen",
   "Stadion": "Kirkkonummi",
   "Kaupunki": "Kirkkonummi",
@@ -3940,7 +3940,7 @@
  {
   "ottelu_id": 201009,
   "Kausi": 2010,
-  "Päivämäärä": "06\/15\/2010",
+  "Päivämäärä": "06.15.2010",
   "Kilpailu": "Kolmonen",
   "Stadion": "Rukki Areena",
   "Kaupunki": "Hanko",
@@ -3952,7 +3952,7 @@
  {
   "ottelu_id": 201008,
   "Kausi": 2010,
-  "Päivämäärä": "06\/11\/2010",
+  "Päivämäärä": "06.11.2010",
   "Kilpailu": "Kolmonen",
   "Stadion": "Kuoppanummi",
   "Kaupunki": "Nummela",
@@ -3964,7 +3964,7 @@
  {
   "ottelu_id": 201007,
   "Kausi": 2010,
-  "Päivämäärä": "06\/08\/2010",
+  "Päivämäärä": "06.08.2010",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pirkkola",
   "Kaupunki": "Helsinki",
@@ -3976,7 +3976,7 @@
  {
   "ottelu_id": 201006,
   "Kausi": 2010,
-  "Päivämäärä": "06\/01\/2010",
+  "Päivämäärä": "06.01.2010",
   "Kilpailu": "Kolmonen",
   "Stadion": "Keski-Espoon tekonurmi",
   "Kaupunki": "Espoo",
@@ -3988,7 +3988,7 @@
  {
   "ottelu_id": 201005,
   "Kausi": 2010,
-  "Päivämäärä": "05\/25\/2010",
+  "Päivämäärä": "05.25.2010",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pirkkola",
   "Kaupunki": "Helsinki",
@@ -4000,11 +4000,11 @@
  {
   "ottelu_id": 201004,
   "Kausi": 2010,
-  "Päivämäärä": "05\/22\/2010",
+  "Päivämäärä": "05.22.2010",
   "Kilpailu": "Kolmonen",
   "Stadion": "Tapanila",
   "Kaupunki": "Helsinki",
-  "Kotijoukkue": "MPS\/Atletico",
+  "Kotijoukkue": "MPS.Atletico",
   "Vierasjoukkue": "HPS",
   "maalit_koti": 1,
   "maalit_vieras": 1
@@ -4012,7 +4012,7 @@
  {
   "ottelu_id": 201003,
   "Kausi": 2010,
-  "Päivämäärä": "05\/11\/2010",
+  "Päivämäärä": "05.11.2010",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pirkkola",
   "Kaupunki": "Helsinki",
@@ -4024,7 +4024,7 @@
  {
   "ottelu_id": 201002,
   "Kausi": 2010,
-  "Päivämäärä": "05\/05\/2010",
+  "Päivämäärä": "05.05.2010",
   "Kilpailu": "Kolmonen",
   "Stadion": "Tikkurila",
   "Kaupunki": "Vantaa",
@@ -4036,7 +4036,7 @@
  {
   "ottelu_id": 201001,
   "Kausi": 2010,
-  "Päivämäärä": "04\/28\/2010",
+  "Päivämäärä": "04.28.2010",
   "Kilpailu": "Kolmonen",
   "Stadion": "Keski-Espoon tekonurmi",
   "Kaupunki": "Espoo",
@@ -4048,7 +4048,7 @@
  {
   "ottelu_id": 201000,
   "Kausi": 2010,
-  "Päivämäärä": "02\/27\/2010",
+  "Päivämäärä": "02.27.2010",
   "Kilpailu": "Suomen Cup",
   "Stadion": "Töölön pallokenttä",
   "Kaupunki": "Helsinki",
@@ -4058,7 +4058,7 @@
  {
   "ottelu_id": 200929,
   "Kausi": 2009,
-  "Päivämäärä": "10\/10\/2009",
+  "Päivämäärä": "10.10.2009",
   "Kilpailu": "Kolmonen",
   "Stadion": "Tali halli",
   "Kaupunki": "Helsinki",
@@ -4070,11 +4070,11 @@
  {
   "ottelu_id": 200928,
   "Kausi": 2009,
-  "Päivämäärä": "10\/01\/2009",
+  "Päivämäärä": "10.01.2009",
   "Kilpailu": "Kolmonen",
   "Stadion": "Töölön pallokenttä",
   "Kaupunki": "Helsinki",
-  "Kotijoukkue": "HIFK\/2",
+  "Kotijoukkue": "HIFK.2",
   "Vierasjoukkue": "HPS",
   "maalit_koti": 0,
   "maalit_vieras": 9
@@ -4082,7 +4082,7 @@
  {
   "ottelu_id": 200927,
   "Kausi": 2009,
-  "Päivämäärä": "09\/22\/2009",
+  "Päivämäärä": "09.22.2009",
   "Kilpailu": "Kolmonen",
   "Stadion": "Tali halli",
   "Kaupunki": "Helsinki",
@@ -4094,7 +4094,7 @@
  {
   "ottelu_id": 200926,
   "Kausi": 2009,
-  "Päivämäärä": "09\/15\/2009",
+  "Päivämäärä": "09.15.2009",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pirkkola",
   "Kaupunki": "Helsinki",
@@ -4106,7 +4106,7 @@
  {
   "ottelu_id": 200925,
   "Kausi": 2009,
-  "Päivämäärä": "09\/08\/2009",
+  "Päivämäärä": "09.08.2009",
   "Kilpailu": "Kolmonen",
   "Stadion": "Ratapuisto",
   "Kaupunki": "Nummela",
@@ -4118,7 +4118,7 @@
  {
   "ottelu_id": 200924,
   "Kausi": 2009,
-  "Päivämäärä": "09\/01\/2009",
+  "Päivämäärä": "09.01.2009",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pirkkola",
   "Kaupunki": "Helsinki",
@@ -4130,7 +4130,7 @@
  {
   "ottelu_id": 200923,
   "Kausi": 2009,
-  "Päivämäärä": "08\/25\/2009",
+  "Päivämäärä": "08.25.2009",
   "Kilpailu": "Kolmonen",
   "Stadion": "Käpylä",
   "Kaupunki": "Helsinki",
@@ -4142,7 +4142,7 @@
  {
   "ottelu_id": 200922,
   "Kausi": 2009,
-  "Päivämäärä": "08\/18\/2009",
+  "Päivämäärä": "08.18.2009",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pirkkola",
   "Kaupunki": "Helsinki",
@@ -4154,7 +4154,7 @@
  {
   "ottelu_id": 200921,
   "Kausi": 2009,
-  "Päivämäärä": "08\/13\/2009",
+  "Päivämäärä": "08.13.2009",
   "Kilpailu": "Kolmonen",
   "Stadion": "Kumpula",
   "Kaupunki": "Helsinki",
@@ -4166,7 +4166,7 @@
  {
   "ottelu_id": 200920,
   "Kausi": 2009,
-  "Päivämäärä": "08\/04\/2009",
+  "Päivämäärä": "08.04.2009",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pirkkola",
   "Kaupunki": "Helsinki",
@@ -4178,7 +4178,7 @@
  {
   "ottelu_id": 200919,
   "Kausi": 2009,
-  "Päivämäärä": "08\/01\/2009",
+  "Päivämäärä": "08.01.2009",
   "Kilpailu": "Kolmonen",
   "Stadion": "Keskusnurmi",
   "Kaupunki": "Kirkkonummi",
@@ -4190,7 +4190,7 @@
  {
   "ottelu_id": 200918,
   "Kausi": 2009,
-  "Päivämäärä": "07\/01\/2009",
+  "Päivämäärä": "07.01.2009",
   "Kilpailu": "Kolmonen",
   "Stadion": "Keskusnurmi",
   "Kaupunki": "Karjaa",
@@ -4202,19 +4202,19 @@
  {
   "ottelu_id": 200917,
   "Kausi": 2009,
-  "Päivämäärä": "06\/23\/2009",
+  "Päivämäärä": "06.23.2009",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pirkkola",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "HIFK\/2",
+  "Vierasjoukkue": "HIFK.2",
   "maalit_koti": 3,
   "maalit_vieras": 2
  },
  {
   "ottelu_id": 200916,
   "Kausi": 2009,
-  "Päivämäärä": "06\/16\/2009",
+  "Päivämäärä": "06.16.2009",
   "Kilpailu": "Kolmonen",
   "Stadion": "Siltamäki",
   "Kaupunki": "Helsinki",
@@ -4226,7 +4226,7 @@
  {
   "ottelu_id": 200915,
   "Kausi": 2009,
-  "Päivämäärä": "06\/09\/2009",
+  "Päivämäärä": "06.09.2009",
   "Kilpailu": "Kolmonen",
   "Stadion": "Laaksolahti",
   "Kaupunki": "Espoo",
@@ -4238,7 +4238,7 @@
  {
   "ottelu_id": 200914,
   "Kausi": 2009,
-  "Päivämäärä": "06\/02\/2009",
+  "Päivämäärä": "06.02.2009",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pirkkola",
   "Kaupunki": "Helsinki",
@@ -4250,7 +4250,7 @@
  {
   "ottelu_id": 200913,
   "Kausi": 2009,
-  "Päivämäärä": "05\/27\/2009",
+  "Päivämäärä": "05.27.2009",
   "Kilpailu": "Kolmonen",
   "Stadion": "Rukki Arena",
   "Kaupunki": "Hanko",
@@ -4262,7 +4262,7 @@
  {
   "ottelu_id": 200912,
   "Kausi": 2009,
-  "Päivämäärä": "05\/22\/2009",
+  "Päivämäärä": "05.22.2009",
   "Kilpailu": "Kolmonen",
   "Stadion": "Töölön pallokenttä",
   "Kaupunki": "Helsinki",
@@ -4274,7 +4274,7 @@
  {
   "ottelu_id": 200911,
   "Kausi": 2009,
-  "Päivämäärä": "05\/12\/2009",
+  "Päivämäärä": "05.12.2009",
   "Kilpailu": "Kolmonen",
   "Stadion": "Vantaan Stadion",
   "Kaupunki": "Vantaa",
@@ -4286,7 +4286,7 @@
  {
   "ottelu_id": 200910,
   "Kausi": 2009,
-  "Päivämäärä": "05\/08\/2009",
+  "Päivämäärä": "05.08.2009",
   "Kilpailu": "Kolmonen",
   "Stadion": "Töölön pallokenttä",
   "Kaupunki": "Helsinki",
@@ -4298,7 +4298,7 @@
  {
   "ottelu_id": 200909,
   "Kausi": 2009,
-  "Päivämäärä": "05\/03\/2009",
+  "Päivämäärä": "05.03.2009",
   "Kilpailu": "Kolmonen",
   "Stadion": "Keski-Espoon tekonurmi",
   "Kaupunki": "Espoo",
@@ -4310,7 +4310,7 @@
  {
   "ottelu_id": 200908,
   "Kausi": 2009,
-  "Päivämäärä": "04\/24\/2009",
+  "Päivämäärä": "04.24.2009",
   "Kilpailu": "Kolmonen",
   "Stadion": "Pirkkola",
   "Kaupunki": "Helsinki",
@@ -4322,7 +4322,7 @@
  {
   "ottelu_id": 200907,
   "Kausi": 2009,
-  "Päivämäärä": "03\/28\/2009",
+  "Päivämäärä": "03.28.2009",
   "Kilpailu": "Harjoitusottelu",
   "Stadion": "Kisakallio",
   "Kaupunki": "Lohja",
@@ -4334,7 +4334,7 @@
  {
   "ottelu_id": 200906,
   "Kausi": 2009,
-  "Päivämäärä": "03\/25\/2009",
+  "Päivämäärä": "03.25.2009",
   "Kilpailu": "Harjoitusottelu",
   "Kaupunki": "Lahti",
   "Kotijoukkue": "City Stars",
@@ -4345,18 +4345,18 @@
  {
   "ottelu_id": 200905,
   "Kausi": 2009,
-  "Päivämäärä": "03\/14\/2009",
+  "Päivämäärä": "03.14.2009",
   "Kilpailu": "Harjoitusottelu",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "HPS\/A",
+  "Vierasjoukkue": "HPS.A",
   "maalit_koti": 3,
   "maalit_vieras": 2
  },
  {
   "ottelu_id": 200904,
   "Kausi": 2009,
-  "Päivämäärä": "03\/07\/2009",
+  "Päivämäärä": "03.07.2009",
   "Kilpailu": "Harjoitusottelu",
   "Stadion": "Töölön pallokenttä",
   "Kaupunki": "Helsinki",
@@ -4368,7 +4368,7 @@
  {
   "ottelu_id": 200903,
   "Kausi": 2009,
-  "Päivämäärä": "02\/28\/2009",
+  "Päivämäärä": "02.28.2009",
   "Kilpailu": "Harjoitusottelu",
   "Stadion": "Töölön pallokenttä",
   "Kaupunki": "Helsinki",
@@ -4380,7 +4380,7 @@
  {
   "ottelu_id": 200902,
   "Kausi": 2009,
-  "Päivämäärä": "02\/14\/2009",
+  "Päivämäärä": "02.14.2009",
   "Kilpailu": "Harjoitusottelu",
   "Kotijoukkue": "HPS",
   "Vierasjoukkue": "VJS",
@@ -4390,7 +4390,7 @@
  {
   "ottelu_id": 200901,
   "Kausi": 2009,
-  "Päivämäärä": "02\/07\/2009",
+  "Päivämäärä": "02.07.2009",
   "Kilpailu": "Harjoitusottelu",
   "Stadion": "Tali",
   "Kaupunki": "Helsinki",
@@ -4402,7 +4402,7 @@
  {
   "ottelu_id": 200823,
   "Kausi": 2008,
-  "Päivämäärä": "10\/03\/2008",
+  "Päivämäärä": "10.03.2008",
   "Kilpailu": "Nelosen finaali",
   "Stadion": "Laajasalo",
   "Kaupunki": "Helsinki",
@@ -4414,7 +4414,7 @@
  {
   "ottelu_id": 200822,
   "Kausi": 2008,
-  "Päivämäärä": "09\/30\/2008",
+  "Päivämäärä": "09.30.2008",
   "Kilpailu": "Nelonen",
   "Stadion": "Laajasalo",
   "Kaupunki": "Helsinki",
@@ -4426,19 +4426,19 @@
  {
   "ottelu_id": 200821,
   "Kausi": 2008,
-  "Päivämäärä": "09\/24\/2008",
+  "Päivämäärä": "09.24.2008",
   "Kilpailu": "Nelonen",
   "Stadion": "Pirkkola",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "FC Kontu\/Arctic",
+  "Vierasjoukkue": "FC Kontu.Arctic",
   "maalit_koti": 1,
   "maalit_vieras": 1
  },
  {
   "ottelu_id": 200820,
   "Kausi": 2008,
-  "Päivämäärä": "09\/15\/2008",
+  "Päivämäärä": "09.15.2008",
   "Kilpailu": "Nelonen",
   "Stadion": "Töölön pallokenttä",
   "Kaupunki": "Helsinki",
@@ -4450,7 +4450,7 @@
  {
   "ottelu_id": 200819,
   "Kausi": 2008,
-  "Päivämäärä": "09\/13\/2008",
+  "Päivämäärä": "09.13.2008",
   "Kilpailu": "Nelonen",
   "Stadion": "Oulunkylä",
   "Kaupunki": "Helsinki",
@@ -4462,11 +4462,11 @@
  {
   "ottelu_id": 200818,
   "Kausi": 2008,
-  "Päivämäärä": "09\/05\/2008",
+  "Päivämäärä": "09.05.2008",
   "Kilpailu": "Nelonen",
   "Stadion": "Kumpula",
   "Kaupunki": "Helsinki",
-  "Kotijoukkue": "KäPa\/PuLe",
+  "Kotijoukkue": "KäPa.PuLe",
   "Vierasjoukkue": "HPS",
   "maalit_koti": 0,
   "maalit_vieras": 1
@@ -4474,7 +4474,7 @@
  {
   "ottelu_id": 200817,
   "Kausi": 2008,
-  "Päivämäärä": "08\/30\/2008",
+  "Päivämäärä": "08.30.2008",
   "Kilpailu": "Nelonen",
   "Stadion": "Siltamäki",
   "Kaupunki": "Helsinki",
@@ -4486,7 +4486,7 @@
  {
   "ottelu_id": 200816,
   "Kausi": 2008,
-  "Päivämäärä": "08\/24\/2008",
+  "Päivämäärä": "08.24.2008",
   "Kilpailu": "Nelonen",
   "Stadion": "Töölön pallokenttä",
   "Kaupunki": "Helsinki",
@@ -4498,23 +4498,23 @@
  {
   "ottelu_id": 200815,
   "Kausi": 2008,
-  "Päivämäärä": "08\/16\/2008",
+  "Päivämäärä": "08.16.2008",
   "Kilpailu": "Nelonen",
   "Stadion": "Siltamäki",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "MaKu\/4",
+  "Vierasjoukkue": "MaKu.4",
   "maalit_koti": 7,
   "maalit_vieras": 1
  },
  {
   "ottelu_id": 200814,
   "Kausi": 2008,
-  "Päivämäärä": "08\/04\/2008",
+  "Päivämäärä": "08.04.2008",
   "Kilpailu": "Nelonen",
   "Stadion": "Kannelmäki",
   "Kaupunki": "Helsinki",
-  "Kotijoukkue": "Populus\/Zyklon",
+  "Kotijoukkue": "Populus.Zyklon",
   "Vierasjoukkue": "HPS",
   "maalit_koti": 2,
   "maalit_vieras": 1
@@ -4522,23 +4522,23 @@
  {
   "ottelu_id": 200813,
   "Kausi": 2008,
-  "Päivämäärä": "07\/29\/2008",
+  "Päivämäärä": "07.29.2008",
   "Kilpailu": "Nelonen",
   "Stadion": "Pirkkola",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "Kiffen\/2",
+  "Vierasjoukkue": "Kiffen.2",
   "maalit_koti": 9,
   "maalit_vieras": 1
  },
  {
   "ottelu_id": 200812,
   "Kausi": 2008,
-  "Päivämäärä": "07\/23\/2008",
+  "Päivämäärä": "07.23.2008",
   "Kilpailu": "Nelonen",
   "Stadion": "Tali",
   "Kaupunki": "Helsinki",
-  "Kotijoukkue": "HIFK\/2",
+  "Kotijoukkue": "HIFK.2",
   "Vierasjoukkue": "HPS",
   "maalit_koti": 0,
   "maalit_vieras": 4
@@ -4546,11 +4546,11 @@
  {
   "ottelu_id": 200811,
   "Kausi": 2008,
-  "Päivämäärä": "06\/26\/2008",
+  "Päivämäärä": "06.26.2008",
   "Kilpailu": "Nelonen",
   "Stadion": "Kontula",
   "Kaupunki": "Helsinki",
-  "Kotijoukkue": "FC Kontu\/Arctic",
+  "Kotijoukkue": "FC Kontu.Arctic",
   "Vierasjoukkue": "HPS",
   "maalit_koti": 0,
   "maalit_vieras": 2
@@ -4558,7 +4558,7 @@
  {
   "ottelu_id": 200810,
   "Kausi": 2008,
-  "Päivämäärä": "06\/24\/2008",
+  "Päivämäärä": "06.24.2008",
   "Kilpailu": "Nelonen",
   "Stadion": "Pirkkola",
   "Kaupunki": "Helsinki",
@@ -4570,7 +4570,7 @@
  {
   "ottelu_id": 200809,
   "Kausi": 2008,
-  "Päivämäärä": "06\/17\/2008",
+  "Päivämäärä": "06.17.2008",
   "Kilpailu": "Nelonen",
   "Stadion": "Pitäjänmäki",
   "Kaupunki": "Helsinki",
@@ -4582,19 +4582,19 @@
  {
   "ottelu_id": 200808,
   "Kausi": 2008,
-  "Päivämäärä": "06\/13\/2008",
+  "Päivämäärä": "06.13.2008",
   "Kilpailu": "Nelonen",
   "Stadion": "Pirkkola",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "KäPa\/PuLe",
+  "Vierasjoukkue": "KäPa.PuLe",
   "maalit_koti": 3,
   "maalit_vieras": 1
  },
  {
   "ottelu_id": 200807,
   "Kausi": 2008,
-  "Päivämäärä": "06\/07\/2008",
+  "Päivämäärä": "06.07.2008",
   "Kilpailu": "Nelonen",
   "Stadion": "Myllypuro",
   "Kaupunki": "Helsinki",
@@ -4606,7 +4606,7 @@
  {
   "ottelu_id": 200806,
   "Kausi": 2008,
-  "Päivämäärä": "05\/29\/2008",
+  "Päivämäärä": "05.29.2008",
   "Kilpailu": "Nelonen",
   "Stadion": "Pirkkola",
   "Kaupunki": "Helsinki",
@@ -4618,7 +4618,7 @@
  {
   "ottelu_id": 200805,
   "Kausi": 2008,
-  "Päivämäärä": "05\/25\/2008",
+  "Päivämäärä": "05.25.2008",
   "Kilpailu": "Nelonen",
   "Stadion": "Pirkkola",
   "Kaupunki": "Helsinki",
@@ -4630,11 +4630,11 @@
  {
   "ottelu_id": 200804,
   "Kausi": 2008,
-  "Päivämäärä": "05\/20\/2008",
+  "Päivämäärä": "05.20.2008",
   "Kilpailu": "Nelonen",
   "Stadion": "Pihlajamäki",
   "Kaupunki": "Helsinki",
-  "Kotijoukkue": "MaKu\/4",
+  "Kotijoukkue": "MaKu.4",
   "Vierasjoukkue": "HPS",
   "maalit_koti": 3,
   "maalit_vieras": 1
@@ -4642,23 +4642,23 @@
  {
   "ottelu_id": 200803,
   "Kausi": 2008,
-  "Päivämäärä": "05\/16\/2008",
+  "Päivämäärä": "05.16.2008",
   "Kilpailu": "Nelonen",
   "Stadion": "Pirkkola",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "Populus\/Zyklon",
+  "Vierasjoukkue": "Populus.Zyklon",
   "maalit_koti": 0,
   "maalit_vieras": 0
  },
  {
   "ottelu_id": 200802,
   "Kausi": 2008,
-  "Päivämäärä": "05\/09\/2008",
+  "Päivämäärä": "05.09.2008",
   "Kilpailu": "Nelonen",
   "Stadion": "Töölön pallokenttä",
   "Kaupunki": "Helsinki",
-  "Kotijoukkue": "Kiffen\/2",
+  "Kotijoukkue": "Kiffen.2",
   "Vierasjoukkue": "HPS",
   "maalit_koti": 1,
   "maalit_vieras": 3
@@ -4666,31 +4666,31 @@
  {
   "ottelu_id": 200801,
   "Kausi": 2008,
-  "Päivämäärä": "05\/02\/2008",
+  "Päivämäärä": "05.02.2008",
   "Kilpailu": "Nelonen",
   "Stadion": "Pirkkola",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "HIFK\/2",
+  "Vierasjoukkue": "HIFK.2",
   "maalit_koti": 2,
   "maalit_vieras": 2
  },
  {
   "ottelu_id": 200723,
   "Kausi": 2007,
-  "Päivämäärä": "09\/30\/2007",
+  "Päivämäärä": "09.30.2007",
   "Kilpailu": "Nelonen",
   "Stadion": "Lassila",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "Kiffen\/2",
+  "Vierasjoukkue": "Kiffen.2",
   "maalit_koti": 2,
   "maalit_vieras": 1
  },
  {
   "ottelu_id": 200722,
   "Kausi": 2007,
-  "Päivämäärä": "09\/24\/2007",
+  "Päivämäärä": "09.24.2007",
   "Kilpailu": "Nelonen",
   "Stadion": "Kannelmäki",
   "Kaupunki": "Helsinki",
@@ -4702,7 +4702,7 @@
  {
   "ottelu_id": 200721,
   "Kausi": 2007,
-  "Päivämäärä": "09\/16\/2007",
+  "Päivämäärä": "09.16.2007",
   "Kilpailu": "Nelonen",
   "Stadion": "Kallio",
   "Kaupunki": "Helsinki",
@@ -4714,7 +4714,7 @@
  {
   "ottelu_id": 200720,
   "Kausi": 2007,
-  "Päivämäärä": "09\/11\/2007",
+  "Päivämäärä": "09.11.2007",
   "Kilpailu": "Nelonen",
   "Stadion": "Töölön pallokenttä",
   "Kaupunki": "Helsinki",
@@ -4726,19 +4726,19 @@
  {
   "ottelu_id": 200719,
   "Kausi": 2007,
-  "Päivämäärä": "09\/08\/2007",
+  "Päivämäärä": "09.08.2007",
   "Kilpailu": "Nelonen",
   "Stadion": "Töölön pallokenttä",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "HDS\/Mondial",
+  "Vierasjoukkue": "HDS.Mondial",
   "maalit_koti": 6,
   "maalit_vieras": 0
  },
  {
   "ottelu_id": 200718,
   "Kausi": 2007,
-  "Päivämäärä": "08\/28\/2007",
+  "Päivämäärä": "08.28.2007",
   "Kilpailu": "Nelonen",
   "Stadion": "Töölön pallokenttä",
   "Kaupunki": "Helsinki",
@@ -4750,7 +4750,7 @@
  {
   "ottelu_id": 200717,
   "Kausi": 2007,
-  "Päivämäärä": "08\/20\/2007",
+  "Päivämäärä": "08.20.2007",
   "Kilpailu": "Nelonen",
   "Stadion": "Töölön pallokenttä",
   "Kaupunki": "Helsinki",
@@ -4762,7 +4762,7 @@
  {
   "ottelu_id": 200716,
   "Kausi": 2007,
-  "Päivämäärä": "08\/13\/2007",
+  "Päivämäärä": "08.13.2007",
   "Kilpailu": "Nelonen",
   "Stadion": "Töölön pallokenttä",
   "Kaupunki": "Helsinki",
@@ -4774,11 +4774,11 @@
  {
   "ottelu_id": 200715,
   "Kausi": 2007,
-  "Päivämäärä": "08\/06\/2007",
+  "Päivämäärä": "08.06.2007",
   "Kilpailu": "Nelonen",
   "Stadion": "Töölön pallokenttä",
   "Kaupunki": "Helsinki",
-  "Kotijoukkue": "Gnistan\/2",
+  "Kotijoukkue": "Gnistan.2",
   "Vierasjoukkue": "HPS",
   "maalit_koti": 0,
   "maalit_vieras": 0
@@ -4786,7 +4786,7 @@
  {
   "ottelu_id": 200714,
   "Kausi": 2007,
-  "Päivämäärä": "07\/30\/2007",
+  "Päivämäärä": "07.30.2007",
   "Kilpailu": "Nelonen",
   "Stadion": "Tali",
   "Kaupunki": "Helsinki",
@@ -4798,7 +4798,7 @@
  {
   "ottelu_id": 200713,
   "Kausi": 2007,
-  "Päivämäärä": "07\/23\/2007",
+  "Päivämäärä": "07.23.2007",
   "Kilpailu": "Nelonen",
   "Stadion": "Käpylä",
   "Kaupunki": "Helsinki",
@@ -4810,11 +4810,11 @@
  {
   "ottelu_id": 200712,
   "Kausi": 2007,
-  "Päivämäärä": "07\/02\/2007",
+  "Päivämäärä": "07.02.2007",
   "Kilpailu": "Nelonen",
   "Stadion": "Käpylä",
   "Kaupunki": "Helsinki",
-  "Kotijoukkue": "Kiffen\/2",
+  "Kotijoukkue": "Kiffen.2",
   "Vierasjoukkue": "HPS",
   "maalit_koti": 1,
   "maalit_vieras": 4
@@ -4822,7 +4822,7 @@
  {
   "ottelu_id": 200711,
   "Kausi": 2007,
-  "Päivämäärä": "06\/28\/2007",
+  "Päivämäärä": "06.28.2007",
   "Kilpailu": "Nelonen",
   "Stadion": "Töölön pallokenttä",
   "Kaupunki": "Helsinki",
@@ -4834,7 +4834,7 @@
  {
   "ottelu_id": 200710,
   "Kausi": 2007,
-  "Päivämäärä": "06\/20\/2007",
+  "Päivämäärä": "06.20.2007",
   "Kilpailu": "Nelonen",
   "Stadion": "Töölön pallokenttä",
   "Kaupunki": "Helsinki",
@@ -4846,7 +4846,7 @@
  {
   "ottelu_id": 200709,
   "Kausi": 2007,
-  "Päivämäärä": "06\/12\/2007",
+  "Päivämäärä": "06.12.2007",
   "Kilpailu": "Nelonen",
   "Stadion": "Kumpula",
   "Kaupunki": "Helsinki",
@@ -4858,11 +4858,11 @@
  {
   "ottelu_id": 200708,
   "Kausi": 2007,
-  "Päivämäärä": "06\/08\/2007",
+  "Päivämäärä": "06.08.2007",
   "Kilpailu": "Nelonen",
   "Stadion": "Töölön pallokenttä",
   "Kaupunki": "Helsinki",
-  "Kotijoukkue": "HDS\/Mondial",
+  "Kotijoukkue": "HDS.Mondial",
   "Vierasjoukkue": "HPS",
   "maalit_koti": 2,
   "maalit_vieras": 1
@@ -4870,7 +4870,7 @@
  {
   "ottelu_id": 200707,
   "Kausi": 2007,
-  "Päivämäärä": "05\/30\/2007",
+  "Päivämäärä": "05.30.2007",
   "Kilpailu": "Nelonen",
   "Stadion": "Kumpula",
   "Kaupunki": "Helsinki",
@@ -4882,7 +4882,7 @@
  {
   "ottelu_id": 200706,
   "Kausi": 2007,
-  "Päivämäärä": "05\/21\/2007",
+  "Päivämäärä": "05.21.2007",
   "Kilpailu": "Nelonen",
   "Stadion": "Töölön pallokenttä",
   "Kaupunki": "Helsinki",
@@ -4894,7 +4894,7 @@
  {
   "ottelu_id": 200705,
   "Kausi": 2007,
-  "Päivämäärä": "05\/14\/2007",
+  "Päivämäärä": "05.14.2007",
   "Kilpailu": "Nelonen",
   "Stadion": "Pitäjänmäki",
   "Kaupunki": "Helsinki",
@@ -4906,19 +4906,19 @@
  {
   "ottelu_id": 200704,
   "Kausi": 2007,
-  "Päivämäärä": "05\/07\/2007",
+  "Päivämäärä": "05.07.2007",
   "Kilpailu": "Nelonen",
   "Stadion": "Töölön pallokenttä",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "Gnistan\/2",
+  "Vierasjoukkue": "Gnistan.2",
   "maalit_koti": 1,
   "maalit_vieras": 1
  },
  {
   "ottelu_id": 200703,
   "Kausi": 2007,
-  "Päivämäärä": "05\/02\/2007",
+  "Päivämäärä": "05.02.2007",
   "Kilpailu": "Nelonen",
   "Stadion": "Töölön pallokenttä",
   "Kaupunki": "Helsinki",
@@ -4930,7 +4930,7 @@
  {
   "ottelu_id": 200702,
   "Kausi": 2007,
-  "Päivämäärä": "04\/29\/2007",
+  "Päivämäärä": "04.29.2007",
   "Kilpailu": "Suomen Cup",
   "Stadion": "Kallio",
   "Kaupunki": "Helsinki",
@@ -4942,7 +4942,7 @@
  {
   "ottelu_id": 200701,
   "Kausi": 2007,
-  "Päivämäärä": "04\/23\/2007",
+  "Päivämäärä": "04.23.2007",
   "Kilpailu": "Nelonen",
   "Stadion": "Pirkkola",
   "Kaupunki": "Helsinki",
@@ -4954,7 +4954,7 @@
  {
   "ottelu_id": 200639,
   "Kausi": 2006,
-  "Päivämäärä": "10\/12\/2006",
+  "Päivämäärä": "10.12.2006",
   "Kilpailu": "Viitosen finaali",
   "Stadion": "Töölön pallokenttä",
   "Kaupunki": "Helsinki",
@@ -4966,11 +4966,11 @@
  {
   "ottelu_id": 200638,
   "Kausi": 2006,
-  "Päivämäärä": "10\/02\/2006",
+  "Päivämäärä": "10.02.2006",
   "Kilpailu": "Vitonen",
   "Stadion": "Jakomäki",
   "Kaupunki": "Helsinki",
-  "Kotijoukkue": "SUMU\/Stoppi",
+  "Kotijoukkue": "SUMU.Stoppi",
   "Vierasjoukkue": "HPS",
   "maalit_koti": 0,
   "maalit_vieras": 14
@@ -4978,19 +4978,19 @@
  {
   "ottelu_id": 200637,
   "Kausi": 2006,
-  "Päivämäärä": "09\/26\/2006",
+  "Päivämäärä": "09.26.2006",
   "Kilpailu": "Vitonen",
   "Stadion": "Pirkkola",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "FC POHU\/2",
+  "Vierasjoukkue": "FC POHU.2",
   "maalit_koti": 1,
   "maalit_vieras": 2
  },
  {
   "ottelu_id": 200636,
   "Kausi": 2006,
-  "Päivämäärä": "09\/21\/2006",
+  "Päivämäärä": "09.21.2006",
   "Kilpailu": "Vitonen",
   "Stadion": "Kallio",
   "Kaupunki": "Helsinki",
@@ -5002,7 +5002,7 @@
  {
   "ottelu_id": 200635,
   "Kausi": 2006,
-  "Päivämäärä": "09\/18\/2006",
+  "Päivämäärä": "09.18.2006",
   "Kilpailu": "Vitonen",
   "Stadion": "Tali",
   "Kaupunki": "Helsinki",
@@ -5014,7 +5014,7 @@
  {
   "ottelu_id": 200634,
   "Kausi": 2006,
-  "Päivämäärä": "09\/12\/2006",
+  "Päivämäärä": "09.12.2006",
   "Kilpailu": "Vitonen",
   "Stadion": "Tali",
   "Kaupunki": "Helsinki",
@@ -5026,7 +5026,7 @@
  {
   "ottelu_id": 200633,
   "Kausi": 2006,
-  "Päivämäärä": "09\/08\/2006",
+  "Päivämäärä": "09.08.2006",
   "Kilpailu": "Uusimaa Cup",
   "Stadion": "Laajasalo",
   "Kaupunki": "Helsinki",
@@ -5038,7 +5038,7 @@
  {
   "ottelu_id": 200632,
   "Kausi": 2006,
-  "Päivämäärä": "09\/05\/2006",
+  "Päivämäärä": "09.05.2006",
   "Kilpailu": "Vitonen",
   "Stadion": "Pirkkola",
   "Kaupunki": "Helsinki",
@@ -5050,7 +5050,7 @@
  {
   "ottelu_id": 200631,
   "Kausi": 2006,
-  "Päivämäärä": "09\/02\/2006",
+  "Päivämäärä": "09.02.2006",
   "Kilpailu": "Vitonen",
   "Stadion": "Myllypuro",
   "Kaupunki": "Helsinki",
@@ -5062,19 +5062,19 @@
  {
   "ottelu_id": 200630,
   "Kausi": 2006,
-  "Päivämäärä": "08\/24\/2006",
+  "Päivämäärä": "08.24.2006",
   "Kilpailu": "Vitonen",
   "Stadion": "Pirkkola",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "KäPa\/Akatemia",
+  "Vierasjoukkue": "KäPa.Akatemia",
   "maalit_koti": 7,
   "maalit_vieras": 0
  },
  {
   "ottelu_id": 200629,
   "Kausi": 2006,
-  "Päivämäärä": "08\/21\/2006",
+  "Päivämäärä": "08.21.2006",
   "Kilpailu": "Uusimaa Cup",
   "Stadion": "Nurmijärvi",
   "Kaupunki": "Nurmijärvi",
@@ -5086,7 +5086,7 @@
  {
   "ottelu_id": 200628,
   "Kausi": 2006,
-  "Päivämäärä": "08\/15\/2006",
+  "Päivämäärä": "08.15.2006",
   "Kilpailu": "Vitonen",
   "Stadion": "Myllypuro",
   "Kaupunki": "Helsinki",
@@ -5098,7 +5098,7 @@
  {
   "ottelu_id": 200627,
   "Kausi": 2006,
-  "Päivämäärä": "08\/09\/2006",
+  "Päivämäärä": "08.09.2006",
   "Kilpailu": "Vitonen",
   "Stadion": "Tapuli",
   "Kaupunki": "Helsinki",
@@ -5110,7 +5110,7 @@
  {
   "ottelu_id": 200626,
   "Kausi": 2006,
-  "Päivämäärä": "08\/03\/2006",
+  "Päivämäärä": "08.03.2006",
   "Kilpailu": "Vitonen",
   "Stadion": "Pirkkola",
   "Kaupunki": "Helsinki",
@@ -5122,7 +5122,7 @@
  {
   "ottelu_id": 200625,
   "Kausi": 2006,
-  "Päivämäärä": "07\/31\/2006",
+  "Päivämäärä": "07.31.2006",
   "Kilpailu": "Uusimaa Cup",
   "Stadion": "Siltamäki",
   "Kaupunki": "Helsinki",
@@ -5134,7 +5134,7 @@
  {
   "ottelu_id": 200624,
   "Kausi": 2006,
-  "Päivämäärä": "07\/26\/2006",
+  "Päivämäärä": "07.26.2006",
   "Kilpailu": "Harjoitusottelu",
   "Stadion": "Kallio",
   "Kaupunki": "Helsinki",
@@ -5146,19 +5146,19 @@
  {
   "ottelu_id": 200623,
   "Kausi": 2006,
-  "Päivämäärä": "06\/27\/2006",
+  "Päivämäärä": "06.27.2006",
   "Kilpailu": "Vitonen",
   "Stadion": "Pirkkola",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "SUMU\/Stoppi",
+  "Vierasjoukkue": "SUMU.Stoppi",
   "maalit_koti": 1,
   "maalit_vieras": 0
  },
  {
   "ottelu_id": 200622,
   "Kausi": 2006,
-  "Päivämäärä": "06\/26\/2006",
+  "Päivämäärä": "06.26.2006",
   "Kilpailu": "Uusimaa Cup",
   "Stadion": "Siltamäki",
   "Kaupunki": "Helsinki",
@@ -5170,11 +5170,11 @@
  {
   "ottelu_id": 200621,
   "Kausi": 2006,
-  "Päivämäärä": "06\/20\/2006",
+  "Päivämäärä": "06.20.2006",
   "Kilpailu": "Vitonen",
   "Stadion": "Lassila",
   "Kaupunki": "Helsinki",
-  "Kotijoukkue": "FC POHU\/2",
+  "Kotijoukkue": "FC POHU.2",
   "Vierasjoukkue": "HPS",
   "maalit_koti": 0,
   "maalit_vieras": 3
@@ -5182,7 +5182,7 @@
  {
   "ottelu_id": 200620,
   "Kausi": 2006,
-  "Päivämäärä": "06\/10\/2006",
+  "Päivämäärä": "06.10.2006",
   "Kilpailu": "Uusimaa Cup",
   "Stadion": "Kallio",
   "Kaupunki": "Helsinki",
@@ -5194,7 +5194,7 @@
  {
   "ottelu_id": 200619,
   "Kausi": 2006,
-  "Päivämäärä": "06\/06\/2006",
+  "Päivämäärä": "06.06.2006",
   "Kilpailu": "Vitonen",
   "Stadion": "Pirkkola",
   "Kaupunki": "Helsinki",
@@ -5206,7 +5206,7 @@
  {
   "ottelu_id": 200618,
   "Kausi": 2006,
-  "Päivämäärä": "05\/31\/2006",
+  "Päivämäärä": "05.31.2006",
   "Kilpailu": "Vitonen",
   "Stadion": "Myllypuro",
   "Kaupunki": "Helsinki",
@@ -5218,7 +5218,7 @@
  {
   "ottelu_id": 200617,
   "Kausi": 2006,
-  "Päivämäärä": "05\/27\/2006",
+  "Päivämäärä": "05.27.2006",
   "Kilpailu": "Vitonen",
   "Stadion": "Töölön pallokenttä",
   "Kaupunki": "Helsinki",
@@ -5230,11 +5230,11 @@
  {
   "ottelu_id": 200616,
   "Kausi": 2006,
-  "Päivämäärä": "05\/21\/2006",
+  "Päivämäärä": "05.21.2006",
   "Kilpailu": "Vitonen",
   "Stadion": "Töölön pallokenttä",
   "Kaupunki": "Helsinki",
-  "Kotijoukkue": "KäPa\/Akatemia",
+  "Kotijoukkue": "KäPa.Akatemia",
   "Vierasjoukkue": "HPS",
   "maalit_koti": 1,
   "maalit_vieras": 5
@@ -5242,7 +5242,7 @@
  {
   "ottelu_id": 200615,
   "Kausi": 2006,
-  "Päivämäärä": "05\/13\/2006",
+  "Päivämäärä": "05.13.2006",
   "Kilpailu": "Vitonen",
   "Stadion": "Laajasalo",
   "Kaupunki": "Helsinki",
@@ -5254,7 +5254,7 @@
  {
   "ottelu_id": 200614,
   "Kausi": 2006,
-  "Päivämäärä": "05\/09\/2006",
+  "Päivämäärä": "05.09.2006",
   "Kilpailu": "Vitonen",
   "Stadion": "Pirkkola",
   "Kaupunki": "Helsinki",
@@ -5266,7 +5266,7 @@
  {
   "ottelu_id": 200613,
   "Kausi": 2006,
-  "Päivämäärä": "05\/06\/2006",
+  "Päivämäärä": "05.06.2006",
   "Kilpailu": "Vitonen",
   "Stadion": "Töölön pallokenttä",
   "Kaupunki": "Helsinki",
@@ -5278,7 +5278,7 @@
  {
   "ottelu_id": 200612,
   "Kausi": 2006,
-  "Päivämäärä": "05\/05\/2006",
+  "Päivämäärä": "05.05.2006",
   "Kilpailu": "Vitonen",
   "Stadion": "Pirkkola",
   "Kaupunki": "Helsinki",
@@ -5290,7 +5290,7 @@
  {
   "ottelu_id": 200611,
   "Kausi": 2006,
-  "Päivämäärä": "04\/27\/2006",
+  "Päivämäärä": "04.27.2006",
   "Kilpailu": "Vitonen",
   "Stadion": "Kumpula",
   "Kaupunki": "Helsinki",
@@ -5302,19 +5302,19 @@
  {
   "ottelu_id": 200610,
   "Kausi": 2006,
-  "Päivämäärä": "04\/23\/2006",
+  "Päivämäärä": "04.23.2006",
   "Kilpailu": "Harjoitusottelu",
   "Stadion": "Töölön pallokenttä",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "KäPa\/PuLe",
+  "Vierasjoukkue": "KäPa.PuLe",
   "maalit_koti": 0,
   "maalit_vieras": 5
  },
  {
   "ottelu_id": 200609,
   "Kausi": 2006,
-  "Päivämäärä": "04\/18\/2006",
+  "Päivämäärä": "04.18.2006",
   "Kilpailu": "Suomen Cup",
   "Stadion": "Tali",
   "Kaupunki": "Helsinki",
@@ -5326,19 +5326,19 @@
  {
   "ottelu_id": 200608,
   "Kausi": 2006,
-  "Päivämäärä": "04\/14\/2006",
+  "Päivämäärä": "04.14.2006",
   "Kilpailu": "Harjoitusottelu",
   "Stadion": "Töölön pallokenttä",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "HIFK\/2",
+  "Vierasjoukkue": "HIFK.2",
   "maalit_koti": 1,
   "maalit_vieras": 2
  },
  {
   "ottelu_id": 200607,
   "Kausi": 2006,
-  "Päivämäärä": "04\/13\/2006",
+  "Päivämäärä": "04.13.2006",
   "Kilpailu": "Harjoitusottelu",
   "Stadion": "Tali",
   "Kaupunki": "Helsinki",
@@ -5350,43 +5350,43 @@
  {
   "ottelu_id": 200606,
   "Kausi": 2006,
-  "Päivämäärä": "03\/26\/2006",
+  "Päivämäärä": "03.26.2006",
   "Kilpailu": "Harjoitusottelu",
   "Stadion": "Töölön pallokenttä",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "HooGee\/1",
+  "Vierasjoukkue": "HooGee.1",
   "maalit_koti": 4,
   "maalit_vieras": 0
  },
  {
   "ottelu_id": 200605,
   "Kausi": 2006,
-  "Päivämäärä": "03\/19\/2006",
+  "Päivämäärä": "03.19.2006",
   "Kilpailu": "Harjoitusottelu",
   "Stadion": "Töölön pallokenttä",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "HooGee\/1",
+  "Vierasjoukkue": "HooGee.1",
   "maalit_koti": 4,
   "maalit_vieras": 0
  },
  {
   "ottelu_id": 200604,
   "Kausi": 2006,
-  "Päivämäärä": "03\/12\/2006",
+  "Päivämäärä": "03.12.2006",
   "Kilpailu": "Harjoitusottelu",
   "Stadion": "HPS halli",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "PuiU\/3",
+  "Vierasjoukkue": "PuiU.3",
   "maalit_koti": 3,
   "maalit_vieras": 7
  },
  {
   "ottelu_id": 200603,
   "Kausi": 2006,
-  "Päivämäärä": "03\/03\/2006",
+  "Päivämäärä": "03.03.2006",
   "Kilpailu": "Harjoitusottelu",
   "Stadion": "PK-halli",
   "Kaupunki": "Helsinki",
@@ -5398,7 +5398,7 @@
  {
   "ottelu_id": 200602,
   "Kausi": 2006,
-  "Päivämäärä": "02\/26\/2006",
+  "Päivämäärä": "02.26.2006",
   "Kilpailu": "Harjoitusottelu",
   "Stadion": "HPS halli",
   "Kaupunki": "Helsinki",
@@ -5410,12 +5410,12 @@
  {
   "ottelu_id": 200601,
   "Kausi": 2006,
-  "Päivämäärä": "02\/02\/2006",
+  "Päivämäärä": "02.02.2006",
   "Kilpailu": "Harjoitusottelu",
   "Stadion": "Töölön pallokenttä",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
-  "Vierasjoukkue": "HIFK\/2",
+  "Vierasjoukkue": "HIFK.2",
   "maalit_koti": 2,
   "maalit_vieras": 1
  },
@@ -5432,7 +5432,7 @@
  {
   "ottelu_id": 199723,
   "Kausi": 1997,
-  "Päivämäärä": "09\/20\/1997",
+  "Päivämäärä": "09.20.1997",
   "Kilpailu": "Kakkonen",
   "Kotijoukkue": "HPS",
   "Vierasjoukkue": "K-UP",
@@ -5442,7 +5442,7 @@
  {
   "ottelu_id": 199722,
   "Kausi": 1997,
-  "Päivämäärä": "09\/13\/1997",
+  "Päivämäärä": "09.13.1997",
   "Kilpailu": "Kakkonen",
   "Kotijoukkue": "Kultsu",
   "Vierasjoukkue": "HPS",
@@ -5452,7 +5452,7 @@
  {
   "ottelu_id": 199721,
   "Kausi": 1997,
-  "Päivämäärä": "09\/07\/1997",
+  "Päivämäärä": "09.07.1997",
   "Kilpailu": "Kakkonen",
   "Kotijoukkue": "HPS",
   "Vierasjoukkue": "MiKi",
@@ -5462,7 +5462,7 @@
  {
   "ottelu_id": 199720,
   "Kausi": 1997,
-  "Päivämäärä": "09\/01\/1997",
+  "Päivämäärä": "09.01.1997",
   "Kilpailu": "Kakkonen",
   "Kotijoukkue": "KäPa",
   "Vierasjoukkue": "HPS",
@@ -5472,7 +5472,7 @@
  {
   "ottelu_id": 199719,
   "Kausi": 1997,
-  "Päivämäärä": "08\/24\/1997",
+  "Päivämäärä": "08.24.1997",
   "Kilpailu": "Kakkonen",
   "Kotijoukkue": "HPS",
   "Vierasjoukkue": "Rakuunat",
@@ -5482,7 +5482,7 @@
  {
   "ottelu_id": 199718,
   "Kausi": 1997,
-  "Päivämäärä": "08\/18\/1997",
+  "Päivämäärä": "08.18.1997",
   "Kilpailu": "Kakkonen",
   "Kotijoukkue": "HPS",
   "Vierasjoukkue": "Pallo-Lahti",
@@ -5492,7 +5492,7 @@
  {
   "ottelu_id": 199717,
   "Kausi": 1997,
-  "Päivämäärä": "08\/13\/1997",
+  "Päivämäärä": "08.13.1997",
   "Kilpailu": "Kakkonen",
   "Kotijoukkue": "HyPS",
   "Vierasjoukkue": "HPS",
@@ -5502,7 +5502,7 @@
  {
   "ottelu_id": 199716,
   "Kausi": 1997,
-  "Päivämäärä": "08\/07\/1997",
+  "Päivämäärä": "08.07.1997",
   "Kilpailu": "Kakkonen",
   "Kotijoukkue": "HPS",
   "Vierasjoukkue": "HIFK",
@@ -5512,7 +5512,7 @@
  {
   "ottelu_id": 199715,
   "Kausi": 1997,
-  "Päivämäärä": "07\/31\/1997",
+  "Päivämäärä": "07.31.1997",
   "Kilpailu": "Kakkonen",
   "Kotijoukkue": "FC Kuusankoski",
   "Vierasjoukkue": "HPS",
@@ -5522,7 +5522,7 @@
  {
   "ottelu_id": 199714,
   "Kausi": 1997,
-  "Päivämäärä": "07\/28\/1997",
+  "Päivämäärä": "07.28.1997",
   "Kilpailu": "Kakkonen",
   "Kotijoukkue": "HPS",
   "Vierasjoukkue": "Purha",
@@ -5532,7 +5532,7 @@
  {
   "ottelu_id": 199713,
   "Kausi": 1997,
-  "Päivämäärä": "07\/20\/1997",
+  "Päivämäärä": "07.20.1997",
   "Kilpailu": "Kakkonen",
   "Kotijoukkue": "LTP",
   "Vierasjoukkue": "HPS",
@@ -5542,7 +5542,7 @@
  {
   "ottelu_id": 199712,
   "Kausi": 1997,
-  "Päivämäärä": "06\/28\/1997",
+  "Päivämäärä": "06.28.1997",
   "Kilpailu": "Kakkonen",
   "Kotijoukkue": "HPS",
   "Vierasjoukkue": "Kultsu",
@@ -5552,7 +5552,7 @@
  {
   "ottelu_id": 199711,
   "Kausi": 1997,
-  "Päivämäärä": "06\/22\/1997",
+  "Päivämäärä": "06.22.1997",
   "Kilpailu": "Kakkonen",
   "Kotijoukkue": "MiKi",
   "Vierasjoukkue": "HPS",
@@ -5562,7 +5562,7 @@
  {
   "ottelu_id": 199710,
   "Kausi": 1997,
-  "Päivämäärä": "06\/16\/1997",
+  "Päivämäärä": "06.16.1997",
   "Kilpailu": "Kakkonen",
   "Kotijoukkue": "HPS",
   "Vierasjoukkue": "KäPa",
@@ -5572,7 +5572,7 @@
  {
   "ottelu_id": 199709,
   "Kausi": 1997,
-  "Päivämäärä": "06\/08\/1997",
+  "Päivämäärä": "06.08.1997",
   "Kilpailu": "Kakkonen",
   "Kotijoukkue": "Rakuunat",
   "Vierasjoukkue": "HPS",
@@ -5582,7 +5582,7 @@
  {
   "ottelu_id": 199708,
   "Kausi": 1997,
-  "Päivämäärä": "06\/01\/1997",
+  "Päivämäärä": "06.01.1997",
   "Kilpailu": "Kakkonen",
   "Kotijoukkue": "Pallo-Lahti",
   "Vierasjoukkue": "HPS",
@@ -5592,7 +5592,7 @@
  {
   "ottelu_id": 199707,
   "Kausi": 1997,
-  "Päivämäärä": "05\/26\/1997",
+  "Päivämäärä": "05.26.1997",
   "Kilpailu": "Kakkonen",
   "Kotijoukkue": "HPS",
   "Vierasjoukkue": "HyPS",
@@ -5602,7 +5602,7 @@
  {
   "ottelu_id": 199706,
   "Kausi": 1997,
-  "Päivämäärä": "05\/21\/1997",
+  "Päivämäärä": "05.21.1997",
   "Kilpailu": "Kakkonen",
   "Kotijoukkue": "HIFK",
   "Vierasjoukkue": "HPS",
@@ -5612,7 +5612,7 @@
  {
   "ottelu_id": 199705,
   "Kausi": 1997,
-  "Päivämäärä": "05\/12\/1997",
+  "Päivämäärä": "05.12.1997",
   "Kilpailu": "Kakkonen",
   "Kotijoukkue": "HPS",
   "Vierasjoukkue": "FC Kuusankoski",
@@ -5622,7 +5622,7 @@
  {
   "ottelu_id": 199704,
   "Kausi": 1997,
-  "Päivämäärä": "05\/08\/1997",
+  "Päivämäärä": "05.08.1997",
   "Kilpailu": "Kakkonen",
   "Kotijoukkue": "Purha",
   "Vierasjoukkue": "HPS",
@@ -5632,7 +5632,7 @@
  {
   "ottelu_id": 199703,
   "Kausi": 1997,
-  "Päivämäärä": "05\/05\/1997",
+  "Päivämäärä": "05.05.1997",
   "Kilpailu": "Kakkonen",
   "Kotijoukkue": "HPS",
   "Vierasjoukkue": "LTP",
@@ -5642,7 +5642,7 @@
  {
   "ottelu_id": 199702,
   "Kausi": 1997,
-  "Päivämäärä": "04\/26\/1997",
+  "Päivämäärä": "04.26.1997",
   "Kilpailu": "Kakkonen",
   "Kotijoukkue": "K-UP",
   "Vierasjoukkue": "HPS",
@@ -5662,7 +5662,7 @@
  {
   "ottelu_id": 195922,
   "Kausi": 1959,
-  "Päivämäärä": "10\/25\/1959",
+  "Päivämäärä": "10.25.1959",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Kuopio",
   "Kotijoukkue": "KuPS",
@@ -5673,7 +5673,7 @@
  {
   "ottelu_id": 195921,
   "Kausi": 1959,
-  "Päivämäärä": "10\/10\/1959",
+  "Päivämäärä": "10.10.1959",
   "Kilpailu": "Mestaruussarja",
   "Stadion": "Olympiastadion",
   "Kaupunki": "Helsinki",
@@ -5685,7 +5685,7 @@
  {
   "ottelu_id": 195920,
   "Kausi": 1959,
-  "Päivämäärä": "09\/27\/1959",
+  "Päivämäärä": "09.27.1959",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HIFK",
@@ -5696,7 +5696,7 @@
  {
   "ottelu_id": 195919,
   "Kausi": 1959,
-  "Päivämäärä": "09\/17\/1959",
+  "Päivämäärä": "09.17.1959",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HJK",
@@ -5707,7 +5707,7 @@
  {
   "ottelu_id": 195918,
   "Kausi": 1959,
-  "Päivämäärä": "09\/13\/1959",
+  "Päivämäärä": "09.13.1959",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -5718,7 +5718,7 @@
  {
   "ottelu_id": 195917,
   "Kausi": 1959,
-  "Päivämäärä": "08\/30\/1959",
+  "Päivämäärä": "08.30.1959",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -5729,7 +5729,7 @@
  {
   "ottelu_id": 195916,
   "Kausi": 1959,
-  "Päivämäärä": "08\/23\/1959",
+  "Päivämäärä": "08.23.1959",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Valkeakoski",
   "Kotijoukkue": "Haka",
@@ -5740,7 +5740,7 @@
  {
   "ottelu_id": 195915,
   "Kausi": 1959,
-  "Päivämäärä": "08\/16\/1959",
+  "Päivämäärä": "08.16.1959",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Turku",
   "Kotijoukkue": "TPS",
@@ -5751,7 +5751,7 @@
  {
   "ottelu_id": 195914,
   "Kausi": 1959,
-  "Päivämäärä": "08\/11\/1959",
+  "Päivämäärä": "08.11.1959",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -5762,7 +5762,7 @@
  {
   "ottelu_id": 195913,
   "Kausi": 1959,
-  "Päivämäärä": "07\/19\/1959",
+  "Päivämäärä": "07.19.1959",
   "Kilpailu": "Mestaruussarja",
   "Stadion": "Olympiastadion",
   "Kaupunki": "Helsinki",
@@ -5774,7 +5774,7 @@
  {
   "ottelu_id": 195912,
   "Kausi": 1959,
-  "Päivämäärä": "06\/21\/1959",
+  "Päivämäärä": "06.21.1959",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Pori",
   "Kotijoukkue": "RU-38",
@@ -5785,7 +5785,7 @@
  {
   "ottelu_id": 195911,
   "Kausi": 1959,
-  "Päivämäärä": "06\/15\/1959",
+  "Päivämäärä": "06.15.1959",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -5796,7 +5796,7 @@
  {
   "ottelu_id": 195910,
   "Kausi": 1959,
-  "Päivämäärä": "06\/05\/1959",
+  "Päivämäärä": "06.05.1959",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -5807,7 +5807,7 @@
  {
   "ottelu_id": 195909,
   "Kausi": 1959,
-  "Päivämäärä": "05\/29\/1959",
+  "Päivämäärä": "05.29.1959",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Vaasa",
   "Kotijoukkue": "VIFK",
@@ -5818,7 +5818,7 @@
  {
   "ottelu_id": 195908,
   "Kausi": 1959,
-  "Päivämäärä": "05\/22\/1959",
+  "Päivämäärä": "05.22.1959",
   "Kilpailu": "Mestaruussarja",
   "Stadion": "Olympiastadion",
   "Kaupunki": "Helsinki",
@@ -5830,7 +5830,7 @@
  {
   "ottelu_id": 195907,
   "Kausi": 1959,
-  "Päivämäärä": "05\/18\/1959",
+  "Päivämäärä": "05.18.1959",
   "Kilpailu": "Mestaruussarja",
   "Stadion": "Olympiastadion",
   "Kaupunki": "Helsinki",
@@ -5842,7 +5842,7 @@
  {
   "ottelu_id": 195906,
   "Kausi": 1959,
-  "Päivämäärä": "05\/09\/1959",
+  "Päivämäärä": "05.09.1959",
   "Kilpailu": "Mestaruussarja",
   "Stadion": "Olympiastadion",
   "Kaupunki": "Helsinki",
@@ -5854,7 +5854,7 @@
  {
   "ottelu_id": 195905,
   "Kausi": 1959,
-  "Päivämäärä": "05\/03\/1959",
+  "Päivämäärä": "05.03.1959",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Kokkola",
   "Kotijoukkue": "GBK",
@@ -5905,7 +5905,7 @@
  {
   "ottelu_id": 195831,
   "Kausi": 1958,
-  "Päivämäärä": "12\/03\/1958",
+  "Päivämäärä": "12.03.1958",
   "Kilpailu": "Euroopan Cup",
   "Stadion": "Stade Robert-Diochon",
   "Kaupunki": "Rouen",
@@ -5917,7 +5917,7 @@
  {
   "ottelu_id": 195830,
   "Kausi": 1958,
-  "Päivämäärä": "11\/26\/1958",
+  "Päivämäärä": "11.26.1958",
   "Kilpailu": "Euroopan Cup",
   "Stadion": "Parc de Princes",
   "Kaupunki": "Pariisi",
@@ -5959,7 +5959,7 @@
  {
   "ottelu_id": 195826,
   "Kausi": 1958,
-  "Päivämäärä": "11\/01\/1958",
+  "Päivämäärä": "11.01.1958",
   "Kilpailu": "Mestaruussarja",
   "Stadion": "Olympiastadion",
   "Kaupunki": "Helsinki",
@@ -5971,7 +5971,7 @@
  {
   "ottelu_id": 195825,
   "Kausi": 1958,
-  "Päivämäärä": "10\/26\/1958",
+  "Päivämäärä": "10.26.1958",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Kuopio",
   "Kotijoukkue": "KuPS",
@@ -5982,7 +5982,7 @@
  {
   "ottelu_id": 195824,
   "Kausi": 1958,
-  "Päivämäärä": "10\/18\/1958",
+  "Päivämäärä": "10.18.1958",
   "Kilpailu": "Mestaruussarja",
   "Stadion": "Töölön Pallokenttä",
   "Kaupunki": "Helsinki",
@@ -5994,7 +5994,7 @@
  {
   "ottelu_id": 195823,
   "Kausi": 1958,
-  "Päivämäärä": "10\/05\/1958",
+  "Päivämäärä": "10.05.1958",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Vaasa",
   "Kotijoukkue": "VIFK",
@@ -6005,7 +6005,7 @@
  {
   "ottelu_id": 195822,
   "Kausi": 1958,
-  "Päivämäärä": "09\/28\/1958",
+  "Päivämäärä": "09.28.1958",
   "Kilpailu": "Mestaruussarja",
   "Stadion": "Töölön Pallokenttä",
   "Kaupunki": "Helsinki",
@@ -6017,7 +6017,7 @@
  {
   "ottelu_id": 195821,
   "Kausi": 1958,
-  "Päivämäärä": "09\/18\/1958",
+  "Päivämäärä": "09.18.1958",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HIFK",
@@ -6028,7 +6028,7 @@
  {
   "ottelu_id": 195820,
   "Kausi": 1958,
-  "Päivämäärä": "09\/07\/1958",
+  "Päivämäärä": "09.07.1958",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -6039,7 +6039,7 @@
  {
   "ottelu_id": 195819,
   "Kausi": 1958,
-  "Päivämäärä": "08\/27\/1958",
+  "Päivämäärä": "08.27.1958",
   "Kilpailu": "Mestaruussarja",
   "Stadion": "Olympiastadion",
   "Kaupunki": "Helsinki",
@@ -6051,7 +6051,7 @@
  {
   "ottelu_id": 195818,
   "Kausi": 1958,
-  "Päivämäärä": "08\/10\/1958",
+  "Päivämäärä": "08.10.1958",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Valkeakoski",
   "Kotijoukkue": "Haka",
@@ -6062,7 +6062,7 @@
  {
   "ottelu_id": 195817,
   "Kausi": 1958,
-  "Päivämäärä": "08\/01\/1958",
+  "Päivämäärä": "08.01.1958",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -6073,7 +6073,7 @@
  {
   "ottelu_id": 195816,
   "Kausi": 1958,
-  "Päivämäärä": "06\/29\/1958",
+  "Päivämäärä": "06.29.1958",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Turku",
   "Kotijoukkue": "TPS",
@@ -6084,7 +6084,7 @@
  {
   "ottelu_id": 195815,
   "Kausi": 1958,
-  "Päivämäärä": "06\/12\/1958",
+  "Päivämäärä": "06.12.1958",
   "Kilpailu": "Ystävyysottelu",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -6095,7 +6095,7 @@
  {
   "ottelu_id": 195814,
   "Kausi": 1958,
-  "Päivämäärä": "06\/08\/1958",
+  "Päivämäärä": "06.08.1958",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -6106,7 +6106,7 @@
  {
   "ottelu_id": 195813,
   "Kausi": 1958,
-  "Päivämäärä": "06\/05\/1958",
+  "Päivämäärä": "06.05.1958",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HJK",
@@ -6117,7 +6117,7 @@
  {
   "ottelu_id": 195812,
   "Kausi": 1958,
-  "Päivämäärä": "05\/30\/1958",
+  "Päivämäärä": "05.30.1958",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Kotka",
   "Kotijoukkue": "KTP",
@@ -6128,7 +6128,7 @@
  {
   "ottelu_id": 195811,
   "Kausi": 1958,
-  "Päivämäärä": "05\/27\/1958",
+  "Päivämäärä": "05.27.1958",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -6139,7 +6139,7 @@
  {
   "ottelu_id": 195810,
   "Kausi": 1958,
-  "Päivämäärä": "05\/20\/1958",
+  "Päivämäärä": "05.20.1958",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -6150,7 +6150,7 @@
  {
   "ottelu_id": 195809,
   "Kausi": 1958,
-  "Päivämäärä": "05\/15\/1958",
+  "Päivämäärä": "05.15.1958",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Vaasa",
   "Kotijoukkue": "VPS",
@@ -6161,7 +6161,7 @@
  {
   "ottelu_id": 195808,
   "Kausi": 1958,
-  "Päivämäärä": "05\/11\/1958",
+  "Päivämäärä": "05.11.1958",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Tampere",
   "Kotijoukkue": "Ilves-Kissat",
@@ -6172,7 +6172,7 @@
  {
   "ottelu_id": 195807,
   "Kausi": 1958,
-  "Päivämäärä": "05\/04\/1958",
+  "Päivämäärä": "05.04.1958",
   "Kilpailu": "Mestaruussarja",
   "Stadion": "Töölön Pallokenttä",
   "Kaupunki": "Helsinki",
@@ -6184,7 +6184,7 @@
  {
   "ottelu_id": 195806,
   "Kausi": 1958,
-  "Päivämäärä": "04\/22\/1958",
+  "Päivämäärä": "04.22.1958",
   "Kilpailu": "Ystävyysottelu",
   "Kaupunki": "Harkov",
   "Kotijoukkue": "Harkov Avangard",
@@ -6195,7 +6195,7 @@
  {
   "ottelu_id": 195805,
   "Kausi": 1958,
-  "Päivämäärä": "04\/17\/1958",
+  "Päivämäärä": "04.17.1958",
   "Kilpailu": "Ystävyysottelu",
   "Kaupunki": "Dnjepropetrovsk",
   "Kotijoukkue": "Metallurgia",
@@ -6206,7 +6206,7 @@
  {
   "ottelu_id": 195804,
   "Kausi": 1958,
-  "Päivämäärä": "04\/13\/1958",
+  "Päivämäärä": "04.13.1958",
   "Kilpailu": "Ystävyysottelu",
   "Stadion": "Odessa-stadion",
   "Kaupunki": "Odessa",
@@ -6248,7 +6248,7 @@
  {
   "ottelu_id": 195722,
   "Kausi": 1957,
-  "Päivämäärä": "10\/06\/1957",
+  "Päivämäärä": "10.06.1957",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -6259,7 +6259,7 @@
  {
   "ottelu_id": 195721,
   "Kausi": 1957,
-  "Päivämäärä": "09\/28\/1957",
+  "Päivämäärä": "09.28.1957",
   "Kilpailu": "Mestaruussarja",
   "Stadion": "Töölön Pallokenttä",
   "Kaupunki": "Helsinki",
@@ -6271,7 +6271,7 @@
  {
   "ottelu_id": 195720,
   "Kausi": 1957,
-  "Päivämäärä": "09\/05\/1957",
+  "Päivämäärä": "09.05.1957",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -6282,7 +6282,7 @@
  {
   "ottelu_id": 195719,
   "Kausi": 1957,
-  "Päivämäärä": "08\/25\/1957",
+  "Päivämäärä": "08.25.1957",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Kuopio",
   "Kotijoukkue": "KuPS",
@@ -6293,7 +6293,7 @@
  {
   "ottelu_id": 195718,
   "Kausi": 1957,
-  "Päivämäärä": "08\/17\/1957",
+  "Päivämäärä": "08.17.1957",
   "Kilpailu": "Mestaruussarja",
   "Stadion": "Töölön Pallokenttä",
   "Kaupunki": "Helsinki",
@@ -6305,7 +6305,7 @@
  {
   "ottelu_id": 195717,
   "Kausi": 1957,
-  "Päivämäärä": "08\/11\/1957",
+  "Päivämäärä": "08.11.1957",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Tampere",
   "Kotijoukkue": "Ilves-Kissat",
@@ -6316,7 +6316,7 @@
  {
   "ottelu_id": 195716,
   "Kausi": 1957,
-  "Päivämäärä": "08\/06\/1957",
+  "Päivämäärä": "08.06.1957",
   "Kilpailu": "Mestaruussarja",
   "Stadion": "Olympiastadion",
   "Kaupunki": "Helsinki",
@@ -6328,7 +6328,7 @@
  {
   "ottelu_id": 195715,
   "Kausi": 1957,
-  "Päivämäärä": "08\/01\/1957",
+  "Päivämäärä": "08.01.1957",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -6339,7 +6339,7 @@
  {
   "ottelu_id": 195714,
   "Kausi": 1957,
-  "Päivämäärä": "07\/21\/1957",
+  "Päivämäärä": "07.21.1957",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Valkeakoski",
   "Kotijoukkue": "Haka",
@@ -6350,7 +6350,7 @@
  {
   "ottelu_id": 195713,
   "Kausi": 1957,
-  "Päivämäärä": "06\/23\/1957",
+  "Päivämäärä": "06.23.1957",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Kotka",
   "Kotijoukkue": "KTP",
@@ -6361,7 +6361,7 @@
  {
   "ottelu_id": 195712,
   "Kausi": 1957,
-  "Päivämäärä": "06\/10\/1957",
+  "Päivämäärä": "06.10.1957",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Vaasa",
   "Kotijoukkue": "VPS",
@@ -6372,7 +6372,7 @@
  {
   "ottelu_id": 195711,
   "Kausi": 1957,
-  "Päivämäärä": "06\/01\/1957",
+  "Päivämäärä": "06.01.1957",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HJK",
@@ -6383,7 +6383,7 @@
  {
   "ottelu_id": 195710,
   "Kausi": 1957,
-  "Päivämäärä": "05\/30\/1957",
+  "Päivämäärä": "05.30.1957",
   "Kilpailu": "Mestaruussarja",
   "Stadion": "Olympiastadion",
   "Kaupunki": "Helsinki",
@@ -6395,7 +6395,7 @@
  {
   "ottelu_id": 195709,
   "Kausi": 1957,
-  "Päivämäärä": "05\/25\/1957",
+  "Päivämäärä": "05.25.1957",
   "Kilpailu": "Mestaruussarja",
   "Stadion": "Töölön Pallokenttä",
   "Kaupunki": "Helsinki",
@@ -6407,7 +6407,7 @@
  {
   "ottelu_id": 195708,
   "Kausi": 1957,
-  "Päivämäärä": "05\/22\/1957",
+  "Päivämäärä": "05.22.1957",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Turku",
   "Kotijoukkue": "TPS",
@@ -6418,7 +6418,7 @@
  {
   "ottelu_id": 195707,
   "Kausi": 1957,
-  "Päivämäärä": "05\/16\/1957",
+  "Päivämäärä": "05.16.1957",
   "Kilpailu": "Mestaruussarja",
   "Stadion": "Töölön Pallokenttä",
   "Kaupunki": "Helsinki",
@@ -6430,7 +6430,7 @@
  {
   "ottelu_id": 195706,
   "Kausi": 1957,
-  "Päivämäärä": "05\/12\/1957",
+  "Päivämäärä": "05.12.1957",
   "Kilpailu": "Mestaruussarja",
   "Stadion": "Töölön Pallokenttä",
   "Kaupunki": "Helsinki",
@@ -6442,7 +6442,7 @@
  {
   "ottelu_id": 195705,
   "Kausi": 1957,
-  "Päivämäärä": "05\/05\/1957",
+  "Päivämäärä": "05.05.1957",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Kotka",
   "Kotijoukkue": "KoRe",
@@ -6770,7 +6770,7 @@
  {
   "ottelu_id": 194108,
   "Kausi": 1941,
-  "Päivämäärä": "06\/13\/1941",
+  "Päivämäärä": "06.13.1941",
   "Kilpailu": "Mestaruussarja",
   "Kotijoukkue": "Sudet",
   "Vierasjoukkue": "HPS",
@@ -6780,7 +6780,7 @@
  {
   "ottelu_id": 194107,
   "Kausi": 1941,
-  "Päivämäärä": "06\/08\/1941",
+  "Päivämäärä": "06.08.1941",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Vaasa",
   "Kotijoukkue": "VPS",
@@ -6791,7 +6791,7 @@
  {
   "ottelu_id": 194106,
   "Kausi": 1941,
-  "Päivämäärä": "05\/27\/1941",
+  "Päivämäärä": "05.27.1941",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -6802,7 +6802,7 @@
  {
   "ottelu_id": 194105,
   "Kausi": 1941,
-  "Päivämäärä": "05\/22\/1941",
+  "Päivämäärä": "05.22.1941",
   "Kilpailu": "Mestaruussarja",
   "Stadion": "Eläintarhan hiekka",
   "Kaupunki": "Helsinki",
@@ -6814,7 +6814,7 @@
  {
   "ottelu_id": 194104,
   "Kausi": 1941,
-  "Päivämäärä": "05\/15\/1941",
+  "Päivämäärä": "05.15.1941",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -6825,7 +6825,7 @@
  {
   "ottelu_id": 194103,
   "Kausi": 1941,
-  "Päivämäärä": "05\/04\/1941",
+  "Päivämäärä": "05.04.1941",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -6858,7 +6858,7 @@
  {
   "ottelu_id": 194012,
   "Kausi": 1940,
-  "Päivämäärä": "11\/03\/1940",
+  "Päivämäärä": "11.03.1940",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HJK",
@@ -6869,7 +6869,7 @@
  {
   "ottelu_id": 194011,
   "Kausi": 1940,
-  "Päivämäärä": "10\/06\/1940",
+  "Päivämäärä": "10.06.1940",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Turku",
   "Kotijoukkue": "TPS",
@@ -6880,7 +6880,7 @@
  {
   "ottelu_id": 194010,
   "Kausi": 1940,
-  "Päivämäärä": "09\/10\/1940",
+  "Päivämäärä": "09.10.1940",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HT",
@@ -6891,7 +6891,7 @@
  {
   "ottelu_id": 194009,
   "Kausi": 1940,
-  "Päivämäärä": "09\/05\/1940",
+  "Päivämäärä": "09.05.1940",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -6902,7 +6902,7 @@
  {
   "ottelu_id": 194008,
   "Kausi": 1940,
-  "Päivämäärä": "08\/21\/1940",
+  "Päivämäärä": "08.21.1940",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "KIF",
@@ -6913,7 +6913,7 @@
  {
   "ottelu_id": 194007,
   "Kausi": 1940,
-  "Päivämäärä": "08\/13\/1940",
+  "Päivämäärä": "08.13.1940",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -6924,7 +6924,7 @@
  {
   "ottelu_id": 194006,
   "Kausi": 1940,
-  "Päivämäärä": "08\/06\/1940",
+  "Päivämäärä": "08.06.1940",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HIFK",
@@ -6935,7 +6935,7 @@
  {
   "ottelu_id": 194005,
   "Kausi": 1940,
-  "Päivämäärä": "07\/24\/1940",
+  "Päivämäärä": "07.24.1940",
   "Kilpailu": "Ystävyysottelu",
   "Stadion": "Olympiastadion",
   "Kaupunki": "Helsinki",
@@ -6991,7 +6991,7 @@
  {
   "ottelu_id": 193917,
   "Kausi": 1939,
-  "Päivämäärä": "10\/08\/1939",
+  "Päivämäärä": "10.08.1939",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Kuopio",
   "Kotijoukkue": "KPT",
@@ -7002,7 +7002,7 @@
  {
   "ottelu_id": 193916,
   "Kausi": 1939,
-  "Päivämäärä": "09\/30\/1939",
+  "Päivämäärä": "09.30.1939",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -7013,7 +7013,7 @@
  {
   "ottelu_id": 193915,
   "Kausi": 1939,
-  "Päivämäärä": "09\/10\/1939",
+  "Päivämäärä": "09.10.1939",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -7024,7 +7024,7 @@
  {
   "ottelu_id": 193914,
   "Kausi": 1939,
-  "Päivämäärä": "09\/06\/1939",
+  "Päivämäärä": "09.06.1939",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -7035,7 +7035,7 @@
  {
   "ottelu_id": 193913,
   "Kausi": 1939,
-  "Päivämäärä": "08\/24\/1939",
+  "Päivämäärä": "08.24.1939",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Turku",
   "Kotijoukkue": "TPS",
@@ -7046,7 +7046,7 @@
  {
   "ottelu_id": 193912,
   "Kausi": 1939,
-  "Päivämäärä": "08\/15\/1939",
+  "Päivämäärä": "08.15.1939",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HJK",
@@ -7057,7 +7057,7 @@
  {
   "ottelu_id": 193911,
   "Kausi": 1939,
-  "Päivämäärä": "07\/30\/1939",
+  "Päivämäärä": "07.30.1939",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -7068,7 +7068,7 @@
  {
   "ottelu_id": 193910,
   "Kausi": 1939,
-  "Päivämäärä": "07\/23\/1939",
+  "Päivämäärä": "07.23.1939",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -7079,7 +7079,7 @@
  {
   "ottelu_id": 193909,
   "Kausi": 1939,
-  "Päivämäärä": "07\/09\/1939",
+  "Päivämäärä": "07.09.1939",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Vaasa",
   "Kotijoukkue": "VPS",
@@ -7090,7 +7090,7 @@
  {
   "ottelu_id": 193908,
   "Kausi": 1939,
-  "Päivämäärä": "05\/28\/1939",
+  "Päivämäärä": "05.28.1939",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -7101,7 +7101,7 @@
  {
   "ottelu_id": 193907,
   "Kausi": 1939,
-  "Päivämäärä": "05\/19\/1939",
+  "Päivämäärä": "05.19.1939",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HT",
@@ -7112,7 +7112,7 @@
  {
   "ottelu_id": 193906,
   "Kausi": 1939,
-  "Päivämäärä": "05\/14\/1939",
+  "Päivämäärä": "05.14.1939",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Viipuri",
   "Kotijoukkue": "Reipas",
@@ -7123,7 +7123,7 @@
  {
   "ottelu_id": 193905,
   "Kausi": 1939,
-  "Päivämäärä": "05\/04\/1939",
+  "Päivämäärä": "05.04.1939",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HIFK",
@@ -7167,7 +7167,7 @@
  {
   "ottelu_id": 193901,
   "Kausi": 1939,
-  "Päivämäärä": "04\/16\/1939",
+  "Päivämäärä": "04.16.1939",
   "Kilpailu": "Piirisarja",
   "Stadion": "Eläintarhan kenttä",
   "Kaupunki": "Helsinki",
@@ -7179,7 +7179,7 @@
  {
   "ottelu_id": 193822,
   "Kausi": 1938,
-  "Päivämäärä": "09\/25\/1938",
+  "Päivämäärä": "09.25.1938",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Vaasa",
   "Kotijoukkue": "VPS",
@@ -7190,7 +7190,7 @@
  {
   "ottelu_id": 193821,
   "Kausi": 1938,
-  "Päivämäärä": "09\/11\/1938",
+  "Päivämäärä": "09.11.1938",
   "Kilpailu": "Mestaruussarja",
   "Stadion": "Pallokenttä",
   "Kaupunki": "Helsinki",
@@ -7202,7 +7202,7 @@
  {
   "ottelu_id": 193820,
   "Kausi": 1938,
-  "Päivämäärä": "09\/05\/1938",
+  "Päivämäärä": "09.05.1938",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HJK",
@@ -7213,7 +7213,7 @@
  {
   "ottelu_id": 193819,
   "Kausi": 1938,
-  "Päivämäärä": "08\/26\/1938",
+  "Päivämäärä": "08.26.1938",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HT",
@@ -7224,7 +7224,7 @@
  {
   "ottelu_id": 193818,
   "Kausi": 1938,
-  "Päivämäärä": "08\/21\/1938",
+  "Päivämäärä": "08.21.1938",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Turku",
   "Kotijoukkue": "TPS",
@@ -7235,7 +7235,7 @@
  {
   "ottelu_id": 193817,
   "Kausi": 1938,
-  "Päivämäärä": "08\/11\/1938",
+  "Päivämäärä": "08.11.1938",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -7246,7 +7246,7 @@
  {
   "ottelu_id": 193816,
   "Kausi": 1938,
-  "Päivämäärä": "07\/31\/1938",
+  "Päivämäärä": "07.31.1938",
   "Kilpailu": "Mestaruussarja",
   "Stadion": "Pallokenttä",
   "Kaupunki": "Helsinki",
@@ -7291,7 +7291,7 @@
  {
   "ottelu_id": 193812,
   "Kausi": 1938,
-  "Päivämäärä": "06\/28\/1938",
+  "Päivämäärä": "06.28.1938",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -7302,7 +7302,7 @@
  {
   "ottelu_id": 193811,
   "Kausi": 1938,
-  "Päivämäärä": "06\/20\/1938",
+  "Päivämäärä": "06.20.1938",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -7311,7 +7311,7 @@
  {
   "ottelu_id": 193810,
   "Kausi": 1938,
-  "Päivämäärä": "06\/12\/1938",
+  "Päivämäärä": "06.12.1938",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Kuopio",
   "Kotijoukkue": "KPT",
@@ -7322,7 +7322,7 @@
  {
   "ottelu_id": 193809,
   "Kausi": 1938,
-  "Päivämäärä": "06\/09\/1938",
+  "Päivämäärä": "06.09.1938",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -7331,7 +7331,7 @@
  {
   "ottelu_id": 193808,
   "Kausi": 1938,
-  "Päivämäärä": "05\/31\/1938",
+  "Päivämäärä": "05.31.1938",
   "Kilpailu": "Mestaruussarja",
   "Stadion": "Pallokenttä",
   "Kaupunki": "Helsinki",
@@ -7343,7 +7343,7 @@
  {
   "ottelu_id": 193807,
   "Kausi": 1938,
-  "Päivämäärä": "05\/22\/1938",
+  "Päivämäärä": "05.22.1938",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Viipuri",
   "Kotijoukkue": "Sudet",
@@ -7354,7 +7354,7 @@
  {
   "ottelu_id": 193806,
   "Kausi": 1938,
-  "Päivämäärä": "05\/08\/1938",
+  "Päivämäärä": "05.08.1938",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -7443,7 +7443,7 @@
  {
   "ottelu_id": 193727,
   "Kausi": 1937,
-  "Päivämäärä": "09\/26\/1937",
+  "Päivämäärä": "09.26.1937",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Viipuri",
   "Kotijoukkue": "Sudet",
@@ -7454,7 +7454,7 @@
  {
   "ottelu_id": 193726,
   "Kausi": 1937,
-  "Päivämäärä": "09\/12\/1937",
+  "Päivämäärä": "09.12.1937",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -7465,7 +7465,7 @@
  {
   "ottelu_id": 193725,
   "Kausi": 1937,
-  "Päivämäärä": "08\/29\/1937",
+  "Päivämäärä": "08.29.1937",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -7476,7 +7476,7 @@
  {
   "ottelu_id": 193724,
   "Kausi": 1937,
-  "Päivämäärä": "08\/25\/1937",
+  "Päivämäärä": "08.25.1937",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HT",
@@ -7487,7 +7487,7 @@
  {
   "ottelu_id": 193723,
   "Kausi": 1937,
-  "Päivämäärä": "08\/12\/1937",
+  "Päivämäärä": "08.12.1937",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -7498,7 +7498,7 @@
  {
   "ottelu_id": 193722,
   "Kausi": 1937,
-  "Päivämäärä": "08\/08\/1937",
+  "Päivämäärä": "08.08.1937",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Turku",
   "Kotijoukkue": "TPS",
@@ -7509,7 +7509,7 @@
  {
   "ottelu_id": 193721,
   "Kausi": 1937,
-  "Päivämäärä": "08\/02\/1937",
+  "Päivämäärä": "08.02.1937",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -7617,7 +7617,7 @@
  {
   "ottelu_id": 193711,
   "Kausi": 1937,
-  "Päivämäärä": "07\/04\/1937",
+  "Päivämäärä": "07.04.1937",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Turku",
   "Kotijoukkue": "UL",
@@ -7628,7 +7628,7 @@
  {
   "ottelu_id": 193710,
   "Kausi": 1937,
-  "Päivämäärä": "06\/22\/1937",
+  "Päivämäärä": "06.22.1937",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HIFK",
@@ -7637,7 +7637,7 @@
  {
   "ottelu_id": 193709,
   "Kausi": 1937,
-  "Päivämäärä": "06\/10\/1937",
+  "Päivämäärä": "06.10.1937",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -7648,7 +7648,7 @@
  {
   "ottelu_id": 193708,
   "Kausi": 1937,
-  "Päivämäärä": "06\/01\/1937",
+  "Päivämäärä": "06.01.1937",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HJK",
@@ -7659,7 +7659,7 @@
  {
   "ottelu_id": 193707,
   "Kausi": 1937,
-  "Päivämäärä": "05\/27\/1937",
+  "Päivämäärä": "05.27.1937",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -7670,7 +7670,7 @@
  {
   "ottelu_id": 193706,
   "Kausi": 1937,
-  "Päivämäärä": "05\/16\/1937",
+  "Päivämäärä": "05.16.1937",
   "Kilpailu": "Mestaruussarja",
   "Stadion": "Pallokenttä",
   "Kaupunki": "Helsinki",
@@ -7682,7 +7682,7 @@
  {
   "ottelu_id": 193705,
   "Kausi": 1937,
-  "Päivämäärä": "05\/09\/1937",
+  "Päivämäärä": "05.09.1937",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Vaasa",
   "Kotijoukkue": "VIFK",
@@ -7737,7 +7737,7 @@
  {
   "ottelu_id": 193616,
   "Kausi": 1936,
-  "Päivämäärä": "10\/10\/1936",
+  "Päivämäärä": "10.10.1936",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HIFK",
@@ -7748,7 +7748,7 @@
  {
   "ottelu_id": 193615,
   "Kausi": 1936,
-  "Päivämäärä": "10\/03\/1936",
+  "Päivämäärä": "10.03.1936",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HT",
@@ -7759,7 +7759,7 @@
  {
   "ottelu_id": 193614,
   "Kausi": 1936,
-  "Päivämäärä": "09\/20\/1936",
+  "Päivämäärä": "09.20.1936",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -7770,7 +7770,7 @@
  {
   "ottelu_id": 193613,
   "Kausi": 1936,
-  "Päivämäärä": "09\/13\/1936",
+  "Päivämäärä": "09.13.1936",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Pietarsaari",
   "Kotijoukkue": "Drott",
@@ -7781,7 +7781,7 @@
  {
   "ottelu_id": 193612,
   "Kausi": 1936,
-  "Päivämäärä": "08\/28\/1936",
+  "Päivämäärä": "08.28.1936",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -7792,7 +7792,7 @@
  {
   "ottelu_id": 193611,
   "Kausi": 1936,
-  "Päivämäärä": "08\/23\/1936",
+  "Päivämäärä": "08.23.1936",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -7803,7 +7803,7 @@
  {
   "ottelu_id": 193610,
   "Kausi": 1936,
-  "Päivämäärä": "08\/17\/1936",
+  "Päivämäärä": "08.17.1936",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HJK",
@@ -7814,7 +7814,7 @@
  {
   "ottelu_id": 193609,
   "Kausi": 1936,
-  "Päivämäärä": "07\/08\/1936",
+  "Päivämäärä": "07.08.1936",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -7825,7 +7825,7 @@
  {
   "ottelu_id": 193608,
   "Kausi": 1936,
-  "Päivämäärä": "07\/05\/1936",
+  "Päivämäärä": "07.05.1936",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Viipuri",
   "Kotijoukkue": "Sudet",
@@ -7836,7 +7836,7 @@
  {
   "ottelu_id": 193607,
   "Kausi": 1936,
-  "Päivämäärä": "06\/22\/1936",
+  "Päivämäärä": "06.22.1936",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -7847,7 +7847,7 @@
  {
   "ottelu_id": 193606,
   "Kausi": 1936,
-  "Päivämäärä": "06\/14\/1936",
+  "Päivämäärä": "06.14.1936",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Vaasa",
   "Kotijoukkue": "VPS",
@@ -7858,7 +7858,7 @@
  {
   "ottelu_id": 193605,
   "Kausi": 1936,
-  "Päivämäärä": "06\/07\/1936",
+  "Päivämäärä": "06.07.1936",
   "Kilpailu": "Mestaruussarja",
   "Stadion": "Töölön pallokenttä",
   "Kaupunki": "Helsinki",
@@ -7870,7 +7870,7 @@
  {
   "ottelu_id": 193604,
   "Kausi": 1936,
-  "Päivämäärä": "05\/24\/1936",
+  "Päivämäärä": "05.24.1936",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Turku",
   "Kotijoukkue": "TPS",
@@ -7881,7 +7881,7 @@
  {
   "ottelu_id": 193603,
   "Kausi": 1936,
-  "Päivämäärä": "05\/03\/1936",
+  "Päivämäärä": "05.03.1936",
   "Kilpailu": "Mestaruussarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -7916,7 +7916,7 @@
  {
   "ottelu_id": 193520,
   "Kausi": 1935,
-  "Päivämäärä": "09\/29\/1935",
+  "Päivämäärä": "09.29.1935",
   "Kilpailu": "A-sarja",
   "Kaupunki": "Viipuri",
   "Kotijoukkue": "Sudet",
@@ -7927,7 +7927,7 @@
  {
   "ottelu_id": 193519,
   "Kausi": 1935,
-  "Päivämäärä": "09\/21\/1935",
+  "Päivämäärä": "09.21.1935",
   "Kilpailu": "A-sarja",
   "Stadion": "Töölön pallokenttä",
   "Kaupunki": "Helsinki",
@@ -7939,7 +7939,7 @@
  {
   "ottelu_id": 193518,
   "Kausi": 1935,
-  "Päivämäärä": "09\/15\/1935",
+  "Päivämäärä": "09.15.1935",
   "Kilpailu": "A-sarja",
   "Stadion": "Töölön pallokenttä",
   "Kaupunki": "Helsinki",
@@ -7951,7 +7951,7 @@
  {
   "ottelu_id": 193517,
   "Kausi": 1935,
-  "Päivämäärä": "09\/01\/1935",
+  "Päivämäärä": "09.01.1935",
   "Kilpailu": "Ystävyysottelu",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "Gnistan",
@@ -7962,7 +7962,7 @@
  {
   "ottelu_id": 193516,
   "Kausi": 1935,
-  "Päivämäärä": "08\/30\/1935",
+  "Päivämäärä": "08.30.1935",
   "Kilpailu": "A-sarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HJK",
@@ -7973,7 +7973,7 @@
  {
   "ottelu_id": 193515,
   "Kausi": 1935,
-  "Päivämäärä": "08\/11\/1935",
+  "Päivämäärä": "08.11.1935",
   "Kilpailu": "A-sarja",
   "Kaupunki": "Vaasa",
   "Kotijoukkue": "VIFK",
@@ -7984,7 +7984,7 @@
  {
   "ottelu_id": 193514,
   "Kausi": 1935,
-  "Päivämäärä": "08\/04\/1935",
+  "Päivämäärä": "08.04.1935",
   "Kilpailu": "A-sarja",
   "Stadion": "Töölön pallokenttä",
   "Kaupunki": "Helsinki",
@@ -7996,7 +7996,7 @@
  {
   "ottelu_id": 193513,
   "Kausi": 1935,
-  "Päivämäärä": "08\/01\/1935",
+  "Päivämäärä": "08.01.1935",
   "Kilpailu": "A-sarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HT",
@@ -8040,7 +8040,7 @@
  {
   "ottelu_id": 193509,
   "Kausi": 1935,
-  "Päivämäärä": "06\/30\/1935",
+  "Päivämäärä": "06.30.1935",
   "Kilpailu": "A-sarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -8051,7 +8051,7 @@
  {
   "ottelu_id": 193508,
   "Kausi": 1935,
-  "Päivämäärä": "06\/27\/1935",
+  "Päivämäärä": "06.27.1935",
   "Kilpailu": "A-sarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -8062,7 +8062,7 @@
  {
   "ottelu_id": 193507,
   "Kausi": 1935,
-  "Päivämäärä": "06\/18\/1935",
+  "Päivämäärä": "06.18.1935",
   "Kilpailu": "A-sarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -8073,7 +8073,7 @@
  {
   "ottelu_id": 193506,
   "Kausi": 1935,
-  "Päivämäärä": "06\/02\/1935",
+  "Päivämäärä": "06.02.1935",
   "Kilpailu": "A-sarja",
   "Kaupunki": "Turku",
   "Kotijoukkue": "ÅIFK",
@@ -8084,7 +8084,7 @@
  {
   "ottelu_id": 193505,
   "Kausi": 1935,
-  "Päivämäärä": "05\/26\/1935",
+  "Päivämäärä": "05.26.1935",
   "Kilpailu": "A-sarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -8095,7 +8095,7 @@
  {
   "ottelu_id": 193504,
   "Kausi": 1935,
-  "Päivämäärä": "05\/15\/1935",
+  "Päivämäärä": "05.15.1935",
   "Kilpailu": "A-sarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -8106,7 +8106,7 @@
  {
   "ottelu_id": 193503,
   "Kausi": 1935,
-  "Päivämäärä": "05\/12\/1935",
+  "Päivämäärä": "05.12.1935",
   "Kilpailu": "A-sarja",
   "Kaupunki": "Vaasa",
   "Kotijoukkue": "VPS",
@@ -8117,7 +8117,7 @@
  {
   "ottelu_id": 193502,
   "Kausi": 1935,
-  "Päivämäärä": "01\/01\/1935",
+  "Päivämäärä": "01.01.1935",
   "Kilpailu": "Harjoitusottelu",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -8128,7 +8128,7 @@
  {
   "ottelu_id": 193501,
   "Kausi": 1935,
-  "Päivämäärä": "01\/01\/1935",
+  "Päivämäärä": "01.01.1935",
   "Kilpailu": "Harjoitusottelu",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -8139,7 +8139,7 @@
  {
   "ottelu_id": 193119,
   "Kausi": 1931,
-  "Päivämäärä": "10\/18\/1931",
+  "Päivämäärä": "10.18.1931",
   "Kilpailu": "Ystävyysottelu",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -8150,7 +8150,7 @@
  {
   "ottelu_id": 193118,
   "Kausi": 1931,
-  "Päivämäärä": "09\/27\/1931",
+  "Päivämäärä": "09.27.1931",
   "Kilpailu": "A-sarja",
   "Kaupunki": "Viipuri",
   "Kotijoukkue": "ViPS",
@@ -8161,7 +8161,7 @@
  {
   "ottelu_id": 193117,
   "Kausi": 1931,
-  "Päivämäärä": "09\/20\/1931",
+  "Päivämäärä": "09.20.1931",
   "Kilpailu": "A-sarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -8172,7 +8172,7 @@
  {
   "ottelu_id": 193116,
   "Kausi": 1931,
-  "Päivämäärä": "09\/13\/1931",
+  "Päivämäärä": "09.13.1931",
   "Kilpailu": "A-sarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "KIF",
@@ -8183,7 +8183,7 @@
  {
   "ottelu_id": 193115,
   "Kausi": 1931,
-  "Päivämäärä": "08\/29\/1931",
+  "Päivämäärä": "08.29.1931",
   "Kilpailu": "A-sarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -8194,7 +8194,7 @@
  {
   "ottelu_id": 193114,
   "Kausi": 1931,
-  "Päivämäärä": "08\/24\/1931",
+  "Päivämäärä": "08.24.1931",
   "Kilpailu": "A-sarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HIFK",
@@ -8205,7 +8205,7 @@
  {
   "ottelu_id": 193113,
   "Kausi": 1931,
-  "Päivämäärä": "08\/09\/1931",
+  "Päivämäärä": "08.09.1931",
   "Kilpailu": "A-sarja",
   "Kaupunki": "Vaasa",
   "Kotijoukkue": "VPS",
@@ -8216,7 +8216,7 @@
  {
   "ottelu_id": 193112,
   "Kausi": 1931,
-  "Päivämäärä": "08\/02\/1931",
+  "Päivämäärä": "08.02.1931",
   "Kilpailu": "A-sarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -8227,7 +8227,7 @@
  {
   "ottelu_id": 193111,
   "Kausi": 1931,
-  "Päivämäärä": "08\/02\/1931",
+  "Päivämäärä": "08.02.1931",
   "Kilpailu": "Ystävyysottelu",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -8238,7 +8238,7 @@
  {
   "ottelu_id": 193110,
   "Kausi": 1931,
-  "Päivämäärä": "08\/02\/1931",
+  "Päivämäärä": "08.02.1931",
   "Kilpailu": "Helsingin sarjamestaruus",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -8249,7 +8249,7 @@
  {
   "ottelu_id": 193109,
   "Kausi": 1931,
-  "Päivämäärä": "08\/02\/1931",
+  "Päivämäärä": "08.02.1931",
   "Kilpailu": "Helsingin sarjamestaruus",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -8260,7 +8260,7 @@
  {
   "ottelu_id": 193108,
   "Kausi": 1931,
-  "Päivämäärä": "08\/02\/1931",
+  "Päivämäärä": "08.02.1931",
   "Kilpailu": "Helsingin sarjamestaruus",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -8271,7 +8271,7 @@
  {
   "ottelu_id": 193107,
   "Kausi": 1931,
-  "Päivämäärä": "06\/06\/1931",
+  "Päivämäärä": "06.06.1931",
   "Kilpailu": "Helsingin sarjamestaruus",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -8282,7 +8282,7 @@
  {
   "ottelu_id": 193106,
   "Kausi": 1931,
-  "Päivämäärä": "05\/29\/1931",
+  "Päivämäärä": "05.29.1931",
   "Kilpailu": "Harjoitusottelu",
   "Stadion": "Töölön Pallokenttä",
   "Kaupunki": "Helsinki",
@@ -8294,7 +8294,7 @@
  {
   "ottelu_id": 193105,
   "Kausi": 1931,
-  "Päivämäärä": "05\/24\/1931",
+  "Päivämäärä": "05.24.1931",
   "Kilpailu": "Ystävyysottelu",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -8305,7 +8305,7 @@
  {
   "ottelu_id": 193104,
   "Kausi": 1931,
-  "Päivämäärä": "05\/17\/1931",
+  "Päivämäärä": "05.17.1931",
   "Kilpailu": "Helsingin sarjamestaruus",
   "Stadion": "Töölön Pallokenttä",
   "Kaupunki": "Helsinki",
@@ -8317,7 +8317,7 @@
  {
   "ottelu_id": 193103,
   "Kausi": 1931,
-  "Päivämäärä": "05\/10\/1930",
+  "Päivämäärä": "05.10.1930",
   "Kilpailu": "Ystävyysottelu",
   "Kaupunki": "Tallinna",
   "Kotijoukkue": "Estonia",
@@ -8328,7 +8328,7 @@
  {
   "ottelu_id": 193102,
   "Kausi": 1931,
-  "Päivämäärä": "05\/09\/1931",
+  "Päivämäärä": "05.09.1931",
   "Kilpailu": "Ystävyysottelu",
   "Kaupunki": "Tallinna",
   "Kotijoukkue": "Sport",
@@ -8339,7 +8339,7 @@
  {
   "ottelu_id": 193101,
   "Kausi": 1931,
-  "Päivämäärä": "04\/26\/1931",
+  "Päivämäärä": "04.26.1931",
   "Kilpailu": "Harjoitusottelu",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -8350,7 +8350,7 @@
  {
   "ottelu_id": 193022,
   "Kausi": 1930,
-  "Päivämäärä": "09\/14\/1930",
+  "Päivämäärä": "09.14.1930",
   "Kilpailu": "A-sarja",
   "Kaupunki": "Turku",
   "Kotijoukkue": "TPS",
@@ -8361,7 +8361,7 @@
  {
   "ottelu_id": 193021,
   "Kausi": 1930,
-  "Päivämäärä": "09\/07\/1930",
+  "Päivämäärä": "09.07.1930",
   "Kilpailu": "A-sarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HIFK",
@@ -8372,7 +8372,7 @@
  {
   "ottelu_id": 193020,
   "Kausi": 1930,
-  "Päivämäärä": "08\/31\/1930",
+  "Päivämäärä": "08.31.1930",
   "Kilpailu": "A-sarja",
   "Kaupunki": "Viipuri",
   "Kotijoukkue": "ViPS",
@@ -8383,7 +8383,7 @@
  {
   "ottelu_id": 193019,
   "Kausi": 1930,
-  "Päivämäärä": "08\/28\/1930",
+  "Päivämäärä": "08.28.1930",
   "Kilpailu": "A-sarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -8394,7 +8394,7 @@
  {
   "ottelu_id": 193018,
   "Kausi": 1930,
-  "Päivämäärä": "08\/21\/1930",
+  "Päivämäärä": "08.21.1930",
   "Kilpailu": "A-sarja",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -8405,7 +8405,7 @@
  {
   "ottelu_id": 193017,
   "Kausi": 1930,
-  "Päivämäärä": "08\/17\/1930",
+  "Päivämäärä": "08.17.1930",
   "Kilpailu": "A-sarja",
   "Kaupunki": "Vaasa",
   "Kotijoukkue": "VPS",
@@ -8416,7 +8416,7 @@
  {
   "ottelu_id": 193016,
   "Kausi": 1930,
-  "Päivämäärä": "08\/10\/1930",
+  "Päivämäärä": "08.10.1930",
   "Kilpailu": "A-sarja",
   "Kaupunki": "Turku",
   "Kotijoukkue": "ÅIFK",
@@ -8427,7 +8427,7 @@
  {
   "ottelu_id": 193015,
   "Kausi": 1930,
-  "Päivämäärä": "07\/29\/1930",
+  "Päivämäärä": "07.29.1930",
   "Kilpailu": "Helsingin sarjamestaruus",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -8438,7 +8438,7 @@
  {
   "ottelu_id": 193014,
   "Kausi": 1930,
-  "Päivämäärä": "07\/15\/1930",
+  "Päivämäärä": "07.15.1930",
   "Kilpailu": "Helsingin sarjamestaruus",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -8449,7 +8449,7 @@
  {
   "ottelu_id": 193013,
   "Kausi": 1930,
-  "Päivämäärä": "07\/03\/1930",
+  "Päivämäärä": "07.03.1930",
   "Kilpailu": "Ystävyysottelu",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -8460,7 +8460,7 @@
  {
   "ottelu_id": 193012,
   "Kausi": 1930,
-  "Päivämäärä": "05\/27\/1930",
+  "Päivämäärä": "05.27.1930",
   "Kilpailu": "Helsingin sarjamestaruus",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -8471,7 +8471,7 @@
  {
   "ottelu_id": 193011,
   "Kausi": 1930,
-  "Päivämäärä": "05\/22\/1930",
+  "Päivämäärä": "05.22.1930",
   "Kilpailu": "Helsingin sarjamestaruus",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS ",
@@ -8482,7 +8482,7 @@
  {
   "ottelu_id": 193010,
   "Kausi": 1930,
-  "Päivämäärä": "05\/01\/1930",
+  "Päivämäärä": "05.01.1930",
   "Kilpailu": "Helsingin sarjamestaruus",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -8493,7 +8493,7 @@
  {
   "ottelu_id": 193009,
   "Kausi": 1930,
-  "Päivämäärä": "05\/01\/1930",
+  "Päivämäärä": "05.01.1930",
   "Kilpailu": "Helsingin sarjamestaruus",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -8504,7 +8504,7 @@
  {
   "ottelu_id": 193008,
   "Kausi": 1930,
-  "Päivämäärä": "05\/01\/1930",
+  "Päivämäärä": "05.01.1930",
   "Kilpailu": "Helsingin sarjamestaruus",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -8515,7 +8515,7 @@
  {
   "ottelu_id": 193007,
   "Kausi": 1930,
-  "Päivämäärä": "05\/01\/1930",
+  "Päivämäärä": "05.01.1930",
   "Kilpailu": "Helsingin sarjamestaruus",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -8526,7 +8526,7 @@
  {
   "ottelu_id": 193006,
   "Kausi": 1930,
-  "Päivämäärä": "05\/01\/1930",
+  "Päivämäärä": "05.01.1930",
   "Kilpailu": "Ystävyysottelu",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -8537,7 +8537,7 @@
  {
   "ottelu_id": 193005,
   "Kausi": 1930,
-  "Päivämäärä": "05\/01\/1930",
+  "Päivämäärä": "05.01.1930",
   "Kilpailu": "Ystävyysottelu",
   "Kaupunki": "Viro",
   "Kotijoukkue": "Kalev",
@@ -8548,7 +8548,7 @@
  {
   "ottelu_id": 193004,
   "Kausi": 1930,
-  "Päivämäärä": "05\/01\/1930",
+  "Päivämäärä": "05.01.1930",
   "Kilpailu": "Ystävyysottelu",
   "Kaupunki": "Viro",
   "Kotijoukkue": "Sport",
@@ -8559,7 +8559,7 @@
  {
   "ottelu_id": 193003,
   "Kausi": 1930,
-  "Päivämäärä": "04\/13\/1930",
+  "Päivämäärä": "04.13.1930",
   "Kilpailu": "Harjoitusottelu",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -8570,7 +8570,7 @@
  {
   "ottelu_id": 193002,
   "Kausi": 1930,
-  "Päivämäärä": "04\/01\/1930",
+  "Päivämäärä": "04.01.1930",
   "Kilpailu": "Harjoitusottelu",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -8581,7 +8581,7 @@
  {
   "ottelu_id": 193001,
   "Kausi": 1930,
-  "Päivämäärä": "01\/19\/1930",
+  "Päivämäärä": "01.19.1930",
   "Kilpailu": "Harjoitusottelu",
   "Stadion": "Eläintarhan kenttä",
   "Kaupunki": "Helsinki",
