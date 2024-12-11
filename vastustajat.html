@@ -8,7 +8,7 @@
     <style>
         .opponent-table {
             width: 60%;
-            margin: 0 auto; /* Keskitetään taulukko */
+            margin: 0 auto;
             border-collapse: collapse;
         }
         .opponent-table th, .opponent-table td {
@@ -107,12 +107,13 @@
                         const tableBody = document.getElementById('opponent-table-body');
                         const sortSelect = document.getElementById('sort-select');
 
-                        let opponents = {};
+                        const opponents = {};
 
                         data.forEach(match => {
                             const isHPSHome = match.Kotijoukkue === 'HPS';
                             const opponent = isHPSHome ? match.Vierasjoukkue : match.Kotijoukkue;
-                            const matchDate = new Date(match.Päivämäärä.replace(/(\d{1,2})\.(\d{1,2})\.(\d{4})/, '$3-$2-$1'));
+                            const [day, month, year] = match.Päivämäärä.split('.');
+                            const matchDate = new Date(year, month - 1, day);
 
                             if (!opponents[opponent]) {
                                 opponents[opponent] = {
@@ -127,21 +128,23 @@
                             }
 
                             const opponentData = opponents[opponent];
-                            opponentData.encounters += 1;
+                            opponentData.encounters++;
 
-                            if (isHPSHome && match.maalit_koti > match.maalit_vieras || 
-                                !isHPSHome && match.maalit_vieras > match.maalit_koti) {
-                                opponentData.wins += 1;
+                            if (
+                                (isHPSHome && match.maalit_koti > match.maalit_vieras) ||
+                                (!isHPSHome && match.maalit_vieras > match.maalit_koti)
+                            ) {
+                                opponentData.wins++;
                             } else if (match.maalit_koti === match.maalit_vieras) {
-                                opponentData.draws += 1;
+                                opponentData.draws++;
                             } else {
-                                opponentData.losses += 1;
+                                opponentData.losses++;
                             }
 
-                            if (!opponentData.firstMeeting || matchDate < opponentData.firstMeeting) {
+                            if (matchDate < opponentData.firstMeeting) {
                                 opponentData.firstMeeting = matchDate;
                             }
-                            if (!opponentData.lastMeeting || matchDate > opponentData.lastMeeting) {
+                            if (matchDate > opponentData.lastMeeting) {
                                 opponentData.lastMeeting = matchDate;
                             }
                         });
@@ -156,8 +159,8 @@
                             tableBody.innerHTML = '';
                             data.forEach(opponent => {
                                 const row = document.createElement('tr');
-                                const logo = logos[opponent.name] 
-                                    ? `<img src="logot/${logos[opponent.name]}" alt="${opponent.name}" class="team-logo">` 
+                                const logo = logos[opponent.name]
+                                    ? `<img src="logot/${logos[opponent.name]}" alt="${opponent.name}" class="team-logo">`
                                     : '';
                                 row.innerHTML = `
                                     <td>

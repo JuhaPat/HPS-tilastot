@@ -1,5 +1,4 @@
-{
-  "Sheet1": [
+[
     {
       "ottelu_id": "202426",
       "Kausi": "2024",
@@ -2956,6 +2955,7 @@
     {
       "ottelu_id": "201323",
       "Kausi": "2014",
+      "Päivämäärä": "11.1.2014",
       "Kilpailu": "Kolmonen",
       "Kotijoukkue": "TuPS",
       "Vierasjoukkue": "HPS"
@@ -8592,4 +8592,3 @@
       "maalit_vieras": "2"
     }
   ]
-}
