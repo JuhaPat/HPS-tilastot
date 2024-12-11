@@ -3476,6 +3476,7 @@
   "maalit_vieras": 1
  },
  {
+  "ottelu_id": 201200,
   "Kausi": 2012,
   "Päivämäärä": "03\/05\/2012",
   "Kilpailu": "Suomen Cup",
@@ -4045,6 +4046,7 @@
   "maalit_vieras": 5
  },
  {
+  "ottelu_id": 201000,
   "Kausi": 2010,
   "Päivämäärä": "02\/27\/2010",
   "Kilpailu": "Suomen Cup",
@@ -5658,7 +5660,7 @@
   "maalit_vieras": 0
  },
  {
-  "ottelu_id": 195918,
+  "ottelu_id": 195922,
   "Kausi": 1959,
   "Päivämäärä": "10\/25\/1959",
   "Kilpailu": "Mestaruussarja",
@@ -5669,7 +5671,7 @@
   "maalit_vieras": 1
  },
  {
-  "ottelu_id": 195917,
+  "ottelu_id": 195921,
   "Kausi": 1959,
   "Päivämäärä": "10\/10\/1959",
   "Kilpailu": "Mestaruussarja",
@@ -5681,7 +5683,7 @@
   "maalit_vieras": 0
  },
  {
-  "ottelu_id": 195916,
+  "ottelu_id": 195920,
   "Kausi": 1959,
   "Päivämäärä": "09\/27\/1959",
   "Kilpailu": "Mestaruussarja",
@@ -5692,7 +5694,7 @@
   "maalit_vieras": 1
  },
  {
-  "ottelu_id": 195915,
+  "ottelu_id": 195919,
   "Kausi": 1959,
   "Päivämäärä": "09\/17\/1959",
   "Kilpailu": "Mestaruussarja",
@@ -5703,7 +5705,7 @@
   "maalit_vieras": 1
  },
  {
-  "ottelu_id": 195914,
+  "ottelu_id": 195918,
   "Kausi": 1959,
   "Päivämäärä": "09\/13\/1959",
   "Kilpailu": "Mestaruussarja",
@@ -5714,7 +5716,7 @@
   "maalit_vieras": 3
  },
  {
-  "ottelu_id": 195913,
+  "ottelu_id": 195917,
   "Kausi": 1959,
   "Päivämäärä": "08\/30\/1959",
   "Kilpailu": "Mestaruussarja",
@@ -5725,7 +5727,7 @@
   "maalit_vieras": 3
  },
  {
-  "ottelu_id": 195912,
+  "ottelu_id": 195916,
   "Kausi": 1959,
   "Päivämäärä": "08\/23\/1959",
   "Kilpailu": "Mestaruussarja",
@@ -5736,7 +5738,7 @@
   "maalit_vieras": 0
  },
  {
-  "ottelu_id": 195911,
+  "ottelu_id": 195915,
   "Kausi": 1959,
   "Päivämäärä": "08\/16\/1959",
   "Kilpailu": "Mestaruussarja",
@@ -5747,7 +5749,7 @@
   "maalit_vieras": 5
  },
  {
-  "ottelu_id": 195910,
+  "ottelu_id": 195914,
   "Kausi": 1959,
   "Päivämäärä": "08\/11\/1959",
   "Kilpailu": "Mestaruussarja",
@@ -5758,7 +5760,7 @@
   "maalit_vieras": 0
  },
  {
-  "ottelu_id": 195909,
+  "ottelu_id": 195913,
   "Kausi": 1959,
   "Päivämäärä": "07\/19\/1959",
   "Kilpailu": "Mestaruussarja",
@@ -5770,7 +5772,7 @@
   "maalit_vieras": 3
  },
  {
-  "ottelu_id": 195908,
+  "ottelu_id": 195912,
   "Kausi": 1959,
   "Päivämäärä": "06\/21\/1959",
   "Kilpailu": "Mestaruussarja",
@@ -5781,7 +5783,7 @@
   "maalit_vieras": 2
  },
  {
-  "ottelu_id": 195907,
+  "ottelu_id": 195911,
   "Kausi": 1959,
   "Päivämäärä": "06\/15\/1959",
   "Kilpailu": "Mestaruussarja",
@@ -5792,7 +5794,7 @@
   "maalit_vieras": 3
  },
  {
-  "ottelu_id": 195906,
+  "ottelu_id": 195910,
   "Kausi": 1959,
   "Päivämäärä": "06\/05\/1959",
   "Kilpailu": "Mestaruussarja",
@@ -5803,7 +5805,7 @@
   "maalit_vieras": 0
  },
  {
-  "ottelu_id": 195905,
+  "ottelu_id": 195909,
   "Kausi": 1959,
   "Päivämäärä": "05\/29\/1959",
   "Kilpailu": "Mestaruussarja",
@@ -5814,7 +5816,7 @@
   "maalit_vieras": 0
  },
  {
-  "ottelu_id": 195904,
+  "ottelu_id": 195908,
   "Kausi": 1959,
   "Päivämäärä": "05\/22\/1959",
   "Kilpailu": "Mestaruussarja",
@@ -5826,7 +5828,7 @@
   "maalit_vieras": 3
  },
  {
-  "ottelu_id": 195903,
+  "ottelu_id": 195907,
   "Kausi": 1959,
   "Päivämäärä": "05\/18\/1959",
   "Kilpailu": "Mestaruussarja",
@@ -5838,7 +5840,7 @@
   "maalit_vieras": 0
  },
  {
-  "ottelu_id": 195902,
+  "ottelu_id": 195906,
   "Kausi": 1959,
   "Päivämäärä": "05\/09\/1959",
   "Kilpailu": "Mestaruussarja",
@@ -5850,7 +5852,7 @@
   "maalit_vieras": 2
  },
  {
-  "ottelu_id": 195901,
+  "ottelu_id": 195905,
   "Kausi": 1959,
   "Päivämäärä": "05\/03\/1959",
   "Kilpailu": "Mestaruussarja",
@@ -5861,6 +5863,7 @@
   "maalit_vieras": 1
  },
  {
+  "ottelu_id": 195904,
   "Kausi": 1959,
   "Päivämäärä": "1.1.1959",
   "Kilpailu": "Suomen Cup",
@@ -5870,6 +5873,7 @@
   "maalit_vieras": 0
  },
  {
+  "ottelu_id": 195903,
   "Kausi": 1959,
   "Päivämäärä": "1.1.1959",
   "Kilpailu": "Suomen Cup",
@@ -5879,6 +5883,7 @@
   "maalit_vieras": 3
  },
  {
+  "ottelu_id": 195902,
   "Kausi": 1959,
   "Päivämäärä": "1.1.1959",
   "Kilpailu": "Suomen Cup",
@@ -5888,6 +5893,7 @@
   "maalit_vieras": 5
  },
  {
+  "ottelu_id": 195901,
   "Kausi": 1959,
   "Päivämäärä": "1.1.1959",
   "Kilpailu": "Suomen Cup",
@@ -8221,6 +8227,7 @@
  {
   "ottelu_id": 193111,
   "Kausi": 1931,
+  "Päivämäärä": "08\/02\/1931",
   "Kilpailu": "Ystävyysottelu",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -8231,6 +8238,7 @@
  {
   "ottelu_id": 193110,
   "Kausi": 1931,
+  "Päivämäärä": "08\/02\/1931",
   "Kilpailu": "Helsingin sarjamestaruus",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -8241,6 +8249,7 @@
  {
   "ottelu_id": 193109,
   "Kausi": 1931,
+  "Päivämäärä": "08\/02\/1931",
   "Kilpailu": "Helsingin sarjamestaruus",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -8251,6 +8260,7 @@
  {
   "ottelu_id": 193108,
   "Kausi": 1931,
+  "Päivämäärä": "08\/02\/1931",
   "Kilpailu": "Helsingin sarjamestaruus",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -8472,6 +8482,7 @@
  {
   "ottelu_id": 193010,
   "Kausi": 1930,
+  "Päivämäärä": "05\/01\/1930",
   "Kilpailu": "Helsingin sarjamestaruus",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -8482,6 +8493,7 @@
  {
   "ottelu_id": 193009,
   "Kausi": 1930,
+  "Päivämäärä": "05\/01\/1930",
   "Kilpailu": "Helsingin sarjamestaruus",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -8492,6 +8504,7 @@
  {
   "ottelu_id": 193008,
   "Kausi": 1930,
+  "Päivämäärä": "05\/01\/1930",
   "Kilpailu": "Helsingin sarjamestaruus",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -8502,6 +8515,7 @@
  {
   "ottelu_id": 193007,
   "Kausi": 1930,
+  "Päivämäärä": "05\/01\/1930",
   "Kilpailu": "Helsingin sarjamestaruus",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -8512,6 +8526,7 @@
  {
   "ottelu_id": 193006,
   "Kausi": 1930,
+  "Päivämäärä": "05\/01\/1930",
   "Kilpailu": "Ystävyysottelu",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
@@ -8522,6 +8537,7 @@
  {
   "ottelu_id": 193005,
   "Kausi": 1930,
+  "Päivämäärä": "05\/01\/1930",
   "Kilpailu": "Ystävyysottelu",
   "Kaupunki": "Viro",
   "Kotijoukkue": "Kalev",
@@ -8532,6 +8548,7 @@
  {
   "ottelu_id": 193004,
   "Kausi": 1930,
+  "Päivämäärä": "05\/01\/1930",
   "Kilpailu": "Ystävyysottelu",
   "Kaupunki": "Viro",
   "Kotijoukkue": "Sport",
@@ -8553,6 +8570,7 @@
  {
   "ottelu_id": 193002,
   "Kausi": 1930,
+  "Päivämäärä": "04\/01\/1930",
   "Kilpailu": "Harjoitusottelu",
   "Kaupunki": "Helsinki",
   "Kotijoukkue": "HPS",
