@@ -6537,7 +6537,7 @@
       "Päivämäärä": "1.1.1942",
       "Kilpailu": "Helsingin piirin syyssotasarja",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "HT",
+      "Vierasjoukkue": "Toverit",
       "maalit_koti": "5",
       "maalit_vieras": "4"
     },
@@ -6589,7 +6589,7 @@
       "Päivämäärä": "1.1.1942",
       "Kilpailu": "Helsingin piirin sotasarja",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "HT",
+      "Vierasjoukkue": "Toverit",
       "maalit_koti": "5",
       "maalit_vieras": "1"
     },
@@ -6659,7 +6659,7 @@
       "Päivämäärä": "1.1.1942",
       "Kilpailu": "Helsingin piirin sotasarja",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "HT",
+      "Vierasjoukkue": "Toverit",
       "maalit_koti": "1",
       "maalit_vieras": "1"
     },
@@ -6742,7 +6742,7 @@
       "Kilpailu": "Sotasarja",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "HT",
+      "Vierasjoukkue": "Toverit",
       "maalit_koti": "5",
       "maalit_vieras": "8"
     },
@@ -6796,7 +6796,7 @@
       "Kilpailu": "Mestaruussarja",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "HT",
+      "Vierasjoukkue": "Toverit",
       "maalit_koti": "0",
       "maalit_vieras": "1"
     },
@@ -6841,7 +6841,7 @@
       "Kilpailu": "Ystävyysottelu",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "HT",
+      "Vierasjoukkue": "Toverit",
       "maalit_koti": "3",
       "maalit_vieras": "0"
     },
@@ -6884,7 +6884,7 @@
       "Päivämäärä": "10.9.1940",
       "Kilpailu": "Mestaruussarja",
       "Kaupunki": "Helsinki",
-      "Kotijoukkue": "HT",
+      "Kotijoukkue": "Toverit",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
       "maalit_vieras": "3"
@@ -6963,7 +6963,7 @@
       "Kilpailu": "Ystävyysottelu",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "HT",
+      "Vierasjoukkue": "Toverit",
       "maalit_koti": "1",
       "maalit_vieras": "0"
     },
@@ -7029,7 +7029,7 @@
       "Kilpailu": "Mestaruussarja",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "HT",
+      "Vierasjoukkue": "Toverit",
       "maalit_koti": "1",
       "maalit_vieras": "3"
     },
@@ -7105,7 +7105,7 @@
       "Päivämäärä": "19.5.1939",
       "Kilpailu": "Mestaruussarja",
       "Kaupunki": "Helsinki",
-      "Kotijoukkue": "HT",
+      "Kotijoukkue": "Toverit",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
       "maalit_vieras": "1"
@@ -7139,7 +7139,7 @@
       "Kilpailu": "Piirisarja",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "HT",
+      "Vierasjoukkue": "Toverit",
       "maalit_koti": "4",
       "maalit_vieras": "2"
     },
@@ -7217,7 +7217,7 @@
       "Päivämäärä": "26.8.1938",
       "Kilpailu": "Mestaruussarja",
       "Kaupunki": "Helsinki",
-      "Kotijoukkue": "HT",
+      "Kotijoukkue": "Toverit",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
       "maalit_vieras": "2"
@@ -7296,7 +7296,7 @@
       "Kilpailu": "Mestaruussarja",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "HT",
+      "Vierasjoukkue": "Toverit",
       "maalit_koti": "1",
       "maalit_vieras": "2"
     },
@@ -7370,7 +7370,7 @@
       "Kilpailu": "Piirisarja",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "HT",
+      "Vierasjoukkue": "Toverit",
       "maalit_koti": "1",
       "maalit_vieras": "1"
     },
@@ -7480,7 +7480,7 @@
       "Päivämäärä": "25.8.1937",
       "Kilpailu": "Mestaruussarja",
       "Kaupunki": "Helsinki",
-      "Kotijoukkue": "HT",
+      "Kotijoukkue": "Toverit",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
       "maalit_vieras": "2"
@@ -7664,7 +7664,7 @@
       "Kilpailu": "Mestaruussarja",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "HT",
+      "Vierasjoukkue": "Toverit",
       "maalit_koti": "1",
       "maalit_vieras": "3"
     },
@@ -7731,7 +7731,7 @@
       "Kilpailu": "Piirisarja",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "HT",
+      "Vierasjoukkue": "Toverit",
       "maalit_koti": "2",
       "maalit_vieras": "3"
     },
@@ -7752,7 +7752,7 @@
       "Päivämäärä": "3.10.1936",
       "Kilpailu": "Mestaruussarja",
       "Kaupunki": "Helsinki",
-      "Kotijoukkue": "HT",
+      "Kotijoukkue": "Toverit",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
       "maalit_vieras": "4"
@@ -7819,7 +7819,7 @@
       "Kilpailu": "Mestaruussarja",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "HT",
+      "Vierasjoukkue": "Toverit",
       "maalit_koti": "1",
       "maalit_vieras": "1"
     },
@@ -8000,7 +8000,7 @@
       "Päivämäärä": "1.8.1935",
       "Kilpailu": "A-sarja",
       "Kaupunki": "Helsinki",
-      "Kotijoukkue": "HT",
+      "Kotijoukkue": "Toverit",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
       "maalit_vieras": "3"
@@ -8067,7 +8067,7 @@
       "Kilpailu": "A-sarja",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "HT",
+      "Vierasjoukkue": "Toverit",
       "maalit_koti": "3",
       "maalit_vieras": "0"
     },
