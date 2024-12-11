@@ -39,6 +39,20 @@
         .matches-list th {
             background-color: #f4f4f4;
         }
+        .small-logo {
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
+            vertical-align: middle;
+        }
+        .match-link {
+            color: black;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .match-link:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -69,8 +83,8 @@
                     <th>Kilpailu</th>
                     <th>Stadion</th>
                     <th>Kaupunki</th>
-                    <th>HPS</th>
-                    <th>Vastustaja</th>
+                    <th>Kotijoukkue</th>
+                    <th>Vierasjoukkue</th>
                     <th>Tulos</th>
                 </tr>
             </thead>
@@ -88,8 +102,12 @@
             fetch('sarjataulukot.json')
                 .then(response => response.json())
                 .then(teams => {
-                    const team = teams.find(t => t.Joukkue === opponentName);
-                    const logo = team ? `/logot/${team.Logo}` : '';
+                    const teamLogos = teams.reduce((logos, team) => {
+                        logos[team.Joukkue] = team.Logo ? `logot/${team.Logo}` : '';
+                        return logos;
+                    }, {});
+
+                    const opponentLogo = teamLogos[opponentName] || '';
                     
                     fetch('ottelut.json')
                         .then(response => response.json())
@@ -111,7 +129,7 @@
                             const opponentContent = `
                                 <h1 class="opponent-header">${opponentName}</h1>
                                 <div class="opponent-logo">
-                                    <img src="logot/${logo}" alt="${opponentName}" class="team-logo">
+                                    <img src="${opponentLogo}" alt="${opponentName}" class="team-logo">
                                 </div>
                                 <p class="opponent-details">Ensimmäinen kohtaaminen: ${earliestMatch.toLocaleDateString('fi-FI')}</p>
                                 <p class="opponent-details">Viimeisin kohtaaminen: ${latestMatch.toLocaleDateString('fi-FI')}</p>
@@ -126,9 +144,19 @@
                                     <td>${match.Kilpailu}</td>
                                     <td>${match.Stadion}</td>
                                     <td>${match.Kaupunki}</td>
-                                    <td>${match.Kotijoukkue === 'HPS' ? 'HPS' : ''}</td>
-                                    <td>${match.Kotijoukkue === opponentName ? match.Kotijoukkue : match.Vierasjoukkue}</td>
-                                    <td>${match.maalit_koti}-${match.maalit_vieras}</td>
+                                    <td>
+                                        <img src="${teamLogos[match.Kotijoukkue] || ''}" alt="${match.Kotijoukkue}" class="small-logo">
+                                        ${match.Kotijoukkue}
+                                    </td>
+                                    <td>
+                                        <img src="${teamLogos[match.Vierasjoukkue] || ''}" alt="${match.Vierasjoukkue}" class="small-logo">
+                                        ${match.Vierasjoukkue}
+                                    </td>
+                                    <td>
+                                        <a href="ottelukortti.html?ottelu_id=${match.ottelu_id}" class="match-link">
+                                            ${match.maalit_koti}-${match.maalit_vieras}
+                                        </a>
+                                    </td>
                                 </tr>
                             `).join('');
                         })
