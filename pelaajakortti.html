@@ -9,7 +9,7 @@
         .player-info {
             display: flex;
             flex-direction: column;
-            align-items: center; /* Keskitetään kuva ja tiedot */
+            align-items: center;
             margin-bottom: 20px;
         }
 
@@ -23,8 +23,8 @@
 
         .player-details h1 {
             margin: 0;
-            font-size: 1.8rem; /* Suurempi fonttikoko nimelle */
-            color: rgb(0, 100, 40); /* Väri muutettu */
+            font-size: 1.8rem;
+            color: rgb(0, 100, 40);
         }
 
         .player-details p {
@@ -78,12 +78,11 @@
 
     <main>
         <div class="player-info">
-            <img src="logot/HPS.jpg" alt="HPS Logo" style="width: 100px; height: auto; display: block; margin: 0 auto;">
             <img src="pelaajakuvat/pelaajakuva.jpg" alt="Pelaajan kuva" class="player-photo">
             <div class="player-details">
                 <h1 id="player-name"></h1>
-                <p id="player-birth">s. 1.1.1900</p>
-                <p id="player-death">k. 1.1.1900</p>
+                <p id="player-birth">s. -</p>
+                <p id="player-death">k. -</p>
                 <p id="player-positions"><strong>Pelipaikat:</strong> -</p>
                 <p id="player-roles"><strong>Muut roolit:</strong> -</p>
             </div>
@@ -117,10 +116,6 @@
         const etunimi = urlParams.get('etunimi');
 
         document.getElementById('player-name').textContent = `${etunimi} ${sukunimi}`;
-
-        // Päivitetään syntymä- ja kuolinaika (voi tulla JSON-datasta)
-        document.getElementById('player-birth').textContent = 's. 1.1.1900';
-        document.getElementById('player-death').textContent = 'k. 1.1.1900';
 
         let sarjataulukot = {};
 
@@ -160,11 +155,11 @@
                             maalit: 0
                         };
                     }
-                    yearStats[year].pelit += record["Ottelut"] || 0;
-                    yearStats[year].maalit += record["Maalit"] || 0;
+                    yearStats[year].pelit += parseInt(record["Ottelut"] || 0, 10);
+                    yearStats[year].maalit += parseInt(record["Maalit"] || 0, 10);
 
-                    totalGames += record["Ottelut"] || 0;
-                    totalGoals += record["Maalit"] || 0;
+                    totalGames += parseInt(record["Ottelut"] || 0, 10);
+                    totalGoals += parseInt(record["Maalit"] || 0, 10);
 
                     // Kerätään pelipaikat ja roolit
                     if (record["Pelipaikka"]) positions.add(record["Pelipaikka"]);

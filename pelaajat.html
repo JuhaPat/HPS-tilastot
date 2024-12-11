@@ -39,7 +39,7 @@
         <table id="players-table" class="player-table">
             <thead>
                 <tr>
-                    <th>Kuva</th> <!-- Uusi sarake kuville -->
+                    <th>Kuva</th>
                     <th>Sukunimi</th>
                     <th>Etunimi</th>
                     <th>Pelipaikka</th>
@@ -67,7 +67,7 @@
                 const playerTotals = {};
                 data.forEach(record => {
                     const playerName = record["Koko nimi"];
-                    const kausi = record["Kausi"];
+                    const kausi = parseInt(record["Kausi"], 10); // Muuntaa kauden numeroksi
                     if (!playerTotals[playerName]) {
                         playerTotals[playerName] = {
                             sukunimi: playerName.split(' ')[1] || '',
@@ -81,8 +81,8 @@
                             viimeinenKausi: -Infinity
                         };
                     }
-                    playerTotals[playerName].pelit += record["Ottelut"] || 0;
-                    playerTotals[playerName].maalit += record["Maalit"] || 0;
+                    playerTotals[playerName].pelit += parseInt(record["Ottelut"] || 0, 10);
+                    playerTotals[playerName].maalit += parseInt(record["Maalit"] || 0, 10);
                     playerTotals[playerName].kaudet += 1;
 
                     if (record["Pelipaikka"]) {
@@ -92,7 +92,7 @@
                         playerTotals[playerName].muuRooli.add(record["Muu rooli"]);
                     }
 
-                    if (typeof kausi === 'number') {
+                    if (!isNaN(kausi)) {
                         playerTotals[playerName].ensimmäinenKausi = Math.min(playerTotals[playerName].ensimmäinenKausi, kausi);
                         playerTotals[playerName].viimeinenKausi = Math.max(playerTotals[playerName].viimeinenKausi, kausi);
                     }
@@ -106,7 +106,6 @@
                     sortedPlayers.forEach(player => {
                         const tr = document.createElement('tr');
                         tr.innerHTML = `
-                            <!-- Käytetään samaa kuvaa kaikille pelaajille -->
                             <td><img src="pelaajakuvat/pelaajakuva.jpg" alt="Pelaajan kuva" class="player-photo"></td>
                             <td><a href="pelaajakortti.html?sukunimi=${encodeURIComponent(player.sukunimi)}&etunimi=${encodeURIComponent(player.etunimi)}">${player.sukunimi}</a></td>
                             <td><a href="pelaajakortti.html?sukunimi=${encodeURIComponent(player.sukunimi)}&etunimi=${encodeURIComponent(player.etunimi)}">${player.etunimi}</a></td>
