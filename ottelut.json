@@ -3187,7 +3187,6 @@
     {
       "ottelu_id": "201303",
       "Kausi": "2013",
-      "Päivämäärä": "1.1.2013",
       "Kilpailu": "Kolmonen",
       "Kotijoukkue": "SibboV",
       "Vierasjoukkue": "HPS"
@@ -3195,7 +3194,6 @@
     {
       "ottelu_id": "201302",
       "Kausi": "2013",
-      "Päivämäärä": "1.1.2013",
       "Kilpailu": "Kolmonen",
       "Kotijoukkue": "EBK",
       "Vierasjoukkue": "HPS",
@@ -5421,884 +5419,938 @@
       "maalit_vieras": "1"
     },
     {
+      "ottelu_id": "200523",
+      "Kausi": "2005",
+      "Päivämäärä": "30.9.2005",
+      "Kilpailu": "Nelonen",
+      "Stadion": "Laajasalo",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "MaKu/4",
+      "Vierasjoukkue": "HPS"
+    },
+    {
+      "ottelu_id": "200522",
+      "Kausi": "2005",
+      "Päivämäärä": "27.9.2005",
+      "Kilpailu": "Nelonen",
+      "Stadion": "Pirkkola",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "PiTa"
+    },
+    {
+      "ottelu_id": "200521",
+      "Kausi": "2005",
+      "Päivämäärä": "20.9.2005",
+      "Kilpailu": "Nelonen",
+      "Stadion": "Pirkkola",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "HIFK soccer"
+    },
+    {
       "ottelu_id": "200520",
       "Kausi": "2005",
-      "Päivämäärä": "1.1.2005",
+      "Päivämäärä": "13.9.2005",
       "Kilpailu": "Nelonen",
-      "Kotijoukkue": "HIFK soccer",
-      "Vierasjoukkue": "HPS",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Stadion": "Myllypuro",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "Socus",
+      "Vierasjoukkue": "HPS"
     },
     {
       "ottelu_id": "200519",
       "Kausi": "2005",
-      "Päivämäärä": "2.1.2005",
+      "Päivämäärä": "6.9.2005",
       "Kilpailu": "Nelonen",
-      "Kotijoukkue": "HerTo",
-      "Vierasjoukkue": "HPS",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Stadion": "Pirkkola",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "Spartak"
     },
     {
       "ottelu_id": "200518",
       "Kausi": "2005",
-      "Päivämäärä": "3.1.2005",
+      "Päivämäärä": "31.8.2005",
       "Kilpailu": "Nelonen",
-      "Kotijoukkue": "Spartak",
-      "Vierasjoukkue": "HPS",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Stadion": "Herttoniemi",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HerTo",
+      "Vierasjoukkue": "HPS"
     },
     {
       "ottelu_id": "200517",
       "Kausi": "2005",
-      "Päivämäärä": "4.1.2005",
+      "Päivämäärä": "25.8.2005",
       "Kilpailu": "Nelonen",
-      "Kotijoukkue": "PH-99",
-      "Vierasjoukkue": "HPS",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Stadion": "Käpylä",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "Team KäPa",
+      "Vierasjoukkue": "HPS"
     },
     {
       "ottelu_id": "200516",
       "Kausi": "2005",
-      "Päivämäärä": "5.1.2005",
+      "Päivämäärä": "16.8.2005",
       "Kilpailu": "Nelonen",
-      "Kotijoukkue": "MaKu/Nelonen",
-      "Vierasjoukkue": "HPS",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Stadion": "Pirkkola",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "PH-99"
     },
     {
       "ottelu_id": "200515",
       "Kausi": "2005",
-      "Päivämäärä": "6.1.2005",
+      "Päivämäärä": "9.8.2005",
       "Kilpailu": "Nelonen",
-      "Kotijoukkue": "FC Pihlajisto",
-      "Vierasjoukkue": "HPS",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Stadion": "Vuosaari",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "FC Kuitu",
+      "Vierasjoukkue": "HPS"
     },
     {
       "ottelu_id": "200514",
       "Kausi": "2005",
-      "Päivämäärä": "7.1.2005",
+      "Päivämäärä": "2.8.2005",
       "Kilpailu": "Nelonen",
-      "Kotijoukkue": "FC Kuitu",
-      "Vierasjoukkue": "HPS",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Stadion": "Pirkkola",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "FC Pihlajisto"
     },
     {
       "ottelu_id": "200513",
       "Kausi": "2005",
-      "Päivämäärä": "8.1.2005",
+      "Päivämäärä": "26.7.2005",
       "Kilpailu": "Nelonen",
-      "Kotijoukkue": "PiTa",
-      "Vierasjoukkue": "HPS",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Stadion": "Myllypuro",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "Zenith",
+      "Vierasjoukkue": "HPS"
     },
     {
       "ottelu_id": "200512",
       "Kausi": "2005",
-      "Päivämäärä": "9.1.2005",
+      "Päivämäärä": "30.6.2005",
       "Kilpailu": "Nelonen",
-      "Kotijoukkue": "Zenith",
-      "Vierasjoukkue": "HPS",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Stadion": "Pirkkola",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "MaKu/4"
     },
     {
       "ottelu_id": "200511",
       "Kausi": "2005",
-      "Päivämäärä": "10.1.2005",
+      "Päivämäärä": "28.6.2005",
       "Kilpailu": "Nelonen",
-      "Kotijoukkue": "Socus",
-      "Vierasjoukkue": "HPS",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Stadion": "Pitäjänmäki",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "PiTa",
+      "Vierasjoukkue": "HPS"
     },
     {
       "ottelu_id": "200510",
       "Kausi": "2005",
-      "Päivämäärä": "11.1.2005",
+      "Päivämäärä": "20.6.2005",
       "Kilpailu": "Nelonen",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "HIFK soccer",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Stadion": "Töölön Pallokenttä",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HIFK soccer",
+      "Vierasjoukkue": "HPS"
     },
     {
       "ottelu_id": "200509",
       "Kausi": "2005",
-      "Päivämäärä": "12.1.2005",
+      "Päivämäärä": "14.6.2005",
       "Kilpailu": "Nelonen",
+      "Stadion": "Pirkkola",
+      "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "HerTo",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Vierasjoukkue": "Socus"
     },
     {
       "ottelu_id": "200508",
       "Kausi": "2005",
-      "Päivämäärä": "13.1.2005",
+      "Päivämäärä": "10.6.2005",
       "Kilpailu": "Nelonen",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "Spartak",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Stadion": "Myllypuro",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "Spartak",
+      "Vierasjoukkue": "HPS"
     },
     {
       "ottelu_id": "200507",
       "Kausi": "2005",
-      "Päivämäärä": "14.1.2005",
+      "Päivämäärä": "30.5.2005",
       "Kilpailu": "Nelonen",
+      "Stadion": "Pirkkola",
+      "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "PH-99",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Vierasjoukkue": "HerTo"
     },
     {
       "ottelu_id": "200506",
       "Kausi": "2005",
-      "Päivämäärä": "15.1.2005",
+      "Päivämäärä": "26.5.2005",
       "Kilpailu": "Nelonen",
+      "Stadion": "Pirkkola",
+      "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "MaKu/Nelonen",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Vierasjoukkue": "Team KäPa"
     },
     {
       "ottelu_id": "200505",
       "Kausi": "2005",
-      "Päivämäärä": "16.1.2005",
+      "Päivämäärä": "19.5.2005",
       "Kilpailu": "Nelonen",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "FC Pihlajisto",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Stadion": "Väinämöinen",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "PH-99",
+      "Vierasjoukkue": "HPS"
     },
     {
       "ottelu_id": "200504",
       "Kausi": "2005",
-      "Päivämäärä": "17.1.2005",
+      "Päivämäärä": "13.5.2005",
       "Kilpailu": "Nelonen",
+      "Stadion": "Pirkkola",
+      "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "FC Kuitu",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Vierasjoukkue": "FC Kuitu"
     },
     {
       "ottelu_id": "200503",
       "Kausi": "2005",
-      "Päivämäärä": "18.1.2005",
+      "Päivämäärä": "4.5.2005",
       "Kilpailu": "Nelonen",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "PiTa",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Stadion": "Tapuli",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "FC Pihlajisto",
+      "Vierasjoukkue": "HPS"
     },
     {
       "ottelu_id": "200502",
       "Kausi": "2005",
-      "Päivämäärä": "19.1.2005",
+      "Päivämäärä": "26.4.2005",
       "Kilpailu": "Nelonen",
+      "Stadion": "Tali",
+      "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "Zenith",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Vierasjoukkue": "Zenith"
     },
     {
       "ottelu_id": "200501",
       "Kausi": "2005",
-      "Päivämäärä": "20.1.2005",
-      "Kilpailu": "Nelonen",
+      "Kilpailu": "Suomen Cup",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "Socus",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Vierasjoukkue": "MauPa",
+      "maalit_koti": "1",
+      "maalit_vieras": "4"
+    },
+    {
+      "ottelu_id": "200419",
+      "Kausi": "2004",
+      "Päivämäärä": "27.9.2004",
+      "Kilpailu": "Vitonen",
+      "Stadion": "Käpylä",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "FC Homer",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "1",
+      "maalit_vieras": "3"
+    },
+    {
+      "ottelu_id": "200418",
+      "Kausi": "2004",
+      "Päivämäärä": "21.9.2004",
+      "Kilpailu": "Vitonen",
+      "Stadion": "Pirkkola",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "KäPa/PuLe",
+      "maalit_koti": "2",
+      "maalit_vieras": "1"
     },
     {
       "ottelu_id": "200417",
       "Kausi": "2004",
-      "Päivämäärä": "1.1.2004",
+      "Päivämäärä": "14.9.2004",
       "Kilpailu": "Vitonen",
+      "Stadion": "Pirkkola",
+      "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "PuiU/3",
-      "maalit_koti": "0",
+      "Vierasjoukkue": "ToTe/Avauspotku",
+      "maalit_koti": "1",
       "maalit_vieras": "0"
     },
     {
       "ottelu_id": "200416",
       "Kausi": "2004",
-      "Päivämäärä": "2.1.2004",
+      "Päivämäärä": "7.9.2004",
       "Kilpailu": "Vitonen",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "MauPa",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Stadion": "Pirkkola",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "Hopsi",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "2",
+      "maalit_vieras": "10"
     },
     {
       "ottelu_id": "200415",
       "Kausi": "2004",
-      "Päivämäärä": "3.1.2004",
+      "Päivämäärä": "30.8.2004",
       "Kilpailu": "Vitonen",
+      "Stadion": "Pirkkola",
+      "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "Socus",
+      "Vierasjoukkue": "HDS/Vatanspor",
       "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "maalit_vieras": "2"
     },
     {
       "ottelu_id": "200414",
       "Kausi": "2004",
-      "Päivämäärä": "4.1.2004",
+      "Päivämäärä": "26.8.2004",
       "Kilpailu": "Vitonen",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "KäPa/PuLe",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Stadion": "Herttoniemi",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HDS/HPT",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "1",
+      "maalit_vieras": "3"
     },
     {
       "ottelu_id": "200413",
       "Kausi": "2004",
-      "Päivämäärä": "5.1.2004",
+      "Päivämäärä": "17.8.2004",
       "Kilpailu": "Vitonen",
+      "Stadion": "Pirkkola",
+      "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "FC POHU/2",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Vierasjoukkue": "HDS/Cosmos Juni",
+      "maalit_koti": "4",
+      "maalit_vieras": "1"
     },
     {
       "ottelu_id": "200412",
       "Kausi": "2004",
-      "Päivämäärä": "6.1.2004",
+      "Päivämäärä": "9.8.2004",
       "Kilpailu": "Vitonen",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "SAPA/2",
-      "maalit_koti": "0",
+      "Stadion": "Lassila",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "FC POHU/2",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "1",
       "maalit_vieras": "0"
     },
     {
       "ottelu_id": "200411",
       "Kausi": "2004",
-      "Päivämäärä": "7.1.2004",
+      "Päivämäärä": "5.8.2004",
       "Kilpailu": "Vitonen",
+      "Stadion": "Pirkkola",
+      "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "MaKu/Legends",
-      "maalit_koti": "0",
+      "Vierasjoukkue": "FC Kuitu/2",
+      "maalit_koti": "1",
       "maalit_vieras": "0"
     },
     {
       "ottelu_id": "200410",
       "Kausi": "2004",
-      "Päivämäärä": "8.1.2004",
+      "Päivämäärä": "22.6.2004",
       "Kilpailu": "Vitonen",
+      "Stadion": "Pirkkola",
+      "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "PETO",
-      "maalit_koti": "0",
+      "Vierasjoukkue": "Dal",
+      "maalit_koti": "3",
       "maalit_vieras": "0"
     },
     {
       "ottelu_id": "200409",
       "Kausi": "2004",
-      "Päivämäärä": "9.1.2004",
+      "Päivämäärä": "15.6.2004",
       "Kilpailu": "Vitonen",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "ToTe/Avauspot",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Stadion": "Myllypuro",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "Socus",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "3",
+      "maalit_vieras": "1"
     },
     {
       "ottelu_id": "200408",
       "Kausi": "2004",
-      "Päivämäärä": "10.1.2004",
+      "Päivämäärä": "8.6.2004",
       "Kilpailu": "Vitonen",
+      "Stadion": "Pirkkola",
+      "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "HDS/Cosmos Ju",
-      "maalit_koti": "0",
+      "Vierasjoukkue": "SAPA/2",
+      "maalit_koti": "1",
       "maalit_vieras": "0"
     },
     {
       "ottelu_id": "200407",
       "Kausi": "2004",
-      "Päivämäärä": "11.1.2004",
+      "Päivämäärä": "2.6.2004",
       "Kilpailu": "Vitonen",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "FC Kuitu/2",
+      "Stadion": "Puistola",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "PuiU/3",
+      "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "maalit_vieras": "4"
     },
     {
       "ottelu_id": "200406",
       "Kausi": "2004",
-      "Päivämäärä": "12.1.2004",
+      "Päivämäärä": "25.5.2004",
       "Kilpailu": "Vitonen",
+      "Stadion": "Pirkkola",
+      "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "HDS/HPT",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Vierasjoukkue": "PETO",
+      "maalit_koti": "4",
+      "maalit_vieras": "3"
     },
     {
       "ottelu_id": "200405",
       "Kausi": "2004",
-      "Päivämäärä": "13.1.2004",
+      "Päivämäärä": "18.5.2004",
       "Kilpailu": "Vitonen",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "HDS/Vatanspor",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Stadion": "Vesala",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "PeTe",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "1",
+      "maalit_vieras": "13"
     },
     {
       "ottelu_id": "200404",
       "Kausi": "2004",
-      "Päivämäärä": "14.1.2004",
+      "Päivämäärä": "15.5.2004",
       "Kilpailu": "Vitonen",
+      "Stadion": "Pirkkola",
+      "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "Dal",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Vierasjoukkue": "MauPa",
+      "maalit_koti": "1",
+      "maalit_vieras": "2"
     },
     {
       "ottelu_id": "200403",
       "Kausi": "2004",
-      "Päivämäärä": "15.1.2004",
+      "Päivämäärä": "5.5.2004",
       "Kilpailu": "Vitonen",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "Hopsi",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Stadion": "Tapuli",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "MaKu/Legends",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "1",
+      "maalit_vieras": "3"
     },
     {
       "ottelu_id": "200402",
       "Kausi": "2004",
-      "Päivämäärä": "16.1.2004",
-      "Kilpailu": "Vitonen",
+      "Kilpailu": "Suomen Cup",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "FC Homer",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Vierasjoukkue": "FC POHU",
+      "maalit_koti": "2",
+      "maalit_vieras": "5"
     },
     {
       "ottelu_id": "200401",
       "Kausi": "2004",
-      "Päivämäärä": "17.1.2004",
-      "Kilpailu": "Vitonen",
+      "Kilpailu": "Suomen Cup",
+      "Kotijoukkue": "ToTe/Avauspotku",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "1",
+      "maalit_vieras": "3"
+    },
+    {
+      "ottelu_id": "200315",
+      "Kausi": "2003",
+      "Päivämäärä": "3.10.2003",
+      "Kilpailu": "Piirinmestaruus",
+      "Stadion": "Pirkkola",
+      "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "PeTe",
-      "maalit_koti": "0",
+      "Vierasjoukkue": "FC Wartti",
+      "maalit_koti": "2",
       "maalit_vieras": "0"
+    },
+    {
+      "ottelu_id": "200314",
+      "Kausi": "2003",
+      "Päivämäärä": "30.9.2003",
+      "Kilpailu": "Piirinmestaruus",
+      "Stadion": "Tapuli",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "KäPa/PuLe",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "4",
+      "maalit_vieras": "2"
+    },
+    {
+      "ottelu_id": "200313",
+      "Kausi": "2003",
+      "Päivämäärä": "22.9.2003",
+      "Kilpailu": "Kutonen",
+      "Stadion": "Jakomäki",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "FC Härät",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "0",
+      "maalit_vieras": "2"
     },
     {
       "ottelu_id": "200312",
       "Kausi": "2003",
-      "Päivämäärä": "1.1.2003",
+      "Päivämäärä": "18.9.2003",
       "Kilpailu": "Kutonen",
+      "Stadion": "Pirkkola",
+      "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "HePuLi",
-      "maalit_koti": "0",
+      "Vierasjoukkue": "Trikiinit",
+      "maalit_koti": "2",
       "maalit_vieras": "0"
     },
     {
       "ottelu_id": "200311",
       "Kausi": "2003",
-      "Päivämäärä": "2.1.2003",
+      "Päivämäärä": "9.9.2003",
       "Kilpailu": "Kutonen",
+      "Stadion": "Pirkkola",
+      "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "Tavastia",
-      "maalit_koti": "0",
+      "Vierasjoukkue": "FC Viikingit/2",
+      "maalit_koti": "2",
       "maalit_vieras": "0"
     },
     {
       "ottelu_id": "200310",
       "Kausi": "2003",
-      "Päivämäärä": "3.1.2003",
+      "Päivämäärä": "4.9.2003",
       "Kilpailu": "Kutonen",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "HeKuLa",
+      "Stadion": "Väinämöinen",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HeKuLa",
+      "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "maalit_vieras": "1"
     },
     {
       "ottelu_id": "200309",
       "Kausi": "2003",
-      "Päivämäärä": "4.1.2003",
+      "Päivämäärä": "28.8.2003",
       "Kilpailu": "Kutonen",
+      "Stadion": "Pirkkola",
+      "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "IHJ/2",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "maalit_koti": "3",
+      "maalit_vieras": "1"
     },
     {
       "ottelu_id": "200308",
       "Kausi": "2003",
-      "Päivämäärä": "5.1.2003",
+      "Päivämäärä": "14.8.2003",
       "Kilpailu": "Kutonen",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "FC Viikingit/",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Stadion": "Lauttasaari",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HerPa",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "1",
+      "maalit_vieras": "3"
     },
     {
       "ottelu_id": "200307",
       "Kausi": "2003",
-      "Päivämäärä": "6.1.2003",
+      "Päivämäärä": "7.8.2003",
       "Kilpailu": "Kutonen",
+      "Stadion": "Pirkkola",
+      "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "HerPa",
-      "maalit_koti": "0",
+      "Vierasjoukkue": "HePuLi",
+      "maalit_koti": "1",
       "maalit_vieras": "0"
     },
     {
       "ottelu_id": "200306",
       "Kausi": "2003",
-      "Päivämäärä": "7.1.2003",
+      "Päivämäärä": "9.6.2003",
       "Kilpailu": "Kutonen",
+      "Stadion": "Lassila",
+      "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "Norsunkaataja",
-      "maalit_koti": "0",
+      "Vierasjoukkue": "FC Balls",
+      "maalit_koti": "13",
       "maalit_vieras": "0"
     },
     {
       "ottelu_id": "200305",
       "Kausi": "2003",
-      "Päivämäärä": "8.1.2003",
+      "Päivämäärä": "4.6.2003",
       "Kilpailu": "Kutonen",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "Trikiinit",
+      "Stadion": "Kannelmäki",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "Zyklon/2",
+      "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
       "maalit_vieras": "0"
     },
     {
       "ottelu_id": "200304",
       "Kausi": "2003",
-      "Päivämäärä": "9.1.2003",
+      "Päivämäärä": "19.5.2003",
       "Kilpailu": "Kutonen",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "Zyklon/2",
-      "maalit_koti": "0",
+      "Stadion": "Väinämöinen",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "Tavastia",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "1",
       "maalit_vieras": "0"
     },
     {
       "ottelu_id": "200303",
       "Kausi": "2003",
-      "Päivämäärä": "10.1.2003",
+      "Päivämäärä": "15.5.2003",
       "Kilpailu": "Kutonen",
+      "Stadion": "Pirkkola",
+      "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "MaKu/2",
-      "maalit_koti": "0",
+      "Vierasjoukkue": "Norsunkaatajat",
+      "maalit_koti": "6",
       "maalit_vieras": "0"
     },
     {
       "ottelu_id": "200302",
       "Kausi": "2003",
-      "Päivämäärä": "11.1.2003",
+      "Päivämäärä": "8.5.2003",
       "Kilpailu": "Kutonen",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "FC Härät",
+      "Stadion": "Tapuli",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "MaKu/2",
+      "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "maalit_vieras": "2"
     },
     {
       "ottelu_id": "200301",
       "Kausi": "2003",
-      "Päivämäärä": "12.1.2003",
-      "Kilpailu": "Kutonen",
+      "Kilpailu": "Suomen Cup",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "FC Balls",
+      "Vierasjoukkue": "JäPS",
       "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "maalit_vieras": "4"
     },
     {
       "ottelu_id": "200212",
       "Kausi": "2002",
-      "Päivämäärä": "1.1.2002",
+      "Päivämäärä": "9.9.2002",
       "Kilpailu": "Seiska",
+      "Stadion": "Pirkkola",
+      "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "PPJ",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Vierasjoukkue": "Ellas/Juniors",
+      "maalit_koti": "6",
+      "maalit_vieras": "2"
     },
     {
       "ottelu_id": "200211",
       "Kausi": "2002",
-      "Päivämäärä": "2.1.2002",
+      "Päivämäärä": "30.8.2002",
       "Kilpailu": "Seiska",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "HDS/Cosmos St",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Stadion": "Kumpula",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "ToTe/Koskela",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "2",
+      "maalit_vieras": "2"
     },
     {
       "ottelu_id": "200210",
       "Kausi": "2002",
-      "Päivämäärä": "3.1.2002",
+      "Päivämäärä": "27.8.2002",
       "Kilpailu": "Seiska",
+      "Stadion": "Pirkkola",
+      "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "Eka-Pallo",
+      "Vierasjoukkue": "PPJ",
       "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "maalit_vieras": "2"
     },
     {
       "ottelu_id": "200209",
       "Kausi": "2002",
-      "Päivämäärä": "4.1.2002",
+      "Päivämäärä": "22.8.2002",
       "Kilpailu": "Seiska",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "Cantona",
+      "Stadion": "Pukinmäki",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "MalU",
+      "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "maalit_vieras": "2"
     },
     {
       "ottelu_id": "200208",
       "Kausi": "2002",
-      "Päivämäärä": "5.1.2002",
+      "Päivämäärä": "12.8.2002",
       "Kilpailu": "Seiska",
+      "Stadion": "Pirkkola",
+      "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "Ramadan Utd",
-      "maalit_koti": "0",
+      "Vierasjoukkue": "Cantona",
+      "maalit_koti": "1",
       "maalit_vieras": "0"
     },
     {
       "ottelu_id": "200207",
       "Kausi": "2002",
-      "Päivämäärä": "6.1.2002",
+      "Päivämäärä": "6.8.2002",
       "Kilpailu": "Seiska",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "Saint Swinger",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Stadion": "Kumpula",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HDS/Cosmos St",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "1",
+      "maalit_vieras": "1"
     },
     {
       "ottelu_id": "200206",
       "Kausi": "2002",
-      "Päivämäärä": "7.1.2002",
+      "Päivämäärä": "17.6.2002",
       "Kilpailu": "Seiska",
+      "Stadion": "Pirkkola",
+      "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "JJ Vepo/2",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Vierasjoukkue": "Eka-Pallo",
+      "maalit_koti": "2",
+      "maalit_vieras": "2"
     },
     {
       "ottelu_id": "200205",
       "Kausi": "2002",
-      "Päivämäärä": "8.1.2002",
+      "Päivämäärä": "5.6.2002",
       "Kilpailu": "Seiska",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "Ellas/Juniors",
+      "Stadion": "Tali",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "AC Helsinki",
+      "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "maalit_vieras": "1"
     },
     {
       "ottelu_id": "200204",
       "Kausi": "2002",
-      "Päivämäärä": "9.1.2002",
+      "Päivämäärä": "3.6.2002",
       "Kilpailu": "Seiska",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "AC Helsinki",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Stadion": "Tapuli",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "Ramadan Utd",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "2",
+      "maalit_vieras": "5"
     },
     {
       "ottelu_id": "200203",
       "Kausi": "2002",
-      "Päivämäärä": "10.1.2002",
+      "Päivämäärä": "28.5.2002",
       "Kilpailu": "Seiska",
+      "Stadion": "Pirkkola",
+      "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "ToTe/Koskela",
-      "maalit_koti": "0",
+      "Vierasjoukkue": "JJ Vepo/2",
+      "maalit_koti": "2",
       "maalit_vieras": "0"
     },
     {
       "ottelu_id": "200202",
       "Kausi": "2002",
-      "Päivämäärä": "11.1.2002",
+      "Päivämäärä": "24.5.2002",
       "Kilpailu": "Seiska",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "MalU",
+      "Stadion": "Roihuvuori",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "Saint Swinger",
+      "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
       "maalit_vieras": "0"
     },
     {
       "ottelu_id": "200201",
       "Kausi": "2002",
-      "Päivämäärä": "12.1.2002",
+      "Päivämäärä": "6.5.2002",
       "Kilpailu": "Seiska",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "MPS/3",
+      "Stadion": "Tapuli",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "MPS/3",
+      "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "maalit_vieras": "6"
     },
     {
       "ottelu_id": "200114",
       "Kausi": "2001",
       "Päivämäärä": "1.1.2001",
-      "Kilpailu": "Seiska",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "Käpylän Sekun",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Kilpailu": "Seiska"
     },
     {
       "ottelu_id": "200113",
       "Kausi": "2001",
       "Päivämäärä": "2.1.2001",
-      "Kilpailu": "Seiska",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "Projekti 2000",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Kilpailu": "Seiska"
     },
     {
       "ottelu_id": "200112",
       "Kausi": "2001",
       "Päivämäärä": "3.1.2001",
-      "Kilpailu": "Seiska",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "Tavastia",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Kilpailu": "Seiska"
     },
     {
       "ottelu_id": "200111",
       "Kausi": "2001",
       "Päivämäärä": "4.1.2001",
-      "Kilpailu": "Seiska",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "PP FC/2",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Kilpailu": "Seiska"
     },
     {
       "ottelu_id": "200110",
       "Kausi": "2001",
       "Päivämäärä": "5.1.2001",
-      "Kilpailu": "Seiska",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "SS Stanley",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Kilpailu": "Seiska"
     },
     {
       "ottelu_id": "200109",
       "Kausi": "2001",
       "Päivämäärä": "6.1.2001",
-      "Kilpailu": "Seiska",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "AC Arctic/Häm",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Kilpailu": "Seiska"
     },
     {
       "ottelu_id": "200108",
       "Kausi": "2001",
       "Päivämäärä": "7.1.2001",
-      "Kilpailu": "Seiska",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "FC Pihlajisto",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Kilpailu": "Seiska"
     },
     {
       "ottelu_id": "200107",
       "Kausi": "2001",
       "Päivämäärä": "8.1.2001",
-      "Kilpailu": "Seiska",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "Ellas/4 Soner",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Kilpailu": "Seiska"
     },
     {
       "ottelu_id": "200106",
       "Kausi": "2001",
       "Päivämäärä": "9.1.2001",
-      "Kilpailu": "Seiska",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "Suokki",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Kilpailu": "Seiska"
     },
     {
       "ottelu_id": "200105",
       "Kausi": "2001",
       "Päivämäärä": "10.1.2001",
-      "Kilpailu": "Seiska",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "SUMU/2",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Kilpailu": "Seiska"
     },
     {
       "ottelu_id": "200104",
       "Kausi": "2001",
       "Päivämäärä": "11.1.2001",
-      "Kilpailu": "Seiska",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "Liffen",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Kilpailu": "Seiska"
     },
     {
       "ottelu_id": "200103",
       "Kausi": "2001",
       "Päivämäärä": "12.1.2001",
-      "Kilpailu": "Seiska",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "SuJu",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Kilpailu": "Seiska"
     },
     {
       "ottelu_id": "200102",
       "Kausi": "2001",
       "Päivämäärä": "13.1.2001",
-      "Kilpailu": "Seiska",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "Merris",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Kilpailu": "Seiska"
     },
     {
       "ottelu_id": "200101",
       "Kausi": "2001",
       "Päivämäärä": "14.1.2001",
-      "Kilpailu": "Seiska",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "FC Wartti/WB",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Kilpailu": "Seiska"
     },
     {
       "ottelu_id": "200013",
       "Kausi": "2000",
       "Päivämäärä": "1.1.2000",
-      "Kilpailu": "Seiska",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "Kuninkaat",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Kilpailu": "Seiska"
     },
     {
       "ottelu_id": "200012",
       "Kausi": "2000",
       "Päivämäärä": "2.1.2000",
-      "Kilpailu": "Seiska",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "MoPo",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Kilpailu": "Seiska"
     },
     {
       "ottelu_id": "200011",
       "Kausi": "2000",
       "Päivämäärä": "3.1.2000",
-      "Kilpailu": "Seiska",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "HeKuLa",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Kilpailu": "Seiska"
     },
     {
       "ottelu_id": "200010",
       "Kausi": "2000",
       "Päivämäärä": "4.1.2000",
-      "Kilpailu": "Seiska",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "Ruila",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Kilpailu": "Seiska"
     },
     {
       "ottelu_id": "200009",
       "Kausi": "2000",
       "Päivämäärä": "5.1.2000",
-      "Kilpailu": "Seiska",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "PP FC/2",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Kilpailu": "Seiska"
     },
     {
       "ottelu_id": "200008",
       "Kausi": "2000",
       "Päivämäärä": "6.1.2000",
-      "Kilpailu": "Seiska",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "FC Kanava",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Kilpailu": "Seiska"
     },
     {
       "ottelu_id": "200007",
       "Kausi": "2000",
       "Päivämäärä": "7.1.2000",
-      "Kilpailu": "Seiska",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "PK-35/Utd",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Kilpailu": "Seiska"
     },
     {
       "ottelu_id": "200006",
       "Kausi": "2000",
       "Päivämäärä": "8.1.2000",
-      "Kilpailu": "Seiska",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "Veijarit",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Kilpailu": "Seiska"
     },
     {
       "ottelu_id": "200005",
       "Kausi": "2000",
       "Päivämäärä": "9.1.2000",
-      "Kilpailu": "Seiska",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "Fortuna",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Kilpailu": "Seiska"
     },
     {
       "ottelu_id": "200004",
       "Kausi": "2000",
       "Päivämäärä": "10.1.2000",
-      "Kilpailu": "Seiska",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "Noppajalat",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Kilpailu": "Seiska"
     },
     {
       "ottelu_id": "200003",
       "Kausi": "2000",
       "Päivämäärä": "11.1.2000",
-      "Kilpailu": "Seiska",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "FC Elvis",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Kilpailu": "Seiska"
     },
     {
       "ottelu_id": "200002",
       "Kausi": "2000",
       "Päivämäärä": "12.1.2000",
-      "Kilpailu": "Seiska",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "Ajaks",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Kilpailu": "Seiska"
     },
     {
       "ottelu_id": "200001",
       "Kausi": "2000",
       "Päivämäärä": "13.1.2000",
-      "Kilpailu": "Seiska",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "Kampin Ilves",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Kilpailu": "Seiska"
     },
     {
       "ottelu_id": "199828",
@@ -16294,7 +16346,6 @@
     {
       "ottelu_id": "195904",
       "Kausi": "1959",
-      "Päivämäärä": "1.1.1959",
       "Kilpailu": "Suomen Cup",
       "Kotijoukkue": "Haka",
       "Vierasjoukkue": "HPS",
@@ -16304,7 +16355,6 @@
     {
       "ottelu_id": "195903",
       "Kausi": "1959",
-      "Päivämäärä": "1.1.1959",
       "Kilpailu": "Suomen Cup",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "OTP",
@@ -16314,7 +16364,6 @@
     {
       "ottelu_id": "195902",
       "Kausi": "1959",
-      "Päivämäärä": "1.1.1959",
       "Kilpailu": "Suomen Cup",
       "Kotijoukkue": "IFK Turku",
       "Vierasjoukkue": "HPS",
@@ -16324,7 +16373,6 @@
     {
       "ottelu_id": "195901",
       "Kausi": "1959",
-      "Päivämäärä": "1.1.1959",
       "Kilpailu": "Suomen Cup",
       "Kotijoukkue": "HIK",
       "Vierasjoukkue": "HPS",
@@ -16358,7 +16406,6 @@
     {
       "ottelu_id": "195829",
       "Kausi": "1958",
-      "Päivämäärä": "1.1.1958",
       "Kilpailu": "Suomen Cup",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "KIF",
@@ -16368,7 +16415,6 @@
     {
       "ottelu_id": "195828",
       "Kausi": "1958",
-      "Päivämäärä": "1.1.1958",
       "Kilpailu": "Suomen Cup",
       "Kotijoukkue": "KPT",
       "Vierasjoukkue": "HPS",
@@ -16378,7 +16424,6 @@
     {
       "ottelu_id": "195827",
       "Kausi": "1958",
-      "Päivämäärä": "1.1.1958",
       "Kilpailu": "Suomen Cup",
       "Kotijoukkue": "Peli-Karhut",
       "Vierasjoukkue": "HPS",
@@ -16647,7 +16692,6 @@
     {
       "ottelu_id": "195803",
       "Kausi": "1958",
-      "Päivämäärä": "1.1.1958",
       "Kilpailu": "Piirisarja",
       "Kotijoukkue": "Pallo-Pojat",
       "Vierasjoukkue": "HPS",
@@ -16657,7 +16701,6 @@
     {
       "ottelu_id": "195802",
       "Kausi": "1958",
-      "Päivämäärä": "1.1.1958",
       "Kilpailu": "Piirisarja",
       "Kotijoukkue": "Sudet",
       "Vierasjoukkue": "HPS",
@@ -16667,7 +16710,6 @@
     {
       "ottelu_id": "195801",
       "Kausi": "1958",
-      "Päivämäärä": "1.1.1958",
       "Kilpailu": "Piirisarja",
       "Kotijoukkue": "KIF",
       "Vierasjoukkue": "HPS",
@@ -16882,7 +16924,6 @@
     {
       "ottelu_id": "195704",
       "Kausi": "1957",
-      "Päivämäärä": "1.1.1957",
       "Kilpailu": "Suomen Cup",
       "Kotijoukkue": "Drott",
       "Vierasjoukkue": "HPS",
@@ -16892,7 +16933,6 @@
     {
       "ottelu_id": "195703",
       "Kausi": "1957",
-      "Päivämäärä": "1.1.1957",
       "Kilpailu": "Suomen Cup",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Kisatoverit",
@@ -16902,7 +16942,6 @@
     {
       "ottelu_id": "195702",
       "Kausi": "1957",
-      "Päivämäärä": "1.1.1957",
       "Kilpailu": "Suomen Cup",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Akilles",
@@ -16912,12 +16951,278 @@
     {
       "ottelu_id": "195701",
       "Kausi": "1957",
-      "Päivämäärä": "1.1.1957",
       "Kilpailu": "Suomen Cup",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Ilves-Kissat",
       "maalit_koti": "3",
       "maalit_vieras": "1"
+    },
+    {
+      "ottelu_id": "195624",
+      "Kausi": "1956",
+      "Päivämäärä": "14.10.1956",
+      "Kilpailu": "Mestaruussarja",
+      "Kotijoukkue": "IKissat",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "5",
+      "maalit_vieras": "3"
+    },
+    {
+      "ottelu_id": "195623",
+      "Kausi": "1956",
+      "Päivämäärä": "6.10.1956",
+      "Kilpailu": "Mestaruussarja",
+      "Stadion": "Olympiastadion",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "KTP",
+      "maalit_koti": "0",
+      "maalit_vieras": "4"
+    },
+    {
+      "ottelu_id": "195622",
+      "Kausi": "1956",
+      "Päivämäärä": "30.9.1956",
+      "Kilpailu": "Mestaruussarja",
+      "Stadion": "Olympiastadion",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "KuPS",
+      "maalit_koti": "0",
+      "maalit_vieras": "2"
+    },
+    {
+      "ottelu_id": "195621",
+      "Kausi": "1956",
+      "Päivämäärä": "23.9.1956",
+      "Kilpailu": "Mestaruussarja",
+      "Kaupunki": "Vaasa",
+      "Kotijoukkue": "VPS",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "1",
+      "maalit_vieras": "0"
+    },
+    {
+      "ottelu_id": "195620",
+      "Kausi": "1956",
+      "Päivämäärä": "6.9.1956",
+      "Kilpailu": "Mestaruussarja",
+      "Stadion": "Töölön Pallokenttä",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "HJK",
+      "maalit_koti": "2",
+      "maalit_vieras": "4"
+    },
+    {
+      "ottelu_id": "195619",
+      "Kausi": "1956",
+      "Päivämäärä": "2.9.1956",
+      "Kilpailu": "Mestaruussarja",
+      "Stadion": "Olympiastadion",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "VIFK",
+      "maalit_koti": "2",
+      "maalit_vieras": "1"
+    },
+    {
+      "ottelu_id": "195618",
+      "Kausi": "1956",
+      "Päivämäärä": "15.8.1956",
+      "Kilpailu": "Mestaruussarja",
+      "Kaupunki": "Valkeakoski",
+      "Kotijoukkue": "Haka",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "0",
+      "maalit_vieras": "1"
+    },
+    {
+      "ottelu_id": "195617",
+      "Kausi": "1956",
+      "Päivämäärä": "12.8.1956",
+      "Kilpailu": "Mestaruussarja",
+      "Kaupunki": "Turku",
+      "Kotijoukkue": "Pyrkivä",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "1",
+      "maalit_vieras": "6"
+    },
+    {
+      "ottelu_id": "195616",
+      "Kausi": "1956",
+      "Päivämäärä": "3.8.1956",
+      "Kilpailu": "Mestaruussarja",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "KIF",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "3",
+      "maalit_vieras": "1"
+    },
+    {
+      "ottelu_id": "195615",
+      "Kausi": "1956",
+      "Päivämäärä": "27.7.1956",
+      "Kilpailu": "Mestaruussarja",
+      "Stadion": "Olympiastadion",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "KIF",
+      "maalit_koti": "3",
+      "maalit_vieras": "2"
+    },
+    {
+      "ottelu_id": "195614",
+      "Kausi": "1956",
+      "Päivämäärä": "24.6.1956",
+      "Kilpailu": "Mestaruussarja",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "Pyrkivä",
+      "maalit_koti": "0",
+      "maalit_vieras": "1"
+    },
+    {
+      "ottelu_id": "195613",
+      "Kausi": "1956",
+      "Päivämäärä": "16.6.1956",
+      "Kilpailu": "Mestaruussarja",
+      "Stadion": "Olympiastadion",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "Haka",
+      "maalit_koti": "1",
+      "maalit_vieras": "1"
+    },
+    {
+      "ottelu_id": "195612",
+      "Kausi": "1956",
+      "Päivämäärä": "3.6.1956",
+      "Kilpailu": "Mestaruussarja",
+      "Kaupunki": "Vaasa",
+      "Kotijoukkue": "VIFK",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "4",
+      "maalit_vieras": "1"
+    },
+    {
+      "ottelu_id": "195611",
+      "Kausi": "1956",
+      "Päivämäärä": "27.5.1956",
+      "Kilpailu": "Mestaruussarja",
+      "Stadion": "Töölön Pallokenttä",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "VPS",
+      "maalit_koti": "2",
+      "maalit_vieras": "3"
+    },
+    {
+      "ottelu_id": "195610",
+      "Kausi": "1956",
+      "Päivämäärä": "23.5.1956",
+      "Kilpailu": "Mestaruussarja",
+      "Stadion": "Olympiastadion",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HJK",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "0",
+      "maalit_vieras": "2"
+    },
+    {
+      "ottelu_id": "195609",
+      "Kausi": "1956",
+      "Päivämäärä": "13.5.1956",
+      "Kilpailu": "Mestaruussarja",
+      "Kaupunki": "Kuopio",
+      "Kotijoukkue": "KuPS",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "1",
+      "maalit_vieras": "1"
+    },
+    {
+      "ottelu_id": "195608",
+      "Kausi": "1956",
+      "Päivämäärä": "10.5.1956",
+      "Kilpailu": "Mestaruussarja",
+      "Kaupunki": "Kotka",
+      "Kotijoukkue": "KTP",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "1",
+      "maalit_vieras": "2"
+    },
+    {
+      "ottelu_id": "195607",
+      "Kausi": "1956",
+      "Päivämäärä": "5.5.1956",
+      "Kilpailu": "Mestaruussarja",
+      "Stadion": "Töölön Pallokenttä",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "IKissat",
+      "maalit_koti": "1",
+      "maalit_vieras": "0"
+    },
+    {
+      "ottelu_id": "195606",
+      "Kausi": "1956",
+      "Kilpailu": "Suomen Cup",
+      "Kaupunki": "Kajaani",
+      "Kotijoukkue": "KajPS",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "2",
+      "maalit_vieras": "1"
+    },
+    {
+      "ottelu_id": "195605",
+      "Kausi": "1956",
+      "Kilpailu": "Piirisarja 1-luokka",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "KUV",
+      "maalit_koti": "4",
+      "maalit_vieras": "4"
+    },
+    {
+      "ottelu_id": "195604",
+      "Kausi": "1956",
+      "Kilpailu": "Piirisarja 1-luokka",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "Sudet",
+      "maalit_koti": "6",
+      "maalit_vieras": "1"
+    },
+    {
+      "ottelu_id": "195603",
+      "Kausi": "1956",
+      "Kilpailu": "Harjoitusottelu",
+      "Stadion": "Otahalli",
+      "Kaupunki": "Espoo",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "HIFK",
+      "maalit_koti": "1",
+      "maalit_vieras": "6"
+    },
+    {
+      "ottelu_id": "195602",
+      "Kausi": "1956",
+      "Kilpailu": "Harjoitusottelu",
+      "Stadion": "Otahalli",
+      "Kaupunki": "Espoo",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "KUV",
+      "maalit_koti": "5",
+      "maalit_vieras": "2"
+    },
+    {
+      "ottelu_id": "195601",
+      "Kausi": "1956",
+      "Kilpailu": "Harjoitusottelu",
+      "Stadion": "Otahalli",
+      "Kaupunki": "Espoo",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "Sudet",
+      "maalit_koti": "6",
+      "maalit_vieras": "4"
     },
     {
       "ottelu_id": "194223",
