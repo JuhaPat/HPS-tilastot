@@ -91,6 +91,7 @@
     <script>
         const logos = {};
 
+        // Load team logos from sarjataulukot.json
         fetch('sarjataulukot.json')
             .then(response => response.json())
             .then(teams => {
@@ -100,7 +101,9 @@
                     }
                 });
             })
+            .catch(error => console.error('Virhe ladattaessa logoja:', error))
             .then(() => {
+                // Load match data from ottelut.json
                 fetch('ottelut.json')
                     .then(response => response.json())
                     .then(data => {
@@ -110,10 +113,27 @@
                         const opponents = {};
 
                         data.forEach(match => {
+                            if (!match.Päivämäärä || typeof match.Päivämäärä !== 'string') {
+                                console.error('Invalid or missing Päivämäärä:', match);
+                                return;
+                            }
+
+                            const dateParts = match.Päivämäärä.split('.');
+                            if (dateParts.length !== 3) {
+                                console.error('Invalid date format:', match.Päivämäärä);
+                                return;
+                            }
+
+                            const [day, month, year] = dateParts.map(Number);
+                            const matchDate = new Date(year, month - 1, day);
+
+                            if (isNaN(matchDate.getTime())) {
+                                console.error('Invalid date object for Päivämäärä:', match.Päivämäärä);
+                                return;
+                            }
+
                             const isHPSHome = match.Kotijoukkue === 'HPS';
                             const opponent = isHPSHome ? match.Vierasjoukkue : match.Kotijoukkue;
-                            const [day, month, year] = match.Päivämäärä.split('.');
-                            const matchDate = new Date(year, month - 1, day);
 
                             if (!opponents[opponent]) {
                                 opponents[opponent] = {
@@ -200,7 +220,7 @@
                                     sortedData.sort((a, b) => a.firstMeeting - b.firstMeeting);
                                     break;
                                 case 'newest-first':
-                                    sortedData.sort((a, b) => b.firstMeeting - a.firstMeeting);
+                                    sortedData.sort((a, b) => b.lastMeeting - a.lastMeeting);
                                     break;
                             }
                             renderTable(sortedData);
@@ -213,8 +233,7 @@
                         sortTable('encounters');
                     })
                     .catch(error => console.error('Virhe ladattaessa ottelutietoja:', error));
-            })
-            .catch(error => console.error('Virhe ladattaessa logotietoja:', error));
+            });
     </script>
 </body>
 </html>
