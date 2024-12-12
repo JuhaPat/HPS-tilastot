@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <style>
         .opponent-header {
-            color: rgb(0, 100, 40); /* Vihreä fontti */
+            color: rgb(0, 100, 40);
             font-size: 2rem;
             text-align: center;
         }
@@ -108,7 +108,7 @@
                     }, {});
 
                     const opponentLogo = teamLogos[opponentName] || '';
-                    
+
                     fetch('ottelut.json')
                         .then(response => response.json())
                         .then(matches => {
@@ -117,14 +117,23 @@
                             );
 
                             const earliestMatch = opponentMatches.reduce((earliest, match) => {
-                                const matchDate = new Date(match.Päivämäärä.replace(/(\d{1,2})\.(\d{1,2})\.(\d{4})/, '$3-$2-$1'));
-                                return matchDate < earliest ? matchDate : earliest;
-                            }, new Date());
+                                    if (match.Päivämäärä) {
+                                        const [day, month, year] = match.Päivämäärä.split('.').map(Number);
+                                        const matchDate = new Date(year, month - 1, day);
+                                        return matchDate < earliest ? matchDate : earliest;
+                                    }
+                                    return earliest;
+                                }, new Date());
 
-                            const latestMatch = opponentMatches.reduce((latest, match) => {
-                                const matchDate = new Date(match.Päivämäärä.replace(/(\d{1,2})\.(\d{1,2})\.(\d{4})/, '$3-$2-$1'));
-                                return matchDate > latest ? matchDate : latest;
-                            }, new Date(0));
+                                const latestMatch = opponentMatches.reduce((latest, match) => {
+                                    if (match.Päivämäärä) {
+                                        const [day, month, year] = match.Päivämäärä.split('.').map(Number);
+                                        const matchDate = new Date(year, month - 1, day);
+                                        return matchDate > latest ? matchDate : latest;
+                                    }
+                                    return latest;
+                                }, new Date(0));
+
 
                             const opponentContent = `
                                 <h1 class="opponent-header">${opponentName}</h1>
@@ -138,27 +147,30 @@
                             document.getElementById('opponent-content').innerHTML = opponentContent;
 
                             const tableBody = document.getElementById('opponent-matches-table').querySelector('tbody');
-                            tableBody.innerHTML = opponentMatches.map(match => `
-                                <tr>
-                                    <td>${match.Päivämäärä}</td>
-                                    <td>${match.Kilpailu}</td>
-                                    <td>${match.Stadion}</td>
-                                    <td>${match.Kaupunki}</td>
-                                    <td>
-                                        <img src="${teamLogos[match.Kotijoukkue] || ''}" alt="${match.Kotijoukkue}" class="small-logo">
-                                        ${match.Kotijoukkue}
-                                    </td>
-                                    <td>
-                                        <img src="${teamLogos[match.Vierasjoukkue] || ''}" alt="${match.Vierasjoukkue}" class="small-logo">
-                                        ${match.Vierasjoukkue}
-                                    </td>
-                                    <td>
-                                        <a href="ottelukortti.html?ottelu_id=${match.ottelu_id}" class="match-link">
-                                            ${match.maalit_koti}-${match.maalit_vieras}
-                                        </a>
-                                    </td>
-                                </tr>
-                            `).join('');
+                            tableBody.innerHTML = opponentMatches.map(match => {
+    const date = match.Päivämäärä ? match.Päivämäärä : '-';
+    return `
+        <tr>
+            <td>${date}</td>
+            <td>${match.Kilpailu || '-'}</td>
+            <td>${match.Stadion || '-'}</td>
+            <td>${match.Kaupunki || '-'}</td>
+            <td>
+                <img src="${teamLogos[match.Kotijoukkue] || ''}" alt="${match.Kotijoukkue}" class="small-logo">
+                ${match.Kotijoukkue || '-'}
+            </td>
+            <td>
+                <img src="${teamLogos[match.Vierasjoukkue] || ''}" alt="${match.Vierasjoukkue}" class="small-logo">
+                ${match.Vierasjoukkue || '-'}
+            </td>
+            <td>
+                <a href="ottelukortti.html?ottelu_id=${match.ottelu_id || '#'}" class="match-link">
+                    ${match.maalit_koti != null && match.maalit_vieras != null ? `${match.maalit_koti}-${match.maalit_vieras}` : '-'}
+                </a>
+            </td>
+        </tr>
+    `;
+}).join('');
                         })
                         .catch(error => console.error('Virhe ladattaessa ottelutietoja:', error));
                 })
