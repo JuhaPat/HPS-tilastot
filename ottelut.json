@@ -16,6 +16,7 @@
       "Kausi": "2024",
       "Päivämäärä": "15.10.2024",
       "Kilpailu": "Karsinta Miesten Kakkoseen ",
+      "Stadion": "Matinkylä",
       "Kaupunki": "Espoo",
       "Kotijoukkue": "EsPa",
       "Vierasjoukkue": "HPS",
@@ -3007,7 +3008,7 @@
       "Kilpailu": "Kolmonen",
       "Stadion": "Töölön Pallokenttä",
       "Kaupunki": "Helsinki",
-      "Kotijoukkue": "FC Kiffen",
+      "Kotijoukkue": "KIF",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
       "maalit_vieras": "2"
@@ -3140,7 +3141,7 @@
       "Stadion": "Ala-Malmi",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "FC Kiffen",
+      "Vierasjoukkue": "KIF",
       "maalit_koti": "2",
       "maalit_vieras": "5"
     },
@@ -4570,7 +4571,7 @@
       "Stadion": "Pirkkola",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "Kiffen/2",
+      "Vierasjoukkue": "KIF/2",
       "maalit_koti": "9",
       "maalit_vieras": "1"
     },
@@ -4701,7 +4702,7 @@
       "Kilpailu": "Nelonen",
       "Stadion": "Töölön pallokenttä",
       "Kaupunki": "Helsinki",
-      "Kotijoukkue": "Kiffen/2",
+      "Kotijoukkue": "KIF/2",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
       "maalit_vieras": "3"
@@ -4726,7 +4727,7 @@
       "Stadion": "Lassila",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "Kiffen/2",
+      "Vierasjoukkue": "KIF/2",
       "maalit_koti": "2",
       "maalit_vieras": "1"
     },
@@ -4857,7 +4858,7 @@
       "Kilpailu": "Nelonen",
       "Stadion": "Käpylä",
       "Kaupunki": "Helsinki",
-      "Kotijoukkue": "Kiffen/2",
+      "Kotijoukkue": "KIF/2",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
       "maalit_vieras": "4"
@@ -6768,7 +6769,7 @@
       "Kausi": "1998",
       "Kilpailu": "Harjoitusottelu",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "Kiffen",
+      "Vierasjoukkue": "KIF",
       "maalit_koti": "2",
       "maalit_vieras": "3"
     },
@@ -7791,7 +7792,7 @@
       "Päivämäärä": "23.8.1993",
       "Kilpailu": "Kolmonen",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "Kiffen",
+      "Vierasjoukkue": "KIF",
       "maalit_koti": "0",
       "maalit_vieras": "0"
     },
@@ -7900,7 +7901,7 @@
       "Kausi": "1993",
       "Päivämäärä": "31.5.1993",
       "Kilpailu": "Kolmonen",
-      "Kotijoukkue": "Kiffen",
+      "Kotijoukkue": "KIF",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
       "maalit_vieras": "0"
@@ -8020,7 +8021,7 @@
       "Päivämäärä": "25.8.1992",
       "Kilpailu": "Kolmonen",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "Kiffen",
+      "Vierasjoukkue": "KIF",
       "maalit_koti": "0",
       "maalit_vieras": "0"
     },
@@ -8129,7 +8130,7 @@
       "Kausi": "1992",
       "Päivämäärä": "2.6.1992",
       "Kilpailu": "Kolmonen",
-      "Kotijoukkue": "Kiffen",
+      "Kotijoukkue": "KIF",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
       "maalit_vieras": "0"
@@ -8498,7 +8499,7 @@
       "Päivämäärä": "23.7.1990",
       "Kilpailu": "Kolmonen",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "PPojat",
+      "Vierasjoukkue": "Pallo-Pojat",
       "maalit_koti": "0",
       "maalit_vieras": "0"
     },
@@ -8607,7 +8608,7 @@
       "Kausi": "1990",
       "Päivämäärä": "29.4.1990",
       "Kilpailu": "Kolmonen",
-      "Kotijoukkue": "PPojat",
+      "Kotijoukkue": "Pallo-Pojat",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
       "maalit_vieras": "0"
@@ -8677,7 +8678,7 @@
       "Kausi": "1989",
       "Päivämäärä": "19.8.1989",
       "Kilpailu": "Kakkonen",
-      "Kotijoukkue": "PPojat",
+      "Kotijoukkue": "Pallo-Pojat",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
       "maalit_vieras": "2"
@@ -8788,7 +8789,7 @@
       "Päivämäärä": "6.6.1989",
       "Kilpailu": "Kakkonen",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "PPojat",
+      "Vierasjoukkue": "Pallo-Pojat",
       "maalit_koti": "0",
       "maalit_vieras": "1"
     },
@@ -9299,7 +9300,7 @@
       "ottelu_id": "198707",
       "Kausi": "1987",
       "Kilpailu": "Suomen Cup",
-      "Kotijoukkue": "PPojat",
+      "Kotijoukkue": "Pallo-Pojat",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
       "maalit_vieras": "1"
@@ -9827,7 +9828,7 @@
       "Kausi": "1984",
       "Päivämäärä": "23.8.1984",
       "Kilpailu": "Kakkonen",
-      "Kotijoukkue": "Kiffen",
+      "Kotijoukkue": "KIF",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
       "maalit_vieras": "1"
@@ -9948,7 +9949,7 @@
       "Päivämäärä": "26.5.1984",
       "Kilpailu": "Kakkonen",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "Kiffen",
+      "Vierasjoukkue": "KIF",
       "maalit_koti": "0",
       "maalit_vieras": "2"
     },
@@ -10431,7 +10432,7 @@
       "Kausi": "1982",
       "Päivämäärä": "12.8.1982",
       "Kilpailu": "Kakkonen",
-      "Kotijoukkue": "Kiffen",
+      "Kotijoukkue": "KIF",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "4",
       "maalit_vieras": "1"
@@ -10542,7 +10543,7 @@
       "Päivämäärä": "24.5.1982",
       "Kilpailu": "Kakkonen",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "Kiffen",
+      "Vierasjoukkue": "KIF",
       "maalit_koti": "4",
       "maalit_vieras": "2"
     },
@@ -10658,7 +10659,7 @@
       "Kausi": "1981",
       "Päivämäärä": "12.9.1981",
       "Kilpailu": "Kakkonen",
-      "Kotijoukkue": "Kiffen",
+      "Kotijoukkue": "KIF",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
       "maalit_vieras": "3"
@@ -10769,7 +10770,7 @@
       "Päivämäärä": "22.6.1981",
       "Kilpailu": "Kakkonen",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "Kiffen",
+      "Vierasjoukkue": "KIF",
       "maalit_koti": "1",
       "maalit_vieras": "0"
     },
@@ -14820,7 +14821,7 @@
       "Päivämäärä": "12.8.1965",
       "Kilpailu": "Suomensarja",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "PPojat",
+      "Vierasjoukkue": "Pallo-Pojat",
       "maalit_koti": "2",
       "maalit_vieras": "0"
     },
@@ -14919,7 +14920,7 @@
       "Kausi": "1965",
       "Päivämäärä": "21.5.1965",
       "Kilpailu": "Suomensarja",
-      "Kotijoukkue": "PPojat",
+      "Kotijoukkue": "Pallo-Pojat",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "4",
       "maalit_vieras": "4"
@@ -15825,7 +15826,7 @@
       "Päivämäärä": "18.8.1961",
       "Kilpailu": "Mestaruussarja",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "PPojat",
+      "Vierasjoukkue": "Pallo-Pojat",
       "maalit_koti": "0",
       "maalit_vieras": "4"
     },
@@ -15934,7 +15935,7 @@
       "Kausi": "1961",
       "Päivämäärä": "17.5.1961",
       "Kilpailu": "Mestaruussarja",
-      "Kotijoukkue": "PPojat",
+      "Kotijoukkue": "Pallo-Pojat",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
       "maalit_vieras": "1"
@@ -16060,7 +16061,7 @@
       "Päivämäärä": "9.9.1960",
       "Kilpailu": "Mestaruussarja",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "PPojat",
+      "Vierasjoukkue": "Pallo-Pojat",
       "maalit_koti": "0",
       "maalit_vieras": "1"
     },
@@ -16169,7 +16170,7 @@
       "Kausi": "1960",
       "Päivämäärä": "1.6.1960",
       "Kilpailu": "Mestaruussarja",
-      "Kotijoukkue": "PPojat",
+      "Kotijoukkue": "Pallo-Pojat",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
       "maalit_vieras": "1"
@@ -17353,6 +17354,307 @@
       "Vierasjoukkue": "Sudet",
       "maalit_koti": "6",
       "maalit_vieras": "4"
+    },
+    {
+      "ottelu_id": "195529",
+      "Kausi": "1955",
+      "Päivämäärä": "20.11.1955",
+      "Kilpailu": "Suomen Cup finaali",
+      "Stadion": "Olympiastadion",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "Haka",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "5",
+      "maalit_vieras": "1"
+    },
+    {
+      "ottelu_id": "195528",
+      "Kausi": "1955",
+      "Päivämäärä": "16.10.1955",
+      "Kilpailu": "Suomensarja",
+      "Kaupunki": "Hämeenlinna",
+      "Kotijoukkue": "HPK",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "1",
+      "maalit_vieras": "5"
+    },
+    {
+      "ottelu_id": "195527",
+      "Kausi": "1955",
+      "Päivämäärä": "2.10.1955",
+      "Kilpailu": "Suomensarja",
+      "Stadion": "Töölön Pallokenttä",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "KPT",
+      "maalit_koti": "3",
+      "maalit_vieras": "3"
+    },
+    {
+      "ottelu_id": "195526",
+      "Kausi": "1955",
+      "Päivämäärä": "25.9.1955",
+      "Kilpailu": "Suomensarja",
+      "Kaupunki": "Kajaani",
+      "Kotijoukkue": "KaPa",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "2",
+      "maalit_vieras": "4"
+    },
+    {
+      "ottelu_id": "195525",
+      "Kausi": "1955",
+      "Päivämäärä": "17.9.1955",
+      "Kilpailu": "Suomensarja",
+      "Kotijoukkue": "Pallo-Pojat",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "3",
+      "maalit_vieras": "3"
+    },
+    {
+      "ottelu_id": "195524",
+      "Kausi": "1955",
+      "Päivämäärä": "8.9.1955",
+      "Kilpailu": "Suomensarja",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "Sudet",
+      "maalit_koti": "9",
+      "maalit_vieras": "1"
+    },
+    {
+      "ottelu_id": "195523",
+      "Kausi": "1955",
+      "Päivämäärä": "31.8.1955",
+      "Kilpailu": "Suomensarja",
+      "Kotijoukkue": "HIFK",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "1",
+      "maalit_vieras": "2"
+    },
+    {
+      "ottelu_id": "195522",
+      "Kausi": "1955",
+      "Päivämäärä": "22.8.1955",
+      "Kilpailu": "Suomensarja",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "Ponnistus",
+      "maalit_koti": "2",
+      "maalit_vieras": "0"
+    },
+    {
+      "ottelu_id": "195521",
+      "Kausi": "1955",
+      "Päivämäärä": "6.8.1955",
+      "Kilpailu": "Suomensarja",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "Jäntevä",
+      "maalit_koti": "2",
+      "maalit_vieras": "1"
+    },
+    {
+      "ottelu_id": "195520",
+      "Kausi": "1955",
+      "Päivämäärä": "31.7.1955",
+      "Kilpailu": "Suomensarja",
+      "Kaupunki": "Varkaus",
+      "Kotijoukkue": "WP-35",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "1",
+      "maalit_vieras": "8"
+    },
+    {
+      "ottelu_id": "195519",
+      "Kausi": "1955",
+      "Kilpailu": "Ystävyysottelu",
+      "Stadion": "Töölön Pallokenttä",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "Bonner FV (DE)",
+      "maalit_koti": "2",
+      "maalit_vieras": "1"
+    },
+    {
+      "ottelu_id": "195518",
+      "Kausi": "1955",
+      "Päivämäärä": "3.7.1955",
+      "Kilpailu": "Suomensarja",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "KaPa",
+      "maalit_koti": "5",
+      "maalit_vieras": "0"
+    },
+    {
+      "ottelu_id": "195517",
+      "Kausi": "1955",
+      "Päivämäärä": "28.6.1955",
+      "Kilpailu": "Suomensarja",
+      "Kotijoukkue": "Sudet",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "3",
+      "maalit_vieras": "7"
+    },
+    {
+      "ottelu_id": "195516",
+      "Kausi": "1955",
+      "Kilpailu": "Ystävyysottelu",
+      "Kotijoukkue": "JyP",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "1",
+      "maalit_vieras": "5"
+    },
+    {
+      "ottelu_id": "195515",
+      "Kausi": "1955",
+      "Päivämäärä": "15.6.1955",
+      "Kilpailu": "Suomensarja",
+      "Stadion": "Töölön Pallokenttä",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "Ponnistus",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "2",
+      "maalit_vieras": "3"
+    },
+    {
+      "ottelu_id": "195514",
+      "Kausi": "1955",
+      "Päivämäärä": "12.6.1955",
+      "Kilpailu": "Suomensarja",
+      "Stadion": "Töölön Pallokenttä",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "WP-35",
+      "maalit_koti": "6",
+      "maalit_vieras": "0"
+    },
+    {
+      "ottelu_id": "195513",
+      "Kausi": "1955",
+      "Päivämäärä": "2.6.1955",
+      "Kilpailu": "Suomensarja",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "Pallo-Pojat",
+      "maalit_koti": "1",
+      "maalit_vieras": "1"
+    },
+    {
+      "ottelu_id": "195512",
+      "Kausi": "1955",
+      "Päivämäärä": "29.5.1955",
+      "Kilpailu": "Suomensarja",
+      "Kaupunki": "Kuopio",
+      "Kotijoukkue": "KPT",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "1",
+      "maalit_vieras": "2"
+    },
+    {
+      "ottelu_id": "195511",
+      "Kausi": "1955",
+      "Päivämäärä": "21.5.1955",
+      "Kilpailu": "Suomensarja",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "HIFK",
+      "maalit_koti": "1",
+      "maalit_vieras": "2"
+    },
+    {
+      "ottelu_id": "195510",
+      "Kausi": "1955",
+      "Päivämäärä": "13.5.1955",
+      "Kilpailu": "Suomensarja",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "HPK",
+      "maalit_koti": "3",
+      "maalit_vieras": "0"
+    },
+    {
+      "ottelu_id": "195509",
+      "Kausi": "1955",
+      "Päivämäärä": "7.5.1955",
+      "Kilpailu": "Suomensarja",
+      "Kaupunki": "Kotka",
+      "Kotijoukkue": "Jäntevä",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "1",
+      "maalit_vieras": "5"
+    },
+    {
+      "ottelu_id": "195508",
+      "Kausi": "1955",
+      "Kilpailu": "Suomen Cup",
+      "Kotijoukkue": "Drott",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "1",
+      "maalit_vieras": "2"
+    },
+    {
+      "ottelu_id": "195507",
+      "Kausi": "1955",
+      "Kilpailu": "Suomen Cup",
+      "Stadion": "Eläintarhan kenttä",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "KIF",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "1",
+      "maalit_vieras": "5"
+    },
+    {
+      "ottelu_id": "195506",
+      "Kausi": "1955",
+      "Kilpailu": "Suomen Cup",
+      "Kotijoukkue": "HJK",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "3",
+      "maalit_vieras": "5"
+    },
+    {
+      "ottelu_id": "195505",
+      "Kausi": "1955",
+      "Kilpailu": "Suomen Cup",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "Kotkan Reipas",
+      "maalit_koti": "5",
+      "maalit_vieras": "1"
+    },
+    {
+      "ottelu_id": "195504",
+      "Kausi": "1955",
+      "Kilpailu": "Piirisarjan finaali",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "KIF",
+      "maalit_koti": "1",
+      "maalit_vieras": "2"
+    },
+    {
+      "ottelu_id": "195503",
+      "Kausi": "1955",
+      "Kilpailu": "Piirisarja",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "Sudet",
+      "maalit_koti": "1",
+      "maalit_vieras": "1"
+    },
+    {
+      "ottelu_id": "195502",
+      "Kausi": "1955",
+      "Kilpailu": "Piirisarja",
+      "Stadion": "Töölön pallokenttä",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "HJK",
+      "maalit_koti": "5",
+      "maalit_vieras": "1"
+    },
+    {
+      "ottelu_id": "195501",
+      "Kausi": "1955",
+      "Kilpailu": "Harjoitusottelu",
+      "Stadion": "Väinämöinen",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "Pallo-Pojat",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "1",
+      "maalit_vieras": "1"
     },
     {
       "ottelu_id": "194223",
