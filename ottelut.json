@@ -14116,7 +14116,7 @@
       "Kausi": "1968",
       "Päivämäärä": "27.8.1968",
       "Kilpailu": "Suomensarja",
-      "Kotijoukkue": "Herttua",
+      "Kotijoukkue": "HerU",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
       "maalit_vieras": "0"
@@ -14207,7 +14207,7 @@
       "Päivämäärä": "31.5.1968",
       "Kilpailu": "Suomensarja",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "Herttua",
+      "Vierasjoukkue": "HerU",
       "maalit_koti": "0",
       "maalit_vieras": "0"
     },
@@ -14294,7 +14294,7 @@
       "Päivämäärä": "27.9.1967",
       "Kilpailu": "Suomensarja",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "Herttua",
+      "Vierasjoukkue": "HerU",
       "maalit_koti": "2",
       "maalit_vieras": "4"
     },
@@ -14443,7 +14443,7 @@
       "Kausi": "1967",
       "Päivämäärä": "26.5.1967",
       "Kilpailu": "Suomensarja",
-      "Kotijoukkue": "Herttua",
+      "Kotijoukkue": "HerU",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
       "maalit_vieras": "0"
@@ -19755,6 +19755,150 @@
       "Vierasjoukkue": "HIFK",
       "maalit_koti": "2",
       "maalit_vieras": "2"
+    },
+    {
+      "ottelu_id": "192116",
+      "Kausi": "1921",
+      "Kilpailu": "SM-kilpailun finaali (uusinta)",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "HJK",
+      "maalit_koti": "2",
+      "maalit_vieras": "1"
+    },
+    {
+      "ottelu_id": "192115",
+      "Kausi": "1921",
+      "Kilpailu": "SM-kilpailun finaali",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "HJK",
+      "maalit_koti": "1",
+      "maalit_vieras": "1"
+    },
+    {
+      "ottelu_id": "192114",
+      "Kausi": "1921",
+      "Kilpailu": "SM-kilpailun välierä",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "ÅIFK",
+      "maalit_koti": "3",
+      "maalit_vieras": "0"
+    },
+    {
+      "ottelu_id": "192113",
+      "Kausi": "1921",
+      "Kilpailu": "SM-kilpailun puolivälierä",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "KIF",
+      "maalit_koti": "4",
+      "maalit_vieras": "2"
+    },
+    {
+      "ottelu_id": "192112",
+      "Kausi": "1921",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "HJK",
+      "maalit_koti": "1",
+      "maalit_vieras": "2"
+    },
+    {
+      "ottelu_id": "192111",
+      "Kausi": "1921",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "TaPa",
+      "maalit_koti": "7",
+      "maalit_vieras": "1"
+    },
+    {
+      "ottelu_id": "192110",
+      "Kausi": "1921",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "HJK",
+      "maalit_koti": "5",
+      "maalit_vieras": "0"
+    },
+    {
+      "ottelu_id": "192109",
+      "Kausi": "1921",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "ÅIFK",
+      "maalit_koti": "2",
+      "maalit_vieras": "0"
+    },
+    {
+      "ottelu_id": "192108",
+      "Kausi": "1921",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "HIFK",
+      "maalit_koti": "2",
+      "maalit_vieras": "1"
+    },
+    {
+      "ottelu_id": "192107",
+      "Kausi": "1921",
+      "Päivämäärä": "6.7.1921",
+      "Kilpailu": "Ystävyysottelu",
+      "Kaupunki": "Tallinna",
+      "Kotijoukkue": "Kalev",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "1",
+      "maalit_vieras": "6"
+    },
+    {
+      "ottelu_id": "192106",
+      "Kausi": "1921",
+      "Päivämäärä": "30.6.1921",
+      "Kilpailu": "Ystävyysottelu",
+      "Kaupunki": "Tallinna",
+      "Kotijoukkue": "Kalev",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "0",
+      "maalit_vieras": "9"
+    },
+    {
+      "ottelu_id": "192105",
+      "Kausi": "1921",
+      "Kilpailu": "Piirisarja",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "KIF",
+      "maalit_koti": "0",
+      "maalit_vieras": "1"
+    },
+    {
+      "ottelu_id": "192104",
+      "Kausi": "1921",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "HJK",
+      "maalit_koti": "2",
+      "maalit_vieras": "1"
+    },
+    {
+      "ottelu_id": "192103",
+      "Kausi": "1921",
+      "Stadion": "Eläintarhan kenttä",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "Reipas",
+      "maalit_koti": "2",
+      "maalit_vieras": "0"
+    },
+    {
+      "ottelu_id": "192102",
+      "Kausi": "1921",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "HIFK",
+      "maalit_koti": "6",
+      "maalit_vieras": "2"
+    },
+    {
+      "ottelu_id": "192101",
+      "Kausi": "1921",
+      "Päivämäärä": "5/15/21",
+      "Kilpailu": "Turkupokaalin finaali",
+      "Kaupunki": "Turku",
+      "Kotijoukkue": "ÅIFK",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "2",
+      "maalit_vieras": "0"
     },
     {
       "ottelu_id": "192012",
