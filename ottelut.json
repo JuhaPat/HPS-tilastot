@@ -6270,163 +6270,217 @@
       "ottelu_id": "200114",
       "Kausi": "2001",
       "Päivämäärä": "1.1.2001",
-      "Kilpailu": "Seiska"
+      "Kilpailu": "Seiska",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "Käpylän Sekun"
     },
     {
       "ottelu_id": "200113",
       "Kausi": "2001",
       "Päivämäärä": "2.1.2001",
-      "Kilpailu": "Seiska"
+      "Kilpailu": "Seiska",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "Projekti 2000"
     },
     {
       "ottelu_id": "200112",
       "Kausi": "2001",
       "Päivämäärä": "3.1.2001",
-      "Kilpailu": "Seiska"
+      "Kilpailu": "Seiska",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "Tavastia"
     },
     {
       "ottelu_id": "200111",
       "Kausi": "2001",
       "Päivämäärä": "4.1.2001",
-      "Kilpailu": "Seiska"
+      "Kilpailu": "Seiska",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "PP FC/2"
     },
     {
       "ottelu_id": "200110",
       "Kausi": "2001",
       "Päivämäärä": "5.1.2001",
-      "Kilpailu": "Seiska"
+      "Kilpailu": "Seiska",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "SS Stanley"
     },
     {
       "ottelu_id": "200109",
       "Kausi": "2001",
       "Päivämäärä": "6.1.2001",
-      "Kilpailu": "Seiska"
+      "Kilpailu": "Seiska",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "AC Arctic/Häm"
     },
     {
       "ottelu_id": "200108",
       "Kausi": "2001",
       "Päivämäärä": "7.1.2001",
-      "Kilpailu": "Seiska"
+      "Kilpailu": "Seiska",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "FC Pihlajisto"
     },
     {
       "ottelu_id": "200107",
       "Kausi": "2001",
       "Päivämäärä": "8.1.2001",
-      "Kilpailu": "Seiska"
+      "Kilpailu": "Seiska",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "Ellas/4 Soner"
     },
     {
       "ottelu_id": "200106",
       "Kausi": "2001",
       "Päivämäärä": "9.1.2001",
-      "Kilpailu": "Seiska"
+      "Kilpailu": "Seiska",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "Suokki"
     },
     {
       "ottelu_id": "200105",
       "Kausi": "2001",
       "Päivämäärä": "10.1.2001",
-      "Kilpailu": "Seiska"
+      "Kilpailu": "Seiska",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "SUMU/2"
     },
     {
       "ottelu_id": "200104",
       "Kausi": "2001",
       "Päivämäärä": "11.1.2001",
-      "Kilpailu": "Seiska"
+      "Kilpailu": "Seiska",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "Liffen"
     },
     {
       "ottelu_id": "200103",
       "Kausi": "2001",
       "Päivämäärä": "12.1.2001",
-      "Kilpailu": "Seiska"
+      "Kilpailu": "Seiska",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "SuJu"
     },
     {
       "ottelu_id": "200102",
       "Kausi": "2001",
       "Päivämäärä": "13.1.2001",
-      "Kilpailu": "Seiska"
+      "Kilpailu": "Seiska",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "Merris"
     },
     {
       "ottelu_id": "200101",
       "Kausi": "2001",
       "Päivämäärä": "14.1.2001",
-      "Kilpailu": "Seiska"
+      "Kilpailu": "Seiska",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "FC Wartti/WB"
     },
     {
       "ottelu_id": "200013",
       "Kausi": "2000",
       "Päivämäärä": "1.1.2000",
-      "Kilpailu": "Seiska"
+      "Kilpailu": "Seiska",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "Kuninkaat"
     },
     {
       "ottelu_id": "200012",
       "Kausi": "2000",
       "Päivämäärä": "2.1.2000",
-      "Kilpailu": "Seiska"
+      "Kilpailu": "Seiska",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "MoPo"
     },
     {
       "ottelu_id": "200011",
       "Kausi": "2000",
       "Päivämäärä": "3.1.2000",
-      "Kilpailu": "Seiska"
+      "Kilpailu": "Seiska",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "HeKuLa"
     },
     {
       "ottelu_id": "200010",
       "Kausi": "2000",
       "Päivämäärä": "4.1.2000",
-      "Kilpailu": "Seiska"
+      "Kilpailu": "Seiska",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "Ruila"
     },
     {
       "ottelu_id": "200009",
       "Kausi": "2000",
       "Päivämäärä": "5.1.2000",
-      "Kilpailu": "Seiska"
+      "Kilpailu": "Seiska",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "PP FC/2"
     },
     {
       "ottelu_id": "200008",
       "Kausi": "2000",
       "Päivämäärä": "6.1.2000",
-      "Kilpailu": "Seiska"
+      "Kilpailu": "Seiska",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "FC Kanava"
     },
     {
       "ottelu_id": "200007",
       "Kausi": "2000",
       "Päivämäärä": "7.1.2000",
-      "Kilpailu": "Seiska"
+      "Kilpailu": "Seiska",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "PK-35/Utd"
     },
     {
       "ottelu_id": "200006",
       "Kausi": "2000",
       "Päivämäärä": "8.1.2000",
-      "Kilpailu": "Seiska"
+      "Kilpailu": "Seiska",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "Veijarit"
     },
     {
       "ottelu_id": "200005",
       "Kausi": "2000",
       "Päivämäärä": "9.1.2000",
-      "Kilpailu": "Seiska"
+      "Kilpailu": "Seiska",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "Fortuna"
     },
     {
       "ottelu_id": "200004",
       "Kausi": "2000",
       "Päivämäärä": "10.1.2000",
-      "Kilpailu": "Seiska"
+      "Kilpailu": "Seiska",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "Noppajalat"
     },
     {
       "ottelu_id": "200003",
       "Kausi": "2000",
       "Päivämäärä": "11.1.2000",
-      "Kilpailu": "Seiska"
+      "Kilpailu": "Seiska",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "FC Elvis"
     },
     {
       "ottelu_id": "200002",
       "Kausi": "2000",
       "Päivämäärä": "12.1.2000",
-      "Kilpailu": "Seiska"
+      "Kilpailu": "Seiska",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "Ajaks"
     },
     {
       "ottelu_id": "200001",
       "Kausi": "2000",
       "Päivämäärä": "13.1.2000",
-      "Kilpailu": "Seiska"
+      "Kilpailu": "Seiska",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "Kampin Ilves"
     },
     {
       "ottelu_id": "199828",
