@@ -4538,6 +4538,11 @@
       "Pisteet": "0"
     },
     {
+      "Kausi": "1999",
+      "Sarjataso": "HPS luopui sarjapaikasta",
+      "Kauden lisätiedot": "HPS luopui sarjapaikasta kakkosessa, eikä pelannut vuonna 1999 lainkaan."
+    },
+    {
       "Kausi": "1998",
       "Sarjataso": "Kakkonen, etelä",
       "sij.": "1",
@@ -14997,8 +15002,41 @@
       "Lisätiedot": "Putosi"
     },
     {
+      "Kausi": "1929",
+      "Sarjataso": "SM-kilpailu"
+    },
+    {
+      "Kausi": "1928",
+      "Sarjataso": "SM-kilpailu"
+    },
+    {
+      "Kausi": "1927",
+      "Sarjataso": "SM-kilpailu"
+    },
+    {
+      "Kausi": "1926",
+      "Sarjataso": "SM-kilpailu"
+    },
+    {
+      "Kausi": "1925",
+      "Sarjataso": "SM-kilpailu"
+    },
+    {
+      "Kausi": "1924",
+      "Sarjataso": "SM-kilpailu"
+    },
+    {
+      "Kausi": "1923",
+      "Sarjataso": "SM-kilpailu"
+    },
+    {
+      "Kausi": "1922",
+      "Sarjataso": "SM-kilpailu"
+    },
+    {
       "Kausi": "1921",
       "Sarjataso": "SM-kilpailu",
+      "Kauden lisätiedot": "Joukkueet pelasivat eri määrän \"virallisia\" otteluita toisiaan ja muita vastaan, joiden perusteella määriteltiin kaavio SM-kilpailun pudotuspeleihin.",
       "sij.": "1",
       "Joukkue": "HPS",
       "Logo": "HPS.jpg",
@@ -15135,5 +15173,17 @@
       "TM": "13",
       "PM": "36",
       "Pisteet": "3"
+    },
+    {
+      "Kausi": "1920",
+      "Sarjataso": "SM-kilpailu"
+    },
+    {
+      "Kausi": "1919",
+      "Sarjataso": "SM-kilpailu"
+    },
+    {
+      "Kausi": "1918",
+      "Sarjataso": "SM-kilpailu"
     }
   ]
