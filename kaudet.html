@@ -139,7 +139,7 @@
                 const yearFromUrl = parseInt(urlParams.get('year'), 10);
 
                 let currentYear = yearFromUrl || 2024;
-                const years = [...new Set(leagueData.map(row => row.Kausi))].sort((a, b) => b - a);
+                const years = [...new Set(leagueData.map(row => parseInt(row.Kausi.split('-')[0], 10)))].sort((a, b) => b - a);
 
                 years.forEach(year => {
                     const option = document.createElement('option');
@@ -153,7 +153,7 @@
                     currentYearSpan.textContent = year;
                     yearDropdown.value = year;
 
-                    const yearData = leagueData.find(row => row.Kausi == year);
+                    const yearData = leagueData.find(row => parseInt(row.Kausi.split('-')[0], 10) === year);
                     if (yearData && yearData.Sarjataso) {
                         const [main, sub] = yearData.Sarjataso.split(',');
                         mainTitle.textContent = main.trim();
@@ -193,7 +193,7 @@
 
                 function renderTable(data, year) {
                     tableBody.innerHTML = '';
-                    const filteredData = data.filter(row => row.Kausi == year);
+                    const filteredData = data.filter(row => parseInt(row.Kausi.split('-')[0], 10) === year);
 
                     filteredData.forEach(row => {
                         const tr = document.createElement('tr');
