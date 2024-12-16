@@ -19167,6 +19167,564 @@
       "maalit_vieras": "3"
     },
     {
+      "ottelu_id": "194922",
+      "Kausi": "1949",
+      "Päivämäärä": "30.10.1949",
+      "Kilpailu": "Mestaruussarja",
+      "Kotijoukkue": "TuTo",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "3",
+      "maalit_vieras": "3"
+    },
+    {
+      "ottelu_id": "194921",
+      "Kausi": "1949",
+      "Päivämäärä": "23.10.1949",
+      "Kilpailu": "Mestaruussarja",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "TPS",
+      "maalit_koti": "0",
+      "maalit_vieras": "2"
+    },
+    {
+      "ottelu_id": "194920",
+      "Kausi": "1949",
+      "Päivämäärä": "16.10.1949",
+      "Kilpailu": "Mestaruussarja",
+      "Kotijoukkue": "IKissat",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "3",
+      "maalit_vieras": "1"
+    },
+    {
+      "ottelu_id": "194919",
+      "Kausi": "1949",
+      "Päivämäärä": "25.9.1949",
+      "Kilpailu": "Mestaruussarja",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "VIFK",
+      "maalit_koti": "1",
+      "maalit_vieras": "0"
+    },
+    {
+      "ottelu_id": "194918",
+      "Kausi": "1949",
+      "Päivämäärä": "17.9.1949",
+      "Kilpailu": "Mestaruussarja",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "HJK",
+      "maalit_koti": "3",
+      "maalit_vieras": "0"
+    },
+    {
+      "ottelu_id": "194917",
+      "Kausi": "1949",
+      "Päivämäärä": "3.9.1949",
+      "Kilpailu": "Mestaruussarja",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "HIFK",
+      "maalit_koti": "2",
+      "maalit_vieras": "1"
+    },
+    {
+      "ottelu_id": "194916",
+      "Kausi": "1949",
+      "Päivämäärä": "28.8.1949",
+      "Kilpailu": "Mestaruussarja",
+      "Kotijoukkue": "KuPS",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "2",
+      "maalit_vieras": "1"
+    },
+    {
+      "ottelu_id": "194915",
+      "Kausi": "1949",
+      "Päivämäärä": "23.8.1949",
+      "Kilpailu": "Mestaruussarja",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "KIF",
+      "maalit_koti": "1",
+      "maalit_vieras": "2"
+    },
+    {
+      "ottelu_id": "194914",
+      "Kausi": "1949",
+      "Päivämäärä": "14.8.1949",
+      "Kilpailu": "Mestaruussarja",
+      "Kotijoukkue": "VPS",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "3",
+      "maalit_vieras": "0"
+    },
+    {
+      "ottelu_id": "194913",
+      "Kausi": "1949",
+      "Päivämäärä": "7.8.1949",
+      "Kilpailu": "Mestaruussarja",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "KTP",
+      "maalit_koti": "1",
+      "maalit_vieras": "1"
+    },
+    {
+      "ottelu_id": "194912",
+      "Kausi": "1949",
+      "Päivämäärä": "3.8.1949",
+      "Kilpailu": "Mestaruussarja",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "TuWe",
+      "maalit_koti": "0",
+      "maalit_vieras": "3"
+    },
+    {
+      "ottelu_id": "194911",
+      "Kausi": "1949",
+      "Päivämäärä": "3.7.1949",
+      "Kilpailu": "Mestaruussarja",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "IKissat",
+      "maalit_koti": "4",
+      "maalit_vieras": "4"
+    },
+    {
+      "ottelu_id": "194910",
+      "Kausi": "1949",
+      "Päivämäärä": "26.6.1949",
+      "Kilpailu": "Mestaruussarja",
+      "Kotijoukkue": "TPS",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "4",
+      "maalit_vieras": "0"
+    },
+    {
+      "ottelu_id": "194909",
+      "Kausi": "1949",
+      "Päivämäärä": "21.6.1949",
+      "Kilpailu": "Mestaruussarja",
+      "Kotijoukkue": "HIFK",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "7",
+      "maalit_vieras": "3"
+    },
+    {
+      "ottelu_id": "194908",
+      "Kausi": "1949",
+      "Päivämäärä": "13.6.1949",
+      "Kilpailu": "Mestaruussarja",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "TuTo",
+      "maalit_koti": "1",
+      "maalit_vieras": "1"
+    },
+    {
+      "ottelu_id": "194907",
+      "Kausi": "1949",
+      "Päivämäärä": "9.6.1949",
+      "Kilpailu": "Mestaruussarja",
+      "Kotijoukkue": "TuWe",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "3",
+      "maalit_vieras": "1"
+    },
+    {
+      "ottelu_id": "194906",
+      "Kausi": "1949",
+      "Päivämäärä": "6.6.1949",
+      "Kilpailu": "Mestaruussarja",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "VPS",
+      "maalit_koti": "0",
+      "maalit_vieras": "4"
+    },
+    {
+      "ottelu_id": "194905",
+      "Kausi": "1949",
+      "Päivämäärä": "26.5.1949",
+      "Kilpailu": "Mestaruussarja",
+      "Kotijoukkue": "VIFK",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "5",
+      "maalit_vieras": "1"
+    },
+    {
+      "ottelu_id": "194904",
+      "Kausi": "1949",
+      "Päivämäärä": "19.5.1949",
+      "Kilpailu": "Mestaruussarja",
+      "Kotijoukkue": "HJK",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "1",
+      "maalit_vieras": "1"
+    },
+    {
+      "ottelu_id": "194903",
+      "Kausi": "1949",
+      "Päivämäärä": "12.5.1949",
+      "Kilpailu": "Mestaruussarja",
+      "Kotijoukkue": "KIF",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "1",
+      "maalit_vieras": "1"
+    },
+    {
+      "ottelu_id": "194902",
+      "Kausi": "1949",
+      "Päivämäärä": "8.5.1949",
+      "Kilpailu": "Mestaruussarja",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "KuPS",
+      "maalit_koti": "2",
+      "maalit_vieras": "2"
+    },
+    {
+      "ottelu_id": "194901",
+      "Kausi": "1949",
+      "Päivämäärä": "1.5.1949",
+      "Kilpailu": "Mestaruussarja",
+      "Kotijoukkue": "KTP",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "2",
+      "maalit_vieras": "0"
+    },
+    {
+      "ottelu_id": "194815",
+      "Kausi": "1948",
+      "Päivämäärä": "31.10.1948",
+      "Kilpailu": "SPL + TUL Mestaruussarja",
+      "Kotijoukkue": "KTP",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "0",
+      "maalit_vieras": "2"
+    },
+    {
+      "ottelu_id": "194814",
+      "Kausi": "1948",
+      "Päivämäärä": "17.10.1948",
+      "Kilpailu": "SPL + TUL Mestaruussarja",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "TuKV",
+      "maalit_koti": "3",
+      "maalit_vieras": "2"
+    },
+    {
+      "ottelu_id": "194813",
+      "Kausi": "1948",
+      "Päivämäärä": "3.10.1948",
+      "Kilpailu": "SPL + TUL Mestaruussarja",
+      "Kotijoukkue": "RTU",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "1",
+      "maalit_vieras": "1"
+    },
+    {
+      "ottelu_id": "194812",
+      "Kausi": "1948",
+      "Päivämäärä": "25.9.1948",
+      "Kilpailu": "SPL + TUL Mestaruussarja",
+      "Kotijoukkue": "TuWe",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "1",
+      "maalit_vieras": "2"
+    },
+    {
+      "ottelu_id": "194811",
+      "Kausi": "1948",
+      "Päivämäärä": "8.9.1948",
+      "Kilpailu": "SPL + TUL Mestaruussarja",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "HIFK",
+      "maalit_koti": "1",
+      "maalit_vieras": "2"
+    },
+    {
+      "ottelu_id": "194810",
+      "Kausi": "1948",
+      "Päivämäärä": "1.9.1948",
+      "Kilpailu": "SPL + TUL Mestaruussarja",
+      "Kotijoukkue": "VPS",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "0",
+      "maalit_vieras": "0"
+    },
+    {
+      "ottelu_id": "194809",
+      "Kausi": "1948",
+      "Päivämäärä": "29.8.1948",
+      "Kilpailu": "SPL + TUL Mestaruussarja",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "TPS",
+      "maalit_koti": "1",
+      "maalit_vieras": "3"
+    },
+    {
+      "ottelu_id": "194808",
+      "Kausi": "1948",
+      "Päivämäärä": "22.8.1948",
+      "Kilpailu": "SPL + TUL Mestaruussarja",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "Kiri",
+      "maalit_koti": "2",
+      "maalit_vieras": "1"
+    },
+    {
+      "ottelu_id": "194807",
+      "Kausi": "1948",
+      "Päivämäärä": "19.8.1948",
+      "Kilpailu": "SPL + TUL Mestaruussarja",
+      "Kotijoukkue": "Kullervo",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "1",
+      "maalit_vieras": "1"
+    },
+    {
+      "ottelu_id": "194806",
+      "Kausi": "1948",
+      "Päivämäärä": "16.8.1948",
+      "Kilpailu": "SPL + TUL Mestaruussarja",
+      "Kotijoukkue": "HJK",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "0",
+      "maalit_vieras": "1"
+    },
+    {
+      "ottelu_id": "194805",
+      "Kausi": "1948",
+      "Päivämäärä": "12.8.1948",
+      "Kilpailu": "SPL + TUL Mestaruussarja",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "KIF",
+      "maalit_koti": "0",
+      "maalit_vieras": "1"
+    },
+    {
+      "ottelu_id": "194804",
+      "Kausi": "1948",
+      "Päivämäärä": "8.8.1948",
+      "Kilpailu": "SPL + TUL Mestaruussarja",
+      "Kotijoukkue": "TuTo",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "0",
+      "maalit_vieras": "2"
+    },
+    {
+      "ottelu_id": "194803",
+      "Kausi": "1948",
+      "Päivämäärä": "5.8.1948",
+      "Kilpailu": "SPL + TUL Mestaruussarja",
+      "Kotijoukkue": "Sudet",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "1",
+      "maalit_vieras": "2"
+    },
+    {
+      "ottelu_id": "194802",
+      "Kausi": "1948",
+      "Päivämäärä": "30.7.1948",
+      "Kilpailu": "SPL + TUL Mestaruussarja",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "Ponnistus",
+      "maalit_koti": "2",
+      "maalit_vieras": "0"
+    },
+    {
+      "ottelu_id": "194801",
+      "Kausi": "1948",
+      "Päivämäärä": "18.7.1948",
+      "Kilpailu": "SPL + TUL Mestaruussarja",
+      "Kotijoukkue": "VIFK",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "0",
+      "maalit_vieras": "1"
+    },
+    {
+      "ottelu_id": "194719",
+      "Kausi": "1947",
+      "Päivämäärä": "20.6.1948",
+      "Kilpailu": "SPL Mestaruussarja",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "VPS",
+      "maalit_koti": "2",
+      "maalit_vieras": "2"
+    },
+    {
+      "ottelu_id": "194718",
+      "Kausi": "1947",
+      "Päivämäärä": "13.6.1948",
+      "Kilpailu": "SPL Mestaruussarja",
+      "Kotijoukkue": "KuPS",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "0",
+      "maalit_vieras": "2"
+    },
+    {
+      "ottelu_id": "194717",
+      "Kausi": "1947",
+      "Päivämäärä": "8.6.1948",
+      "Kilpailu": "SPL Mestaruussarja",
+      "Kotijoukkue": "HJK",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "0",
+      "maalit_vieras": "2"
+    },
+    {
+      "ottelu_id": "194716",
+      "Kausi": "1947",
+      "Päivämäärä": "30.5.1948",
+      "Kilpailu": "SPL Mestaruussarja",
+      "Kotijoukkue": "TPS",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "0",
+      "maalit_vieras": "2"
+    },
+    {
+      "ottelu_id": "194715",
+      "Kausi": "1947",
+      "Päivämäärä": "21.5.1948",
+      "Kilpailu": "SPL Mestaruussarja",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "HIFK",
+      "maalit_koti": "7",
+      "maalit_vieras": "3"
+    },
+    {
+      "ottelu_id": "194714",
+      "Kausi": "1947",
+      "Päivämäärä": "9.5.1948",
+      "Kilpailu": "SPL Mestaruussarja",
+      "Kotijoukkue": "VIFK",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "3",
+      "maalit_vieras": "1"
+    },
+    {
+      "ottelu_id": "194713",
+      "Kausi": "1947",
+      "Päivämäärä": "6.5.1948",
+      "Kilpailu": "SPL Mestaruussarja",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "Jäntevä",
+      "maalit_koti": "4",
+      "maalit_vieras": "0"
+    },
+    {
+      "ottelu_id": "194712",
+      "Kausi": "1947",
+      "Päivämäärä": "12.10.1947",
+      "Kilpailu": "SPL Mestaruussarja",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "KuPS",
+      "maalit_koti": "1",
+      "maalit_vieras": "1"
+    },
+    {
+      "ottelu_id": "194711",
+      "Kausi": "1947",
+      "Päivämäärä": "28.9.1947",
+      "Kilpailu": "SPL Mestaruussarja",
+      "Kotijoukkue": "VPS",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "4",
+      "maalit_vieras": "1"
+    },
+    {
+      "ottelu_id": "194710",
+      "Kausi": "1947",
+      "Päivämäärä": "14.9.1947",
+      "Kilpailu": "SPL Mestaruussarja",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "VIFK",
+      "maalit_koti": "2",
+      "maalit_vieras": "2"
+    },
+    {
+      "ottelu_id": "194709",
+      "Kausi": "1947",
+      "Päivämäärä": "5.9.1947",
+      "Kilpailu": "SPL Mestaruussarja",
+      "Kotijoukkue": "Jäntevä",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "2",
+      "maalit_vieras": "1"
+    },
+    {
+      "ottelu_id": "194708",
+      "Kausi": "1947",
+      "Päivämäärä": "1.9.1947",
+      "Kilpailu": "SPL Mestaruussarja",
+      "Kotijoukkue": "HIFK",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "2",
+      "maalit_vieras": "3"
+    },
+    {
+      "ottelu_id": "194707",
+      "Kausi": "1947",
+      "Päivämäärä": "17.8.1947",
+      "Kilpailu": "SPL Mestaruussarja",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "TPS",
+      "maalit_koti": "2",
+      "maalit_vieras": "1"
+    },
+    {
+      "ottelu_id": "194706",
+      "Kausi": "1947",
+      "Päivämäärä": "12.8.1947",
+      "Kilpailu": "SPL Mestaruussarja",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "HJK",
+      "maalit_koti": "1",
+      "maalit_vieras": "3"
+    },
+    {
+      "ottelu_id": "194705",
+      "Kausi": "1947",
+      "Päivämäärä": "5.8.1947",
+      "Kilpailu": "Ystävyysottelu",
+      "Stadion": "Olympiastadion",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "Tukholman AIK (SE)",
+      "maalit_koti": "0",
+      "maalit_vieras": "4"
+    },
+    {
+      "ottelu_id": "194704",
+      "Kausi": "1947",
+      "Kilpailu": "Piirisarja",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "KIF",
+      "maalit_koti": "4",
+      "maalit_vieras": "1"
+    },
+    {
+      "ottelu_id": "194703",
+      "Kausi": "1947",
+      "Kilpailu": "piirisarja",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "KaPS",
+      "maalit_koti": "2",
+      "maalit_vieras": "1"
+    },
+    {
+      "ottelu_id": "194702",
+      "Kausi": "1947",
+      "Kilpailu": "piirisarja",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "Sudet",
+      "maalit_koti": "0",
+      "maalit_vieras": "1"
+    },
+    {
+      "ottelu_id": "194701",
+      "Kausi": "1947",
+      "Kilpailu": "piirisarja",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "HIFK",
+      "maalit_koti": "0",
+      "maalit_vieras": "2"
+    },
+    {
       "ottelu_id": "194223",
       "Kausi": "1942",
       "Päivämäärä": "1.1.1942",
