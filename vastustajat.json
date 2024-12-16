@@ -138,7 +138,11 @@
     },
     {
       "Lyhenne": "EsPa",
-      "Logo": "EsPa.jpg"
+      "Koko nimi": "Etelä-Espoon Pallo",
+      "Kotikaupunki": "Espoo",
+      "Perustamisvuosi": "1988",
+      "Logo": "EsPa.jpg",
+      "Linkki": "https://fi.wikipedia.org/wiki/Etel%C3%A4-Espoon_Pallo"
     },
     {
       "Lyhenne": "Estura",
@@ -198,11 +202,19 @@
     },
     {
       "Lyhenne": "FC Honka",
-      "Logo": "FC Honka.jpg"
+      "Koko nimi": "FC Honka",
+      "Kotikaupunki": "Espoo",
+      "Perustamisvuosi": "1957",
+      "Logo": "FC Honka.jpg",
+      "Linkki": "https://fi.wikipedia.org/wiki/FC_Honka"
     },
     {
       "Lyhenne": "FC Honka/Akatemia",
-      "Logo": "FC Honka Akatemia.jpg"
+      "Koko nimi": "FC Honka",
+      "Kotikaupunki": "Espoo",
+      "Perustamisvuosi": "1957",
+      "Logo": "FC Honka Akatemia.jpg",
+      "Linkki": "https://fi.wikipedia.org/wiki/FC_Honka"
     },
     {
       "Lyhenne": "FC Härät",
@@ -334,7 +346,11 @@
     },
     {
       "Lyhenne": "Haka",
-      "Logo": "Haka.jpg"
+      "Koko nimi": "Valkeakosken Haka",
+      "Kotikaupunki": "Valkeakoski",
+      "Perustamisvuosi": "1934",
+      "Logo": "Haka.jpg",
+      "Linkki": "https://fi.wikipedia.org/wiki/FC_Haka"
     },
     {
       "Lyhenne": "Hakrit",
@@ -466,11 +482,20 @@
     },
     {
       "Lyhenne": "Honka",
-      "Logo": "Honka.jpg"
+      "Koko nimi": "Tapion Honka",
+      "Kotikaupunki": "Espoo",
+      "Perustamisvuosi": "1957",
+      "Liittynyt seuraan": "FC Honka",
+      "Logo": "Honka.jpg",
+      "Linkki": "https://fi.wikipedia.org/wiki/FC_Honka"
     },
     {
       "Lyhenne": "Honka/3",
-      "Logo": "Honka 3.jpg"
+      "Koko nimi": "FC Honka",
+      "Kotikaupunki": "Espoo",
+      "Perustamisvuosi": "1957",
+      "Logo": "Honka 3.jpg",
+      "Linkki": "https://fi.wikipedia.org/wiki/FC_Honka"
     },
     {
       "Lyhenne": "HooGee",
@@ -494,7 +519,11 @@
     },
     {
       "Lyhenne": "Hukat",
-      "Logo": "Hukat.jpg"
+      "Koko nimi": "Hukat",
+      "Kotikaupunki": "Helsinki",
+      "Perustamisvuosi": "1942",
+      "Logo": "Hukat.jpg",
+      "Linkki": "https://fi.wikipedia.org/wiki/Hukat_(urheiluseura)"
     },
     {
       "Lyhenne": "Hurjat",
@@ -753,7 +782,12 @@
     },
     {
       "Lyhenne": "KuPS",
-      "Logo": "KuPS.jpg"
+      "Koko nimi": "Kuopion Palloseura",
+      "Lempinimet": "Keltamusta, Kanarialinnut",
+      "Kotikaupunki": "Kuopio",
+      "Perustamisvuosi": "1923",
+      "Logo": "KuPS.jpg",
+      "Linkki": "https://fi.wikipedia.org/wiki/Kuopion_Palloseura"
     },
     {
       "Lyhenne": "Kuusysi",
@@ -1258,11 +1292,21 @@
     },
     {
       "Lyhenne": "Stjärnan",
-      "Logo": "Stjärnan.jpg"
+      "Koko nimi": "Stjärnan",
+      "Kotikaupunki": "Helsinki",
+      "Perustamisvuosi": "1906",
+      "Liittynyt seuraan": "Makkabi",
+      "Logo": "Stjärnan.jpg",
+      "Linkki": "https://fi.wikipedia.org/wiki/Urheiluseura_Makkabi"
     },
     {
       "Lyhenne": "STPS",
-      "Logo": "STPS.jpg"
+      "Koko nimi": "Savonlinnan Työväen Palloseura",
+      "Kotikaupunki": "Savonlinna",
+      "Perustamisvuosi": "1945",
+      "Logo": "STPS.jpg",
+      "Linkki": "https://fi.wikipedia.org/wiki/Savonlinnan_Ty%C3%B6v%C3%A4en_Palloseura",
+      "Lisätiedot": "Miesten edustusjoukkue pelasi vuosina 1979–1980 nimellä Estura ja 1990-luvulla nimellä FC Savonlinna"
     },
     {
       "Lyhenne": "Sudet",
