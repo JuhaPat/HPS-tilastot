@@ -117,7 +117,11 @@
     },
     {
       "Lyhenne": "Elo",
-      "Logo": "Elo.jpg"
+      "Koko nimi": "Kuopion Elo",
+      "Kotikaupunki": "Kuopio",
+      "Perustamisvuosi": "1919",
+      "Logo": "Elo.jpg",
+      "Linkki": "https://fi.wikipedia.org/wiki/Kuopion_Elo"
     },
     {
       "Lyhenne": "EPS",
@@ -125,7 +129,12 @@
     },
     {
       "Lyhenne": "ESC",
-      "Logo": "ESC.jpg"
+      "Koko nimi": "Ekenäs Sport Club",
+      "Lempinimet": "Raseborgs stolthet",
+      "Kotikaupunki": "Raasepori",
+      "Perustamisvuosi": "2007",
+      "Logo": "ESC.jpg",
+      "Linkki": "https://fi.wikipedia.org/wiki/Eken%C3%A4s_Sport_Club"
     },
     {
       "Lyhenne": "EsPa",
@@ -599,11 +608,19 @@
     },
     {
       "Lyhenne": "KaPa",
-      "Logo": "KaPa.jpg"
+      "Koko nimi": "Kajaanin Palloilijat",
+      "Kotikaupunki": "Kajaani",
+      "Perustamisvuosi": "1924",
+      "Liittynyt seuraan": "AC Kajaani",
+      "Logo": "KaPa.jpg",
+      "Linkki": "https://fi.wikipedia.org/wiki/Kajaanin_Palloilijat"
     },
     {
       "Lyhenne": "KaPS",
-      "Logo": "KaPS.jpg"
+      "Koko nimi": "Kallion Palloseura",
+      "Kotikaupunki": "Helsinki",
+      "Logo": "KaPS.jpg",
+      "Linkki": "https://fi.wikipedia.org/wiki/Kallion_Palloseura"
     },
     {
       "Lyhenne": "Karpalo",
@@ -668,7 +685,12 @@
     },
     {
       "Lyhenne": "KoRe",
-      "Logo": "KoRe.jpg"
+      "Koko nimi": "Kotkan Reipas",
+      "Kotikaupunki": "Kotka",
+      "Perustamisvuosi": "1938",
+      "Logo": "KoRe.jpg",
+      "Linkki": "https://fi.wikipedia.org/wiki/Kotkan_Reipas",
+      "Lisätiedot": "Alun perin Katariinan Reipas, myöhemmin Puistolan Reipas ja sen jälkeen Kotkan Reipas"
     },
     {
       "Lyhenne": "KP-75",
@@ -680,7 +702,12 @@
     },
     {
       "Lyhenne": "KPT",
-      "Logo": "KPT.jpg"
+      "Koko nimi": "Kuopion Pallotoverit",
+      "Lempinimet": "Koparit",
+      "Kotikaupunki": "Kuopio",
+      "Perustamisvuosi": "1931",
+      "Logo": "KPT.jpg",
+      "Linkki": "https://fi.wikipedia.org/wiki/Koparit"
     },
     {
       "Lyhenne": "KTP",
@@ -692,7 +719,9 @@
     },
     {
       "Lyhenne": "KU",
-      "Logo": "KU.jpg"
+      "Koko nimi": "Kouvolan Urheilijat",
+      "Logo": "KU.jpg",
+      "Linkki": "https://fi.wikipedia.org/wiki/Kouvolan_Urheilijat"
     },
     {
       "Lyhenne": "Kullervo",
@@ -712,7 +741,11 @@
     },
     {
       "Lyhenne": "KUP",
-      "Logo": "KUP.jpg"
+      "Koko nimi": "Kouvolan Urheilijain Palloilijat",
+      "Kotikaupunki": "Kouvola",
+      "Perustamisvuosi": "1900",
+      "Logo": "KUP.jpg",
+      "Linkki": "https://fi.wikipedia.org/wiki/Kouvolan_Urheilijat"
     },
     {
       "Lyhenne": "K-UP",
