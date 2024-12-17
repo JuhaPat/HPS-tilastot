@@ -13543,109 +13543,116 @@
       "ottelu_id": "197122",
       "Kausi": "1971",
       "Kilpailu": "Kolmonen",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "HIK",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Kotijoukkue": "BK-46",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "2",
+      "maalit_vieras": "3"
     },
     {
       "ottelu_id": "197121",
       "Kausi": "1971",
+      "Päivämäärä": "12.9.1971",
       "Kilpailu": "Kolmonen",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "BK-46",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Stadion": "Oulunkylä",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "Gnistan",
+      "Vierasjoukkue": "HPS"
     },
     {
       "ottelu_id": "197120",
       "Kausi": "1971",
+      "Päivämäärä": "5.9.1971",
       "Kilpailu": "Kolmonen",
+      "Stadion": "Velodromi",
+      "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "EIF",
+      "Vierasjoukkue": "HIK",
       "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "maalit_vieras": "1"
     },
     {
       "ottelu_id": "197119",
       "Kausi": "1971",
+      "Päivämäärä": "31.8.1971",
       "Kilpailu": "Kolmonen",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "HyPS",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Stadion": "Ravirata",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "KUV",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "1",
+      "maalit_vieras": "7"
     },
     {
       "ottelu_id": "197118",
       "Kausi": "1971",
+      "Päivämäärä": "23.8.1971",
       "Kilpailu": "Kolmonen",
+      "Stadion": "Ravirata",
+      "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "Kampin Pallo-50",
-      "maalit_koti": "0",
+      "Vierasjoukkue": "FinnPa",
+      "maalit_koti": "2",
       "maalit_vieras": "0"
     },
     {
       "ottelu_id": "197117",
       "Kausi": "1971",
       "Kilpailu": "Kolmonen",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "Hyvinkään Apollo",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Kotijoukkue": "HPS ",
+      "Vierasjoukkue": "EIF"
     },
     {
       "ottelu_id": "197116",
       "Kausi": "1971",
       "Kilpailu": "Kolmonen",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "Töölön Vesa",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Kotijoukkue": "HyPS",
+      "Vierasjoukkue": "HPS"
     },
     {
       "ottelu_id": "197115",
       "Kausi": "1971",
+      "Päivämäärä": "29.7.1971",
       "Kilpailu": "Kolmonen",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "Käpylän Urheilu-Veikot",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Vierasjoukkue": "Apollo",
+      "maalit_koti": "6",
+      "maalit_vieras": "1"
     },
     {
       "ottelu_id": "197114",
       "Kausi": "1971",
+      "Päivämäärä": "27.7.1971",
       "Kilpailu": "Kolmonen",
+      "Stadion": "Töölön Pallokenttä",
+      "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "IF Gnistan",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Vierasjoukkue": "Vesa",
+      "maalit_koti": "2",
+      "maalit_vieras": "1"
     },
     {
       "ottelu_id": "197113",
       "Kausi": "1971",
       "Kilpailu": "Kolmonen",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "FinnPa",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Kotijoukkue": "KP-50",
+      "Vierasjoukkue": "HPS"
     },
     {
       "ottelu_id": "197112",
       "Kausi": "1971",
+      "Päivämäärä": "4.7.1971",
       "Kilpailu": "Kolmonen",
-      "Kotijoukkue": "HIK",
-      "Vierasjoukkue": "HPS",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Stadion": "Töölön Pallokenttä",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "BK-46"
     },
     {
       "ottelu_id": "197111",
       "Kausi": "1971",
       "Kilpailu": "Kolmonen",
-      "Kotijoukkue": "BK-46",
-      "Vierasjoukkue": "HPS",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "Gnistan"
     },
     {
       "ottelu_id": "197110",
@@ -13653,80 +13660,100 @@
       "Kilpailu": "Kolmonen",
       "Kotijoukkue": "EIF",
       "Vierasjoukkue": "HPS",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "maalit_koti": "2",
+      "maalit_vieras": "3"
     },
     {
       "ottelu_id": "197109",
       "Kausi": "1971",
+      "Päivämäärä": "10.6.1971",
       "Kilpailu": "Kolmonen",
-      "Kotijoukkue": "HyPS",
+      "Kotijoukkue": "HIK",
       "Vierasjoukkue": "HPS",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "maalit_koti": "2",
+      "maalit_vieras": "3"
     },
     {
       "ottelu_id": "197108",
       "Kausi": "1971",
+      "Päivämäärä": "8.6.1971",
       "Kilpailu": "Kolmonen",
-      "Kotijoukkue": "Kampin Pallo-50",
-      "Vierasjoukkue": "HPS",
-      "maalit_koti": "0",
+      "Stadion": "Ravirata",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "KUV",
+      "maalit_koti": "3",
       "maalit_vieras": "0"
     },
     {
       "ottelu_id": "197107",
       "Kausi": "1971",
-      "Kilpailu": "Kolmonen",
-      "Kotijoukkue": "Hyvinkään Apollo",
-      "Vierasjoukkue": "HPS",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
-    },
-    {
-      "ottelu_id": "197106",
-      "Kausi": "1971",
-      "Kilpailu": "Kolmonen",
-      "Kotijoukkue": "Töölön Vesa",
-      "Vierasjoukkue": "HPS",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
-    },
-    {
-      "ottelu_id": "197105",
-      "Kausi": "1971",
-      "Kilpailu": "Kolmonen",
-      "Kotijoukkue": "Käpylän Urheilu-Veikot",
-      "Vierasjoukkue": "HPS",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
-    },
-    {
-      "ottelu_id": "197104",
-      "Kausi": "1971",
-      "Kilpailu": "Kolmonen",
-      "Kotijoukkue": "IF Gnistan",
-      "Vierasjoukkue": "HPS",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
-    },
-    {
-      "ottelu_id": "197103",
-      "Kausi": "1971",
-      "Kilpailu": "Kolmonen",
-      "Kotijoukkue": "FinnPa",
-      "Vierasjoukkue": "HPS",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
-    },
-    {
-      "ottelu_id": "197102",
-      "Kausi": "1971",
+      "Päivämäärä": "3.6.1971",
       "Kilpailu": "Suomen Cup",
       "Kotijoukkue": "Kumu",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
       "maalit_vieras": "1"
+    },
+    {
+      "ottelu_id": "197106",
+      "Kausi": "1971",
+      "Päivämäärä": "1.6.1971",
+      "Kilpailu": "Kolmonen",
+      "Stadion": "Velodromi",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "FinnPa",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "1",
+      "maalit_vieras": "4"
+    },
+    {
+      "ottelu_id": "197105",
+      "Kausi": "1971",
+      "Päivämäärä": "24.5.1971",
+      "Kilpailu": "Kolmonen",
+      "Stadion": "Ravirata",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "KP-50",
+      "maalit_koti": "3",
+      "maalit_vieras": "0"
+    },
+    {
+      "ottelu_id": "197104",
+      "Kausi": "1971",
+      "Päivämäärä": "20.5.1971",
+      "Kilpailu": "Kolmonen",
+      "Stadion": "Ravirata",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "Vesa",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "1",
+      "maalit_vieras": "4"
+    },
+    {
+      "ottelu_id": "197103",
+      "Kausi": "1971",
+      "Päivämäärä": "16.5.1971",
+      "Kilpailu": "Kolmonen",
+      "Stadion": "Töölön Pallokenttä",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "Apollo",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "0",
+      "maalit_vieras": "1"
+    },
+    {
+      "ottelu_id": "197102",
+      "Kausi": "1971",
+      "Päivämäärä": "10.5.1971",
+      "Kilpailu": "Kolmonen",
+      "Stadion": "Töölön Pallokenttä",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "HyPS",
+      "maalit_koti": "1",
+      "maalit_vieras": "3"
     },
     {
       "ottelu_id": "197101",
