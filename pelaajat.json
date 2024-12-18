@@ -13010,7 +13010,8 @@
       "Sukunimi": "Salin",
       "Etunimi": "Henry",
       "Koko nimi": "Henry Salin",
-      "Ottelut": "17"
+      "Ottelut": "17",
+      "Maalit": "1"
     },
     {
       "Kausi": "1950",
@@ -13026,7 +13027,7 @@
       "Koko nimi": "Yrjö Sotiola",
       "Muu rooli": "Valmentaja",
       "Ottelut": "16",
-      "Maalit": "10"
+      "Maalit": "11"
     },
     {
       "Kausi": "1950",
@@ -13034,35 +13035,39 @@
       "Etunimi": "Mauno",
       "Koko nimi": "Mauno Tarkiainen",
       "Ottelut": "18",
-      "Maalit": "9"
+      "Maalit": "10"
     },
     {
       "Kausi": "1950",
       "Sukunimi": "Vepsäläinen",
       "Etunimi": "Aarne",
       "Koko nimi": "Aarne Vepsäläinen",
-      "Ottelut": "14"
+      "Ottelut": "14",
+      "Maalit": "2"
     },
     {
       "Kausi": "1950",
       "Sukunimi": "Lahtinen",
       "Etunimi": "Lassi",
       "Koko nimi": "Lassi Lahtinen",
-      "Ottelut": "5"
+      "Ottelut": "5",
+      "Maalit": "1"
     },
     {
       "Kausi": "1950",
       "Sukunimi": "Hasso",
       "Etunimi": "Anatol",
       "Koko nimi": "Anatol Hasso",
-      "Ottelut": "14"
+      "Ottelut": "14",
+      "Maalit": "3"
     },
     {
       "Kausi": "1950",
       "Sukunimi": "Vepsäläinen",
       "Etunimi": "Reino",
       "Koko nimi": "Reino Vepsäläinen",
-      "Ottelut": "12"
+      "Ottelut": "12",
+      "Maalit": "2"
     },
     {
       "Kausi": "1950",
@@ -13174,42 +13179,48 @@
       "Sukunimi": "Salin",
       "Etunimi": "Henry",
       "Koko nimi": "Henry Salin",
-      "Ottelut": "22"
+      "Ottelut": "22",
+      "Maalit": "3"
     },
     {
       "Kausi": "1949",
       "Sukunimi": "Uggeldahl",
       "Etunimi": "Bror",
       "Koko nimi": "Bror Uggeldahl",
-      "Ottelut": "7"
+      "Ottelut": "7",
+      "Maalit": "2"
     },
     {
       "Kausi": "1949",
       "Sukunimi": "Hasso",
       "Etunimi": "Anatol",
       "Koko nimi": "Anatol Hasso",
-      "Ottelut": "20"
+      "Ottelut": "20",
+      "Maalit": "4"
     },
     {
       "Kausi": "1949",
       "Sukunimi": "Sotiola",
       "Etunimi": "Yrjö",
       "Koko nimi": "Yrjö Sotiola",
-      "Ottelut": "19"
+      "Ottelut": "19",
+      "Maalit": "5"
     },
     {
       "Kausi": "1949",
       "Sukunimi": "Tarkiainen",
       "Etunimi": "Mauno",
       "Koko nimi": "Mauno Tarkiainen",
-      "Ottelut": "13"
+      "Ottelut": "13",
+      "Maalit": "1"
     },
     {
       "Kausi": "1949",
       "Sukunimi": "Vepsäläinen",
       "Etunimi": "Aarne",
       "Koko nimi": "Aarne Vepsäläinen",
-      "Ottelut": "22"
+      "Ottelut": "22",
+      "Maalit": "4"
     },
     {
       "Kausi": "1949",
@@ -13230,7 +13241,8 @@
       "Sukunimi": "Lievonen",
       "Etunimi": "Yrjö",
       "Koko nimi": "Yrjö Lievonen",
-      "Ottelut": "21"
+      "Ottelut": "21",
+      "Maalit": "2"
     },
     {
       "Kausi": "1949",
@@ -13244,7 +13256,8 @@
       "Sukunimi": "Herrman",
       "Etunimi": "Börje",
       "Koko nimi": "Börje Herrman",
-      "Ottelut": "11"
+      "Ottelut": "11",
+      "Maalit": "6"
     },
     {
       "Kausi": "1949",
@@ -13300,35 +13313,40 @@
       "Sukunimi": "Vaahtera",
       "Etunimi": "Veikko",
       "Koko nimi": "Veikko Vaahtera",
-      "Ottelut": "12"
+      "Ottelut": "12",
+      "Maalit": "1"
     },
     {
       "Kausi": "1948",
       "Sukunimi": "Salin",
       "Etunimi": "Henry",
       "Koko nimi": "Henry Salin",
-      "Ottelut": "13"
+      "Ottelut": "13",
+      "Maalit": "2"
     },
     {
       "Kausi": "1948",
       "Sukunimi": "Uggeldahl",
       "Etunimi": "Bror",
       "Koko nimi": "Bror Uggeldahl",
-      "Ottelut": "13"
+      "Ottelut": "13",
+      "Maalit": "6"
     },
     {
       "Kausi": "1948",
       "Sukunimi": "Hasso",
       "Etunimi": "Anatol",
       "Koko nimi": "Anatol Hasso",
-      "Ottelut": "13"
+      "Ottelut": "13",
+      "Maalit": "3"
     },
     {
       "Kausi": "1948",
       "Sukunimi": "Sotiola",
       "Etunimi": "Yrjö",
       "Koko nimi": "Yrjö Sotiola",
-      "Ottelut": "15"
+      "Ottelut": "15",
+      "Maalit": "6"
     },
     {
       "Kausi": "1948",
@@ -13349,7 +13367,8 @@
       "Sukunimi": "Lindqvist",
       "Etunimi": "Harald",
       "Koko nimi": "Harald Lindqvist",
-      "Ottelut": "13"
+      "Ottelut": "13",
+      "Maalit": "2"
     },
     {
       "Kausi": "1948",
@@ -13384,7 +13403,8 @@
       "Sukunimi": "Weckström",
       "Etunimi": "Jorma",
       "Koko nimi": "Jorma Weckström",
-      "Ottelut": "3"
+      "Ottelut": "3",
+      "Maalit": "1"
     },
     {
       "Kausi": "1948",
@@ -13426,35 +13446,40 @@
       "Sukunimi": "Vaahtera",
       "Etunimi": "Veikko",
       "Koko nimi": "Veikko Vaahtera",
-      "Ottelut": "11"
+      "Ottelut": "11",
+      "Maalit": "1"
     },
     {
       "Kausi": "1947-48",
       "Sukunimi": "Salin",
       "Etunimi": "Henry",
       "Koko nimi": "Henry Salin",
-      "Ottelut": "7"
+      "Ottelut": "7",
+      "Maalit": "3"
     },
     {
       "Kausi": "1947-48",
       "Sukunimi": "Uggeldahl",
       "Etunimi": "Bror",
       "Koko nimi": "Bror Uggeldahl",
-      "Ottelut": "7"
+      "Ottelut": "7",
+      "Maalit": "5"
     },
     {
       "Kausi": "1947-48",
       "Sukunimi": "Hasso",
       "Etunimi": "Anatol",
       "Koko nimi": "Anatol Hasso",
-      "Ottelut": "14"
+      "Ottelut": "14",
+      "Maalit": "9"
     },
     {
       "Kausi": "1947-48",
       "Sukunimi": "Sotiola",
       "Etunimi": "Yrjö",
       "Koko nimi": "Yrjö Sotiola",
-      "Ottelut": "13"
+      "Ottelut": "13",
+      "Maalit": "4"
     },
     {
       "Kausi": "1947-48",
@@ -13482,7 +13507,8 @@
       "Sukunimi": "Virtanen",
       "Etunimi": "Paavo",
       "Koko nimi": "Paavo Virtanen",
-      "Ottelut": "7"
+      "Ottelut": "7",
+      "Maalit": "1"
     },
     {
       "Kausi": "1947-48",
@@ -13517,14 +13543,16 @@
       "Sukunimi": "Lindqvist",
       "Etunimi": "Harald",
       "Koko nimi": "Harald Lindqvist",
-      "Ottelut": "12"
+      "Ottelut": "12",
+      "Maalit": "2"
     },
     {
       "Kausi": "1947-48",
       "Sukunimi": "Vepsäläinen",
       "Etunimi": "Rauno",
       "Koko nimi": "Rauno Vepsäläinen",
-      "Ottelut": "9"
+      "Ottelut": "9",
+      "Maalit": "6"
     },
     {
       "Kausi": "1947-48",
@@ -13552,42 +13580,48 @@
       "Sukunimi": "Hasso",
       "Etunimi": "Anatol",
       "Koko nimi": "Anatol Hasso",
-      "Ottelut": "14"
+      "Ottelut": "14",
+      "Maalit": "10"
     },
     {
       "Kausi": "1946-47",
       "Sukunimi": "Kilpi",
       "Etunimi": "Eino",
       "Koko nimi": "Eino Kilpi",
-      "Ottelut": "12"
+      "Ottelut": "12",
+      "Maalit": "2"
     },
     {
       "Kausi": "1946-47",
       "Sukunimi": "Virtanen",
       "Etunimi": "Paavo",
       "Koko nimi": "Paavo Virtanen",
-      "Ottelut": "13"
+      "Ottelut": "13",
+      "Maalit": "1"
     },
     {
       "Kausi": "1946-47",
       "Sukunimi": "Lievonen",
       "Etunimi": "Yrjö",
       "Koko nimi": "Yrjö Lievonen",
-      "Ottelut": "14"
+      "Ottelut": "14",
+      "Maalit": "3"
     },
     {
       "Kausi": "1946-47",
       "Sukunimi": "Sotiola",
       "Etunimi": "Yrjö",
       "Koko nimi": "Yrjö Sotiola",
-      "Ottelut": "12"
+      "Ottelut": "12",
+      "Maalit": "7"
     },
     {
       "Kausi": "1946-47",
       "Sukunimi": "Lahtinen",
       "Etunimi": "Lassi",
       "Koko nimi": "Lassi Lahtinen",
-      "Ottelut": "12"
+      "Ottelut": "12",
+      "Maalit": "2"
     },
     {
       "Kausi": "1946-47",
@@ -13608,7 +13642,8 @@
       "Sukunimi": "Gröndahl",
       "Etunimi": "Alfred",
       "Koko nimi": "Alfred Gröndahl",
-      "Ottelut": "4"
+      "Ottelut": "4",
+      "Maalit": "1"
     },
     {
       "Kausi": "1946-47",
@@ -13657,7 +13692,8 @@
       "Sukunimi": "Vepsäläinen",
       "Etunimi": "Rauno",
       "Koko nimi": "Rauno Vepsäläinen",
-      "Ottelut": "13"
+      "Ottelut": "13",
+      "Maalit": "1"
     },
     {
       "Kausi": "1946-47",
@@ -13671,7 +13707,8 @@
       "Sukunimi": "Lindqvist",
       "Etunimi": "Harald",
       "Koko nimi": "Harald Lindqvist",
-      "Ottelut": "7"
+      "Ottelut": "7",
+      "Maalit": "5"
     },
     {
       "Kausi": "1946-47",
@@ -13684,7 +13721,8 @@
       "Sukunimi": "Sotiola",
       "Etunimi": "Yrjö",
       "Koko nimi": "Yrjö Sotiola",
-      "Ottelut": "14"
+      "Ottelut": "14",
+      "Maalit": "6"
     },
     {
       "Kausi": "1945-46",
@@ -13705,7 +13743,8 @@
       "Sukunimi": "Lievonen",
       "Etunimi": "Yrjö",
       "Koko nimi": "Yrjö Lievonen",
-      "Ottelut": "13"
+      "Ottelut": "13",
+      "Maalit": "2"
     },
     {
       "Kausi": "1945-46",
@@ -13733,35 +13772,40 @@
       "Sukunimi": "Kilpi",
       "Etunimi": "Eino",
       "Koko nimi": "Eino Kilpi",
-      "Ottelut": "14"
+      "Ottelut": "14",
+      "Maalit": "2"
     },
     {
       "Kausi": "1945-46",
       "Sukunimi": "Hasso",
       "Etunimi": "Anatol",
       "Koko nimi": "Anatol Hasso",
-      "Ottelut": "14"
+      "Ottelut": "14",
+      "Maalit": "4"
     },
     {
       "Kausi": "1945-46",
       "Sukunimi": "Lahtinen",
       "Etunimi": "Lassi",
       "Koko nimi": "Lassi Lahtinen",
-      "Ottelut": "12"
+      "Ottelut": "12",
+      "Maalit": "3"
     },
     {
       "Kausi": "1945-46",
       "Sukunimi": "Gröndahl",
       "Etunimi": "Alfred",
       "Koko nimi": "Alfred Gröndahl",
-      "Ottelut": "6"
+      "Ottelut": "6",
+      "Maalit": "2"
     },
     {
       "Kausi": "1945-46",
       "Sukunimi": "Vepsäläinen",
       "Etunimi": "Rauno",
       "Koko nimi": "Rauno Vepsäläinen",
-      "Ottelut": "13"
+      "Ottelut": "13",
+      "Maalit": "4"
     },
     {
       "Kausi": "1945-46",
@@ -13817,14 +13861,16 @@
       "Sukunimi": "Hasso",
       "Etunimi": "Anatol",
       "Koko nimi": "Anatol Hasso",
-      "Ottelut": "5"
+      "Ottelut": "5",
+      "Maalit": "1"
     },
     {
       "Kausi": "1945",
       "Sukunimi": "Sotiola",
       "Etunimi": "Yrjö",
       "Koko nimi": "Yrjö Sotiola",
-      "Ottelut": "5"
+      "Ottelut": "5",
+      "Maalit": "2"
     },
     {
       "Kausi": "1945",
@@ -13837,14 +13883,16 @@
       "Sukunimi": "Tikka",
       "Etunimi": "Olavi",
       "Koko nimi": "Olavi Tikka",
-      "Ottelut": "4"
+      "Ottelut": "4",
+      "Maalit": "1"
     },
     {
       "Kausi": "1945",
       "Sukunimi": "Vepsäläinen",
       "Etunimi": "Rauno",
       "Koko nimi": "Rauno Vepsäläinen",
-      "Ottelut": "5"
+      "Ottelut": "5",
+      "Maalit": "1"
     },
     {
       "Kausi": "1945",
@@ -14182,7 +14230,8 @@
       "Sukunimi": "Hämäläinen",
       "Etunimi": "Ensio",
       "Koko nimi": "Ensio Hämäläinen",
-      "Ottelut": "12"
+      "Ottelut": "12",
+      "Maalit": "3"
     },
     {
       "Kausi": "1940-41",
@@ -14203,7 +14252,8 @@
       "Sukunimi": "Herrman",
       "Etunimi": "Börje",
       "Koko nimi": "Börje Herrman",
-      "Ottelut": "7"
+      "Ottelut": "7",
+      "Maalit": "2"
     },
     {
       "Kausi": "1940-41",
@@ -14217,7 +14267,8 @@
       "Sukunimi": "Ronkanen",
       "Etunimi": "Eero",
       "Koko nimi": "Eero Ronkanen",
-      "Ottelut": "13"
+      "Ottelut": "13",
+      "Maalit": "3"
     },
     {
       "Kausi": "1940-41",
@@ -14231,7 +14282,8 @@
       "Sukunimi": "Sotiola",
       "Etunimi": "Yrjö",
       "Koko nimi": "Yrjö Sotiola",
-      "Ottelut": "13"
+      "Ottelut": "13",
+      "Maalit": "6"
     },
     {
       "Kausi": "1940-41",
@@ -14252,7 +14304,8 @@
       "Sukunimi": "Kilpi",
       "Etunimi": "Eino",
       "Koko nimi": "Eino Kilpi",
-      "Ottelut": "13"
+      "Ottelut": "13",
+      "Maalit": "1"
     },
     {
       "Kausi": "1940-41",
@@ -14271,7 +14324,8 @@
       "Sukunimi": "Oksanen",
       "Etunimi": "Kaarlo",
       "Koko nimi": "Kaarlo Oksanen",
-      "Ottelut": "3"
+      "Ottelut": "3",
+      "Maalit": "2"
     },
     {
       "Kausi": "1940-41",
@@ -14314,7 +14368,8 @@
       "Sukunimi": "Tenhovuori",
       "Etunimi": "Aimo",
       "Koko nimi": "Aimo Tenhovuori",
-      "Ottelut": "2"
+      "Ottelut": "2",
+      "Maalit": "1"
     },
     {
       "Kausi": "1940-41",
@@ -14336,7 +14391,7 @@
       "Etunimi": "Pentti",
       "Koko nimi": "Pentti Larvo (aik. Lindstén)",
       "Ottelut": "5",
-      "Maalit": "4"
+      "Maalit": "5"
     },
     {
       "Kausi": "1939",
@@ -14350,7 +14405,8 @@
       "Sukunimi": "Ronkanen",
       "Etunimi": "Eero",
       "Koko nimi": "Eero Ronkanen",
-      "Ottelut": "13"
+      "Ottelut": "13",
+      "Maalit": "2"
     },
     {
       "Kausi": "1939",
@@ -14358,7 +14414,7 @@
       "Etunimi": "Yrjö",
       "Koko nimi": "Yrjö Sotiola",
       "Ottelut": "13",
-      "Maalit": "7"
+      "Maalit": "6"
     },
     {
       "Kausi": "1939",
@@ -14381,7 +14437,7 @@
       "Etunimi": "Eino",
       "Koko nimi": "Eino Kilpi",
       "Ottelut": "13",
-      "Maalit": "2"
+      "Maalit": "1"
     },
     {
       "Kausi": "1939",
@@ -14389,7 +14445,7 @@
       "Etunimi": "Nils",
       "Koko nimi": "Nils Nuuttio",
       "Ottelut": "9",
-      "Maalit": "2"
+      "Maalit": "1"
     },
     {
       "Kausi": "1939",
@@ -14606,7 +14662,8 @@
       "Sukunimi": "Larvo (aik. Lindstén)",
       "Etunimi": "Pentti",
       "Koko nimi": "Pentti Larvo (aik. Lindstén)",
-      "Ottelut": "13"
+      "Ottelut": "13",
+      "Maalit": "9"
     },
     {
       "Kausi": "1937",
@@ -14620,7 +14677,8 @@
       "Sukunimi": "Ronkanen",
       "Etunimi": "Eero",
       "Koko nimi": "Eero Ronkanen",
-      "Ottelut": "12"
+      "Ottelut": "12",
+      "Maalit": "3"
     },
     {
       "Kausi": "1937",
@@ -14634,21 +14692,24 @@
       "Sukunimi": "Sotiola",
       "Etunimi": "Yrjö",
       "Koko nimi": "Yrjö Sotiola",
-      "Ottelut": "11"
+      "Ottelut": "11",
+      "Maalit": "2"
     },
     {
       "Kausi": "1937",
       "Sukunimi": "Virtanen",
       "Etunimi": "Paavo",
       "Koko nimi": "Paavo Virtanen",
-      "Ottelut": "14"
+      "Ottelut": "14",
+      "Maalit": "3"
     },
     {
       "Kausi": "1937",
       "Sukunimi": "Kanerva",
       "Etunimi": "William",
       "Koko nimi": "William Kanerva",
-      "Ottelut": "14"
+      "Ottelut": "14",
+      "Maalit": "3"
     },
     {
       "Kausi": "1937",
@@ -14669,21 +14730,24 @@
       "Sukunimi": "Pesonen",
       "Etunimi": "Atte",
       "Koko nimi": "Atte Pesonen",
-      "Ottelut": "9"
+      "Ottelut": "9",
+      "Maalit": "7"
     },
     {
       "Kausi": "1937",
       "Sukunimi": "Gustafsson",
       "Etunimi": "Erkki",
       "Koko nimi": "Erkki Gustafsson",
-      "Ottelut": "9"
+      "Ottelut": "9",
+      "Maalit": "1"
     },
     {
       "Kausi": "1937",
       "Sukunimi": "Halme",
       "Etunimi": "II",
       "Koko nimi": "II Halme",
-      "Ottelut": "1"
+      "Ottelut": "1",
+      "Maalit": "1"
     },
     {
       "Kausi": "1937",
@@ -14697,7 +14761,8 @@
       "Sukunimi": "Tenhovuori",
       "Etunimi": "Aimo",
       "Koko nimi": "Aimo Tenhovuori",
-      "Ottelut": "3"
+      "Ottelut": "3",
+      "Maalit": "1"
     },
     {
       "Kausi": "1937",
@@ -14746,7 +14811,8 @@
       "Sukunimi": "Larvo (aik. Lindstén)",
       "Etunimi": "Pentti",
       "Koko nimi": "Pentti Larvo (aik. Lindstén)",
-      "Ottelut": "14"
+      "Ottelut": "14",
+      "Maalit": "7"
     },
     {
       "Kausi": "1936",
@@ -14760,42 +14826,48 @@
       "Sukunimi": "Ronkanen",
       "Etunimi": "Eero",
       "Koko nimi": "Eero Ronkanen",
-      "Ottelut": "13"
+      "Ottelut": "13",
+      "Maalit": "4"
     },
     {
       "Kausi": "1936",
       "Sukunimi": "Sotiola",
       "Etunimi": "Yrjö",
       "Koko nimi": "Yrjö Sotiola",
-      "Ottelut": "14"
+      "Ottelut": "14",
+      "Maalit": "4"
     },
     {
       "Kausi": "1936",
       "Sukunimi": "Virtanen",
       "Etunimi": "Paavo",
       "Koko nimi": "Paavo Virtanen",
-      "Ottelut": "13"
+      "Ottelut": "13",
+      "Maalit": "4"
     },
     {
       "Kausi": "1936",
       "Sukunimi": "Kanerva",
       "Etunimi": "William",
       "Koko nimi": "William Kanerva",
-      "Ottelut": "14"
+      "Ottelut": "14",
+      "Maalit": "4"
     },
     {
       "Kausi": "1936",
       "Sukunimi": "Kilpi",
       "Etunimi": "Eino",
       "Koko nimi": "Eino Kilpi",
-      "Ottelut": "14"
+      "Ottelut": "14",
+      "Maalit": "2"
     },
     {
       "Kausi": "1936",
       "Sukunimi": "Kuhlberg",
       "Etunimi": "Viljo",
       "Koko nimi": "Viljo Kuhlberg",
-      "Ottelut": "13"
+      "Ottelut": "13",
+      "Maalit": "3"
     },
     {
       "Kausi": "1936",
@@ -14852,14 +14924,16 @@
       "Etunimi": "Max",
       "Koko nimi": "Max Viinioksa",
       "Muu rooli": "Kapteeni",
-      "Ottelut": "14"
+      "Ottelut": "14",
+      "Maalit": "1"
     },
     {
       "Kausi": "1935",
       "Sukunimi": "Larvo (aik. Lindstén)",
       "Etunimi": "Pentti",
       "Koko nimi": "Pentti Larvo (aik. Lindstén)",
-      "Ottelut": "14"
+      "Ottelut": "14",
+      "Maalit": "10"
     },
     {
       "Kausi": "1935",
@@ -14873,42 +14947,48 @@
       "Sukunimi": "Ronkanen",
       "Etunimi": "Eero",
       "Koko nimi": "Eero Ronkanen",
-      "Ottelut": "12"
+      "Ottelut": "12",
+      "Maalit": "8"
     },
     {
       "Kausi": "1935",
       "Sukunimi": "Koponen",
       "Etunimi": "Aulis",
       "Koko nimi": "Aulis Koponen",
-      "Ottelut": "11"
+      "Ottelut": "11",
+      "Maalit": "2"
     },
     {
       "Kausi": "1935",
       "Sukunimi": "Sotiola",
       "Etunimi": "Yrjö",
       "Koko nimi": "Yrjö Sotiola",
-      "Ottelut": "14"
+      "Ottelut": "14",
+      "Maalit": "6"
     },
     {
       "Kausi": "1935",
       "Sukunimi": "Kuhlberg",
       "Etunimi": "Viljo",
       "Koko nimi": "Viljo Kuhlberg",
-      "Ottelut": "6"
+      "Ottelut": "6",
+      "Maalit": "3"
     },
     {
       "Kausi": "1935",
       "Sukunimi": "Kanerva",
       "Etunimi": "William",
       "Koko nimi": "William Kanerva",
-      "Ottelut": "13"
+      "Ottelut": "13",
+      "Maalit": "1"
     },
     {
       "Kausi": "1935",
       "Sukunimi": "Virtanen",
       "Etunimi": "Paavo",
       "Koko nimi": "Paavo Virtanen",
-      "Ottelut": "12"
+      "Ottelut": "12",
+      "Maalit": "5"
     },
     {
       "Kausi": "1935",
@@ -14957,14 +15037,16 @@
       "Sukunimi": "Viinioksa",
       "Etunimi": "Max",
       "Koko nimi": "Max Viinioksa",
-      "Ottelut": "14"
+      "Ottelut": "14",
+      "Maalit": "1"
     },
     {
       "Kausi": "1934",
       "Sukunimi": "Larvo (aik. Lindstén)",
       "Etunimi": "Pentti",
       "Koko nimi": "Pentti Larvo (aik. Lindstén)",
-      "Ottelut": "8"
+      "Ottelut": "8",
+      "Maalit": "5"
     },
     {
       "Kausi": "1934",
@@ -14978,35 +15060,40 @@
       "Sukunimi": "Ronkanen",
       "Etunimi": "Eero",
       "Koko nimi": "Eero Ronkanen",
-      "Ottelut": "14"
+      "Ottelut": "14",
+      "Maalit": "11"
     },
     {
       "Kausi": "1934",
       "Sukunimi": "Koponen",
       "Etunimi": "Aulis",
       "Koko nimi": "Aulis Koponen",
-      "Ottelut": "14"
+      "Ottelut": "14",
+      "Maalit": "12"
     },
     {
       "Kausi": "1934",
       "Sukunimi": "Sotiola",
       "Etunimi": "Yrjö",
       "Koko nimi": "Yrjö Sotiola",
-      "Ottelut": "14"
+      "Ottelut": "14",
+      "Maalit": "2"
     },
     {
       "Kausi": "1934",
       "Sukunimi": "Kuhlberg",
       "Etunimi": "Viljo",
       "Koko nimi": "Viljo Kuhlberg",
-      "Ottelut": "14"
+      "Ottelut": "14",
+      "Maalit": "7"
     },
     {
       "Kausi": "1934",
       "Sukunimi": "Kanerva",
       "Etunimi": "William",
       "Koko nimi": "William Kanerva",
-      "Ottelut": "14"
+      "Ottelut": "14",
+      "Maalit": "1"
     },
     {
       "Kausi": "1934",
@@ -15076,7 +15163,8 @@
       "Sukunimi": "Larvo (aik. Lindstén)",
       "Etunimi": "Pentti",
       "Koko nimi": "Pentti Larvo (aik. Lindstén)",
-      "Ottelut": "14"
+      "Ottelut": "14",
+      "Maalit": "2"
     },
     {
       "Kausi": "1933",
@@ -15090,14 +15178,16 @@
       "Sukunimi": "Ronkanen",
       "Etunimi": "Eero",
       "Koko nimi": "Eero Ronkanen",
-      "Ottelut": "14"
+      "Ottelut": "14",
+      "Maalit": "2"
     },
     {
       "Kausi": "1933",
       "Sukunimi": "Koponen",
       "Etunimi": "Aulis",
       "Koko nimi": "Aulis Koponen",
-      "Ottelut": "6"
+      "Ottelut": "6",
+      "Maalit": "3"
     },
     {
       "Kausi": "1933",
@@ -15111,7 +15201,8 @@
       "Sukunimi": "Kuhlberg",
       "Etunimi": "Viljo",
       "Koko nimi": "Viljo Kuhlberg",
-      "Ottelut": "10"
+      "Ottelut": "10",
+      "Maalit": "8"
     },
     {
       "Kausi": "1933",
@@ -15125,28 +15216,32 @@
       "Sukunimi": "Savonheimo",
       "Etunimi": "Reino",
       "Koko nimi": "Reino Savonheimo",
-      "Ottelut": "6"
+      "Ottelut": "6",
+      "Maalit": "2"
     },
     {
       "Kausi": "1933",
       "Sukunimi": "Salonen",
       "Etunimi": "Toivo",
       "Koko nimi": "Toivo Salonen",
-      "Ottelut": "3"
+      "Ottelut": "3",
+      "Maalit": "5"
     },
     {
       "Kausi": "1933",
       "Sukunimi": "Eriksson",
       "Etunimi": "Erkki",
       "Koko nimi": "Erkki Eriksson",
-      "Ottelut": "8"
+      "Ottelut": "8",
+      "Maalit": "1"
     },
     {
       "Kausi": "1933",
       "Sukunimi": "Sotiola",
       "Etunimi": "Yrjö",
       "Koko nimi": "Yrjö Sotiola",
-      "Ottelut": "9"
+      "Ottelut": "9",
+      "Maalit": "3"
     },
     {
       "Kausi": "1933",
@@ -15216,28 +15311,32 @@
       "Sukunimi": "Larvo (aik. Lindstén)",
       "Etunimi": "Pentti",
       "Koko nimi": "Pentti Larvo (aik. Lindstén)",
-      "Ottelut": "13"
+      "Ottelut": "13",
+      "Maalit": "1"
     },
     {
       "Kausi": "1932",
       "Sukunimi": "Sinikari (aik. Präktig)",
       "Etunimi": "Lauri",
       "Koko nimi": "Lauri Sinikari (aik. Präktig)",
-      "Ottelut": "13"
+      "Ottelut": "13",
+      "Maalit": "1"
     },
     {
       "Kausi": "1932",
       "Sukunimi": "Ronkanen",
       "Etunimi": "Eero",
       "Koko nimi": "Eero Ronkanen",
-      "Ottelut": "14"
+      "Ottelut": "14",
+      "Maalit": "8"
     },
     {
       "Kausi": "1932",
       "Sukunimi": "Koponen",
       "Etunimi": "Aulis",
       "Koko nimi": "Aulis Koponen",
-      "Ottelut": "11"
+      "Ottelut": "11",
+      "Maalit": "9"
     },
     {
       "Kausi": "1932",
@@ -15252,7 +15351,8 @@
       "Sukunimi": "Kuhlberg",
       "Etunimi": "Viljo",
       "Koko nimi": "Viljo Kuhlberg",
-      "Ottelut": "12"
+      "Ottelut": "12",
+      "Maalit": "10"
     },
     {
       "Kausi": "1932",
@@ -15260,14 +15360,16 @@
       "Etunimi": "William",
       "Koko nimi": "William Kanerva",
       "Muu rooli": "Kapteeni",
-      "Ottelut": "14"
+      "Ottelut": "14",
+      "Maalit": "9"
     },
     {
       "Kausi": "1932",
       "Sukunimi": "Eriksson",
       "Etunimi": "Erkki",
       "Koko nimi": "Erkki Eriksson",
-      "Ottelut": "11"
+      "Ottelut": "11",
+      "Maalit": "1"
     },
     {
       "Kausi": "1932",
@@ -15313,7 +15415,8 @@
       "Etunimi": "Pentti",
       "Koko nimi": "Pentti Larvo (aik. Lindstén)",
       "Pelipaikka": "Tukimies",
-      "Ottelut": "6"
+      "Ottelut": "6",
+      "Maalit": "1"
     },
     {
       "Kausi": "1931",
@@ -15321,7 +15424,8 @@
       "Etunimi": "Lauri",
       "Koko nimi": "Lauri Sinikari (aik. Präktig)",
       "Pelipaikka": "Tukimies",
-      "Ottelut": "7"
+      "Ottelut": "7",
+      "Maalit": "1"
     },
     {
       "Kausi": "1931",
@@ -15336,14 +15440,16 @@
       "Etunimi": "Aulis",
       "Koko nimi": "Aulis Koponen",
       "Pelipaikka": "Hyökkääjä",
-      "Ottelut": "4"
+      "Ottelut": "4",
+      "Maalit": "1"
     },
     {
       "Kausi": "1931",
       "Sukunimi": "Pesonen",
       "Etunimi": "Sulo",
       "Koko nimi": "Sulo Pesonen",
-      "Ottelut": "7"
+      "Ottelut": "7",
+      "Maalit": "7"
     },
     {
       "Kausi": "1931",
@@ -15351,7 +15457,8 @@
       "Etunimi": "Viljo",
       "Koko nimi": "Viljo Kuhlberg",
       "Pelipaikka": "Hyökkääjä",
-      "Ottelut": "7"
+      "Ottelut": "7",
+      "Maalit": "5"
     },
     {
       "Kausi": "1931",
@@ -15359,14 +15466,16 @@
       "Etunimi": "William",
       "Koko nimi": "William Kanerva",
       "Pelipaikka": "Hyökkääjä",
-      "Ottelut": "7"
+      "Ottelut": "7",
+      "Maalit": "4"
     },
     {
       "Kausi": "1931",
       "Sukunimi": "Eriksson",
       "Etunimi": "Erkki",
       "Koko nimi": "Erkki Eriksson",
-      "Ottelut": "6"
+      "Ottelut": "6",
+      "Maalit": "2"
     },
     {
       "Kausi": "1931",
@@ -15374,7 +15483,8 @@
       "Etunimi": "Sulo",
       "Koko nimi": "Sulo Saario",
       "Pelipaikka": "Hyökkääjä",
-      "Ottelut": "3"
+      "Ottelut": "3",
+      "Maalit": "1"
     },
     {
       "Kausi": "1931",
@@ -15457,7 +15567,7 @@
       "Koko nimi": "Aulis Koponen",
       "Pelipaikka": "Hyökkääjä",
       "Ottelut": "7",
-      "Maalit": "8"
+      "Maalit": "9"
     },
     {
       "Kausi": "1930",
@@ -15490,7 +15600,7 @@
       "Etunimi": "Ilmari",
       "Koko nimi": "Ilmari Mantila",
       "Ottelut": "7",
-      "Maalit": "3"
+      "Maalit": "2"
     },
     {
       "Kausi": "1930",
@@ -15514,7 +15624,7 @@
       "Etunimi": "Rafael",
       "Koko nimi": "Rafael Nyholm",
       "Ottelut": "3",
-      "Maalit": "1"
+      "Maalit": "2"
     },
     {
       "Kausi": "1930",
