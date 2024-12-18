@@ -11193,7 +11193,8 @@
       "Sukunimi": "Elo",
       "Etunimi": "Raimo",
       "Koko nimi": "Raimo Elo",
-      "Ottelut": "19"
+      "Ottelut": "19",
+      "Maalit": "5"
     },
     {
       "Kausi": "1963",
@@ -11207,7 +11208,8 @@
       "Sukunimi": "Räisänen",
       "Etunimi": "Vesa",
       "Koko nimi": "Vesa Räisänen",
-      "Ottelut": "15"
+      "Ottelut": "15",
+      "Maalit": "2"
     },
     {
       "Kausi": "1963",
@@ -11215,7 +11217,8 @@
       "Etunimi": "Alpo",
       "Koko nimi": "Alpo Lintamo",
       "Muu rooli": "Valmentaja",
-      "Ottelut": "8"
+      "Ottelut": "8",
+      "Maalit": "1"
     },
     {
       "Kausi": "1963",
@@ -11229,7 +11232,8 @@
       "Sukunimi": "Laakso",
       "Etunimi": "Urho",
       "Koko nimi": "Urho Laakso",
-      "Ottelut": "21"
+      "Ottelut": "21",
+      "Maalit": "10"
     },
     {
       "Kausi": "1963",
@@ -11237,21 +11241,24 @@
       "Etunimi": "Kaj",
       "Koko nimi": "Kaj Österberg",
       "Muu rooli": "Kapteeni",
-      "Ottelut": "22"
+      "Ottelut": "22",
+      "Maalit": "1"
     },
     {
       "Kausi": "1963",
       "Sukunimi": "Strömberg",
       "Etunimi": "Teuvo",
       "Koko nimi": "Teuvo Strömberg",
-      "Ottelut": "18"
+      "Ottelut": "18",
+      "Maalit": "6"
     },
     {
       "Kausi": "1963",
       "Sukunimi": "Pahlman",
       "Etunimi": "Kai",
       "Koko nimi": "Kai Pahlman",
-      "Ottelut": "20"
+      "Ottelut": "20",
+      "Maalit": "6"
     },
     {
       "Kausi": "1963",
@@ -11272,7 +11279,8 @@
       "Sukunimi": "Mustakari",
       "Etunimi": "Heikki",
       "Koko nimi": "Heikki Mustakari",
-      "Ottelut": "12"
+      "Ottelut": "12",
+      "Maalit": "2"
     },
     {
       "Kausi": "1963",
@@ -11286,14 +11294,16 @@
       "Sukunimi": "Pikkusaari",
       "Etunimi": "Jussi",
       "Koko nimi": "Jussi Pikkusaari",
-      "Ottelut": "4"
+      "Ottelut": "4",
+      "Maalit": "1"
     },
     {
       "Kausi": "1963",
       "Sukunimi": "Raatikainen",
       "Etunimi": "Vilho",
       "Koko nimi": "Vilho Raatikainen",
-      "Ottelut": "7"
+      "Ottelut": "7",
+      "Maalit": "2"
     },
     {
       "Kausi": "1963",
@@ -11357,28 +11367,32 @@
       "Etunimi": "Alpo",
       "Koko nimi": "Alpo Lintamo",
       "Muu rooli": "Valmentaja",
-      "Ottelut": "21"
+      "Ottelut": "21",
+      "Maalit": "2"
     },
     {
       "Kausi": "1962",
       "Sukunimi": "Toukolehto",
       "Etunimi": "Vesa",
       "Koko nimi": "Vesa Toukolehto",
-      "Ottelut": "9"
+      "Ottelut": "9",
+      "Maalit": "1"
     },
     {
       "Kausi": "1962",
       "Sukunimi": "Wilen",
       "Etunimi": "Nils-Erik",
       "Koko nimi": "Nils-Erik Wilen",
-      "Ottelut": "22"
+      "Ottelut": "22",
+      "Maalit": "1"
     },
     {
       "Kausi": "1962",
       "Sukunimi": "Lukander",
       "Etunimi": "Raimo",
       "Koko nimi": "Raimo Lukander",
-      "Ottelut": "20"
+      "Ottelut": "20",
+      "Maalit": "1"
     },
     {
       "Kausi": "1962",
@@ -11392,28 +11406,32 @@
       "Sukunimi": "Laakso",
       "Etunimi": "Urho",
       "Koko nimi": "Urho Laakso",
-      "Ottelut": "22"
+      "Ottelut": "22",
+      "Maalit": "6"
     },
     {
       "Kausi": "1962",
       "Sukunimi": "Österberg",
       "Etunimi": "Kaj",
       "Koko nimi": "Kaj Österberg",
-      "Ottelut": "20"
+      "Ottelut": "20",
+      "Maalit": "4"
     },
     {
       "Kausi": "1962",
       "Sukunimi": "Strömberg",
       "Etunimi": "Teuvo",
       "Koko nimi": "Teuvo Strömberg",
-      "Ottelut": "20"
+      "Ottelut": "20",
+      "Maalit": "7"
     },
     {
       "Kausi": "1962",
       "Sukunimi": "Pahlman",
       "Etunimi": "Kai",
       "Koko nimi": "Kai Pahlman",
-      "Ottelut": "21"
+      "Ottelut": "21",
+      "Maalit": "16"
     },
     {
       "Kausi": "1962",
@@ -11427,7 +11445,8 @@
       "Sukunimi": "Hämäläinen",
       "Etunimi": "Heikki",
       "Koko nimi": "Heikki Hämäläinen",
-      "Ottelut": "8"
+      "Ottelut": "8",
+      "Maalit": "1"
     },
     {
       "Kausi": "1962",
@@ -11448,7 +11467,8 @@
       "Sukunimi": "Raatikainen",
       "Etunimi": "Vilho",
       "Koko nimi": "Vilho Raatikainen",
-      "Ottelut": "11"
+      "Ottelut": "11",
+      "Maalit": "1"
     },
     {
       "Kausi": "1962",
@@ -11510,14 +11530,16 @@
       "Sukunimi": "Wilen",
       "Etunimi": "Nils-Erik",
       "Koko nimi": "Nils-Erik Wilen",
-      "Ottelut": "18"
+      "Ottelut": "18",
+      "Maalit": "1"
     },
     {
       "Kausi": "1961",
       "Sukunimi": "Lahtinen",
       "Etunimi": "Olavi",
       "Koko nimi": "Olavi Lahtinen",
-      "Ottelut": "18"
+      "Ottelut": "18",
+      "Maalit": "2"
     },
     {
       "Kausi": "1961",
@@ -11539,35 +11561,40 @@
       "Sukunimi": "Laakso",
       "Etunimi": "Urho",
       "Koko nimi": "Urho Laakso",
-      "Ottelut": "22"
+      "Ottelut": "22",
+      "Maalit": "8"
     },
     {
       "Kausi": "1961",
       "Sukunimi": "Österberg",
       "Etunimi": "Kaj",
       "Koko nimi": "Kaj Österberg",
-      "Ottelut": "13"
+      "Ottelut": "13",
+      "Maalit": "1"
     },
     {
       "Kausi": "1961",
       "Sukunimi": "Toukolehto",
       "Etunimi": "Vesa",
       "Koko nimi": "Vesa Toukolehto",
-      "Ottelut": "22"
+      "Ottelut": "22",
+      "Maalit": "5"
     },
     {
       "Kausi": "1961",
       "Sukunimi": "Pahlman",
       "Etunimi": "Kai",
       "Koko nimi": "Kai Pahlman",
-      "Ottelut": "22"
+      "Ottelut": "22",
+      "Maalit": "20"
     },
     {
       "Kausi": "1961",
       "Sukunimi": "Räisänen",
       "Etunimi": "Vesa",
       "Koko nimi": "Vesa Räisänen",
-      "Ottelut": "22"
+      "Ottelut": "22",
+      "Maalit": "8"
     },
     {
       "Kausi": "1961",
@@ -11581,21 +11608,24 @@
       "Sukunimi": "Kiviniemi",
       "Etunimi": "Henry",
       "Koko nimi": "Henry Kiviniemi",
-      "Ottelut": "9"
+      "Ottelut": "9",
+      "Maalit": "1"
     },
     {
       "Kausi": "1961",
       "Sukunimi": "Malmström",
       "Etunimi": "Kalevi",
       "Koko nimi": "Kalevi Malmström",
-      "Ottelut": "7"
+      "Ottelut": "7",
+      "Maalit": "2"
     },
     {
       "Kausi": "1961",
       "Sukunimi": "Eldsbacka",
       "Etunimi": "Osvald",
       "Koko nimi": "Osvald Eldsbacka",
-      "Ottelut": "8"
+      "Ottelut": "8",
+      "Maalit": "1"
     },
     {
       "Kausi": "1961",
@@ -11658,7 +11688,8 @@
       "Sukunimi": "Heinonen",
       "Etunimi": "Reino",
       "Koko nimi": "Reino Heinonen",
-      "Ottelut": "18"
+      "Ottelut": "18",
+      "Maalit": "3"
     },
     {
       "Kausi": "1960",
@@ -11694,35 +11725,40 @@
       "Sukunimi": "Nieminen",
       "Etunimi": "Raimo",
       "Koko nimi": "Raimo Nieminen",
-      "Ottelut": "22"
+      "Ottelut": "22",
+      "Maalit": "9"
     },
     {
       "Kausi": "1960",
       "Sukunimi": "Lahtinen",
       "Etunimi": "Olavi",
       "Koko nimi": "Olavi Lahtinen",
-      "Ottelut": "22"
+      "Ottelut": "22",
+      "Maalit": "4"
     },
     {
       "Kausi": "1960",
       "Sukunimi": "Forsgren",
       "Etunimi": "Olli",
       "Koko nimi": "Olli Forsgren",
-      "Ottelut": "18"
+      "Ottelut": "18",
+      "Maalit": "14"
     },
     {
       "Kausi": "1960",
       "Sukunimi": "Pahlman",
       "Etunimi": "Kai",
       "Koko nimi": "Kai Pahlman",
-      "Ottelut": "22"
+      "Ottelut": "22",
+      "Maalit": "13"
     },
     {
       "Kausi": "1960",
       "Sukunimi": "Mikander",
       "Etunimi": "Leo",
       "Koko nimi": "Leo Mikander",
-      "Ottelut": "15"
+      "Ottelut": "15",
+      "Maalit": "5"
     },
     {
       "Kausi": "1960",
@@ -11736,7 +11772,8 @@
       "Sukunimi": "Räisänen",
       "Etunimi": "Vesa",
       "Koko nimi": "Vesa Räisänen",
-      "Ottelut": "18"
+      "Ottelut": "18",
+      "Maalit": "2"
     },
     {
       "Kausi": "1960",
@@ -11813,28 +11850,32 @@
       "Etunimi": "Alpo",
       "Koko nimi": "Alpo Lintamo",
       "Muu rooli": "Valmentaja",
-      "Ottelut": "18"
+      "Ottelut": "18",
+      "Maalit": "1"
     },
     {
       "Kausi": "1959",
       "Sukunimi": "Räisänen",
       "Etunimi": "Vesa",
       "Koko nimi": "Vesa Räisänen",
-      "Ottelut": "17"
+      "Ottelut": "17",
+      "Maalit": "1"
     },
     {
       "Kausi": "1959",
       "Sukunimi": "Nieminen",
       "Etunimi": "Raimo",
       "Koko nimi": "Raimo Nieminen",
-      "Ottelut": "18"
+      "Ottelut": "18",
+      "Maalit": "2"
     },
     {
       "Kausi": "1959",
       "Sukunimi": "Hirvonen",
       "Etunimi": "Olavi",
       "Koko nimi": "Olavi Hirvonen",
-      "Ottelut": "11"
+      "Ottelut": "11",
+      "Maalit": "3"
     },
     {
       "Kausi": "1959",
@@ -11842,21 +11883,24 @@
       "Etunimi": "Kai",
       "Koko nimi": "Kai Pahlman",
       "Muu rooli": "Valmentaja",
-      "Ottelut": "17"
+      "Ottelut": "17",
+      "Maalit": "11"
     },
     {
       "Kausi": "1959",
       "Sukunimi": "Mikander",
       "Etunimi": "Leo",
       "Koko nimi": "Leo Mikander",
-      "Ottelut": "13"
+      "Ottelut": "13",
+      "Maalit": "3"
     },
     {
       "Kausi": "1959",
       "Sukunimi": "Eldsbacka",
       "Etunimi": "Osvald",
       "Koko nimi": "Osvald Eldsbacka",
-      "Ottelut": "17"
+      "Ottelut": "17",
+      "Maalit": "3"
     },
     {
       "Kausi": "1959",
@@ -11870,7 +11914,8 @@
       "Sukunimi": "Malmström",
       "Etunimi": "Kalevi",
       "Koko nimi": "Kalevi Malmström",
-      "Ottelut": "4"
+      "Ottelut": "4",
+      "Maalit": "2"
     },
     {
       "Kausi": "1959",
@@ -11891,14 +11936,16 @@
       "Sukunimi": "Forsgren",
       "Etunimi": "Olli",
       "Koko nimi": "Olli Forsgren",
-      "Ottelut": "13"
+      "Ottelut": "13",
+      "Maalit": "9"
     },
     {
       "Kausi": "1959",
       "Sukunimi": "Lahtinen",
       "Etunimi": "Olavi",
       "Koko nimi": "Olavi Lahtinen",
-      "Ottelut": "9"
+      "Ottelut": "9",
+      "Maalit": "3"
     },
     {
       "Kausi": "1958",
@@ -11919,14 +11966,16 @@
       "Sukunimi": "Eldsbacka",
       "Etunimi": "Osvald",
       "Koko nimi": "Osvald Eldsbacka",
-      "Ottelut": "16"
+      "Ottelut": "16",
+      "Maalit": "1"
     },
     {
       "Kausi": "1958",
       "Sukunimi": "Wilen",
       "Etunimi": "Nils-Erik",
       "Koko nimi": "Nils-Erik Wilen",
-      "Ottelut": "15"
+      "Ottelut": "15",
+      "Maalit": "1"
     },
     {
       "Kausi": "1958",
@@ -11954,42 +12003,48 @@
       "Sukunimi": "Mikander",
       "Etunimi": "Leo",
       "Koko nimi": "Leo Mikander",
-      "Ottelut": "17"
+      "Ottelut": "17",
+      "Maalit": "5"
     },
     {
       "Kausi": "1958",
       "Sukunimi": "Järvinen",
       "Etunimi": "Martti",
       "Koko nimi": "Martti Järvinen",
-      "Ottelut": "10"
+      "Ottelut": "10",
+      "Maalit": "2"
     },
     {
       "Kausi": "1958",
       "Sukunimi": "Pahlman",
       "Etunimi": "Kai",
       "Koko nimi": "Kai Pahlman",
-      "Ottelut": "19"
+      "Ottelut": "19",
+      "Maalit": "17"
     },
     {
       "Kausi": "1958",
       "Sukunimi": "Hirvonen",
       "Etunimi": "Olavi",
       "Koko nimi": "Olavi Hirvonen",
-      "Ottelut": "15"
+      "Ottelut": "15",
+      "Maalit": "8"
     },
     {
       "Kausi": "1958",
       "Sukunimi": "Tanner",
       "Etunimi": "Juhani",
       "Koko nimi": "Juhani Tanner",
-      "Ottelut": "15"
+      "Ottelut": "15",
+      "Maalit": "1"
     },
     {
       "Kausi": "1958",
       "Sukunimi": "Malmström",
       "Etunimi": "Kalevi",
       "Koko nimi": "Kalevi Malmström",
-      "Ottelut": "12"
+      "Ottelut": "12",
+      "Maalit": "1"
     },
     {
       "Kausi": "1957",
@@ -12122,7 +12177,8 @@
       "Sukunimi": "Tanner",
       "Etunimi": "Juhani",
       "Koko nimi": "Juhani Tanner",
-      "Ottelut": "11"
+      "Ottelut": "11",
+      "Maalit": "1"
     },
     {
       "Kausi": "1956",
@@ -12136,21 +12192,24 @@
       "Sukunimi": "Pahlman",
       "Etunimi": "Kai",
       "Koko nimi": "Kai Pahlman",
-      "Ottelut": "18"
+      "Ottelut": "18",
+      "Maalit": "10"
     },
     {
       "Kausi": "1956",
       "Sukunimi": "Mikander",
       "Etunimi": "Leo",
       "Koko nimi": "Leo Mikander",
-      "Ottelut": "16"
+      "Ottelut": "16",
+      "Maalit": "6"
     },
     {
       "Kausi": "1956",
       "Sukunimi": "Lintamo",
       "Etunimi": "Alpo",
       "Koko nimi": "Alpo Lintamo",
-      "Ottelut": "17"
+      "Ottelut": "17",
+      "Maalit": "5"
     },
     {
       "Kausi": "1956",
@@ -12192,21 +12251,24 @@
       "Sukunimi": "Nyqvist",
       "Etunimi": "Martti",
       "Koko nimi": "Martti Nyqvist",
-      "Ottelut": "6"
+      "Ottelut": "6",
+      "Maalit": "1"
     },
     {
       "Kausi": "1956",
       "Sukunimi": "Tarkiainen",
       "Etunimi": "Mauno",
       "Koko nimi": "Mauno Tarkiainen",
-      "Ottelut": "18"
+      "Ottelut": "18",
+      "Maalit": "3"
     },
     {
       "Kausi": "1956",
       "Sukunimi": "Forsström",
       "Etunimi": "Alf",
       "Koko nimi": "Alf Forsström",
-      "Ottelut": "13"
+      "Ottelut": "13",
+      "Maalit": "2"
     },
     {
       "Kausi": "1956",
@@ -12249,7 +12311,8 @@
       "Sukunimi": "Salin",
       "Etunimi": "Henry",
       "Koko nimi": "Henry Salin",
-      "Ottelut": "15"
+      "Ottelut": "15",
+      "Maalit": "1"
     },
     {
       "Kausi": "1955",
@@ -12270,14 +12333,16 @@
       "Sukunimi": "Forsström",
       "Etunimi": "Alf",
       "Koko nimi": "Alf Forsström",
-      "Ottelut": "18"
+      "Ottelut": "18",
+      "Maalit": "4"
     },
     {
       "Kausi": "1955",
       "Sukunimi": "Mikander",
       "Etunimi": "Leo",
       "Koko nimi": "Leo Mikander",
-      "Ottelut": "18"
+      "Ottelut": "18",
+      "Maalit": "17"
     },
     {
       "Kausi": "1955",
@@ -12291,14 +12356,16 @@
       "Sukunimi": "Pahlman",
       "Etunimi": "Kai",
       "Koko nimi": "Kai Pahlman",
-      "Ottelut": "18"
+      "Ottelut": "18",
+      "Maalit": "23"
     },
     {
       "Kausi": "1955",
       "Sukunimi": "Tarkiainen",
       "Etunimi": "Mauno",
       "Koko nimi": "Mauno Tarkiainen",
-      "Ottelut": "12"
+      "Ottelut": "12",
+      "Maalit": "5"
     },
     {
       "Kausi": "1955",
@@ -12312,7 +12379,8 @@
       "Sukunimi": "Forsgren",
       "Etunimi": "Olli",
       "Koko nimi": "Olli Forsgren",
-      "Ottelut": "13"
+      "Ottelut": "13",
+      "Maalit": "21"
     },
     {
       "Kausi": "1955",
@@ -12348,7 +12416,8 @@
       "Sukunimi": "Rautiainen",
       "Etunimi": "Matti",
       "Koko nimi": "Matti Rautiainen",
-      "Ottelut": "14"
+      "Ottelut": "14",
+      "Maalit": "1"
     },
     {
       "Kausi": "1954",
@@ -12383,21 +12452,24 @@
       "Sukunimi": "Rautiainen",
       "Etunimi": "Pentti",
       "Koko nimi": "Pentti Rautiainen",
-      "Ottelut": "10"
+      "Ottelut": "10",
+      "Maalit": "5"
     },
     {
       "Kausi": "1954",
       "Sukunimi": "Forsström",
       "Etunimi": "Alf",
       "Koko nimi": "Alf Forsström",
-      "Ottelut": "18"
+      "Ottelut": "18",
+      "Maalit": "12"
     },
     {
       "Kausi": "1954",
       "Sukunimi": "Pahlman",
       "Etunimi": "Kai",
       "Koko nimi": "Kai Pahlman",
-      "Ottelut": "17"
+      "Ottelut": "17",
+      "Maalit": "3"
     },
     {
       "Kausi": "1954",
@@ -12411,21 +12483,24 @@
       "Sukunimi": "Mikander",
       "Etunimi": "Leo",
       "Koko nimi": "Leo Mikander",
-      "Ottelut": "7"
+      "Ottelut": "7",
+      "Maalit": "1"
     },
     {
       "Kausi": "1954",
       "Sukunimi": "Salin",
       "Etunimi": "Henry",
       "Koko nimi": "Henry Salin",
-      "Ottelut": "13"
+      "Ottelut": "13",
+      "Maalit": "1"
     },
     {
       "Kausi": "1954",
       "Sukunimi": "Forsgren",
       "Etunimi": "Olli",
       "Koko nimi": "Olli Forsgren",
-      "Ottelut": "14"
+      "Ottelut": "14",
+      "Maalit": "19"
     },
     {
       "Kausi": "1954",
@@ -12440,7 +12515,8 @@
       "Sukunimi": "Tarkiainen",
       "Etunimi": "Mauno",
       "Koko nimi": "Mauno Tarkiainen",
-      "Ottelut": "16"
+      "Ottelut": "16",
+      "Maalit": "4"
     },
     {
       "Kausi": "1954",
@@ -12489,63 +12565,72 @@
       "Sukunimi": "Salin",
       "Etunimi": "Henry",
       "Koko nimi": "Henry Salin",
-      "Ottelut": "16"
+      "Ottelut": "16",
+      "Maalit": "2"
     },
     {
       "Kausi": "1953",
       "Sukunimi": "Laakso",
       "Etunimi": "Urho",
       "Koko nimi": "Urho Laakso",
-      "Ottelut": "6"
+      "Ottelut": "6",
+      "Maalit": "3"
     },
     {
       "Kausi": "1953",
       "Sukunimi": "Vepsäläinen",
       "Etunimi": "Aarne",
       "Koko nimi": "Aarne Vepsäläinen",
-      "Ottelut": "11"
+      "Ottelut": "11",
+      "Maalit": "2"
     },
     {
       "Kausi": "1953",
       "Sukunimi": "Rautiainen",
       "Etunimi": "Pentti",
       "Koko nimi": "Pentti Rautiainen",
-      "Ottelut": "17"
+      "Ottelut": "17",
+      "Maalit": "3"
     },
     {
       "Kausi": "1953",
       "Sukunimi": "Ronkanen",
       "Etunimi": "Pentti",
       "Koko nimi": "Pentti Ronkanen",
-      "Ottelut": "17"
+      "Ottelut": "17",
+      "Maalit": "9"
     },
     {
       "Kausi": "1953",
       "Sukunimi": "Forsgren",
       "Etunimi": "Olli",
       "Koko nimi": "Olli Forsgren",
-      "Ottelut": "13"
+      "Ottelut": "13",
+      "Maalit": "18"
     },
     {
       "Kausi": "1953",
       "Sukunimi": "Pahlman",
       "Etunimi": "Kai",
       "Koko nimi": "Kai Pahlman",
-      "Ottelut": "13"
+      "Ottelut": "13",
+      "Maalit": "8"
     },
     {
       "Kausi": "1953",
       "Sukunimi": "Tarkiainen",
       "Etunimi": "Mauno",
       "Koko nimi": "Mauno Tarkiainen",
-      "Ottelut": "12"
+      "Ottelut": "12",
+      "Maalit": "5"
     },
     {
       "Kausi": "1953",
       "Sukunimi": "Rautiainen",
       "Etunimi": "Matti",
       "Koko nimi": "Matti Rautiainen",
-      "Ottelut": "10"
+      "Ottelut": "10",
+      "Maalit": "1"
     },
     {
       "Kausi": "1953",
@@ -12585,14 +12670,16 @@
       "Sukunimi": "Mikander",
       "Etunimi": "Leo",
       "Koko nimi": "Leo Mikander",
-      "Ottelut": "2"
+      "Ottelut": "2",
+      "Maalit": "1"
     },
     {
       "Kausi": "1953",
       "Sukunimi": "Sundberg",
       "Etunimi": "Erkki",
       "Koko nimi": "Erkki Sundberg",
-      "Ottelut": "1"
+      "Ottelut": "1",
+      "Maalit": "1"
     },
     {
       "Kausi": "1952",
@@ -12607,7 +12694,8 @@
       "Sukunimi": "Ronkanen",
       "Etunimi": "Pentti",
       "Koko nimi": "Pentti Ronkanen",
-      "Ottelut": "18"
+      "Ottelut": "18",
+      "Maalit": "5"
     },
     {
       "Kausi": "1952",
@@ -12621,14 +12709,16 @@
       "Sukunimi": "Vepsäläinen",
       "Etunimi": "Aarne",
       "Koko nimi": "Aarne Vepsäläinen",
-      "Ottelut": "14"
+      "Ottelut": "14",
+      "Maalit": "1"
     },
     {
       "Kausi": "1952",
       "Sukunimi": "Salin",
       "Etunimi": "Henry",
       "Koko nimi": "Henry Salin",
-      "Ottelut": "18"
+      "Ottelut": "18",
+      "Maalit": "1"
     },
     {
       "Kausi": "1952",
@@ -12649,28 +12739,32 @@
       "Sukunimi": "Rytkönen",
       "Etunimi": "Unto",
       "Koko nimi": "Unto Rytkönen",
-      "Ottelut": "2"
+      "Ottelut": "2",
+      "Maalit": "2"
     },
     {
       "Kausi": "1952",
       "Sukunimi": "Forsgren",
       "Etunimi": "Olli",
       "Koko nimi": "Olli Forsgren",
-      "Ottelut": "16"
+      "Ottelut": "16",
+      "Maalit": "17"
     },
     {
       "Kausi": "1952",
       "Sukunimi": "Sotiola",
       "Etunimi": "Yrjö",
       "Koko nimi": "Yrjö Sotiola",
-      "Ottelut": "18"
+      "Ottelut": "18",
+      "Maalit": "5"
     },
     {
       "Kausi": "1952",
       "Sukunimi": "Tarkiainen",
       "Etunimi": "Mauno",
       "Koko nimi": "Mauno Tarkiainen",
-      "Ottelut": "15"
+      "Ottelut": "15",
+      "Maalit": "5"
     },
     {
       "Kausi": "1952",
@@ -12711,21 +12805,24 @@
       "Sukunimi": "Lampinen",
       "Etunimi": "Matti",
       "Koko nimi": "Matti Lampinen",
-      "Ottelut": "5"
+      "Ottelut": "5",
+      "Maalit": "1"
     },
     {
       "Kausi": "1952",
       "Sukunimi": "Lahtinen",
       "Etunimi": "Lassi",
       "Koko nimi": "Lassi Lahtinen",
-      "Ottelut": "2"
+      "Ottelut": "2",
+      "Maalit": "1"
     },
     {
       "Kausi": "1952",
       "Sukunimi": "Pahlman",
       "Etunimi": "Kai",
       "Koko nimi": "Kai Pahlman",
-      "Ottelut": "7"
+      "Ottelut": "7",
+      "Maalit": "3"
     },
     {
       "Kausi": "1952",
@@ -12788,7 +12885,8 @@
       "Sukunimi": "Weckström",
       "Etunimi": "Jorma",
       "Koko nimi": "Jorma Weckström",
-      "Ottelut": "14"
+      "Ottelut": "14",
+      "Maalit": "1"
     },
     {
       "Kausi": "1951",
@@ -12808,28 +12906,32 @@
       "Sukunimi": "Eldsbacka",
       "Etunimi": "Osvald",
       "Koko nimi": "Osvald Eldsbacka",
-      "Ottelut": "11"
+      "Ottelut": "11",
+      "Maalit": "2"
     },
     {
       "Kausi": "1951",
       "Sukunimi": "Forsgren",
       "Etunimi": "Olli",
       "Koko nimi": "Olli Forsgren",
-      "Ottelut": "14"
+      "Ottelut": "14",
+      "Maalit": "15"
     },
     {
       "Kausi": "1951",
       "Sukunimi": "Sotiola",
       "Etunimi": "Yrjö",
       "Koko nimi": "Yrjö Sotiola",
-      "Ottelut": "17"
+      "Ottelut": "17",
+      "Maalit": "6"
     },
     {
       "Kausi": "1951",
       "Sukunimi": "Herrman",
       "Etunimi": "Börje",
       "Koko nimi": "Börje Herrman",
-      "Ottelut": "9"
+      "Ottelut": "9",
+      "Maalit": "3"
     },
     {
       "Kausi": "1951",
@@ -12857,14 +12959,16 @@
       "Sukunimi": "Tarkiainen",
       "Etunimi": "Mauno",
       "Koko nimi": "Mauno Tarkiainen",
-      "Ottelut": "5"
+      "Ottelut": "5",
+      "Maalit": "2"
     },
     {
       "Kausi": "1951",
       "Sukunimi": "Korpela",
       "Etunimi": "Kauko",
       "Koko nimi": "Kauko Korpela",
-      "Ottelut": "8"
+      "Ottelut": "8",
+      "Maalit": "1"
     },
     {
       "Kausi": "1951",
@@ -12877,7 +12981,8 @@
       "Kausi": "1951",
       "Sukunimi": "Kontiainen",
       "Koko nimi": " Kontiainen",
-      "Ottelut": "1"
+      "Ottelut": "1",
+      "Maalit": "1"
     },
     {
       "Kausi": "1950",
