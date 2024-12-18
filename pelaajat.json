@@ -6850,6 +6850,7 @@
       "Sukunimi": "Österberg",
       "Etunimi": "Kaj",
       "Koko nimi": "Kaj Österberg",
+      "Pelipaikka": "Oikea välihyökkääjä",
       "Muu rooli": "Valmentaja"
     },
     {
@@ -8792,6 +8793,7 @@
       "Sukunimi": "Österberg",
       "Etunimi": "Kaj",
       "Koko nimi": "Kaj Österberg",
+      "Pelipaikka": "Oikea välihyökkääjä",
       "Muu rooli": "Valmentaja"
     },
     {
@@ -8819,6 +8821,7 @@
       "Sukunimi": "Österberg",
       "Etunimi": "Kaj",
       "Koko nimi": "Kaj Österberg",
+      "Pelipaikka": "Oikea välihyökkääjä",
       "Muu rooli": "Valmentaja"
     },
     {
@@ -9040,6 +9043,7 @@
       "Sukunimi": "Österberg",
       "Etunimi": "Kaj",
       "Koko nimi": "Kaj Österberg",
+      "Pelipaikka": "Oikea välihyökkääjä",
       "Muu rooli": "Valmentaja",
       "Ottelut": "1"
     },
@@ -9226,6 +9230,7 @@
       "Sukunimi": "Österberg",
       "Etunimi": "Kaj",
       "Koko nimi": "Kaj Österberg",
+      "Pelipaikka": "Oikea välihyökkääjä",
       "Muu rooli": "Valmentaja",
       "Ottelut": "1"
     },
@@ -9405,6 +9410,7 @@
       "Sukunimi": "Österberg",
       "Etunimi": "Kaj",
       "Koko nimi": "Kaj Österberg",
+      "Pelipaikka": "Oikea välihyökkääjä",
       "Muu rooli": "Valmentaja",
       "Ottelut": "5"
     },
@@ -9488,7 +9494,8 @@
       "Kausi": "1973",
       "Sukunimi": "Österberg",
       "Etunimi": "Kaj",
-      "Koko nimi": "Kaj Österberg"
+      "Koko nimi": "Kaj Österberg",
+      "Pelipaikka": "Oikea välihyökkääjä"
     },
     {
       "Kausi": "1973",
@@ -9728,7 +9735,8 @@
       "Kausi": "1972",
       "Sukunimi": "Österberg",
       "Etunimi": "Kaj",
-      "Koko nimi": "Kaj Österberg"
+      "Koko nimi": "Kaj Österberg",
+      "Pelipaikka": "Oikea välihyökkääjä"
     },
     {
       "Kausi": "1972",
@@ -9810,7 +9818,8 @@
       "Kausi": "1971",
       "Sukunimi": "Strömberg",
       "Etunimi": "Teuvo",
-      "Koko nimi": "Teuvo Strömberg"
+      "Koko nimi": "Teuvo Strömberg",
+      "Pelipaikka": "Keskushyökkääjä"
     },
     {
       "Kausi": "1971",
@@ -10264,6 +10273,7 @@
       "Sukunimi": "Wilen",
       "Etunimi": "Nils-Erik",
       "Koko nimi": "Nils-Erik Wilen",
+      "Pelipaikka": "Oikea tukimies",
       "Maalit": "1"
     },
     {
@@ -10302,7 +10312,7 @@
       "Sukunimi": "Wilen",
       "Etunimi": "Nils-Erik",
       "Koko nimi": "Nils-Erik Wilen",
-      "Pelipaikka": "Tukimies",
+      "Pelipaikka": "Oikea tukimies",
       "Ottelut": "16",
       "Maalit": "1"
     },
@@ -10517,6 +10527,7 @@
       "Sukunimi": "Wilen",
       "Etunimi": "Nils-Erik",
       "Koko nimi": "Nils-Erik Wilen",
+      "Pelipaikka": "Oikea tukimies",
       "Muu rooli": "Kapteeni, valmentaja",
       "Ottelut": "14"
     },
@@ -10587,6 +10598,7 @@
       "Sukunimi": "Mustakari",
       "Etunimi": "Heikki",
       "Koko nimi": "Heikki Mustakari",
+      "Pelipaikka": "Vasen laitahyökkääjä",
       "Ottelut": "6",
       "Maalit": "2"
     },
@@ -10717,6 +10729,7 @@
       "Sukunimi": "Wilen",
       "Etunimi": "Nils-Erik",
       "Koko nimi": "Nils-Erik Wilen",
+      "Pelipaikka": "Oikea tukimies",
       "Muu rooli": "Kapteeni, valmentaja",
       "Ottelut": "22"
     },
@@ -10760,6 +10773,7 @@
       "Sukunimi": "Mustakari",
       "Etunimi": "Heikki",
       "Koko nimi": "Heikki Mustakari",
+      "Pelipaikka": "Vasen laitahyökkääjä",
       "Ottelut": "17"
     },
     {
@@ -10869,9 +10883,9 @@
     },
     {
       "Kausi": "1965",
-      "Sukunimi": "Öhrn",
+      "Sukunimi": "Örn",
       "Etunimi": "Urho",
-      "Koko nimi": "Urho Öhrn",
+      "Koko nimi": "Urho Örn",
       "Pelipaikka": "Maalivahti",
       "Ottelut": "18"
     },
@@ -10887,6 +10901,7 @@
       "Sukunimi": "Strömberg",
       "Etunimi": "Teuvo",
       "Koko nimi": "Teuvo Strömberg",
+      "Pelipaikka": "Keskushyökkääjä",
       "Ottelut": "17"
     },
     {
@@ -10901,6 +10916,7 @@
       "Sukunimi": "Wilen",
       "Etunimi": "Nils-Erik",
       "Koko nimi": "Nils-Erik Wilen",
+      "Pelipaikka": "Oikea tukimies",
       "Muu rooli": "Kapteeni, valmentaja",
       "Ottelut": "21"
     },
@@ -10930,6 +10946,7 @@
       "Sukunimi": "Mustakari",
       "Etunimi": "Heikki",
       "Koko nimi": "Heikki Mustakari",
+      "Pelipaikka": "Vasen laitahyökkääjä",
       "Ottelut": "18"
     },
     {
@@ -10937,6 +10954,7 @@
       "Sukunimi": "Österberg",
       "Etunimi": "Kaj",
       "Koko nimi": "Kaj Österberg",
+      "Pelipaikka": "Oikea välihyökkääjä",
       "Ottelut": "19"
     },
     {
@@ -11054,6 +11072,7 @@
       "Sukunimi": "Laakso",
       "Etunimi": "Urho",
       "Koko nimi": "Urho Laakso",
+      "Pelipaikka": "Oikea laitahyökkääjä",
       "Ottelut": "13"
     },
     {
@@ -11228,6 +11247,7 @@
       "Sukunimi": "Wilen",
       "Etunimi": "Nils-Erik",
       "Koko nimi": "Nils-Erik Wilen",
+      "Pelipaikka": "Oikea tukimies",
       "Ottelut": "21"
     },
     {
@@ -11235,6 +11255,7 @@
       "Sukunimi": "Laakso",
       "Etunimi": "Urho",
       "Koko nimi": "Urho Laakso",
+      "Pelipaikka": "Oikea laitahyökkääjä",
       "Ottelut": "21",
       "Maalit": "10"
     },
@@ -11243,6 +11264,7 @@
       "Sukunimi": "Österberg",
       "Etunimi": "Kaj",
       "Koko nimi": "Kaj Österberg",
+      "Pelipaikka": "Oikea välihyökkääjä",
       "Muu rooli": "Kapteeni",
       "Ottelut": "22",
       "Maalit": "1"
@@ -11252,6 +11274,7 @@
       "Sukunimi": "Strömberg",
       "Etunimi": "Teuvo",
       "Koko nimi": "Teuvo Strömberg",
+      "Pelipaikka": "Keskushyökkääjä",
       "Ottelut": "18",
       "Maalit": "6"
     },
@@ -11284,6 +11307,7 @@
       "Sukunimi": "Mustakari",
       "Etunimi": "Heikki",
       "Koko nimi": "Heikki Mustakari",
+      "Pelipaikka": "Vasen laitahyökkääjä",
       "Ottelut": "12",
       "Maalit": "2"
     },
@@ -11553,6 +11577,7 @@
       "Sukunimi": "Wilen",
       "Etunimi": "Nils-Erik",
       "Koko nimi": "Nils-Erik Wilen",
+      "Pelipaikka": "Oikea tukimies",
       "Ottelut": "18",
       "Maalit": "1"
     },
@@ -11585,6 +11610,7 @@
       "Sukunimi": "Laakso",
       "Etunimi": "Urho",
       "Koko nimi": "Urho Laakso",
+      "Pelipaikka": "Oikea laitahyökkääjä",
       "Ottelut": "22",
       "Maalit": "8"
     },
@@ -11593,6 +11619,7 @@
       "Sukunimi": "Österberg",
       "Etunimi": "Kaj",
       "Koko nimi": "Kaj Österberg",
+      "Pelipaikka": "Oikea välihyökkääjä",
       "Ottelut": "13",
       "Maalit": "1"
     },
@@ -11735,6 +11762,7 @@
       "Sukunimi": "Tanner",
       "Etunimi": "Juhani",
       "Koko nimi": "Juhani Tanner",
+      "Pelipaikka": "Oikea tukimies",
       "Ottelut": "11"
     },
     {
@@ -11759,6 +11787,7 @@
       "Sukunimi": "Nieminen",
       "Etunimi": "Raimo",
       "Koko nimi": "Raimo Nieminen",
+      "Pelipaikka": "Oikea laitahyökkääjä",
       "Ottelut": "22",
       "Maalit": "9"
     },
@@ -11801,6 +11830,7 @@
       "Sukunimi": "Wilen",
       "Etunimi": "Nils-Erik",
       "Koko nimi": "Nils-Erik Wilen",
+      "Pelipaikka": "Oikea tukimies",
       "Ottelut": "16"
     },
     {
@@ -11830,6 +11860,7 @@
       "Sukunimi": "Österberg",
       "Etunimi": "Kaj",
       "Koko nimi": "Kaj Österberg",
+      "Pelipaikka": "Oikea välihyökkääjä",
       "Muu rooli": "Valmentaja",
       "Ottelut": "9"
     },
@@ -11874,6 +11905,7 @@
       "Sukunimi": "Wilen",
       "Etunimi": "Nils-Erik",
       "Koko nimi": "Nils-Erik Wilen",
+      "Pelipaikka": "Oikea tukimies",
       "Ottelut": "10"
     },
     {
@@ -11907,6 +11939,7 @@
       "Sukunimi": "Nieminen",
       "Etunimi": "Raimo",
       "Koko nimi": "Raimo Nieminen",
+      "Pelipaikka": "Oikea laitahyökkääjä",
       "Ottelut": "18",
       "Maalit": "2"
     },
@@ -11967,6 +12000,7 @@
       "Sukunimi": "Tanner",
       "Etunimi": "Juhani",
       "Koko nimi": "Juhani Tanner",
+      "Pelipaikka": "Oikea tukimies",
       "Ottelut": "1"
     },
     {
@@ -12022,6 +12056,7 @@
       "Sukunimi": "Wilen",
       "Etunimi": "Nils-Erik",
       "Koko nimi": "Nils-Erik Wilen",
+      "Pelipaikka": "Oikea tukimies",
       "Ottelut": "15",
       "Maalit": "1"
     },
@@ -12046,6 +12081,7 @@
       "Sukunimi": "Nieminen",
       "Etunimi": "Raimo",
       "Koko nimi": "Raimo Nieminen",
+      "Pelipaikka": "Oikea laitahyökkääjä",
       "Ottelut": "18"
     },
     {
@@ -12062,6 +12098,7 @@
       "Sukunimi": "Järvinen",
       "Etunimi": "Martti",
       "Koko nimi": "Martti Järvinen",
+      "Pelipaikka": "Keskushyökkääjä",
       "Ottelut": "10",
       "Maalit": "2"
     },
@@ -12087,6 +12124,7 @@
       "Sukunimi": "Tanner",
       "Etunimi": "Juhani",
       "Koko nimi": "Juhani Tanner",
+      "Pelipaikka": "Oikea tukimies",
       "Ottelut": "15",
       "Maalit": "1"
     },
@@ -12125,6 +12163,7 @@
       "Sukunimi": "Tanner",
       "Etunimi": "Juhani",
       "Koko nimi": "Juhani Tanner",
+      "Pelipaikka": "Oikea tukimies",
       "Ottelut": "17",
       "Maalit": "1"
     },
@@ -12149,6 +12188,7 @@
       "Sukunimi": "Nieminen",
       "Etunimi": "Raimo",
       "Koko nimi": "Raimo Nieminen",
+      "Pelipaikka": "Oikea laitahyökkääjä",
       "Ottelut": "18",
       "Maalit": "6"
     },
@@ -12183,6 +12223,7 @@
       "Sukunimi": "Järvinen",
       "Etunimi": "Martti",
       "Koko nimi": "Martti Järvinen",
+      "Pelipaikka": "Keskushyökkääjä",
       "Ottelut": "10",
       "Maalit": "8"
     },
@@ -12222,9 +12263,10 @@
     },
     {
       "Kausi": "1956",
-      "Sukunimi": "Öhrn",
+      "Sukunimi": "Örn",
       "Etunimi": "Urho",
-      "Koko nimi": "Urho Öhrn",
+      "Koko nimi": "Urho Örn",
+      "Pelipaikka": "Maalivahti",
       "Ottelut": "18"
     },
     {
@@ -12239,6 +12281,7 @@
       "Sukunimi": "Tanner",
       "Etunimi": "Juhani",
       "Koko nimi": "Juhani Tanner",
+      "Pelipaikka": "Oikea tukimies",
       "Ottelut": "11",
       "Maalit": "1"
     },
@@ -12282,6 +12325,7 @@
       "Sukunimi": "Järvinen",
       "Etunimi": "Martti",
       "Koko nimi": "Martti Järvinen",
+      "Pelipaikka": "Keskushyökkääjä",
       "Ottelut": "4"
     },
     {
@@ -12353,9 +12397,9 @@
     },
     {
       "Kausi": "1955",
-      "Sukunimi": "Öhrn",
+      "Sukunimi": "Örn",
       "Etunimi": "Urho",
-      "Koko nimi": "Urho Öhrn",
+      "Koko nimi": "Urho Örn",
       "Pelipaikka": "Maalivahti",
       "Ottelut": "18"
     },
@@ -12477,9 +12521,9 @@
     },
     {
       "Kausi": "1954",
-      "Sukunimi": "Öhrn",
+      "Sukunimi": "Örn",
       "Etunimi": "Urho",
-      "Koko nimi": "Urho Öhrn",
+      "Koko nimi": "Urho Örn",
       "Pelipaikka": "Maalivahti",
       "Ottelut": "15"
     },
@@ -12619,9 +12663,9 @@
     },
     {
       "Kausi": "1953",
-      "Sukunimi": "Öhrn",
+      "Sukunimi": "Örn",
       "Etunimi": "Urho",
-      "Koko nimi": "Urho Öhrn",
+      "Koko nimi": "Urho Örn",
       "Pelipaikka": "Maalivahti",
       "Ottelut": "17"
     },
@@ -12654,6 +12698,7 @@
       "Sukunimi": "Laakso",
       "Etunimi": "Urho",
       "Koko nimi": "Urho Laakso",
+      "Pelipaikka": "Oikea laitahyökkääjä",
       "Ottelut": "6",
       "Maalit": "3"
     },
@@ -12785,9 +12830,9 @@
     },
     {
       "Kausi": "1952",
-      "Sukunimi": "Öhrn",
+      "Sukunimi": "Örn",
       "Etunimi": "Urho",
-      "Koko nimi": "Urho Öhrn",
+      "Koko nimi": "Urho Örn",
       "Pelipaikka": "Maalivahti",
       "Ottelut": "17"
     },
@@ -12949,9 +12994,9 @@
     },
     {
       "Kausi": "1951",
-      "Sukunimi": "Öhrn",
+      "Sukunimi": "Örn",
       "Etunimi": "Urho",
-      "Koko nimi": "Urho Öhrn",
+      "Koko nimi": "Urho Örn",
       "Pelipaikka": "Maalivahti",
       "Ottelut": "18"
     },
@@ -13206,9 +13251,9 @@
     },
     {
       "Kausi": "1950",
-      "Sukunimi": "Öhrn",
+      "Sukunimi": "Örn",
       "Etunimi": "Urho",
-      "Koko nimi": "Urho Öhrn",
+      "Koko nimi": "Urho Örn",
       "Pelipaikka": "Maalivahti",
       "Ottelut": "9"
     },
@@ -13351,9 +13396,10 @@
     },
     {
       "Kausi": "1949",
-      "Sukunimi": "Öhrn",
+      "Sukunimi": "Örn",
       "Etunimi": "Urho",
-      "Koko nimi": "Urho Öhrn",
+      "Koko nimi": "Urho Örn",
+      "Pelipaikka": "Maalivahti",
       "Ottelut": "4"
     },
     {
