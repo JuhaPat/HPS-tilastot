@@ -6630,6 +6630,7 @@
       "Sukunimi": "Nieminen",
       "Etunimi": "Sakari",
       "Koko nimi": "Sakari Nieminen",
+      "Muu rooli": "Joukkueenjohtaja",
       "Ottelut": "1",
       "Maalit": "0"
     },
@@ -11030,6 +11031,7 @@
       "Sukunimi": "Rautiainen",
       "Etunimi": "Pentti",
       "Koko nimi": "Pentti Rautiainen",
+      "Pelipaikka": "Vasen tukimies",
       "Ottelut": "6"
     },
     {
@@ -11216,6 +11218,7 @@
       "Sukunimi": "Lintamo",
       "Etunimi": "Alpo",
       "Koko nimi": "Alpo Lintamo",
+      "Pelipaikka": "Keskustukimies",
       "Muu rooli": "Valmentaja",
       "Ottelut": "8",
       "Maalit": "1"
@@ -11257,6 +11260,7 @@
       "Sukunimi": "Pahlman",
       "Etunimi": "Kai",
       "Koko nimi": "Kai Pahlman",
+      "Pelipaikka": "Vasen välihyökkääjä",
       "Ottelut": "20",
       "Maalit": "6"
     },
@@ -11272,6 +11276,7 @@
       "Sukunimi": "Rautiainen",
       "Etunimi": "Pentti",
       "Koko nimi": "Pentti Rautiainen",
+      "Pelipaikka": "Vasen tukimies",
       "Ottelut": "17"
     },
     {
@@ -11359,6 +11364,7 @@
       "Sukunimi": "Korhonen",
       "Etunimi": "Matti",
       "Koko nimi": "Matti Korhonen",
+      "Pelipaikka": "Maalivahti",
       "Ottelut": "22"
     },
     {
@@ -11366,6 +11372,7 @@
       "Sukunimi": "Lintamo",
       "Etunimi": "Alpo",
       "Koko nimi": "Alpo Lintamo",
+      "Pelipaikka": "Keskustukimies",
       "Muu rooli": "Valmentaja",
       "Ottelut": "21",
       "Maalit": "2"
@@ -11383,6 +11390,7 @@
       "Sukunimi": "Wilen",
       "Etunimi": "Nils-Erik",
       "Koko nimi": "Nils-Erik Wilen",
+      "Pelipaikka": "Oikea tukimies",
       "Ottelut": "22",
       "Maalit": "1"
     },
@@ -11391,6 +11399,7 @@
       "Sukunimi": "Lukander",
       "Etunimi": "Raimo",
       "Koko nimi": "Raimo Lukander",
+      "Pelipaikka": "Vasen puolustaja",
       "Ottelut": "20",
       "Maalit": "1"
     },
@@ -11399,6 +11408,7 @@
       "Sukunimi": "Rautiainen",
       "Etunimi": "Pentti",
       "Koko nimi": "Pentti Rautiainen",
+      "Pelipaikka": "Vasen tukimies",
       "Ottelut": "21"
     },
     {
@@ -11406,6 +11416,7 @@
       "Sukunimi": "Laakso",
       "Etunimi": "Urho",
       "Koko nimi": "Urho Laakso",
+      "Pelipaikka": "Oikea laitahyökkääjä",
       "Ottelut": "22",
       "Maalit": "6"
     },
@@ -11414,6 +11425,7 @@
       "Sukunimi": "Österberg",
       "Etunimi": "Kaj",
       "Koko nimi": "Kaj Österberg",
+      "Pelipaikka": "Oikea välihyökkääjä",
       "Ottelut": "20",
       "Maalit": "4"
     },
@@ -11422,6 +11434,7 @@
       "Sukunimi": "Strömberg",
       "Etunimi": "Teuvo",
       "Koko nimi": "Teuvo Strömberg",
+      "Pelipaikka": "Keskushyökkääjä",
       "Ottelut": "20",
       "Maalit": "7"
     },
@@ -11430,6 +11443,8 @@
       "Sukunimi": "Pahlman",
       "Etunimi": "Kai",
       "Koko nimi": "Kai Pahlman",
+      "Pelipaikka": "Vasen välihyökkääjä",
+      "Muu rooli": "Kapteeni",
       "Ottelut": "21",
       "Maalit": "16"
     },
@@ -11438,6 +11453,7 @@
       "Sukunimi": "Lintunen",
       "Etunimi": "Taisto",
       "Koko nimi": "Taisto Lintunen",
+      "Pelipaikka": "Vasen laitahyökkääjä",
       "Ottelut": "9"
     },
     {
@@ -11453,6 +11469,7 @@
       "Sukunimi": "Korhonen",
       "Etunimi": "Jukka",
       "Koko nimi": "Jukka Korhonen",
+      "Pelipaikka": "Puolustaja",
       "Ottelut": "10"
     },
     {
@@ -11460,6 +11477,7 @@
       "Sukunimi": "Kiviniemi",
       "Etunimi": "Henry",
       "Koko nimi": "Henry Kiviniemi",
+      "Pelipaikka": "Oikea puolustaja",
       "Ottelut": "6"
     },
     {
@@ -11467,6 +11485,7 @@
       "Sukunimi": "Raatikainen",
       "Etunimi": "Vilho",
       "Koko nimi": "Vilho Raatikainen",
+      "Pelipaikka": "Vasen laitahyökkääjä",
       "Ottelut": "11",
       "Maalit": "1"
     },
@@ -11475,6 +11494,7 @@
       "Sukunimi": "Malmström",
       "Etunimi": "Kalevi",
       "Koko nimi": "Kalevi Malmström",
+      "Pelipaikka": "Vasen laitahyökkääjä",
       "Ottelut": "2"
     },
     {
@@ -11482,19 +11502,22 @@
       "Sukunimi": "Heinonen",
       "Etunimi": "Reino",
       "Koko nimi": "Reino Heinonen",
+      "Pelipaikka": "Oikea puolustaja",
       "Ottelut": "4"
     },
     {
       "Kausi": "1962",
       "Sukunimi": "Mustakari",
       "Etunimi": "Heikki",
-      "Koko nimi": "Heikki Mustakari"
+      "Koko nimi": "Heikki Mustakari",
+      "Pelipaikka": "Vasen laitahyökkääjä"
     },
     {
       "Kausi": "1962",
       "Sukunimi": "Lindqvist",
       "Etunimi": "Olle",
       "Koko nimi": "Olle Lindqvist",
+      "Pelipaikka": "Varamaalivahti",
       "Ottelut": "1"
     },
     {
@@ -11546,6 +11569,7 @@
       "Sukunimi": "Lintamo",
       "Etunimi": "Alpo",
       "Koko nimi": "Alpo Lintamo",
+      "Pelipaikka": "Keskustukimies",
       "Muu rooli": "Kapteeni, valmentaja",
       "Ottelut": "18"
     },
@@ -11585,6 +11609,7 @@
       "Sukunimi": "Pahlman",
       "Etunimi": "Kai",
       "Koko nimi": "Kai Pahlman",
+      "Pelipaikka": "Vasen välihyökkääjä",
       "Ottelut": "22",
       "Maalit": "20"
     },
@@ -11601,6 +11626,7 @@
       "Sukunimi": "Rautiainen",
       "Etunimi": "Pentti",
       "Koko nimi": "Pentti Rautiainen",
+      "Pelipaikka": "Vasen tukimies",
       "Ottelut": "11"
     },
     {
@@ -11616,6 +11642,7 @@
       "Sukunimi": "Malmström",
       "Etunimi": "Kalevi",
       "Koko nimi": "Kalevi Malmström",
+      "Pelipaikka": "Vasen laitahyökkääjä",
       "Ottelut": "7",
       "Maalit": "2"
     },
@@ -11624,6 +11651,7 @@
       "Sukunimi": "Eldsbacka",
       "Etunimi": "Osvald",
       "Koko nimi": "Osvald Eldsbacka",
+      "Pelipaikka": "Vasen puolustaja",
       "Ottelut": "8",
       "Maalit": "1"
     },
@@ -11639,6 +11667,7 @@
       "Sukunimi": "Heinonen",
       "Etunimi": "Reino",
       "Koko nimi": "Reino Heinonen",
+      "Pelipaikka": "Oikea puolustaja",
       "Ottelut": "8"
     },
     {
@@ -11681,6 +11710,7 @@
       "Sukunimi": "Vilermo",
       "Etunimi": "Voitto",
       "Koko nimi": "Voitto Vilermo",
+      "Pelipaikka": "Maalivahti",
       "Ottelut": "15"
     },
     {
@@ -11688,6 +11718,7 @@
       "Sukunimi": "Heinonen",
       "Etunimi": "Reino",
       "Koko nimi": "Reino Heinonen",
+      "Pelipaikka": "Oikea puolustaja",
       "Ottelut": "18",
       "Maalit": "3"
     },
@@ -11696,6 +11727,7 @@
       "Sukunimi": "Eldsbacka",
       "Etunimi": "Osvald",
       "Koko nimi": "Osvald Eldsbacka",
+      "Pelipaikka": "Vasen puolustaja",
       "Ottelut": "8"
     },
     {
@@ -11710,6 +11742,7 @@
       "Sukunimi": "Lintamo",
       "Etunimi": "Alpo",
       "Koko nimi": "Alpo Lintamo",
+      "Pelipaikka": "Keskustukimies",
       "Muu rooli": "Valmentaja",
       "Ottelut": "21"
     },
@@ -11718,6 +11751,7 @@
       "Sukunimi": "Rautiainen",
       "Etunimi": "Pentti",
       "Koko nimi": "Pentti Rautiainen",
+      "Pelipaikka": "Vasen tukimies",
       "Ottelut": "19"
     },
     {
@@ -11749,6 +11783,7 @@
       "Sukunimi": "Pahlman",
       "Etunimi": "Kai",
       "Koko nimi": "Kai Pahlman",
+      "Pelipaikka": "Vasen välihyökkääjä",
       "Ottelut": "22",
       "Maalit": "13"
     },
@@ -11757,6 +11792,7 @@
       "Sukunimi": "Mikander",
       "Etunimi": "Leo",
       "Koko nimi": "Leo Mikander",
+      "Pelipaikka": "Oikea välihyökkääjä",
       "Ottelut": "15",
       "Maalit": "5"
     },
@@ -11802,6 +11838,7 @@
       "Sukunimi": "Malmström",
       "Etunimi": "Kalevi",
       "Koko nimi": "Kalevi Malmström",
+      "Pelipaikka": "Vasen laitahyökkääjä",
       "Ottelut": "1"
     },
     {
@@ -11821,6 +11858,7 @@
       "Sukunimi": "Vilermo",
       "Etunimi": "Voitto",
       "Koko nimi": "Voitto Vilermo",
+      "Pelipaikka": "Maalivahti",
       "Ottelut": "10"
     },
     {
@@ -11828,6 +11866,7 @@
       "Sukunimi": "Heinonen",
       "Etunimi": "Reino",
       "Koko nimi": "Reino Heinonen",
+      "Pelipaikka": "Oikea puolustaja",
       "Ottelut": "18"
     },
     {
@@ -11842,6 +11881,7 @@
       "Sukunimi": "Rautiainen",
       "Etunimi": "Pentti",
       "Koko nimi": "Pentti Rautiainen",
+      "Pelipaikka": "Vasen tukimies",
       "Ottelut": "14"
     },
     {
@@ -11849,6 +11889,7 @@
       "Sukunimi": "Lintamo",
       "Etunimi": "Alpo",
       "Koko nimi": "Alpo Lintamo",
+      "Pelipaikka": "Keskustukimies",
       "Muu rooli": "Valmentaja",
       "Ottelut": "18",
       "Maalit": "1"
@@ -11882,6 +11923,7 @@
       "Sukunimi": "Pahlman",
       "Etunimi": "Kai",
       "Koko nimi": "Kai Pahlman",
+      "Pelipaikka": "Vasen välihyökkääjä",
       "Muu rooli": "Valmentaja",
       "Ottelut": "17",
       "Maalit": "11"
@@ -11891,6 +11933,7 @@
       "Sukunimi": "Mikander",
       "Etunimi": "Leo",
       "Koko nimi": "Leo Mikander",
+      "Pelipaikka": "Oikea välihyökkääjä",
       "Ottelut": "13",
       "Maalit": "3"
     },
@@ -11899,6 +11942,7 @@
       "Sukunimi": "Eldsbacka",
       "Etunimi": "Osvald",
       "Koko nimi": "Osvald Eldsbacka",
+      "Pelipaikka": "Vasen puolustaja",
       "Ottelut": "17",
       "Maalit": "3"
     },
@@ -11914,6 +11958,7 @@
       "Sukunimi": "Malmström",
       "Etunimi": "Kalevi",
       "Koko nimi": "Kalevi Malmström",
+      "Pelipaikka": "Vasen laitahyökkääjä",
       "Ottelut": "4",
       "Maalit": "2"
     },
@@ -11952,6 +11997,7 @@
       "Sukunimi": "Vilermo",
       "Etunimi": "Voitto",
       "Koko nimi": "Voitto Vilermo",
+      "Pelipaikka": "Maalivahti",
       "Ottelut": "19"
     },
     {
@@ -11959,6 +12005,7 @@
       "Sukunimi": "Heinonen",
       "Etunimi": "Reino",
       "Koko nimi": "Reino Heinonen",
+      "Pelipaikka": "Oikea puolustaja",
       "Ottelut": "18"
     },
     {
@@ -11966,6 +12013,7 @@
       "Sukunimi": "Eldsbacka",
       "Etunimi": "Osvald",
       "Koko nimi": "Osvald Eldsbacka",
+      "Pelipaikka": "Vasen puolustaja",
       "Ottelut": "16",
       "Maalit": "1"
     },
@@ -11982,6 +12030,7 @@
       "Sukunimi": "Lintamo",
       "Etunimi": "Alpo",
       "Koko nimi": "Alpo Lintamo",
+      "Pelipaikka": "Keskustukimies",
       "Ottelut": "19"
     },
     {
@@ -11989,6 +12038,7 @@
       "Sukunimi": "Rautiainen",
       "Etunimi": "Pentti",
       "Koko nimi": "Pentti Rautiainen",
+      "Pelipaikka": "Vasen tukimies",
       "Ottelut": "16"
     },
     {
@@ -12003,6 +12053,7 @@
       "Sukunimi": "Mikander",
       "Etunimi": "Leo",
       "Koko nimi": "Leo Mikander",
+      "Pelipaikka": "Oikea välihyökkääjä",
       "Ottelut": "17",
       "Maalit": "5"
     },
@@ -12019,6 +12070,7 @@
       "Sukunimi": "Pahlman",
       "Etunimi": "Kai",
       "Koko nimi": "Kai Pahlman",
+      "Pelipaikka": "Vasen välihyökkääjä",
       "Ottelut": "19",
       "Maalit": "17"
     },
@@ -12043,6 +12095,7 @@
       "Sukunimi": "Malmström",
       "Etunimi": "Kalevi",
       "Koko nimi": "Kalevi Malmström",
+      "Pelipaikka": "Vasen laitahyökkääjä",
       "Ottelut": "12",
       "Maalit": "1"
     },
@@ -12080,6 +12133,7 @@
       "Sukunimi": "Heinonen",
       "Etunimi": "Reino",
       "Koko nimi": "Reino Heinonen",
+      "Pelipaikka": "Oikea puolustaja",
       "Ottelut": "17"
     },
     {
@@ -12087,6 +12141,7 @@
       "Sukunimi": "Rautiainen",
       "Etunimi": "Pentti",
       "Koko nimi": "Pentti Rautiainen",
+      "Pelipaikka": "Vasen tukimies",
       "Ottelut": "16"
     },
     {
@@ -12102,6 +12157,7 @@
       "Sukunimi": "Pahlman",
       "Etunimi": "Kai",
       "Koko nimi": "Kai Pahlman",
+      "Pelipaikka": "Vasen välihyökkääjä",
       "Ottelut": "17",
       "Maalit": "16"
     },
@@ -12110,6 +12166,7 @@
       "Sukunimi": "Mikander",
       "Etunimi": "Leo",
       "Koko nimi": "Leo Mikander",
+      "Pelipaikka": "Oikea välihyökkääjä",
       "Ottelut": "18",
       "Maalit": "8"
     },
@@ -12118,6 +12175,7 @@
       "Sukunimi": "Lintamo",
       "Etunimi": "Alpo",
       "Koko nimi": "Alpo Lintamo",
+      "Pelipaikka": "Keskustukimies",
       "Ottelut": "18"
     },
     {
@@ -12133,6 +12191,7 @@
       "Sukunimi": "Eldsbacka",
       "Etunimi": "Osvald",
       "Koko nimi": "Osvald Eldsbacka",
+      "Pelipaikka": "Vasen puolustaja",
       "Ottelut": "17",
       "Maalit": "2"
     },
@@ -12141,6 +12200,7 @@
       "Sukunimi": "Malmström",
       "Etunimi": "Kalevi",
       "Koko nimi": "Kalevi Malmström",
+      "Pelipaikka": "Vasen laitahyökkääjä",
       "Ottelut": "16",
       "Maalit": "7"
     },
@@ -12149,6 +12209,7 @@
       "Sukunimi": "Vilermo",
       "Etunimi": "Voitto",
       "Koko nimi": "Voitto Vilermo",
+      "Pelipaikka": "Maalivahti",
       "Ottelut": "14"
     },
     {
@@ -12156,6 +12217,7 @@
       "Sukunimi": "Rautiainen",
       "Etunimi": "Matti",
       "Koko nimi": "Matti Rautiainen",
+      "Pelipaikka": "Puolustaja",
       "Ottelut": "2"
     },
     {
@@ -12185,6 +12247,7 @@
       "Sukunimi": "Rautiainen",
       "Etunimi": "Pentti",
       "Koko nimi": "Pentti Rautiainen",
+      "Pelipaikka": "Vasen tukimies",
       "Ottelut": "16"
     },
     {
@@ -12192,6 +12255,7 @@
       "Sukunimi": "Pahlman",
       "Etunimi": "Kai",
       "Koko nimi": "Kai Pahlman",
+      "Pelipaikka": "Vasen välihyökkääjä",
       "Ottelut": "18",
       "Maalit": "10"
     },
@@ -12200,6 +12264,7 @@
       "Sukunimi": "Mikander",
       "Etunimi": "Leo",
       "Koko nimi": "Leo Mikander",
+      "Pelipaikka": "Oikea välihyökkääjä",
       "Ottelut": "16",
       "Maalit": "6"
     },
@@ -12208,6 +12273,7 @@
       "Sukunimi": "Lintamo",
       "Etunimi": "Alpo",
       "Koko nimi": "Alpo Lintamo",
+      "Pelipaikka": "Keskustukimies",
       "Ottelut": "17",
       "Maalit": "5"
     },
@@ -12223,6 +12289,7 @@
       "Sukunimi": "Eldsbacka",
       "Etunimi": "Osvald",
       "Koko nimi": "Osvald Eldsbacka",
+      "Pelipaikka": "Vasen puolustaja",
       "Ottelut": "18"
     },
     {
@@ -12304,6 +12371,7 @@
       "Sukunimi": "Eldsbacka",
       "Etunimi": "Osvald",
       "Koko nimi": "Osvald Eldsbacka",
+      "Pelipaikka": "Vasen puolustaja",
       "Ottelut": "14"
     },
     {
@@ -12319,6 +12387,7 @@
       "Sukunimi": "Hasso",
       "Etunimi": "Anatol",
       "Koko nimi": "Anatol Hasso",
+      "Pelipaikka": "Oikea välihyökkääjä",
       "Ottelut": "17"
     },
     {
@@ -12341,6 +12410,7 @@
       "Sukunimi": "Mikander",
       "Etunimi": "Leo",
       "Koko nimi": "Leo Mikander",
+      "Pelipaikka": "Oikea välihyökkääjä",
       "Ottelut": "18",
       "Maalit": "17"
     },
@@ -12356,6 +12426,7 @@
       "Sukunimi": "Pahlman",
       "Etunimi": "Kai",
       "Koko nimi": "Kai Pahlman",
+      "Pelipaikka": "Vasen välihyökkääjä",
       "Ottelut": "18",
       "Maalit": "23"
     },
@@ -12387,6 +12458,7 @@
       "Sukunimi": "Rautiainen",
       "Etunimi": "Pentti",
       "Koko nimi": "Pentti Rautiainen",
+      "Pelipaikka": "Vasen tukimies",
       "Ottelut": "12"
     },
     {
@@ -12416,6 +12488,7 @@
       "Sukunimi": "Rautiainen",
       "Etunimi": "Matti",
       "Koko nimi": "Matti Rautiainen",
+      "Pelipaikka": "Puolustaja",
       "Ottelut": "14",
       "Maalit": "1"
     },
@@ -12431,6 +12504,7 @@
       "Sukunimi": "Eldsbacka",
       "Etunimi": "Osvald",
       "Koko nimi": "Osvald Eldsbacka",
+      "Pelipaikka": "Vasen puolustaja",
       "Ottelut": "16"
     },
     {
@@ -12438,6 +12512,7 @@
       "Sukunimi": "Hasso",
       "Etunimi": "Anatol",
       "Koko nimi": "Anatol Hasso",
+      "Pelipaikka": "Oikea välihyökkääjä",
       "Ottelut": "18"
     },
     {
@@ -12452,6 +12527,7 @@
       "Sukunimi": "Rautiainen",
       "Etunimi": "Pentti",
       "Koko nimi": "Pentti Rautiainen",
+      "Pelipaikka": "Vasen tukimies",
       "Ottelut": "10",
       "Maalit": "5"
     },
@@ -12468,6 +12544,7 @@
       "Sukunimi": "Pahlman",
       "Etunimi": "Kai",
       "Koko nimi": "Kai Pahlman",
+      "Pelipaikka": "Vasen välihyökkääjä",
       "Ottelut": "17",
       "Maalit": "3"
     },
@@ -12483,6 +12560,7 @@
       "Sukunimi": "Mikander",
       "Etunimi": "Leo",
       "Koko nimi": "Leo Mikander",
+      "Pelipaikka": "Oikea välihyökkääjä",
       "Ottelut": "7",
       "Maalit": "1"
     },
@@ -12523,6 +12601,7 @@
       "Sukunimi": "Malmström",
       "Etunimi": "Kalevi",
       "Koko nimi": "Kalevi Malmström",
+      "Pelipaikka": "Vasen laitahyökkääjä",
       "Ottelut": "1"
     },
     {
@@ -12551,6 +12630,7 @@
       "Sukunimi": "Hasso",
       "Etunimi": "Anatol",
       "Koko nimi": "Anatol Hasso",
+      "Pelipaikka": "Oikea välihyökkääjä",
       "Ottelut": "11"
     },
     {
@@ -12558,6 +12638,7 @@
       "Sukunimi": "Eldsbacka",
       "Etunimi": "Osvald",
       "Koko nimi": "Osvald Eldsbacka",
+      "Pelipaikka": "Vasen puolustaja",
       "Ottelut": "14"
     },
     {
@@ -12589,6 +12670,7 @@
       "Sukunimi": "Rautiainen",
       "Etunimi": "Pentti",
       "Koko nimi": "Pentti Rautiainen",
+      "Pelipaikka": "Vasen tukimies",
       "Ottelut": "17",
       "Maalit": "3"
     },
@@ -12613,6 +12695,7 @@
       "Sukunimi": "Pahlman",
       "Etunimi": "Kai",
       "Koko nimi": "Kai Pahlman",
+      "Pelipaikka": "Vasen välihyökkääjä",
       "Ottelut": "13",
       "Maalit": "8"
     },
@@ -12629,6 +12712,7 @@
       "Sukunimi": "Rautiainen",
       "Etunimi": "Matti",
       "Koko nimi": "Matti Rautiainen",
+      "Pelipaikka": "Puolustaja",
       "Ottelut": "10",
       "Maalit": "1"
     },
@@ -12644,6 +12728,7 @@
       "Sukunimi": "Vepsäläinen",
       "Etunimi": "Rauno",
       "Koko nimi": "Rauno Vepsäläinen",
+      "Pelipaikka": "Vasen laitahyökkääjä",
       "Ottelut": "5"
     },
     {
@@ -12657,6 +12742,7 @@
       "Sukunimi": "Malmström",
       "Etunimi": "Kalevi",
       "Koko nimi": "Kalevi Malmström",
+      "Pelipaikka": "Vasen laitahyökkääjä",
       "Ottelut": "2"
     },
     {
@@ -12670,6 +12756,7 @@
       "Sukunimi": "Mikander",
       "Etunimi": "Leo",
       "Koko nimi": "Leo Mikander",
+      "Pelipaikka": "Oikea välihyökkääjä",
       "Ottelut": "2",
       "Maalit": "1"
     },
@@ -12680,6 +12767,21 @@
       "Koko nimi": "Erkki Sundberg",
       "Ottelut": "1",
       "Maalit": "1"
+    },
+    {
+      "Kausi": "1953",
+      "Sukunimi": "Sinikari",
+      "Etunimi": "Sven",
+      "Koko nimi": "Sven Sinikari",
+      "Muu rooli": "Valmentaja"
+    },
+    {
+      "Kausi": "1953",
+      "Sukunimi": "Sotiola",
+      "Etunimi": "Yrjö",
+      "Koko nimi": "Yrjö Sotiola",
+      "Pelipaikka": "Välihyökkääjä",
+      "Muu rooli": "Valmentaja"
     },
     {
       "Kausi": "1952",
@@ -12702,6 +12804,7 @@
       "Sukunimi": "Eldsbacka",
       "Etunimi": "Osvald",
       "Koko nimi": "Osvald Eldsbacka",
+      "Pelipaikka": "Vasen puolustaja",
       "Ottelut": "18"
     },
     {
@@ -12725,6 +12828,7 @@
       "Sukunimi": "Hasso",
       "Etunimi": "Anatol",
       "Koko nimi": "Anatol Hasso",
+      "Pelipaikka": "Oikea välihyökkääjä",
       "Ottelut": "18"
     },
     {
@@ -12755,6 +12859,7 @@
       "Sukunimi": "Sotiola",
       "Etunimi": "Yrjö",
       "Koko nimi": "Yrjö Sotiola",
+      "Pelipaikka": "Välihyökkääjä",
       "Ottelut": "18",
       "Maalit": "5"
     },
@@ -12786,6 +12891,7 @@
       "Sukunimi": "Vepsäläinen",
       "Etunimi": "Rauno",
       "Koko nimi": "Rauno Vepsäläinen",
+      "Pelipaikka": "Vasen laitahyökkääjä",
       "Ottelut": "7"
     },
     {
@@ -12813,6 +12919,7 @@
       "Sukunimi": "Lahtinen",
       "Etunimi": "Lassi",
       "Koko nimi": "Lassi Lahtinen",
+      "Pelipaikka": "Oikea laitahyökkääjä",
       "Ottelut": "2",
       "Maalit": "1"
     },
@@ -12821,6 +12928,7 @@
       "Sukunimi": "Pahlman",
       "Etunimi": "Kai",
       "Koko nimi": "Kai Pahlman",
+      "Pelipaikka": "Vasen välihyökkääjä",
       "Ottelut": "7",
       "Maalit": "3"
     },
@@ -12836,6 +12944,7 @@
       "Sukunimi": "Rautiainen",
       "Etunimi": "Matti",
       "Koko nimi": "Matti Rautiainen",
+      "Pelipaikka": "Puolustaja",
       "Ottelut": "1"
     },
     {
@@ -12851,6 +12960,7 @@
       "Sukunimi": "Hasso",
       "Etunimi": "Anatol",
       "Koko nimi": "Anatol Hasso",
+      "Pelipaikka": "Oikea välihyökkääjä",
       "Ottelut": "15"
     },
     {
@@ -12872,6 +12982,7 @@
       "Sukunimi": "Lahtinen",
       "Etunimi": "Lassi",
       "Koko nimi": "Lassi Lahtinen",
+      "Pelipaikka": "Oikea laitahyökkääjä",
       "Ottelut": "8"
     },
     {
@@ -12906,6 +13017,7 @@
       "Sukunimi": "Eldsbacka",
       "Etunimi": "Osvald",
       "Koko nimi": "Osvald Eldsbacka",
+      "Pelipaikka": "Vasen puolustaja",
       "Ottelut": "11",
       "Maalit": "2"
     },
@@ -12922,6 +13034,7 @@
       "Sukunimi": "Sotiola",
       "Etunimi": "Yrjö",
       "Koko nimi": "Yrjö Sotiola",
+      "Pelipaikka": "Välihyökkääjä",
       "Ottelut": "17",
       "Maalit": "6"
     },
@@ -12945,6 +13058,7 @@
       "Sukunimi": "Vepsäläinen",
       "Etunimi": "Rauno",
       "Koko nimi": "Rauno Vepsäläinen",
+      "Pelipaikka": "Vasen laitahyökkääjä",
       "Ottelut": "13"
     },
     {
@@ -12980,7 +13094,8 @@
     {
       "Kausi": "1951",
       "Sukunimi": "Kontiainen",
-      "Koko nimi": " Kontiainen",
+      "Etunimi": "M",
+      "Koko nimi": "M Kontiainen",
       "Ottelut": "1",
       "Maalit": "1"
     },
@@ -13003,6 +13118,7 @@
       "Sukunimi": "Lindqvist",
       "Etunimi": "Harald",
       "Koko nimi": "Harald Lindqvist",
+      "Pelipaikka": "Keskushyökkääjä",
       "Ottelut": "6"
     },
     {
@@ -13025,6 +13141,7 @@
       "Sukunimi": "Sotiola",
       "Etunimi": "Yrjö",
       "Koko nimi": "Yrjö Sotiola",
+      "Pelipaikka": "Välihyökkääjä",
       "Muu rooli": "Valmentaja",
       "Ottelut": "16",
       "Maalit": "11"
@@ -13050,6 +13167,7 @@
       "Sukunimi": "Lahtinen",
       "Etunimi": "Lassi",
       "Koko nimi": "Lassi Lahtinen",
+      "Pelipaikka": "Oikea laitahyökkääjä",
       "Ottelut": "5",
       "Maalit": "1"
     },
@@ -13058,6 +13176,7 @@
       "Sukunimi": "Hasso",
       "Etunimi": "Anatol",
       "Koko nimi": "Anatol Hasso",
+      "Pelipaikka": "Oikea välihyökkääjä",
       "Ottelut": "14",
       "Maalit": "3"
     },
@@ -13074,6 +13193,7 @@
       "Sukunimi": "Vaahtera",
       "Etunimi": "Veikko",
       "Koko nimi": "Veikko Vaahtera",
+      "Pelipaikka": "Keskuspuolustaja",
       "Ottelut": "14"
     },
     {
@@ -13110,6 +13230,7 @@
       "Sukunimi": "Salonen",
       "Etunimi": "Veikko",
       "Koko nimi": "Veikko Salonen",
+      "Pelipaikka": "Oikea puolustaja",
       "Ottelut": "2"
     },
     {
@@ -13144,6 +13265,7 @@
       "Sukunimi": "Eldsbacka",
       "Etunimi": "Osvald",
       "Koko nimi": "Osvald Eldsbacka",
+      "Pelipaikka": "Vasen puolustaja",
       "Ottelut": "1"
     },
     {
@@ -13151,6 +13273,7 @@
       "Sukunimi": "Sarnola",
       "Etunimi": "Thure",
       "Koko nimi": "Thure Sarnola",
+      "Pelipaikka": "Maalivahti",
       "Ottelut": "18"
     },
     {
@@ -13165,6 +13288,7 @@
       "Sukunimi": "Kilpi",
       "Etunimi": "Eino",
       "Koko nimi": "Eino Kilpi",
+      "Pelipaikka": "Oikea tukimies",
       "Ottelut": "1"
     },
     {
@@ -13172,6 +13296,7 @@
       "Sukunimi": "Vaahtera",
       "Etunimi": "Veikko",
       "Koko nimi": "Veikko Vaahtera",
+      "Pelipaikka": "Keskuspuolustaja",
       "Ottelut": "21"
     },
     {
@@ -13195,6 +13320,7 @@
       "Sukunimi": "Hasso",
       "Etunimi": "Anatol",
       "Koko nimi": "Anatol Hasso",
+      "Pelipaikka": "Oikea välihyökkääjä",
       "Ottelut": "20",
       "Maalit": "4"
     },
@@ -13203,6 +13329,7 @@
       "Sukunimi": "Sotiola",
       "Etunimi": "Yrjö",
       "Koko nimi": "Yrjö Sotiola",
+      "Pelipaikka": "Välihyökkääjä",
       "Ottelut": "19",
       "Maalit": "5"
     },
@@ -13234,6 +13361,7 @@
       "Sukunimi": "Salonen",
       "Etunimi": "Veikko",
       "Koko nimi": "Veikko Salonen",
+      "Pelipaikka": "Oikea puolustaja",
       "Ottelut": "19"
     },
     {
@@ -13241,6 +13369,7 @@
       "Sukunimi": "Lievonen",
       "Etunimi": "Yrjö",
       "Koko nimi": "Yrjö Lievonen",
+      "Pelipaikka": "Vasen tukimies",
       "Ottelut": "21",
       "Maalit": "2"
     },
@@ -13271,6 +13400,7 @@
       "Sukunimi": "Vepsäläinen",
       "Etunimi": "Rauno",
       "Koko nimi": "Rauno Vepsäläinen",
+      "Pelipaikka": "Vasen laitahyökkääjä",
       "Ottelut": "19"
     },
     {
@@ -13278,6 +13408,7 @@
       "Sukunimi": "Lindqvist",
       "Etunimi": "Harald",
       "Koko nimi": "Harald Lindqvist",
+      "Pelipaikka": "Keskushyökkääjä",
       "Ottelut": "7"
     },
     {
@@ -13292,6 +13423,7 @@
       "Sukunimi": "Sarnola",
       "Etunimi": "Thure",
       "Koko nimi": "Thure Sarnola",
+      "Pelipaikka": "Maalivahti",
       "Ottelut": "14"
     },
     {
@@ -13306,6 +13438,7 @@
       "Sukunimi": "Kilpi",
       "Etunimi": "Eino",
       "Koko nimi": "Eino Kilpi",
+      "Pelipaikka": "Oikea tukimies",
       "Ottelut": "2"
     },
     {
@@ -13313,6 +13446,7 @@
       "Sukunimi": "Vaahtera",
       "Etunimi": "Veikko",
       "Koko nimi": "Veikko Vaahtera",
+      "Pelipaikka": "Keskuspuolustaja",
       "Ottelut": "12",
       "Maalit": "1"
     },
@@ -13321,6 +13455,7 @@
       "Sukunimi": "Salin",
       "Etunimi": "Henry",
       "Koko nimi": "Henry Salin",
+      "Pelipaikka": "Laitahyökkääjä",
       "Ottelut": "13",
       "Maalit": "2"
     },
@@ -13337,6 +13472,7 @@
       "Sukunimi": "Hasso",
       "Etunimi": "Anatol",
       "Koko nimi": "Anatol Hasso",
+      "Pelipaikka": "Oikea välihyökkääjä",
       "Ottelut": "13",
       "Maalit": "3"
     },
@@ -13345,6 +13481,7 @@
       "Sukunimi": "Sotiola",
       "Etunimi": "Yrjö",
       "Koko nimi": "Yrjö Sotiola",
+      "Pelipaikka": "Välihyökkääjä",
       "Ottelut": "15",
       "Maalit": "6"
     },
@@ -13353,6 +13490,7 @@
       "Sukunimi": "Salonen",
       "Etunimi": "Veikko",
       "Koko nimi": "Veikko Salonen",
+      "Pelipaikka": "Oikea puolustaja",
       "Ottelut": "6"
     },
     {
@@ -13360,6 +13498,7 @@
       "Sukunimi": "Lievonen",
       "Etunimi": "Yrjö",
       "Koko nimi": "Yrjö Lievonen",
+      "Pelipaikka": "Vasen tukimies",
       "Ottelut": "15"
     },
     {
@@ -13367,6 +13506,7 @@
       "Sukunimi": "Lindqvist",
       "Etunimi": "Harald",
       "Koko nimi": "Harald Lindqvist",
+      "Pelipaikka": "Keskushyökkääjä",
       "Ottelut": "13",
       "Maalit": "2"
     },
@@ -13396,6 +13536,7 @@
       "Sukunimi": "Vepsäläinen",
       "Etunimi": "Rauno",
       "Koko nimi": "Rauno Vepsäläinen",
+      "Pelipaikka": "Vasen laitahyökkääjä",
       "Ottelut": "15"
     },
     {
@@ -13403,6 +13544,7 @@
       "Sukunimi": "Weckström",
       "Etunimi": "Jorma",
       "Koko nimi": "Jorma Weckström",
+      "Pelipaikka": "Keskushyökkääjä",
       "Ottelut": "3",
       "Maalit": "1"
     },
@@ -13411,6 +13553,7 @@
       "Sukunimi": "Lahtinen",
       "Etunimi": "Lassi",
       "Koko nimi": "Lassi Lahtinen",
+      "Pelipaikka": "Oikea laitahyökkääjä",
       "Ottelut": "2"
     },
     {
@@ -13418,6 +13561,7 @@
       "Sukunimi": "Lunden",
       "Etunimi": "Kaj",
       "Koko nimi": "Kaj Lunden",
+      "Pelipaikka": "Maalivahti",
       "Ottelut": "1"
     },
     {
@@ -13425,6 +13569,7 @@
       "Sukunimi": "Sarnola",
       "Etunimi": "Thure",
       "Koko nimi": "Thure Sarnola",
+      "Pelipaikka": "Maalivahti",
       "Ottelut": "9"
     },
     {
@@ -13439,6 +13584,7 @@
       "Sukunimi": "Kilpi",
       "Etunimi": "Eino",
       "Koko nimi": "Eino Kilpi",
+      "Pelipaikka": "Oikea tukimies",
       "Ottelut": "11"
     },
     {
@@ -13446,6 +13592,7 @@
       "Sukunimi": "Vaahtera",
       "Etunimi": "Veikko",
       "Koko nimi": "Veikko Vaahtera",
+      "Pelipaikka": "Keskuspuolustaja",
       "Ottelut": "11",
       "Maalit": "1"
     },
@@ -13470,6 +13617,7 @@
       "Sukunimi": "Hasso",
       "Etunimi": "Anatol",
       "Koko nimi": "Anatol Hasso",
+      "Pelipaikka": "Oikea välihyökkääjä",
       "Ottelut": "14",
       "Maalit": "9"
     },
@@ -13478,6 +13626,7 @@
       "Sukunimi": "Sotiola",
       "Etunimi": "Yrjö",
       "Koko nimi": "Yrjö Sotiola",
+      "Pelipaikka": "Välihyökkääjä",
       "Ottelut": "13",
       "Maalit": "4"
     },
@@ -13486,6 +13635,7 @@
       "Sukunimi": "Salonen",
       "Etunimi": "Veikko",
       "Koko nimi": "Veikko Salonen",
+      "Pelipaikka": "Oikea puolustaja",
       "Ottelut": "6"
     },
     {
@@ -13493,6 +13643,7 @@
       "Sukunimi": "Lievonen",
       "Etunimi": "Yrjö",
       "Koko nimi": "Yrjö Lievonen",
+      "Pelipaikka": "Vasen tukimies",
       "Ottelut": "9"
     },
     {
@@ -13500,6 +13651,7 @@
       "Sukunimi": "Rantanen",
       "Etunimi": "Kauko",
       "Koko nimi": "Kauko Rantanen",
+      "Pelipaikka": "Vasen puolustaja",
       "Ottelut": "6"
     },
     {
@@ -13507,6 +13659,8 @@
       "Sukunimi": "Virtanen",
       "Etunimi": "Paavo",
       "Koko nimi": "Paavo Virtanen",
+      "Pelipaikka": "Keskuspuolustaja",
+      "Muu rooli": "Kapteeni",
       "Ottelut": "7",
       "Maalit": "1"
     },
@@ -13515,6 +13669,7 @@
       "Sukunimi": "Lahtinen",
       "Etunimi": "Lassi",
       "Koko nimi": "Lassi Lahtinen",
+      "Pelipaikka": "Oikea laitahyökkääjä",
       "Ottelut": "4"
     },
     {
@@ -13543,6 +13698,7 @@
       "Sukunimi": "Lindqvist",
       "Etunimi": "Harald",
       "Koko nimi": "Harald Lindqvist",
+      "Pelipaikka": "Keskushyökkääjä",
       "Ottelut": "12",
       "Maalit": "2"
     },
@@ -13551,6 +13707,7 @@
       "Sukunimi": "Vepsäläinen",
       "Etunimi": "Rauno",
       "Koko nimi": "Rauno Vepsäläinen",
+      "Pelipaikka": "Vasen laitahyökkääjä",
       "Ottelut": "9",
       "Maalit": "6"
     },
@@ -13573,6 +13730,7 @@
       "Sukunimi": "Sarnola",
       "Etunimi": "Thure",
       "Koko nimi": "Thure Sarnola",
+      "Pelipaikka": "Maalivahti",
       "Ottelut": "13"
     },
     {
@@ -13580,6 +13738,7 @@
       "Sukunimi": "Hasso",
       "Etunimi": "Anatol",
       "Koko nimi": "Anatol Hasso",
+      "Pelipaikka": "Oikea välihyökkääjä",
       "Ottelut": "14",
       "Maalit": "10"
     },
@@ -13588,6 +13747,7 @@
       "Sukunimi": "Kilpi",
       "Etunimi": "Eino",
       "Koko nimi": "Eino Kilpi",
+      "Pelipaikka": "Oikea tukimies",
       "Ottelut": "12",
       "Maalit": "2"
     },
@@ -13596,6 +13756,7 @@
       "Sukunimi": "Virtanen",
       "Etunimi": "Paavo",
       "Koko nimi": "Paavo Virtanen",
+      "Pelipaikka": "Keskuspuolustaja",
       "Ottelut": "13",
       "Maalit": "1"
     },
@@ -13604,6 +13765,7 @@
       "Sukunimi": "Lievonen",
       "Etunimi": "Yrjö",
       "Koko nimi": "Yrjö Lievonen",
+      "Pelipaikka": "Vasen tukimies",
       "Ottelut": "14",
       "Maalit": "3"
     },
@@ -13612,6 +13774,7 @@
       "Sukunimi": "Sotiola",
       "Etunimi": "Yrjö",
       "Koko nimi": "Yrjö Sotiola",
+      "Pelipaikka": "Välihyökkääjä",
       "Ottelut": "12",
       "Maalit": "7"
     },
@@ -13620,6 +13783,7 @@
       "Sukunimi": "Lahtinen",
       "Etunimi": "Lassi",
       "Koko nimi": "Lassi Lahtinen",
+      "Pelipaikka": "Oikea laitahyökkääjä",
       "Ottelut": "12",
       "Maalit": "2"
     },
@@ -13628,6 +13792,7 @@
       "Sukunimi": "Salonen",
       "Etunimi": "Veikko",
       "Koko nimi": "Veikko Salonen",
+      "Pelipaikka": "Oikea puolustaja",
       "Ottelut": "9"
     },
     {
@@ -13635,6 +13800,7 @@
       "Sukunimi": "Rantanen",
       "Etunimi": "Kauko",
       "Koko nimi": "Kauko Rantanen",
+      "Pelipaikka": "Vasen puolustaja",
       "Ottelut": "14"
     },
     {
@@ -13692,6 +13858,7 @@
       "Sukunimi": "Vepsäläinen",
       "Etunimi": "Rauno",
       "Koko nimi": "Rauno Vepsäläinen",
+      "Pelipaikka": "Vasen laitahyökkääjä",
       "Ottelut": "13",
       "Maalit": "1"
     },
@@ -13707,6 +13874,7 @@
       "Sukunimi": "Lindqvist",
       "Etunimi": "Harald",
       "Koko nimi": "Harald Lindqvist",
+      "Pelipaikka": "Keskushyökkääjä",
       "Ottelut": "7",
       "Maalit": "5"
     },
@@ -13721,6 +13889,7 @@
       "Sukunimi": "Sotiola",
       "Etunimi": "Yrjö",
       "Koko nimi": "Yrjö Sotiola",
+      "Pelipaikka": "Välihyökkääjä",
       "Ottelut": "14",
       "Maalit": "6"
     },
@@ -13729,6 +13898,7 @@
       "Sukunimi": "Rantanen",
       "Etunimi": "Kauko",
       "Koko nimi": "Kauko Rantanen",
+      "Pelipaikka": "Vasen puolustaja",
       "Ottelut": "13"
     },
     {
@@ -13736,6 +13906,7 @@
       "Sukunimi": "Virtanen",
       "Etunimi": "Paavo",
       "Koko nimi": "Paavo Virtanen",
+      "Pelipaikka": "Keskuspuolustaja",
       "Ottelut": "13"
     },
     {
@@ -13743,6 +13914,7 @@
       "Sukunimi": "Lievonen",
       "Etunimi": "Yrjö",
       "Koko nimi": "Yrjö Lievonen",
+      "Pelipaikka": "Vasen tukimies",
       "Ottelut": "13",
       "Maalit": "2"
     },
@@ -13751,6 +13923,7 @@
       "Sukunimi": "Sarnola",
       "Etunimi": "Thure",
       "Koko nimi": "Thure Sarnola",
+      "Pelipaikka": "Maalivahti",
       "Ottelut": "13"
     },
     {
@@ -13758,6 +13931,7 @@
       "Sukunimi": "Salonen",
       "Etunimi": "Veikko",
       "Koko nimi": "Veikko Salonen",
+      "Pelipaikka": "Oikea puolustaja",
       "Ottelut": "14"
     },
     {
@@ -13772,6 +13946,7 @@
       "Sukunimi": "Kilpi",
       "Etunimi": "Eino",
       "Koko nimi": "Eino Kilpi",
+      "Pelipaikka": "Oikea tukimies",
       "Ottelut": "14",
       "Maalit": "2"
     },
@@ -13780,6 +13955,7 @@
       "Sukunimi": "Hasso",
       "Etunimi": "Anatol",
       "Koko nimi": "Anatol Hasso",
+      "Pelipaikka": "Oikea välihyökkääjä",
       "Ottelut": "14",
       "Maalit": "4"
     },
@@ -13788,6 +13964,7 @@
       "Sukunimi": "Lahtinen",
       "Etunimi": "Lassi",
       "Koko nimi": "Lassi Lahtinen",
+      "Pelipaikka": "Oikea laitahyökkääjä",
       "Ottelut": "12",
       "Maalit": "3"
     },
@@ -13804,6 +13981,7 @@
       "Sukunimi": "Vepsäläinen",
       "Etunimi": "Rauno",
       "Koko nimi": "Rauno Vepsäläinen",
+      "Pelipaikka": "Vasen laitahyökkääjä",
       "Ottelut": "13",
       "Maalit": "4"
     },
@@ -13819,6 +13997,7 @@
       "Sukunimi": "Sarnola",
       "Etunimi": "Thure",
       "Koko nimi": "Thure Sarnola",
+      "Pelipaikka": "Maalivahti",
       "Ottelut": "5"
     },
     {
@@ -13840,6 +14019,7 @@
       "Sukunimi": "Kilpi",
       "Etunimi": "Eino",
       "Koko nimi": "Eino Kilpi",
+      "Pelipaikka": "Oikea tukimies",
       "Ottelut": "5"
     },
     {
@@ -13847,6 +14027,7 @@
       "Sukunimi": "Virtanen",
       "Etunimi": "Paavo",
       "Koko nimi": "Paavo Virtanen",
+      "Pelipaikka": "Keskuspuolustaja",
       "Ottelut": "5"
     },
     {
@@ -13854,6 +14035,7 @@
       "Sukunimi": "Lievonen",
       "Etunimi": "Yrjö",
       "Koko nimi": "Yrjö Lievonen",
+      "Pelipaikka": "Vasen tukimies",
       "Ottelut": "5"
     },
     {
@@ -13861,6 +14043,7 @@
       "Sukunimi": "Hasso",
       "Etunimi": "Anatol",
       "Koko nimi": "Anatol Hasso",
+      "Pelipaikka": "Oikea välihyökkääjä",
       "Ottelut": "5",
       "Maalit": "1"
     },
@@ -13869,6 +14052,7 @@
       "Sukunimi": "Sotiola",
       "Etunimi": "Yrjö",
       "Koko nimi": "Yrjö Sotiola",
+      "Pelipaikka": "Välihyökkääjä",
       "Ottelut": "5",
       "Maalit": "2"
     },
@@ -13891,6 +14075,7 @@
       "Sukunimi": "Vepsäläinen",
       "Etunimi": "Rauno",
       "Koko nimi": "Rauno Vepsäläinen",
+      "Pelipaikka": "Vasen laitahyökkääjä",
       "Ottelut": "5",
       "Maalit": "1"
     },
@@ -13928,6 +14113,7 @@
       "Sukunimi": "Salonen",
       "Etunimi": "Veikko",
       "Koko nimi": "Veikko Salonen",
+      "Pelipaikka": "Oikea puolustaja",
       "Ottelut": "8"
     },
     {
@@ -13942,6 +14128,7 @@
       "Sukunimi": "Kilpi",
       "Etunimi": "Eino",
       "Koko nimi": "Eino Kilpi",
+      "Pelipaikka": "Oikea tukimies",
       "Ottelut": "6"
     },
     {
@@ -13949,6 +14136,7 @@
       "Sukunimi": "Virtanen",
       "Etunimi": "Paavo",
       "Koko nimi": "Paavo Virtanen",
+      "Pelipaikka": "Keskuspuolustaja",
       "Ottelut": "10"
     },
     {
@@ -13970,6 +14158,7 @@
       "Sukunimi": "Hasso",
       "Etunimi": "Anatol",
       "Koko nimi": "Anatol Hasso",
+      "Pelipaikka": "Oikea välihyökkääjä",
       "Ottelut": "6"
     },
     {
@@ -13977,6 +14166,7 @@
       "Sukunimi": "Lievonen",
       "Etunimi": "Yrjö",
       "Koko nimi": "Yrjö Lievonen",
+      "Pelipaikka": "Vasen tukimies",
       "Ottelut": "4"
     },
     {
@@ -13984,6 +14174,7 @@
       "Sukunimi": "Sotiola",
       "Etunimi": "Yrjö",
       "Koko nimi": "Yrjö Sotiola",
+      "Pelipaikka": "Välihyökkääjä",
       "Ottelut": "8"
     },
     {
@@ -14013,6 +14204,7 @@
       "Sukunimi": "Lahtinen",
       "Etunimi": "Lassi",
       "Koko nimi": "Lassi Lahtinen",
+      "Pelipaikka": "Oikea laitahyökkääjä",
       "Ottelut": "7"
     },
     {
@@ -14085,7 +14277,8 @@
       "Kausi": "1942",
       "Sukunimi": "Vepsäläinen",
       "Etunimi": "Rauno",
-      "Koko nimi": "Rauno Vepsäläinen"
+      "Koko nimi": "Rauno Vepsäläinen",
+      "Pelipaikka": "Vasen laitahyökkääjä"
     },
     {
       "Kausi": "1942",
@@ -14097,13 +14290,15 @@
       "Kausi": "1942",
       "Sukunimi": "Salonen",
       "Etunimi": "Veikko",
-      "Koko nimi": "Veikko Salonen"
+      "Koko nimi": "Veikko Salonen",
+      "Pelipaikka": "Oikea puolustaja"
     },
     {
       "Kausi": "1942",
       "Sukunimi": "Lahtinen",
       "Etunimi": "Lassi",
-      "Koko nimi": "Lassi Lahtinen"
+      "Koko nimi": "Lassi Lahtinen",
+      "Pelipaikka": "Oikea laitahyökkääjä"
     },
     {
       "Kausi": "1942",
@@ -14134,7 +14329,8 @@
       "Kausi": "1942",
       "Sukunimi": "Virtanen",
       "Etunimi": "Paavo",
-      "Koko nimi": "Paavo Virtanen"
+      "Koko nimi": "Paavo Virtanen",
+      "Pelipaikka": "Keskuspuolustaja"
     },
     {
       "Kausi": "1942",
@@ -14152,13 +14348,15 @@
       "Kausi": "1942",
       "Sukunimi": "Lievonen",
       "Etunimi": "Yrjö",
-      "Koko nimi": "Yrjö Lievonen"
+      "Koko nimi": "Yrjö Lievonen",
+      "Pelipaikka": "Vasen tukimies"
     },
     {
       "Kausi": "1942",
       "Sukunimi": "Kilpi",
       "Etunimi": "Eino",
-      "Koko nimi": "Eino Kilpi"
+      "Koko nimi": "Eino Kilpi",
+      "Pelipaikka": "Oikea tukimies"
     },
     {
       "Kausi": "1942",
@@ -14199,13 +14397,15 @@
       "Kausi": "1942",
       "Sukunimi": "Hasso",
       "Etunimi": "Anatol",
-      "Koko nimi": "Anatol Hasso"
+      "Koko nimi": "Anatol Hasso",
+      "Pelipaikka": "Oikea välihyökkääjä"
     },
     {
       "Kausi": "1942",
       "Sukunimi": "Sotiola",
       "Etunimi": "Yrjö",
-      "Koko nimi": "Yrjö Sotiola"
+      "Koko nimi": "Yrjö Sotiola",
+      "Pelipaikka": "Välihyökkääjä"
     },
     {
       "Kausi": "1942",
@@ -14223,7 +14423,8 @@
       "Kausi": "1940-41",
       "Sukunimi": "Sarnola",
       "Etunimi": "Thure",
-      "Koko nimi": "Thure Sarnola"
+      "Koko nimi": "Thure Sarnola",
+      "Pelipaikka": "Maalivahti"
     },
     {
       "Kausi": "1940-41",
@@ -14245,6 +14446,7 @@
       "Sukunimi": "Rantanen",
       "Etunimi": "Kauko",
       "Koko nimi": "Kauko Rantanen",
+      "Pelipaikka": "Vasen puolustaja",
       "Ottelut": "7"
     },
     {
@@ -14282,6 +14484,7 @@
       "Sukunimi": "Sotiola",
       "Etunimi": "Yrjö",
       "Koko nimi": "Yrjö Sotiola",
+      "Pelipaikka": "Välihyökkääjä",
       "Ottelut": "13",
       "Maalit": "6"
     },
@@ -14290,6 +14493,7 @@
       "Sukunimi": "Virtanen",
       "Etunimi": "Paavo",
       "Koko nimi": "Paavo Virtanen",
+      "Pelipaikka": "Keskuspuolustaja",
       "Ottelut": "9"
     },
     {
@@ -14304,6 +14508,7 @@
       "Sukunimi": "Kilpi",
       "Etunimi": "Eino",
       "Koko nimi": "Eino Kilpi",
+      "Pelipaikka": "Oikea tukimies",
       "Ottelut": "13",
       "Maalit": "1"
     },
@@ -14413,6 +14618,7 @@
       "Sukunimi": "Sotiola",
       "Etunimi": "Yrjö",
       "Koko nimi": "Yrjö Sotiola",
+      "Pelipaikka": "Välihyökkääjä",
       "Ottelut": "13",
       "Maalit": "6"
     },
@@ -14421,6 +14627,7 @@
       "Sukunimi": "Virtanen",
       "Etunimi": "Paavo",
       "Koko nimi": "Paavo Virtanen",
+      "Pelipaikka": "Keskuspuolustaja",
       "Ottelut": "13",
       "Maalit": "4"
     },
@@ -14436,6 +14643,7 @@
       "Sukunimi": "Kilpi",
       "Etunimi": "Eino",
       "Koko nimi": "Eino Kilpi",
+      "Pelipaikka": "Oikea tukimies",
       "Ottelut": "13",
       "Maalit": "1"
     },
@@ -14487,6 +14695,7 @@
       "Sukunimi": "Rantanen",
       "Etunimi": "Kauko",
       "Koko nimi": "Kauko Rantanen",
+      "Pelipaikka": "Vasen puolustaja",
       "Ottelut": "2"
     },
     {
@@ -14553,6 +14762,7 @@
       "Sukunimi": "Sotiola",
       "Etunimi": "Yrjö",
       "Koko nimi": "Yrjö Sotiola",
+      "Pelipaikka": "Välihyökkääjä",
       "Ottelut": "13",
       "Maalit": "1"
     },
@@ -14561,6 +14771,7 @@
       "Sukunimi": "Virtanen",
       "Etunimi": "Paavo",
       "Koko nimi": "Paavo Virtanen",
+      "Pelipaikka": "Keskuspuolustaja",
       "Ottelut": "2"
     },
     {
@@ -14569,23 +14780,24 @@
       "Etunimi": "William",
       "Koko nimi": "William Kanerva",
       "Ottelut": "9",
-      "Maalit": "2"
+      "Maalit": "3"
     },
     {
       "Kausi": "1938",
       "Sukunimi": "Kilpi",
       "Etunimi": "Eino",
       "Koko nimi": "Eino Kilpi",
+      "Pelipaikka": "Oikea tukimies",
       "Ottelut": "14",
       "Maalit": "4"
     },
     {
       "Kausi": "1938",
       "Sukunimi": "Pesonen",
-      "Etunimi": "Sulo",
-      "Koko nimi": "Sulo Pesonen",
+      "Etunimi": "Atte",
+      "Koko nimi": "Atte Pesonen",
       "Ottelut": "11",
-      "Maalit": "5"
+      "Maalit": "4"
     },
     {
       "Kausi": "1938",
@@ -14606,7 +14818,8 @@
       "Sukunimi": "Pesonen",
       "Etunimi": "Arvo",
       "Koko nimi": "Arvo Pesonen",
-      "Ottelut": "8"
+      "Ottelut": "8",
+      "Maalit": "2"
     },
     {
       "Kausi": "1938",
@@ -14692,6 +14905,7 @@
       "Sukunimi": "Sotiola",
       "Etunimi": "Yrjö",
       "Koko nimi": "Yrjö Sotiola",
+      "Pelipaikka": "Välihyökkääjä",
       "Ottelut": "11",
       "Maalit": "2"
     },
@@ -14700,6 +14914,7 @@
       "Sukunimi": "Virtanen",
       "Etunimi": "Paavo",
       "Koko nimi": "Paavo Virtanen",
+      "Pelipaikka": "Keskuspuolustaja",
       "Ottelut": "14",
       "Maalit": "3"
     },
@@ -14716,6 +14931,7 @@
       "Sukunimi": "Kilpi",
       "Etunimi": "Eino",
       "Koko nimi": "Eino Kilpi",
+      "Pelipaikka": "Oikea tukimies",
       "Ottelut": "14"
     },
     {
@@ -14834,6 +15050,7 @@
       "Sukunimi": "Sotiola",
       "Etunimi": "Yrjö",
       "Koko nimi": "Yrjö Sotiola",
+      "Pelipaikka": "Välihyökkääjä",
       "Ottelut": "14",
       "Maalit": "4"
     },
@@ -14842,6 +15059,7 @@
       "Sukunimi": "Virtanen",
       "Etunimi": "Paavo",
       "Koko nimi": "Paavo Virtanen",
+      "Pelipaikka": "Keskuspuolustaja",
       "Ottelut": "13",
       "Maalit": "4"
     },
@@ -14858,6 +15076,7 @@
       "Sukunimi": "Kilpi",
       "Etunimi": "Eino",
       "Koko nimi": "Eino Kilpi",
+      "Pelipaikka": "Oikea tukimies",
       "Ottelut": "14",
       "Maalit": "2"
     },
@@ -14963,6 +15182,7 @@
       "Sukunimi": "Sotiola",
       "Etunimi": "Yrjö",
       "Koko nimi": "Yrjö Sotiola",
+      "Pelipaikka": "Välihyökkääjä",
       "Ottelut": "14",
       "Maalit": "6"
     },
@@ -14987,6 +15207,7 @@
       "Sukunimi": "Virtanen",
       "Etunimi": "Paavo",
       "Koko nimi": "Paavo Virtanen",
+      "Pelipaikka": "Keskuspuolustaja",
       "Ottelut": "12",
       "Maalit": "5"
     },
@@ -15076,6 +15297,7 @@
       "Sukunimi": "Sotiola",
       "Etunimi": "Yrjö",
       "Koko nimi": "Yrjö Sotiola",
+      "Pelipaikka": "Välihyökkääjä",
       "Ottelut": "14",
       "Maalit": "2"
     },
@@ -15114,6 +15336,7 @@
       "Sukunimi": "Virtanen",
       "Etunimi": "Paavo",
       "Koko nimi": "Paavo Virtanen",
+      "Pelipaikka": "Keskuspuolustaja",
       "Ottelut": "2"
     },
     {
@@ -15240,6 +15463,7 @@
       "Sukunimi": "Sotiola",
       "Etunimi": "Yrjö",
       "Koko nimi": "Yrjö Sotiola",
+      "Pelipaikka": "Välihyökkääjä",
       "Ottelut": "9",
       "Maalit": "3"
     },
@@ -15262,6 +15486,7 @@
       "Sukunimi": "Kilpi",
       "Etunimi": "Eino",
       "Koko nimi": "Eino Kilpi",
+      "Pelipaikka": "Oikea tukimies",
       "Ottelut": "3"
     },
     {
@@ -15376,6 +15601,7 @@
       "Sukunimi": "Kilpi",
       "Etunimi": "Eino",
       "Koko nimi": "Eino Kilpi",
+      "Pelipaikka": "Oikea tukimies",
       "Ottelut": "1"
     },
     {
@@ -15632,6 +15858,81 @@
       "Etunimi": "Sulo",
       "Koko nimi": "Sulo Sinervä",
       "Ottelut": "2"
+    },
+    {
+      "Kausi": "1921",
+      "Sukunimi": "Katajavuori",
+      "Etunimi": "Arvi",
+      "Koko nimi": "Arvi Katajavuori",
+      "Pelipaikka": "Hyökkääjä"
+    },
+    {
+      "Kausi": "1921",
+      "Sukunimi": "Linna",
+      "Etunimi": "Aarne",
+      "Koko nimi": "Aarne Linna"
+    },
+    {
+      "Kausi": "1921",
+      "Sukunimi": "Mantila",
+      "Etunimi": "Hugo",
+      "Koko nimi": "Hugo Mantila",
+      "Muu rooli": "Kapteeni"
+    },
+    {
+      "Kausi": "1921",
+      "Sukunimi": "Koskinen",
+      "Etunimi": "Niilo",
+      "Koko nimi": "Niilo Koskinen"
+    },
+    {
+      "Kausi": "1921",
+      "Sukunimi": "Belewicz (Elevuo)",
+      "Etunimi": "Harald",
+      "Koko nimi": "Harald Belewicz (Elevuo)",
+      "Pelipaikka": "Maalivahti"
+    },
+    {
+      "Kausi": "1921",
+      "Sukunimi": "Lydman",
+      "Etunimi": "Sven",
+      "Koko nimi": "Sven Lydman"
+    },
+    {
+      "Kausi": "1921",
+      "Sukunimi": "Karjagin",
+      "Etunimi": "Alexander",
+      "Koko nimi": "Alexander Karjagin"
+    },
+    {
+      "Kausi": "1921",
+      "Sukunimi": "Virta",
+      "Etunimi": "Lauri",
+      "Koko nimi": "Lauri Virta"
+    },
+    {
+      "Kausi": "1921",
+      "Sukunimi": "Tornivuori",
+      "Etunimi": "Yrjö",
+      "Koko nimi": "Yrjö Tornivuori"
+    },
+    {
+      "Kausi": "1921",
+      "Sukunimi": "Hirvonen",
+      "Etunimi": "Viljo",
+      "Koko nimi": "Viljo Hirvonen"
+    },
+    {
+      "Kausi": "1921",
+      "Sukunimi": "Mantila",
+      "Etunimi": "Bruno",
+      "Koko nimi": "Bruno Mantila"
+    },
+    {
+      "Kausi": "1921",
+      "Sukunimi": "Mantila",
+      "Etunimi": "Toivo",
+      "Koko nimi": "Toivo Mantila"
     },
     {
       "Kausi": "1920",
