@@ -7900,7 +7900,8 @@
       "Etunimi": "Harri",
       "Koko nimi": "Harri Koskinen",
       "Pelipaikka": "Puolustaja",
-      "Ottelut": "29"
+      "Ottelut": "29",
+      "Maalit": "3"
     },
     {
       "Kausi": "1983",
@@ -7916,7 +7917,8 @@
       "Etunimi": "Jorma",
       "Koko nimi": "Jorma Salmela",
       "Pelipaikka": "Keskikenttä",
-      "Ottelut": "27"
+      "Ottelut": "27",
+      "Maalit": "1"
     },
     {
       "Kausi": "1983",
@@ -7924,7 +7926,8 @@
       "Etunimi": "Seppo",
       "Koko nimi": "Seppo Laakkonen",
       "Pelipaikka": "Keskikenttä",
-      "Ottelut": "28"
+      "Ottelut": "28",
+      "Maalit": "8"
     },
     {
       "Kausi": "1983",
@@ -7932,7 +7935,8 @@
       "Etunimi": "Anssi",
       "Koko nimi": "Anssi Norovirta",
       "Pelipaikka": "Hyökkääjä",
-      "Ottelut": "19"
+      "Ottelut": "19",
+      "Maalit": "2"
     },
     {
       "Kausi": "1983",
@@ -7949,7 +7953,8 @@
       "Etunimi": "Kenneth",
       "Koko nimi": "Kenneth Grönroos",
       "Pelipaikka": "Hyökkääjä",
-      "Ottelut": "29"
+      "Ottelut": "29",
+      "Maalit": "4"
     },
     {
       "Kausi": "1983",
@@ -7965,7 +7970,8 @@
       "Etunimi": "Vesa",
       "Koko nimi": "Vesa Finska",
       "Pelipaikka": "Hyökkääjä",
-      "Ottelut": "23"
+      "Ottelut": "23",
+      "Maalit": "1"
     },
     {
       "Kausi": "1983",
@@ -7973,7 +7979,8 @@
       "Etunimi": "Pekka",
       "Koko nimi": "Pekka Haaranen",
       "Pelipaikka": "Keskikenttä",
-      "Ottelut": "19"
+      "Ottelut": "19",
+      "Maalit": "1"
     },
     {
       "Kausi": "1983",
@@ -7981,7 +7988,8 @@
       "Etunimi": "Pertti",
       "Koko nimi": "Pertti Niiranen",
       "Pelipaikka": "Keskikenttä",
-      "Ottelut": "11"
+      "Ottelut": "11",
+      "Maalit": "1"
     },
     {
       "Kausi": "1983",
@@ -7989,7 +7997,8 @@
       "Etunimi": "Marko",
       "Koko nimi": "Marko Salonranta",
       "Pelipaikka": "Puolustaja",
-      "Ottelut": "9"
+      "Ottelut": "9",
+      "Maalit": "1"
     },
     {
       "Kausi": "1983",
@@ -8095,14 +8104,16 @@
       "Sukunimi": "Apunen",
       "Etunimi": "Tapani",
       "Koko nimi": "Tapani Apunen",
-      "Pelipaikka": "Puolustaja"
+      "Pelipaikka": "Puolustaja",
+      "Maalit": "3"
     },
     {
       "Kausi": "1982",
       "Sukunimi": "Koskinen",
       "Etunimi": "Jari",
       "Koko nimi": "Jari Koskinen",
-      "Pelipaikka": "Puolustaja"
+      "Pelipaikka": "Puolustaja",
+      "Maalit": "1"
     },
     {
       "Kausi": "1982",
@@ -8116,7 +8127,8 @@
       "Sukunimi": "Virtanen",
       "Etunimi": "Mikko",
       "Koko nimi": "Mikko Virtanen",
-      "Pelipaikka": "Puolustaja"
+      "Pelipaikka": "Puolustaja",
+      "Maalit": "1"
     },
     {
       "Kausi": "1982",
@@ -8137,35 +8149,40 @@
       "Sukunimi": "Laakkonen",
       "Etunimi": "Seppo",
       "Koko nimi": "Seppo Laakkonen",
-      "Pelipaikka": "Keskikenttä"
+      "Pelipaikka": "Keskikenttä",
+      "Maalit": "8"
     },
     {
       "Kausi": "1982",
       "Sukunimi": "Niiranen",
       "Etunimi": "Pertti",
       "Koko nimi": "Pertti Niiranen",
-      "Pelipaikka": "Keskikenttä"
+      "Pelipaikka": "Keskikenttä",
+      "Maalit": "2"
     },
     {
       "Kausi": "1982",
       "Sukunimi": "Niemi",
       "Etunimi": "Mikko",
       "Koko nimi": "Mikko Niemi",
-      "Pelipaikka": "Keskikenttä"
+      "Pelipaikka": "Keskikenttä",
+      "Maalit": "10"
     },
     {
       "Kausi": "1982",
       "Sukunimi": "Salmela",
       "Etunimi": "Jorma",
       "Koko nimi": "Jorma Salmela",
-      "Pelipaikka": "Keskikenttä"
+      "Pelipaikka": "Keskikenttä",
+      "Maalit": "1"
     },
     {
       "Kausi": "1982",
       "Sukunimi": "Finska",
       "Etunimi": "Vesa",
       "Koko nimi": "Vesa Finska",
-      "Pelipaikka": "Hyökkääjä"
+      "Pelipaikka": "Hyökkääjä",
+      "Maalit": "1"
     },
     {
       "Kausi": "1982",
@@ -8173,7 +8190,7 @@
       "Etunimi": "Kenneth",
       "Koko nimi": "Kenneth Grönroos",
       "Pelipaikka": "Hyökkääjä",
-      "Maalit": "13"
+      "Maalit": "12"
     },
     {
       "Kausi": "1982",
@@ -8181,7 +8198,7 @@
       "Etunimi": "Arto",
       "Koko nimi": "Arto Keisalo",
       "Pelipaikka": "Hyökkääjä",
-      "Maalit": "13"
+      "Maalit": "14"
     },
     {
       "Kausi": "1982",
@@ -8195,7 +8212,8 @@
       "Sukunimi": "Ojala",
       "Etunimi": "Tommi",
       "Koko nimi": "Tommi Ojala",
-      "Pelipaikka": "Hyökkääjä"
+      "Pelipaikka": "Hyökkääjä",
+      "Maalit": "1"
     },
     {
       "Kausi": "1982",
@@ -8209,7 +8227,15 @@
       "Sukunimi": "Honkanen",
       "Etunimi": "Harri",
       "Koko nimi": "Harri Honkanen",
-      "Pelipaikka": "Hyökkääjä"
+      "Pelipaikka": "Hyökkääjä",
+      "Maalit": "5"
+    },
+    {
+      "Kausi": "1982",
+      "Sukunimi": "Salomaa",
+      "Etunimi": "??",
+      "Koko nimi": "?? Salomaa",
+      "Maalit": "2"
     },
     {
       "Kausi": "1982",
@@ -8258,14 +8284,16 @@
       "Sukunimi": "Holm",
       "Etunimi": "Veli",
       "Koko nimi": "Veli Holm",
-      "Pelipaikka": "Puolustaja"
+      "Pelipaikka": "Puolustaja",
+      "Maalit": "1"
     },
     {
       "Kausi": "1981",
       "Sukunimi": "Koskinen",
       "Etunimi": "Harri",
       "Koko nimi": "Harri Koskinen",
-      "Pelipaikka": "Puolustaja"
+      "Pelipaikka": "Puolustaja",
+      "Maalit": "2"
     },
     {
       "Kausi": "1981",
@@ -8280,7 +8308,8 @@
       "Sukunimi": "Orola",
       "Etunimi": "Jarmo",
       "Koko nimi": "Jarmo Orola",
-      "Pelipaikka": "Puolustaja"
+      "Pelipaikka": "Puolustaja",
+      "Maalit": "1"
     },
     {
       "Kausi": "1981",
@@ -8333,7 +8362,8 @@
       "Sukunimi": "Salmela",
       "Etunimi": "Jorma",
       "Koko nimi": "Jorma Salmela",
-      "Pelipaikka": "Keskikenttä"
+      "Pelipaikka": "Keskikenttä",
+      "Maalit": "2"
     },
     {
       "Kausi": "1981",
@@ -8348,7 +8378,7 @@
       "Etunimi": "Kenneth",
       "Koko nimi": "Kenneth Grönroos",
       "Pelipaikka": "Hyökkääjä",
-      "Maalit": "5"
+      "Maalit": "7"
     },
     {
       "Kausi": "1981",
@@ -8393,7 +8423,7 @@
       "Etunimi": "Ari",
       "Koko nimi": "Ari Weckström",
       "Pelipaikka": "Hyökkääjä",
-      "Maalit": "9"
+      "Maalit": "10"
     },
     {
       "Kausi": "1981",
@@ -8464,7 +8494,8 @@
       "Sukunimi": "Laiho",
       "Etunimi": "Risto",
       "Koko nimi": "Risto Laiho",
-      "Pelipaikka": "Puolustaja"
+      "Pelipaikka": "Puolustaja",
+      "Maalit": "1"
     },
     {
       "Kausi": "1980",
@@ -8492,7 +8523,8 @@
       "Sukunimi": "Gröndahl",
       "Etunimi": "Kari",
       "Koko nimi": "Kari Gröndahl",
-      "Pelipaikka": "Keskikenttä"
+      "Pelipaikka": "Keskikenttä",
+      "Maalit": "5"
     },
     {
       "Kausi": "1980",
@@ -8506,7 +8538,8 @@
       "Sukunimi": "Partanen",
       "Etunimi": "Juha",
       "Koko nimi": "Juha Partanen",
-      "Pelipaikka": "Keskikenttä"
+      "Pelipaikka": "Keskikenttä",
+      "Maalit": "1"
     },
     {
       "Kausi": "1980",
@@ -8527,7 +8560,8 @@
       "Sukunimi": "Grönroos",
       "Etunimi": "Kenneth",
       "Koko nimi": "Kenneth Grönroos",
-      "Pelipaikka": "Hyökkääjä"
+      "Pelipaikka": "Hyökkääjä",
+      "Maalit": "3"
     },
     {
       "Kausi": "1980",
@@ -8541,14 +8575,16 @@
       "Sukunimi": "Niiranen",
       "Etunimi": "Pertti",
       "Koko nimi": "Pertti Niiranen",
-      "Pelipaikka": "Hyökkääjä"
+      "Pelipaikka": "Hyökkääjä",
+      "Maalit": "3"
     },
     {
       "Kausi": "1980",
       "Sukunimi": "Ojala",
       "Etunimi": "Tommi",
       "Koko nimi": "Tommi Ojala",
-      "Pelipaikka": "Hyökkääjä"
+      "Pelipaikka": "Hyökkääjä",
+      "Maalit": "4"
     },
     {
       "Kausi": "1980",
@@ -8557,6 +8593,13 @@
       "Koko nimi": "Ari Weckström",
       "Pelipaikka": "Hyökkääjä",
       "Maalit": "12"
+    },
+    {
+      "Kausi": "1980",
+      "Sukunimi": "Finska",
+      "Etunimi": "Vesa",
+      "Koko nimi": "Vesa Finska",
+      "Maalit": "3"
     },
     {
       "Kausi": "1980",
@@ -8622,7 +8665,7 @@
       "Sukunimi": "Gröndahl",
       "Etunimi": "Kari",
       "Koko nimi": "Kari Gröndahl",
-      "Maalit": "7"
+      "Maalit": "9"
     },
     {
       "Kausi": "1979",
@@ -8650,7 +8693,7 @@
       "Sukunimi": "Laiho",
       "Etunimi": "Risto",
       "Koko nimi": "Risto Laiho",
-      "Maalit": "2"
+      "Maalit": "3"
     },
     {
       "Kausi": "1979",
@@ -8664,7 +8707,14 @@
       "Sukunimi": "Niiranen",
       "Etunimi": "Pertti",
       "Koko nimi": "Pertti Niiranen",
-      "Maalit": "2"
+      "Maalit": "3"
+    },
+    {
+      "Kausi": "1979",
+      "Sukunimi": "Koskinen",
+      "Etunimi": "??",
+      "Koko nimi": "?? Koskinen",
+      "Maalit": "1"
     },
     {
       "Kausi": "1979",
@@ -8689,20 +8739,23 @@
       "Kausi": "1978",
       "Sukunimi": "Gröndahl",
       "Etunimi": "Kari",
-      "Koko nimi": "Kari Gröndahl"
+      "Koko nimi": "Kari Gröndahl",
+      "Maalit": "4"
     },
     {
       "Kausi": "1978",
       "Sukunimi": "Heikkonen",
       "Etunimi": "Erkki",
-      "Koko nimi": "Erkki Heikkonen"
+      "Koko nimi": "Erkki Heikkonen",
+      "Maalit": "10"
     },
     {
       "Kausi": "1978",
       "Sukunimi": "Jäkkö",
       "Etunimi": "Jarmo",
       "Koko nimi": "Jarmo Jäkkö",
-      "Muu rooli": "Kapteeni"
+      "Muu rooli": "Kapteeni",
+      "Maalit": "1"
     },
     {
       "Kausi": "1978",
@@ -8714,19 +8767,22 @@
       "Kausi": "1978",
       "Sukunimi": "Niiranen",
       "Etunimi": "Pertti",
-      "Koko nimi": "Pertti Niiranen"
+      "Koko nimi": "Pertti Niiranen",
+      "Maalit": "2"
     },
     {
       "Kausi": "1978",
       "Sukunimi": "Ojala",
       "Etunimi": "Tommi",
-      "Koko nimi": "Tommi Ojala"
+      "Koko nimi": "Tommi Ojala",
+      "Maalit": "3"
     },
     {
       "Kausi": "1978",
       "Sukunimi": "Orola",
       "Etunimi": "Jarmo",
-      "Koko nimi": "Jarmo Orola"
+      "Koko nimi": "Jarmo Orola",
+      "Maalit": "1"
     },
     {
       "Kausi": "1978",
@@ -8738,7 +8794,8 @@
       "Kausi": "1978",
       "Sukunimi": "Peltoniemi",
       "Etunimi": "Markku",
-      "Koko nimi": "Markku Peltoniemi"
+      "Koko nimi": "Markku Peltoniemi",
+      "Maalit": "3"
     },
     {
       "Kausi": "1978",
@@ -8750,13 +8807,15 @@
       "Kausi": "1978",
       "Sukunimi": "Salmela",
       "Etunimi": "Jorma",
-      "Koko nimi": "Jorma Salmela"
+      "Koko nimi": "Jorma Salmela",
+      "Maalit": "4"
     },
     {
       "Kausi": "1978",
       "Sukunimi": "Suvanne",
       "Etunimi": "Timo",
-      "Koko nimi": "Timo Suvanne"
+      "Koko nimi": "Timo Suvanne",
+      "Maalit": "1"
     },
     {
       "Kausi": "1978",
@@ -8774,7 +8833,8 @@
       "Kausi": "1978",
       "Sukunimi": "Tuomi",
       "Etunimi": "Olli",
-      "Koko nimi": "Olli Tuomi"
+      "Koko nimi": "Olli Tuomi",
+      "Maalit": "15"
     },
     {
       "Kausi": "1978",
@@ -8786,7 +8846,8 @@
       "Kausi": "1978",
       "Sukunimi": "Virtanen",
       "Etunimi": "Markku",
-      "Koko nimi": "Markku Virtanen"
+      "Koko nimi": "Markku Virtanen",
+      "Maalit": "2"
     },
     {
       "Kausi": "1978",
