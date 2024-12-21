@@ -298,15 +298,33 @@
     },
     {
       "Lyhenne": "FC Viikingit",
-      "Logo": "FC Viikingit.jpg"
+      "Koko nimi": "Vuosaaren Viikingit",
+      "Lempinimet": "Viikkarit",
+      "Kotikaupunki": "Helsinki",
+      "Perustamisvuosi": "1965",
+      "Liittynyt seuraan": "FC Viikingit",
+      "Logo": "FC Viikingit.jpg",
+      "Linkki": "https://fi.wikipedia.org/wiki/FC_Viikingit"
     },
     {
       "Lyhenne": "FC Viikingit/",
-      "Logo": "FC Viikingit .jpg"
+      "Koko nimi": "Vuosaaren Viikingit",
+      "Lempinimet": "Viikkarit",
+      "Kotikaupunki": "Helsinki",
+      "Perustamisvuosi": "1965",
+      "Liittynyt seuraan": "FC Viikingit",
+      "Logo": "FC Viikingit .jpg",
+      "Linkki": "https://fi.wikipedia.org/wiki/FC_Viikingit"
     },
     {
       "Lyhenne": "FC Viikingit/2",
-      "Logo": "FC Viikingit 2.jpg"
+      "Koko nimi": "Vuosaaren Viikingit",
+      "Lempinimet": "Viikkarit",
+      "Kotikaupunki": "Helsinki",
+      "Perustamisvuosi": "1965",
+      "Liittynyt seuraan": "FC Viikingit",
+      "Logo": "FC Viikingit 2.jpg",
+      "Linkki": "https://fi.wikipedia.org/wiki/FC_Viikingit"
     },
     {
       "Lyhenne": "FC Wartti/WB",
@@ -1174,6 +1192,15 @@
       "Logo": "Ramadan Utd.jpg"
     },
     {
+      "Lyhenne": "Reims",
+      "Koko nimi": "Stade de Reims",
+      "Lempinimet": "Les rouges et blancs",
+      "Kotikaupunki": "Reims",
+      "Perustamisvuosi": "1910",
+      "Logo": "Reims.jpg",
+      "Linkki": "https://en.wikipedia.org/wiki/Stade_de_Reims"
+    },
+    {
       "Lyhenne": "Reipas",
       "Koko nimi": "Viipurin Reipas",
       "Kotikaupunki": "Viipuri/Lahti",
@@ -1479,7 +1506,13 @@
     },
     {
       "Lyhenne": "Viikingit",
-      "Logo": "Viikingit.jpg"
+      "Koko nimi": "Vuosaaren Viikingit",
+      "Lempinimet": "Viikkarit",
+      "Kotikaupunki": "Helsinki",
+      "Perustamisvuosi": "1965",
+      "Liittynyt seuraan": "FC Viikingit",
+      "Logo": "Viikingit.jpg",
+      "Linkki": "https://fi.wikipedia.org/wiki/FC_Viikingit"
     },
     {
       "Lyhenne": "ViPS",

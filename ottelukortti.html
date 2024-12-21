@@ -6,55 +6,96 @@
     <title>Ottelukortti</title>
     <link rel="stylesheet" href="style.css">
     <style>
-        .match-header {
-            color: rgb(0, 100, 40); /* Vihreä fontti */
-            font-size: 2rem;
-            text-align: center;
+        :root {
+            --table-width: 40%; /* Taulukon leveys maalintekijöille */
+            --result-table-width: 60%; /* Taulukon leveys tulokselle */
+            --col-width-1: 20%; /* Ensimmäisen sarakkeen leveys */
+            --col-width-2: 5%;  /* Toisen sarakkeen leveys */
+            --col-width-3: 15%; /* Kolmannen sarakkeen leveys */
+            --col-width-4: 5%;  /* Neljännen sarakkeen leveys */
+            --col-width-5: 20%; /* Viidennen sarakkeen leveys */
+        }
+        .section {
+            margin-bottom: 30px;
+            padding: 20px;
+            border: none;
+            background-color: transparent; /* Poistetaan taustaväri */
         }
         .match-details {
+            font-size: 1.5rem; /* Suurempi fontti kilpailulle */
+            font-weight: bold;
+            line-height: 1.5;
+            color: rgb(0, 100, 40); /* Vihreä fontti */
+        }
+        .stadium-city {
             font-size: 1.2rem;
-            text-align: center;
+        }
+        .date {
+            font-size: 1.2rem;
+        }
+        .officials {
+            font-size: 1.2rem;
             margin-top: 10px;
         }
-        .match-logos {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-top: 50px; /* Väli logojen ja tuloksen välillä */
+        .result-table {
+            width: var(--result-table-width);
+            margin: 0 auto;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        .result-table td {
+            padding: 10px;
+            border: none; /* Poistetaan taulukon reunat */
+            vertical-align: middle;
+        }
+        .result-table td:first-child {
+            width: var(--col-width-1);
+            text-align: right; /* Tasataan oikeaan reunaan */
+        }
+        .result-table td:nth-child(2) {
+            width: var(--col-width-2);
+        }
+        .result-table td:nth-child(3) {
+            width: var(--col-width-3);
+        }
+        .result-table td:nth-child(4) {
+            width: var(--col-width-4);
+        }
+        .result-table td:last-child {
+            width: var(--col-width-5);
+            text-align: left; /* Tasataan vasempaan reunaan */
+        }
+        .team-name {
+            font-size: 1.5rem;
+            font-weight: bold;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
         .team-logo {
             width: 75px;
             height: 75px;
         }
-        .team-name {
-            font-size: 1.8rem; /* Suurempi fonttikoko */
-            font-weight: bold;
-            color: black;
-            text-align: center;
-            margin-bottom: 10px; /* Väli nimen ja logon välillä */
-        }
         .score {
-            font-size: 2rem;
+            font-size: 3rem;
             font-weight: bold;
-            text-align: center;
-            margin: 0 50px; /* Väli logojen ja tuloksen välillä */
         }
-        .team-container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+        .scorer-table {
+            width: var(--table-width);
+            margin: 20px auto; /* Keskittää taulukon */
+            border-collapse: collapse;
+            text-align: left;
         }
-        .scorer-list {
-            margin-top: 10px;
-            text-align: center;
-            font-size: 1rem;
-            color: black;
+        .scorer-table td {
+            padding: 10px 20px; /* Lisää riviväliä */
+            border: none; /* Poistaa taulukon reunat */
+            vertical-align: top; /* Tasaa listat sarakkeiden yläreunaan */
         }
         .scorer {
             display: flex;
             align-items: center;
-            justify-content: center;
-            margin-top: 5px;
+            font-size: 1rem;
+            margin-bottom: 10px; /* Lisää riviväliä maalintekijöille */
         }
         .scorer img {
             width: 20px;
@@ -81,71 +122,109 @@
     </div>
 
     <main>
-        <div id="match-content">
-            <!-- Ottelun tiedot haetaan ja asetetaan JavaScriptillä -->
+        <!-- Ottelun tiedot -->
+        <div class="section">
+            <p class="match-details" id="competition"></p>
+            <p class="stadium-city" id="stadium-city"></p>
+            <p class="date" id="date"></p>
+            <p class="officials" id="referee"></p>
+            <p class="officials" id="attendance"></p>
+        </div>
+
+        <!-- Ottelun tulos -->
+        <div class="section">
+            <table class="result-table">
+                <tr>
+                    <td class="team-name" id="home-name"></td>
+                    <td><img src="" alt="Kotijoukkueen logo" class="team-logo" id="home-logo"></td>
+                    <td class="score" id="score"></td>
+                    <td><img src="" alt="Vierasjoukkueen logo" class="team-logo" id="away-logo"></td>
+                    <td class="team-name" id="away-name"></td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Maalintekijät -->
+        <div class="section">
+            <table class="scorer-table">
+                <tr>
+                    <td id="home-scorers"></td>
+                    <td id="away-scorers"></td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Joukkueiden kokoonpanot -->
+        <div class="section">
+            <div class="team-roster">
+                <div id="home-roster"></div>
+                <div id="away-roster"></div>
+            </div>
+        </div>
+
+        <!-- Ottelun lisätiedot -->
+        <div class="section">
+            <div class="extra-info" id="extra-info"></div>
         </div>
     </main>
 
     <script>
         const urlParams = new URLSearchParams(window.location.search);
-        const otteluId = parseInt(urlParams.get('ottelu_id'), 10); // Muutetaan numeroksi
+        const otteluId = parseInt(urlParams.get('ottelu_id'), 10);
 
         if (otteluId) {
             fetch('ottelut.json')
                 .then(response => response.json())
                 .then(matches => {
-                    const match = matches.find(m => parseInt(m.ottelu_id, 10) === otteluId); // Vertaillaan numeroina
+                    const match = matches.find(m => parseInt(m.ottelu_id, 10) === otteluId);
                     if (!match) {
-                        document.getElementById('match-content').innerHTML = '<p>Ottelua ei löytynyt!</p>';
+                        document.body.innerHTML = '<p>Ottelua ei löytynyt!</p>';
                         return;
                     }
 
-                    fetch('sarjataulukot.json')
+                    fetch('vastustajat.json')
                         .then(response => response.json())
                         .then(teams => {
-                            const teamLogos = {};
+                            const teamData = {};
                             teams.forEach(team => {
-                                if (team.Joukkue && team.Logo) {
-                                    teamLogos[team.Joukkue] = team.Logo;
+                                if (team.Lyhenne && team.Logo) {
+                                    teamData[team.Lyhenne] = { logo: team.Logo, name: team.Lyhenne };
                                 }
                             });
 
-                            const matchContent = `
-                                <h1 class="match-header">${match.Kilpailu}</h1>
-                                <p class="match-details">${match.Stadion}, ${match.Kaupunki}</p>
-                                <p class="match-details">${match.Päivämäärä}</p>
-                                <div class="match-logos">
-                                    <div class="team-container">
-                                        <p class="team-name">${match.Kotijoukkue}</p>
-                                        <img src="logot/${teamLogos[match.Kotijoukkue] || ''}" alt="${match.Kotijoukkue}" class="team-logo">
-                                        <div class="scorer-list">
-                                            <div class="scorer">
-                                                <img src="/logot/Pallo.jpg" alt="Pallo">
-                                                <span>Knuutinen 13'</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="score">${match.maalit_koti}-${match.maalit_vieras}</div>
-                                    <div class="team-container">
-                                        <p class="team-name">${match.Vierasjoukkue}</p>
-                                        <img src="logot/${teamLogos[match.Vierasjoukkue] || ''}" alt="${match.Vierasjoukkue}" class="team-logo">
-                                        <div class="scorer-list">
-                                            <div class="scorer">
-                                                <img src="/logot/Pallo.jpg" alt="Pallo">
-                                                <span>Knuutinen 13'</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            `;
+                            const homeData = teamData[match.Kotijoukkue] || { name: match.Kotijoukkue, logo: 'placeholder.png' };
+                            const awayData = teamData[match.Vierasjoukkue] || { name: match.Vierasjoukkue, logo: 'placeholder.png' };
 
-                            document.getElementById('match-content').innerHTML = matchContent;
+                            document.getElementById('home-name').textContent = homeData.name;
+                            document.getElementById('home-logo').src = `logot/${homeData.logo}`;
+                            document.getElementById('score').textContent = `${match.maalit_koti} - ${match.maalit_vieras}`;
+                            document.getElementById('away-logo').src = `logot/${awayData.logo}`;
+                            document.getElementById('away-name').textContent = awayData.name;
+
+                            const parseScorers = (scorersString) => scorersString
+                                ? scorersString.split(',').map(s => {
+                                    const parts = s.trim().split(' ');
+                                    const time = parts.pop();
+                                    const name = parts.join(' ');
+                                    return `<div class="scorer"><img src="/logot/Pallo.jpg" alt="Pallo">${name} ${time || ''}'</div>`;
+                                }).join('')
+                                : '<p>Ei maalintekijöitä</p>';
+
+                            document.getElementById('home-scorers').innerHTML = parseScorers(match.maalintekijät_koti);
+                            document.getElementById('away-scorers').innerHTML = parseScorers(match.maalintekijät_vieras);
+
+                            // Täytä muut osiot
+                            document.getElementById('competition').textContent = match.Kilpailu;
+                            document.getElementById('stadium-city').textContent = `${match.Stadion}, ${match.Kaupunki}`;
+                            document.getElementById('date').textContent = match.Päivämäärä;
+                            document.getElementById('referee').textContent = `Erotuomari: ${match.erotuomari || 'Tieto puuttuu'}`;
+                            document.getElementById('attendance').textContent = `Yleisömäärä: ${match.yleisömäärä || 'Tieto puuttuu'}`;
                         })
-                        .catch(error => console.error('Virhe ladattaessa joukkueiden tietoja:', error));
+                        .catch(error => console.error('Virhe ladattaessa vastustajat.json-tiedostoa:', error));
                 })
-                .catch(error => console.error('Virhe ladattaessa ottelutietoja:', error));
+                .catch(error => console.error('Virhe ladattaessa ottelut.json-tiedostoa:', error));
         } else {
-            document.getElementById('match-content').innerHTML = '<p>Ottelun tiedot puuttuvat!</p>';
+            document.getElementById('match-result').innerHTML = '<p>Ottelun tiedot puuttuvat!</p>';
         }
     </script>
 </body>
