@@ -1198,378 +1198,484 @@
     {
       "ottelu_id": "202116",
       "Kausi": "2021",
-      "Päivämäärä": "8.10.2021",
-      "Kilpailu": "Kolmonen",
+      "Päivämäärä": "10/8/21",
+      "Kilpailu": "Kolmonen, yläloppusarja",
       "Stadion": "Jätkäsaari",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "PPJ",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "erotuomari": "Fahad Ali",
+      "maalintekijät_koti": "Tommi Kari 63",
+      "maalintekijät_vieras": "Elmer Laaksonen 10"
     },
     {
       "ottelu_id": "202115",
       "Kausi": "2021",
-      "Päivämäärä": "2.10.2021",
-      "Kilpailu": "Kolmonen",
+      "Päivämäärä": "10/2/21",
+      "Kilpailu": "Kolmonen, yläloppusarja",
       "Stadion": "Laajasalo",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "LPS",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "erotuomari": "Kim Junna",
+      "maalintekijät_koti": "Topi Rihtniemi 12,Aleksi Räisänen 76",
+      "maalintekijät_vieras": "Eero Puro 17,Elmer Laaksonen 22,Saku Kaivola 31"
     },
     {
       "ottelu_id": "202114",
       "Kausi": "2021",
-      "Päivämäärä": "24.9.2021",
-      "Kilpailu": "Kolmonen",
-      "Stadion": "Pakila Road",
+      "Päivämäärä": "9/24/21",
+      "Kilpailu": "Kolmonen, yläloppusarja",
+      "Stadion": "Paloheinä",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "FC FINNKURD",
       "maalit_koti": "3",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "erotuomari": "Mikko Mörö",
+      "maalintekijät_koti": "Aaro Törnblom 18,Saku Kaivola 45,Aaro Törnblom 71",
+      "maalintekijät_vieras": "Zanjar Abubakir 60"
     },
     {
       "ottelu_id": "202113",
       "Kausi": "2021",
-      "Päivämäärä": "17.9.2021",
-      "Kilpailu": "Kolmonen",
-      "Stadion": "Pakila Road",
+      "Päivämäärä": "9/17/21",
+      "Kilpailu": "Kolmonen, yläloppusarja",
+      "Stadion": "Paloheinä",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "TiPS",
       "maalit_koti": "1",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "erotuomari": "Jan-Peter Aravirta",
+      "maalintekijät_koti": "Niklas Ekroth 35",
+      "maalintekijät_vieras": "Waltteri Koivunen 71"
     },
     {
       "ottelu_id": "202112",
       "Kausi": "2021",
-      "Päivämäärä": "7.9.2021",
-      "Kilpailu": "Kolmonen",
-      "Stadion": "Pakila Road",
+      "Päivämäärä": "9/7/21",
+      "Kilpailu": "Kolmonen, yläloppusarja",
+      "Stadion": "Paloheinä",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "MPS/Atletico Malmi",
       "maalit_koti": "1",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "erotuomari": "Sami Kekäläinen",
+      "maalintekijät_koti": "Jomi Papunen 89",
+      "maalintekijät_vieras": "Kevin Nurmi 70"
     },
     {
       "ottelu_id": "202111",
       "Kausi": "2021",
-      "Päivämäärä": "1.9.2021",
+      "Päivämäärä": "9/1/21",
       "Kilpailu": "Kolmonen",
       "Stadion": "Havukoski",
       "Kaupunki": "Vantaa",
       "Kotijoukkue": "KoiPS",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "erotuomari": "Mikko Mörö",
+      "maalintekijät_koti": "Kim Lundgren 18",
+      "maalintekijät_vieras": "Emil Asp 44,Aaro Törnblom 80"
     },
     {
       "ottelu_id": "202110",
       "Kausi": "2021",
-      "Päivämäärä": "27.8.2021",
+      "Päivämäärä": "8/27/21",
       "Kilpailu": "Kolmonen",
-      "Stadion": "Pakila Road",
+      "Stadion": "Paloheinä",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "MPS/Atletico Malmi",
       "maalit_koti": "2",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "erotuomari": "Valentin Smirnov",
+      "maalintekijät_koti": "Jaakko Eskola 34,Juho Hirvonen 90+3"
     },
     {
       "ottelu_id": "202109",
       "Kausi": "2021",
-      "Päivämäärä": "24.8.2021",
+      "Päivämäärä": "8/24/21",
       "Kilpailu": "Kolmonen",
-      "Stadion": "Pakila Road",
+      "Stadion": "Paloheinä",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "FC Viikingit",
       "maalit_koti": "4",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "erotuomari": "Jan-Peter Aravirta",
+      "maalintekijät_koti": "Elmer Laaksonen 50,Aaro Törnblom 60,Saku Kaivola 64,Saku Kaivola 88"
     },
     {
       "ottelu_id": "202108",
       "Kausi": "2021",
-      "Päivämäärä": "21.8.2021",
+      "Päivämäärä": "8/21/21",
       "Kilpailu": "Kolmonen",
       "Stadion": "Väinämöinen",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HIFK/2",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "erotuomari": "Fahad Ali",
+      "maalintekijät_koti": "Said Mijoc 76",
+      "maalintekijät_vieras": "Juho Hirvonen 83"
     },
     {
       "ottelu_id": "202107",
       "Kausi": "2021",
-      "Päivämäärä": "13.8.2021",
+      "Päivämäärä": "8/13/21",
       "Kilpailu": "Kolmonen",
-      "Stadion": "Pakila Road",
+      "Stadion": "Paloheinä",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "TiPS",
       "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "erotuomari": "Osman Mohammadi"
     },
     {
       "ottelu_id": "202106",
       "Kausi": "2021",
-      "Päivämäärä": "6.8.2021",
+      "Päivämäärä": "8/6/21",
       "Kilpailu": "Kolmonen",
       "Stadion": "Laajasalo",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "LPS",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "6",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "erotuomari": "Lucinilton Ferreira",
+      "maalintekijät_koti": "Aleksi Räisänen 11,Topi Rihtniemi 18,Mika Simonen 20,Oskari Alentola 27,Riku-Pekka Huhanantti 35,Mika Simonen 70",
+      "maalintekijät_vieras": "Aaro Törnblom 13,Elmer Laaksonen 62,Aaro Törnblom 78"
     },
     {
       "ottelu_id": "202105",
       "Kausi": "2021",
-      "Päivämäärä": "3.8.2021",
+      "Päivämäärä": "8/3/21",
       "Kilpailu": "Kolmonen",
-      "Stadion": "Pakila Road",
+      "Stadion": "Paloheinä",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "PuiU",
       "maalit_koti": "6",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "erotuomari": " "
     },
     {
       "ottelu_id": "202104",
       "Kausi": "2021",
-      "Päivämäärä": "3.7.2021",
+      "Päivämäärä": "7/3/21",
       "Kilpailu": "Kolmonen",
       "Stadion": "Töölö Pallokenttä",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "FC FINNKURD",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "erotuomari": "Juuso Vuorinen",
+      "maalintekijät_koti": "Emmanuel Sarpong 41, Emmanuel Sarpong 68",
+      "maalintekijät_vieras": "Niklas Ekroth 32,Juho Hirvonen 88"
     },
     {
       "ottelu_id": "202103",
       "Kausi": "2021",
-      "Päivämäärä": "22.6.2021",
+      "Päivämäärä": "6/22/21",
       "Kilpailu": "Kolmonen",
       "Stadion": "Töölö Pallokenttä",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "SAPA/3",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "erotuomari": "Kim Junna",
+      "maalintekijät_koti": "Patrik Huber 29,Tim Tuomikoski 90+5",
+      "maalintekijät_vieras": "Emil Asp 1,Matias Helin 42"
     },
     {
       "ottelu_id": "202102",
       "Kausi": "2021",
-      "Päivämäärä": "18.6.2021",
+      "Päivämäärä": "6/18/21",
       "Kilpailu": "Kolmonen",
-      "Stadion": "Pakila Road",
+      "Stadion": "Paloheinä",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "FC Espoo/2",
       "maalit_koti": "3",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "erotuomari": "Osman Mohammadi",
+      "maalintekijät_koti": "Niklas Ekroth 48,Valtteri Marttinen 50,Niklas Ekroth 74",
+      "maalintekijät_vieras": "Samir Shkreli 76"
     },
     {
       "ottelu_id": "202101",
       "Kausi": "2021",
-      "Päivämäärä": "11.6.2021",
+      "Päivämäärä": "6/11/21",
       "Kilpailu": "Kolmonen",
-      "Stadion": "Pakila Road",
+      "Stadion": "Paloheinä",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "PPJ",
       "maalit_koti": "1",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "erotuomari": "Fahad Ali",
+      "maalintekijät_koti": "Valtteri Marttinen 63"
     },
     {
       "ottelu_id": "202017",
       "Kausi": "2020",
-      "Päivämäärä": "10.10.2020",
+      "Päivämäärä": "10/10/20",
       "Kilpailu": "Kolmonen",
+      "Stadion": "Paloheinä",
+      "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "CLE",
       "maalit_koti": "1",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "erotuomari": "Fahad Ali",
+      "maalintekijät_koti": "Niklas Ekroth 36",
+      "maalintekijät_vieras": "Emilio Tarnaala 16,Yoba Mballo 49,Hannu Kaakinen (rp) 55"
     },
     {
       "ottelu_id": "202016",
       "Kausi": "2020",
-      "Päivämäärä": "2.10.2020",
+      "Päivämäärä": "10/2/20",
       "Kilpailu": "Kolmonen",
+      "Stadion": "Laaksolahti",
+      "Kaupunki": "Espoo",
       "Kotijoukkue": "SexyPöxyt",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "erotuomari": "Christian De Casseres",
+      "maalintekijät_koti": "Janne Aalto 47,Markus Uusimäki 90+3",
+      "maalintekijät_vieras": "Joonas Rissanen 62"
     },
     {
       "ottelu_id": "202015",
       "Kausi": "2020",
-      "Päivämäärä": "25.9.2020",
+      "Päivämäärä": "9/25/20",
       "Kilpailu": "Kolmonen",
+      "Stadion": "Paloheinä",
+      "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Toukolan Teräs",
       "maalit_koti": "0",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "erotuomari": "Henrik Seikku",
+      "maalintekijät_koti": "Oliver Reitala (rp) 77,Arttu Rantala 87"
     },
     {
       "ottelu_id": "202014",
       "Kausi": "2020",
-      "Päivämäärä": "18.9.2020",
+      "Päivämäärä": "9/18/20",
       "Kilpailu": "Kolmonen",
+      "Stadion": "Kumpula",
+      "Kaupunki": "Helsinki",
       "Kotijoukkue": "KäPa",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "erotuomari": "Jonathan Mainz",
+      "maalintekijät_koti": "Brian Mansaray 35,Daniel Heikkinen (rp) 49",
+      "maalintekijät_vieras": "Elmer Laaksonen 38"
     },
     {
       "ottelu_id": "202013",
       "Kausi": "2020",
-      "Päivämäärä": "11.9.2020",
+      "Päivämäärä": "9/11/20",
       "Kilpailu": "Kolmonen",
+      "Stadion": "Paloheinä",
+      "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "FC Espoo/2",
       "maalit_koti": "4",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "erotuomari": "Lassi Matilainen",
+      "maalintekijät_koti": "Valtteri Marttinen 28,Elmer Laaksonen 51,Elmer Laaksonen 72,Valtteri Marttinen 81"
     },
     {
       "ottelu_id": "202012",
       "Kausi": "2020",
-      "Päivämäärä": "2.9.2020",
+      "Päivämäärä": "9/2/20",
       "Kilpailu": "Kolmonen",
+      "Stadion": "Laajasalo",
+      "Kaupunki": "Helsinki",
       "Kotijoukkue": "LPS",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "erotuomari": "Joona Manninen",
+      "maalintekijät_vieras": "Patrick O'shaughnessy 8,Eero Puro 12,Elmer Laaksonen 84"
     },
     {
       "ottelu_id": "202011",
       "Kausi": "2020",
-      "Päivämäärä": "28.8.2020",
+      "Päivämäärä": "8/28/20",
       "Kilpailu": "Kolmonen",
+      "Stadion": "Paloheinä",
+      "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "EIF/Akademi",
       "maalit_koti": "3",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "erotuomari": "Henri Ojalehto",
+      "maalintekijät_koti": "Ossian Newby 2,Elmer Laaksonen 41,Valtteri Marttinen 49,Matias Astrada 59,Matias Astrada 66,Matias Astrada (rp) 82"
     },
     {
       "ottelu_id": "202010",
       "Kausi": "2020",
-      "Päivämäärä": "21.8.2020",
+      "Päivämäärä": "8/21/20",
       "Kilpailu": "Kolmonen",
+      "Stadion": "Paloheinä",
+      "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "NuPS",
       "maalit_koti": "6",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "erotuomari": "Kim Junna",
+      "maalintekijät_koti": "Valtteri Marttinen 4,Ossian Newby 57,Valtteri Marttinen 77,Ossian Newby 82,Eero Forsen 89,Eero Forsen 90+2",
+      "maalintekijät_vieras": "Tomi Koski 76"
     },
     {
       "ottelu_id": "202009",
       "Kausi": "2020",
-      "Päivämäärä": "13.8.2020",
+      "Päivämäärä": "8/13/20",
       "Kilpailu": "Kolmonen",
+      "Stadion": "Töölön Pallokenttä",
+      "Kaupunki": "Helsinki",
       "Kotijoukkue": "Töölön Taisto",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "4"
+      "maalit_vieras": "4",
+      "erotuomari": "Janne Haikari",
+      "maalintekijät_vieras": "Elmer Laaksonen 8,Lauri Pöntinen 67,Elmer Laaksonen 72,Eero Forsen 86"
     },
     {
       "ottelu_id": "202008",
       "Kausi": "2020",
-      "Päivämäärä": "7.8.2020",
+      "Päivämäärä": "8/7/20",
       "Kilpailu": "Kolmonen",
+      "Stadion": "Paloheinä",
+      "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "HerTo",
       "maalit_koti": "2",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "erotuomari": "Paul Kirsch",
+      "maalintekijät_koti": "Valtteri Marttinen 59,Valtteri Marttinen 65",
+      "maalintekijät_vieras": "Aapo Lappalainen 88"
     },
     {
       "ottelu_id": "202007",
       "Kausi": "2020",
-      "Päivämäärä": "1.8.2020",
+      "Päivämäärä": "8/1/20",
       "Kilpailu": "Kolmonen",
       "Stadion": "Matinkylä",
       "Kaupunki": "Espoo",
       "Kotijoukkue": "EsPa",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "erotuomari": "Osman Mohammadi",
+      "maalintekijät_koti": "Tommi Virkkunen 61",
+      "maalintekijät_vieras": "Lauri Pöntinen 10,Elmer Laaksonen 57,Ossian Newby 71"
     },
     {
       "ottelu_id": "202006",
       "Kausi": "2020",
-      "Päivämäärä": "24.7.2020",
+      "Päivämäärä": "7/24/20",
       "Kilpailu": "Kolmonen",
-      "Stadion": "Pakila Road",
+      "Stadion": "Paloheinä",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Atlantis FC/Akatemia",
       "maalit_koti": "2",
-      "maalit_vieras": "7"
+      "maalit_vieras": "7",
+      "erotuomari": "Joona Manninen",
+      "maalintekijät_koti": "Elmer Laaksonen 64, Ossian Newby 82",
+      "maalintekijät_vieras": "Aboubacar Diakite 8, Aboubacar Diakite 32,Dominik Rudenko 50,Dominik Rudenko 65,Emmanuel Sarpong 75,Andrei Da Silva Castro 84,Konan Odilon Kouakou 87"
     },
     {
       "ottelu_id": "202005",
       "Kausi": "2020",
-      "Päivämäärä": "15.7.2020",
+      "Päivämäärä": "7/15/20",
       "Kilpailu": "Kolmonen",
       "Stadion": "Karjaa",
       "Kaupunki": "Raasepori",
       "Kotijoukkue": "BK-46",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "erotuomari": "Mikko Mörö",
+      "maalintekijät_koti": "Alexi Puno 8,Rasmus Skoog 43",
+      "maalintekijät_vieras": "Emil Asp (rp) 56,Valtteri Marttinen 90+1"
     },
     {
       "ottelu_id": "202004",
       "Kausi": "2020",
-      "Päivämäärä": "9.7.2020",
+      "Päivämäärä": "7/9/20",
       "Kilpailu": "Kolmonen",
       "Stadion": "Espoonlahti",
       "Kaupunki": "Espoo",
       "Kotijoukkue": "Tikka",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "erotuomari": "Gezim Arifi",
+      "maalintekijät_koti": "Miio Ronkonen 16,Fabian Wegener 20",
+      "maalintekijät_vieras": "Elmer Laaksonen 65,Ossian Newby 90"
     },
     {
       "ottelu_id": "202003",
       "Kausi": "2020",
-      "Päivämäärä": "3.7.2020",
+      "Päivämäärä": "7/3/20",
       "Kilpailu": "Kolmonen",
-      "Stadion": "Pakila Road",
+      "Stadion": "Paloheinä",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "FC POHU",
       "maalit_koti": "4",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "erotuomari": "Fahad Ali",
+      "maalintekijät_koti": "Elmer Laaksonen 10,Valtteri Marttinen 29,Eero Puro 31,Mikko Noronen 78"
     },
     {
       "ottelu_id": "202002",
       "Kausi": "2020",
-      "Päivämäärä": "26.6.2020",
+      "Päivämäärä": "6/26/20",
       "Kilpailu": "Kolmonen",
       "Stadion": "Keskuskenttä",
       "Kaupunki": "Kirkkonummi",
       "Kotijoukkue": "FC Kirkkonummi",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "erotuomari": "Jari Pylvänäinen",
+      "maalintekijät_koti": "Lauri Lehtinen 88",
+      "maalintekijät_vieras": "Eero Forsen 30,Valtteri Marttinen 72"
     },
     {
       "ottelu_id": "202001",
       "Kausi": "2020",
-      "Päivämäärä": "17.6.2020",
+      "Päivämäärä": "6/17/20",
       "Kilpailu": "Kolmonen",
-      "Stadion": "Pakila Road",
+      "Stadion": "Paloheinä",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "FC FINNKURD",
       "maalit_koti": "2",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "erotuomari": "Paul Kirsch",
+      "maalintekijät_koti": "Emil Asp 19, Elmer Laaksonen 90+2",
+      "maalintekijät_vieras": "Sampha Kamara 47,Abasi pishocky hamza Bachu 83"
     },
     {
       "ottelu_id": "201922",
@@ -18347,7 +18453,9 @@
       "Kotijoukkue": "IKissat",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "5",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_koti": "Simo Lehmusvirta 24,Tapani Urvikko 30,Olavi Lilja 53,Olavi Lilja 80,Tapani Urvikko 86",
+      "maalintekijät_vieras": "Alf Forsström 73,Martti Nyqvist 63,Leo Mikander 84"
     },
     {
       "ottelu_id": "195623",
@@ -18360,7 +18468,8 @@
       "Vierasjoukkue": "KTP",
       "maalit_koti": "0",
       "maalit_vieras": "4",
-      "yleisömäärä": "1520"
+      "yleisömäärä": "1520",
+      "maalintekijät_vieras": "Mauri Vanhanen 14,Mauri Vanhanen 47,Eero Parkkinen 66,Matti Salmelainen 86"
     },
     {
       "ottelu_id": "195622",
@@ -18372,7 +18481,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "KuPS",
       "maalit_koti": "0",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_vieras": "Seppo Pelkonen 35,Pentti Rautiainen om 54"
     },
     {
       "ottelu_id": "195621",
@@ -18383,7 +18493,8 @@
       "Kotijoukkue": "VPS",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Reijo Saarinen"
     },
     {
       "ottelu_id": "195620",
@@ -18396,7 +18507,9 @@
       "Vierasjoukkue": "HJK",
       "maalit_koti": "2",
       "maalit_vieras": "4",
-      "yleisömäärä": "3360"
+      "yleisömäärä": "3360",
+      "maalintekijät_koti": "Kai Pahlman 45,Kai Pahlman 75",
+      "maalintekijät_vieras": "Bengt Dannbom 35, Pentti Styck 84,Raimo Hagström om 85,Harri Kippo 87"
     },
     {
       "ottelu_id": "195619",
@@ -18408,7 +18521,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "VIFK",
       "maalit_koti": "2",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Kai Pahlman 11,Mauno Tarkiainen 38",
+      "maalintekijät_vieras": "Brynolf Svarfvar 10"
     },
     {
       "ottelu_id": "195618",
@@ -18419,7 +18534,8 @@
       "Kotijoukkue": "Haka",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_vieras": "Mauno Tarkiainen 82"
     },
     {
       "ottelu_id": "195617",
@@ -18430,7 +18546,9 @@
       "Kotijoukkue": "Pyrkivä",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "6"
+      "maalit_vieras": "6",
+      "maalintekijät_koti": "Veikko Paven",
+      "maalintekijät_vieras": "Kai Pahlman,Kai Pahlman,Kai Pahlman,Leo Mikander,Leo Mikander,Alpo Lintamo"
     },
     {
       "ottelu_id": "195616",
@@ -18441,7 +18559,9 @@
       "Kotijoukkue": "KIF",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Kaj Sveholm 7,Olli Forsgren 53,Helles Kontkanen 85",
+      "maalintekijät_vieras": "Alpo Lintamo 1"
     },
     {
       "ottelu_id": "195615",
@@ -18453,7 +18573,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "KIF",
       "maalit_koti": "3",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Leo Mikander 3,Alpo Lintamo 48,Alpo Lintamo 56",
+      "maalintekijät_vieras": "Pauli Kauppinen 33,Olli Forsgren 49"
     },
     {
       "ottelu_id": "195614",
@@ -18464,7 +18586,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Pyrkivä",
       "maalit_koti": "0",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_vieras": "Aulis Lähtinen 1"
     },
     {
       "ottelu_id": "195613",
@@ -18476,7 +18599,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Haka",
       "maalit_koti": "1",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Kai Pahlman 11",
+      "maalintekijät_vieras": "Kalle Kinnunen 41"
     },
     {
       "ottelu_id": "195612",
@@ -18487,7 +18612,9 @@
       "Kotijoukkue": "VIFK",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "4",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Erik Beijar 44,Brynolf Svarfvar 63,Olle Byholm 74,Brynolf Svarfvar 87",
+      "maalintekijät_vieras": "Kai Pahlman 31"
     },
     {
       "ottelu_id": "195611",
@@ -18499,7 +18626,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "VPS",
       "maalit_koti": "2",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_koti": "Alpo Lintamo 21,Kai Pahlman 80",
+      "maalintekijät_vieras": "Reijo Malka 5,Sven Wentjärv 52,Pertti Utriainen 70"
     },
     {
       "ottelu_id": "195610",
@@ -18512,7 +18641,8 @@
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
       "maalit_vieras": "2",
-      "yleisömäärä": "3000"
+      "yleisömäärä": "3000",
+      "maalintekijät_vieras": "Mauno Tarkiainen,Leo Mikander"
     },
     {
       "ottelu_id": "195609",
@@ -18523,7 +18653,9 @@
       "Kotijoukkue": "KuPS",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Mauno Repo 29",
+      "maalintekijät_vieras": "Kai Pahlman 90"
     },
     {
       "ottelu_id": "195608",
@@ -18535,7 +18667,9 @@
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
       "maalit_vieras": "2",
-      "yleisömäärä": "2589"
+      "yleisömäärä": "2589",
+      "maalintekijät_koti": "Veikko Vuorinen",
+      "maalintekijät_vieras": "Leo Mikander,Alf Forsström"
     },
     {
       "ottelu_id": "195607",
@@ -18547,7 +18681,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "IKissat",
       "maalit_koti": "1",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Juhani Tanner 25"
     },
     {
       "ottelu_id": "195606",
@@ -18621,7 +18756,9 @@
       "Vierasjoukkue": "HPS",
       "maalit_koti": "5",
       "maalit_vieras": "1",
-      "yleisömäärä": "3000"
+      "yleisömäärä": "3000",
+      "maalintekijät_koti": "Oma maali,Kinnunen,Kinnunen,Peltonen,Kinnunen",
+      "maalintekijät_vieras": "Pahlman (rp)"
     },
     {
       "ottelu_id": "195528",
@@ -18632,7 +18769,9 @@
       "Kotijoukkue": "HPK",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "5"
+      "maalit_vieras": "5",
+      "maalintekijät_koti": "Jokinen",
+      "maalintekijät_vieras": "Kai Pahlman,Kai Pahlman,Leo Mikander,Olli Forsgren,Olli Forsgren"
     },
     {
       "ottelu_id": "195527",
@@ -18644,7 +18783,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "KPT",
       "maalit_koti": "3",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_koti": "Leo Mikander,Olli Forsgren,Olli Forsgren",
+      "maalintekijät_vieras": "Lappalainen,Hiltunen,Hiltunen"
     },
     {
       "ottelu_id": "195526",
@@ -18655,7 +18796,9 @@
       "Kotijoukkue": "KaPa",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "4"
+      "maalit_vieras": "4",
+      "maalintekijät_koti": "Väänänen,Väänänen",
+      "maalintekijät_vieras": "Kai Pahlman,Leo Mikander,Olli Forsgren,Olli Forsgren"
     },
     {
       "ottelu_id": "195525",
@@ -18665,7 +18808,9 @@
       "Kotijoukkue": "Pallo-Pojat",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_koti": "Jokela,Gratsew,Sylvander",
+      "maalintekijät_vieras": "Olli Forsgren,Mauno Tarkiainen,Kai Pahlman"
     },
     {
       "ottelu_id": "195524",
@@ -18675,7 +18820,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Sudet",
       "maalit_koti": "9",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Kai Pahlman,Olli Forsgren,Olli Forsgren,Olli Forsgren,Olli Forsgren,Olli Forsgren,Leo Mikander,Leo Mikander,Leo Mikander",
+      "maalintekijät_vieras": "Ruuhijärvi"
     },
     {
       "ottelu_id": "195523",
@@ -18686,7 +18833,9 @@
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
       "maalit_vieras": "2",
-      "yleisömäärä": "2000"
+      "yleisömäärä": "2000",
+      "maalintekijät_koti": "Andersson",
+      "maalintekijät_vieras": "Mauno Tarkiainen,Olli Forsgren"
     },
     {
       "ottelu_id": "195522",
@@ -18696,7 +18845,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Ponnistus",
       "maalit_koti": "2",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Kai Pahlman,Kai Pahlman"
     },
     {
       "ottelu_id": "195521",
@@ -18706,7 +18856,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Jäntevä",
       "maalit_koti": "2",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Salin,Kai Pahlman",
+      "maalintekijät_vieras": "Timberg om"
     },
     {
       "ottelu_id": "195520",
@@ -18717,7 +18869,9 @@
       "Kotijoukkue": "WP-35",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "8"
+      "maalit_vieras": "8",
+      "maalintekijät_koti": "Kiuru",
+      "maalintekijät_vieras": "Kai Pahlman,Kai Pahlman,Kai Pahlman,Olli Forsgren,Olli Forsgren,Olli Forsgren,Alf Forsström,Leo Mikander"
     },
     {
       "ottelu_id": "195519",
@@ -18728,7 +18882,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Bonner FV (DE)",
       "maalit_koti": "2",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Olli Forsgren,Olli Forsgren"
     },
     {
       "ottelu_id": "195518",
@@ -18738,7 +18893,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "KaPa",
       "maalit_koti": "5",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Leo Mikander,Leo Mikander,Mauno Tarkiainen,Mauno Tarkiainen,Kai Pahlman"
     },
     {
       "ottelu_id": "195517",
@@ -18749,7 +18905,9 @@
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
       "maalit_vieras": "7",
-      "yleisömäärä": "1000"
+      "yleisömäärä": "1000",
+      "maalintekijät_koti": "Ruuhijärvi 2,Heltola",
+      "maalintekijät_vieras": "Leo Mikander,Alf Forsström,Alf Forsström,Kai Pahlman,Kai Pahlman,Olli Forsgren,Olli Forsgren"
     },
     {
       "ottelu_id": "195516",
@@ -18758,7 +18916,8 @@
       "Kotijoukkue": "JyP",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "5"
+      "maalit_vieras": "5",
+      "maalintekijät_vieras": "Olli Forsgren, Leo Mikander, Kai Pahlman"
     },
     {
       "ottelu_id": "195515",
@@ -18771,7 +18930,9 @@
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
       "maalit_vieras": "3",
-      "yleisömäärä": "1000"
+      "yleisömäärä": "1000",
+      "maalintekijät_koti": "Hägg,Hägg",
+      "maalintekijät_vieras": "Alf Forsström,Mauno Tarkiainen,Leo Mikander"
     },
     {
       "ottelu_id": "195514",
@@ -18783,7 +18944,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "WP-35",
       "maalit_koti": "6",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Olli Forsgren,Olli Forsgren,Olli Forsgren,Kai Pahlman,Kai Pahlman,Kai Pahlman"
     },
     {
       "ottelu_id": "195513",
@@ -18793,7 +18955,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Pallo-Pojat",
       "maalit_koti": "1",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Kai Pahlman",
+      "maalintekijät_vieras": "Jokela"
     },
     {
       "ottelu_id": "195512",
@@ -18804,7 +18968,9 @@
       "Kotijoukkue": "KPT",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Hiltunen",
+      "maalintekijät_vieras": "Leo Mikander,Kai Pahlman"
     },
     {
       "ottelu_id": "195511",
@@ -18814,7 +18980,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "HIFK",
       "maalit_koti": "1",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Kai Pahlman",
+      "maalintekijät_vieras": "Grönholm,Rosqvist"
     },
     {
       "ottelu_id": "195510",
@@ -18824,7 +18992,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "HPK",
       "maalit_koti": "3",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Leo Mikander,Leo Mikander,Kai Pahlman"
     },
     {
       "ottelu_id": "195509",
@@ -18835,7 +19004,9 @@
       "Kotijoukkue": "Jäntevä",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "5"
+      "maalit_vieras": "5",
+      "maalintekijät_koti": "Heimonen",
+      "maalintekijät_vieras": "Leo Mikander,Leo Mikander,Leo Mikander,Kai Pahlman,Kai Pahlman"
     },
     {
       "ottelu_id": "195508",
@@ -18844,7 +19015,8 @@
       "Kotijoukkue": "Drott",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_vieras": "Oma maali, Alf Forsström"
     },
     {
       "ottelu_id": "195507",
@@ -18855,7 +19027,8 @@
       "Kotijoukkue": "KIF",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "5"
+      "maalit_vieras": "5",
+      "maalintekijät_vieras": "Mauno Tarkiainen,Mauno Tarkiainen,Alf Forsström,Kai Pahlman (rp),Olli Forsgren"
     },
     {
       "ottelu_id": "195506",
@@ -18864,7 +19037,8 @@
       "Kotijoukkue": "HJK",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
-      "maalit_vieras": "5"
+      "maalit_vieras": "5",
+      "maalintekijät_vieras": "Leo Mikander,Pentti Rautiainen,Mauno Tarkiainen,Pentti Rautiainen,Olli Forsgren"
     },
     {
       "ottelu_id": "195505",
@@ -18873,7 +19047,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Kotkan Reipas",
       "maalit_koti": "5",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Olli Forsgren,Olli Forsgren,Alf Forsström,Kai Pahlman,Olli Forsgren"
     },
     {
       "ottelu_id": "195504",
@@ -18882,7 +19057,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "KIF",
       "maalit_koti": "1",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Olli Forsgren"
     },
     {
       "ottelu_id": "195503",
@@ -18891,7 +19067,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Sudet",
       "maalit_koti": "1",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Kai Pahlman"
     },
     {
       "ottelu_id": "195502",
@@ -18902,7 +19079,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "HJK",
       "maalit_koti": "5",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Aarne Vepsäläinen,Kai Pahlman,Mauno Tarkiainen,Mauno Tarkiainen,Leo Mikander"
     },
     {
       "ottelu_id": "195501",
@@ -18913,7 +19091,8 @@
       "Kotijoukkue": "Pallo-Pojat",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_vieras": "Alf Forsström"
     },
     {
       "ottelu_id": "195436",
@@ -18924,7 +19103,9 @@
       "Kotijoukkue": "Ilves-Kissat",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "4",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Niinimäki,Lilja,Järvelä,Lehmusvirta",
+      "maalintekijät_vieras": "Kai Pahlman"
     },
     {
       "ottelu_id": "195435",
@@ -18935,7 +19116,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Kullervo",
       "maalit_koti": "1",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Alf Forsström"
     },
     {
       "ottelu_id": "195434",
@@ -18947,7 +19129,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "KaPa",
       "maalit_koti": "3",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Olli Forsgren,Olli Forsgren,Alf Forsström",
+      "maalintekijät_vieras": "Kokkonen"
     },
     {
       "ottelu_id": "195433",
@@ -18960,7 +19144,9 @@
       "Vierasjoukkue": "KoRe",
       "maalit_koti": "1",
       "maalit_vieras": "2",
-      "yleisömäärä": "2000"
+      "yleisömäärä": "2000",
+      "maalintekijät_koti": "Olli Forsgren",
+      "maalintekijät_vieras": "Perlinen 82,Björklund 85"
     },
     {
       "ottelu_id": "195432",
@@ -18972,7 +19158,9 @@
       "Vierasjoukkue": "Ponnistus",
       "maalit_koti": "4",
       "maalit_vieras": "2",
-      "yleisömäärä": "1626"
+      "yleisömäärä": "1626",
+      "maalintekijät_koti": "Mauno Tarkiainen,Matti Rautiainen,Pentti Rautiainen,Olli Forsgren",
+      "maalintekijät_vieras": "Hirvonen,Tuominen"
     },
     {
       "ottelu_id": "195431",
@@ -18985,7 +19173,8 @@
       "Vierasjoukkue": "HIFK",
       "maalit_koti": "4",
       "maalit_vieras": "0",
-      "yleisömäärä": "2131"
+      "yleisömäärä": "2131",
+      "maalintekijät_koti": "Mauno Tarkiainen 3,Kai Pahlman,Alf Forsström,Olli Forsgren"
     },
     {
       "ottelu_id": "195430",
@@ -18996,7 +19185,8 @@
       "Kotijoukkue": "Pallo-Pojat",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Sylvander,om"
     },
     {
       "ottelu_id": "195429",
@@ -19008,7 +19198,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "HyPS",
       "maalit_koti": "4",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Olli Forsgren,Leo Mikander,Alf Forsström,Kai Pahlman"
     },
     {
       "ottelu_id": "195428",
@@ -19020,7 +19211,8 @@
       "Vierasjoukkue": "NAHD (ALG)",
       "maalit_koti": "5",
       "maalit_vieras": "2",
-      "yleisömäärä": "1000"
+      "yleisömäärä": "1000",
+      "maalintekijät_koti": "Pentti Ronkanen,Olli Forsgren,Olli Forsgren,Mauno Tarkiainen,Pentti Ronkanen"
     },
     {
       "ottelu_id": "195427",
@@ -19032,7 +19224,9 @@
       "Kotijoukkue": "Sudet",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
-      "maalit_vieras": "6"
+      "maalit_vieras": "6",
+      "maalintekijät_koti": "Heltola,Vepsäläinen,Vepsäläinen",
+      "maalintekijät_vieras": "Olli Forsgren,Olli Forsgren,Olli Forsgren,Olli Forsgren,Alf Forsström,Alf Forsström"
     },
     {
       "ottelu_id": "195426",
@@ -19043,7 +19237,9 @@
       "Kotijoukkue": "Ponnistus",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_koti": "Hirvonen",
+      "maalintekijät_vieras": "Koivunen om,Salin,Mauno Tarkiainen"
     },
     {
       "ottelu_id": "195425",
@@ -19054,7 +19250,9 @@
       "Kotijoukkue": "HIFK",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Orre,Rosqvist",
+      "maalintekijät_vieras": "Pentti Rautiainen"
     },
     {
       "ottelu_id": "195424",
@@ -19065,7 +19263,9 @@
       "Kotijoukkue": "KaPa",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "5",
-      "maalit_vieras": "4"
+      "maalit_vieras": "4",
+      "maalintekijät_koti": "Kokkonen,Kokkonen,Kokkonen,Mustonen,Kasurinen",
+      "maalintekijät_vieras": "Olli Forsgren,Olli Forsgren,Mauno Tarkiainen,Alf Forsström"
     },
     {
       "ottelu_id": "195423",
@@ -19077,7 +19277,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Pallo-Pojat",
       "maalit_koti": "3",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Gratsew om,Alf Forsström,?? Rautiainen"
     },
     {
       "ottelu_id": "195422",
@@ -19088,7 +19289,8 @@
       "Kotijoukkue": "HyPS",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "4"
+      "maalit_vieras": "4",
+      "maalintekijät_vieras": "Olli Forsgren,Olli Forsgren,Alf Forsström,Alf Forsström"
     },
     {
       "ottelu_id": "195421",
@@ -19101,7 +19303,9 @@
       "Vierasjoukkue": "Ilves-Kissat",
       "maalit_koti": "3",
       "maalit_vieras": "2",
-      "yleisömäärä": "900"
+      "yleisömäärä": "900",
+      "maalintekijät_koti": "Olli Forsgren,Olli Forsgren,Olli Forsgren",
+      "maalintekijät_vieras": "Lehmusvirta,Lehmusvirta"
     },
     {
       "ottelu_id": "195420",
@@ -19112,7 +19316,9 @@
       "Kotijoukkue": "Kullervo",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "H.Kontkanen,H.Kontkanen",
+      "maalintekijät_vieras": "Alf Forsström,Olli Forsgren"
     },
     {
       "ottelu_id": "195419",
@@ -19123,7 +19329,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Sudet",
       "maalit_koti": "2",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Alf Forsström,Olli Forsgren",
+      "maalintekijät_vieras": "Tikka,Buchert"
     },
     {
       "ottelu_id": "195418",
@@ -19134,7 +19342,9 @@
       "Kotijoukkue": "KoRe",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Valjakka",
+      "maalintekijät_vieras": "?? Rautiainen, ?? Rautiainen"
     },
     {
       "ottelu_id": "195417",
@@ -19145,7 +19355,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "HIFK",
       "maalit_koti": "4",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Aarne Vepsäläinen,Anatol Hasso,Olli Forsgren,Alf Forsström"
     },
     {
       "ottelu_id": "195416",
@@ -19237,7 +19448,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Helsingin Jyry",
       "maalit_koti": "5",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Alf Forsström,Kalevi Malmström,Henry Salin,Olli Forsgren,Alf Forsström"
     },
     {
       "ottelu_id": "195407",
@@ -19247,7 +19459,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "KIF",
       "maalit_koti": "2",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Pentti Ronkanen,Kai Pahlman"
     },
     {
       "ottelu_id": "195406",
@@ -19258,7 +19471,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Haka",
       "maalit_koti": "3",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Kai Pahlman,Mauno Tarkiainen,Pentti Ronkanen"
     },
     {
       "ottelu_id": "195405",
@@ -19321,7 +19535,9 @@
       "Kotijoukkue": "HPK",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "4"
+      "maalit_vieras": "4",
+      "maalintekijät_koti": "Heinonen",
+      "maalintekijät_vieras": "Olli Forsgren,Olli Forsgren,Salin,om"
     },
     {
       "ottelu_id": "195326",
@@ -19332,7 +19548,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "KaPS",
       "maalit_koti": "7",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Olli Forsgren,Olli Forsgren,Olli Forsgren,Olli Forsgren,Ronkanen,Kai Pahlman,Pentti Rautiainen"
     },
     {
       "ottelu_id": "195325",
@@ -19343,7 +19560,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Ponnistus",
       "maalit_koti": "6",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Pentti Ronkanen,Pentti Ronkanen,Aarne Vepsäläinen,Olli Forsgren,Pentti Rautiainen,Erkki Sundberg"
     },
     {
       "ottelu_id": "195324",
@@ -19355,7 +19573,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "KoRe",
       "maalit_koti": "6",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Olli Forsgren,Olli Forsgren,Olli Forsgren,Kai Pahlman,Pentti Ronkanen,Pentti Ronkanen",
+      "maalintekijät_vieras": "Valjakka"
     },
     {
       "ottelu_id": "195323",
@@ -19365,7 +19585,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "HJK",
       "maalit_koti": "4",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Olli Forsgren,Pentti Rautiainen,Pentti Rautiainen,Matti Rautiainen"
     },
     {
       "ottelu_id": "195322",
@@ -19376,7 +19597,9 @@
       "Kotijoukkue": "Kullervo",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "5"
+      "maalit_vieras": "5",
+      "maalintekijät_koti": "M.Mehto",
+      "maalintekijät_vieras": "Kai Pahlman,Kai Pahlman,Henry Salin,Mauno Tarkiainen,Matti Rautiainen"
     },
     {
       "ottelu_id": "195321",
@@ -19387,7 +19610,9 @@
       "Kotijoukkue": "KPT",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Hiltunen",
+      "maalintekijät_vieras": "Olli Forsgren"
     },
     {
       "ottelu_id": "195320",
@@ -19398,7 +19623,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "HIFK",
       "maalit_koti": "2",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Olli Forsgren,Kai Pahlman",
+      "maalintekijät_vieras": "Rosqvist"
     },
     {
       "ottelu_id": "195319",
@@ -19409,7 +19636,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "TKT",
       "maalit_koti": "3",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Olli Forsgren,Olli Forsgren 89,Mauno Tarkiainen 90",
+      "maalintekijät_vieras": "Nykänen"
     },
     {
       "ottelu_id": "195318",
@@ -19420,7 +19649,9 @@
       "Kotijoukkue": "Sudet",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Cande",
+      "maalintekijät_vieras": "Olli Forsgren"
     },
     {
       "ottelu_id": "195317",
@@ -19442,7 +19673,9 @@
       "Kotijoukkue": "KaPS",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "6"
+      "maalit_vieras": "6",
+      "maalintekijät_koti": "Laakso om",
+      "maalintekijät_vieras": "Pentti Ronkanen,Pentti Ronkanen,Mauno Tarkiainen,Mauno Tarkiainen,Mauno Tarkiainen,Leo Mikander"
     },
     {
       "ottelu_id": "195315",
@@ -19453,7 +19686,9 @@
       "Kotijoukkue": "KoRe",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "5",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Valjakka,Valjakka,Björklund,Björklund,Vuorinen",
+      "maalintekijät_vieras": "Laakso"
     },
     {
       "ottelu_id": "195314",
@@ -19464,7 +19699,9 @@
       "Kotijoukkue": "HIFK",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Åke Lindman",
+      "maalintekijät_vieras": "Olli Forsgren"
     },
     {
       "ottelu_id": "195313",
@@ -19475,7 +19712,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Sudet",
       "maalit_koti": "3",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_koti": "Kai Pahlman,Kai Pahlman,Arvo Laakso",
+      "maalintekijät_vieras": "Tanninen,Järvenpää,Tikka"
     },
     {
       "ottelu_id": "195312",
@@ -19487,7 +19726,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Kullervo",
       "maalit_koti": "3",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Ukkonen om,Urho Laakso,Pentti Rautiainen",
+      "maalintekijät_vieras": "H.Kontkanen,O.Knuutinen"
     },
     {
       "ottelu_id": "195311",
@@ -19498,7 +19739,9 @@
       "Kotijoukkue": "TKT",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "O.Lilja,Järvenpää,Muro",
+      "maalintekijät_vieras": "Kai Pahlman,Olli Forsgren"
     },
     {
       "ottelu_id": "195310",
@@ -19510,7 +19753,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "KPT",
       "maalit_koti": "0",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_vieras": "Falck,Hämäläinen,Hiltunen"
     },
     {
       "ottelu_id": "195309",
@@ -19522,7 +19766,8 @@
       "Kotijoukkue": "Ponnistus",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "4"
+      "maalit_vieras": "4",
+      "maalintekijät_vieras": "Pentti Ronkanen,Pentti Ronkanen,Olli Forsgren,Aarne Vepsäläinen"
     },
     {
       "ottelu_id": "195308",
@@ -19562,7 +19807,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "HIFK",
       "maalit_koti": "5",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Olli Forsgren,Mauno Tarkiainen, Olli Forsgren (rp),Pentti Ronkanen,Olli Forsgren"
     },
     {
       "ottelu_id": "195304",
@@ -19602,7 +19848,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "KaPS",
       "maalit_koti": "6",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Kai Pahlman,Olli Forsgren,Olli Forsgren,Olli Forsgren,Olli Forsgren,Kai Pahlman"
     },
     {
       "ottelu_id": "195221",
@@ -19613,7 +19860,8 @@
       "Kotijoukkue": "KaPa",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "4",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "P.Mustonen,Soininen,Soininen,Kinnunen"
     },
     {
       "ottelu_id": "195220",
@@ -19623,7 +19871,8 @@
       "Kotijoukkue": "Sudet",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Pietarinen,Pietarinen"
     },
     {
       "ottelu_id": "195219",
@@ -19633,7 +19882,9 @@
       "Kotijoukkue": "JoPS",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
-      "maalit_vieras": "4"
+      "maalit_vieras": "4",
+      "maalintekijät_koti": "S.Pelkonen,S.Pelkonen,Simonen",
+      "maalintekijät_vieras": "Olli Forsgren,Olli Forsgren,Yrjö Sotiola,???"
     },
     {
       "ottelu_id": "195218",
@@ -19644,7 +19895,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "KUP",
       "maalit_koti": "6",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Mauno Tarkiainen,Pentti Ronkanen,Pentti Ronkanen,Yrjö Sotiola,Lassi Lahtinen,Olli Forsgren"
     },
     {
       "ottelu_id": "195217",
@@ -19655,7 +19907,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "KPT",
       "maalit_koti": "5",
-      "maalit_vieras": "5"
+      "maalit_vieras": "5",
+      "maalintekijät_koti": "Henry Salin,Mauno Tarkiainen,Mauno Tarkiainen,Unto Rytkönen,PenttiRonkanen",
+      "maalintekijät_vieras": "Vainikainen,Pylkkänen,Hiltunen,Hiltunen,Hämäläinen"
     },
     {
       "ottelu_id": "195216",
@@ -19666,7 +19920,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "KaPS",
       "maalit_koti": "2",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Vepsäläinen,Kai Pahlman",
+      "maalintekijät_vieras": "Alf Forsström"
     },
     {
       "ottelu_id": "195215",
@@ -19677,7 +19933,9 @@
       "Kotijoukkue": "Kullervo",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
-      "maalit_vieras": "7"
+      "maalit_vieras": "7",
+      "maalintekijät_koti": "Å.Johansson,Å.Johansson,M.Mehto",
+      "maalintekijät_vieras": "Olli Forsgren,Olli Forsgren,Olli Forsgren,Olli Forsgren,Olli Forsgren,Kai Pahlman,Kai Pahlman"
     },
     {
       "ottelu_id": "195214",
@@ -19688,7 +19946,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "HIFK",
       "maalit_koti": "2",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_koti": "Pentti Ronkanen,Olli Forsgren",
+      "maalintekijät_vieras": "Arvekari,Åke Lindman,Lindström"
     },
     {
       "ottelu_id": "195213",
@@ -19699,7 +19959,9 @@
       "Kotijoukkue": "Ponnistus",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_koti": "Hägg,Hägg,Tuominen",
+      "maalintekijät_vieras": "Olli Forsgren,Olli Forsgren,Matti Lampinen"
     },
     {
       "ottelu_id": "195212",
@@ -19710,7 +19972,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Kullervo",
       "maalit_koti": "1",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_koti": "Olli Forsgren",
+      "maalintekijät_vieras": "Å.Johansson,Y.Lievonen,K.Saastamoinen"
     },
     {
       "ottelu_id": "195211",
@@ -19721,7 +19985,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "JoPS",
       "maalit_koti": "3",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Yrjö Sotiola,Mauno Tarkiainen,Pentti Ronkanen",
+      "maalintekijät_vieras": "Rantala"
     },
     {
       "ottelu_id": "195210",
@@ -19732,7 +19998,9 @@
       "Kotijoukkue": "KUP",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Hasso om,Sainio",
+      "maalintekijät_vieras": "Olli Forsgren,Olli Forsgren"
     },
     {
       "ottelu_id": "195209",
@@ -19743,7 +20011,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Sudet",
       "maalit_koti": "2",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Olli Forsgren,Yrjö Sotiola"
     },
     {
       "ottelu_id": "195208",
@@ -19754,7 +20023,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "KaPa",
       "maalit_koti": "1",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Yrjö Sotiola",
+      "maalintekijät_vieras": "Kokkonen"
     },
     {
       "ottelu_id": "195207",
@@ -19765,7 +20036,8 @@
       "Kotijoukkue": "KPT",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Vainikainen"
     },
     {
       "ottelu_id": "195206",
@@ -19776,7 +20048,8 @@
       "Kotijoukkue": "KaPS",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Nieminen,Alf Alf Forsström,Kupula"
     },
     {
       "ottelu_id": "195205",
@@ -19787,7 +20060,8 @@
       "Kotijoukkue": "HIFK",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Hasso om"
     },
     {
       "ottelu_id": "195204",
@@ -19798,7 +20072,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Ponnistus",
       "maalit_koti": "4",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Olli Forsgren,Olli Forsgren,Mauno Tarkiainen,Unto Rytkönen"
     },
     {
       "ottelu_id": "195203",
@@ -19808,7 +20083,8 @@
       "Kotijoukkue": "HIFK",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_vieras": "Olli Forsgren"
     },
     {
       "ottelu_id": "195202",
@@ -19818,7 +20094,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "HJK",
       "maalit_koti": "2",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Olli Forsgren,Rolf Sundström"
     },
     {
       "ottelu_id": "195201",
