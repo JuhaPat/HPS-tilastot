@@ -10,6 +10,7 @@
       "Vierasjoukkue": "EsPa",
       "maalit_koti": "1",
       "maalit_vieras": "1",
+      "lisätietoja": "rp 7-6",
       "yleisömäärä": "544",
       "erotuomari": "Fazli Suka",
       "maalintekijät_koti": "Samuel Kenvin 38",
@@ -787,7 +788,7 @@
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
       "maalit_vieras": "3",
-      "lisätietoja": "luovutus",
+      "lisätietoja": "luov.",
       "erotuomari": " "
     },
     {
@@ -24293,8 +24294,7 @@
       "Kotijoukkue": "VPS",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "3",
-      "lisätietoja": "Vaasan uuden ruohokentän avajaisottelu"
+      "maalit_vieras": "3"
     },
     {
       "ottelu_id": "192804",
