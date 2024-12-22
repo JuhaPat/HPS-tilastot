@@ -11244,7 +11244,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "KaPa",
       "maalit_koti": "1",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Arto Keisalo"
     },
     {
       "ottelu_id": "198227",
@@ -11254,7 +11255,8 @@
       "Kotijoukkue": "KaPa",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Heikkinen,Mähönen"
     },
     {
       "ottelu_id": "198226",
@@ -11264,7 +11266,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "KaPa",
       "maalit_koti": "4",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Seppo Laakkonen,Tapani Apunen,Markku Virtanen,Tapani Salomaa"
     },
     {
       "ottelu_id": "198225",
@@ -11274,7 +11277,8 @@
       "Kotijoukkue": "Sampo",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_vieras": "Arto Keisalo,Seppo Laakkonen"
     },
     {
       "ottelu_id": "198224",
@@ -11284,7 +11288,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "TiPS",
       "maalit_koti": "0",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_vieras": "Tiainen"
     },
     {
       "ottelu_id": "198223",
@@ -11294,7 +11299,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "MyPa",
       "maalit_koti": "3",
-      "maalit_vieras": "4"
+      "maalit_vieras": "4",
+      "maalintekijät_koti": "Tapani Salomaa,Mikko Niemi,Kenneth Grönroos",
+      "maalintekijät_vieras": "Peltonen,Marttila 2,Hellsten"
     },
     {
       "ottelu_id": "198222",
@@ -11304,7 +11311,9 @@
       "Kotijoukkue": "Hurjat",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "6"
+      "maalit_vieras": "6",
+      "maalintekijät_koti": "Soitso",
+      "maalintekijät_vieras": "Mikko Niemi,Mikko Niemi,Harri Honkanen,Harri Honkanen,Kenneth Grönroos,Vesa Finska"
     },
     {
       "ottelu_id": "198221",
@@ -11314,7 +11323,8 @@
       "Kotijoukkue": "LaPS",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "4"
+      "maalit_vieras": "4",
+      "maalintekijät_vieras": "Kenneth Grönroos,Seppo Laakkonen,Seppo Laakkonen,Pertti Niiranen"
     },
     {
       "ottelu_id": "198220",
@@ -11324,7 +11334,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Ponnistus",
       "maalit_koti": "2",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Kenneth Grönroos,Pertti Niiranen"
     },
     {
       "ottelu_id": "198219",
@@ -11334,7 +11345,9 @@
       "Kotijoukkue": "KIF",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "4",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Laatikainen 2,Paasonen,Terävä",
+      "maalintekijät_vieras": "Mikko Niemi"
     },
     {
       "ottelu_id": "198218",
@@ -11344,7 +11357,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Seiskat",
       "maalit_koti": "6",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Tapani Apunen,Mikko Niemi,Mikko Niemi,Mikko Niemi,Harri Koskinen,Tommi Ojala",
+      "maalintekijät_vieras": "Mikko Nieminen"
     },
     {
       "ottelu_id": "198217",
@@ -11354,7 +11369,8 @@
       "Kotijoukkue": "JoKu",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_vieras": "Mikko Niemi,Kenneth Grönroos"
     },
     {
       "ottelu_id": "198216",
@@ -11364,7 +11380,9 @@
       "Kotijoukkue": "Karpalo",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Fishenden,Leppänen,Reponen",
+      "maalintekijät_vieras": "Arto Keisalo,Tapani Apunen"
     },
     {
       "ottelu_id": "198215",
@@ -11374,7 +11392,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "LaPa",
       "maalit_koti": "2",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Jorma Salmela,Arto Keisalo"
     },
     {
       "ottelu_id": "198214",
@@ -11384,7 +11403,9 @@
       "Kotijoukkue": "TiPS",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_koti": "Kähkönen",
+      "maalintekijät_vieras": "Mikko Niemi,Seppo Laakkonen,Kenneth Grönroos"
     },
     {
       "ottelu_id": "198213",
@@ -11394,7 +11415,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Sampo",
       "maalit_koti": "4",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Mikko Niemi,Arto Keisalo,Arto Keisalo,Kenneth Grönroos"
     },
     {
       "ottelu_id": "198212",
@@ -11404,7 +11426,9 @@
       "Kotijoukkue": "MyPa",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Puhakka,Marttila",
+      "maalintekijät_vieras": "Harri Honkanen,Arto Keisalo"
     },
     {
       "ottelu_id": "198211",
@@ -11414,7 +11438,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Hurjat",
       "maalit_koti": "2",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Seppo Laakkonen,Seppo Laakkonen"
     },
     {
       "ottelu_id": "198210",
@@ -11424,7 +11449,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "LaPS",
       "maalit_koti": "5",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Harri Honkanen,Arto Keisalo,Arto Keisalo,Kenneth Grönroos,Kenneth Grönroos"
     },
     {
       "ottelu_id": "198209",
@@ -11434,7 +11460,8 @@
       "Kotijoukkue": "Ponnistus",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_vieras": "Arto Keisalo,Kenneth Grönroos"
     },
     {
       "ottelu_id": "198208",
@@ -11444,7 +11471,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "KIF",
       "maalit_koti": "4",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Seppo Laakkonen,Kenneth Grönroos,Arto Keisalo,Arto Keisalo",
+      "maalintekijät_vieras": "Tuunainen,Laatikainen"
     },
     {
       "ottelu_id": "198207",
@@ -11454,7 +11483,8 @@
       "Kotijoukkue": "Seiskat",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_vieras": "Arto Keisalo,Kenneth Grönroos"
     },
     {
       "ottelu_id": "198206",
@@ -11464,7 +11494,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "JoKu",
       "maalit_koti": "0",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_vieras": "Räisänen"
     },
     {
       "ottelu_id": "198205",
@@ -11474,7 +11505,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Karpalo",
       "maalit_koti": "2",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Harri Honkanen,Arto Keisalo"
     },
     {
       "ottelu_id": "198204",
@@ -11484,7 +11516,8 @@
       "Kotijoukkue": "LaPa",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Muhonen,Kosonen"
     },
     {
       "ottelu_id": "198203",
@@ -11493,7 +11526,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "KäPa",
       "maalit_koti": "7",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Arto Keisalo,Arto Keisalo,Arto Keisalo,Jorma Salmela,Seppo Laakkonen,Seppo Laakkonen,Jorma Virtanen"
     },
     {
       "ottelu_id": "198202",
@@ -11521,7 +11555,9 @@
       "Kotijoukkue": "GrIFK",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Källström,Saarelainen,Saarelainen",
+      "maalintekijät_vieras": "Kenneth Grönroos"
     },
     {
       "ottelu_id": "198130",
@@ -11531,7 +11567,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "GrIFK",
       "maalit_koti": "2",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Kenneth Grönroos,Ari Weckström",
+      "maalintekijät_vieras": "Söderlund,Laiho"
     },
     {
       "ottelu_id": "198129",
@@ -11541,7 +11579,9 @@
       "Kotijoukkue": "GrIFK",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Väisänen",
+      "maalintekijät_vieras": "Harri Koskinen"
     },
     {
       "ottelu_id": "198128",
@@ -11551,7 +11591,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Sudet",
       "maalit_koti": "5",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Jarmo Orola,Ari Weckström,Jorma Salmela,Arto Keisalo,Oma maali",
+      "maalintekijät_vieras": "Tuovi"
     },
     {
       "ottelu_id": "198127",
@@ -11561,7 +11603,8 @@
       "Kotijoukkue": "KIF",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_vieras": "Pertti Niiranen,Jorma Salmela,Tommi Ojala"
     },
     {
       "ottelu_id": "198126",
@@ -11571,7 +11614,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Ponnistus",
       "maalit_koti": "0",
-      "maalit_vieras": "5"
+      "maalit_vieras": "5",
+      "maalintekijät_vieras": "Niemi,Mähönen,Pitkänen,Tammi,Terävä"
     },
     {
       "ottelu_id": "198125",
@@ -11581,7 +11625,8 @@
       "Kotijoukkue": "Karpalo",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Soininen"
     },
     {
       "ottelu_id": "198124",
@@ -11591,7 +11636,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "JIlves",
       "maalit_koti": "3",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Tommi Ojala,Arto Keisalo,Arto Keisalo",
+      "maalintekijät_vieras": "Sund"
     },
     {
       "ottelu_id": "198123",
@@ -11601,7 +11648,9 @@
       "Kotijoukkue": "LaPS",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "4"
+      "maalit_vieras": "4",
+      "maalintekijät_koti": "Litmanen",
+      "maalintekijät_vieras": "?? Virtanen,Risto Laiho,Arto Keisalo,Arto Keisalo"
     },
     {
       "ottelu_id": "198122",
@@ -11611,7 +11660,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Hurjat",
       "maalit_koti": "2",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Kenneth Grönroos,Risto Laiho"
     },
     {
       "ottelu_id": "198121",
@@ -11621,7 +11671,9 @@
       "Kotijoukkue": "JoKu",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Oma maali",
+      "maalintekijät_vieras": "Ari Weckström"
     },
     {
       "ottelu_id": "198120",
@@ -11631,7 +11683,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Jäntevä",
       "maalit_koti": "4",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Michael Jones,Ari Weckström,Kenneth Grönroos,Kenneth Grönroos",
+      "maalintekijät_vieras": "Markkanen,Halonen"
     },
     {
       "ottelu_id": "198119",
@@ -11651,7 +11705,9 @@
       "Kotijoukkue": "PeKa",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Tukiainen,Länsimies,Etholen",
+      "maalintekijät_vieras": "Michael Jones,Ari Weckström"
     },
     {
       "ottelu_id": "198117",
@@ -11661,7 +11717,8 @@
       "Kotijoukkue": "Sudet",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_vieras": "Juha Partanen"
     },
     {
       "ottelu_id": "198116",
@@ -11671,7 +11728,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "KIF",
       "maalit_koti": "1",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Michael Jones"
     },
     {
       "ottelu_id": "198115",
@@ -11681,7 +11739,9 @@
       "Kotijoukkue": "Ponnistus",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Mähönen",
+      "maalintekijät_vieras": "Michael Jones"
     },
     {
       "ottelu_id": "198114",
@@ -11691,7 +11751,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Karpalo",
       "maalit_koti": "7",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Kenneth Grönroos,Michael Jones,Arto Keisalo,Ari Weckström,Ari Weckström,Ari Weckström,Oma maali"
     },
     {
       "ottelu_id": "198113",
@@ -11701,7 +11762,8 @@
       "Kotijoukkue": "LaPa",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Muhonen,Karhu"
     },
     {
       "ottelu_id": "198112",
@@ -11711,7 +11773,8 @@
       "Kotijoukkue": "JIlves",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_vieras": "Michael Jones,Ari Weckström,Ari Weckström"
     },
     {
       "ottelu_id": "198111",
@@ -11721,7 +11784,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "LaPS",
       "maalit_koti": "2",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Markku Virtanen,Michael Jones",
+      "maalintekijät_vieras": "Jantunen"
     },
     {
       "ottelu_id": "198110",
@@ -11731,7 +11796,9 @@
       "Kotijoukkue": "Hurjat",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Honkanen",
+      "maalintekijät_vieras": "Pertti Niiranen,Pertti Niiranen"
     },
     {
       "ottelu_id": "198109",
@@ -11741,7 +11808,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "JoKu",
       "maalit_koti": "2",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Veli Holm,Kenneth Grönroos"
     },
     {
       "ottelu_id": "198108",
