@@ -3,7 +3,7 @@
       "ottelu_id": "202426",
       "Kausi": "2024",
       "Päivämäärä": "19.10.2024",
-      "Kilpailu": "Karsinta Miesten Kakkoseen ",
+      "Kilpailu": "Karsinta Miesten Kakkoseen",
       "Stadion": "JYA Housing Areena",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
@@ -20,7 +20,7 @@
       "ottelu_id": "202425",
       "Kausi": "2024",
       "Päivämäärä": "15.10.2024",
-      "Kilpailu": "Karsinta Miesten Kakkoseen ",
+      "Kilpailu": "Karsinta Miesten Kakkoseen",
       "Stadion": "Matinkylä",
       "Kaupunki": "Espoo",
       "Kotijoukkue": "EsPa",
@@ -14224,7 +14224,8 @@
       "Kotijoukkue": "KTP",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_vieras": "Jaakko Murtovaara,Kari Lehtolainen"
     },
     {
       "ottelu_id": "197322",
@@ -14234,7 +14235,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Akilles",
       "maalit_koti": "8",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Jaakko Murtovaara,Jaakko Murtovaara,Jaakko Murtovaara,Jaakko Murtovaara,Jaakko Murtovaara,Hannu Suvioja,Hannu Suvioja,Pentti Sandelin",
+      "maalintekijät_vieras": "Lind"
     },
     {
       "ottelu_id": "197321",
@@ -14244,7 +14247,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "KyVä",
       "maalit_koti": "5",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Kari Lehtolainen,Kari Lehtolainen,Pentti Sandelin,Hannu Holtari,Jaakko Murtovaara",
+      "maalintekijät_vieras": "Kumpunen,Vanhala"
     },
     {
       "ottelu_id": "197320",
@@ -14254,7 +14259,9 @@
       "Kotijoukkue": "Honka",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_koti": "Nykänen",
+      "maalintekijät_vieras": "Jaakko Murtovaara,Jaakko Murtovaara,Jaakko Murtovaara"
     },
     {
       "ottelu_id": "197319",
@@ -14264,7 +14271,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "GrIFK",
       "maalit_koti": "5",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Olli Puranen,Olli Puranen,Kari Lehtolainen,Hannu Holtari,Markku Oksanen",
+      "maalintekijät_vieras": "Hämäläinen"
     },
     {
       "ottelu_id": "197318",
@@ -14274,7 +14283,8 @@
       "Kotijoukkue": "PaPe",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_vieras": "Kaj Österberg"
     },
     {
       "ottelu_id": "197317",
@@ -14284,7 +14294,9 @@
       "Kotijoukkue": "Valtti",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_koti": "Lehtilä",
+      "maalintekijät_vieras": "Jaakko Murtovaara,Kari Lehtolainen,Auvo Partanen"
     },
     {
       "ottelu_id": "197316",
@@ -14294,7 +14306,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "LaPa",
       "maalit_koti": "2",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Jaakko Murtovaara,Kari Lehtolainen",
+      "maalintekijät_vieras": "Lipsanen"
     },
     {
       "ottelu_id": "197315",
@@ -14304,7 +14318,9 @@
       "Kotijoukkue": "PeKa",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_koti": "Kinnaslampi",
+      "maalintekijät_vieras": "Jaakko Murtovaara,Jaakko Murtovaara,Hannu Suvioja"
     },
     {
       "ottelu_id": "197314",
@@ -14314,7 +14330,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "LaPS",
       "maalit_koti": "5",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Kari Lehtolainen,Kari Lehtolainen,Sakari Inkinen,Hannu Holtari,Jaakko Murtovaara",
+      "maalintekijät_vieras": "Marttinen"
     },
     {
       "ottelu_id": "197313",
@@ -14324,7 +14342,8 @@
       "Kotijoukkue": "SavU",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "5",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "M.Laiho,M.Laiho,Korhonen,Näätänen,Kääriäinen"
     },
     {
       "ottelu_id": "197312",
@@ -14334,7 +14353,9 @@
       "Kotijoukkue": "Akilles",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Högström",
+      "maalintekijät_vieras": "Jaakko Murtovaara,Jaakko Murtovaara"
     },
     {
       "ottelu_id": "197311",
@@ -14344,7 +14365,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "KTP",
       "maalit_koti": "9",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Hannu Suvioja,Hannu Suvioja,Hannu Suvioja,Jaakko Murtovaara,Jaakko Murtovaara,Olli Puranen,Partanen,Kaj Österberg,Markku Oksanen",
+      "maalintekijät_vieras": "Tissari"
     },
     {
       "ottelu_id": "197310",
@@ -14354,7 +14377,8 @@
       "Kotijoukkue": "KyVä",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "4"
+      "maalit_vieras": "4",
+      "maalintekijät_vieras": "Kari Lehtolainen,Kari Lehtolainen,Kari Lehtolainen,Markku Oksanen"
     },
     {
       "ottelu_id": "197309",
@@ -14364,7 +14388,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Honka",
       "maalit_koti": "2",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Kari Lehtolainen,Jaakko Murtovaara"
     },
     {
       "ottelu_id": "197308",
@@ -14384,7 +14409,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "PaPe",
       "maalit_koti": "1",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Pekka Talaslahti"
     },
     {
       "ottelu_id": "197306",
@@ -14394,7 +14420,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "PeKa",
       "maalit_koti": "5",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Jaakko Murtovaara,Jaakko Murtovaara,Kari Lehtolainen,Hannu Suvioja,Sakari Inkinen",
+      "maalintekijät_vieras": "Kinnaslampi,Ukkonen"
     },
     {
       "ottelu_id": "197305",
@@ -14414,7 +14442,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Valtti",
       "maalit_koti": "4",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Jaakko Murtovaara,Jaakko Murtovaara,Pekka Talaslahti,Kaj Österberg"
     },
     {
       "ottelu_id": "197303",
@@ -14424,7 +14453,9 @@
       "Kotijoukkue": "LaPS",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_koti": "Marttinen",
+      "maalintekijät_vieras": "Kari Lehtolainen,Sakari Inkinen,Jaakko Murtovaara"
     },
     {
       "ottelu_id": "197302",
@@ -14434,7 +14465,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "SavU",
       "maalit_koti": "5",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Jaakko Murtovaara,Jaakko Murtovaara,Hannu Holtari,Vesa Laaksonen,Oma maali",
+      "maalintekijät_vieras": "Kääriäinen,Laiho"
     },
     {
       "ottelu_id": "197301",
@@ -14443,7 +14476,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "HJK",
       "maalit_koti": "3",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Hannu Holtari,Kaj Österberg,Kari Lehtolainen"
     },
     {
       "ottelu_id": "197225",
@@ -14463,7 +14497,9 @@
       "Kotijoukkue": "PaSa",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_koti": "Viitakangas,Viitakangas,Linden",
+      "maalintekijät_vieras": "Olli Puranen,Hannu Suvioja,Markku Oksanen"
     },
     {
       "ottelu_id": "197223",
@@ -14473,7 +14509,9 @@
       "Kotijoukkue": "Honka",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_koti": "Holopainen",
+      "maalintekijät_vieras": "Kari Lehtolainen,Kari Lehtolainen,Hannu Holtari"
     },
     {
       "ottelu_id": "197222",
@@ -14483,7 +14521,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Ponnistus",
       "maalit_koti": "2",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Kari Lehtolainen,Kari Lehtolainen"
     },
     {
       "ottelu_id": "197221",
@@ -14493,7 +14532,8 @@
       "Kotijoukkue": "Valtti",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_vieras": "Pekka Talaslahti,Kari Lehtolainen"
     },
     {
       "ottelu_id": "197220",
@@ -14503,7 +14543,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "PaPe",
       "maalit_koti": "1",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_koti": "Pekka Talaslahti",
+      "maalintekijät_vieras": "Kuusisto,Tiitta,Vilkki"
     },
     {
       "ottelu_id": "197219",
@@ -14513,7 +14555,9 @@
       "Kotijoukkue": "HePa",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_koti": "Jyräs,Jyräs,Virtanen",
+      "maalintekijät_vieras": "Pekka Talaslahti,Hannu Holtari,Markku Oksanen"
     },
     {
       "ottelu_id": "197218",
@@ -14523,7 +14567,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "LaPa",
       "maalit_koti": "2",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Pekka Talaslahti,Pekka Talaslahti",
+      "maalintekijät_vieras": "Vainikka,Buuri"
     },
     {
       "ottelu_id": "197217",
@@ -14533,7 +14579,8 @@
       "Kotijoukkue": "KTP",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Holopainen,Ruuth"
     },
     {
       "ottelu_id": "197216",
@@ -14553,7 +14600,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "KIF",
       "maalit_koti": "1",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Vesa Laaksonen",
+      "maalintekijät_vieras": "R.Kokko,P.Kokko"
     },
     {
       "ottelu_id": "197214",
@@ -14563,7 +14612,9 @@
       "Kotijoukkue": "MiPK",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Kokko",
+      "maalintekijät_vieras": "Hannu Holtari"
     },
     {
       "ottelu_id": "197213",
@@ -14573,7 +14624,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "PaSa",
       "maalit_koti": "4",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Hannu Holtari,Hannu Holtari,Kari Lehtolainen,Vesa Laaksonen"
     },
     {
       "ottelu_id": "197212",
@@ -14583,7 +14635,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Honka",
       "maalit_koti": "2",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Timo Tervonen,Hannu Holtari",
+      "maalintekijät_vieras": "Seivo"
     },
     {
       "ottelu_id": "197211",
@@ -14593,7 +14647,9 @@
       "Kotijoukkue": "Ponnistus",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Riihimäki",
+      "maalintekijät_vieras": "Markku Oksanen"
     },
     {
       "ottelu_id": "197210",
@@ -14603,7 +14659,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Valtti",
       "maalit_koti": "1",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Hannu Holtari",
+      "maalintekijät_vieras": "Kivistö"
     },
     {
       "ottelu_id": "197209",
@@ -14623,7 +14681,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "HePa",
       "maalit_koti": "11",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Pekka Talaslahti,Pekka Talaslahti,Pekka Talaslahti,Kari Lehtolainen,Kari Lehtolainen,Markku Oksanen,Markku Oksanen,Vesa Laaksonen,Paul Degerth,Hannu Holtari,Hannu Holtari",
+      "maalintekijät_vieras": "Palo,Koivunen"
     },
     {
       "ottelu_id": "197207",
@@ -14633,7 +14693,9 @@
       "Kotijoukkue": "LaPa",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Salo",
+      "maalintekijät_vieras": "Pekka Talaslahti,Hannu Holtari"
     },
     {
       "ottelu_id": "197206",
@@ -14643,7 +14705,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "KTP",
       "maalit_koti": "1",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Kari Lehtolainen"
     },
     {
       "ottelu_id": "197205",
@@ -14653,7 +14716,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "MyPa",
       "maalit_koti": "0",
-      "maalit_vieras": "4"
+      "maalit_vieras": "4",
+      "maalintekijät_vieras": "Vesterinen,Lehtinen,H.Markku Oksanen,Peltola"
     },
     {
       "ottelu_id": "197204",
@@ -14663,7 +14727,9 @@
       "Kotijoukkue": "KIF",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "4"
+      "maalit_vieras": "4",
+      "maalintekijät_koti": "Toivonen",
+      "maalintekijät_vieras": "Kari Lehtolainen,Hannu Holtari,Hannu Holtari,Markku Oksanen"
     },
     {
       "ottelu_id": "197203",
