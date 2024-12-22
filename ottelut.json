@@ -11999,7 +11999,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "MIFK",
       "maalit_koti": "5",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_koti": "Juha Partanen,Pertti Niiranen,Pertti Niiranen,Ari Weckström,Tommi Ojala",
+      "maalintekijät_vieras": "Ekstrand,Boström,C.Mattsson"
     },
     {
       "ottelu_id": "198027",
@@ -12009,7 +12011,8 @@
       "Kotijoukkue": "Apollo",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Pennanen,Lempinen"
     },
     {
       "ottelu_id": "198026",
@@ -12019,7 +12022,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "TiPS",
       "maalit_koti": "1",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Ari Weckström",
+      "maalintekijät_vieras": "Suihkonen"
     },
     {
       "ottelu_id": "198025",
@@ -12029,7 +12034,8 @@
       "Kotijoukkue": "Ässät",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Puustinen,Puustinen,Jalonen"
     },
     {
       "ottelu_id": "198024",
@@ -12039,7 +12045,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "LaPS",
       "maalit_koti": "1",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Ari Weckström"
     },
     {
       "ottelu_id": "198023",
@@ -12049,7 +12056,8 @@
       "Kotijoukkue": "Hakrit",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Kauppi"
     },
     {
       "ottelu_id": "198022",
@@ -12059,7 +12067,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "FinnPa",
       "maalit_koti": "1",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Risto Laiho",
+      "maalintekijät_vieras": "Kannas"
     },
     {
       "ottelu_id": "198021",
@@ -12069,7 +12079,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "TuTo",
       "maalit_koti": "1",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Vesa Finska"
     },
     {
       "ottelu_id": "198020",
@@ -12079,7 +12090,9 @@
       "Kotijoukkue": "HPK",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "4",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "R.Vuorinen,Rantanen,Juntunen,Juntunen",
+      "maalintekijät_vieras": "Ari Weckström,Jorma Salmela"
     },
     {
       "ottelu_id": "198019",
@@ -12089,7 +12102,8 @@
       "Kotijoukkue": "Heitto",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "4"
+      "maalit_vieras": "4",
+      "maalintekijät_vieras": "Ari Weckström,Ari Weckström,Ari Weckström,Tommi Ojala"
     },
     {
       "ottelu_id": "198018",
@@ -12099,7 +12113,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "TPV",
       "maalit_koti": "2",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Pertti Niiranen,Ari Weckström",
+      "maalintekijät_vieras": "Saarinen"
     },
     {
       "ottelu_id": "198017",
@@ -12109,7 +12125,9 @@
       "Kotijoukkue": "MIFK",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Boström,Wiss,Sjölund",
+      "maalintekijät_vieras": "Tommi Ojala"
     },
     {
       "ottelu_id": "198016",
@@ -12119,7 +12137,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Apollo",
       "maalit_koti": "2",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Vesa Finska,Ari Weckström",
+      "maalintekijät_vieras": "Mononen,Mononen"
     },
     {
       "ottelu_id": "198015",
@@ -12129,7 +12149,9 @@
       "Kotijoukkue": "TiPS",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Kähkönen",
+      "maalintekijät_vieras": "Vesa Finska"
     },
     {
       "ottelu_id": "198014",
@@ -12139,7 +12161,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Ässät",
       "maalit_koti": "2",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Tommi Ojala,Ari Weckström"
     },
     {
       "ottelu_id": "198013",
@@ -12149,7 +12172,9 @@
       "Kotijoukkue": "LaPS",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Kosonen,Kosonen,Kosonen",
+      "maalintekijät_vieras": "Kari Gröndahl"
     },
     {
       "ottelu_id": "198012",
@@ -12159,7 +12184,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Hakrit",
       "maalit_koti": "5",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Ari Weckström, Ari Weckström,Kenneth Grönroos,Kenneth Grönroos,Kenneth Grönroos"
     },
     {
       "ottelu_id": "198011",
@@ -12169,7 +12195,9 @@
       "Kotijoukkue": "FinnPa",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "E.Salo",
+      "maalintekijät_vieras": "Kari Gröndahl"
     },
     {
       "ottelu_id": "198010",
@@ -12179,7 +12207,8 @@
       "Kotijoukkue": "TuTo",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Päivärinta"
     },
     {
       "ottelu_id": "198009",
@@ -12189,7 +12218,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "HPK",
       "maalit_koti": "2",
-      "maalit_vieras": "5"
+      "maalit_vieras": "5",
+      "maalintekijät_koti": "Kari Gröndahl,Kari Gröndahl",
+      "maalintekijät_vieras": "Hyvönen,Nurminen,Laihanen,Laihanen,Juntunen"
     },
     {
       "ottelu_id": "198008",
@@ -12199,7 +12230,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Heitto",
       "maalit_koti": "1",
-      "maalit_vieras": "4"
+      "maalit_vieras": "4",
+      "maalintekijät_koti": "Oma maali",
+      "maalintekijät_vieras": "Raitanen,Jorma Salmela,Häkkinen,Häkkinen"
     },
     {
       "ottelu_id": "198007",
@@ -12209,7 +12242,8 @@
       "Kotijoukkue": "TPV",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_vieras": "Kari Gröndahl"
     },
     {
       "ottelu_id": "198006",
@@ -12273,7 +12307,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "RPallo",
       "maalit_koti": "2",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_koti": "Kari Gröndahl,?? Koskinen",
+      "maalintekijät_vieras": "Nivala,Nivala,Königsmann"
     },
     {
       "ottelu_id": "197927",
@@ -12283,7 +12319,9 @@
       "Kotijoukkue": "RPallo",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "4",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Lehtonen,Königsmann,Königsmann,Saarinen",
+      "maalintekijät_vieras": "Risto Laiho,Pertti Niiranen"
     },
     {
       "ottelu_id": "197926",
@@ -12293,7 +12331,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "JoKu",
       "maalit_koti": "1",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Kari Gröndahl"
     },
     {
       "ottelu_id": "197925",
@@ -12303,7 +12342,9 @@
       "Kotijoukkue": "LaPa",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "5",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Puhakka,Puhakka,Puhakka,Segerman,Kinnunen",
+      "maalintekijät_vieras": "Jari Hemmilä,Olli Tuomi"
     },
     {
       "ottelu_id": "197924",
@@ -12313,7 +12354,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Estura",
       "maalit_koti": "1",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Olli Tuomi",
+      "maalintekijät_vieras": "Loikkanen"
     },
     {
       "ottelu_id": "197923",
@@ -12323,7 +12366,8 @@
       "Kotijoukkue": "Sampo",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_vieras": "Erkki Heikkonen"
     },
     {
       "ottelu_id": "197922",
@@ -12333,7 +12377,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Tor",
       "maalit_koti": "6",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Jari Hemmilä,Timo Suvanne,Kari Gröndahl,Erkki Heikkonen,Risto Laiho,Juha Partanen",
+      "maalintekijät_vieras": "Terkki,Lehtinen"
     },
     {
       "ottelu_id": "197921",
@@ -12343,7 +12389,9 @@
       "Kotijoukkue": "Karpalo",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Kurki,Romppainen",
+      "maalintekijät_vieras": "Timo Suvanne"
     },
     {
       "ottelu_id": "197920",
@@ -12353,7 +12401,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "JoKu",
       "maalit_koti": "2",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Erkki Heikkonen,Erkki Heikkonen",
+      "maalintekijät_vieras": "Savolainen"
     },
     {
       "ottelu_id": "197919",
@@ -12363,7 +12413,9 @@
       "Kotijoukkue": "KäPa",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Mähönen,Rautakallio,Törrönen",
+      "maalintekijät_vieras": "Kari Gröndahl,Olli Tuomi"
     },
     {
       "ottelu_id": "197918",
@@ -12373,7 +12425,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Ponnistus",
       "maalit_koti": "2",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Erkki Heikkonen,Erkki Heikkonen",
+      "maalintekijät_vieras": "Huhti"
     },
     {
       "ottelu_id": "197917",
@@ -12383,7 +12437,8 @@
       "Kotijoukkue": "FinnPa",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_vieras": "Olli Tuomi,Olli Tuomi"
     },
     {
       "ottelu_id": "197916",
@@ -12393,7 +12448,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "PU-62",
       "maalit_koti": "3",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Kari Gröndahl,Olli Tuomi,Risto Laiho",
+      "maalintekijät_vieras": "Pietikäinen,Rahikainen"
     },
     {
       "ottelu_id": "197915",
@@ -12403,7 +12460,9 @@
       "Kotijoukkue": "PeKa",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Teno",
+      "maalintekijät_vieras": "Tommi Ojala,Timo Suvanne"
     },
     {
       "ottelu_id": "197914",
@@ -12413,7 +12472,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "LaPa",
       "maalit_koti": "0",
-      "maalit_vieras": "7"
+      "maalit_vieras": "7",
+      "maalintekijät_vieras": "Pehkonen,Puhakka,Kosonen,Segerman,Tiainen 2,Jäkkö om"
     },
     {
       "ottelu_id": "197913",
@@ -12423,7 +12483,9 @@
       "Kotijoukkue": "Estura",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "5",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Muhonen,Muhonen,Loikkanen,Loikkanen,Naukkarinen",
+      "maalintekijät_vieras": "Pertti Niiranen"
     },
     {
       "ottelu_id": "197912",
@@ -12433,7 +12495,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Sampo",
       "maalit_koti": "3",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Erkki Heikkonen,Erkki Heikkonen,Tommi Ojala",
+      "maalintekijät_vieras": "Nikkanen"
     },
     {
       "ottelu_id": "197911",
@@ -12443,7 +12507,9 @@
       "Kotijoukkue": "Tor",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_koti": "Terkki",
+      "maalintekijät_vieras": "Olli Tuomi,Jorma Salmela,Erkki Heikkonen"
     },
     {
       "ottelu_id": "197910",
@@ -12453,7 +12519,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Karpalo",
       "maalit_koti": "0",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_vieras": "Harinen"
     },
     {
       "ottelu_id": "197909",
@@ -12463,7 +12530,9 @@
       "Kotijoukkue": "JoKu",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Temonen,Savolainen",
+      "maalintekijät_vieras": "Tommi Ojala"
     },
     {
       "ottelu_id": "197908",
@@ -12473,7 +12542,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "KäPa",
       "maalit_koti": "1",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Timo Suvanne",
+      "maalintekijät_vieras": "Oja"
     },
     {
       "ottelu_id": "197907",
@@ -12483,7 +12554,8 @@
       "Kotijoukkue": "Ponnistus",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "4"
+      "maalit_vieras": "4",
+      "maalintekijät_vieras": "Kari Gröndahl,Kari Gröndahl,Olli Tuomi,Erkki Heikkonen"
     },
     {
       "ottelu_id": "197906",
@@ -12493,7 +12565,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "FinnPa",
       "maalit_koti": "5",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Timo Suvanne,Kari Gröndahl,Olli Tuomi,Erkki Heikkonen,Pertti Niiranen",
+      "maalintekijät_vieras": "E.Salo"
     },
     {
       "ottelu_id": "197905",
@@ -12503,7 +12577,9 @@
       "Kotijoukkue": "PU-62",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Pietikäinen,Hyysalo,Laitinen",
+      "maalintekijät_vieras": "Kari Gröndahl,Erkki Heikkonen"
     },
     {
       "ottelu_id": "197904",
@@ -12513,7 +12589,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "PeKa",
       "maalit_koti": "2",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Olli Tuomi,Tommi Ojala"
     },
     {
       "ottelu_id": "197903",
@@ -12550,7 +12627,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "LaPa",
       "maalit_koti": "3",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Erkki Heikkonen,Erkki Heikkonen,Jorma Salmela",
+      "maalintekijät_vieras": "Pehkonen"
     },
     {
       "ottelu_id": "197829",
@@ -12560,7 +12639,8 @@
       "Kotijoukkue": "STPS",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Kojo,Muhonen,Reponen"
     },
     {
       "ottelu_id": "197828",
@@ -12570,7 +12650,9 @@
       "Kotijoukkue": "JoKu",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_koti": "Pöllänen",
+      "maalintekijät_vieras": "Timo Suvanne,Kari Gröndahl,Erkki Heikkonen"
     },
     {
       "ottelu_id": "197827",
@@ -12580,7 +12662,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Tor",
       "maalit_koti": "3",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Olli Tuomi,Olli Tuomi,Tommi Ojala"
     },
     {
       "ottelu_id": "197826",
@@ -12590,7 +12673,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "LaPS",
       "maalit_koti": "1",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_koti": "Olli Tuomi",
+      "maalintekijät_vieras": "Virtanen,Virtanen,Kosonen"
     },
     {
       "ottelu_id": "197825",
@@ -12600,7 +12685,9 @@
       "Kotijoukkue": "Honka",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "ForsmanForsman,Helander",
+      "maalintekijät_vieras": "Markku Peltoniemi"
     },
     {
       "ottelu_id": "197824",
@@ -12610,7 +12697,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "HIFK",
       "maalit_koti": "1",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Markku Virtanen"
     },
     {
       "ottelu_id": "197823",
@@ -12620,7 +12708,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Ponnistus",
       "maalit_koti": "4",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_koti": "Jarmo Orola,Tommi Ojala,Olli Tuomi,Erkki Heikkonen",
+      "maalintekijät_vieras": "Mäenpää,Petäjistö,Pihlajaranta"
     },
     {
       "ottelu_id": "197822",
@@ -12630,7 +12720,9 @@
       "Kotijoukkue": "FinnPa",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Viro,Talaslahti",
+      "maalintekijät_vieras": "Pertti Niiranen"
     },
     {
       "ottelu_id": "197821",
@@ -12640,7 +12732,9 @@
       "Kotijoukkue": "PeKa",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Peltola",
+      "maalintekijät_vieras": "Olli Tuomi,Markku Peltoniemi"
     },
     {
       "ottelu_id": "197820",
@@ -12650,7 +12744,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "JäPS",
       "maalit_koti": "3",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Olli Tuomi,Olli Tuomi,Olli Tuomi"
     },
     {
       "ottelu_id": "197819",
@@ -12660,7 +12755,9 @@
       "Kotijoukkue": "LaPa",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Urpelainen,Pehkonen",
+      "maalintekijät_vieras": "Markku Peltoniemi,Tommi Ojala"
     },
     {
       "ottelu_id": "197818",
@@ -12680,7 +12777,8 @@
       "Kotijoukkue": "Tor",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Pertti Niiranen"
     },
     {
       "ottelu_id": "197816",
@@ -12690,7 +12788,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "JoKu",
       "maalit_koti": "1",
-      "maalit_vieras": "4"
+      "maalit_vieras": "4",
+      "maalintekijät_koti": "Virtanen",
+      "maalintekijät_vieras": "Kosunen,Hirvonen,Savolainen,Savolainen"
     },
     {
       "ottelu_id": "197815",
@@ -12700,7 +12800,9 @@
       "Kotijoukkue": "LaPS",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_koti": "Lindholm,M.Jantunen,Virtanen",
+      "maalintekijät_vieras": "Kari Gröndahl,Kari Gröndahl,Olli Tuomi"
     },
     {
       "ottelu_id": "197814",
@@ -12710,7 +12812,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Honka",
       "maalit_koti": "2",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_koti": "Olli Tuomi,Oma maali",
+      "maalintekijät_vieras": "Forsman,Kurkela,Kurkela"
     },
     {
       "ottelu_id": "197813",
@@ -12720,7 +12824,9 @@
       "Kotijoukkue": "HIFK",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Jaakonsaari",
+      "maalintekijät_vieras": "Erkki Heikkonen,Erkki Heikkonen"
     },
     {
       "ottelu_id": "197812",
@@ -12730,7 +12836,9 @@
       "Kotijoukkue": "Ponnistus",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Soitso",
+      "maalintekijät_vieras": "Olli Tuomi,Erkki Heikkonen"
     },
     {
       "ottelu_id": "197811",
@@ -12740,7 +12848,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "FinnPa",
       "maalit_koti": "4",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Olli Tuomi,Olli Tuomi,Jorma Salmela,Jorma Salmela",
+      "maalintekijät_vieras": "Viro"
     },
     {
       "ottelu_id": "197810",
@@ -12750,7 +12860,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "PeKa",
       "maalit_koti": "4",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Erkki Heikkonen,Erkki Heikkonen,Kari Gröndahl,Olli Tuomi",
+      "maalintekijät_vieras": "Grönlund"
     },
     {
       "ottelu_id": "197809",
@@ -12760,7 +12872,9 @@
       "Kotijoukkue": "JäPS",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "5"
+      "maalit_vieras": "5",
+      "maalintekijät_koti": "Lindström",
+      "maalintekijät_vieras": "Pertti Niiranen,Jarmo Jäkkö,Olli Tuomi,Jorma Salmela,Erkki Heikkonen"
     },
     {
       "ottelu_id": "197808",
@@ -12852,7 +12966,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "KTP",
       "maalit_koti": "2",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Olli Tuomi,Timo Suvanne",
+      "maalintekijät_vieras": "Tissari,Tissari"
     },
     {
       "ottelu_id": "197729",
@@ -12862,7 +12978,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "STPS",
       "maalit_koti": "2",
-      "maalit_vieras": "4"
+      "maalit_vieras": "4",
+      "maalintekijät_koti": "Kari Gröndahl,Timo Suvanne",
+      "maalintekijät_vieras": "Turunen,Kojo,Reponen,Rinkinen"
     },
     {
       "ottelu_id": "197728",
@@ -12872,7 +12990,9 @@
       "Kotijoukkue": "Jäntevä",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "5"
+      "maalit_vieras": "5",
+      "maalintekijät_koti": "Vehviläinen,Hurri",
+      "maalintekijät_vieras": "Olli Tuomi,Olli Tuomi,Pertti Niiranen,Pertti Niiranen,Sakari Nieminen"
     },
     {
       "ottelu_id": "197727",
@@ -12882,7 +13002,9 @@
       "Kotijoukkue": "LaPS",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Teivainen",
+      "maalintekijät_vieras": "Olli Tuomi"
     },
     {
       "ottelu_id": "197726",
@@ -12892,7 +13014,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "PeKa",
       "maalit_koti": "2",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Olli Tuomi,Olli Tuomi",
+      "maalintekijät_vieras": "Kinnaslampi"
     },
     {
       "ottelu_id": "197725",
@@ -12902,7 +13026,8 @@
       "Kotijoukkue": "HyPS",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_vieras": "Markku Peltoniemi"
     },
     {
       "ottelu_id": "197724",
@@ -12912,7 +13037,9 @@
       "Kotijoukkue": "PoHU",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_koti": "Kyllönen",
+      "maalintekijät_vieras": "Sakari Nironen,Olli Tuomi,Jorma Salmela"
     },
     {
       "ottelu_id": "197723",
@@ -12922,7 +13049,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "HIFK",
       "maalit_koti": "0",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_vieras": "Vihavainen,Niemikorpi,Niemikorpi"
     },
     {
       "ottelu_id": "197722",
@@ -12932,7 +13060,9 @@
       "Kotijoukkue": "Tor",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Jantunen,Lindström,Linden",
+      "maalintekijät_vieras": "Kari Gröndahl"
     },
     {
       "ottelu_id": "197721",
@@ -12942,7 +13072,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "JyP",
       "maalit_koti": "3",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Jorma Salmela,Jorma Salmela,Kari Gröndahl",
+      "maalintekijät_vieras": "Koho,Saulo"
     },
     {
       "ottelu_id": "197720",
@@ -12952,7 +13084,8 @@
       "Kotijoukkue": "STPS",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Kauppinen"
     },
     {
       "ottelu_id": "197719",
@@ -12962,7 +13095,8 @@
       "Kotijoukkue": "KTP",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Tissari"
     },
     {
       "ottelu_id": "197718",
@@ -12972,7 +13106,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "LaPa",
       "maalit_koti": "0",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_vieras": "Lindroos,Pehkonen"
     },
     {
       "ottelu_id": "197717",
@@ -12982,7 +13117,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Jäntevä",
       "maalit_koti": "3",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Sakari Nironen,Kari Gröndahl,Oma maali",
+      "maalintekijät_vieras": "Kallström"
     },
     {
       "ottelu_id": "197716",
@@ -12992,7 +13129,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "LaPS",
       "maalit_koti": "2",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Markku Virtanen,Jorma Salmela"
     },
     {
       "ottelu_id": "197715",
@@ -13002,7 +13140,8 @@
       "Kotijoukkue": "PeKa",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_vieras": "Olli Tuomi,Kari Gröndahl"
     },
     {
       "ottelu_id": "197714",
@@ -13012,7 +13151,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "HyPS",
       "maalit_koti": "0",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_vieras": "Tohkanen om"
     },
     {
       "ottelu_id": "197713",
@@ -13022,7 +13162,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "PoHU",
       "maalit_koti": "4",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Kari Gröndahl,Kari Gröndahl,Jorma Salmela,?? Heimo"
     },
     {
       "ottelu_id": "197712",
@@ -13032,7 +13173,9 @@
       "Kotijoukkue": "HIFK",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Siiskonen",
+      "maalintekijät_vieras": "Kari Gröndahl,Kari Gröndahl"
     },
     {
       "ottelu_id": "197711",
@@ -13042,7 +13185,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Tor",
       "maalit_koti": "1",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Sakari Nironen"
     },
     {
       "ottelu_id": "197710",
@@ -13052,7 +13196,9 @@
       "Kotijoukkue": "JyP",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Nuutinen",
+      "maalintekijät_vieras": "Jorma Salmela,Kari Gröndahl"
     },
     {
       "ottelu_id": "197709",
