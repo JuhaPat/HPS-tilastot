@@ -19,23 +19,16 @@
             margin-bottom: 30px;
             padding: 20px;
             border: none;
-            background-color: transparent; /* Poistetaan taustaväri */
+            background-color: transparent;
         }
         .match-details {
-            font-size: 1.5rem; /* Suurempi fontti kilpailulle */
+            font-size: 1.5rem;
             font-weight: bold;
             line-height: 1.5;
-            color: rgb(0, 100, 40); /* Vihreä fontti */
+            color: rgb(0, 100, 40);
         }
-        .stadium-city {
+        .stadium-city, .date, .officials {
             font-size: 1.2rem;
-        }
-        .date {
-            font-size: 1.2rem;
-        }
-        .officials {
-            font-size: 1.2rem;
-            margin-top: 10px;
         }
         .result-table {
             width: var(--result-table-width);
@@ -45,12 +38,12 @@
         }
         .result-table td {
             padding: 10px;
-            border: none; /* Poistetaan taulukon reunat */
+            border: none;
             vertical-align: middle;
         }
         .result-table td:first-child {
             width: var(--col-width-1);
-            text-align: right; /* Tasataan oikeaan reunaan */
+            text-align: right;
         }
         .result-table td:nth-child(2) {
             width: var(--col-width-2);
@@ -63,7 +56,7 @@
         }
         .result-table td:last-child {
             width: var(--col-width-5);
-            text-align: left; /* Tasataan vasempaan reunaan */
+            text-align: left;
         }
         .team-name {
             font-size: 1.5rem;
@@ -80,22 +73,28 @@
             font-size: 3rem;
             font-weight: bold;
         }
+        .additional-info {
+            font-size: 0.8rem; /* Pienempi fonttikoko */
+            margin-top: 10px;
+            color: #666; /* Hieman haaleampi väri */
+            text-align: center; /* Keskitetään lisätiedot */
+        }
         .scorer-table {
             width: var(--table-width);
-            margin: 20px auto; /* Keskittää taulukon */
+            margin: 20px auto;
             border-collapse: collapse;
             text-align: left;
         }
         .scorer-table td {
-            padding: 10px 20px; /* Lisää riviväliä */
-            border: none; /* Poistaa taulukon reunat */
-            vertical-align: top; /* Tasaa listat sarakkeiden yläreunaan */
+            padding: 10px 20px;
+            border: none;
+            vertical-align: top;
         }
         .scorer {
             display: flex;
             align-items: center;
             font-size: 1rem;
-            margin-bottom: 10px; /* Lisää riviväliä maalintekijöille */
+            margin-bottom: 10px;
         }
         .scorer img {
             width: 20px;
@@ -129,6 +128,7 @@
             <p class="date" id="date"></p>
             <p class="officials" id="referee"></p>
             <p class="officials" id="attendance"></p>
+            <p class="officials" id="additional-info"></p>
         </div>
 
         <!-- Ottelun tulos -->
@@ -142,6 +142,7 @@
                     <td class="team-name" id="away-name"></td>
                 </tr>
             </table>
+            <p class="additional-info" id="result-additional-info"></p>
         </div>
 
         <!-- Maalintekijät -->
@@ -201,12 +202,14 @@
                             document.getElementById('away-logo').src = `logot/${awayData.logo}`;
                             document.getElementById('away-name').textContent = awayData.name;
 
+                            document.getElementById('result-additional-info').textContent = match.lisätietoja || '';
+
                             const parseScorers = (scorersString) => scorersString
                                 ? scorersString.split(',').map(s => {
                                     const parts = s.trim().split(' ');
-                                    const time = parts.pop();
+                                    const time = isNaN(parts[parts.length - 1]) ? '' : parts.pop();
                                     const name = parts.join(' ');
-                                    return `<div class="scorer"><img src="logot/Pallo.jpg" alt="Pallo">${name} ${time || ''}'</div>`;
+                                    return `<div class="scorer"><img src="logot/Pallo.jpg" alt="Pallo">${name}${time ? ` ${time}'` : ''}</div>`;
                                 }).join('')
                                 : '<p>Ei maalintekijöitä</p>';
 
