@@ -93,11 +93,19 @@
     },
     {
       "Lyhenne": "EIF",
-      "Logo": "EIF.jpg"
+      "Koko nimi": "Ekenäs Idrottsförening",
+      "Kotikaupunki": "Raasepori/Tammisaari",
+      "Perustamisvuosi": "1905",
+      "Logo": "EIF.jpg",
+      "Linkki": "https://fi.wikipedia.org/wiki/Eken%C3%A4s_IF_(jalkapallo)"
     },
     {
       "Lyhenne": "EIF/Akademi",
-      "Logo": "EIF Akademi.jpg"
+      "Koko nimi": "Ekenäs Idrottsförening",
+      "Kotikaupunki": "Raasepori/Tammisaari",
+      "Perustamisvuosi": "1905",
+      "Logo": "EIF Akademi.jpg",
+      "Linkki": "https://fi.wikipedia.org/wiki/Eken%C3%A4s_IF_(jalkapallo)"
     },
     {
       "Lyhenne": "Eka-Pallo",
@@ -587,7 +595,11 @@
     },
     {
       "Lyhenne": "Ilves-Kissat",
-      "Logo": "Ilves-Kissat.jpg"
+      "Koko nimi": "Tampere-Viipurin Ilves-Kissat",
+      "Kotikaupunki": "Tampere",
+      "Perustamisvuosi": "1932",
+      "Logo": "Ilves-Kissat.jpg",
+      "Linkki": "https://fi.wikipedia.org/wiki/Tampere%E2%80%93Viipurin_Ilves-Kissat"
     },
     {
       "Lyhenne": "Inter Helsinki",
@@ -878,7 +890,11 @@
     },
     {
       "Lyhenne": "Loviisan Tor",
-      "Logo": "Loviisan Tor.jpg"
+      "Koko nimi": "Gymnastik- och Idrottsföreningen Tor r.f.",
+      "Kotikaupunki": "Loviisa",
+      "Perustamisvuosi": "1909",
+      "Logo": "Loviisan Tor.jpg",
+      "Linkki": "https://fi.wikipedia.org/wiki/Loviisan_Tor"
     },
     {
       "Lyhenne": "LPS",
@@ -1216,6 +1232,14 @@
     {
       "Lyhenne": "RiRa",
       "Logo": "RiRa.jpg"
+    },
+    {
+      "Lyhenne": "RoPS",
+      "Koko nimi": "Rovaniemen Palloseura",
+      "Kotikaupunki": "Rovaniemi",
+      "Perustamisvuosi": "1950",
+      "Logo": "RoPS.jpg",
+      "Linkki": "https://fi.wikipedia.org/wiki/Rovaniemen_Palloseura"
     },
     {
       "Lyhenne": "RPallo",
