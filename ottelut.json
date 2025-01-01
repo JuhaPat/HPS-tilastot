@@ -21459,220 +21459,278 @@
       "Kausi": "1949",
       "Päivämäärä": "30.10.1949",
       "Kilpailu": "Mestaruussarja",
+      "Kaupunki": "Turku",
       "Kotijoukkue": "TuTo",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_koti": "Olavi Laakso,Erkki Grönlund,Viljo Linden",
+      "maalintekijät_vieras": "Börje Herrman,Börje Herrman,Anatol Hasso"
     },
     {
       "ottelu_id": "194921",
       "Kausi": "1949",
       "Päivämäärä": "23.10.1949",
       "Kilpailu": "Mestaruussarja",
+      "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "TPS",
       "maalit_koti": "0",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_vieras": "Erkki Norelma,Mauno Lehtinen"
     },
     {
       "ottelu_id": "194920",
       "Kausi": "1949",
       "Päivämäärä": "16.10.1949",
       "Kilpailu": "Mestaruussarja",
+      "Kaupunki": "Tampere",
       "Kotijoukkue": "Ilves-Kissat",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Matti Laine,Matti Laine,Yrjö Asikainen",
+      "maalintekijät_vieras": "Yrjö Sotiola"
     },
     {
       "ottelu_id": "194919",
       "Kausi": "1949",
       "Päivämäärä": "25.9.1949",
       "Kilpailu": "Mestaruussarja",
+      "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "VIFK",
       "maalit_koti": "1",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Yrjö Sotiola"
     },
     {
       "ottelu_id": "194918",
       "Kausi": "1949",
       "Päivämäärä": "17.9.1949",
       "Kilpailu": "Mestaruussarja",
+      "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "HJK",
       "maalit_koti": "3",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Yrjö Sotiola,?? Vepsäläinen,Börje Herrman"
     },
     {
       "ottelu_id": "194917",
       "Kausi": "1949",
       "Päivämäärä": "3.9.1949",
       "Kilpailu": "Mestaruussarja",
+      "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "HIFK",
       "maalit_koti": "2",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Börje Herrman,Yrjö Sotiola",
+      "maalintekijät_vieras": "Nils Fröberg"
     },
     {
       "ottelu_id": "194916",
       "Kausi": "1949",
       "Päivämäärä": "28.8.1949",
       "Kilpailu": "Mestaruussarja",
+      "Kaupunki": "Kuopio",
       "Kotijoukkue": "KuPS",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Aulis Rytkönen,Ilmari Pirinen",
+      "maalintekijät_vieras": "Börje Herrman"
     },
     {
       "ottelu_id": "194915",
       "Kausi": "1949",
       "Päivämäärä": "23.8.1949",
       "Kilpailu": "Mestaruussarja",
+      "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "KIF",
       "maalit_koti": "1",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Henry Salin",
+      "maalintekijät_vieras": "Åke Forsberg,Per-Erik Hägg"
     },
     {
       "ottelu_id": "194914",
       "Kausi": "1949",
       "Päivämäärä": "14.8.1949",
       "Kilpailu": "Mestaruussarja",
+      "Kaupunki": "Vaasa",
       "Kotijoukkue": "VPS",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Jorma Saarinen,Karl Kallio,Karl Kallio"
     },
     {
       "ottelu_id": "194913",
       "Kausi": "1949",
       "Päivämäärä": "7.8.1949",
       "Kilpailu": "Mestaruussarja",
+      "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "KTP",
       "maalit_koti": "1",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Börje Herrman",
+      "maalintekijät_vieras": "Mauri Vanhanen"
     },
     {
       "ottelu_id": "194912",
       "Kausi": "1949",
       "Päivämäärä": "3.8.1949",
       "Kilpailu": "Mestaruussarja",
+      "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "TuWe",
       "maalit_koti": "0",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_vieras": "Kalevi Lehtovirta,Allan Möller,Helge Vienonen"
     },
     {
       "ottelu_id": "194911",
       "Kausi": "1949",
       "Päivämäärä": "3.7.1949",
       "Kilpailu": "Mestaruussarja",
+      "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Ilves-Kissat",
       "maalit_koti": "4",
-      "maalit_vieras": "4"
+      "maalit_vieras": "4",
+      "maalintekijät_koti": "Aarne Vepsäläinen,Yrjö Lievonen,Yrjö Lievonen,Anatol Hasso",
+      "maalintekijät_vieras": "Yrjö Asikainen,Yrjö Asikainen,Yrjö Asikainen,Yrjö Asikainen"
     },
     {
       "ottelu_id": "194910",
       "Kausi": "1949",
       "Päivämäärä": "26.6.1949",
       "Kilpailu": "Mestaruussarja",
+      "Kaupunki": "Turku",
       "Kotijoukkue": "TPS",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "4",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Urho Teräs,Mauno Lehtinen,Eugen Johansen,Eugen Johansen"
     },
     {
       "ottelu_id": "194909",
       "Kausi": "1949",
       "Päivämäärä": "21.6.1949",
       "Kilpailu": "Mestaruussarja",
+      "Kaupunki": "Helsinki",
       "Kotijoukkue": "HIFK",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "7",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_koti": "Åke Forsman,Åke Forsman,Åke Forsman,Risto Bredin,Risto Bredin,Georg Sjöberg,Bo Cleveland",
+      "maalintekijät_vieras": "Mauno Tarkiainen,Aarne Vepsäläinen,Aarne Vepsäläinen"
     },
     {
       "ottelu_id": "194908",
       "Kausi": "1949",
       "Päivämäärä": "13.6.1949",
       "Kilpailu": "Mestaruussarja",
+      "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "TuTo",
       "maalit_koti": "1",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Henry Salin",
+      "maalintekijät_vieras": "Olavi Laakso"
     },
     {
       "ottelu_id": "194907",
       "Kausi": "1949",
       "Päivämäärä": "9.6.1949",
       "Kilpailu": "Mestaruussarja",
+      "Kaupunki": "Turku",
       "Kotijoukkue": "TuWe",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Kalevi Lehtovirta,Kalevi Lehtovirta,Kauko Laine",
+      "maalintekijät_vieras": "Anatol Hasso"
     },
     {
       "ottelu_id": "194906",
       "Kausi": "1949",
       "Päivämäärä": "6.6.1949",
       "Kilpailu": "Mestaruussarja",
+      "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "VPS",
       "maalit_koti": "0",
-      "maalit_vieras": "4"
+      "maalit_vieras": "4",
+      "maalintekijät_vieras": "Jorma Saarinen,Jorma Saarinen,Jorma Saarinen,Kaimo Lintamo"
     },
     {
       "ottelu_id": "194905",
       "Kausi": "1949",
       "Päivämäärä": "26.5.1949",
       "Kilpailu": "Mestaruussarja",
+      "Kaupunki": "Vaasa",
       "Kotijoukkue": "VIFK",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "5",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Stig-Göran Myntti,Stig-Göran Myntti,Stig-Göran Myntti,Sven Weijola,Helge Svahn",
+      "maalintekijät_vieras": "Anatol Hasso"
     },
     {
       "ottelu_id": "194904",
       "Kausi": "1949",
       "Päivämäärä": "19.5.1949",
       "Kilpailu": "Mestaruussarja",
+      "Kaupunki": "Helsinki",
       "Kotijoukkue": "HJK",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Olavi Lahtinen",
+      "maalintekijät_vieras": "Bror Uggeldahl"
     },
     {
       "ottelu_id": "194903",
       "Kausi": "1949",
       "Päivämäärä": "12.5.1949",
       "Kilpailu": "Mestaruussarja",
+      "Kaupunki": "Helsinki",
       "Kotijoukkue": "KIF",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Åke Forsberg",
+      "maalintekijät_vieras": "Henry Salin"
     },
     {
       "ottelu_id": "194902",
       "Kausi": "1949",
       "Päivämäärä": "8.5.1949",
       "Kilpailu": "Mestaruussarja",
+      "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "KuPS",
       "maalit_koti": "2",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Yrjö Sotiola,Bror Uggeldahl",
+      "maalintekijät_vieras": "Ilmari Pirinen,Veijo Kurikka"
     },
     {
       "ottelu_id": "194901",
       "Kausi": "1949",
       "Päivämäärä": "1.5.1949",
       "Kilpailu": "Mestaruussarja",
+      "Kaupunki": "Kotka",
       "Kotijoukkue": "KTP",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Kauko Hakala,Mauri Kupiainen"
     },
     {
       "ottelu_id": "194815",
@@ -21682,7 +21740,8 @@
       "Kotijoukkue": "KTP",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_vieras": "Anatol Hasso,Anatol Hasso"
     },
     {
       "ottelu_id": "194814",
@@ -21692,7 +21751,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "TuKV",
       "maalit_koti": "3",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Bror Uggeldahl,Anatol Hasso,Henry Salin",
+      "maalintekijät_vieras": "Erkki Tarkiainen,Mauno Saari"
     },
     {
       "ottelu_id": "194813",
@@ -21702,7 +21763,9 @@
       "Kotijoukkue": "RTU",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Harry Reunanen",
+      "maalintekijät_vieras": "Yrjö Sotiola"
     },
     {
       "ottelu_id": "194812",
@@ -21712,7 +21775,9 @@
       "Kotijoukkue": "TuWe",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Kalevi Lehtovirta",
+      "maalintekijät_vieras": "Bror Uggeldahl,Yrjö Sotiola"
     },
     {
       "ottelu_id": "194811",
@@ -21722,7 +21787,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "HIFK",
       "maalit_koti": "1",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Bror Uggeldahl",
+      "maalintekijät_vieras": "Åke Forsman,Börje Herrman"
     },
     {
       "ottelu_id": "194810",
@@ -21742,7 +21809,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "TPS",
       "maalit_koti": "1",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_koti": "Yrjö Sotiola",
+      "maalintekijät_vieras": "Eugen Johansen,Aulis Vahtonen,Helge Saarinen"
     },
     {
       "ottelu_id": "194808",
@@ -21752,7 +21821,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Kiri",
       "maalit_koti": "2",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Yrjö Sotiola,Harald Lindqvist",
+      "maalintekijät_vieras": "Erkki Herrala"
     },
     {
       "ottelu_id": "194807",
@@ -21762,7 +21833,9 @@
       "Kotijoukkue": "Kullervo",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Aarre Salonen",
+      "maalintekijät_vieras": "Jorma Weckström"
     },
     {
       "ottelu_id": "194806",
@@ -21772,7 +21845,8 @@
       "Kotijoukkue": "HJK",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_vieras": "Harald Lindqvist"
     },
     {
       "ottelu_id": "194805",
@@ -21782,7 +21856,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "KIF",
       "maalit_koti": "0",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_vieras": "Lehtinen"
     },
     {
       "ottelu_id": "194804",
@@ -21792,7 +21867,8 @@
       "Kotijoukkue": "TuTo",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_vieras": "Henry Salin,Yrjö Sotiola"
     },
     {
       "ottelu_id": "194803",
@@ -21802,7 +21878,9 @@
       "Kotijoukkue": "Sudet",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Kosti Cande",
+      "maalintekijät_vieras": "Bror Uggeldahl,Bror Uggeldahl"
     },
     {
       "ottelu_id": "194802",
@@ -21812,7 +21890,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Ponnistus",
       "maalit_koti": "2",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Bror Uggeldahl,Veikko Vaahtera"
     },
     {
       "ottelu_id": "194801",
@@ -21822,7 +21901,8 @@
       "Kotijoukkue": "VIFK",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_vieras": "Yrjö Sotiola"
     },
     {
       "ottelu_id": "194719",
@@ -21832,7 +21912,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "VPS",
       "maalit_koti": "2",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Henry Salin,Bror Uggeldahl",
+      "maalintekijät_vieras": "Jorma Saarinen,Karl Kallio"
     },
     {
       "ottelu_id": "194718",
@@ -21842,7 +21924,8 @@
       "Kotijoukkue": "KuPS",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_vieras": "Henry Salin,Bror Uggeldahl"
     },
     {
       "ottelu_id": "194717",
@@ -21852,7 +21935,8 @@
       "Kotijoukkue": "HJK",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_vieras": "Anatol Hasso,Bror Uggeldahl"
     },
     {
       "ottelu_id": "194716",
@@ -21862,7 +21946,8 @@
       "Kotijoukkue": "TPS",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_vieras": "Anatol Hasso,Anatol Hasso"
     },
     {
       "ottelu_id": "194715",
@@ -21872,7 +21957,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "HIFK",
       "maalit_koti": "7",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_koti": "Bror Uggeldahl,Bror Uggeldahl,Rauno Vepsäläinen,Henry Salin,Yrjö Sotiola,Anatol Hasso,Anatol Hasso",
+      "maalintekijät_vieras": "Börje Herrman,Nils Fröberg,Tor Bäckström"
     },
     {
       "ottelu_id": "194714",
@@ -21882,7 +21969,9 @@
       "Kotijoukkue": "VIFK",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Sven Weijola,Stig-Göran Myntti,Olof Stolpe",
+      "maalintekijät_vieras": "Rauno Vepsäläinen"
     },
     {
       "ottelu_id": "194713",
@@ -21892,7 +21981,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Jäntevä",
       "maalit_koti": "4",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Anatol Hasso,Anatol Hasso,Yrjö Sotiola,Rauno Vepsäläinen"
     },
     {
       "ottelu_id": "194712",
@@ -21902,7 +21992,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "KuPS",
       "maalit_koti": "1",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Rauno Vepsäläinen",
+      "maalintekijät_vieras": "Onni Kaitokari"
     },
     {
       "ottelu_id": "194711",
@@ -21912,7 +22004,9 @@
       "Kotijoukkue": "VPS",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "4",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Jorma Saarinen,Jorma Saarinen,Jorma Saarinen,Kaimo Lintamo",
+      "maalintekijät_vieras": "Paavo Virtanen"
     },
     {
       "ottelu_id": "194710",
@@ -21922,7 +22016,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "VIFK",
       "maalit_koti": "2",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Harald Lindqvist,Anatol Hasso",
+      "maalintekijät_vieras": "Erik Beijar,Olof Stolpe"
     },
     {
       "ottelu_id": "194709",
@@ -21932,7 +22028,9 @@
       "Kotijoukkue": "Jäntevä",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Åke Pettersson,Åke Pettersson",
+      "maalintekijät_vieras": "Anatol Hasso"
     },
     {
       "ottelu_id": "194708",
@@ -21942,7 +22040,9 @@
       "Kotijoukkue": "HIFK",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_koti": "Åke Forsman,Åke Lindman",
+      "maalintekijät_vieras": "Harald Lindqvist,Yrjö Sotiola,Rauno Vepsäläinen"
     },
     {
       "ottelu_id": "194707",
@@ -21952,7 +22052,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "TPS",
       "maalit_koti": "2",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Rauno Vepsäläinen,Veikko Vaahtera",
+      "maalintekijät_vieras": "Helge Saarinen"
     },
     {
       "ottelu_id": "194706",
@@ -21962,7 +22064,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "HJK",
       "maalit_koti": "1",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_koti": "Yrjö Sotiola",
+      "maalintekijät_vieras": "Keijo Keso,Keijo Keso,Armas Laitinen"
     },
     {
       "ottelu_id": "194705",
@@ -21974,7 +22078,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Tukholman AIK (SE)",
       "maalit_koti": "0",
-      "maalit_vieras": "4"
+      "maalit_vieras": "4",
+      "yleisömäärä": "3367"
     },
     {
       "ottelu_id": "194704",
@@ -22020,7 +22125,9 @@
       "Kotijoukkue": "KIF",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Oiva Larmela,Georg Sjöberg",
+      "maalintekijät_vieras": "Anatol Hasso,Yrjö Sotiola"
     },
     {
       "ottelu_id": "194618",
@@ -22030,7 +22137,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "VPS",
       "maalit_koti": "3",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_koti": "Anatol Hasso,Anatol Hasso,Harald Lindqvist",
+      "maalintekijät_vieras": "Kauno Laaksoharju,Väinö Kultti,Pentti Uusikylä"
     },
     {
       "ottelu_id": "194617",
@@ -22040,7 +22149,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "HIFK",
       "maalit_koti": "3",
-      "maalit_vieras": "4"
+      "maalit_vieras": "4",
+      "maalintekijät_koti": "Harald Lindqvist,Paavo Virtanen,Yrjö Lievonen",
+      "maalintekijät_vieras": "Erik Åberg,Erik Åberg,Åke Forsman,Åke Forsman"
     },
     {
       "ottelu_id": "194616",
@@ -22050,7 +22161,9 @@
       "Kotijoukkue": "VIFK",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Sven Weijola,Sven Weijola,Stig-Göran Myntti",
+      "maalintekijät_vieras": "Anatol Hasso"
     },
     {
       "ottelu_id": "194615",
@@ -22060,7 +22173,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "TPS",
       "maalit_koti": "4",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Harald Lindqvist,Lassi Lahtinen,Yrjö Sotiola,Yrjö Sotiola",
+      "maalintekijät_vieras": "Helge Saarinen"
     },
     {
       "ottelu_id": "194614",
@@ -22070,7 +22185,8 @@
       "Kotijoukkue": "Sudet",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_vieras": "Anatol Hasso"
     },
     {
       "ottelu_id": "194613",
@@ -22080,7 +22196,8 @@
       "Kotijoukkue": "HJK",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "4"
+      "maalit_vieras": "4",
+      "maalintekijät_vieras": "Yrjö Sotiola,Yrjö Sotiola,Harald Lindqvist,Harald Lindqvist"
     },
     {
       "ottelu_id": "194612",
@@ -22090,7 +22207,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Sudet",
       "maalit_koti": "2",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Yrjö Lievonen,Yrjö Sotiola",
+      "maalintekijät_vieras": "Eino Karhu,Eino Saikkonen"
     },
     {
       "ottelu_id": "194611",
@@ -22100,7 +22219,9 @@
       "Kotijoukkue": "TPS",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "5",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Arvi Virtanen,Keijo Kihlman,Keijo Kihlman,Urho Teräs,Helge Saarinen",
+      "maalintekijät_vieras": "Oma maali"
     },
     {
       "ottelu_id": "194610",
@@ -22110,7 +22231,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "KIF",
       "maalit_koti": "2",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Lassi Lahtinen,Anatol Hasso",
+      "maalintekijät_vieras": "Lars-Olof Lindqvist"
     },
     {
       "ottelu_id": "194609",
@@ -22120,7 +22243,9 @@
       "Kotijoukkue": "HIFK",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "4"
+      "maalit_vieras": "4",
+      "maalintekijät_koti": "Börje Herrman,Per Holmberg",
+      "maalintekijät_vieras": "Eino Kilpi,Anatol Hasso,Anatol Hasso,Alfred Gröndahl"
     },
     {
       "ottelu_id": "194608",
@@ -22130,7 +22255,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "VIFK",
       "maalit_koti": "6",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Yrjö Lievonen,Yrjö Sotiola,Anatol Hasso,Anatol Hasso,Eino Kilpi,?? Vepsäläinen",
+      "maalintekijät_vieras": "Erik Beijar"
     },
     {
       "ottelu_id": "194607",
@@ -22150,7 +22277,8 @@
       "Kotijoukkue": "VPS",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "4",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Jussi Mäkinen,Jussi Mäkinen,Olavi Autio,Olavi Autio"
     },
     {
       "ottelu_id": "194605",
@@ -22211,7 +22339,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Sudet",
       "maalit_koti": "0",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_vieras": "Unto Pönniö"
     },
     {
       "ottelu_id": "194528",
@@ -22222,7 +22351,8 @@
       "Kotijoukkue": "KIF",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "5"
+      "maalit_vieras": "5",
+      "maalintekijät_vieras": "Yrjö Sotiola,Yrjö Sotiola,Rauno Vepsäläinen,Yrjö Lievonen,Anatol Hasso"
     },
     {
       "ottelu_id": "194527",
@@ -22233,7 +22363,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "VPS",
       "maalit_koti": "2",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Yrjö Lievonen,Eino Kilpi"
     },
     {
       "ottelu_id": "194526",
@@ -22244,7 +22375,9 @@
       "Kotijoukkue": "TPS",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Keijo Kihlman",
+      "maalintekijät_vieras": "Anatol Hasso"
     },
     {
       "ottelu_id": "194525",
@@ -22255,7 +22388,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Drott",
       "maalit_koti": "1",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Anatol Hasso"
     },
     {
       "ottelu_id": "194524",
@@ -22266,7 +22400,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "KPT",
       "maalit_koti": "3",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Yrjö Sotiola,Rauno Vepsäläinen,Eino Kilpi",
+      "maalintekijät_vieras": "Erkki Miettinen"
     },
     {
       "ottelu_id": "194523",
@@ -22277,7 +22413,8 @@
       "Kotijoukkue": "VIFK",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Gunnar Koivusalo,Valde Haldin"
     },
     {
       "ottelu_id": "194522",
@@ -22288,7 +22425,9 @@
       "Kotijoukkue": "Drott",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Stig Forsman,Per Knif",
+      "maalintekijät_vieras": "Rauno Vepsäläinen,Yrjö Sotiola"
     },
     {
       "ottelu_id": "194521",
@@ -22299,7 +22438,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "VIFK",
       "maalit_koti": "0",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_vieras": "Erik Beijar"
     },
     {
       "ottelu_id": "194520",
@@ -22310,7 +22450,8 @@
       "Kotijoukkue": "VPS",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_vieras": "Yrjö Sotiola"
     },
     {
       "ottelu_id": "194519",
@@ -22321,7 +22462,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "TPS",
       "maalit_koti": "4",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Lassi Lahtinen,Lassi Lahtinen,Alfred Gröndahl,Alfred Gröndahl",
+      "maalintekijät_vieras": "Urho Teräs"
     },
     {
       "ottelu_id": "194518",
@@ -22332,7 +22475,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "KIF",
       "maalit_koti": "1",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Rauno Vepsäläinen",
+      "maalintekijät_vieras": "Gunnar Westerholm,Oiva Larmela"
     },
     {
       "ottelu_id": "194517",
@@ -22343,7 +22488,8 @@
       "Kotijoukkue": "Sudet",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_vieras": "Anatol Hasso,Yrjö Sotiola,Lassi Lahtinen"
     },
     {
       "ottelu_id": "194516",
@@ -22435,7 +22581,8 @@
       "Kotijoukkue": "VIFK",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Sven Weijola"
     },
     {
       "ottelu_id": "194507",
@@ -22445,7 +22592,9 @@
       "Kotijoukkue": "HJK",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Kurt Weckström,Eino Virtanen,Pentti Leskinen",
+      "maalintekijät_vieras": "Yrjö Sotiola"
     },
     {
       "ottelu_id": "194506",
@@ -22455,7 +22604,8 @@
       "Kotijoukkue": "Haka",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_vieras": "Anatol Hasso"
     },
     {
       "ottelu_id": "194505",
@@ -22465,7 +22615,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "KIF",
       "maalit_koti": "3",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Olavi Tikka,Yrjö Sotiola,?? Vepsäläinen",
+      "maalintekijät_vieras": "Oleg Bogomoloff"
     },
     {
       "ottelu_id": "194504",
@@ -22516,7 +22668,9 @@
       "Kotijoukkue": "KTP",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Launonen",
+      "maalintekijät_vieras": "Yrjö Lievonen,Yrjö Sotiola"
     },
     {
       "ottelu_id": "194318",
@@ -22527,7 +22681,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Toverit",
       "maalit_koti": "4",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Anatol Hasso,?? Vepsäläinen,Lassi Lahtinen,Yrjö Sotiola"
     },
     {
       "ottelu_id": "194317",
@@ -22548,7 +22703,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "VPV",
       "maalit_koti": "13",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Börje Herrman,Börje Herrman,Börje Herrman,Börje Herrman,Börje Herrman,Börje Herrman,Anatol Hasso,Anatol Hasso,Anatol Hasso,Anatol Hasso,Yrjö Sotiola,Yrjö Sotiola,R.Vepsäläinen",
+      "maalintekijät_vieras": "Lintamo"
     },
     {
       "ottelu_id": "194315",
@@ -22559,7 +22716,9 @@
       "Kotijoukkue": "ÅIFK",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_koti": "Linko,Lundgren,Svensson",
+      "maalintekijät_vieras": "Oma maali,Ensio Hämäläinen,Ensio Hämäläinen"
     },
     {
       "ottelu_id": "194314",
@@ -22571,7 +22730,9 @@
       "Kotijoukkue": "Kullervo",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "5"
+      "maalit_vieras": "5",
+      "maalintekijät_koti": "Flyström,Savolainen",
+      "maalintekijät_vieras": "?? Rytkönen,Yrjö Sotiola,Yrjö Sotiola,Yrjö Sotiola,Yrjö Lievonen"
     },
     {
       "ottelu_id": "194313",
@@ -22583,7 +22744,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Haka",
       "maalit_koti": "2",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Lassi Lahtinen,Yrjö Sotiola"
     },
     {
       "ottelu_id": "194312",
@@ -22935,7 +23097,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Toverit",
       "maalit_koti": "5",
-      "maalit_vieras": "8"
+      "maalit_vieras": "8",
+      "maalintekijät_koti": "Runo Kilpi, John Weckström,Yrjö Sotiola"
     },
     {
       "ottelu_id": "194110",
@@ -22965,7 +23128,8 @@
       "Kotijoukkue": "Sudet",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "6",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Runo Kilpi,Runo Kilpi,Leo Turunen,Leo Turunen,Leo Turunen,Arvo Hyyrynen"
     },
     {
       "ottelu_id": "194107",
@@ -22976,7 +23140,8 @@
       "Kotijoukkue": "VPS",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Olavi Autio"
     },
     {
       "ottelu_id": "194106",
@@ -22987,7 +23152,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Toverit",
       "maalit_koti": "0",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_vieras": "Ensio Partanen"
     },
     {
       "ottelu_id": "194105",
@@ -22999,7 +23165,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "HJK",
       "maalit_koti": "2",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_koti": "Ensio Hämäläinen,Yrjö Sotiola",
+      "maalintekijät_vieras": "Armas Laitinen,Armas Laitinen,Armas Laitinen"
     },
     {
       "ottelu_id": "194104",
@@ -23010,7 +23178,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "KIF",
       "maalit_koti": "1",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Yrjö Sotiola",
+      "maalintekijät_vieras": "Karl-Erik Sandberg"
     },
     {
       "ottelu_id": "194103",
@@ -23021,7 +23191,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "HIFK",
       "maalit_koti": "2",
-      "maalit_vieras": "4"
+      "maalit_vieras": "4",
+      "maalintekijät_koti": "Yrjö Sotiola,Eino Kilpi",
+      "maalintekijät_vieras": "Holger Salin,Holger Salin,Leo Karjagin,Gunnar Jernström"
     },
     {
       "ottelu_id": "194102",
@@ -23052,7 +23224,9 @@
       "Kotijoukkue": "HJK",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_koti": "Aatos Lehtonen,Sulo Salo,Sulo Salo",
+      "maalintekijät_vieras": "Eero Ronkanen,Yrjö Sotiola,Yrjö Sotiola"
     },
     {
       "ottelu_id": "194011",
@@ -23063,7 +23237,8 @@
       "Kotijoukkue": "TPS",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "5",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Urho Teräs,Urho Teräs,Olavi Valtonen,Olavi Valtonen,Anton Honka"
     },
     {
       "ottelu_id": "194010",
@@ -23074,7 +23249,9 @@
       "Kotijoukkue": "Toverit",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_koti": "Erkki Gustafsson,Leo Grönroos,Leo Grönroos",
+      "maalintekijät_vieras": "Kaarlo Oksanen,Kaarlo Oksanen,Aimo Tenhovuori"
     },
     {
       "ottelu_id": "194009",
@@ -23085,7 +23262,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "VPS",
       "maalit_koti": "1",
-      "maalit_vieras": "4"
+      "maalit_vieras": "4",
+      "maalintekijät_koti": "Eero Ronkanen",
+      "maalintekijät_vieras": "Anatol Hasso,Nuutti Lintamo,Nuutti Lintamo,Olavi Autio"
     },
     {
       "ottelu_id": "194008",
@@ -23096,7 +23275,9 @@
       "Kotijoukkue": "KIF",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_koti": "Dimitri Borisow,Holger Granström,Thord Westerholm",
+      "maalintekijät_vieras": "Börje Herrman,Börje Herrman "
     },
     {
       "ottelu_id": "194007",
@@ -23107,7 +23288,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Sudet",
       "maalit_koti": "1",
-      "maalit_vieras": "4"
+      "maalit_vieras": "4",
+      "maalintekijät_koti": "Yrjö Sotiola",
+      "maalintekijät_vieras": "Runo Kilpi,Runo Kilpi,Eino Karhu,Eino Karhu"
     },
     {
       "ottelu_id": "194006",
@@ -23118,7 +23301,9 @@
       "Kotijoukkue": "HIFK",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_koti": "Odert Forsstedt",
+      "maalintekijät_vieras": "Eero Ronkanen,Ensio Hämäläinen,Ensio Hämäläinen"
     },
     {
       "ottelu_id": "194005",
@@ -23181,7 +23366,8 @@
       "Kotijoukkue": "KPT",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_vieras": "Paavo Virtanen"
     },
     {
       "ottelu_id": "193916",
@@ -23203,7 +23389,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "HJK",
       "maalit_koti": "3",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Yrjö Sotiola,Eino Kilpi,Paavo Virtanen",
+      "maalintekijät_vieras": "Aatos Lehtonen"
     },
     {
       "ottelu_id": "193914",
@@ -23214,7 +23402,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Toverit",
       "maalit_koti": "1",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_koti": "Yrjö Sotiola",
+      "maalintekijät_vieras": "Erkki Gustafsson,Lauri Taipale,Lauri Taipale"
     },
     {
       "ottelu_id": "193913",
@@ -23225,7 +23415,8 @@
       "Kotijoukkue": "TPS",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Olavi Valtonen,Lauri Lehtinen"
     },
     {
       "ottelu_id": "193912",
@@ -23236,7 +23427,9 @@
       "Kotijoukkue": "HJK",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Kurt Weckström",
+      "maalintekijät_vieras": "Paavo Virtanen"
     },
     {
       "ottelu_id": "193911",
@@ -23247,7 +23440,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Reipas",
       "maalit_koti": "3",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Yrjö Sotiola,Yrjö Sotiola,Nils Nuuttio",
+      "maalintekijät_vieras": "Kaarlo Kallio,Onni Ukkonen"
     },
     {
       "ottelu_id": "193910",
@@ -23258,7 +23453,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "KPT",
       "maalit_koti": "3",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_koti": "Pentti Larvo,Pentti Larvo,Eero Ronkanen",
+      "maalintekijät_vieras": "Pauli Happonen,Pauli Happonen,Pauli Happonen"
     },
     {
       "ottelu_id": "193909",
@@ -23269,7 +23466,9 @@
       "Kotijoukkue": "VPS",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "4",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Olavi Autio,Nuutti Lintamo,Nuutti Lintamo,Väinö Kultti",
+      "maalintekijät_vieras": "Pentti Larvo,Oma maali"
     },
     {
       "ottelu_id": "193908",
@@ -23280,7 +23479,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "TPS",
       "maalit_koti": "5",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Yrjö Sotiola,Pentti Larvo,Pentti Larvo,Paavo Virtanen,Eero Ronkanen",
+      "maalintekijät_vieras": "Anton Honka"
     },
     {
       "ottelu_id": "193907",
@@ -23291,7 +23492,8 @@
       "Kotijoukkue": "Toverit",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_vieras": "Yrjö Sotiola"
     },
     {
       "ottelu_id": "193906",
@@ -23302,7 +23504,8 @@
       "Kotijoukkue": "Reipas",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Vilho Pirskanen,Dimitri Borisow"
     },
     {
       "ottelu_id": "193905",
@@ -23313,40 +23516,41 @@
       "Kotijoukkue": "HIFK",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Leo Karjagin,Per Holmberg,Erik Åberg"
     },
     {
       "ottelu_id": "193904",
       "Kausi": "1939",
-      "Päivämäärä": "1.1.1939",
       "Kilpailu": "Piirisarja",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Toverit",
       "maalit_koti": "4",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Alfred Gröndahl,Pentti Larvo,Pentti Larvo,Paavo Virtanen"
     },
     {
       "ottelu_id": "193903",
       "Kausi": "1939",
-      "Päivämäärä": "1.1.1939",
       "Kilpailu": "Piirisarja",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "KIF",
       "maalit_koti": "1",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Larvo"
     },
     {
       "ottelu_id": "193902",
       "Kausi": "1939",
-      "Päivämäärä": "1.1.1939",
       "Kilpailu": "Piirisarja",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "HIFK",
       "maalit_koti": "3",
-      "maalit_vieras": "4"
+      "maalit_vieras": "4",
+      "maalintekijät_koti": "Larvo, Larvo, Virtanen"
     },
     {
       "ottelu_id": "193901",
@@ -23369,7 +23573,8 @@
       "Kotijoukkue": "VPS",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Birger Julin,Nuutti Lintamo"
     },
     {
       "ottelu_id": "193821",
@@ -23381,7 +23586,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "KPT",
       "maalit_koti": "4",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "William Kanerva,Eero Ronkanen,Eino Kilpi,Eino Kilpi",
+      "maalintekijät_vieras": "Herkko Kosonen,Reino Miettinen"
     },
     {
       "ottelu_id": "193820",
@@ -23392,7 +23599,9 @@
       "Kotijoukkue": "HJK",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_koti": "Aatos Lehtonen,Pentti Eronen",
+      "maalintekijät_vieras": "Eino Kilpi,Yrjö Sotiola,Atte Pesonen"
     },
     {
       "ottelu_id": "193819",
@@ -23403,7 +23612,9 @@
       "Kotijoukkue": "Toverit",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Erkki Gustafsson,Lasse Salo",
+      "maalintekijät_vieras": "Eino Kilpi,Atte Pesonen"
     },
     {
       "ottelu_id": "193818",
@@ -23414,7 +23625,8 @@
       "Kotijoukkue": "TPS",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "7",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Olavi Valtonen,Olavi Valtonen,Olavi Valtonen,Olavi Valtonen,Lauri Lehtinen,Ilmari Oksanen,Urho Teräs"
     },
     {
       "ottelu_id": "193817",
@@ -23425,7 +23637,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "HIFK",
       "maalit_koti": "1",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "William Kanerva"
     },
     {
       "ottelu_id": "193816",
@@ -23437,12 +23650,12 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Sudet",
       "maalit_koti": "0",
-      "maalit_vieras": "5"
+      "maalit_vieras": "5",
+      "maalintekijät_vieras": "Eemil Saajamo,Eemil Saajamo,Eino Karhu,Eino Karhu,Runo Kilpi"
     },
     {
       "ottelu_id": "193815",
       "Kausi": "1938",
-      "Päivämäärä": "1.1.1938",
       "Kilpailu": "Ystävyysottelu",
       "Kaupunki": "Ruotsi",
       "Kotijoukkue": "Djurgården",
@@ -23453,7 +23666,6 @@
     {
       "ottelu_id": "193814",
       "Kausi": "1938",
-      "Päivämäärä": "1.1.1938",
       "Kilpailu": "Ystävyysottelu",
       "Kaupunki": "Ruotsi",
       "Kotijoukkue": "Sleipner",
@@ -23464,7 +23676,6 @@
     {
       "ottelu_id": "193813",
       "Kausi": "1938",
-      "Päivämäärä": "1.1.1938",
       "Kilpailu": "Ystävyysottelu",
       "Kaupunki": "Ruotsi",
       "Kotijoukkue": "Mjällby",
@@ -23481,7 +23692,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Toverit",
       "maalit_koti": "1",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Kaarlo Oksanen",
+      "maalintekijät_vieras": "Gunnar Jernström,Yrjö Kylmälä"
     },
     {
       "ottelu_id": "193811",
@@ -23490,7 +23703,9 @@
       "Kilpailu": "Mestaruussarja",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "HJK"
+      "Vierasjoukkue": "HJK",
+      "maalintekijät_koti": "Atte Pesonen",
+      "maalintekijät_vieras": "Kurt Weckström,Sulo Salo,Aatos Lehtonen,Eino Mäkelä"
     },
     {
       "ottelu_id": "193810",
@@ -23501,7 +23716,9 @@
       "Kotijoukkue": "KPT",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Pauli Happonen,Pauli Happonen",
+      "maalintekijät_vieras": "Pentti Larvo,Oma maali"
     },
     {
       "ottelu_id": "193809",
@@ -23510,7 +23727,8 @@
       "Kilpailu": "Mestaruussarja",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "TPS"
+      "Vierasjoukkue": "TPS",
+      "maalintekijät_koti": "Kaarlo Oksanen"
     },
     {
       "ottelu_id": "193808",
@@ -23522,7 +23740,9 @@
       "Kotijoukkue": "HIFK",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_koti": "Bjarne Backman,Erik Åberg",
+      "maalintekijät_vieras": "Arvo Pesonen,Arvo Pesonen,Atte Pesonen"
     },
     {
       "ottelu_id": "193807",
@@ -23533,7 +23753,9 @@
       "Kotijoukkue": "Sudet",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Eino Karhu,Eino Karhu,Arvo Hyyrynen",
+      "maalintekijät_vieras": "Pentti Larvo"
     },
     {
       "ottelu_id": "193806",
@@ -23544,12 +23766,12 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "VPS",
       "maalit_koti": "3",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Pentti Larvo,William Kanerva,Eero Ronkanen"
     },
     {
       "ottelu_id": "193805",
       "Kausi": "1938",
-      "Päivämäärä": "1.1.1938",
       "Kilpailu": "Piirisarja",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
@@ -23560,7 +23782,6 @@
     {
       "ottelu_id": "193804",
       "Kausi": "1938",
-      "Päivämäärä": "1.1.1938",
       "Kilpailu": "Piirisarja",
       "Stadion": "Eläintarhan kenttä",
       "Kaupunki": "Helsinki",
@@ -23572,18 +23793,17 @@
     {
       "ottelu_id": "193803",
       "Kausi": "1938",
-      "Päivämäärä": "1.1.1938",
       "Kilpailu": "Ystävyysottelu",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Sport",
       "maalit_koti": "4",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Pentti Larvo,?? Pesonen,Eero Ronkanen,Eero Ronkanen"
     },
     {
       "ottelu_id": "193802",
       "Kausi": "1938",
-      "Päivämäärä": "1.1.1938",
       "Kilpailu": "Ystävyysottelu",
       "Kaupunki": "Viro",
       "Kotijoukkue": "Sport",
@@ -23594,7 +23814,6 @@
     {
       "ottelu_id": "193801",
       "Kausi": "1938",
-      "Päivämäärä": "1.1.1938",
       "Kilpailu": "Ystävyysottelu",
       "Kaupunki": "Viro",
       "Kotijoukkue": "Kalev",
@@ -23604,25 +23823,25 @@
     },
     {
       "ottelu_id": "193729",
-      "Kausi": "1938",
-      "Päivämäärä": "1.1.1938",
+      "Kausi": "1937",
       "Kilpailu": "Ystävyysottelu",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "HJK",
       "maalit_koti": "5",
-      "maalit_vieras": "5"
+      "maalit_vieras": "5",
+      "maalintekijät_koti": "Eino Kilpi,Alpo Laine,William Kanerva,Alpo Laine,Alpo Laine"
     },
     {
       "ottelu_id": "193728",
-      "Kausi": "1938",
-      "Päivämäärä": "1.1.1938",
+      "Kausi": "1937",
       "Kilpailu": "Ystävyysottelu",
       "Kaupunki": "Kuopio",
       "Kotijoukkue": "KPT",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Pentti Larvo,Pentti Larvo"
     },
     {
       "ottelu_id": "193727",
@@ -23633,7 +23852,8 @@
       "Kotijoukkue": "Sudet",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_vieras": "Aimo Tenhovuori,Atte Pesonen"
     },
     {
       "ottelu_id": "193726",
@@ -23644,7 +23864,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "VIFK",
       "maalit_koti": "1",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Atte Pesonen",
+      "maalintekijät_vieras": "Lars Nordlund,Erik Beijar"
     },
     {
       "ottelu_id": "193725",
@@ -23655,7 +23877,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "UL",
       "maalit_koti": "4",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Eero Ronkanen,Atte Pesonen,William Kanerva,?? Halme"
     },
     {
       "ottelu_id": "193724",
@@ -23666,7 +23889,9 @@
       "Kotijoukkue": "Toverit",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Gunnar Jernström,Gunnar Jernström,Gunnar Jernström",
+      "maalintekijät_vieras": "Pentti Larvo,Yrjö Sotiola"
     },
     {
       "ottelu_id": "193723",
@@ -23677,7 +23902,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "HJK",
       "maalit_koti": "1",
-      "maalit_vieras": "7"
+      "maalit_vieras": "7",
+      "maalintekijät_koti": "Atte Pesonen",
+      "maalintekijät_vieras": "Armas Pyy,Pentti Eronen,Sulo Salo,Sulo Salo,Sulo Salo,Aatos Lehtonen,Aatos Lehtonen"
     },
     {
       "ottelu_id": "193722",
@@ -23688,7 +23915,9 @@
       "Kotijoukkue": "TPS",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_koti": "Honka",
+      "maalintekijät_vieras": "William Kanerva,Pentti Larvo,Pentti Larvo"
     },
     {
       "ottelu_id": "193721",
@@ -23699,12 +23928,13 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "HIFK",
       "maalit_koti": "2",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Erkki Gustafsson,Pesonen",
+      "maalintekijät_vieras": "Olof Strömsten,Karl-Erik Roslund"
     },
     {
       "ottelu_id": "193720",
       "Kausi": "1937",
-      "Päivämäärä": "1.1.1937",
       "Kilpailu": "Ystävyysottelu",
       "Kotijoukkue": "KePS",
       "Vierasjoukkue": "HPS",
@@ -23714,7 +23944,6 @@
     {
       "ottelu_id": "193719",
       "Kausi": "1937",
-      "Päivämäärä": "1.1.1937",
       "Kilpailu": "Ystävyysottelu",
       "Kotijoukkue": "OPS",
       "Vierasjoukkue": "HPS",
@@ -23724,7 +23953,6 @@
     {
       "ottelu_id": "193718",
       "Kausi": "1937",
-      "Päivämäärä": "1.1.1937",
       "Kilpailu": "Ystävyysottelu",
       "Kaupunki": "Ruotsi",
       "Kotijoukkue": "Boden BK",
@@ -23735,7 +23963,6 @@
     {
       "ottelu_id": "193717",
       "Kausi": "1937",
-      "Päivämäärä": "1.1.1937",
       "Kilpailu": "Ystävyysottelu",
       "Kaupunki": "Ruotsi",
       "Kotijoukkue": "Piteå IF",
@@ -23746,7 +23973,6 @@
     {
       "ottelu_id": "193716",
       "Kausi": "1937",
-      "Päivämäärä": "1.1.1937",
       "Kilpailu": "Ystävyysottelu",
       "Kaupunki": "Ruotsi",
       "Kotijoukkue": "Luleå IF",
@@ -23757,7 +23983,6 @@
     {
       "ottelu_id": "193715",
       "Kausi": "1937",
-      "Päivämäärä": "1.1.1937",
       "Kilpailu": "Ystävyysottelu",
       "Kaupunki": "Ruotsi",
       "Kotijoukkue": "Kalix IF",
@@ -23768,7 +23993,6 @@
     {
       "ottelu_id": "193714",
       "Kausi": "1937",
-      "Päivämäärä": "1.1.1937",
       "Kilpailu": "Ystävyysottelu",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
@@ -23779,7 +24003,6 @@
     {
       "ottelu_id": "193713",
       "Kausi": "1937",
-      "Päivämäärä": "1.1.1937",
       "Kilpailu": "Ystävyysottelu",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
@@ -23790,7 +24013,6 @@
     {
       "ottelu_id": "193712",
       "Kausi": "1937",
-      "Päivämäärä": "1.1.1937",
       "Kilpailu": "Ystävyysottelu",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
@@ -23807,7 +24029,8 @@
       "Kotijoukkue": "UL",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "4"
+      "maalit_vieras": "4",
+      "maalintekijät_vieras": "William Kanerva,Atte Pesonen,Pentti Larvo,Pentti Larvo"
     },
     {
       "ottelu_id": "193710",
@@ -23816,7 +24039,11 @@
       "Kilpailu": "Mestaruussarja",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HIFK",
-      "Vierasjoukkue": "HPS"
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "2",
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Leo Karjagin,Holger Salin",
+      "maalintekijät_vieras": "Pentti Larvo,Eero Ronkanen"
     },
     {
       "ottelu_id": "193709",
@@ -23827,7 +24054,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "TPS",
       "maalit_koti": "1",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Paavo Virtanen",
+      "maalintekijät_vieras": "Lauri Lehtinen"
     },
     {
       "ottelu_id": "193708",
@@ -23838,7 +24067,9 @@
       "Kotijoukkue": "HJK",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Sulo Salo,Aatos Lehtonen",
+      "maalintekijät_vieras": "Paavo Virtanen,Paavo Virtanen"
     },
     {
       "ottelu_id": "193707",
@@ -23849,7 +24080,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Toverit",
       "maalit_koti": "1",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_koti": "Pentti Larvo",
+      "maalintekijät_vieras": "Verner Peltonen,Yrjö Kylmälä,Gunnar Jernström"
     },
     {
       "ottelu_id": "193706",
@@ -23861,7 +24094,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Sudet",
       "maalit_koti": "1",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Pentti Larvo",
+      "maalintekijät_vieras": "Tauno Paakkanen"
     },
     {
       "ottelu_id": "193705",
@@ -23872,23 +24107,24 @@
       "Kotijoukkue": "VIFK",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "4"
+      "maalit_vieras": "4",
+      "maalintekijät_koti": "Erik Haldin",
+      "maalintekijät_vieras": "Yrjö Sotiola,Pentti Larvo,Eero Ronkanen,Atte Pesonen"
     },
     {
       "ottelu_id": "193704",
       "Kausi": "1937",
-      "Päivämäärä": "1.1.1937",
       "Kilpailu": "Piirisarja",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "HJK",
       "maalit_koti": "5",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Eino Kilpi,Erkki Gustafsson,William Kanerva,Yrjö Sotiola, Oma maali"
     },
     {
       "ottelu_id": "193703",
       "Kausi": "1937",
-      "Päivämäärä": "1.1.1937",
       "Kilpailu": "Piirisarja",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
@@ -23899,7 +24135,6 @@
     {
       "ottelu_id": "193702",
       "Kausi": "1937",
-      "Päivämäärä": "1.1.1937",
       "Kilpailu": "Piirisarja",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HIFK",
@@ -23910,7 +24145,6 @@
     {
       "ottelu_id": "193701",
       "Kausi": "1937",
-      "Päivämäärä": "1.1.1937",
       "Kilpailu": "Piirisarja",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
@@ -23927,7 +24161,9 @@
       "Kotijoukkue": "HIFK",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "4",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_koti": "Jarl Malmgren,Olof Snellman,Olof Strömsten,Leo Karjagin",
+      "maalintekijät_vieras": "William Kanerva,Pentti Larvo,Pentti Larvo"
     },
     {
       "ottelu_id": "193615",
@@ -23938,7 +24174,8 @@
       "Kotijoukkue": "Toverit",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "4"
+      "maalit_vieras": "4",
+      "maalintekijät_vieras": "Paavo Virtanen,Eino Kilpi,William Kanerva,William Kanerva"
     },
     {
       "ottelu_id": "193614",
@@ -23949,7 +24186,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "TPS",
       "maalit_koti": "1",
-      "maalit_vieras": "4"
+      "maalit_vieras": "4",
+      "maalintekijät_koti": "Eero Ronkanen",
+      "maalintekijät_vieras": "Lauri Lehtinen,Lauri Lehtinen,Viljo Vahtera,Olavi Valtonen"
     },
     {
       "ottelu_id": "193613",
@@ -23960,7 +24199,9 @@
       "Kotijoukkue": "Drott",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Helge Blomqvist",
+      "maalintekijät_vieras": "Yrjö Sotiola,Eero Ronkanen"
     },
     {
       "ottelu_id": "193612",
@@ -23971,7 +24212,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "HJK",
       "maalit_koti": "3",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Eero Ronkanen,Paavo Virtanen,Yrjö Sotiola"
     },
     {
       "ottelu_id": "193611",
@@ -23982,7 +24224,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "VPS",
       "maalit_koti": "4",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Eero Ronkanen,Paavo Virtanen 2,Pentti Larvo",
+      "maalintekijät_vieras": "Nuutti Lintamo,Nuutti Lintamo"
     },
     {
       "ottelu_id": "193610",
@@ -23993,7 +24237,9 @@
       "Kotijoukkue": "HJK",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Pentti Eronen,Aatos Lehtonen,Aatos Lehtonen",
+      "maalintekijät_vieras": "Yrjö Sotiola"
     },
     {
       "ottelu_id": "193609",
@@ -24004,7 +24250,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Toverit",
       "maalit_koti": "1",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "William Kanerva",
+      "maalintekijät_vieras": "Lauri Taipale"
     },
     {
       "ottelu_id": "193608",
@@ -24015,7 +24263,9 @@
       "Kotijoukkue": "Sudet",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "4",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Eino Karhu,Eino Karhu,Oma maali,Tauno Paakkanen",
+      "maalintekijät_vieras": "Pentti Larvo"
     },
     {
       "ottelu_id": "193607",
@@ -24026,7 +24276,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "HIFK",
       "maalit_koti": "2",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Pentti Larvo,Viljo Kuhlberg"
     },
     {
       "ottelu_id": "193606",
@@ -24037,7 +24288,9 @@
       "Kotijoukkue": "VPS",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "6",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Armas Rullo,Armas Rullo,Nuutti Lintamo,Nuutti Lintamo,Olavi Autio,Olavi Autio",
+      "maalintekijät_vieras": "Viljo Kuhlberg,Pentti Larvo"
     },
     {
       "ottelu_id": "193605",
@@ -24049,7 +24302,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Sudet",
       "maalit_koti": "1",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Eino Kilpi"
     },
     {
       "ottelu_id": "193604",
@@ -24060,7 +24314,8 @@
       "Kotijoukkue": "TPS",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_vieras": "Viljo Kuhlberg"
     },
     {
       "ottelu_id": "193603",
@@ -24071,12 +24326,13 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Drott",
       "maalit_koti": "2",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Yrjö Sotiola,Pentti Larvo",
+      "maalintekijät_vieras": "Helge Blomqvist"
     },
     {
       "ottelu_id": "193602",
       "Kausi": "1936",
-      "Päivämäärä": "1.1.1936",
       "Kilpailu": "Harjoitusottelu",
       "Stadion": "Eläintarhan kenttä",
       "Kaupunki": "Helsinki",
@@ -24088,14 +24344,14 @@
     {
       "ottelu_id": "193601",
       "Kausi": "1936",
-      "Päivämäärä": "1.1.1936",
       "Kilpailu": "Harjoitusottelu",
       "Stadion": "Eläintarhan kenttä",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "HJK",
       "maalit_koti": "1",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Viljo Kuhlberg"
     },
     {
       "ottelu_id": "193520",
@@ -24106,7 +24362,10 @@
       "Kotijoukkue": "Sudet",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "4"
+      "maalit_vieras": "4",
+      "erotuomari": " ",
+      "maalintekijät_koti": "Tauno Paakkanen",
+      "maalintekijät_vieras": "Pentti Larvo,Yrjö Sotiola,Viljo Kuhlberg,Oma maali"
     },
     {
       "ottelu_id": "193519",
@@ -24118,7 +24377,10 @@
       "Kotijoukkue": "HIFK",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "4"
+      "maalit_vieras": "4",
+      "yleisömäärä": "3000",
+      "erotuomari": " ",
+      "maalintekijät_vieras": "Paavo Virtanen,Eero Ronkanen,Viljo Kuhlberg,Pentti Larvo"
     },
     {
       "ottelu_id": "193518",
@@ -24130,7 +24392,10 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "VPS",
       "maalit_koti": "5",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "erotuomari": " ",
+      "maalintekijät_koti": "Paavo Virtanen,Pentti Larvo,Viljo Kuhlberg,Eero Ronkanen,Eero Ronkanen",
+      "maalintekijät_vieras": "Nuutti Lintamo"
     },
     {
       "ottelu_id": "193517",
@@ -24141,7 +24406,9 @@
       "Kotijoukkue": "Gnistan",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "7"
+      "maalit_vieras": "7",
+      "lisätietoja": "Oulunkylän uuden nurmikentän avajaisottelu",
+      "erotuomari": " "
     },
     {
       "ottelu_id": "193516",
@@ -24152,7 +24419,9 @@
       "Kotijoukkue": "HJK",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "erotuomari": " ",
+      "maalintekijät_vieras": "Eero Ronkanen"
     },
     {
       "ottelu_id": "193515",
@@ -24163,7 +24432,10 @@
       "Kotijoukkue": "VIFK",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "erotuomari": " ",
+      "maalintekijät_koti": "Arthur Hestenaes,Aarne Viitala",
+      "maalintekijät_vieras": "Yrjö Sotiola,Eero Ronkanen,Aulis Koponen"
     },
     {
       "ottelu_id": "193514",
@@ -24175,7 +24447,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "ÅIFK",
       "maalit_koti": "1",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "erotuomari": " ",
+      "maalintekijät_koti": "Pentti Larvo"
     },
     {
       "ottelu_id": "193513",
@@ -24186,40 +24460,45 @@
       "Kotijoukkue": "Toverit",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "erotuomari": " ",
+      "maalintekijät_koti": "Erkki Gustafsson,Oma maali",
+      "maalintekijät_vieras": "Max Viinioksa,Pentti Larvo,Eero Ronkanen"
     },
     {
       "ottelu_id": "193512",
       "Kausi": "1935",
-      "Päivämäärä": "1.1.1935",
       "Kilpailu": "Ystävyysottelu",
       "Kaupunki": "Norrköping",
       "Kotijoukkue": "Sleipner",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "erotuomari": " ",
+      "maalintekijät_koti": "Eero Ronkanen"
     },
     {
       "ottelu_id": "193511",
       "Kausi": "1935",
-      "Päivämäärä": "1.1.1935",
       "Kilpailu": "Ystävyysottelu",
       "Kaupunki": "Iggesund",
       "Kotijoukkue": "Iggesund",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
-      "maalit_vieras": "4"
+      "maalit_vieras": "4",
+      "erotuomari": " "
     },
     {
       "ottelu_id": "193510",
       "Kausi": "1935",
-      "Päivämäärä": "1.1.1935",
       "Kilpailu": "Ystävyysottelu",
       "Kaupunki": "Tukholma",
       "Kotijoukkue": "AIK",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "erotuomari": " ",
+      "maalintekijät_koti": "Paavo Virtanen,Pentti Larvo"
     },
     {
       "ottelu_id": "193509",
@@ -24230,7 +24509,10 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "VIFK",
       "maalit_koti": "3",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "erotuomari": " ",
+      "maalintekijät_koti": "Paavo Virtanen,Pentti Larvo,Eero Ronkanen",
+      "maalintekijät_vieras": "Aarne Viitala"
     },
     {
       "ottelu_id": "193508",
@@ -24241,7 +24523,10 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "HIFK",
       "maalit_koti": "4",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "erotuomari": " ",
+      "maalintekijät_koti": "Yrjö Sotiola,Yrjö Sotiola,Eero Ronkanen,Paavo Virtanen",
+      "maalintekijät_vieras": "Olof Strömsten"
     },
     {
       "ottelu_id": "193507",
@@ -24252,7 +24537,10 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Toverit",
       "maalit_koti": "3",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "erotuomari": " ",
+      "maalintekijät_koti": "Pentti Larvo",
+      "maalintekijät_vieras": "Yrjö Kylmälä,Lauri Taipale"
     },
     {
       "ottelu_id": "193506",
@@ -24263,7 +24551,10 @@
       "Kotijoukkue": "ÅIFK",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "4"
+      "maalit_vieras": "4",
+      "erotuomari": " ",
+      "maalintekijät_koti": "Eugen Johansen",
+      "maalintekijät_vieras": "Oma maali,Pentti Larvo,Pentti Larvo,Paavo Virtanen"
     },
     {
       "ottelu_id": "193505",
@@ -24274,7 +24565,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Sudet",
       "maalit_koti": "4",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "erotuomari": " ",
+      "maalintekijät_koti": "Pentti Larvo,Aulis Koponen,William Kanerva,Yrjö Sotiola"
     },
     {
       "ottelu_id": "193504",
@@ -24285,7 +24578,10 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "HJK",
       "maalit_koti": "1",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "erotuomari": " ",
+      "maalintekijät_koti": "Yrjö Sotiola",
+      "maalintekijät_vieras": "Sulo Salo,Sulo Salo,Pentti Eronen"
     },
     {
       "ottelu_id": "193503",
@@ -24296,7 +24592,9 @@
       "Kotijoukkue": "VPS",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "erotuomari": " ",
+      "maalintekijät_koti": "Nuutti Lintamo"
     },
     {
       "ottelu_id": "193502",
@@ -24307,7 +24605,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "HIFK",
       "maalit_koti": "2",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "erotuomari": " ",
+      "maalintekijät_koti": "Pentti Larvo,Viljo Kuhlberg"
     },
     {
       "ottelu_id": "193501",
@@ -24318,7 +24618,495 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "HJK",
       "maalit_koti": "3",
+      "maalit_vieras": "0",
+      "erotuomari": " ",
+      "maalintekijät_koti": "Eero Ronkanen,Viljo Kuhlberg,Pentti Larvo"
+    },
+    {
+      "ottelu_id": "193414",
+      "Kausi": "1934",
+      "Päivämäärä": "7.10.1934",
+      "Kilpailu": "A-sarja",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "HJK",
+      "maalit_koti": "1",
+      "maalit_vieras": "1",
+      "erotuomari": " ",
+      "maalintekijät_koti": "Eero Ronkanen",
+      "maalintekijät_vieras": "Valter Lilja"
+    },
+    {
+      "ottelu_id": "193413",
+      "Kausi": "1934",
+      "Päivämäärä": "16.9.1934",
+      "Kilpailu": "A-sarja",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "ÅIFK",
+      "maalit_koti": "7",
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "William Kanerva,Eero Ronkanen,Eero Ronkanen,Eero Ronkanen,Aulis Koponen,Aulis Koponen,Aulis Koponen"
+    },
+    {
+      "ottelu_id": "193412",
+      "Kausi": "1934",
+      "Päivämäärä": "7.9.1934",
+      "Kilpailu": "A-sarja",
+      "Kotijoukkue": "HIFK",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "2",
+      "maalit_vieras": "5",
+      "maalintekijät_koti": "Albin Lönnberg,Odert Forsstedt",
+      "maalintekijät_vieras": "Pentti Larvo,Pentti Larvo,Aulis Koponen,Aulis Koponen,Eero Ronkanen"
+    },
+    {
+      "ottelu_id": "193411",
+      "Kausi": "1934",
+      "Päivämäärä": "26.8.1934",
+      "Kilpailu": "A-sarja",
+      "Kotijoukkue": "Sudet",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "1",
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Arvo Hyyrynen",
+      "maalintekijät_vieras": "Eero Ronkanen"
+    },
+    {
+      "ottelu_id": "193410",
+      "Kausi": "1934",
+      "Päivämäärä": "19.8.1934",
+      "Kilpailu": "A-sarja",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "UL",
+      "maalit_koti": "2",
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Eero Ronkanen,Pentti Larvo",
+      "maalintekijät_vieras": "Vittorio Casagrande"
+    },
+    {
+      "ottelu_id": "193409",
+      "Kausi": "1934",
+      "Päivämäärä": "5.8.1934",
+      "Kilpailu": "A-sarja",
+      "Kotijoukkue": "TPS",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "0",
+      "maalit_vieras": "3",
+      "maalintekijät_vieras": "Viljo Kuhlberg,Pentti Larvo,Eero Ronkanen"
+    },
+    {
+      "ottelu_id": "193408",
+      "Kausi": "1934",
+      "Päivämäärä": "26.7.1934",
+      "Kilpailu": "A-sarja",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "HT",
+      "maalit_koti": "1",
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Max Viinioksa"
+    },
+    {
+      "ottelu_id": "193407",
+      "Kausi": "1934",
+      "Päivämäärä": "22.6.1934",
+      "Kilpailu": "A-sarja",
+      "Kotijoukkue": "HT",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "1",
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Lauri Taipale",
+      "maalintekijät_vieras": "Pentti Larvo"
+    },
+    {
+      "ottelu_id": "193406",
+      "Kausi": "1934",
+      "Päivämäärä": "14.6.1934",
+      "Kilpailu": "A-sarja",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "HIFK",
+      "maalit_koti": "2",
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Aulis Koponen,Aulis Koponen",
+      "maalintekijät_vieras": "Olof Strömsten,Ernst Grönlund"
+    },
+    {
+      "ottelu_id": "193405",
+      "Kausi": "1934",
+      "Päivämäärä": "10.6.1934",
+      "Kilpailu": "A-sarja",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "Sudet",
+      "maalit_koti": "3",
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Yrjö Sotiola,Aulis Koponen,Viljo Kuhlberg",
+      "maalintekijät_vieras": "Viljo Närvänen"
+    },
+    {
+      "ottelu_id": "193404",
+      "Kausi": "1934",
+      "Päivämäärä": "3.6.1934",
+      "Kilpailu": "A-sarja",
+      "Kotijoukkue": "UL",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "0",
+      "maalit_vieras": "3",
+      "maalintekijät_vieras": "Aulis Koponen,Aulis Koponen,Oma maali"
+    },
+    {
+      "ottelu_id": "193403",
+      "Kausi": "1934",
+      "Päivämäärä": "24.5.1934",
+      "Kilpailu": "A-sarja",
+      "Kotijoukkue": "HJK",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "0",
+      "maalit_vieras": "1",
+      "maalintekijät_vieras": "Aulis Koponen"
+    },
+    {
+      "ottelu_id": "193402",
+      "Kausi": "1934",
+      "Päivämäärä": "20.5.1934",
+      "Kilpailu": "A-sarja",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "TPS",
+      "maalit_koti": "7",
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Yrjö Sotiola,Eero Ronkanen,Eero Ronkanen,Eero Ronkanen,Viljo Kuhlberg,Viljo Kuhlberg,Aulis Koponen"
+    },
+    {
+      "ottelu_id": "193401",
+      "Kausi": "1934",
+      "Päivämäärä": "13.5.1934",
+      "Kilpailu": "A-sarja",
+      "Kotijoukkue": "ÅIFK",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "0",
+      "maalit_vieras": "3",
+      "maalintekijät_vieras": "Viljo Kuhlberg,Viljo Kuhlberg,Viljo Kuhlberg"
+    },
+    {
+      "ottelu_id": "193314",
+      "Kausi": "1933",
+      "Päivämäärä": "1.10.1933",
+      "Kilpailu": "A-sarja",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "ÅIFK",
+      "maalit_koti": "11",
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Viljo Kuhlberg,Viljo Kuhlberg,Oma maali,Aulis Koponen,Aulis Koponen,Aulis Koponen,Yrjö Sotiola,Yrjö Sotiola,Toivo Salonen,Toivo Salonen,Toivo Salonen"
+    },
+    {
+      "ottelu_id": "193313",
+      "Kausi": "1933",
+      "Päivämäärä": "10.9.1933",
+      "Kilpailu": "A-sarja",
+      "Kotijoukkue": "TPS",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "1",
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Lauri Lehtinen"
+    },
+    {
+      "ottelu_id": "193312",
+      "Kausi": "1933",
+      "Päivämäärä": "31.8.1933",
+      "Kilpailu": "A-sarja",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "HIFK",
+      "maalit_koti": "2",
+      "maalit_vieras": "4",
+      "maalintekijät_koti": "Viljo Kuhlberg,Viljo Kuhlberg",
+      "maalintekijät_vieras": "Holger Salin,Holger Salin,Holger Salin,Ernst Grönlund"
+    },
+    {
+      "ottelu_id": "193311",
+      "Kausi": "1933",
+      "Päivämäärä": "20.8.1933",
+      "Kilpailu": "A-sarja",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "Sudet",
+      "maalit_koti": "0",
       "maalit_vieras": "0"
+    },
+    {
+      "ottelu_id": "193310",
+      "Kausi": "1933",
+      "Päivämäärä": "13.8.1933",
+      "Kilpailu": "A-sarja",
+      "Kotijoukkue": "EIF",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "1",
+      "maalit_vieras": "3",
+      "maalintekijät_koti": "Lars Ekqvist",
+      "maalintekijät_vieras": "Yrjö Sotiola,Toivo Salonen,Toivo Salonen"
+    },
+    {
+      "ottelu_id": "193309",
+      "Kausi": "1933",
+      "Päivämäärä": "6.8.1933",
+      "Kilpailu": "A-sarja",
+      "Kotijoukkue": "VPS",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "1",
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Nuutti Lindgren"
+    },
+    {
+      "ottelu_id": "193308",
+      "Kausi": "1933",
+      "Päivämäärä": "3.8.1933",
+      "Kilpailu": "A-sarja",
+      "Kotijoukkue": "HJK",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "0",
+      "maalit_vieras": "0"
+    },
+    {
+      "ottelu_id": "193307",
+      "Kausi": "1933",
+      "Päivämäärä": "18.6.1933",
+      "Kilpailu": "A-sarja",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "VPS",
+      "maalit_koti": "1",
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Eero Ronkanen"
+    },
+    {
+      "ottelu_id": "193306",
+      "Kausi": "1933",
+      "Päivämäärä": "14.6.1933",
+      "Kilpailu": "A-sarja",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "EIF",
+      "maalit_koti": "6",
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Viljo Kuhlberg,Viljo Kuhlberg,Viljo Kuhlberg,Viljo Kuhlberg,Erkki Eriksson,Reino Savonheimo"
+    },
+    {
+      "ottelu_id": "193305",
+      "Kausi": "1933",
+      "Päivämäärä": "9.6.1933",
+      "Kilpailu": "A-sarja",
+      "Kotijoukkue": "HIFK",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "6",
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Albin Lönnberg,Gunnar Åström,Ernst Grönlund,Oma maali,Holger Salin,Olof Strömsten"
+    },
+    {
+      "ottelu_id": "193304",
+      "Kausi": "1933",
+      "Päivämäärä": "4.6.1933",
+      "Kilpailu": "A-sarja",
+      "Kotijoukkue": "ÅIFK",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "2",
+      "maalit_vieras": "0",
+      "erotuomari": " ",
+      "maalintekijät_koti": "Arthur Hestenaes,Arthur Hestenaes"
+    },
+    {
+      "ottelu_id": "193303",
+      "Kausi": "1933",
+      "Päivämäärä": "31.5.1933",
+      "Kilpailu": "A-sarja",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "HJK",
+      "maalit_koti": "0",
+      "maalit_vieras": "0",
+      "erotuomari": " "
+    },
+    {
+      "ottelu_id": "193302",
+      "Kausi": "1933",
+      "Päivämäärä": "21.5.1933",
+      "Kilpailu": "A-sarja",
+      "Kotijoukkue": "Sudet",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "3",
+      "maalit_vieras": "2",
+      "erotuomari": " ",
+      "maalintekijät_koti": "Ahti Väätänen,Eero Kettunen,Onni Ukkonen",
+      "maalintekijät_vieras": "Eero Ronkanen,Reino Savonheimo"
+    },
+    {
+      "ottelu_id": "193301",
+      "Kausi": "1933",
+      "Päivämäärä": "6.5.1933",
+      "Kilpailu": "A-sarja",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "TPS",
+      "maalit_koti": "2",
+      "maalit_vieras": "1",
+      "erotuomari": " ",
+      "maalintekijät_koti": "Pentti Lindsten,Pentti Lindsten",
+      "maalintekijät_vieras": "Lauri Lehtinen"
+    },
+    {
+      "ottelu_id": "193214",
+      "Kausi": "1932",
+      "Päivämäärä": "2.10.1932",
+      "Kilpailu": "A-sarja",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "ÅIFK",
+      "maalit_koti": "1",
+      "maalit_vieras": "3",
+      "maalintekijät_koti": "Sulo Pesonen",
+      "maalintekijät_vieras": "Eino Wihlman,Olav Hestenaes,Arno Fagerström"
+    },
+    {
+      "ottelu_id": "193213",
+      "Kausi": "1932",
+      "Päivämäärä": "25.9.1932",
+      "Kilpailu": "A-sarja",
+      "Kotijoukkue": "TPS",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "2",
+      "maalit_vieras": "4",
+      "maalintekijät_koti": "Viljo Vahtera,Reino Järvinen",
+      "maalintekijät_vieras": "Sulo Pesonen,Viljo Kuhlberg,Viljo Kuhlberg,Viljo Kuhlberg"
+    },
+    {
+      "ottelu_id": "193212",
+      "Kausi": "1932",
+      "Päivämäärä": "11.9.1932",
+      "Kilpailu": "A-sarja",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "Sudet",
+      "maalit_koti": "3",
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Eero Ronkanen,Viljo Kuhlberg,Aulis Koponen",
+      "maalintekijät_vieras": "Eero Kettunen,Arvo Närvänen"
+    },
+    {
+      "ottelu_id": "193211",
+      "Kausi": "1932",
+      "Päivämäärä": "2.9.1932",
+      "Kilpailu": "A-sarja",
+      "Kotijoukkue": "HT",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "1",
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Lauri Taipale",
+      "maalintekijät_vieras": "Aulis Koponen"
+    },
+    {
+      "ottelu_id": "193210",
+      "Kausi": "1932",
+      "Päivämäärä": "25.8.1932",
+      "Kilpailu": "A-sarja",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "KIF",
+      "maalit_koti": "4",
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Eero Ronkanen,Eero Ronkanen,Aulis Koponen,Aulis Koponen"
+    },
+    {
+      "ottelu_id": "193209",
+      "Kausi": "1932",
+      "Päivämäärä": "15.8.1932",
+      "Kilpailu": "A-sarja",
+      "Kotijoukkue": "HIFK",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "5",
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Albin Lönnberg,Holger Salin,Lindbäck,Lindbäck,Lindbäck"
+    },
+    {
+      "ottelu_id": "193208",
+      "Kausi": "1932",
+      "Päivämäärä": "7.8.1932",
+      "Kilpailu": "A-sarja",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "VPS",
+      "maalit_koti": "9",
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "William Kanerva,William Kanerva,William Kanerva,William Kanerva,Viljo Kuhlberg,Viljo Kuhlberg,Viljo Kuhlberg,Eero Ronkanen,Pentti Lindsten",
+      "maalintekijät_vieras": "Birger Julin"
+    },
+    {
+      "ottelu_id": "193207",
+      "Kausi": "1932",
+      "Päivämäärä": "5.6.1932",
+      "Kilpailu": "A-sarja",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "TPS",
+      "maalit_koti": "5",
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Eero Ronkanen,Aulis Koponen,William Kanerva,Sulo Pesonen,Erkki Eriksson",
+      "maalintekijät_vieras": "Lauri Lehtinen"
+    },
+    {
+      "ottelu_id": "193206",
+      "Kausi": "1932",
+      "Päivämäärä": "2.6.1932",
+      "Kilpailu": "A-sarja",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "HT",
+      "maalit_koti": "4",
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Viljo Kuhlberg,Viljo Kuhlberg,William Kanerva,Eero Ronkanen",
+      "maalintekijät_vieras": "Lauri Taipale"
+    },
+    {
+      "ottelu_id": "193205",
+      "Kausi": "1932",
+      "Päivämäärä": "29.5.1932",
+      "Kilpailu": "A-sarja",
+      "Kotijoukkue": "VPS",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "3",
+      "maalit_vieras": "3",
+      "maalintekijät_koti": "Birger Julin,Oma maali,Nuutti Lindgren",
+      "maalintekijät_vieras": "Sulo Pesonen,William Kanerva,Aulis Koponen"
+    },
+    {
+      "ottelu_id": "193204",
+      "Kausi": "1932",
+      "Päivämäärä": "26.5.1932",
+      "Kilpailu": "A-sarja",
+      "Kotijoukkue": "KIF",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "2",
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "O.Strömsten,Yrjö Gröndahl",
+      "maalintekijät_vieras": "Sulo Pesonen,William Kanerva"
+    },
+    {
+      "ottelu_id": "193203",
+      "Kausi": "1932",
+      "Päivämäärä": "22.5.1932",
+      "Kilpailu": "A-sarja",
+      "Kotijoukkue": "ÅIFK",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "1",
+      "maalit_vieras": "6",
+      "maalintekijät_koti": "Einar Grannas",
+      "maalintekijät_vieras": "Eero Ronkanen,Aulis Koponen,Sulo Pesonen,Sulo Pesonen,Sulo Pesonen,William Kanerva"
+    },
+    {
+      "ottelu_id": "193202",
+      "Kausi": "1932",
+      "Päivämäärä": "10.5.1932",
+      "Kilpailu": "A-sarja",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "HIFK",
+      "maalit_koti": "4",
+      "maalit_vieras": "4",
+      "maalintekijät_koti": "Lauri Sinikari,Aulis Koponen,Viljo Kuhlberg,Sulo Pesonen",
+      "maalintekijät_vieras": "Leo Karjagin,Sven Långstedt,Holger Salin,Ernst Grönlund"
+    },
+    {
+      "ottelu_id": "193201",
+      "Kausi": "1932",
+      "Päivämäärä": "5.5.1932",
+      "Kilpailu": "A-sarja",
+      "Kotijoukkue": "Sudet",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "0",
+      "maalit_vieras": "3",
+      "maalintekijät_vieras": "Aulis Koponen,Eero Ronkanen,Sulo Pesonen"
     },
     {
       "ottelu_id": "193119",
@@ -24340,7 +25128,8 @@
       "Kotijoukkue": "ViPS",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_vieras": "Erkki Eriksson"
     },
     {
       "ottelu_id": "193117",
@@ -24351,7 +25140,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "TPS",
       "maalit_koti": "5",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Sulo Pesonen,Sulo Pesonen,Viljo Kuhlberg,Pentti Lindsten,William Kanerva",
+      "maalintekijät_vieras": "Erkki Aaltonen"
     },
     {
       "ottelu_id": "193116",
@@ -24362,7 +25153,9 @@
       "Kotijoukkue": "KIF",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Yrjö Gröndahl,Strömsten",
+      "maalintekijät_vieras": "Sulo Saario,William Kanerva"
     },
     {
       "ottelu_id": "193115",
@@ -24373,7 +25166,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "HJK",
       "maalit_koti": "3",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Aulis Koponen,Viljo Kuhlberg,Lauri Sinikari",
+      "maalintekijät_vieras": "Leo Laaksonen,Leo Laaksonen"
     },
     {
       "ottelu_id": "193114",
@@ -24384,7 +25179,9 @@
       "Kotijoukkue": "HIFK",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_koti": "Lindbäck,Ernst Grönlund,Ernst Grönlund",
+      "maalintekijät_vieras": "William Kanerva,Viljo Kuhlberg"
     },
     {
       "ottelu_id": "193113",
@@ -24395,7 +25192,9 @@
       "Kotijoukkue": "VPS",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Aimo Haka,Birger Julin",
+      "maalintekijät_vieras": "Sulo Pesonen,Sulo Pesonen"
     },
     {
       "ottelu_id": "193112",
@@ -24406,7 +25205,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Sudet",
       "maalit_koti": "7",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Sulo Pesonen,Sulo Pesonen,Sulo Pesonen,Viljo Kuhlberg,Viljo Kuhlberg,William Kanerva,Erkki Eriksson",
+      "maalintekijät_vieras": "Arvo Närvänen,Eero Sorvali"
     },
     {
       "ottelu_id": "193111",
@@ -24428,7 +25229,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "HIFK",
       "maalit_koti": "1",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Aulis Koponen"
     },
     {
       "ottelu_id": "193109",
@@ -24450,7 +25252,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "HJK",
       "maalit_koti": "4",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Aulis Koponen,Aulis Koponen,Eero Ronkanen,Sulo Saario"
     },
     {
       "ottelu_id": "193107",
@@ -24461,7 +25264,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "KIF",
       "maalit_koti": "5",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Viljo Kuhlberg,Viljo Kuhlberg,Viljo Kuhlberg,Aulis Koponen,Aulis Koponen"
     },
     {
       "ottelu_id": "193106",
@@ -24473,7 +25277,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "VPS",
       "maalit_koti": "8",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Viljo Kuhlberg,Viljo Kuhlberg,William Kanerva,William Kanerva,Eero Ronkanen,Eero Ronkanen,Aulis Koponen,Erkki Eriksson"
     },
     {
       "ottelu_id": "193105",
@@ -24484,7 +25289,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Sport",
       "maalit_koti": "1",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Viljo Kuhlberg"
     },
     {
       "ottelu_id": "193104",
@@ -24496,7 +25302,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Toverit",
       "maalit_koti": "7",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "William Kanerva,William Kanerva,William Kanerva,Eero Ronkanen,Ilmari Mantila,Rafael Nyholm"
     },
     {
       "ottelu_id": "193103",
@@ -24529,7 +25336,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "HJK",
       "maalit_koti": "3",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Aulis Koponen,Pentti Lindsten,Viljo Kuhlberg"
     },
     {
       "ottelu_id": "193022",
@@ -24540,7 +25348,9 @@
       "Kotijoukkue": "TPS",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Lauri Lehtinen,Lauri Lehtinen,Voitto Vester",
+      "maalintekijät_vieras": "Aulis Koponen,Rafael Nyholm"
     },
     {
       "ottelu_id": "193021",
@@ -24551,7 +25361,9 @@
       "Kotijoukkue": "HIFK",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "William Kanerva",
+      "maalintekijät_vieras": "Torsten Svanström,Torsten Svanström,Torsten Svanström"
     },
     {
       "ottelu_id": "193020",
@@ -24562,7 +25374,9 @@
       "Kotijoukkue": "ViPS",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "4",
-      "maalit_vieras": "4"
+      "maalit_vieras": "4",
+      "maalintekijät_koti": "Erkki Kariluoma,Erkki Kariluoma,Eero Kettunen,Eero Kettunen",
+      "maalintekijät_vieras": "William Kanerva,Aulis Koponen,Aulis Koponen,Viljo Kuhlberg"
     },
     {
       "ottelu_id": "193019",
@@ -24573,7 +25387,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "KIF",
       "maalit_koti": "3",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Aulis Koponen,Aulis Koponen,William Kanerva",
+      "maalintekijät_vieras": "Osvald Strömsten,Olof Strömsten"
     },
     {
       "ottelu_id": "193018",
@@ -24584,7 +25400,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Stjärnan",
       "maalit_koti": "5",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Viljo Kuhlberg,Viljo Kuhlberg,Aulis Koponen,Aulis Koponen,Rafael Nyholm",
+      "maalintekijät_vieras": "Rafael Hirschowitsch,Rubinstein II"
     },
     {
       "ottelu_id": "193017",
@@ -24595,7 +25413,9 @@
       "Kotijoukkue": "VPS",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "9"
+      "maalit_vieras": "9",
+      "maalintekijät_koti": "Kurt Törnroos,Birger Julin",
+      "maalintekijät_vieras": "William Kanerva,William Kanerva,William Kanerva,William Kanerva,William Kanerva,Aulis Koponen,Aulis Koponen,Sulo Saario,Ilmari Mantila"
     },
     {
       "ottelu_id": "193016",
@@ -24606,7 +25426,9 @@
       "Kotijoukkue": "ÅIFK",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Sulo Saario,Ilmari Mantila",
+      "maalintekijät_vieras": "Eino Wihlman"
     },
     {
       "ottelu_id": "193015",
@@ -24617,7 +25439,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "HIFK",
       "maalit_koti": "3",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Viljo Kuhlberg,Aulis Koponen,Kaarlo Oksanen"
     },
     {
       "ottelu_id": "193014",
@@ -24650,7 +25473,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Toverit",
       "maalit_koti": "5",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "William Kanerva,Viljo Kuhlberg (rp),Ilmari Mantila (rp),Viljo Kuhlberg,Viljo Kuhlberg"
     },
     {
       "ottelu_id": "193011",
@@ -24661,7 +25485,8 @@
       "Kotijoukkue": "HPS ",
       "Vierasjoukkue": "HIFK",
       "maalit_koti": "4",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "William Kanerva,Ilmari Mantila,Sulo Saario,Viljo Kuhlberg"
     },
     {
       "ottelu_id": "193010",
@@ -24672,7 +25497,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "HIFK",
       "maalit_koti": "5",
-      "maalit_vieras": "5"
+      "maalit_vieras": "5",
+      "maalintekijät_koti": "Oma maali,Ilmari Mantila,Aulis Koponen,Viljo Kuhlberg,Viljo Kuhlberg"
     },
     {
       "ottelu_id": "193009",
@@ -24683,7 +25509,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Stjärnan",
       "maalit_koti": "6",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "William Kanerva,Viljo Kuhlberg,Max Viinioksa (rp),Viljo Kuhlberg,Aulis Koponen,Viljo Kuhlberg"
     },
     {
       "ottelu_id": "193008",
@@ -24694,7 +25521,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "HJK",
       "maalit_koti": "11",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Viljo Kuhlberg,Viljo Kuhlberg,Viljo Kuhlberg,Aulis Koponen,Aulis Koponen,Aulis Koponen,Sulo Saario,Sulo Saario,Ilmari Mantila,William Kanerva"
     },
     {
       "ottelu_id": "193007",
@@ -24705,7 +25533,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "KIF",
       "maalit_koti": "2",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Viljo Kuhlberg,Aulis Koponen"
     },
     {
       "ottelu_id": "193006",
