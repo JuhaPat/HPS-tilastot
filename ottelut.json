@@ -2326,12 +2326,13 @@
       "Kausi": "2017",
       "Päivämäärä": "7.10.2017",
       "Kilpailu": "Kolmonen",
-      "Stadion": "Pakila Road",
+      "Stadion": "Paloheinä",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "EPS",
       "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "erotuomari": "Santeri Nieminen"
     },
     {
       "ottelu_id": "201726",
@@ -2343,7 +2344,10 @@
       "Kotijoukkue": "EIF/Akademi",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "erotuomari": "Peiman Simani",
+      "maalintekijät_koti": "Simon Lindholm 25,Simon Lindholm 38",
+      "maalintekijät_vieras": "Juho Hirvonen 14,Sander Paukku 30"
     },
     {
       "ottelu_id": "201725",
@@ -2355,19 +2359,25 @@
       "Kotijoukkue": "HooGee",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "erotuomari": "Peiman Simani",
+      "maalintekijät_koti": "Martti Puolakainen 4,Martti Puolakainen 6",
+      "maalintekijät_vieras": "Oma maali 30"
     },
     {
       "ottelu_id": "201724",
       "Kausi": "2017",
       "Päivämäärä": "13.9.2017",
       "Kilpailu": "Kolmonen",
-      "Stadion": "Pakila Road",
+      "Stadion": "Paloheinä",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Ponnistajat",
       "maalit_koti": "1",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "erotuomari": "Jonathan Mainz",
+      "maalintekijät_koti": "Jaakko Sippo 39",
+      "maalintekijät_vieras": "Joel Tuovinen 3,Joel Tuovinen 46"
     },
     {
       "ottelu_id": "201723",
@@ -2379,19 +2389,23 @@
       "Kotijoukkue": "Atlantis FC",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "erotuomari": "Joona Manninen",
+      "maalintekijät_koti": "Tejan Deen 6,Jean Pedro Costa De Lima 39,Jean Pedro Costa De Lima 42"
     },
     {
       "ottelu_id": "201722",
       "Kausi": "2017",
       "Päivämäärä": "30.8.2017",
       "Kilpailu": "Kolmonen",
-      "Stadion": "Pakila Road",
+      "Stadion": "Paloheinä",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "LoPa",
       "maalit_koti": "6",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "erotuomari": "Miikka Haapakoski",
+      "maalintekijät_koti": "Emil Asp 7,Jaakko Sippo 19,Emil Asp 25,Elmer Laaksonen 43,Santeri Hirvonen 63,Timo Aalto 88"
     },
     {
       "ottelu_id": "201721",
@@ -2403,19 +2417,24 @@
       "Kotijoukkue": "FC POHU",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "erotuomari": "Antti Malaska",
+      "maalintekijät_vieras": "Santeri Hirvonen 90+3"
     },
     {
       "ottelu_id": "201720",
       "Kausi": "2017",
       "Päivämäärä": "20.8.2017",
       "Kilpailu": "Kolmonen",
-      "Stadion": "Pakila Road",
+      "Stadion": "Paloheinä",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "EIF/Akademi",
       "maalit_koti": "3",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "erotuomari": "Matias Marjander",
+      "maalintekijät_koti": "Emil Asp 40,Juho Hirvonen 73,Elmer Laaksonen 80",
+      "maalintekijät_vieras": "Sakpa Yves Kouame 12"
     },
     {
       "ottelu_id": "201719",
@@ -2427,19 +2446,23 @@
       "Kotijoukkue": "Tikka",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "4"
+      "maalit_vieras": "4",
+      "erotuomari": "Hausin Fathulla",
+      "maalintekijät_vieras": "Elmer Laaksonen 17,Emil Asp 18,Emil Asp 35,Emil Asp 38"
     },
     {
       "ottelu_id": "201718",
       "Kausi": "2017",
       "Päivämäärä": "9.8.2017",
       "Kilpailu": "Kolmonen",
-      "Stadion": "Pakila Road",
+      "Stadion": "Paloheinä",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "CLE",
       "maalit_koti": "0",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "erotuomari": "Toni Mustonen",
+      "maalintekijät_vieras": "Adriano Munoz Thiel 53,Adriano Munoz Thiel 60"
     },
     {
       "ottelu_id": "201717",
@@ -2451,19 +2474,25 @@
       "Kotijoukkue": "MPS/Atletico Malmi",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "erotuomari": "Antti Malaska",
+      "maalintekijät_koti": "Jesse Ketonen 23,Yasine Aloui 29,Jesse Ketonen 65",
+      "maalintekijät_vieras": "Eric Bullock 81,Eric Bullock 85"
     },
     {
       "ottelu_id": "201716",
       "Kausi": "2017",
       "Päivämäärä": "26.7.2017",
       "Kilpailu": "Kolmonen",
-      "Stadion": "Pakila Road",
+      "Stadion": "Paloheinä",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "FC Honka/Akatemia",
       "maalit_koti": "2",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "erotuomari": "Joona Kontinen",
+      "maalintekijät_koti": "Santeri Hirvonen 50,Santeri Hirvonen 78",
+      "maalintekijät_vieras": "Joona Rämö 26,Jean Carlo Generoso Da Silva 62"
     },
     {
       "ottelu_id": "201715",
@@ -2475,19 +2504,24 @@
       "Kotijoukkue": "EPS",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "erotuomari": "Hannes Vertamo",
+      "maalintekijät_koti": "Otso Luhtanen 29",
+      "maalintekijät_vieras": "Elmer Laaksonen 47,Eero Puro 54"
     },
     {
       "ottelu_id": "201714",
       "Kausi": "2017",
       "Päivämäärä": "14.6.2017",
       "Kilpailu": "Kolmonen",
-      "Stadion": "Pakila Road",
+      "Stadion": "Paloheinä",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "HooGee",
       "maalit_koti": "3",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "erotuomari": "Oskari Tuomi",
+      "maalintekijät_koti": "Eero Puro 47,Juho Sihvola 70,Elmer Laaksonen 77"
     },
     {
       "ottelu_id": "201713",
@@ -2499,19 +2533,25 @@
       "Kotijoukkue": "Ponnistajat",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "erotuomari": "Joona Manninen",
+      "maalintekijät_koti": "Jens Sundström 34,Santeri Kauppinen 45,Jens Sundström 47",
+      "maalintekijät_vieras": "Emil Asp 40"
     },
     {
       "ottelu_id": "201712",
       "Kausi": "2017",
       "Päivämäärä": "31.5.2017",
       "Kilpailu": "Kolmonen",
-      "Stadion": "Pakila Road",
+      "Stadion": "Paloheinä",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Atlantis FC",
       "maalit_koti": "2",
-      "maalit_vieras": "4"
+      "maalit_vieras": "4",
+      "erotuomari": "Matti Roth",
+      "maalintekijät_koti": "Jaakko Sippo 21,Elmer Laaksonen 34",
+      "maalintekijät_vieras": "Jonas Sapienza 39,Adams Diabate 45+1,Santeri Saarenpää 72,Santeri Saarenpää 76"
     },
     {
       "ottelu_id": "201711",
@@ -2523,31 +2563,38 @@
       "Kotijoukkue": "LoPa",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "5"
+      "maalit_vieras": "5",
+      "erotuomari": "Gezim Arifi",
+      "maalintekijät_koti": "Olli-Pekka Lappi 64,Vili Helenius 86",
+      "maalintekijät_vieras": "Santeri Hirvonen 5,Santeri Hirvonen 45,Santeri Hirvonen 51,Emil Asp 59,Roope Auvinen 61"
     },
     {
       "ottelu_id": "201710",
       "Kausi": "2017",
       "Päivämäärä": "19.5.2017",
       "Kilpailu": "Kolmonen",
-      "Stadion": "Pakila Road",
+      "Stadion": "Paloheinä",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "FC POHU",
       "maalit_koti": "4",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "erotuomari": "Joona Kontinen",
+      "maalintekijät_koti": "Tim Basili 2,Joonatan Räsänen 11,Santeri Hirvonen 13,Roope Auvinen 90+3"
     },
     {
       "ottelu_id": "201709",
       "Kausi": "2017",
       "Päivämäärä": "10.5.2017",
       "Kilpailu": "Kolmonen",
-      "Stadion": "Pakila Road",
+      "Stadion": "Paloheinä",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Tikka",
       "maalit_koti": "1",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "erotuomari": "Hannu Hästbacka",
+      "maalintekijät_koti": "Roope Auvinen 84"
     },
     {
       "ottelu_id": "201708",
@@ -2559,19 +2606,25 @@
       "Kotijoukkue": "CLE",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "erotuomari": "Mikael Kotka",
+      "maalintekijät_koti": "Robert Harrys Roqueme 57,Robert Harrys Roqueme 81,Jussi Vainikka 83",
+      "maalintekijät_vieras": "Elmer Laaksonen 5,Roope Auvinen 78"
     },
     {
       "ottelu_id": "201707",
       "Kausi": "2017",
       "Päivämäärä": "26.4.2017",
       "Kilpailu": "Kolmonen",
-      "Stadion": "Pakila Road",
+      "Stadion": "Paloheinä",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "MPS/Atletico Malmi",
       "maalit_koti": "2",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "erotuomari": "Miikka Haapakoski",
+      "maalintekijät_koti": "Emil Asp 64,Emil Asp 78",
+      "maalintekijät_vieras": "Jonne Ketonen 39"
     },
     {
       "ottelu_id": "201706",
@@ -2583,7 +2636,10 @@
       "Kotijoukkue": "FC Honka/Akatemia",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "5",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "erotuomari": "Mikko Lipsanen",
+      "maalintekijät_koti": "Onni Puhalainen 38,Marcos Di Tullio Campos Silva 46,Joona Rämö 65,Joona Rämö 67,Oma maali 75",
+      "maalintekijät_vieras": "Lauri Saarikoski 32"
     },
     {
       "ottelu_id": "201705",
@@ -2595,7 +2651,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "PPJ",
       "maalit_koti": "3",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "erotuomari": "Jarmo Luhtanen"
     },
     {
       "ottelu_id": "201704",
@@ -2607,7 +2664,8 @@
       "Kotijoukkue": "HIFK/2",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "erotuomari": "Juha Isosomppi"
     },
     {
       "ottelu_id": "201703",
@@ -2619,7 +2677,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "HerTo",
       "maalit_koti": "2",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "erotuomari": "Sami Juselius"
     },
     {
       "ottelu_id": "201702",
@@ -2631,7 +2690,8 @@
       "Kotijoukkue": "FC POHU",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "erotuomari": "Hannu Hästbacka"
     },
     {
       "ottelu_id": "201701",
@@ -2643,7 +2703,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "KäPa/United",
       "maalit_koti": "3",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "erotuomari": "Miikka Haapakoski"
     },
     {
       "ottelu_id": "201626",
@@ -2655,19 +2716,27 @@
       "Kotijoukkue": "MPS/Old Stars",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "lisätietoja": "MPS Helsinki / Old Stars vs. HPS - 8 October 2016 - Soccerway",
+      "erotuomari": "Santeri Nieminen",
+      "maalintekijät_koti": "Ville Arima",
+      "maalintekijät_vieras": "Erno Kähkönen"
     },
     {
       "ottelu_id": "201625",
       "Kausi": "2016",
       "Päivämäärä": "28.9.2016",
       "Kilpailu": "Kolmonen",
-      "Stadion": "Pakila Road",
+      "Stadion": "Paloheinä",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Tikka",
       "maalit_koti": "2",
-      "maalit_vieras": "5"
+      "maalit_vieras": "5",
+      "lisätietoja": "HPS vs. Espoon Tikka - 28 September 2016 - Soccerway",
+      "erotuomari": "Joona Manninen",
+      "maalintekijät_koti": "Santeri Hirvonen,Olli Annala",
+      "maalintekijät_vieras": "Miika Saloranta,Jaakko Tammilehto,Jaakko Tammilehto,Eetu Klingberg,Pasi Saukkonen"
     },
     {
       "ottelu_id": "201624",
@@ -2679,19 +2748,26 @@
       "Kotijoukkue": "I-HK/OMV",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "6"
+      "maalit_vieras": "6",
+      "lisätietoja": "I-HK vs. HPS - 24 September 2016 - Soccerway",
+      "erotuomari": "Tuukka Hannukkala",
+      "maalintekijät_vieras": "Santeri Hirvonen,Juho Hirvonen,Olli Annala,Rasmus Laahanen,Rasmus Laahanen,Rasmus Laahanen"
     },
     {
       "ottelu_id": "201623",
       "Kausi": "2016",
       "Päivämäärä": "14.9.2016",
       "Kilpailu": "Kolmonen",
-      "Stadion": "Pakila Road",
+      "Stadion": "Paloheinä",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "HerTo",
       "maalit_koti": "3",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "lisätietoja": "HPS vs. HerTo - 14 September 2016 - Soccerway",
+      "erotuomari": "Joona Manninen",
+      "maalintekijät_koti": "Emil Asp,Henrik Peltoniemi,Tim Basili",
+      "maalintekijät_vieras": "Joni Flyckt,"
     },
     {
       "ottelu_id": "201622",
@@ -2703,19 +2779,27 @@
       "Kotijoukkue": "PKKU",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "5",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "lisätietoja": "PKKU vs. HPS - 6 September 2016 - Soccerway",
+      "erotuomari": "Peiman Simani",
+      "maalintekijät_koti": "Esa Velakoski,Miro Schwalenstöcker,Miro Schwalenstöcker,Miro Schwalenstöcker,Phondo Wälläri",
+      "maalintekijät_vieras": "Tim Basili"
     },
     {
       "ottelu_id": "201621",
       "Kausi": "2016",
       "Päivämäärä": "31.8.2016",
       "Kilpailu": "Kolmonen",
-      "Stadion": "Pakila Road",
+      "Stadion": "Paloheinä",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "SexyPöxyt",
       "maalit_koti": "3",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "lisätietoja": "HPS vs. SexyPöxyt - 31 August 2016 - Soccerway",
+      "erotuomari": "Juha Puoskari",
+      "maalintekijät_koti": "Henrik Peltoniemi,Elmer Laaksonen,Tim Basili",
+      "maalintekijät_vieras": "Olli-Pekka Itälä,Jere Leskinen,Tino Lumivaara"
     },
     {
       "ottelu_id": "201620",
@@ -2727,7 +2811,11 @@
       "Kotijoukkue": "PK-35",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "lisätietoja": "PK-35 vs. HPS - 27 August 2016 - Soccerway",
+      "erotuomari": "Joona Kontinen",
+      "maalintekijät_koti": "Markus Sjöblom",
+      "maalintekijät_vieras": "Tim Basili,Olli Annala"
     },
     {
       "ottelu_id": "201619",
@@ -2739,31 +2827,41 @@
       "Kotijoukkue": "SibboV",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "lisätietoja": "SibboV vs. HPS - 20 August 2016 - Soccerway",
+      "erotuomari": "Peiman Simani",
+      "maalintekijät_koti": "Toni Paukkeri",
+      "maalintekijät_vieras": "Henrik Peltoniemi"
     },
     {
       "ottelu_id": "201618",
       "Kausi": "2016",
       "Päivämäärä": "10.8.2016",
       "Kilpailu": "Kolmonen",
-      "Stadion": "Pakila Road",
+      "Stadion": "Paloheinä",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Ponnistajat",
       "maalit_koti": "0",
-      "maalit_vieras": "4"
+      "maalit_vieras": "4",
+      "lisätietoja": "HPS vs. Ponnistajat - 10 August 2016 - Soccerway",
+      "erotuomari": "Bille Siren",
+      "maalintekijät_koti": "Matias Keskitalo,Matias Keskitalo,Timo Tuominen,Teemu Wallin"
     },
     {
       "ottelu_id": "201617",
       "Kausi": "2016",
       "Päivämäärä": "3.8.2016",
       "Kilpailu": "Kolmonen",
-      "Stadion": "Pakila Road",
+      "Stadion": "Paloheinä",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Akilles",
       "maalit_koti": "2",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "lisätietoja": "HPS vs. Akilles - 3 August 2016 - Soccerway",
+      "erotuomari": "Oskari Tuomi",
+      "maalintekijät_koti": "Janne Löfberg,Tim Basili"
     },
     {
       "ottelu_id": "201616",
@@ -2775,19 +2873,27 @@
       "Kotijoukkue": "FC Honka/Akatemia",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "4",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "lisätietoja": "Pallohonka vs. HPS - 29 July 2016 - Soccerway",
+      "erotuomari": "Juho Luukkanen",
+      "maalintekijät_koti": "Niko Pulkkinen,Anton Ropa,Ville Kiiski,Ville Kiiski",
+      "maalintekijät_vieras": "Tim Basili"
     },
     {
       "ottelu_id": "201615",
       "Kausi": "2016",
       "Päivämäärä": "29.6.2016",
       "Kilpailu": "Kolmonen",
-      "Stadion": "Pakila Road",
+      "Stadion": "Paloheinä",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "MPS/Old Stars",
       "maalit_koti": "4",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "lisätietoja": "HPS vs. MPS Helsinki / Old Stars - 29 June 2016 - Soccerway",
+      "erotuomari": "Mohammad Al-Emara",
+      "maalintekijät_koti": "Emil Asp,Emil Asp,Tim Basili,Rasmus Laahanen",
+      "maalintekijät_vieras": "Janne Varis,Matti Härkönen"
     },
     {
       "ottelu_id": "201614",
@@ -2799,19 +2905,26 @@
       "Kotijoukkue": "Tikka",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "lisätietoja": "Espoon Tikka vs. HPS - 21 June 2016 - Soccerway",
+      "erotuomari": "Gezim Arifi",
+      "maalintekijät_koti": "Jussi Lindroos,Eetu Klingberg",
+      "maalintekijät_vieras": "Emil Asp,Emil Asp,Tim Basili"
     },
     {
       "ottelu_id": "201613",
       "Kausi": "2016",
       "Päivämäärä": "15.6.2016",
       "Kilpailu": "Kolmonen",
-      "Stadion": "Pakila Road",
+      "Stadion": "Paloheinä",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "I-HK/OMV",
       "maalit_koti": "0",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "lisätietoja": "HPS vs. I-HK - 15 June 2016 - Soccerway",
+      "erotuomari": "Joona Kontinen",
+      "maalintekijät_vieras": "Henri Rämö"
     },
     {
       "ottelu_id": "201612",
@@ -2823,19 +2936,27 @@
       "Kotijoukkue": "HerTo",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "lisätietoja": "HerTo vs. HPS - 7 June 2016 - Soccerway",
+      "erotuomari": "Matias Marjander",
+      "maalintekijät_koti": "Tatu Kallio,Jori Siponen",
+      "maalintekijät_vieras": "Emil Asp"
     },
     {
       "ottelu_id": "201611",
       "Kausi": "2016",
       "Päivämäärä": "1.6.2016",
       "Kilpailu": "Kolmonen",
-      "Stadion": "Pakila Road",
+      "Stadion": "Paloheinä",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "PKKU",
       "maalit_koti": "2",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "lisätietoja": "HPS vs. PKKU - 1 June 2016 - Soccerway",
+      "erotuomari": "Jesse Aalto",
+      "maalintekijät_koti": "Emil Asp,Rasmus Laahanen",
+      "maalintekijät_vieras": "Saku Haiko,Sami Lehtonen,Miro Schwalenstöcker"
     },
     {
       "ottelu_id": "201610",
@@ -2847,31 +2968,40 @@
       "Kotijoukkue": "SexyPöxyt",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "lisätietoja": "SexyPöxyt vs. HPS - 27 May 2016 - Soccerway",
+      "erotuomari": "Andrei Neuvonen",
+      "maalintekijät_koti": "Olli-Pekka Itälä"
     },
     {
       "ottelu_id": "201609",
       "Kausi": "2016",
       "Päivämäärä": "18.5.2016",
       "Kilpailu": "Kolmonen",
-      "Stadion": "Pakila Road",
+      "Stadion": "Paloheinä",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "PK-35",
       "maalit_koti": "4",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "lisätietoja": "HPS vs. PK-35 - 18 May 2016 - Soccerway",
+      "erotuomari": "Oskari Tuomi",
+      "maalintekijät_koti": "Emil Asp,Emil Asp,Tim Basili,Rasmus Laahanen"
     },
     {
       "ottelu_id": "201608",
       "Kausi": "2016",
       "Päivämäärä": "11.5.2016",
       "Kilpailu": "Kolmonen",
-      "Stadion": "Pakila Road",
+      "Stadion": "Paloheinä",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "SibboV",
       "maalit_koti": "7",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "lisätietoja": "HPS vs. SibboV - 11 May 2016 - Soccerway",
+      "erotuomari": "Olli Jantunen",
+      "maalintekijät_koti": "Emil Asp,Emil Asp,Emil Asp,Elmer Laaksonen,Olli Annala,Timo Aalto,Rasmus Laahanen"
     },
     {
       "ottelu_id": "201607",
@@ -2883,7 +3013,11 @@
       "Kotijoukkue": "Ponnistajat",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "lisätietoja": "Ponnistajat vs. HPS - 5 May 2016 - Soccerway",
+      "erotuomari": "Mohammad Al-Emara",
+      "maalintekijät_koti": "Miki-Casimir Tissari",
+      "maalintekijät_vieras": "Oma maali,Santeri Hirvonen,Emil Asp"
     },
     {
       "ottelu_id": "201606",
@@ -2895,19 +3029,27 @@
       "Kotijoukkue": "Akilles",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "lisätietoja": "Akilles vs. HPS - 28 April 2016 - Soccerway",
+      "erotuomari": "Ossi Korvenaho",
+      "maalintekijät_koti": "Rasmus Öhberg",
+      "maalintekijät_vieras": "Emil Asp,Emil Asp,Tim Basili"
     },
     {
       "ottelu_id": "201605",
       "Kausi": "2016",
       "Päivämäärä": "22.4.2016",
       "Kilpailu": "Kolmonen",
-      "Stadion": "Pakila Road",
+      "Stadion": "Paloheinä",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "FC Honka/Akatemia",
       "maalit_koti": "2",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "lisätietoja": "HPS vs. Pallohonka - 22 April 2016 - Soccerway",
+      "erotuomari": "Ifeoma Kulmala",
+      "maalintekijät_koti": "Emil Asp,Tim Basili",
+      "maalintekijät_vieras": "Rony Huhtala,Yassin Adam"
     },
     {
       "ottelu_id": "201604",
@@ -2919,7 +3061,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Spartak",
       "maalit_koti": "0",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "lisätietoja": "luovutus",
+      "erotuomari": "Joona Manninen"
     },
     {
       "ottelu_id": "201603",
@@ -2931,7 +3075,8 @@
       "Kotijoukkue": "HIFK/2",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "7"
+      "maalit_vieras": "7",
+      "erotuomari": "Markus Lehtola"
     },
     {
       "ottelu_id": "201602",
@@ -2943,7 +3088,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "LPS",
       "maalit_koti": "2",
-      "maalit_vieras": "6"
+      "maalit_vieras": "6",
+      "erotuomari": "Jarmo Luhtanen"
     },
     {
       "ottelu_id": "201601",
@@ -2955,7 +3101,11 @@
       "Kotijoukkue": "LPS",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "lisätietoja": "LPS – HPS (Miesten Respect Suomen Cup)",
+      "erotuomari": "Johan Staffans",
+      "maalintekijät_koti": "Topi Rihtniemi 35,Samuli Laitila 74",
+      "maalintekijät_vieras": "Tim Basili 37"
     },
     {
       "ottelu_id": "201525",
