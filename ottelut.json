@@ -3117,7 +3117,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "PK-35",
       "maalit_koti": "3",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Tim Basili,Rasmus Laahanen,Sami Hellström",
+      "maalintekijät_vieras": "??"
     },
     {
       "ottelu_id": "201524",
@@ -3129,7 +3131,9 @@
       "Kotijoukkue": "Töölön Taisto",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_koti": "??",
+      "maalintekijät_vieras": "Tim Basili,Olli Annala,Olli Annala"
     },
     {
       "ottelu_id": "201523",
@@ -3141,7 +3145,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "EIF/Akademi",
       "maalit_koti": "4",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Emil Asp,Otto Annala,Otto Annala,Timo Aalto",
+      "maalintekijät_vieras": "??,??"
     },
     {
       "ottelu_id": "201522",
@@ -3165,7 +3171,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "NuPS",
       "maalit_koti": "1",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Sami Hellström",
+      "maalintekijät_vieras": "??,??"
     },
     {
       "ottelu_id": "201520",
@@ -3177,7 +3185,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "KäPa/PuLe",
       "maalit_koti": "1",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Tim Basili"
     },
     {
       "ottelu_id": "201519",
@@ -3189,7 +3198,9 @@
       "Kotijoukkue": "Tikka",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "??",
+      "maalintekijät_vieras": "Emil Asp,??"
     },
     {
       "ottelu_id": "201518",
@@ -3201,7 +3212,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "FC HIK",
       "maalit_koti": "1",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Sami Hellström"
     },
     {
       "ottelu_id": "201517",
@@ -3213,7 +3225,9 @@
       "Kotijoukkue": "LoPa",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "??,??",
+      "maalintekijät_vieras": "Otto Annala"
     },
     {
       "ottelu_id": "201516",
@@ -3225,7 +3239,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "SexyPöxyt",
       "maalit_koti": "1",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Rasmus Laahanen",
+      "maalintekijät_vieras": "??"
     },
     {
       "ottelu_id": "201515",
@@ -3237,7 +3253,8 @@
       "Kotijoukkue": "FC POHU",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_vieras": "Tim Basili,Elmer Laaksonen,Juhani Farin"
     },
     {
       "ottelu_id": "201514",
@@ -3249,7 +3266,9 @@
       "Kotijoukkue": "PK-35",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "4"
+      "maalit_vieras": "4",
+      "maalintekijät_koti": "??,??",
+      "maalintekijät_vieras": "Juho Sihvola,Emil Asp,Emil Asp,Rasmus Laahanen"
     },
     {
       "ottelu_id": "201513",
@@ -3297,7 +3316,8 @@
       "Kotijoukkue": "NuPS",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_vieras": "??,??,??,??,??"
     },
     {
       "ottelu_id": "201509",
@@ -3309,7 +3329,8 @@
       "Kotijoukkue": "KäPa/PuLe",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_vieras": "Tim Basili"
     },
     {
       "ottelu_id": "201508",
@@ -3321,7 +3342,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Tikka",
       "maalit_koti": "0",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_vieras": "??,??,??"
     },
     {
       "ottelu_id": "201507",
@@ -3345,7 +3367,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "LoPa",
       "maalit_koti": "3",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Emil Asp,Emil Asp,Rasmus Laahanen",
+      "maalintekijät_vieras": "??"
     },
     {
       "ottelu_id": "201505",
@@ -3357,7 +3381,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "FC POHU",
       "maalit_koti": "7",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Juho Sihvola,Emil Asp,Tim Basili,Tim Basili,Rasmus Laahanen,Sami Hellström,Sami Hellström",
+      "maalintekijät_vieras": "??,??"
     },
     {
       "ottelu_id": "201504",
@@ -3369,7 +3395,9 @@
       "Kotijoukkue": "SexyPöxyt",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "??,??",
+      "maalintekijät_vieras": "Tim Basili"
     },
     {
       "ottelu_id": "201503",
@@ -3414,7 +3442,9 @@
       "Kotijoukkue": "EsPa",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "5",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "??,??,??,??,??",
+      "maalintekijät_vieras": "Tim Basili,Rasmus Laahanen"
     },
     {
       "ottelu_id": "201428",
@@ -3426,7 +3456,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "ESC",
       "maalit_koti": "1",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Rasmus Laahanen",
+      "maalintekijät_vieras": "??,??"
     },
     {
       "ottelu_id": "201427",
@@ -3436,7 +3468,9 @@
       "Kotijoukkue": "FC HIK",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "??,??",
+      "maalintekijät_vieras": "Rasmus Laahanen"
     },
     {
       "ottelu_id": "201426",
@@ -3448,7 +3482,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "SAPA",
       "maalit_koti": "1",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Tim Basili"
     },
     {
       "ottelu_id": "201425",
@@ -3460,7 +3495,8 @@
       "Kotijoukkue": "MPS/Atletico Malmi",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Nurminen 72,Purola 90+2"
     },
     {
       "ottelu_id": "201424",
@@ -3472,7 +3508,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "LoPa",
       "maalit_koti": "1",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Olli Annala",
+      "maalintekijät_vieras": "??,??"
     },
     {
       "ottelu_id": "201423",
@@ -3482,7 +3520,8 @@
       "Kotijoukkue": "EBK",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_vieras": "Emil Asp,Tim Basili,Oma maali"
     },
     {
       "ottelu_id": "201422",
@@ -3494,7 +3533,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "EIF/Akademi",
       "maalit_koti": "0",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_vieras": "??,??,??"
     },
     {
       "ottelu_id": "201421",
@@ -3504,7 +3544,9 @@
       "Kotijoukkue": "PK-35/VJS",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "??,??",
+      "maalintekijät_vieras": "Juho Sihvola"
     },
     {
       "ottelu_id": "201420",
@@ -3514,7 +3556,8 @@
       "Kotijoukkue": "NuPS",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "??,??,??"
     },
     {
       "ottelu_id": "201419",
@@ -3538,7 +3581,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "EsPa",
       "maalit_koti": "0",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_vieras": "Nikkola 23,Happonen 50,Hagelberg 82"
     },
     {
       "ottelu_id": "201417",
@@ -3548,7 +3592,8 @@
       "Kotijoukkue": "ESC",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "??,??,??"
     },
     {
       "ottelu_id": "201416",
@@ -3560,7 +3605,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "FC HIK",
       "maalit_koti": "1",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Juho Sihvola",
+      "maalintekijät_vieras": "??"
     },
     {
       "ottelu_id": "201415",
@@ -3572,7 +3619,9 @@
       "Kotijoukkue": "SAPA",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "??,??,??",
+      "maalintekijät_vieras": "Juho Sihvola"
     },
     {
       "ottelu_id": "201414",
@@ -3584,7 +3633,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "MPS/Atletico Malmi",
       "maalit_koti": "2",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Emil Asp 33,Timo Aalto ",
+      "maalintekijät_vieras": "Nurminen 85"
     },
     {
       "ottelu_id": "201413",
@@ -3595,7 +3646,9 @@
       "Kotijoukkue": "LoPa",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "4",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_koti": "??,??,??,??",
+      "maalintekijät_vieras": "Juho Sihvola,Juho Sihvola,Tim Basili"
     },
     {
       "ottelu_id": "201412",
@@ -3607,7 +3660,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "EBK",
       "maalit_koti": "2",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Joonatan Räsänen,Emil Asp",
+      "maalintekijät_vieras": "??,??"
     },
     {
       "ottelu_id": "201411",
@@ -3618,7 +3673,8 @@
       "Kotijoukkue": "EIF/Akademi",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "??"
     },
     {
       "ottelu_id": "201410",
@@ -3630,7 +3686,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "PK-35/VJS",
       "maalit_koti": "1",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_koti": "Joonatan Räsänen",
+      "maalintekijät_vieras": "??,??,??"
     },
     {
       "ottelu_id": "201409",
@@ -3642,7 +3700,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "NuPS",
       "maalit_koti": "1",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Sami Hellström",
+      "maalintekijät_vieras": "??"
     },
     {
       "ottelu_id": "201408",
@@ -3654,7 +3714,9 @@
       "Kotijoukkue": "FC Kontu",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "??",
+      "maalintekijät_vieras": "Valtteri Frantsi,Emil Asp"
     },
     {
       "ottelu_id": "201407",
@@ -3750,7 +3812,8 @@
       "Kotijoukkue": "TuPS",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_vieras": "Emil Asp,Joni Knuutinen"
     },
     {
       "ottelu_id": "201322",
@@ -3762,7 +3825,9 @@
       "Kotijoukkue": "FC Kontu",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "??,??",
+      "maalintekijät_vieras": "Emil Asp,Joni Knuutinen"
     },
     {
       "ottelu_id": "201321",
@@ -3774,7 +3839,9 @@
       "Kotijoukkue": "Akilles",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "5"
+      "maalit_vieras": "5",
+      "maalintekijät_koti": "??",
+      "maalintekijät_vieras": "Juho Sihvola,Emil Asp,Tim Basili,Valtteri Frantsi,Richard Tiberi"
     },
     {
       "ottelu_id": "201320",
@@ -3798,7 +3865,9 @@
       "Kotijoukkue": "KIF",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "??",
+      "maalintekijät_vieras": "Juho Sihvola,Emil Asp"
     },
     {
       "ottelu_id": "201318",
@@ -3810,7 +3879,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "KOPSE",
       "maalit_koti": "5",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Sami Hellström,Janne Herranen,Janne Herranen,Tim Basili,Richard Tiberi",
+      "maalintekijät_vieras": "??,??"
     },
     {
       "ottelu_id": "201317",
@@ -3822,7 +3893,9 @@
       "Kotijoukkue": "PPV",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "4"
+      "maalit_vieras": "4",
+      "maalintekijät_koti": "??",
+      "maalintekijät_vieras": "Janne Herranen,Janne Herranen,Pasi Paakki,Taneli Aho"
     },
     {
       "ottelu_id": "201316",
@@ -3834,7 +3907,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "NouLa",
       "maalit_koti": "2",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Emil Asp,Taneli Aho",
+      "maalintekijät_vieras": "??,??"
     },
     {
       "ottelu_id": "201315",
@@ -3846,7 +3921,8 @@
       "Kotijoukkue": "FC Espoo",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "??,??,??"
     },
     {
       "ottelu_id": "201314",
@@ -3858,7 +3934,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "SibboV",
       "maalit_koti": "2",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Sami Hellström,Sami Hellström",
+      "maalintekijät_vieras": "??,??"
     },
     {
       "ottelu_id": "201313",
@@ -3870,7 +3948,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "EBK",
       "maalit_koti": "2",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Emil Asp,Taneli Aho"
     },
     {
       "ottelu_id": "201312",
@@ -3882,7 +3961,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "TuPS",
       "maalit_koti": "0",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_vieras": "??,??,??"
     },
     {
       "ottelu_id": "201311",
@@ -3894,7 +3974,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "FC Kontu",
       "maalit_koti": "0",
-      "maalit_vieras": "4"
+      "maalit_vieras": "4",
+      "maalintekijät_vieras": "??,??,??,??"
     },
     {
       "ottelu_id": "201310",
@@ -3906,7 +3987,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Akilles",
       "maalit_koti": "1",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Gerhard Malberg",
+      "maalintekijät_vieras": "??,??"
     },
     {
       "ottelu_id": "201309",
@@ -3918,7 +4001,9 @@
       "Kotijoukkue": "Pöxyt",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "??,??,??",
+      "maalintekijät_vieras": "Valtteri Frantsi"
     },
     {
       "ottelu_id": "201308",
@@ -3930,7 +4015,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "KIF",
       "maalit_koti": "2",
-      "maalit_vieras": "5"
+      "maalit_vieras": "5",
+      "maalintekijät_koti": "Henrik Peltoniemi,Gerhard Malberg",
+      "maalintekijät_vieras": "??,??,??,??,??"
     },
     {
       "ottelu_id": "201307",
@@ -3942,7 +4029,9 @@
       "Kotijoukkue": "KOPSE",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "??",
+      "maalintekijät_vieras": "Emil Asp,Gerhard Malberg"
     },
     {
       "ottelu_id": "201306",
@@ -3954,7 +4043,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "PPV",
       "maalit_koti": "2",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Emil Asp,Tim Basili",
+      "maalintekijät_vieras": "??"
     },
     {
       "ottelu_id": "201305",
@@ -3966,7 +4057,9 @@
       "Kotijoukkue": "NouLa",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_koti": "??,??,??",
+      "maalintekijät_vieras": "Emil Asp,Emil Asp,Gerhard Malberg"
     },
     {
       "ottelu_id": "201304",
@@ -3978,7 +4071,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "FC Espoo",
       "maalit_koti": "0",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_vieras": "??"
     },
     {
       "ottelu_id": "201303",
@@ -3990,7 +4084,9 @@
       "Kotijoukkue": "SibboV",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_koti": "??",
+      "maalintekijät_vieras": "Janne Herranen,Henrik Peltoniemi,Tim Basili"
     },
     {
       "ottelu_id": "201302",
@@ -4002,7 +4098,8 @@
       "Kotijoukkue": "EBK",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "??,??"
     },
     {
       "ottelu_id": "201301",
@@ -4298,7 +4395,8 @@
       "Kotijoukkue": "NouLa",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "??"
     },
     {
       "ottelu_id": "201125",
@@ -4310,7 +4408,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "EsPa",
       "maalit_koti": "3",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_koti": "Sampsa Mäkinen,Juho Sihvola,Juho Sihvola",
+      "maalintekijät_vieras": "??,??,??"
     },
     {
       "ottelu_id": "201124",
@@ -4322,7 +4422,9 @@
       "Kotijoukkue": "AC Vantaa",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "5",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "??,??,??,??,??",
+      "maalintekijät_vieras": "Nikita Minkenen,Sampsa Mäkinen"
     },
     {
       "ottelu_id": "201123",
@@ -4334,7 +4436,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Allianssi",
       "maalit_koti": "2",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Markus Saramäki,Joni Knuutinen",
+      "maalintekijät_vieras": "??,??"
     },
     {
       "ottelu_id": "201122",
@@ -4346,7 +4450,9 @@
       "Kotijoukkue": "FC Kontu",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "4"
+      "maalit_vieras": "4",
+      "maalintekijät_koti": "??,??",
+      "maalintekijät_vieras": "Antti Hakala,Juho Hirvonen,Joni Knuutinen,Joni Knuutinen"
     },
     {
       "ottelu_id": "201121",
@@ -4358,7 +4464,8 @@
       "Kotijoukkue": "Gnistan/Ogeli",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "3"
+      "maalit_vieras": "3",
+      "maalintekijät_vieras": "Henrik Peltoniemi,Juho Sihvola,Oma maali"
     },
     {
       "ottelu_id": "201120",
@@ -4370,7 +4477,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "PPV",
       "maalit_koti": "1",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Markus Saramäki",
+      "maalintekijät_vieras": "??,??"
     },
     {
       "ottelu_id": "201119",
@@ -4382,7 +4491,9 @@
       "Kotijoukkue": "PK-35/VJS",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "4",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "??,??,??,??",
+      "maalintekijät_vieras": "Markus Saramäki"
     },
     {
       "ottelu_id": "201118",
@@ -4394,7 +4505,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "SibboV",
       "maalit_koti": "4",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Olli Annala,Timo Aalto,Nikita Minkenen,Joni Meronen",
+      "maalintekijät_vieras": "??,??"
     },
     {
       "ottelu_id": "201117",
@@ -4406,7 +4519,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "FC Espoo/Akatemia",
       "maalit_koti": "1",
-      "maalit_vieras": "4"
+      "maalit_vieras": "4",
+      "maalintekijät_koti": "Juho Sihvola",
+      "maalintekijät_vieras": "??,??,??,??"
     },
     {
       "ottelu_id": "201116",
@@ -4418,7 +4533,8 @@
       "Kotijoukkue": "TuPS",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_vieras": "Sami Hellström,Henrik Peltoniemi"
     },
     {
       "ottelu_id": "201115",
@@ -4430,7 +4546,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "NouLa",
       "maalit_koti": "0",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_vieras": "??,??"
     },
     {
       "ottelu_id": "201114",
@@ -4442,7 +4559,8 @@
       "Kotijoukkue": "EsPa",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "5",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "??,??,??,??,??"
     },
     {
       "ottelu_id": "201113",
@@ -4454,7 +4572,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "AC Vantaa",
       "maalit_koti": "2",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Kimi Forsberg,Ville Niemi-Nikkola",
+      "maalintekijät_vieras": "??,??"
     },
     {
       "ottelu_id": "201112",
@@ -4466,7 +4586,8 @@
       "Kotijoukkue": "Allianssi",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
-      "maalit_vieras": "4"
+      "maalit_vieras": "4",
+      "maalintekijät_vieras": "Sami Hellström,Henrik Peltoniemi,Nikita Minkenen,Janne Sivonen"
     },
     {
       "ottelu_id": "201111",
@@ -4478,7 +4599,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "FC Kontu",
       "maalit_koti": "3",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "Sami Hellström,Juho Sihvola,Oma maali",
+      "maalintekijät_vieras": "??,??"
     },
     {
       "ottelu_id": "201110",
@@ -4490,7 +4613,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Gnistan/Ogeli",
       "maalit_koti": "4",
-      "maalit_vieras": "0"
+      "maalit_vieras": "0",
+      "maalintekijät_koti": "Sami Hellström,Henrik Peltoniemi,Janne Sivonen,Kimi Forsberg"
     },
     {
       "ottelu_id": "201109",
@@ -4502,7 +4626,9 @@
       "Kotijoukkue": "PPV",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "??,??,??",
+      "maalintekijät_vieras": "Henrik Peltoniemi,Henrik Peltoniemi"
     },
     {
       "ottelu_id": "201108",
@@ -4514,7 +4640,9 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "PK-35/VJS",
       "maalit_koti": "1",
-      "maalit_vieras": "4"
+      "maalit_vieras": "4",
+      "maalintekijät_koti": "Sami Hellström",
+      "maalintekijät_vieras": "??,??,??,??"
     },
     {
       "ottelu_id": "201107",
@@ -4526,7 +4654,9 @@
       "Kotijoukkue": "FC Espoo/Akatemia",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "4",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "maalintekijät_koti": "??,??,??,??",
+      "maalintekijät_vieras": "Sami Hellström,Sampsa Mäkinen"
     },
     {
       "ottelu_id": "201106",
@@ -4550,7 +4680,9 @@
       "Kotijoukkue": "SibboV",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "maalintekijät_koti": "Emil Asp",
+      "maalintekijät_vieras": "??"
     },
     {
       "ottelu_id": "201104",
@@ -8263,7 +8395,9 @@
       "Vierasjoukkue": "FC Nastola",
       "maalit_koti": "16",
       "maalit_vieras": "0",
-      "lisätietoja": "HS 17.9.1995"
+      "lisätietoja": "HS 17.9.1995",
+      "erotuomari": " ",
+      "maalintekijät_koti": "Tero Virrantuomi,Tero Virrantuomi,Raine Oksanen,Raine Oksanen,Raine Oksanen,Raine Oksanen,Mitri Pakkanen,Tomi Häkkinen,Tomi Häkkinen,Tomi Häkkinen,Petri Kiuru,Mikko Willman,Juha Partanen,Juha Partanen,Juha Mallat,Jussi Meriläinen"
     },
     {
       "ottelu_id": "199521",
@@ -8275,7 +8409,9 @@
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
       "maalit_vieras": "1",
-      "lisätietoja": "HS 11.9.1995"
+      "lisätietoja": "HS 11.9.1995",
+      "erotuomari": " ",
+      "maalintekijät_vieras": "Tomi Häkkinen"
     },
     {
       "ottelu_id": "199520",
@@ -8288,7 +8424,9 @@
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
       "maalit_vieras": "1",
-      "lisätietoja": "HS 29.8.1995"
+      "lisätietoja": "HS 29.8.1995",
+      "erotuomari": " ",
+      "maalintekijät_vieras": "Petri Kiuru"
     },
     {
       "ottelu_id": "199519",
@@ -8301,7 +8439,8 @@
       "Vierasjoukkue": "FC Loviisa",
       "maalit_koti": "0",
       "maalit_vieras": "2",
-      "lisätietoja": "HS 25.8.1995"
+      "lisätietoja": "HS 25.8.1995",
+      "erotuomari": " "
     },
     {
       "ottelu_id": "199518",
@@ -8313,7 +8452,8 @@
       "Vierasjoukkue": "HPS",
       "maalit_koti": "4",
       "maalit_vieras": "0",
-      "lisätietoja": "HS 20.8.1995"
+      "lisätietoja": "HS 20.8.1995",
+      "erotuomari": " "
     },
     {
       "ottelu_id": "199517",
@@ -8325,7 +8465,9 @@
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
       "maalit_vieras": "1",
-      "lisätietoja": "HS 16.8.1995"
+      "lisätietoja": "HS 16.8.1995",
+      "erotuomari": " ",
+      "maalintekijät_vieras": "Petri Kiuru"
     },
     {
       "ottelu_id": "199516",
@@ -8338,7 +8480,9 @@
       "Vierasjoukkue": "PoPo",
       "maalit_koti": "7",
       "maalit_vieras": "1",
-      "lisätietoja": "HS 10.8.1995"
+      "lisätietoja": "HS 10.8.1995",
+      "erotuomari": " ",
+      "maalintekijät_koti": "Tero Virrantuomi,Raine Oksanen,Raine Oksanen,Jari Möykky,Tomi Häkkinen,Tomi Häkkinen,Petri Kiuru"
     },
     {
       "ottelu_id": "199515",
@@ -8351,7 +8495,9 @@
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
       "maalit_vieras": "3",
-      "lisätietoja": "HS 3.8.1995"
+      "lisätietoja": "HS 3.8.1995",
+      "erotuomari": " ",
+      "maalintekijät_vieras": "Jari Möykky,Juha Lunden,Rami Maarela"
     },
     {
       "ottelu_id": "199514",
@@ -8364,7 +8510,9 @@
       "Vierasjoukkue": "PPV",
       "maalit_koti": "1",
       "maalit_vieras": "2",
-      "lisätietoja": "HS 27.7.1995"
+      "lisätietoja": "HS 27.7.1995",
+      "erotuomari": " ",
+      "maalintekijät_koti": "Petri Widberg"
     },
     {
       "ottelu_id": "199513",
@@ -8377,7 +8525,9 @@
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
       "maalit_vieras": "2",
-      "lisätietoja": "HS 23.7.1995"
+      "lisätietoja": "HS 23.7.1995",
+      "erotuomari": " ",
+      "maalintekijät_vieras": "Tomi Häkkinen,Petri Kiuru"
     },
     {
       "ottelu_id": "199512",
@@ -8390,7 +8540,9 @@
       "Vierasjoukkue": "Norssi",
       "maalit_koti": "1",
       "maalit_vieras": "3",
-      "lisätietoja": "HS 20.7.1995"
+      "lisätietoja": "HS 20.7.1995",
+      "erotuomari": " ",
+      "maalintekijät_koti": "Petri Kiuru"
     },
     {
       "ottelu_id": "199511",
@@ -8402,7 +8554,9 @@
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
       "maalit_vieras": "4",
-      "lisätietoja": "HS 3.7.1995"
+      "lisätietoja": "HS 3.7.1995",
+      "erotuomari": " ",
+      "maalintekijät_vieras": "Tero Virrantuomi,Raine Oksanen,Jari Möykky,Mitri Pakkanen"
     },
     {
       "ottelu_id": "199510",
@@ -8415,7 +8569,9 @@
       "Vierasjoukkue": "Akilles",
       "maalit_koti": "5",
       "maalit_vieras": "0",
-      "lisätietoja": "HS 28.6.1995"
+      "lisätietoja": "HS 28.6.1995",
+      "erotuomari": " ",
+      "maalintekijät_koti": "Tero Virrantuomi,Mitri Pakkanen,Tomi Häkkinen,Petri Kiuru,Juha Lunden"
     },
     {
       "ottelu_id": "199509",
@@ -8428,7 +8584,9 @@
       "Vierasjoukkue": "HkiUtd",
       "maalit_koti": "1",
       "maalit_vieras": "2",
-      "lisätietoja": "HS 15.6.1995"
+      "lisätietoja": "HS 15.6.1995",
+      "erotuomari": " ",
+      "maalintekijät_koti": "Tomi Häkkinen"
     },
     {
       "ottelu_id": "199508",
@@ -8440,7 +8598,9 @@
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
       "maalit_vieras": "6",
-      "lisätietoja": "HS 9.6.1995"
+      "lisätietoja": "HS 9.6.1995",
+      "erotuomari": " ",
+      "maalintekijät_vieras": "Tero Virrantuomi,Jari Möykky,Tomi Häkkinen,Tomi Häkkinen,Petri Kiuru,Mika Ikävalko"
     },
     {
       "ottelu_id": "199507",
@@ -8453,7 +8613,9 @@
       "Vierasjoukkue": "PeKa",
       "maalit_koti": "2",
       "maalit_vieras": "2",
-      "lisätietoja": "HS 5.6.1995"
+      "lisätietoja": "HS 5.6.1995",
+      "erotuomari": " ",
+      "maalintekijät_koti": "Raine Oksanen,Raine Oksanen"
     },
     {
       "ottelu_id": "199506",
@@ -8466,7 +8628,9 @@
       "Vierasjoukkue": "City Stars",
       "maalit_koti": "2",
       "maalit_vieras": "0",
-      "lisätietoja": "HS 1.6.1995"
+      "lisätietoja": "HS 1.6.1995",
+      "erotuomari": " ",
+      "maalintekijät_koti": "Per-Erik Svahn,Juha Mallat"
     },
     {
       "ottelu_id": "199505",
@@ -8476,7 +8640,10 @@
       "Kaupunki": "Kotka",
       "Kotijoukkue": "PoPo",
       "Vierasjoukkue": "HPS",
-      "lisätietoja": "Tulos ei tiedossa"
+      "maalit_vieras": "1",
+      "lisätietoja": "Tulos ei tiedossa",
+      "erotuomari": " ",
+      "maalintekijät_vieras": "Petri Kiuru"
     },
     {
       "ottelu_id": "199504",
@@ -8487,7 +8654,10 @@
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "JDynamo",
-      "lisätietoja": "Tulos ei tiedossa"
+      "maalit_koti": "3",
+      "lisätietoja": "Tulos ei tiedossa",
+      "erotuomari": " ",
+      "maalintekijät_koti": "Tero Virrantuomi,Mitri Pakkanen,Petri Kiuru"
     },
     {
       "ottelu_id": "199503",
@@ -8498,7 +8668,10 @@
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "PPV",
       "Vierasjoukkue": "HPS",
-      "lisätietoja": "Tulos ei tiedossa"
+      "maalit_vieras": "2",
+      "lisätietoja": "Tulos ei tiedossa",
+      "erotuomari": " ",
+      "maalintekijät_vieras": "Tero Virrantuomi,Ari Nukarinen"
     },
     {
       "ottelu_id": "199502",
@@ -8511,7 +8684,8 @@
       "Vierasjoukkue": "Viikingit",
       "maalit_koti": "0",
       "maalit_vieras": "0",
-      "lisätietoja": "HS 1.5.1995"
+      "lisätietoja": "HS 1.5.1995",
+      "erotuomari": " "
     },
     {
       "ottelu_id": "199501",
@@ -8523,7 +8697,9 @@
       "Kotijoukkue": "Norssi",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "4",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "erotuomari": " ",
+      "maalintekijät_vieras": "Petri Kiuru"
     },
     {
       "ottelu_id": "199422",
@@ -8533,9 +8709,7 @@
       "Stadion": "Töölön Pallokenttä",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "Plo-Ve",
-      "Vierasjoukkue": "HPS",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Vierasjoukkue": "HPS"
     },
     {
       "ottelu_id": "199421",
@@ -8545,9 +8719,7 @@
       "Stadion": "Pirkkola",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "PePe",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Vierasjoukkue": "PePe"
     },
     {
       "ottelu_id": "199420",
@@ -8557,9 +8729,7 @@
       "Stadion": "Oulunkylä",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "Ogeli",
-      "Vierasjoukkue": "HPS",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Vierasjoukkue": "HPS"
     },
     {
       "ottelu_id": "199419",
@@ -8569,9 +8739,7 @@
       "Stadion": "Pirkkola",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "KUV",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Vierasjoukkue": "KUV"
     },
     {
       "ottelu_id": "199418",
@@ -8581,9 +8749,7 @@
       "Stadion": "Kaleva",
       "Kaupunki": "Kerava",
       "Kotijoukkue": "KooPee",
-      "Vierasjoukkue": "HPS",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Vierasjoukkue": "HPS"
     },
     {
       "ottelu_id": "199417",
@@ -8592,9 +8758,7 @@
       "Kilpailu": "Nelonen",
       "Kaupunki": "Järvenpää",
       "Kotijoukkue": "ST Blues",
-      "Vierasjoukkue": "HPS",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Vierasjoukkue": "HPS"
     },
     {
       "ottelu_id": "199416",
@@ -8604,9 +8768,7 @@
       "Stadion": "Tapanila",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "Arsenal",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Vierasjoukkue": "Arsenal"
     },
     {
       "ottelu_id": "199415",
@@ -8615,9 +8777,7 @@
       "Kilpailu": "Nelonen",
       "Kaupunki": "Hyvinkää",
       "Kotijoukkue": "Ares-86",
-      "Vierasjoukkue": "HPS",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Vierasjoukkue": "HPS"
     },
     {
       "ottelu_id": "199414",
@@ -8627,9 +8787,7 @@
       "Stadion": "Pirkkola",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "Apollo",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Vierasjoukkue": "Apollo"
     },
     {
       "ottelu_id": "199413",
@@ -8639,9 +8797,7 @@
       "Stadion": "Käpylä",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "SAPA",
-      "Vierasjoukkue": "HPS",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Vierasjoukkue": "HPS"
     },
     {
       "ottelu_id": "199412",
@@ -8651,9 +8807,7 @@
       "Stadion": "Töölön Pallokenttä",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "PuiU",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Vierasjoukkue": "PuiU"
     },
     {
       "ottelu_id": "199411",
@@ -8663,9 +8817,7 @@
       "Stadion": "Töölön Pallokenttä",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "Plo-Ve",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Vierasjoukkue": "Plo-Ve"
     },
     {
       "ottelu_id": "199410",
@@ -8675,9 +8827,7 @@
       "Stadion": "Käpylä",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "PePe",
-      "Vierasjoukkue": "HPS",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Vierasjoukkue": "HPS"
     },
     {
       "ottelu_id": "199409",
@@ -8687,9 +8837,7 @@
       "Stadion": "Töölön Pallokenttä",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "Ogeli",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Vierasjoukkue": "Ogeli"
     },
     {
       "ottelu_id": "199408",
@@ -8699,9 +8847,7 @@
       "Stadion": "Myllypuro",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "KUV",
-      "Vierasjoukkue": "HPS",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Vierasjoukkue": "HPS"
     },
     {
       "ottelu_id": "199407",
@@ -8711,9 +8857,7 @@
       "Stadion": "Töölön Pallokenttä",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "KooPee",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Vierasjoukkue": "KooPee"
     },
     {
       "ottelu_id": "199406",
@@ -8723,9 +8867,7 @@
       "Stadion": "Töölön Pallokenttä",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "ST Blues",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Vierasjoukkue": "ST Blues"
     },
     {
       "ottelu_id": "199405",
@@ -8735,9 +8877,7 @@
       "Stadion": "Tali",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "Arsenal",
-      "Vierasjoukkue": "HPS",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Vierasjoukkue": "HPS"
     },
     {
       "ottelu_id": "199404",
@@ -8747,9 +8887,7 @@
       "Stadion": "Töölön Pallokenttä",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "Ares-86",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Vierasjoukkue": "Ares-86"
     },
     {
       "ottelu_id": "199403",
@@ -8758,9 +8896,7 @@
       "Kilpailu": "Nelonen",
       "Kaupunki": "Hyvinkää",
       "Kotijoukkue": "Apollo",
-      "Vierasjoukkue": "HPS",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Vierasjoukkue": "HPS"
     },
     {
       "ottelu_id": "199402",
@@ -8770,9 +8906,7 @@
       "Stadion": "Pitäjänmäki",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "SAPA",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Vierasjoukkue": "SAPA"
     },
     {
       "ottelu_id": "199401",
@@ -8782,9 +8916,7 @@
       "Stadion": "Tapuli",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "PuiU",
-      "Vierasjoukkue": "HPS",
-      "maalit_koti": "0",
-      "maalit_vieras": "0"
+      "Vierasjoukkue": "HPS"
     },
     {
       "ottelu_id": "199323",
