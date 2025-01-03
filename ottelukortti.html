@@ -101,6 +101,19 @@
             height: 20px;
             margin-right: 5px;
         }
+
+        /* Uusi koodi: Kuvan ja kuvatekstin tyylit */
+        .match-image {
+            display: block;
+            max-width: 80%;
+            margin: 0 auto;
+        }
+        .image-caption {
+            text-align: center;
+            font-size: 0.9rem;
+            color: #333;
+            margin-top: 5px;
+        }
     </style>
 </head>
 <body>
@@ -165,6 +178,7 @@
 
         <!-- Ottelun lisätiedot -->
         <div class="section">
+            <!-- Uusi koodi: Kuva ja kuvateksti lisätään tähän -->
             <div class="extra-info" id="extra-info"></div>
         </div>
     </main>
@@ -222,6 +236,29 @@
                             document.getElementById('date').textContent = match.Päivämäärä;
                             document.getElementById('referee').textContent = `Erotuomari: ${match.erotuomari || 'Tieto puuttuu'}`;
                             document.getElementById('attendance').textContent = `Yleisömäärä: ${match.yleisömäärä || 'Tieto puuttuu'}`;
+
+                            // Uusi koodi: Lisää kuva ja kuvateksti lisätietojen osioon
+                            const extraInfo = document.getElementById('extra-info');
+                            if (match.kuva && match.kuva.trim() !== '') {
+                                let extraContent = `
+                                    <img 
+                                        src="/Lehtileikkeet/${match.kuva}" 
+                                        alt="Ottelun lisäkuva" 
+                                        class="match-image"
+                                    >
+                                `;
+                                // Jos kuvateksti on olemassa, näytetään se kuvan alla
+                                if (match.kuvateksti && match.kuvateksti.trim() !== '') {
+                                    extraContent += `
+                                        <p class="image-caption">${match.kuvateksti}</p>
+                                    `;
+                                }
+                                extraInfo.innerHTML = extraContent;
+                            } else {
+                                // Jos kuvaa tai sen nimeä ei ole, jätetään osio tyhjäksi
+                                extraInfo.innerHTML = '';
+                            }
+
                         })
                         .catch(error => console.error('Virhe ladattaessa vastustajat.json-tiedostoa:', error));
                 })
