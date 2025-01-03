@@ -10552,7 +10552,8 @@
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "FC Reipas",
       "maalit_koti": "3",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "kuva": "HS 28.9.1987.jpg"
     },
     {
       "ottelu_id": "198728",
@@ -10669,6 +10670,7 @@
       "maalit_vieras": "2",
       "yleisömäärä": "203",
       "erotuomari": "Juha Hirviniemi",
+      "kuva": "HS 24.7.1987.jpg",
       "maalintekijät_koti": "Nukarinen 51,",
       "maalintekijät_vieras": "Ruhanen 69, Hannuksela 76"
     },
