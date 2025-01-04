@@ -178,7 +178,6 @@
 
         <!-- Ottelun lisätiedot -->
         <div class="section">
-            <!-- Uusi koodi: Kuva ja kuvateksti lisätään tähän -->
             <div class="extra-info" id="extra-info"></div>
         </div>
     </main>
@@ -237,14 +236,17 @@
                             document.getElementById('referee').textContent = `Erotuomari: ${match.erotuomari || 'Tieto puuttuu'}`;
                             document.getElementById('attendance').textContent = `Yleisömäärä: ${match.yleisömäärä || 'Tieto puuttuu'}`;
 
-                            // Uusi koodi: Lisää kuva ja kuvateksti lisätietojen osioon
+                            // Uusi koodi: Kuvan näyttö kahdesta mahdollisesta kansiosta
                             const extraInfo = document.getElementById('extra-info');
                             if (match.kuva && match.kuva.trim() !== '') {
                                 let extraContent = `
-                                    <img 
-                                        src="Lehtileikkeet/${match.kuva}" 
-                                        alt="Ottelun lisäkuva" 
+                                    <img
+                                        src="Lehtileikkeet/${match.kuva}"
+                                        alt="Ottelun lisäkuva"
                                         class="match-image"
+                                        onerror="this.onerror=null; this.src='Kuvat/${match.kuva}'"
+                                        <!-- Kun kuvan lataus Lehtileikkeet-kansiosta epäonnistuu,
+                                             selain vaihtaa kuvan lähteeksi Kuvat-kansion -->
                                     >
                                 `;
                                 // Jos kuvateksti on olemassa, näytetään se kuvan alla
