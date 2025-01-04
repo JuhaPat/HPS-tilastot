@@ -183,11 +183,40 @@
     </main>
 
     <script>
+        // Apu-funktio, joka etsii järjestyksessä annettua tiedostoa
+        // ja palauttaa ensimmäisen löytyvän polun (tai null).
+        // Huom! Vaatii, että palvelin palauttaa 200/404-statukset oikein.
+        function findExistingImage(paths) {
+            let i = 0;
+            return new Promise(resolve => {
+                function tryNext() {
+                    if (i >= paths.length) {
+                        resolve(null); // Kaikki polut kokeiltu, ei löytynyt
+                        return;
+                    }
+                    fetch(paths[i], { method: 'HEAD' })
+                        .then(resp => {
+                            if (resp.ok) {
+                                // Polku löytyi
+                                resolve(paths[i]);
+                            } else {
+                                i++;
+                                tryNext(); // Testataan seuraava polku
+                            }
+                        })
+                        .catch(() => {
+                            i++;
+                            tryNext();
+                        });
+                }
+                tryNext();
+            });
+        }
+
         const urlParams = new URLSearchParams(window.location.search);
         const otteluId = parseInt(urlParams.get('ottelu_id'), 10);
 
         if (otteluId) {
-            // Ladataan ottelut.json saadaksemme esim. 'kilpailu', 'stadion', 'kuvateksti' jne.
             fetch('ottelut.json')
                 .then(response => response.json())
                 .then(matches => {
@@ -208,7 +237,7 @@
                                 }
                             });
 
-                            // Kotijoukkueen ja vierasjoukkueen logot
+                            // Näytetään perusottelutiedot
                             const homeData = teamData[match.Kotijoukkue] || { name: match.Kotijoukkue, logo: 'placeholder.png' };
                             const awayData = teamData[match.Vierasjoukkue] || { name: match.Vierasjoukkue, logo: 'placeholder.png' };
 
@@ -235,37 +264,45 @@
                             document.getElementById('home-scorers').innerHTML = parseScorers(match.maalintekijät_koti);
                             document.getElementById('away-scorers').innerHTML = parseScorers(match.maalintekijät_vieras);
 
-                            // Täytä muut osiot
                             document.getElementById('competition').textContent = match.Kilpailu;
                             document.getElementById('stadium-city').textContent = `${match.Stadion}, ${match.Kaupunki}`;
                             document.getElementById('date').textContent = match.Päivämäärä;
                             document.getElementById('referee').textContent = `Erotuomari: ${match.erotuomari || 'Tieto puuttuu'}`;
                             document.getElementById('attendance').textContent = `Yleisömäärä: ${match.yleisömäärä || 'Tieto puuttuu'}`;
 
-                            // Kuvatiedoston nimi on muodossa "ottelu_id.jpg"
-                            const imageFileName = `${otteluId}.jpg`;
-                            const extraInfo = document.getElementById('extra-info');
+                            // Kuvatiedoston mahdolliset polut (kaikki neljä päätevariaatiota),
+                            // ensin Lehtileikkeet-kansiossa, sitten Kuvat-kansiossa.
+                            const possiblePaths = [
+                                `Lehtileikkeet/${otteluId}.jpg`,
+                                `Lehtileikkeet/${otteluId}.jpeg`,
+                                `Lehtileikkeet/${otteluId}.JPG`,
+                                `Lehtileikkeet/${otteluId}.JPEG`,
+                                `Kuvat/${otteluId}.jpg`,
+                                `Kuvat/${otteluId}.jpeg`,
+                                `Kuvat/${otteluId}.JPG`,
+                                `Kuvat/${otteluId}.JPEG`
+                            ];
 
-                            // Ladataan aina samaa tiedostonimeä: Lehtileikkeet/ottelu_id.jpg (fallback -> Kuvat/ottelu_id.jpg)
-                            let extraContent = `
-                                <img
-                                    src="Lehtileikkeet/${imageFileName}"
-                                    alt="Ottelun lisäkuva"
-                                    class="match-image"
-                                    onerror="this.onerror=null; this.src='Kuvat/${imageFileName}'"
-                                >
-                            `;
+                            findExistingImage(possiblePaths).then(foundPath => {
+                                // Jos kuvaa ei löydy millään päätetesteillä, älä luo img-elementtiä
+                                if (!foundPath) {
+                                    return;
+                                }
 
-                            // Näytetään kuvateksti, jos sellaista löytyy
-                            if (match.kuvateksti && match.kuvateksti.trim() !== '') {
-                                extraContent += `
-                                    <p class="image-caption">${match.kuvateksti}</p>
+                                // Rakennetaan haluttu <img> + mahdollinen kuvateksti
+                                let extraContent = `
+                                    <img
+                                        src="${foundPath}"
+                                        alt="Ottelun lisäkuva"
+                                        class="match-image"
+                                    >
                                 `;
-                            }
+                                if (match.kuvateksti && match.kuvateksti.trim() !== '') {
+                                    extraContent += `<p class="image-caption">${match.kuvateksti}</p>`;
+                                }
 
-                            // Lisätään kokonaisuus DOM:iin
-                            extraInfo.innerHTML = extraContent;
-
+                                document.getElementById('extra-info').innerHTML = extraContent;
+                            });
                         })
                         .catch(error => console.error('Virhe ladattaessa vastustajat.json-tiedostoa:', error));
                 })
