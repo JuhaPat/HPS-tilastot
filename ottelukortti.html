@@ -102,7 +102,7 @@
             margin-right: 5px;
         }
 
-        /* Uusi koodi: Kuvan ja kuvatekstin tyylit */
+        /* Kuvan ja kuvatekstin tyylit */
         .match-image {
             display: block;
             max-width: 80%;
@@ -187,6 +187,7 @@
         const otteluId = parseInt(urlParams.get('ottelu_id'), 10);
 
         if (otteluId) {
+            // Ladataan ottelut.json saadaksemme esim. 'kilpailu', 'stadion', 'kuvateksti' jne.
             fetch('ottelut.json')
                 .then(response => response.json())
                 .then(matches => {
@@ -196,6 +197,7 @@
                         return;
                     }
 
+                    // Haetaan joukkueiden tiedot (logot, lyhenteet)
                     fetch('vastustajat.json')
                         .then(response => response.json())
                         .then(teams => {
@@ -206,6 +208,7 @@
                                 }
                             });
 
+                            // Kotijoukkueen ja vierasjoukkueen logot
                             const homeData = teamData[match.Kotijoukkue] || { name: match.Kotijoukkue, logo: 'placeholder.png' };
                             const awayData = teamData[match.Vierasjoukkue] || { name: match.Vierasjoukkue, logo: 'placeholder.png' };
 
@@ -217,14 +220,17 @@
 
                             document.getElementById('result-additional-info').textContent = match.lisätietoja || '';
 
-                            const parseScorers = (scorersString) => scorersString
-                                ? scorersString.split(',').map(s => {
+                            const parseScorers = (scorersString) => {
+                                if (!scorersString) {
+                                    return '<p>Ei maalintekijöitä</p>';
+                                }
+                                return scorersString.split(',').map(s => {
                                     const parts = s.trim().split(' ');
                                     const time = isNaN(parts[parts.length - 1]) ? '' : parts.pop();
                                     const name = parts.join(' ');
                                     return `<div class="scorer"><img src="logot/Pallo.jpg" alt="Pallo">${name}${time ? ` ${time}'` : ''}</div>`;
-                                }).join('')
-                                : '<p>Ei maalintekijöitä</p>';
+                                }).join('');
+                            };
 
                             document.getElementById('home-scorers').innerHTML = parseScorers(match.maalintekijät_koti);
                             document.getElementById('away-scorers').innerHTML = parseScorers(match.maalintekijät_vieras);
@@ -236,30 +242,29 @@
                             document.getElementById('referee').textContent = `Erotuomari: ${match.erotuomari || 'Tieto puuttuu'}`;
                             document.getElementById('attendance').textContent = `Yleisömäärä: ${match.yleisömäärä || 'Tieto puuttuu'}`;
 
-                            // Uusi koodi: Kuvan näyttö kahdesta mahdollisesta kansiosta
+                            // Kuvatiedoston nimi on muodossa "ottelu_id.jpg"
+                            const imageFileName = `${otteluId}.jpg`;
                             const extraInfo = document.getElementById('extra-info');
-                            if (match.kuva && match.kuva.trim() !== '') {
-                                let extraContent = `
-                                    <img
-                                        src="Lehtileikkeet/${match.kuva}"
-                                        alt="Ottelun lisäkuva"
-                                        class="match-image"
-                                        onerror="this.onerror=null; this.src='Kuvat/${match.kuva}'"
-                                        <!-- Kun kuvan lataus Lehtileikkeet-kansiosta epäonnistuu,
-                                             selain vaihtaa kuvan lähteeksi Kuvat-kansion -->
-                                    >
+
+                            // Ladataan aina samaa tiedostonimeä: Lehtileikkeet/ottelu_id.jpg (fallback -> Kuvat/ottelu_id.jpg)
+                            let extraContent = `
+                                <img
+                                    src="Lehtileikkeet/${imageFileName}"
+                                    alt="Ottelun lisäkuva"
+                                    class="match-image"
+                                    onerror="this.onerror=null; this.src='Kuvat/${imageFileName}'"
+                                >
+                            `;
+
+                            // Näytetään kuvateksti, jos sellaista löytyy
+                            if (match.kuvateksti && match.kuvateksti.trim() !== '') {
+                                extraContent += `
+                                    <p class="image-caption">${match.kuvateksti}</p>
                                 `;
-                                // Jos kuvateksti on olemassa, näytetään se kuvan alla
-                                if (match.kuvateksti && match.kuvateksti.trim() !== '') {
-                                    extraContent += `
-                                        <p class="image-caption">${match.kuvateksti}</p>
-                                    `;
-                                }
-                                extraInfo.innerHTML = extraContent;
-                            } else {
-                                // Jos kuvaa tai sen nimeä ei ole, jätetään osio tyhjäksi
-                                extraInfo.innerHTML = '';
                             }
+
+                            // Lisätään kokonaisuus DOM:iin
+                            extraInfo.innerHTML = extraContent;
 
                         })
                         .catch(error => console.error('Virhe ladattaessa vastustajat.json-tiedostoa:', error));
