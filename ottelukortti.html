@@ -252,13 +252,9 @@
             for (const suffix of suffixes) {
                 const possiblePaths = [
                     `Lehtileikkeet/${otteluId}${suffix}.jpg`,
-                    `Lehtileikkeet/${otteluId}${suffix}.jpeg`,
                     `Lehtileikkeet/${otteluId}${suffix}.JPG`,
-                    `Lehtileikkeet/${otteluId}${suffix}.JPEG`,
                     `Kuvat/${otteluId}${suffix}.jpg`,
-                    `Kuvat/${otteluId}${suffix}.jpeg`,
-                    `Kuvat/${otteluId}${suffix}.JPG`,
-                    `Kuvat/${otteluId}${suffix}.JPEG`
+                    `Kuvat/${otteluId}${suffix}.JPG`
                 ];
 
                 const found = await findExistingImage(possiblePaths);
