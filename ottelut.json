@@ -1,4 +1,5 @@
-[
+{
+  "Sheet1": [
     {
       "ottelu_id": "202426",
       "Kausi": "2024",
@@ -19278,6 +19279,7 @@
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
       "maalit_vieras": "0",
+      "lisätietoja": "Statistics and Lineups HPS Helsinki 0-3 Stade de Reims :: TC 1958/59",
       "yleisömäärä": "14855",
       "erotuomari": "Helmut Fritz",
       "maalintekijät_koti": "Fontaine 2, Fontaine 10, Oma maali 12"
@@ -19293,8 +19295,10 @@
       "Vierasjoukkue": "Reims",
       "maalit_koti": "0",
       "maalit_vieras": "4",
+      "lisätietoja": "Statistics and Lineups Stade de Reims 4-0 HPS Helsinki :: TC 1958/59",
       "yleisömäärä": "11452",
       "erotuomari": "Edgard Ommerborn",
+      "kuvateksti": "HS 27.11.1958",
       "maalintekijät_vieras": "Vincent 22,Vincent 35, Vincent 85,Siatka 89"
     },
     {
@@ -19305,6 +19309,7 @@
       "Vierasjoukkue": "KIF",
       "maalit_koti": "2",
       "maalit_vieras": "4",
+      "lisätietoja": "National Cup 1958 - Finnish Suomen Cup Results - Football Archive",
       "erotuomari": " "
     },
     {
@@ -19315,6 +19320,7 @@
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
       "maalit_vieras": "3",
+      "lisätietoja": "National Cup 1958 - Finnish Suomen Cup Results - Football Archive",
       "erotuomari": " "
     },
     {
@@ -19325,6 +19331,7 @@
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
       "maalit_vieras": "2",
+      "lisätietoja": "National Cup 1958 - Finnish Suomen Cup Results - Football Archive",
       "erotuomari": " "
     },
     {
@@ -19338,6 +19345,7 @@
       "Vierasjoukkue": "KuPS",
       "maalit_koti": "0",
       "maalit_vieras": "1",
+      "lisätietoja": "HS 2.11.1958",
       "yleisömäärä": "8304",
       "erotuomari": "Reino Koskinen",
       "maalintekijät_koti": "Antero Kostilainen 110"
@@ -19352,7 +19360,9 @@
       "Vierasjoukkue": "HPS",
       "maalit_koti": "4",
       "maalit_vieras": "1",
-      "erotuomari": " ",
+      "lisätietoja": "HS 27.10.1958",
+      "yleisömäärä": "4203",
+      "erotuomari": "Kurt Cederberg",
       "maalintekijät_koti": "Antero Kostilainen 2,Sulo Holopainen 5,Timo Iivarinen 47,Sulo Holopainen 75",
       "maalintekijät_vieras": "Olavi Hirvonen 48"
     },
@@ -19367,7 +19377,9 @@
       "Vierasjoukkue": "TPS",
       "maalit_koti": "2",
       "maalit_vieras": "1",
-      "erotuomari": " ",
+      "lisätietoja": "HS 19.10.1958",
+      "yleisömäärä": "1362",
+      "erotuomari": "Antero Lartola",
       "maalintekijät_koti": "Olavi Hirvonen 4,Olavi Hirvonen 6",
       "maalintekijät_vieras": "Helge Johansson 24"
     },
@@ -19381,7 +19393,9 @@
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
       "maalit_vieras": "0",
-      "erotuomari": " ",
+      "lisätietoja": "HS 6.10.1958",
+      "yleisömäärä": "2543",
+      "erotuomari": "Per Engblom",
       "maalintekijät_koti": "Raimo Kivistö 25"
     },
     {
@@ -19389,13 +19403,15 @@
       "Kausi": "1958",
       "Päivämäärä": "28.9.1958",
       "Kilpailu": "Mestaruussarja",
-      "Stadion": "Töölön Pallokenttä",
+      "Stadion": "Olympiastadion",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Ilves-Kissat",
       "maalit_koti": "4",
       "maalit_vieras": "1",
-      "erotuomari": " ",
+      "lisätietoja": "HS 29.9.1958",
+      "yleisömäärä": "1891",
+      "erotuomari": "Reino Koskinen",
       "maalintekijät_koti": "Leo Mikander 5,Kai Pahlman 15,Kai Pahlman 42,Kalevi Malmström 80",
       "maalintekijät_vieras": "Matti Mäkelä 68"
     },
@@ -19404,13 +19420,15 @@
       "Kausi": "1958",
       "Päivämäärä": "18.9.1958",
       "Kilpailu": "Mestaruussarja",
+      "Stadion": "Olympiastadion",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HIFK",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
       "maalit_vieras": "2",
-      "yleisömäärä": "3000",
-      "erotuomari": " ",
+      "lisätietoja": "HS 19.9.1958",
+      "yleisömäärä": "3163",
+      "erotuomari": "Kurt Cederberg",
       "maalintekijät_vieras": "Kai Pahlman 56,Kai Pahlman 72"
     },
     {
@@ -19418,20 +19436,22 @@
       "Kausi": "1958",
       "Päivämäärä": "7.9.1958",
       "Kilpailu": "Mestaruussarja",
+      "Stadion": "Töölön Pallokenttä",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "KTP",
       "maalit_koti": "4",
       "maalit_vieras": "1",
+      "lisätietoja": "HS 8.9.1958",
       "yleisömäärä": "2295",
-      "erotuomari": " ",
+      "erotuomari": "Olavi Ojama",
       "maalintekijät_koti": "Kai Pahlman 1,Kai Pahlman 57,Kai Pahlman 75,Kai Pahlman 88",
       "maalintekijät_vieras": "Mauri Vanhanen 61"
     },
     {
       "ottelu_id": "195819",
       "Kausi": "1958",
-      "Päivämäärä": "27.8.1958",
+      "Päivämäärä": "28.8.1958",
       "Kilpailu": "Mestaruussarja",
       "Stadion": "Olympiastadion",
       "Kaupunki": "Helsinki",
@@ -19439,8 +19459,9 @@
       "Vierasjoukkue": "HJK",
       "maalit_koti": "3",
       "maalit_vieras": "2",
-      "yleisömäärä": "2200",
-      "erotuomari": " ",
+      "lisätietoja": "HS 29.8.1958",
+      "yleisömäärä": "2220",
+      "erotuomari": "Väinö Niemi",
       "maalintekijät_koti": "Reijo Jalava om 21,Osvald Eldsbacka 77,Kai Pahlman 80",
       "maalintekijät_vieras": "Reijo Jalava 16,Pentti Styck 47"
     },
@@ -19449,12 +19470,14 @@
       "Kausi": "1958",
       "Päivämäärä": "10.8.1958",
       "Kilpailu": "Mestaruussarja",
+      "Stadion": "Tehtaan kenttä",
       "Kaupunki": "Valkeakoski",
       "Kotijoukkue": "Haka",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
       "maalit_vieras": "2",
-      "erotuomari": " ",
+      "lisätietoja": "HS 11.8.1958",
+      "yleisömäärä": "1734",
       "maalintekijät_koti": "Markku Kumpulampi 49,Veijo Valtonen 54",
       "maalintekijät_vieras": "Olavi Hirvonen 36,Olavi Hirvonen 61"
     },
@@ -19463,12 +19486,15 @@
       "Kausi": "1958",
       "Päivämäärä": "1.8.1958",
       "Kilpailu": "Mestaruussarja",
+      "Stadion": "Olympiastadion",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "VPS",
       "maalit_koti": "3",
       "maalit_vieras": "3",
-      "erotuomari": " ",
+      "lisätietoja": "HS 2.8.1958",
+      "yleisömäärä": "1820",
+      "erotuomari": "Aarne Eriksson",
       "maalintekijät_koti": "Matti Kontturi om,Olavi Hirvonen 3,Kai Pahlman (rp)  73",
       "maalintekijät_vieras": "Lauri Häyhä 25,Lauri Häyhä,Juho Palo 69"
     },
@@ -19482,7 +19508,9 @@
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
       "maalit_vieras": "2",
-      "erotuomari": " ",
+      "lisätietoja": "HS 30.6.1958",
+      "yleisömäärä": "2500",
+      "erotuomari": "Kurt Cederberg",
       "maalintekijät_koti": "Mauno Nurmi 39,Kalevi Lehtovirta 53",
       "maalintekijät_vieras": "Olavi Hirvonen 19,Olavi Hirvonen 82"
     },
@@ -19491,24 +19519,32 @@
       "Kausi": "1958",
       "Päivämäärä": "12.6.1958",
       "Kilpailu": "Ystävyysottelu",
+      "Stadion": "Olympiastadion",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Krylja Sovetov",
       "maalit_koti": "1",
       "maalit_vieras": "5",
-      "erotuomari": " "
+      "lisätietoja": "HS 13.6.1958",
+      "yleisömäärä": "2739",
+      "erotuomari": "Martti Hirviniemi",
+      "maalintekijät_koti": "Tapani Urvikko 75",
+      "maalintekijät_vieras": "Karpov 9,Maximov 40,Moisejev 60,Oma maali,Rednik 88"
     },
     {
       "ottelu_id": "195814",
       "Kausi": "1958",
       "Päivämäärä": "8.6.1958",
       "Kilpailu": "Mestaruussarja",
+      "Stadion": "Töölön Pallokenttä",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "KuPS",
       "maalit_koti": "1",
       "maalit_vieras": "0",
-      "erotuomari": " ",
+      "lisätietoja": "HS 9.6.1958",
+      "yleisömäärä": "3242",
+      "erotuomari": "Toivo Leivolahti",
       "maalintekijät_koti": "Leo Mikander 58"
     },
     {
@@ -19516,26 +19552,32 @@
       "Kausi": "1958",
       "Päivämäärä": "5.6.1958",
       "Kilpailu": "Mestaruussarja",
+      "Stadion": "Olympiastadion",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HJK",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
       "maalit_vieras": "2",
-      "erotuomari": " ",
+      "lisätietoja": "HS 6.6.1958",
+      "yleisömäärä": "2883",
+      "erotuomari": "Arvo Jokinen",
       "maalintekijät_koti": "Pentti Styck 20",
       "maalintekijät_vieras": "Kai Pahlman 57,Kai Pahlman 90"
     },
     {
       "ottelu_id": "195812",
       "Kausi": "1958",
-      "Päivämäärä": "30.5.1958",
+      "Päivämäärä": "1.6.1958",
       "Kilpailu": "Mestaruussarja",
+      "Stadion": "Kotkann urheilukeskuksen olympiakenttä",
       "Kaupunki": "Kotka",
       "Kotijoukkue": "KTP",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
       "maalit_vieras": "3",
-      "erotuomari": " ",
+      "lisätietoja": "HS 2.6.1958",
+      "yleisömäärä": "2025",
+      "erotuomari": "Väinö Niemi",
       "maalintekijät_koti": "Antti Pirtilä 66,Mauri Vanhanen 89",
       "maalintekijät_vieras": "Kai Pahlman 40,Nils-Erik Wilen 46,Kai Pahlman 51"
     },
@@ -19544,12 +19586,15 @@
       "Kausi": "1958",
       "Päivämäärä": "27.5.1958",
       "Kilpailu": "Mestaruussarja",
+      "Stadion": "Olympiastadion",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "HIFK",
       "maalit_koti": "2",
       "maalit_vieras": "3",
-      "erotuomari": " ",
+      "lisätietoja": "HS 28.5.1958",
+      "yleisömäärä": "4393",
+      "erotuomari": "Aarne Eriksson",
       "maalintekijät_koti": "Kai Pahlman 31,Juhani Tanner 79",
       "maalintekijät_vieras": "Kaj Sylvander 7,Hannu Kankkonen 69,Kaj Sylvander 81"
     },
@@ -19558,12 +19603,15 @@
       "Kausi": "1958",
       "Päivämäärä": "20.5.1958",
       "Kilpailu": "Mestaruussarja",
+      "Stadion": "Töölön Pallokenttä",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Haka",
       "maalit_koti": "3",
       "maalit_vieras": "2",
-      "erotuomari": " ",
+      "lisätietoja": "HS 21.5.1958",
+      "yleisömäärä": "3122",
+      "erotuomari": "Jussi Sillanpää",
       "maalintekijät_koti": "Leo Mikander 40,Leo Mikander 47,Kai Pahlman 70",
       "maalintekijät_vieras": "Keijo Airola 12,Markku Kumpulampi 19"
     },
@@ -19577,7 +19625,9 @@
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
       "maalit_vieras": "3",
-      "erotuomari": " ",
+      "lisätietoja": "HS 16.5.1958",
+      "yleisömäärä": "2075",
+      "erotuomari": "Olavi Ojama",
       "maalintekijät_koti": "Vesa Räisänen 4",
       "maalintekijät_vieras": "Martti Järvinen 9,Leo Mikander 32,Martti Järvinen 67"
     },
@@ -19586,12 +19636,15 @@
       "Kausi": "1958",
       "Päivämäärä": "11.5.1958",
       "Kilpailu": "Mestaruussarja",
+      "Stadion": "Tammela",
       "Kaupunki": "Tampere",
       "Kotijoukkue": "Ilves-Kissat",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
       "maalit_vieras": "0",
-      "erotuomari": " "
+      "lisätietoja": "HS 12.5.1958",
+      "yleisömäärä": "2200",
+      "erotuomari": "Per Engblom"
     },
     {
       "ottelu_id": "195807",
@@ -19604,7 +19657,9 @@
       "Vierasjoukkue": "VIFK",
       "maalit_koti": "1",
       "maalit_vieras": "0",
-      "erotuomari": " ",
+      "lisätietoja": "HS 5.5.1958",
+      "yleisömäärä": "2784",
+      "erotuomari": "Aatos Marttila",
       "maalintekijät_koti": "Kai Pahlman 1"
     },
     {
@@ -19617,7 +19672,10 @@
       "Vierasjoukkue": "HPS",
       "maalit_koti": "6",
       "maalit_vieras": "2",
-      "erotuomari": " "
+      "lisätietoja": "HS 23.4.1958",
+      "yleisömäärä": "14000",
+      "maalintekijät_koti": "?? 24, ?? 33, ?? 35,?? 60,?? 72,?? 80",
+      "maalintekijät_vieras": "Kai Pahlman 20, Urvikko (rp) 75"
     },
     {
       "ottelu_id": "195805",
@@ -19629,8 +19687,10 @@
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
       "maalit_vieras": "0",
+      "lisätietoja": "HS 18.4.1958",
       "yleisömäärä": "35000",
-      "erotuomari": " "
+      "erotuomari": "Bodintsov",
+      "maalintekijät_koti": "Klatskov 8"
     },
     {
       "ottelu_id": "195804",
@@ -19643,8 +19703,9 @@
       "Vierasjoukkue": "HPS",
       "maalit_koti": "4",
       "maalit_vieras": "0",
+      "lisätietoja": "HS 14.4.1958",
       "yleisömäärä": "25000",
-      "erotuomari": " "
+      "erotuomari": "Teljanin"
     },
     {
       "ottelu_id": "195803",
@@ -27960,3 +28021,4 @@
       "lisätietoja": "HPS:n historian ensimmäinen jalkapallo-ottelu"
     }
   ]
+}
