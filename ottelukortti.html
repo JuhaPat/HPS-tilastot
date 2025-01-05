@@ -114,6 +114,27 @@
             color: #333;
             margin-top: 5px;
         }
+        .image-container {
+            margin-bottom: 20px;
+        }
+
+        /* Vihreät linkit nuolineen */
+        .arrow-links {
+            text-align: center; 
+            margin-top: 15px;
+        }
+        .arrow-link {
+            background-color: green;
+            color: white;
+            padding: 6px 12px;
+            margin: 0 8px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 4px;
+        }
+        .arrow-link:hover {
+            background-color: #005500; /* Tummentaa hover-vaiheessa */
+        }
     </style>
 </head>
 <body>
@@ -142,6 +163,16 @@
             <p class="officials" id="referee"></p>
             <p class="officials" id="attendance"></p>
             <p class="officials" id="additional-info"></p>
+
+            <!-- LISÄYS: Vihreät linkit Yleisömäärä-tekstin jälkeen -->
+            <div class="arrow-links">
+                <a id="prev-arrow" class="arrow-link" href="#">
+                    Edellinen ottelu
+                </a>
+                <a id="next-arrow" class="arrow-link" href="#">
+                    Seuraava ottelu
+                </a>
+            </div>
         </div>
 
         <!-- Ottelun tulos -->
@@ -183,9 +214,8 @@
     </main>
 
     <script>
-        // Apu-funktio, joka etsii järjestyksessä annettua tiedostoa
-        // ja palauttaa ensimmäisen löytyvän polun (tai null).
-        // Huom! Vaatii, että palvelin palauttaa 200/404-statukset oikein.
+        // Apu-funktio, joka hakee HEAD-pyynnöllä polun ja palauttaa
+        // sen, jos se löytyy (HTTP 200), tai null, jos ei löydy.
         function findExistingImage(paths) {
             let i = 0;
             return new Promise(resolve => {
@@ -197,11 +227,10 @@
                     fetch(paths[i], { method: 'HEAD' })
                         .then(resp => {
                             if (resp.ok) {
-                                // Polku löytyi
                                 resolve(paths[i]);
                             } else {
                                 i++;
-                                tryNext(); // Testataan seuraava polku
+                                tryNext();
                             }
                         })
                         .catch(() => {
@@ -213,20 +242,86 @@
             });
         }
 
+        // Hakee kaikki kuvat (ilman kirjainta + a, b, c, ...) ja jokaiselle
+        // testaa .jpg, .jpeg, .JPG, .JPEG sekä Lehtileikkeet/ ja Kuvat/ -kansiot.
+        async function fetchImages(otteluId) {
+            // Lisätään tyhjä merkkijono ensimmäiseksi -> pelkkä otteluId sekä a...z
+            const suffixes = ['', ...'abcdefghijklmnopqrstuvwxyz'];
+            const foundPaths = [];
+
+            for (const suffix of suffixes) {
+                const possiblePaths = [
+                    `Lehtileikkeet/${otteluId}${suffix}.jpg`,
+                    `Lehtileikkeet/${otteluId}${suffix}.jpeg`,
+                    `Lehtileikkeet/${otteluId}${suffix}.JPG`,
+                    `Lehtileikkeet/${otteluId}${suffix}.JPEG`,
+                    `Kuvat/${otteluId}${suffix}.jpg`,
+                    `Kuvat/${otteluId}${suffix}.jpeg`,
+                    `Kuvat/${otteluId}${suffix}.JPG`,
+                    `Kuvat/${otteluId}${suffix}.JPEG`
+                ];
+
+                const found = await findExistingImage(possiblePaths);
+                if (found) {
+                    // Löydetty polku tallennetaan järjestyksessä
+                    foundPaths.push(found);
+                }
+            }
+            return foundPaths;
+        }
+
         const urlParams = new URLSearchParams(window.location.search);
         const otteluId = parseInt(urlParams.get('ottelu_id'), 10);
+
+        // Globaali muuttuja, jotta voimme käyttää match-listaa navigoinnissa
+        let allMatches = [];
 
         if (otteluId) {
             fetch('ottelut.json')
                 .then(response => response.json())
                 .then(matches => {
+                    // Tallennetaan kaikki ottelut
+                    allMatches = matches;
+
+                    // Etsitään haluttu ottelu
                     const match = matches.find(m => parseInt(m.ottelu_id, 10) === otteluId);
                     if (!match) {
                         document.body.innerHTML = '<p>Ottelua ei löytynyt!</p>';
                         return;
                     }
 
-                    // Haetaan joukkueiden tiedot (logot, lyhenteet)
+                    // Järjestetään ottelut nousevan ottelu_id:n mukaan
+                    const sortedMatches = [...matches].sort(
+                        (a,b) => parseInt(a.ottelu_id) - parseInt(b.ottelu_id)
+                    );
+                    // Etsitään currentIndex
+                    const currentIndex = sortedMatches.findIndex(
+                        m => parseInt(m.ottelu_id) === otteluId
+                    );
+
+                    // Määritellään linkit edelliselle ja seuraavalle ottelulle
+                    const prevArrow = document.getElementById('prev-arrow');
+                    const nextArrow = document.getElementById('next-arrow');
+
+                    // Edellinen ottelu
+                    if (currentIndex > 0) {
+                        const prevId = sortedMatches[currentIndex - 1].ottelu_id;
+                        prevArrow.href = `ottelukortti.html?ottelu_id=${prevId}`;
+                    } else {
+                        // Jos ei edellistä, piilotetaan nuoli
+                        prevArrow.style.display = 'none';
+                    }
+
+                    // Seuraava ottelu
+                    if (currentIndex < sortedMatches.length - 1) {
+                        const nextId = sortedMatches[currentIndex + 1].ottelu_id;
+                        nextArrow.href = `ottelukortti.html?ottelu_id=${nextId}`;
+                    } else {
+                        // Jos ei seuraavaa, piilotetaan nuoli
+                        nextArrow.style.display = 'none';
+                    }
+
+                    // Ladataan joukkueiden tiedot
                     fetch('vastustajat.json')
                         .then(response => response.json())
                         .then(teams => {
@@ -237,7 +332,7 @@
                                 }
                             });
 
-                            // Näytetään perusottelutiedot
+                            // Perustiedot
                             const homeData = teamData[match.Kotijoukkue] || { name: match.Kotijoukkue, logo: 'placeholder.png' };
                             const awayData = teamData[match.Vierasjoukkue] || { name: match.Vierasjoukkue, logo: 'placeholder.png' };
 
@@ -270,44 +365,39 @@
                             document.getElementById('referee').textContent = `Erotuomari: ${match.erotuomari || 'Tieto puuttuu'}`;
                             document.getElementById('attendance').textContent = `Yleisömäärä: ${match.yleisömäärä || 'Tieto puuttuu'}`;
 
-                            // Kuvatiedoston mahdolliset polut (kaikki neljä päätevariaatiota),
-                            // ensin Lehtileikkeet-kansiossa, sitten Kuvat-kansiossa.
-                            const possiblePaths = [
-                                `Lehtileikkeet/${otteluId}.jpg`,
-                                `Lehtileikkeet/${otteluId}.jpeg`,
-                                `Lehtileikkeet/${otteluId}.JPG`,
-                                `Lehtileikkeet/${otteluId}.JPEG`,
-                                `Kuvat/${otteluId}.jpg`,
-                                `Kuvat/${otteluId}.jpeg`,
-                                `Kuvat/${otteluId}.JPG`,
-                                `Kuvat/${otteluId}.JPEG`
-                            ];
-
-                            findExistingImage(possiblePaths).then(foundPath => {
-                                // Jos kuvaa ei löydy millään päätetesteillä, älä luo img-elementtiä
-                                if (!foundPath) {
-                                    return;
+                            // Haetaan kaikki kuvat
+                            fetchImages(otteluId).then(foundPaths => {
+                                if (!foundPaths || foundPaths.length === 0) {
+                                    return; // Ei kuvia -> osio tyhjä
                                 }
 
-                                // Rakennetaan haluttu <img> + mahdollinen kuvateksti
-                                let extraContent = `
-                                    <img
-                                        src="${foundPath}"
-                                        alt="Ottelun lisäkuva"
-                                        class="match-image"
-                                    >
-                                `;
-                                if (match.kuvateksti && match.kuvateksti.trim() !== '') {
-                                    extraContent += `<p class="image-caption">${match.kuvateksti}</p>`;
-                                }
+                                let extraContent = '';
+                                foundPaths.forEach(path => {
+                                    extraContent += `
+                                        <div class="image-container">
+                                            <img
+                                                src="${path}"
+                                                alt="Ottelun lisäkuva"
+                                                class="match-image"
+                                            >
+                                            ${
+                                                match.kuvateksti && match.kuvateksti.trim() !== ''
+                                                ? `<p class="image-caption">${match.kuvateksti}</p>`
+                                                : ''
+                                            }
+                                        </div>
+                                    `;
+                                });
 
                                 document.getElementById('extra-info').innerHTML = extraContent;
                             });
+
                         })
                         .catch(error => console.error('Virhe ladattaessa vastustajat.json-tiedostoa:', error));
                 })
                 .catch(error => console.error('Virhe ladattaessa ottelut.json-tiedostoa:', error));
         } else {
+            // Jos parametri puuttuu
             document.getElementById('match-result').innerHTML = '<p>Ottelun tiedot puuttuvat!</p>';
         }
     </script>
