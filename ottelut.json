@@ -19681,11 +19681,13 @@
       "Kausi": "1957",
       "Päivämäärä": "6.10.1957",
       "Kilpailu": "Mestaruussarja",
+      "Stadion": "Töölön Pallokenttä",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "VPS",
       "maalit_koti": "5",
       "maalit_vieras": "3",
+      "lisätietoja": "HS 7.10.1957",
       "yleisömäärä": "3217",
       "erotuomari": "Reino Koskinen",
       "maalintekijät_koti": "Kalevi Malmström 11,Leo Mikander 12,Raimo Nieminen 25,Osvald Eldsbacka 31,Leo Mikander 57",
@@ -19702,7 +19704,9 @@
       "Vierasjoukkue": "KTP",
       "maalit_koti": "2",
       "maalit_vieras": "1",
-      "erotuomari": " ",
+      "lisätietoja": "HS 29.9.1957",
+      "yleisömäärä": "1770",
+      "erotuomari": "Toivo Leivolahti",
       "maalintekijät_koti": "Martti Järvinen 9,Kai Pahlman 34",
       "maalintekijät_vieras": "Mauri Vanhanen 61"
     },
@@ -19711,13 +19715,15 @@
       "Kausi": "1957",
       "Päivämäärä": "5.9.1957",
       "Kilpailu": "Mestaruussarja",
+      "Stadion": "Olympiastadion",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "HJK",
       "maalit_koti": "4",
       "maalit_vieras": "2",
+      "lisätietoja": "HS 6.9.1957",
       "yleisömäärä": "3137",
-      "erotuomari": " ",
+      "erotuomari": "Per Engblom",
       "maalintekijät_koti": "Kai Pahlman 32,Martti Järvinen 52,Kai Pahlman 63,Kai Pahlman 68",
       "maalintekijät_vieras": "Per-Erik Juslin 20,Kauko Korpela 67"
     },
@@ -19731,7 +19737,9 @@
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
       "maalit_vieras": "7",
-      "erotuomari": " ",
+      "lisätietoja": "HS 26.8.1957",
+      "yleisömäärä": "1528",
+      "erotuomari": "Kurt Cederberg",
       "maalintekijät_vieras": "Raimo Nieminen 4,Raimo Nieminen 15,Leo Mikander 39,Kai Pahlman 52,Kai Pahlman 54,Leo Mikander 79,Leo Mikander 85"
     },
     {
@@ -19745,8 +19753,10 @@
       "Vierasjoukkue": "KoRe",
       "maalit_koti": "8",
       "maalit_vieras": "2",
-      "erotuomari": " ",
-      "maalintekijät_koti": "Kai Pahlman 24,Kai Pahlman 32,Tiusanen om 40,Martti Järvinen 52,Leo Mikander 60,Martti Järvinen 67,Leo Mikander 75,Martti Järvinen 84",
+      "lisätietoja": "HS 18.8.1957",
+      "yleisömäärä": "676",
+      "erotuomari": "Toivo Alkio",
+      "maalintekijät_koti": "Kai Pahlman 24,Kai Pahlman 32,Oma maali 40,Martti Järvinen 52,Leo Mikander 60,Martti Järvinen 67,Leo Mikander 75,Martti Järvinen 84",
       "maalintekijät_vieras": "Sven Björklund 25,Aimo Huusari 89"
     },
     {
@@ -19759,7 +19769,9 @@
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
       "maalit_vieras": "3",
-      "erotuomari": " ",
+      "lisätietoja": "HS 12.8.1957",
+      "yleisömäärä": "1751",
+      "erotuomari": "Väinö Niemi",
       "maalintekijät_koti": "Simo Järvelä 62",
       "maalintekijät_vieras": "Kalevi Malmström 60,Kalevi Malmström 67,Martti Järvinen 85"
     },
@@ -19774,7 +19786,9 @@
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
       "maalit_vieras": "4",
-      "erotuomari": " ",
+      "lisätietoja": "HS 7.8.1957",
+      "yleisömäärä": "2237",
+      "erotuomari": "Kurt Cederberg",
       "maalintekijät_vieras": "Kai Pahlman (rp) 52,Raimo Nieminen 55,Juhani Tanner 79,Kai Pahlman 86"
     },
     {
@@ -19782,13 +19796,15 @@
       "Kausi": "1957",
       "Päivämäärä": "1.8.1957",
       "Kilpailu": "Mestaruussarja",
+      "Stadion": "Olympiastadion",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "TPS",
       "maalit_koti": "1",
       "maalit_vieras": "1",
+      "lisätietoja": "HS 2.8.1957",
       "yleisömäärä": "1627",
-      "erotuomari": " ",
+      "erotuomari": "Folke Nyberg",
       "maalintekijät_koti": "Kai Pahlman 79",
       "maalintekijät_vieras": "Matti Sundelin 70"
     },
@@ -19802,8 +19818,9 @@
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
       "maalit_vieras": "3",
+      "lisätietoja": "HS 22.7.1957",
       "yleisömäärä": "1322",
-      "erotuomari": "Pelle Engblom",
+      "erotuomari": "Per Engblom",
       "maalintekijät_koti": "Juhani Peltonen 10,Aimo Pulkkinen 18",
       "maalintekijät_vieras": "Kai Pahlman 20,Martti Järvinen 34,Leo Mikander 46"
     },
@@ -19817,7 +19834,9 @@
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
       "maalit_vieras": "0",
-      "erotuomari": " "
+      "lisätietoja": "HS 24.6.1957",
+      "yleisömäärä": "1760",
+      "erotuomari": "Veikko Saarela"
     },
     {
       "ottelu_id": "195712",
@@ -19829,7 +19848,9 @@
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
       "maalit_vieras": "1",
-      "erotuomari": " ",
+      "lisätietoja": "HS 11.6.1957",
+      "yleisömäärä": "1985",
+      "erotuomari": "Olavi Ojama",
       "maalintekijät_vieras": "Kai Pahlman 68"
     },
     {
@@ -19837,12 +19858,15 @@
       "Kausi": "1957",
       "Päivämäärä": "1.6.1957",
       "Kilpailu": "Mestaruussarja",
+      "Stadion": "Olympiastadion",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HJK",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
       "maalit_vieras": "0",
-      "erotuomari": " "
+      "lisätietoja": "HS 2.6.1957",
+      "yleisömäärä": "2906",
+      "erotuomari": "Väinö Niemi"
     },
     {
       "ottelu_id": "195710",
@@ -19855,7 +19879,9 @@
       "Vierasjoukkue": "Ilves-Kissat",
       "maalit_koti": "3",
       "maalit_vieras": "2",
-      "erotuomari": " ",
+      "lisätietoja": "HS 1.6.1957",
+      "yleisömäärä": "3131",
+      "erotuomari": "Toivo Leivolahti",
       "maalintekijät_koti": "Kai Pahlman 67,Kalevi Malmström 82,Kalevi Malmström 89",
       "maalintekijät_vieras": "Matti Laine 34,Olli Heinonen 66"
     },
@@ -19870,7 +19896,9 @@
       "Vierasjoukkue": "Haka",
       "maalit_koti": "2",
       "maalit_vieras": "2",
-      "erotuomari": " ",
+      "lisätietoja": "HS 26.5.1957",
+      "yleisömäärä": "2469",
+      "erotuomari": "Engblom",
       "maalintekijät_koti": "Leo Mikander 22,Raimo Nieminen 64",
       "maalintekijät_vieras": "Keijo Airola 27,Markku Kumpulampi 38"
     },
@@ -19884,7 +19912,9 @@
       "Vierasjoukkue": "HPS",
       "maalit_koti": "5",
       "maalit_vieras": "3",
-      "erotuomari": " ",
+      "lisätietoja": "HS 23.5.1957",
+      "yleisömäärä": "2512",
+      "erotuomari": "Aarne Eriksson",
       "maalintekijät_koti": "Unto Nevalainen 24,Unto Nevalainen 32,Unto Nevalainen 39,Unto Nevalainen 59,Mauno Nurmi 65",
       "maalintekijät_vieras": "Kalevi Malmström 17,Kai Pahlman 62,Osvald Eldsbacka 70"
     },
@@ -19899,8 +19929,9 @@
       "Vierasjoukkue": "KIF",
       "maalit_koti": "0",
       "maalit_vieras": "3",
-      "yleisömäärä": "3000",
-      "erotuomari": " ",
+      "lisätietoja": "HS 17.5.1957",
+      "yleisömäärä": "3193",
+      "erotuomari": "Arvo Jokinen",
       "maalintekijät_vieras": "Matti Salmelainen 3,Sven-Erik Sundberg 20,Sven-Erik Sundberg 73"
     },
     {
@@ -19914,7 +19945,9 @@
       "Vierasjoukkue": "KuPS",
       "maalit_koti": "2",
       "maalit_vieras": "1",
-      "erotuomari": " ",
+      "lisätietoja": "HS 13.5.1957",
+      "yleisömäärä": "2573",
+      "erotuomari": "Aarne Eriksson",
       "maalintekijät_koti": "Raimo Nieminen 18,Kalevi Malmström 41",
       "maalintekijät_vieras": "Mauno Repo 85"
     },
@@ -19928,7 +19961,9 @@
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
       "maalit_vieras": "1",
-      "erotuomari": " ",
+      "lisätietoja": "HS 6.5.1957",
+      "yleisömäärä": "951",
+      "erotuomari": "Olavi Ojama",
       "maalintekijät_koti": "Aimo Huusari 3,Asko Laiho 43",
       "maalintekijät_vieras": "Kai Pahlman 18"
     },
