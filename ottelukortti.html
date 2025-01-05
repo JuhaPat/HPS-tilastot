@@ -246,7 +246,7 @@
         // testaa .jpg, .jpeg, .JPG, .JPEG sekä Lehtileikkeet/ ja Kuvat/ -kansiot.
         async function fetchImages(otteluId) {
             // Lisätään tyhjä merkkijono ensimmäiseksi -> pelkkä otteluId sekä a...z
-            const suffixes = ['', ...'abcdefghijklmnopqrstuvwxyz'];
+            const suffixes = ['', ...'abc'];
             const foundPaths = [];
 
             for (const suffix of suffixes) {
