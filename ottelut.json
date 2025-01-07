@@ -20440,7 +20440,7 @@
       "Stadion": "Töölön Pallokenttä",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "Kotkan Reipas",
+      "Vierasjoukkue": "KoRe",
       "maalit_koti": "5",
       "maalit_vieras": "1",
       "lisätietoja": "HS 26.10.1955",
@@ -27925,7 +27925,6 @@
     {
       "ottelu_id": "191912",
       "Kausi": "1919",
-      "Päivämäärä": "1.5.1919",
       "Kilpailu": "Sotilaspukimon pokaali",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
@@ -27936,7 +27935,6 @@
     {
       "ottelu_id": "191911",
       "Kausi": "1919",
-      "Päivämäärä": "1.5.1919",
       "Kilpailu": "Sotilaspukimon pokaali",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
@@ -27947,7 +27945,6 @@
     {
       "ottelu_id": "191910",
       "Kausi": "1919",
-      "Päivämäärä": "1.5.1919",
       "Kilpailu": "Sotilaspukimon pokaali",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
@@ -27958,7 +27955,6 @@
     {
       "ottelu_id": "191909",
       "Kausi": "1919",
-      "Päivämäärä": "1.5.1919",
       "Kilpailu": "Vapauden malja",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
@@ -27969,7 +27965,6 @@
     {
       "ottelu_id": "191908",
       "Kausi": "1919",
-      "Päivämäärä": "1.5.1919",
       "Kilpailu": "Vapauden malja",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
@@ -27980,7 +27975,6 @@
     {
       "ottelu_id": "191907",
       "Kausi": "1919",
-      "Päivämäärä": "1.5.1919",
       "Kilpailu": "SM-kilpailut",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HJK",
@@ -27991,7 +27985,6 @@
     {
       "ottelu_id": "191906",
       "Kausi": "1919",
-      "Päivämäärä": "1.5.1919",
       "Kilpailu": "Ystävyysottelu",
       "Kotijoukkue": "ÅIFK",
       "Vierasjoukkue": "HPS",
@@ -28001,7 +27994,6 @@
     {
       "ottelu_id": "191905",
       "Kausi": "1919",
-      "Päivämäärä": "1.5.1919",
       "Kilpailu": "Ystävyysottelu",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Pyrintö",
@@ -28011,7 +28003,6 @@
     {
       "ottelu_id": "191904",
       "Kausi": "1919",
-      "Päivämäärä": "1.5.1919",
       "Kilpailu": "Ystävyysottelu",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Viipurin Reipas",
@@ -28021,7 +28012,6 @@
     {
       "ottelu_id": "191903",
       "Kausi": "1919",
-      "Päivämäärä": "1.5.1919",
       "Kilpailu": "Ystävyysottelu",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Sudet",
@@ -28031,7 +28021,6 @@
     {
       "ottelu_id": "191902",
       "Kausi": "1919",
-      "Päivämäärä": "1.5.1919",
       "Kilpailu": "Ystävyysottelu",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
@@ -28042,7 +28031,6 @@
     {
       "ottelu_id": "191901",
       "Kausi": "1919",
-      "Päivämäärä": "1.5.1919",
       "Kilpailu": "Ystävyysottelu",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Viipurin Bandy",
@@ -28052,58 +28040,73 @@
     {
       "ottelu_id": "191805",
       "Kausi": "1918",
-      "Päivämäärä": "1.11.1918",
       "Kilpailu": "Ystävyysottelu",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "Stralsund (DE)",
       "maalit_koti": "5",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "erotuomari": " "
     },
     {
       "ottelu_id": "191804",
       "Kausi": "1918",
       "Päivämäärä": "27.10.1918",
-      "Kilpailu": "Ystävyysottelu",
+      "Kilpailu": "Helsingin sarjakilpailu",
       "Stadion": "Eläintarhan kenttä",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "HJK",
       "maalit_koti": "2",
-      "maalit_vieras": "4"
+      "maalit_vieras": "4",
+      "lisätietoja": "HS 28.10.1918",
+      "erotuomari": " ",
+      "maalintekijät_koti": "??  (rp),??",
+      "maalintekijät_vieras": "nimet HS artikkelissa"
     },
     {
       "ottelu_id": "191803",
       "Kausi": "1918",
       "Päivämäärä": "5.10.1918",
-      "Kilpailu": "Ystävyysottelu",
+      "Kilpailu": "Helsingin sarjakilpailu",
+      "Stadion": "Eläintarhan kenttä",
       "Kaupunki": "Helsinki",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "KIF",
+      "Kotijoukkue": "KIF",
+      "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
-      "maalit_vieras": "1"
+      "maalit_vieras": "1",
+      "lisätietoja": "HS 5.10.1918",
+      "erotuomari": " "
     },
     {
       "ottelu_id": "191802",
       "Kausi": "1918",
-      "Päivämäärä": "1.10.1918",
+      "Päivämäärä": "28.9.1918",
       "Kilpailu": "SM-kilpailut",
+      "Stadion": "Eläintarhan kenttä",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "HJK",
       "maalit_koti": "1",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "erotuomari": " ",
+      "maalintekijät_koti": "Aarne Linna",
+      "maalintekijät_vieras": "??,?? (rp)"
     },
     {
       "ottelu_id": "191801",
       "Kausi": "1918",
       "Päivämäärä": "21.9.1918",
-      "Kilpailu": "Ystävyysottelu",
+      "Kilpailu": "Helsingin sarjakilpailu",
+      "Stadion": "Eläintarhan kenttä",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
       "Vierasjoukkue": "HIFK",
       "maalit_koti": "1",
       "maalit_vieras": "1",
-      "lisätietoja": "HPS:n historian ensimmäinen jalkapallo-ottelu"
+      "lisätietoja": "HPS:n historian ensimmäinen jalkapallo-ottelu",
+      "erotuomari": " ",
+      "kuvateksti": "HS 22.9.1918",
+      "maalintekijät_koti": "Bruno Mantila"
     }
   ]
