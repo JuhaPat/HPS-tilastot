@@ -29,49 +29,60 @@
             text-decoration: none;
         }
 
-        /* KESKITYS PYSTYSUUNNASSA KAIKILLE KIERROKSILLE */
+        /* Cup-kaavion peruslayout, korkeus dynaaminen */
         .cup-bracket {
             display: flex;
             justify-content: space-evenly; /* kierrokset vaakasuunnassa tasaisesti */
-            align-items: center;           /* KESKITYS pystysuunnassa */
+            align-items: flex-start;        /* Kierrokset alkavat ylhäältä (jos haluat kaikki ylös) */
             margin-top: 20px;
-            height: 600px;                /* kiinteä korkeus demon vuoksi */
+            /* Ei kiinteää height: -- bracket venyy sisällön mukaan */
         }
 
+        /* Perusmäärittely bracket-roundille */
         .bracket-round {
             display: flex;
             flex-direction: column;
-            align-items: center;
-            justify-content: center;      
+            align-items: flex-start;  /* alkavat vasemmasta yläreunasta */
+            /* Jos haluat myös nämä pystysuuntaan keskelle, laita justify-content: center; 
+               mutta ohessa teemme vain Välierät ja Loppuottelu keskelle 
+            */
             margin: 0 10px;
-            height: 100%;  /* ottavat kaiken tilan bracketin sisällä */
         }
 
+        /* VÄLIERÄT JA LOPPUOTTELU KESKELLE PYSTYSUUNNASSA */
+        /* Tällöin bracket-round venyy sisällön verran, ja justify-content: center 
+           keskittää ottelut, jos on ylimääräistä tilaa "kaavion" sisällä 
+        */
+        #round-vali, 
+        #round-loppu {
+            justify-content: center;  /* KESKITTYY pystysuunnassa */
+            align-items: center;      /* Halutessasi myös vaakasuuntainen keskitys */
+        }
+
+        /* Otteluparin perusmarginaali */
         .match-pair {
             text-align: center;
-            /* Perusmarginaali (pieni) parin sisälle */
-            margin-bottom: 5px;
+            margin-bottom: 5px; /* pieni väli parin sisälle */
         }
 
-        /* JOKA TOISEN parin jälkeen jätetään isompi väli 
-           => Ensimmäiset kaksi paria lähellä toisiaan, 
-              sitten isompi rako, jne.
+        /* Joka toisen parin jälkeen isompi väli 
+           => Ensimmäiset kaksi paria lähellä toisiaan, sitten isompi rako, jne.
         */
         .round-content .match-pair:nth-child(2n) {
             margin-bottom: 30px; 
         }
 
-        /* Joukkueen laatikko:
-           - Ei lihavoitua nimeä
-           - Tulos (score) lihavoitu isommalla fonttikoolla
-           - Kaksi välilyöntiä ennen tulosta
+        /* Joukkueen laatikko 
+           - ei lihavointia nimelle
+           - tulos (score) isommalla fontilla
+           - 2 välilyöntiä ennen tulosta
         */
         .match-pair .team {
             margin: 2px 0;
             background-color: #f1f1f1;
             padding: 4px 10px;
             border-radius: 3px;
-            font-weight: normal;      
+            font-weight: normal;
             width: 160px;
             display: flex;
             align-items: center;
@@ -85,10 +96,10 @@
         .team .score {
             font-size: 1.1rem;
             font-weight: bold;
-            margin-left: 0.3em; /* hieman tilaa ennen tulosta */
+            margin-left: 0.3em;
         }
 
-        /* Cup-kaavio piilotettu oletuksena (jos ei cup-year) */
+        /* Piilotetaan cup-bracket oletuksena, jos ei cup-year */
         #cup-bracket {
             display: none;
         }
@@ -151,18 +162,22 @@
 
         <!-- Cup-kaavio -->
         <div id="cup-bracket" class="cup-bracket">
+            <!-- Neljännesvälierät -->
             <div class="bracket-round" id="round-neljannes">
                 <h3>Neljännesvälierät</h3>
                 <div class="round-content" id="round-neljannes-content"></div>
             </div>
+            <!-- Puolivälierät -->
             <div class="bracket-round" id="round-puoli">
                 <h3>Puolivälierät</h3>
                 <div class="round-content" id="round-puoli-content"></div>
             </div>
+            <!-- Välierät (keskitetään pystysuunnassa) -->
             <div class="bracket-round" id="round-vali">
                 <h3>Välierät</h3>
                 <div class="round-content" id="round-vali-content"></div>
             </div>
+            <!-- Loppuottelu (keskitetään pystysuunnassa) -->
             <div class="bracket-round" id="round-loppu">
                 <h3>Loppuottelu</h3>
                 <div class="round-content" id="round-loppu-content"></div>
@@ -238,8 +253,8 @@
             // Näytetään kaikki kierrokset
             document.getElementById('round-neljannes').style.display = 'block';
             document.getElementById('round-puoli').style.display = 'block';
-            document.getElementById('round-vali').style.display = 'block';
-            document.getElementById('round-loppu').style.display = 'block';
+            document.getElementById('round-vali').style.display = 'flex';   // pidetään flex
+            document.getElementById('round-loppu').style.display = 'flex';
 
             const [cupResp, teamsResp] = await Promise.all([
                 fetch('cup kaaviot.json'),
@@ -264,6 +279,7 @@
             function fillCupRound(kausi, kierros, elementId) {
                 const roundData = cupData.filter(item => item.Kausi === kausi && item.Kierros === kierros);
                 if (!roundData || roundData.length === 0) {
+                    // Jos Neljännesvälierät puuttuu
                     if (kierros === 'Neljännesvälierät') {
                         document.getElementById(elementId).style.display = 'none';
                     }
