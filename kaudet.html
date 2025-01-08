@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="fi">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Sarjataulukot</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
+
     <style>
         .main-title {
             font-size: 2rem;
@@ -27,10 +28,74 @@
             font-weight: bold;
             text-decoration: none;
         }
+
+        /* KESKITYS PYSTYSUUNNASSA KAIKILLE KIERROKSILLE */
+        .cup-bracket {
+            display: flex;
+            justify-content: space-evenly; /* kierrokset vaakasuunnassa tasaisesti */
+            align-items: center;           /* KESKITYS pystysuunnassa */
+            margin-top: 20px;
+            height: 600px;                /* kiinteä korkeus demon vuoksi */
+        }
+
+        .bracket-round {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;      
+            margin: 0 10px;
+            height: 100%;  /* ottavat kaiken tilan bracketin sisällä */
+        }
+
+        .match-pair {
+            text-align: center;
+            /* Perusmarginaali (pieni) parin sisälle */
+            margin-bottom: 5px;
+        }
+
+        /* JOKA TOISEN parin jälkeen jätetään isompi väli 
+           => Ensimmäiset kaksi paria lähellä toisiaan, 
+              sitten isompi rako, jne.
+        */
+        .round-content .match-pair:nth-child(2n) {
+            margin-bottom: 30px; 
+        }
+
+        /* Joukkueen laatikko:
+           - Ei lihavoitua nimeä
+           - Tulos (score) lihavoitu isommalla fonttikoolla
+           - Kaksi välilyöntiä ennen tulosta
+        */
+        .match-pair .team {
+            margin: 2px 0;
+            background-color: #f1f1f1;
+            padding: 4px 10px;
+            border-radius: 3px;
+            font-weight: normal;      
+            width: 160px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .match-pair .team img {
+            width: 25px;
+            height: 25px;
+            margin-right: 5px;
+        }
+        .team .score {
+            font-size: 1.1rem;
+            font-weight: bold;
+            margin-left: 0.3em; /* hieman tilaa ennen tulosta */
+        }
+
+        /* Cup-kaavio piilotettu oletuksena (jos ei cup-year) */
+        #cup-bracket {
+            display: none;
+        }
     </style>
 </head>
+
 <body>
-    <!-- Vasemman sivun valikko -->
     <div class="sidebar">
         <a href="index.html" class="logo-link">
             <img src="HPS-logo.jpg" alt="HPS Logo" class="logo">
@@ -47,20 +112,23 @@
         </nav>
     </div>
 
-    <!-- Oikean puolen sisältö -->
     <main>
         <div id="header-container">
             <img src="logot/HPS.jpg" alt="HPS Logo">
             <h1 class="main-title" id="main-title"></h1>
             <h2 class="sub-title" id="sub-title"></h2>
         </div>
+
         <div class="year-selector">
             <button id="prev-year" class="arrow-button">&lt;</button>
             <span id="current-year">2024</span>
             <button id="next-year" class="arrow-button">&gt;</button>
         </div>
+
         <label for="year-dropdown">Valitse kausi:</label>
         <select id="year-dropdown"></select>
+
+        <!-- Sarjataulukko -->
         <table id="league-table" class="league-table">
             <thead>
                 <tr>
@@ -77,9 +145,29 @@
                 </tr>
             </thead>
             <tbody>
-                <!-- Data täytetään JavaScriptillä -->
+                <!-- Täytetään JavaScriptillä -->
             </tbody>
         </table>
+
+        <!-- Cup-kaavio -->
+        <div id="cup-bracket" class="cup-bracket">
+            <div class="bracket-round" id="round-neljannes">
+                <h3>Neljännesvälierät</h3>
+                <div class="round-content" id="round-neljannes-content"></div>
+            </div>
+            <div class="bracket-round" id="round-puoli">
+                <h3>Puolivälierät</h3>
+                <div class="round-content" id="round-puoli-content"></div>
+            </div>
+            <div class="bracket-round" id="round-vali">
+                <h3>Välierät</h3>
+                <div class="round-content" id="round-vali-content"></div>
+            </div>
+            <div class="bracket-round" id="round-loppu">
+                <h3>Loppuottelu</h3>
+                <div class="round-content" id="round-loppu-content"></div>
+            </div>
+        </div>
 
         <h2 class="extra-table" id="match-title">Pelit 2024</h2>
         <table id="match-table" class="match-table">
@@ -95,11 +183,9 @@
                 </tr>
             </thead>
             <tbody id="table-body">
-                <!-- Rows will be populated dynamically -->
             </tbody>
         </table>
 
-        <!-- Uusi taulukko -->
         <h2 class="extra-table" id="extra-title">Pelaajat ja taustahenkilöt 2024</h2>
         <table id="extra-table" class="player-table">
             <thead>
@@ -113,12 +199,161 @@
                 </tr>
             </thead>
             <tbody>
-                <!-- Uuden taulukon data täytetään JavaScriptillä -->
             </tbody>
         </table>
-     </main>
+    </main>
 
     <script>
+        // Päivittää URL-parameterin year
+        function updateURLParameter(param, value) {
+            const newURL = new URL(window.location.href);
+            newURL.searchParams.set(param, value);
+            window.history.replaceState({}, '', newURL.toString());
+        }
+
+        // Onko Cup-vuosi (huom. 1918-1929 tai 1942)
+        function isCupYear(year) {
+            const y = parseInt(year, 10);
+            return ((y >= 1918 && y <= 1929) || y === 1942);
+        }
+
+        function showCup() {
+            document.getElementById('league-table').style.display = 'none';
+            document.getElementById('cup-bracket').style.display = 'flex';
+        }
+        function showLeagueTable() {
+            document.getElementById('cup-bracket').style.display = 'none';
+            document.getElementById('league-table').style.display = 'table';
+        }
+
+        let teamLogosMap = {};
+
+        async function loadCupData(year) {
+            // Tyhjennetään entiset sisällöt
+            document.getElementById('round-neljannes-content').innerHTML = '';
+            document.getElementById('round-puoli-content').innerHTML = '';
+            document.getElementById('round-vali-content').innerHTML = '';
+            document.getElementById('round-loppu-content').innerHTML = '';
+
+            // Näytetään kaikki kierrokset
+            document.getElementById('round-neljannes').style.display = 'block';
+            document.getElementById('round-puoli').style.display = 'block';
+            document.getElementById('round-vali').style.display = 'block';
+            document.getElementById('round-loppu').style.display = 'block';
+
+            const [cupResp, teamsResp] = await Promise.all([
+                fetch('cup kaaviot.json'),
+                fetch('vastustajat.json')
+            ]);
+            const cupData = await cupResp.json();
+            const teamsData = await teamsResp.json();
+
+            // Rakennetaan Lyhenne->Logo -map
+            teamLogosMap = {};
+            teamsData.forEach(obj => {
+                if (obj.Lyhenne && obj.Logo) {
+                    teamLogosMap[obj.Lyhenne] = obj.Logo;
+                }
+            });
+
+            fillCupRound(year, "Neljännesvälierät", "round-neljannes");
+            fillCupRound(year, "Puolivälierät",     "round-puoli");
+            fillCupRound(year, "Välierät",         "round-vali");
+            fillCupRound(year, "Loppuottelu",      "round-loppu");
+
+            function fillCupRound(kausi, kierros, elementId) {
+                const roundData = cupData.filter(item => item.Kausi === kausi && item.Kierros === kierros);
+                if (!roundData || roundData.length === 0) {
+                    if (kierros === 'Neljännesvälierät') {
+                        document.getElementById(elementId).style.display = 'none';
+                    }
+                    return;
+                }
+                const container = document.getElementById(elementId + '-content');
+                container.innerHTML = '';
+
+                // Lisätään parit
+                roundData.forEach(item => {
+                    const matchDiv = document.createElement('div');
+                    matchDiv.className = 'match-pair';
+
+                    const teamDiv = document.createElement('div');
+                    teamDiv.className = 'team';
+
+                    // Joukkueen logo
+                    const logoImg = document.createElement('img');
+                    if (teamLogosMap[item.Joukkue]) {
+                        logoImg.src = 'logot/' + teamLogosMap[item.Joukkue];
+                    } else {
+                        logoImg.src = 'logot/HPS-logo.jpg';
+                    }
+                    logoImg.alt = item.Joukkue;
+                    teamDiv.appendChild(logoImg);
+
+                    // Joukkueen nimi + kaksi välilyöntiä
+                    const nameText = document.createTextNode(item.Joukkue + "  ");
+                    teamDiv.appendChild(nameText);
+
+                    // Tulos isommalla fonttikoolla
+                    const scoreSpan = document.createElement('span');
+                    scoreSpan.className = 'score';
+                    scoreSpan.textContent = (item.Maalit ?? 0);
+                    teamDiv.appendChild(scoreSpan);
+
+                    matchDiv.appendChild(teamDiv);
+                    container.appendChild(matchDiv);
+                });
+            }
+        }
+
+        function findExistingImage(paths) {
+            let i = 0;
+            return new Promise(resolve => {
+                function tryNext() {
+                    if (i >= paths.length) {
+                        resolve(null);
+                        return;
+                    }
+                    fetch(paths[i], { method: 'HEAD' })
+                        .then(resp => {
+                            if (resp.ok) {
+                                resolve(paths[i]);
+                            } else {
+                                i++;
+                                tryNext();
+                            }
+                        })
+                        .catch(() => {
+                            i++;
+                            tryNext();
+                        });
+                }
+                tryNext();
+            });
+        }
+
+        async function fetchImages(otteluId) {
+            const suffixes = ['', ...'abc'];
+            const foundPaths = [];
+            for (const suffix of suffixes) {
+                const possiblePaths = [
+                    `Lehtileikkeet/${otteluId}${suffix}.jpg`,
+                    `Lehtileikkeet/${otteluId}${suffix}.JPG`,
+                    `Kuvat/${otteluId}${suffix}.jpg`,
+                    `Kuvat/${otteluId}${suffix}.JPG`
+                ];
+                const found = await findExistingImage(possiblePaths);
+                if (found) {
+                    foundPaths.push(found);
+                }
+            }
+            return foundPaths;
+        }
+
+        const urlParams = new URLSearchParams(window.location.search);
+        const yearFromUrl = urlParams.get('year');
+        let currentYear = yearFromUrl || "2024";
+
         fetch('sarjataulukot.json')
             .then(response => response.json())
             .then(leagueData => {
@@ -126,20 +361,20 @@
                 const currentYearSpan = document.getElementById('current-year');
                 const prevYearButton = document.getElementById('prev-year');
                 const nextYearButton = document.getElementById('next-year');
-                const tableBody = document.getElementById('league-table').querySelector('tbody');
+
+                const tableBody = document
+                    .getElementById('league-table')
+                    .querySelector('tbody');
                 const mainTitle = document.getElementById('main-title');
                 const subTitle = document.getElementById('sub-title');
                 const extraTitle = document.getElementById('extra-title');
-                const extraTableBody = document.getElementById('extra-table').querySelector('tbody');
                 const matchTitle = document.getElementById('match-title');
-                const matchTableBody = document.getElementById('match-table').querySelector('tbody');
+                const matchTableBody = document.getElementById('table-body');
+                const extraTableBody = document
+                    .getElementById('extra-table')
+                    .querySelector('tbody');
 
-                const urlParams = new URLSearchParams(window.location.search);
-                const yearFromUrl = urlParams.get('year');
-
-                let currentYear = yearFromUrl || "2024";
                 const years = [...new Set(leagueData.map(row => row.Kausi))].sort();
-
                 years.forEach(year => {
                     const option = document.createElement('option');
                     option.value = year;
@@ -151,6 +386,14 @@
                     currentYear = year;
                     currentYearSpan.textContent = year;
                     yearDropdown.value = year;
+                    updateURLParameter('year', year);
+
+                    if (isCupYear(year)) {
+                        showCup();
+                        loadCupData(year);
+                    } else {
+                        showLeagueTable();
+                    }
 
                     const yearData = leagueData.find(row => row.Kausi === year);
                     if (yearData && yearData.Sarjataso) {
@@ -165,7 +408,12 @@
                     extraTitle.textContent = `Pelaajat ja taustahenkilöt ${year}`;
                     matchTitle.textContent = `Pelit ${year}`;
 
-                    renderTable(leagueData, year);
+                    if (!isCupYear(year)) {
+                        renderLeagueTable(leagueData, year);
+                    } else {
+                        tableBody.innerHTML = '';
+                    }
+
                     updateExtraTable(year);
                     updateMatchTable(year);
                 }
@@ -175,14 +423,12 @@
                 yearDropdown.addEventListener('change', () => {
                     updateTable(yearDropdown.value);
                 });
-
                 prevYearButton.addEventListener('click', () => {
                     const index = years.indexOf(currentYear);
                     if (index > 0) {
                         updateTable(years[index - 1]);
                     }
                 });
-
                 nextYearButton.addEventListener('click', () => {
                     const index = years.indexOf(currentYear);
                     if (index < years.length - 1) {
@@ -190,7 +436,7 @@
                     }
                 });
 
-                function renderTable(data, year) {
+                function renderLeagueTable(data, year) {
                     tableBody.innerHTML = '';
                     const filteredData = data.filter(row => row.Kausi === year);
 
@@ -202,7 +448,6 @@
                         ['sij.', 'Joukkue', 'Ottelut', 'V', 'T', 'H', 'TM', 'PM', 'Pisteet'].forEach((column, index) => {
                             const td = document.createElement('td');
                             let value = row[column] || 0;
-
                             if (index === 1) {
                                 if (row.Logo) {
                                     const logo = document.createElement('img');
@@ -233,7 +478,7 @@
                         .then(response => response.json())
                         .then(playersData => {
                             extraTableBody.innerHTML = '';
-                            const filteredPlayers = playersData.filter(player => player.Kausi === year);
+                            const filteredPlayers = playersData.filter(p => p.Kausi === year);
 
                             filteredPlayers.forEach(player => {
                                 const tr = document.createElement('tr');
@@ -242,7 +487,6 @@
                                     td.textContent = player[column] || '';
                                     tr.appendChild(td);
                                 });
-
                                 extraTableBody.appendChild(tr);
                             });
                         });
@@ -263,49 +507,54 @@
                                 .then(response => response.json())
                                 .then(matchData => {
                                     matchTableBody.innerHTML = '';
-                                    matchData.filter(match => match.Kausi == year).forEach(match => {
-                                        const tr = document.createElement('tr');
-                                        ['Päivämäärä', 'Kilpailu', 'Stadion', 'Kaupunki'].forEach(col => {
-                                            const td = document.createElement('td');
-                                            td.textContent = match[col] || '';
-                                            tr.appendChild(td);
+                                    matchData
+                                        .filter(match => match.Kausi == year)
+                                        .forEach(match => {
+                                            const tr = document.createElement('tr');
+                                            ['Päivämäärä', 'Kilpailu', 'Stadion', 'Kaupunki'].forEach(col => {
+                                                const td = document.createElement('td');
+                                                td.textContent = match[col] || '';
+                                                tr.appendChild(td);
+                                            });
+
+                                            // Kotijoukkue
+                                            const homeTeamTd = document.createElement('td');
+                                            if (match.Kotijoukkue && teamLogos[match.Kotijoukkue]) {
+                                                const homeLogo = document.createElement('img');
+                                                homeLogo.src = `logot/${teamLogos[match.Kotijoukkue]}`;
+                                                homeLogo.className = 'team-logo';
+                                                homeLogo.style.width = '25px';
+                                                homeLogo.style.height = '25px';
+                                                homeLogo.style.marginRight = '5px';
+                                                homeTeamTd.appendChild(homeLogo);
+                                            }
+                                            homeTeamTd.appendChild(document.createTextNode(match.Kotijoukkue || ''));
+                                            tr.appendChild(homeTeamTd);
+
+                                            // Vierasjoukkue
+                                            const awayTeamTd = document.createElement('td');
+                                            if (match.Vierasjoukkue && teamLogos[match.Vierasjoukkue]) {
+                                                const awayLogo = document.createElement('img');
+                                                awayLogo.src = `logot/${teamLogos[match.Vierasjoukkue]}`;
+                                                awayLogo.className = 'team-logo';
+                                                awayLogo.style.width = '25px';
+                                                awayLogo.style.height = '25px';
+                                                awayLogo.style.marginRight = '5px';
+                                                awayTeamTd.appendChild(awayLogo);
+                                            }
+                                            awayTeamTd.appendChild(document.createTextNode(match.Vierasjoukkue || ''));
+                                            tr.appendChild(awayTeamTd);
+
+                                            // Tulos
+                                            const resultTd = document.createElement('td');
+                                            const resultLink = document.createElement('a');
+                                            resultLink.href = `ottelukortti.html?ottelu_id=${match.ottelu_id}`;
+                                            resultLink.textContent = `${match.maalit_koti}-${match.maalit_vieras}`;
+                                            resultTd.appendChild(resultLink);
+                                            tr.appendChild(resultTd);
+
+                                            matchTableBody.appendChild(tr);
                                         });
-
-                                        const homeTeamTd = document.createElement('td');
-                                        if (match.Kotijoukkue && teamLogos[match.Kotijoukkue]) {
-                                            const homeLogo = document.createElement('img');
-                                            homeLogo.src = `logot/${teamLogos[match.Kotijoukkue]}`;
-                                            homeLogo.className = 'team-logo';
-                                            homeLogo.style.width = '25px';
-                                            homeLogo.style.height = '25px';
-                                            homeLogo.style.marginRight = '5px';
-                                            homeTeamTd.appendChild(homeLogo);
-                                        }
-                                        homeTeamTd.appendChild(document.createTextNode(match.Kotijoukkue || ''));
-                                        tr.appendChild(homeTeamTd);
-
-                                        const awayTeamTd = document.createElement('td');
-                                        if (match.Vierasjoukkue && teamLogos[match.Vierasjoukkue]) {
-                                            const awayLogo = document.createElement('img');
-                                            awayLogo.src = `logot/${teamLogos[match.Vierasjoukkue]}`;
-                                            awayLogo.className = 'team-logo';
-                                            awayLogo.style.width = '25px';
-                                            awayLogo.style.height = '25px';
-                                            awayLogo.style.marginRight = '5px';
-                                            awayTeamTd.appendChild(awayLogo);
-                                        }
-                                        awayTeamTd.appendChild(document.createTextNode(match.Vierasjoukkue || ''));
-                                        tr.appendChild(awayTeamTd);
-
-                                        const resultTd = document.createElement('td');
-                                        const resultLink = document.createElement('a');
-                                        resultLink.href = `ottelukortti.html?ottelu_id=${match.ottelu_id}`; // Ottelu-ID käytössä
-                                        resultLink.textContent = `${match.maalit_koti}-${match.maalit_vieras}`;
-                                        resultTd.appendChild(resultLink);
-                                        tr.appendChild(resultTd);
-
-                                        matchTableBody.appendChild(tr);
-                                    });
                                 });
                         });
                 }
