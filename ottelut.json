@@ -9205,7 +9205,7 @@
       "Stadion": "Töölön Pallokenttä",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "HkiUtd",
+      "Vierasjoukkue": "Hki Utd",
       "maalit_koti": "0",
       "maalit_vieras": "0"
     },
@@ -9252,7 +9252,7 @@
       "Kilpailu": "Kolmonen",
       "Stadion": "Hiekkaharju",
       "Kaupunki": "Vantaa",
-      "Kotijoukkue": "PK-50 Vantaa",
+      "Kotijoukkue": "PK-50",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
       "maalit_vieras": "2"
@@ -9335,7 +9335,7 @@
       "Kilpailu": "Kolmonen",
       "Stadion": "Velodrom",
       "Kaupunki": "Helsinki",
-      "Kotijoukkue": "HkiUtd",
+      "Kotijoukkue": "Hki Utd",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
       "maalit_vieras": "1"
@@ -9384,7 +9384,7 @@
       "Stadion": "Brahenkenttä",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "PK-50 Vantaa",
+      "Vierasjoukkue": "PK-50",
       "maalit_koti": "2",
       "maalit_vieras": "1"
     },
