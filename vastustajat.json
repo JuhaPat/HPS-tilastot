@@ -69,7 +69,11 @@
     },
     {
       "Lyhenne": "City Stars",
-      "Logo": "City Stars.jpg"
+      "Koko nimi": "FC City Stars",
+      "Kotikaupunki": "Lahti",
+      "Perustamisvuosi": "1982",
+      "Logo": "City Stars.jpg",
+      "Linkki": "https://fi.wikipedia.org/wiki/FC_City_Stars"
     },
     {
       "Lyhenne": "CLE",
@@ -355,6 +359,10 @@
       "Logo": "GBK.jpg"
     },
     {
+      "Lyhenne": "GIF",
+      "Logo": "GIF.jpg"
+    },
+    {
       "Lyhenne": "Gnistan/2",
       "Logo": "Gnistan 2.jpg"
     },
@@ -423,8 +431,12 @@
       "Logo": "HeKuLa.jpg"
     },
     {
-      "Lyhenne": "Helsinki Utd",
-      "Logo": "Helsinki Utd.jpg"
+      "Lyhenne": "Hki Utd",
+      "Koko nimi": "Helsinki United",
+      "Kotikaupunki": "Helsinki",
+      "Perustamisvuosi": "1989",
+      "Logo": "Helsinki Utd.jpg",
+      "Linkki": "https://fi.wikipedia.org/wiki/Helsinki_United"
     },
     {
       "Lyhenne": "HePa",
@@ -497,14 +509,6 @@
       "Perustamisvuosi": "1907",
       "Logo": "HJK.jpg",
       "Linkki": "https://fi.wikipedia.org/wiki/Helsingin_Jalkapalloklubi"
-    },
-    {
-      "Lyhenne": "Hki Utd",
-      "Logo": "Hki Utd.jpg"
-    },
-    {
-      "Lyhenne": "HkiUtd",
-      "Logo": "HkiUtd.jpg"
     },
     {
       "Lyhenne": "Honka",
@@ -739,6 +743,10 @@
       "Logo": "KooPee.jpg"
     },
     {
+      "Lyhenne": "KoPS",
+      "Logo": "KoPS.jpg"
+    },
+    {
       "Lyhenne": "KOPSE",
       "Logo": "KOPSE.jpg"
     },
@@ -881,6 +889,10 @@
       "Logo": "Liffen.jpg"
     },
     {
+      "Lyhenne": "LLS",
+      "Logo": "LLS.jpg"
+    },
+    {
       "Lyhenne": "LoPa",
       "Logo": "LoPa.jpg"
     },
@@ -943,6 +955,10 @@
     {
       "Lyhenne": "MiKi",
       "Logo": "MiKi.jpg"
+    },
+    {
+      "Lyhenne": "MiKV",
+      "Logo": "MiKV.jpg"
     },
     {
       "Lyhenne": "MiPK",
@@ -1192,6 +1208,10 @@
       "Logo": "Purha.jpg"
     },
     {
+      "Lyhenne": "Pyrintö",
+      "Logo": "Pyrintö.jpg"
+    },
+    {
       "Lyhenne": "Pyrkivä",
       "Logo": "Pyrkivä.jpg"
     },
@@ -1224,6 +1244,10 @@
       "Liittynyt seuraan": "Lahden Reipas, FC Lahti",
       "Logo": "Reipas.jpg",
       "Linkki": "https://fi.wikipedia.org/wiki/Viipurin_Reipas"
+    },
+    {
+      "Lyhenne": "Riento",
+      "Logo": "Riento.jpg"
     },
     {
       "Lyhenne": "RiPS",
@@ -1316,6 +1340,10 @@
     {
       "Lyhenne": "SibboV",
       "Logo": "SibboV.jpg"
+    },
+    {
+      "Lyhenne": "SLU",
+      "Logo": "SLU.jpg"
     },
     {
       "Lyhenne": "Socus",
@@ -1473,6 +1501,10 @@
       "Logo": "TuKV.jpg"
     },
     {
+      "Lyhenne": "TUL",
+      "Logo": "TUL.jpg"
+    },
+    {
       "Lyhenne": "TuPS",
       "Logo": "TuPS.jpg"
     },
@@ -1509,6 +1541,10 @@
       "Logo": "Valtti.jpg"
     },
     {
+      "Lyhenne": "VarSP",
+      "Logo": "VarSP.jpg"
+    },
+    {
       "Lyhenne": "Vatanspor",
       "Logo": "Vatanspor.jpg"
     },
@@ -1541,6 +1577,10 @@
     {
       "Lyhenne": "ViPS",
       "Logo": "ViPS.jpg"
+    },
+    {
+      "Lyhenne": "Visa",
+      "Logo": "Visa.jpg"
     },
     {
       "Lyhenne": "VJS",
@@ -1598,9 +1638,5 @@
     {
       "Lyhenne": "WBJS",
       "Logo": "WBJS.jpg"
-    },
-    {
-      "Lyhenne": "Riento",
-      "Logo": "Riento.jpg"
     }
   ]
