@@ -35,14 +35,12 @@
             justify-content: space-evenly; /* kierrokset vaakasuunnassa tasaisesti */
             align-items: flex-start;       /* Kierrokset alkavat ylhäältä */
             margin-top: 20px;
-            /* Ei kiinteää height: -- bracket venyy sisällön mukaan */
         }
 
-        /* Perusmäärittely bracket-roundille */
         .bracket-round {
             display: flex;
             flex-direction: column;
-            align-items: flex-start;  /* alkavat vasemmasta yläreunasta */
+            align-items: flex-start;  
             margin: 0 10px;
         }
 
@@ -55,16 +53,15 @@
 
         .match-pair {
             text-align: center;
-            margin-bottom: 5px; /* pieni väli parin sisälle */
+            margin-bottom: 5px; 
         }
-
         /* Joka toisen parin jälkeen isompi väli */
         .round-content .match-pair:nth-child(2n) {
             margin-bottom: 30px; 
         }
 
         /* Joukkueen laatikko:
-           - Ei lihavoitua nimeä
+           - Ei lihavointia nimelle
            - Tulos (score) isommalla fonttikoolla
            - 2 välilyöntiä ennen tulosta
         */
@@ -92,13 +89,13 @@
 
         /* Pieni lisätieto-teksti otteluparin alapuolella */
         .additional-info {
-            font-size: 0.75rem; /* pieni fonttikoko */
+            font-size: 0.75rem; 
             color: #666;
-            margin-top: 3px;    /* pieni rako yläpuolelle */
-            line-height: 1.2;   /* tiivis riviväli */
+            margin-top: 3px;   
+            line-height: 1.2;  
         }
 
-        /* Cup-kaavio piilotettu oletuksena, jos ei cup-year */
+        /* Piilotetaan cup-bracket oletuksena, jos ei cup-year */
         #cup-bracket {
             display: none;
         }
@@ -252,7 +249,7 @@
             // Näytetään kaikki kierrokset
             document.getElementById('round-neljannes').style.display = 'block';
             document.getElementById('round-puoli').style.display = 'block';
-            document.getElementById('round-vali').style.display = 'flex';   // pidetään flex
+            document.getElementById('round-vali').style.display = 'flex';
             document.getElementById('round-loppu').style.display = 'flex';
 
             const [cupResp, teamsResp] = await Promise.all([
@@ -278,7 +275,6 @@
             function fillCupRound(kausi, kierros, elementId) {
                 const roundData = cupData.filter(item => item.Kausi === kausi && item.Kierros === kierros);
                 if (!roundData || roundData.length === 0) {
-                    // Jos Neljännesvälierät puuttuu
                     if (kierros === 'Neljännesvälierät') {
                         document.getElementById(elementId).style.display = 'none';
                     }
@@ -292,32 +288,39 @@
                     const matchDiv = document.createElement('div');
                     matchDiv.className = 'match-pair';
 
-                    const teamDiv = document.createElement('div');
-                    teamDiv.className = 'team';
+                    // Tarkistetaan onko Joukkue annettu
+                    if (item.Joukkue && item.Joukkue.trim() !== "") {
+                        const teamDiv = document.createElement('div');
+                        teamDiv.className = 'team';
 
-                    // Joukkueen logo
-                    const logoImg = document.createElement('img');
-                    if (teamLogosMap[item.Joukkue]) {
-                        logoImg.src = 'logot/' + teamLogosMap[item.Joukkue];
-                    } else {
-                        logoImg.src = 'logot/HPS-logo.jpg';
+                        // Joukkueen logo (vain jos lyhenne on olemassa)
+                        if (teamLogosMap[item.Joukkue]) {
+                            const logoImg = document.createElement('img');
+                            logoImg.src = 'logot/' + teamLogosMap[item.Joukkue];
+                            logoImg.alt = item.Joukkue;
+                            logoImg.width = 25;
+                            logoImg.height = 25;
+                            logoImg.style.marginRight = '5px';
+                            teamDiv.appendChild(logoImg);
+                        }
+
+                        // Nimi + 2 välilyöntiä
+                        const nameText = document.createTextNode(item.Joukkue + "  ");
+                        teamDiv.appendChild(nameText);
+
+                        // Näytetään maalimäärä vain jos se on määritelty
+                        if (typeof item.Maalit !== 'undefined') {
+                            const scoreSpan = document.createElement('span');
+                            scoreSpan.className = 'score';
+                            scoreSpan.textContent = item.Maalit;
+                            teamDiv.appendChild(scoreSpan);
+                        }
+
+                        matchDiv.appendChild(teamDiv);
                     }
-                    logoImg.alt = item.Joukkue;
-                    teamDiv.appendChild(logoImg);
+                    // Muussa tapauksessa ei luoda "teamDiv"-elementtiä ollenkaan
 
-                    // Joukkueen nimi + kaksi välilyöntiä
-                    const nameText = document.createTextNode(item.Joukkue + "  ");
-                    teamDiv.appendChild(nameText);
-
-                    // Tulos isommalla fonttikoolla
-                    const scoreSpan = document.createElement('span');
-                    scoreSpan.className = 'score';
-                    scoreSpan.textContent = (item.Maalit ?? 0);
-                    teamDiv.appendChild(scoreSpan);
-
-                    matchDiv.appendChild(teamDiv);
-
-                    // UUSI KOHDTA: Lisätieto (jos olemassa)
+                    // Lisätieto (jos olemassa)
                     if (item.Lisätieto && item.Lisätieto.trim() !== '') {
                         const infoDiv = document.createElement('div');
                         infoDiv.className = 'additional-info';
@@ -357,8 +360,10 @@
         }
 
         async function fetchImages(otteluId) {
+            // Laajennettu suffixes: '', 'a', 'b', 'c', 'd'
             const suffixes = ['', ...'abcd'];
             const foundPaths = [];
+
             for (const suffix of suffixes) {
                 const possiblePaths = [
                     `Lehtileikkeet/${otteluId}${suffix}.jpg`,
@@ -569,11 +574,16 @@
                                             awayTeamTd.appendChild(document.createTextNode(match.Vierasjoukkue || ''));
                                             tr.appendChild(awayTeamTd);
 
-                                            // Tulos
+                                            // Tulos -> jos puuttuu, näytä "-"
+                                            let resultText = "-";
+                                            if (typeof match.maalit_koti !== 'undefined' 
+                                                && typeof match.maalit_vieras !== 'undefined') {
+                                                resultText = `${match.maalit_koti}-${match.maalit_vieras}`;
+                                            }
                                             const resultTd = document.createElement('td');
                                             const resultLink = document.createElement('a');
                                             resultLink.href = `ottelukortti.html?ottelu_id=${match.ottelu_id}`;
-                                            resultLink.textContent = `${match.maalit_koti}-${match.maalit_vieras}`;
+                                            resultLink.textContent = resultText;
                                             resultTd.appendChild(resultLink);
                                             tr.appendChild(resultTd);
 
