@@ -28225,6 +28225,7 @@
       "Vierasjoukkue": "HJK",
       "maalit_koti": "1",
       "maalit_vieras": "2",
+      "lisätietoja": "HS 3.10.1919",
       "erotuomari": " "
     },
     {
@@ -28252,7 +28253,7 @@
       "maalit_koti": "2",
       "maalit_vieras": "1",
       "lisätietoja": "HS 11.9.1919",
-      "erotuomari": " ",
+      "erotuomari": "Ragnar Wickström",
       "maalintekijät_koti": "?? (rp),??",
       "maalintekijät_vieras": "??"
     },
@@ -28292,24 +28293,27 @@
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
       "maalit_vieras": "3",
+      "lisätietoja": "HS 14.8.1919",
       "erotuomari": " "
     },
     {
       "ottelu_id": "191907",
       "Kausi": "1919",
       "Kilpailu": "Ystävyysottelu",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "Viipurin Reipas",
-      "maalit_koti": "3",
-      "maalit_vieras": "5",
+      "Kaupunki": "Viipuri",
+      "Kotijoukkue": "Viipurin Reipas",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "5",
+      "maalit_vieras": "3",
       "erotuomari": " "
     },
     {
       "ottelu_id": "191906",
       "Kausi": "1919",
       "Kilpailu": "Ystävyysottelu",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "Sudet",
+      "Kaupunki": "Viipuri",
+      "Kotijoukkue": "Sudet",
+      "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
       "maalit_vieras": "2",
       "erotuomari": " "
@@ -28318,25 +28322,15 @@
       "ottelu_id": "191905",
       "Kausi": "1919",
       "Kilpailu": "Ystävyysottelu",
-      "Kaupunki": "Helsinki",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "KIF",
-      "maalit_koti": "1",
-      "maalit_vieras": "1",
-      "erotuomari": " "
-    },
-    {
-      "ottelu_id": "191904",
-      "Kausi": "1919",
-      "Kilpailu": "Ystävyysottelu",
-      "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "Viipurin Bandy",
+      "Kaupunki": "Viipuri",
+      "Kotijoukkue": "Viipurin Bandy",
+      "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
       "maalit_vieras": "2",
       "erotuomari": " "
     },
     {
-      "ottelu_id": "191903",
+      "ottelu_id": "191904",
       "Kausi": "1919",
       "Päivämäärä": "11.6.1919",
       "Kilpailu": "Turun pokaali",
@@ -28349,6 +28343,20 @@
       "lisätietoja": "HS 13.6.1919",
       "erotuomari": "M. Wickström",
       "maalintekijät_vieras": "Yrjö Tornivuori"
+    },
+    {
+      "ottelu_id": "191903",
+      "Kausi": "1919",
+      "Päivämäärä": "1.6.1919",
+      "Kilpailu": "Ystävyysottelu",
+      "Stadion": "Eläintarhan kenttä",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "KIF",
+      "maalit_koti": "1",
+      "maalit_vieras": "1",
+      "lisätietoja": "SU 10.6.1919",
+      "erotuomari": " "
     },
     {
       "ottelu_id": "191902",
@@ -28376,7 +28384,7 @@
       "maalit_koti": "3",
       "maalit_vieras": "0",
       "lisätietoja": "HS 12.5.1919",
-      "maalintekijät_koti": "?? 1,??,??"
+      "maalintekijät_koti": "Tolonen 1,Tolonen,Leivo"
     },
     {
       "ottelu_id": "191805",
