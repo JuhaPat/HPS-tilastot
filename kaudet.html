@@ -33,7 +33,7 @@
         .cup-bracket {
             display: flex;
             justify-content: space-evenly; /* kierrokset vaakasuunnassa tasaisesti */
-            align-items: flex-start;        /* Kierrokset alkavat ylhäältä (jos haluat kaikki ylös) */
+            align-items: flex-start;       /* Kierrokset alkavat ylhäältä */
             margin-top: 20px;
             /* Ei kiinteää height: -- bracket venyy sisällön mukaan */
         }
@@ -43,38 +43,29 @@
             display: flex;
             flex-direction: column;
             align-items: flex-start;  /* alkavat vasemmasta yläreunasta */
-            /* Jos haluat myös nämä pystysuuntaan keskelle, laita justify-content: center; 
-               mutta ohessa teemme vain Välierät ja Loppuottelu keskelle 
-            */
             margin: 0 10px;
         }
 
-        /* VÄLIERÄT JA LOPPUOTTELU KESKELLE PYSTYSUUNNASSA */
-        /* Tällöin bracket-round venyy sisällön verran, ja justify-content: center 
-           keskittää ottelut, jos on ylimääräistä tilaa "kaavion" sisällä 
-        */
+        /* Välierät ja Loppuottelu keskitetään pystysuunnassa */
         #round-vali, 
         #round-loppu {
-            justify-content: center;  /* KESKITTYY pystysuunnassa */
-            align-items: center;      /* Halutessasi myös vaakasuuntainen keskitys */
+            justify-content: center;
+            align-items: center; 
         }
 
-        /* Otteluparin perusmarginaali */
         .match-pair {
             text-align: center;
             margin-bottom: 5px; /* pieni väli parin sisälle */
         }
 
-        /* Joka toisen parin jälkeen isompi väli 
-           => Ensimmäiset kaksi paria lähellä toisiaan, sitten isompi rako, jne.
-        */
+        /* Joka toisen parin jälkeen isompi väli */
         .round-content .match-pair:nth-child(2n) {
             margin-bottom: 30px; 
         }
 
-        /* Joukkueen laatikko 
-           - ei lihavointia nimelle
-           - tulos (score) isommalla fontilla
+        /* Joukkueen laatikko:
+           - Ei lihavoitua nimeä
+           - Tulos (score) isommalla fonttikoolla
            - 2 välilyöntiä ennen tulosta
         */
         .match-pair .team {
@@ -99,7 +90,15 @@
             margin-left: 0.3em;
         }
 
-        /* Piilotetaan cup-bracket oletuksena, jos ei cup-year */
+        /* Pieni lisätieto-teksti otteluparin alapuolella */
+        .additional-info {
+            font-size: 0.75rem; /* pieni fonttikoko */
+            color: #666;
+            margin-top: 3px;    /* pieni rako yläpuolelle */
+            line-height: 1.2;   /* tiivis riviväli */
+        }
+
+        /* Cup-kaavio piilotettu oletuksena, jos ei cup-year */
         #cup-bracket {
             display: none;
         }
@@ -317,6 +316,15 @@
                     teamDiv.appendChild(scoreSpan);
 
                     matchDiv.appendChild(teamDiv);
+
+                    // UUSI KOHDTA: Lisätieto (jos olemassa)
+                    if (item.Lisätieto && item.Lisätieto.trim() !== '') {
+                        const infoDiv = document.createElement('div');
+                        infoDiv.className = 'additional-info';
+                        infoDiv.textContent = item.Lisätieto;
+                        matchDiv.appendChild(infoDiv);
+                    }
+
                     container.appendChild(matchDiv);
                 });
             }
@@ -349,7 +357,7 @@
         }
 
         async function fetchImages(otteluId) {
-            const suffixes = ['', ...'abc'];
+            const suffixes = ['', ...'abcd'];
             const foundPaths = [];
             for (const suffix of suffixes) {
                 const possiblePaths = [
