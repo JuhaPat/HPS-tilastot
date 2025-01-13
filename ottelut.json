@@ -402,6 +402,76 @@
       "maalintekijät_vieras": "Tino Mäkinen 7,Aaro Törnblom 47, Aaro Törnblom 90+2"
     },
     {
+      "ottelu_id": "202496",
+      "Kausi": "2024",
+      "Päivämäärä": "2.3.2024",
+      "Kilpailu": "Harjoitusottelu",
+      "Stadion": "Töölön Pallokenttä",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "VJS",
+      "maalit_koti": "1",
+      "maalit_vieras": "1"
+    },
+    {
+      "ottelu_id": "202495",
+      "Kausi": "2024",
+      "Päivämäärä": "18.2.2024",
+      "Kilpailu": "Harjoitusottelu",
+      "Stadion": "Matinkylä",
+      "Kaupunki": "Espoo",
+      "Kotijoukkue": "EsPa",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "1",
+      "maalit_vieras": "4"
+    },
+    {
+      "ottelu_id": "202494",
+      "Kausi": "2024",
+      "Päivämäärä": "17.2.2024",
+      "Kilpailu": "Harjoitusottelu",
+      "Stadion": "Tali halli",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "FC Espoo",
+      "maalit_koti": "4",
+      "maalit_vieras": "1"
+    },
+    {
+      "ottelu_id": "202493",
+      "Kausi": "2024",
+      "Päivämäärä": "2.2.2024",
+      "Kilpailu": "Harjoitusottelu",
+      "Kaupunki": "Järvenpää",
+      "Kotijoukkue": "JäPS/47",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "4",
+      "maalit_vieras": "3"
+    },
+    {
+      "ottelu_id": "202492",
+      "Kausi": "2024",
+      "Päivämäärä": "26.1.2024",
+      "Kilpailu": "Harjoitusottelu",
+      "Kaupunki": "Nummela",
+      "Kotijoukkue": "NuPS",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "2",
+      "maalit_vieras": "2"
+    },
+    {
+      "ottelu_id": "202491",
+      "Kausi": "2024",
+      "Päivämäärä": "13.1.2024",
+      "Kilpailu": "Harjoitusottelu",
+      "Stadion": "Vantaankoski",
+      "Kaupunki": "Vantaa",
+      "Kotijoukkue": "VJS",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "8",
+      "maalit_vieras": "0"
+    },
+    {
       "ottelu_id": "202326",
       "Kausi": "2023",
       "Päivämäärä": "6.10.2023",
@@ -29073,9 +29143,9 @@
       "maalit_koti": "2",
       "maalit_vieras": "4",
       "lisätietoja": "HS 28.10.1918",
-      "erotuomari": " ",
-      "maalintekijät_koti": "??  (rp),??",
-      "maalintekijät_vieras": "nimet HS artikkelissa"
+      "erotuomari": "Ragnar Wickström",
+      "maalintekijät_koti": "Bruno Mantila (rp),Bruno Mantila",
+      "maalintekijät_vieras": "Lindqvist,Leivo,Johansson,Tanner"
     },
     {
       "ottelu_id": "191803",
@@ -29102,9 +29172,10 @@
       "Vierasjoukkue": "HJK",
       "maalit_koti": "1",
       "maalit_vieras": "2",
+      "lisätietoja": "US 29.9.1918",
       "erotuomari": " ",
-      "maalintekijät_koti": "Aarne Linna",
-      "maalintekijät_vieras": "??,?? (rp)"
+      "maalintekijät_koti": "Aarne Linna 15",
+      "maalintekijät_vieras": "?? 49,Paavo Johansson (rp)"
     },
     {
       "ottelu_id": "191801",
@@ -29118,7 +29189,7 @@
       "maalit_koti": "1",
       "maalit_vieras": "1",
       "lisätietoja": "HPS:n historian ensimmäinen jalkapallo-ottelu",
-      "erotuomari": " ",
+      "erotuomari": "Ragnar Wickström",
       "kuvateksti": "HS 22.9.1918",
       "maalintekijät_koti": "Bruno Mantila"
     }
