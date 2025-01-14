@@ -1,4 +1,5 @@
-[
+{
+  "Sheet1": [
     {
       "Kausi": "2024",
       "Numero": "1",
@@ -16061,23 +16062,21 @@
     },
     {
       "Kausi": "1929",
-      "Sukunimi": "Salonen",
-      "Etunimi": "??",
-      "Koko nimi": "?? Salonen"
-    },
-    {
-      "Kausi": "1929",
       "Sukunimi": "Lilja",
       "Etunimi": "Paavo",
       "Koko nimi": "Paavo Lilja",
-      "Pelipaikka": "Maalivahti"
+      "Pelipaikka": "Maalivahti",
+      "Ottelut": "6",
+      "Maalit": "0"
     },
     {
       "Kausi": "1929",
       "Sukunimi": "Viinioksa",
       "Etunimi": "Max",
       "Koko nimi": "Max Viinioksa",
-      "Maalit": "1"
+      "Pelipaikka": "Tukimies",
+      "Ottelut": "16",
+      "Maalit": "2"
     },
     {
       "Kausi": "1929",
@@ -16085,57 +16084,80 @@
       "Etunimi": "Pentti",
       "Koko nimi": "Pentti Larvo (aik. Lindstén)",
       "Pelipaikka": "Tukimies",
-      "Maalit": "1"
+      "Ottelut": "16",
+      "Maalit": "2"
     },
     {
       "Kausi": "1929",
       "Sukunimi": "Kanerva",
       "Etunimi": "William",
       "Koko nimi": "William Kanerva",
-      "Maalit": "5"
+      "Ottelut": "15",
+      "Maalit": "9"
     },
     {
       "Kausi": "1929",
       "Sukunimi": "Stordell (Sarmola)",
       "Etunimi": "Holger",
       "Koko nimi": "Holger Stordell (Sarmola)",
+      "Ottelut": "7",
       "Maalit": "1"
     },
     {
       "Kausi": "1929",
       "Sukunimi": "Koskinen",
       "Etunimi": "Niilo",
-      "Koko nimi": "Niilo Koskinen"
+      "Koko nimi": "Niilo Koskinen",
+      "Pelipaikka": "Oikea puolustaja",
+      "Ottelut": "15",
+      "Maalit": "0"
     },
     {
       "Kausi": "1929",
       "Sukunimi": "Eriksson",
       "Etunimi": "Erkki",
-      "Koko nimi": "Erkki Eriksson"
+      "Koko nimi": "Erkki Eriksson",
+      "Ottelut": "10",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1929",
+      "Sukunimi": "Sinikari",
+      "Etunimi": "??",
+      "Koko nimi": "?? Sinikari",
+      "Ottelut": "1",
+      "Maalit": "0"
     },
     {
       "Kausi": "1929",
       "Sukunimi": "Eriksson",
       "Etunimi": "??",
-      "Koko nimi": "?? Eriksson"
+      "Koko nimi": "?? Eriksson",
+      "Ottelut": "2",
+      "Maalit": "0"
     },
     {
       "Kausi": "1929",
       "Sukunimi": "Nyström",
       "Etunimi": "??",
-      "Koko nimi": "?? Nyström"
+      "Koko nimi": "?? Nyström",
+      "Ottelut": "6",
+      "Maalit": "0"
     },
     {
       "Kausi": "1929",
       "Sukunimi": "Skutnabb",
       "Etunimi": "??",
-      "Koko nimi": "?? Skutnabb"
+      "Koko nimi": "?? Skutnabb",
+      "Ottelut": "1",
+      "Maalit": "0"
     },
     {
       "Kausi": "1929",
       "Sukunimi": "Salonen",
       "Etunimi": "??",
       "Koko nimi": "?? Salonen",
+      "Ottelut": "6",
       "Maalit": "1"
     },
     {
@@ -16143,34 +16165,73 @@
       "Sukunimi": "Saario",
       "Etunimi": "Sulo",
       "Koko nimi": "Sulo Saario",
-      "Maalit": "3"
+      "Ottelut": "10",
+      "Maalit": "10"
+    },
+    {
+      "Kausi": "1929",
+      "Sukunimi": "Itkonen",
+      "Etunimi": "??",
+      "Koko nimi": "?? Itkonen",
+      "Ottelut": "3",
+      "Maalit": "0"
     },
     {
       "Kausi": "1929",
       "Sukunimi": "Koponen",
       "Etunimi": "Aulis",
       "Koko nimi": "Aulis Koponen",
-      "Maalit": "8"
+      "Ottelut": "15",
+      "Maalit": "13"
+    },
+    {
+      "Kausi": "1929",
+      "Sukunimi": "Nyholm",
+      "Etunimi": "??",
+      "Koko nimi": "?? Nyholm",
+      "Ottelut": "1",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1929",
+      "Sukunimi": "Tornivuori",
+      "Etunimi": "Yrjö",
+      "Koko nimi": "Yrjö Tornivuori",
+      "Ottelut": "1",
+      "Maalit": "0"
     },
     {
       "Kausi": "1929",
       "Sukunimi": "Silve",
       "Etunimi": "Bertil",
       "Koko nimi": "Bertil Silve",
+      "Ottelut": "8",
       "Maalit": "1"
     },
     {
       "Kausi": "1929",
       "Sukunimi": "Oksanen",
       "Etunimi": "Kaarlo",
-      "Koko nimi": "Kaarlo Oksanen"
+      "Koko nimi": "Kaarlo Oksanen",
+      "Ottelut": "5",
+      "Maalit": "0"
     },
     {
       "Kausi": "1929",
       "Sukunimi": "Sinikari (aik. Präktig)",
       "Etunimi": "Lauri",
       "Koko nimi": "Lauri Sinikari (aik. Präktig)",
-      "Pelipaikka": "Tukimies"
+      "Pelipaikka": "Tukimies",
+      "Ottelut": "5",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1929",
+      "Sukunimi": "Karjagin",
+      "Etunimi": "Alexander",
+      "Koko nimi": "Alexander Karjagin",
+      "Ottelut": "7",
+      "Maalit": "0"
     },
     {
       "Kausi": "1929",
@@ -16178,76 +16239,148 @@
       "Etunimi": "Viljo",
       "Koko nimi": "Viljo Kuhlberg",
       "Pelipaikka": "Hyökkääjä",
-      "Maalit": "12"
+      "Ottelut": "15",
+      "Maalit": "15"
+    },
+    {
+      "Kausi": "1929",
+      "Sukunimi": "Kuhlberg",
+      "Etunimi": "A.",
+      "Koko nimi": "A. Kuhlberg",
+      "Ottelut": "1",
+      "Maalit": "0"
     },
     {
       "Kausi": "1929",
       "Sukunimi": "Laine",
       "Etunimi": "Oiva",
-      "Koko nimi": "Oiva Laine"
+      "Koko nimi": "Oiva Laine",
+      "Ottelut": "0",
+      "Maalit": "0"
     },
     {
       "Kausi": "1929",
       "Sukunimi": "Saarilahti",
       "Etunimi": "Heimo",
-      "Koko nimi": "Heimo Saarilahti"
+      "Koko nimi": "Heimo Saarilahti",
+      "Ottelut": "4",
+      "Maalit": "0"
     },
     {
       "Kausi": "1928",
       "Sukunimi": "Lilja",
       "Etunimi": "Paavo",
       "Koko nimi": "Paavo Lilja",
-      "Pelipaikka": "Maalivahti"
+      "Pelipaikka": "Maalivahti",
+      "Ottelut": "6",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1927",
+      "Sukunimi": "Eriksson",
+      "Etunimi": "??",
+      "Koko nimi": "?? Eriksson",
+      "Pelipaikka": "Maalivahti",
+      "Ottelut": "1",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1928",
+      "Sukunimi": "Saarilahti",
+      "Etunimi": "Heimo",
+      "Koko nimi": "Heimo Saarilahti",
+      "Ottelut": "5",
+      "Maalit": "0"
     },
     {
       "Kausi": "1928",
       "Sukunimi": "Koskinen",
       "Etunimi": "Niilo",
-      "Koko nimi": "Niilo Koskinen"
+      "Koko nimi": "Niilo Koskinen",
+      "Pelipaikka": "Oikea puolustaja",
+      "Ottelut": "7",
+      "Maalit": "0"
     },
     {
       "Kausi": "1928",
       "Sukunimi": "Viinioksa",
       "Etunimi": "Max",
-      "Koko nimi": "Max Viinioksa"
+      "Koko nimi": "Max Viinioksa",
+      "Pelipaikka": "Tukimies",
+      "Ottelut": "7",
+      "Maalit": "0"
     },
     {
       "Kausi": "1928",
       "Sukunimi": "Soinio",
       "Etunimi": "Eino",
-      "Koko nimi": "Eino Soinio"
+      "Koko nimi": "Eino Soinio",
+      "Pelipaikka": "Tukimies",
+      "Ottelut": "7",
+      "Maalit": "0"
     },
     {
       "Kausi": "1928",
       "Sukunimi": "Karjagin",
       "Etunimi": "Alexander",
-      "Koko nimi": "Alexander Karjagin"
+      "Koko nimi": "Alexander Karjagin",
+      "Pelipaikka": "Tukimies",
+      "Ottelut": "6",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1928",
+      "Sukunimi": "Tornivuori",
+      "Etunimi": "Yrjö",
+      "Koko nimi": "Yrjö Tornivuori",
+      "Pelipaikka": "Hyökkääjä",
+      "Ottelut": "8",
+      "Maalit": "7"
     },
     {
       "Kausi": "1928",
       "Sukunimi": "Mantila",
       "Etunimi": "Aarne",
-      "Koko nimi": "Aarne Mantila"
+      "Koko nimi": "Aarne Mantila",
+      "Pelipaikka": "Hyökkääjä",
+      "Ottelut": "0",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1928",
+      "Sukunimi": "Mantila",
+      "Etunimi": "Ilmari",
+      "Koko nimi": "Ilmari Mantila",
+      "Pelipaikka": "Hyökkääjä",
+      "Ottelut": "0",
+      "Maalit": "0"
     },
     {
       "Kausi": "1928",
       "Sukunimi": "Koponen",
       "Etunimi": "Aulis",
       "Koko nimi": "Aulis Koponen",
-      "Maalit": "4"
+      "Pelipaikka": "Hyökkääjä",
+      "Ottelut": "7",
+      "Maalit": "8"
     },
     {
       "Kausi": "1928",
       "Sukunimi": "Saario",
       "Etunimi": "Sulo",
-      "Koko nimi": "Sulo Saario"
+      "Koko nimi": "Sulo Saario",
+      "Pelipaikka": "Hyökkääjä",
+      "Ottelut": "3",
+      "Maalit": "2"
     },
     {
       "Kausi": "1928",
       "Sukunimi": "Kanerva",
       "Etunimi": "William",
       "Koko nimi": "William Kanerva",
-      "Maalit": "6"
+      "Pelipaikka": "Hyökkääjä",
+      "Ottelut": "7",
+      "Maalit": "15"
     },
     {
       "Kausi": "1928",
@@ -16255,74 +16388,119 @@
       "Etunimi": "Pentti",
       "Koko nimi": "Pentti Larvo (aik. Lindstén)",
       "Pelipaikka": "Tukimies",
+      "Ottelut": "2",
       "Maalit": "1"
     },
     {
       "Kausi": "1928",
       "Sukunimi": "Itkonen",
       "Etunimi": "??",
-      "Koko nimi": "?? Itkonen"
-    },
-    {
-      "Kausi": "1928",
-      "Sukunimi": "Nyström",
-      "Etunimi": "??",
-      "Koko nimi": "?? Nyström"
-    },
-    {
-      "Kausi": "1928",
-      "Sukunimi": "Skutnabb",
-      "Etunimi": "??",
-      "Koko nimi": "?? Skutnabb"
+      "Koko nimi": "?? Itkonen",
+      "Ottelut": "2",
+      "Maalit": "0"
     },
     {
       "Kausi": "1928",
       "Sukunimi": "Stordell (Sarmola)",
       "Etunimi": "Holger",
-      "Koko nimi": "Holger Stordell (Sarmola)"
+      "Koko nimi": "Holger Stordell (Sarmola)",
+      "Ottelut": "4",
+      "Maalit": "4"
+    },
+    {
+      "Kausi": "1928",
+      "Sukunimi": "Lydman",
+      "Etunimi": "??",
+      "Koko nimi": "?? Lydman",
+      "Ottelut": "3",
+      "Maalit": "3"
+    },
+    {
+      "Kausi": "1928",
+      "Sukunimi": "Kuhlberg",
+      "Etunimi": "Viljo",
+      "Koko nimi": "Viljo Kuhlberg",
+      "Ottelut": "2",
+      "Maalit": "1"
     },
     {
       "Kausi": "1927",
       "Sukunimi": "Lilja",
       "Etunimi": "Paavo",
       "Koko nimi": "Paavo Lilja",
-      "Pelipaikka": "Maalivahti"
+      "Pelipaikka": "Maalivahti",
+      "Ottelut": "9",
+      "Maalit": "0"
     },
     {
       "Kausi": "1927",
-      "Sukunimi": "Koskinen",
-      "Etunimi": "Niilo",
-      "Koko nimi": "Niilo Koskinen"
+      "Sukunimi": "Eriksson",
+      "Etunimi": "??",
+      "Koko nimi": "?? Eriksson",
+      "Pelipaikka": "Maalivahti",
+      "Ottelut": "1",
+      "Maalit": "0"
     },
     {
       "Kausi": "1927",
       "Sukunimi": "Saarilahti",
       "Etunimi": "Heimo",
-      "Koko nimi": "Heimo Saarilahti"
+      "Koko nimi": "Heimo Saarilahti",
+      "Ottelut": "9",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1927",
+      "Sukunimi": "Koskinen",
+      "Etunimi": "Niilo",
+      "Koko nimi": "Niilo Koskinen",
+      "Pelipaikka": "Oikea puolustaja",
+      "Ottelut": "10",
+      "Maalit": "0"
     },
     {
       "Kausi": "1927",
       "Sukunimi": "Viinioksa",
       "Etunimi": "Max",
-      "Koko nimi": "Max Viinioksa"
+      "Koko nimi": "Max Viinioksa",
+      "Pelipaikka": "Tukimies",
+      "Ottelut": "10",
+      "Maalit": "0"
     },
     {
       "Kausi": "1927",
       "Sukunimi": "Soinio",
       "Etunimi": "Eino",
-      "Koko nimi": "Eino Soinio"
+      "Koko nimi": "Eino Soinio",
+      "Pelipaikka": "Tukimies",
+      "Ottelut": "10",
+      "Maalit": "1"
     },
     {
       "Kausi": "1927",
       "Sukunimi": "Karjagin",
       "Etunimi": "Alexander",
-      "Koko nimi": "Alexander Karjagin"
+      "Koko nimi": "Alexander Karjagin",
+      "Pelipaikka": "Tukimies",
+      "Ottelut": "9",
+      "Maalit": "3"
     },
     {
       "Kausi": "1927",
       "Sukunimi": "Tornivuori",
       "Etunimi": "Yrjö",
       "Koko nimi": "Yrjö Tornivuori",
+      "Pelipaikka": "Hyökkääjä",
+      "Ottelut": "10",
+      "Maalit": "7"
+    },
+    {
+      "Kausi": "1927",
+      "Sukunimi": "Mantila",
+      "Etunimi": "Aarne",
+      "Koko nimi": "Aarne Mantila",
+      "Pelipaikka": "Hyökkääjä",
+      "Ottelut": "10",
       "Maalit": "3"
     },
     {
@@ -16330,28 +16508,44 @@
       "Sukunimi": "Koponen",
       "Etunimi": "Aulis",
       "Koko nimi": "Aulis Koponen",
-      "Maalit": "3"
+      "Pelipaikka": "Hyökkääjä",
+      "Ottelut": "13",
+      "Maalit": "6"
     },
     {
       "Kausi": "1927",
       "Sukunimi": "Saario",
       "Etunimi": "Sulo",
       "Koko nimi": "Sulo Saario",
-      "Maalit": "3"
+      "Pelipaikka": "Hyökkääjä",
+      "Ottelut": "10",
+      "Maalit": "7"
     },
     {
       "Kausi": "1927",
       "Sukunimi": "Kanerva",
       "Etunimi": "William",
       "Koko nimi": "William Kanerva",
-      "Maalit": "2"
+      "Pelipaikka": "Hyökkääjä",
+      "Ottelut": "10",
+      "Maalit": "7"
     },
     {
       "Kausi": "1927",
-      "Sukunimi": "Mantila",
-      "Etunimi": "Aarne",
-      "Koko nimi": "Aarne Mantila",
-      "Maalit": "1"
+      "Sukunimi": "Virta",
+      "Etunimi": "Lauri",
+      "Koko nimi": "Lauri Virta",
+      "Ottelut": "3",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1927",
+      "Sukunimi": "Lydman",
+      "Etunimi": "??",
+      "Koko nimi": "?? Lydman",
+      "Pelipaikka": "Keskushyökkääjä",
+      "Ottelut": "2",
+      "Maalit": "2"
     },
     {
       "Kausi": "1926",
@@ -17072,3 +17266,4 @@
       "Koko nimi": "Heimo Saarilahti"
     }
   ]
+}
