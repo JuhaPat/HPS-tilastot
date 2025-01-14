@@ -16551,32 +16551,37 @@
       "Sukunimi": "Belewicz (Elevuo)",
       "Etunimi": "Harald",
       "Koko nimi": "Harald Belewicz (Elevuo)",
-      "Pelipaikka": "Maalivahti"
+      "Pelipaikka": "Maalivahti",
+      "Maalit": "0"
     },
     {
       "Kausi": "1926",
       "Sukunimi": "Lydman",
       "Etunimi": "Sven",
-      "Koko nimi": "Sven Lydman"
+      "Koko nimi": "Sven Lydman",
+      "Maalit": "0"
     },
     {
       "Kausi": "1926",
       "Sukunimi": "Koskinen",
       "Etunimi": "Niilo",
       "Koko nimi": "Niilo Koskinen",
-      "Pelipaikka": "Puolustaja"
+      "Pelipaikka": "Oikea puolustaja",
+      "Maalit": "0"
     },
     {
       "Kausi": "1926",
       "Sukunimi": "Virta",
       "Etunimi": "Lauri",
-      "Koko nimi": "Lauri Virta"
+      "Koko nimi": "Lauri Virta",
+      "Maalit": "0"
     },
     {
       "Kausi": "1926",
       "Sukunimi": "Karjagin",
       "Etunimi": "Alexander",
-      "Koko nimi": "Alexander Karjagin"
+      "Koko nimi": "Alexander Karjagin",
+      "Maalit": "0"
     },
     {
       "Kausi": "1926",
@@ -16591,14 +16596,14 @@
       "Etunimi": "William",
       "Koko nimi": "William Kanerva",
       "Pelipaikka": "Hyökkääjä",
-      "Maalit": "4"
+      "Maalit": "10"
     },
     {
       "Kausi": "1926",
       "Sukunimi": "Saario",
       "Etunimi": "Sulo",
       "Koko nimi": "Sulo Saario",
-      "Maalit": "2"
+      "Maalit": "0"
     },
     {
       "Kausi": "1926",
@@ -16606,316 +16611,76 @@
       "Etunimi": "Aulis",
       "Koko nimi": "Aulis Koponen",
       "Pelipaikka": "Hyökkääjä",
-      "Maalit": "2"
+      "Maalit": "6"
     },
     {
       "Kausi": "1926",
       "Sukunimi": "Tornivuori",
       "Etunimi": "Yrjö",
       "Koko nimi": "Yrjö Tornivuori",
-      "Maalit": "1"
+      "Maalit": "0"
     },
     {
       "Kausi": "1926",
       "Sukunimi": "Salmi",
       "Etunimi": "Herman",
       "Koko nimi": "Herman Salmi",
-      "Pelipaikka": "Maalivahti"
+      "Pelipaikka": "Maalivahti",
+      "Maalit": "0"
     },
     {
       "Kausi": "1926",
       "Sukunimi": "Kuhlberg",
       "Etunimi": "Viljo",
       "Koko nimi": "Viljo Kuhlberg",
-      "Pelipaikka": "Hyökkääjä"
+      "Pelipaikka": "Hyökkääjä",
+      "Maalit": "1"
+    },
+    {
+      "Kausi": "1926",
+      "Sukunimi": "Kuhlberg",
+      "Etunimi": "Hugo",
+      "Koko nimi": "Hugo Kuhlberg",
+      "Maalit": "0"
     },
     {
       "Kausi": "1926",
       "Sukunimi": "Linna",
       "Etunimi": "Aarne",
-      "Koko nimi": "Aarne Linna"
+      "Koko nimi": "Aarne Linna",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1926",
+      "Sukunimi": "Soinio",
+      "Etunimi": "Eino",
+      "Koko nimi": "Eino Soinio",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1926",
+      "Sukunimi": "Nyholm",
+      "Etunimi": "Rafael",
+      "Koko nimi": "Rafael Nyholm",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1926",
+      "Sukunimi": "Saarilahti",
+      "Etunimi": "Heimo",
+      "Koko nimi": "Heimo Saarilahti",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1926",
+      "Sukunimi": "Salmi",
+      "Etunimi": "H.",
+      "Koko nimi": "H. Salmi",
+      "Pelipaikka": "Maalivahti",
+      "Maalit": "0"
     },
     {
       "Kausi": "1925",
-      "Sukunimi": "Katajavuori",
-      "Etunimi": "Arvi",
-      "Koko nimi": "Arvi Katajavuori",
-      "Pelipaikka": "Hyökkääjä"
-    },
-    {
-      "Kausi": "1925",
-      "Sukunimi": "Virta",
-      "Etunimi": "Lauri",
-      "Koko nimi": "Lauri Virta"
-    },
-    {
-      "Kausi": "1925",
-      "Sukunimi": "Koponen",
-      "Etunimi": "Aulis",
-      "Koko nimi": "Aulis Koponen",
-      "Pelipaikka": "Hyökkääjä"
-    },
-    {
-      "Kausi": "1925",
-      "Sukunimi": "Kuhlberg",
-      "Etunimi": "Viljo",
-      "Koko nimi": "Viljo Kuhlberg",
-      "Pelipaikka": "Hyökkääjä"
-    },
-    {
-      "Kausi": "1925",
-      "Sukunimi": "Kanerva",
-      "Etunimi": "William",
-      "Koko nimi": "William Kanerva",
-      "Pelipaikka": "Hyökkääjä"
-    },
-    {
-      "Kausi": "1925",
-      "Sukunimi": "Linna",
-      "Etunimi": "Aarne",
-      "Koko nimi": "Aarne Linna"
-    },
-    {
-      "Kausi": "1925",
-      "Sukunimi": "Koskinen",
-      "Etunimi": "Niilo",
-      "Koko nimi": "Niilo Koskinen",
-      "Pelipaikka": "Puolustaja"
-    },
-    {
-      "Kausi": "1925",
-      "Sukunimi": "Lehtonen",
-      "Etunimi": "??",
-      "Koko nimi": "?? Lehtonen"
-    },
-    {
-      "Kausi": "1925",
-      "Sukunimi": "Belewicz (Elevuo)",
-      "Etunimi": "Harald",
-      "Koko nimi": "Harald Belewicz (Elevuo)",
-      "Pelipaikka": "Maalivahti"
-    },
-    {
-      "Kausi": "1925",
-      "Sukunimi": "Lydman",
-      "Etunimi": "Sven",
-      "Koko nimi": "Sven Lydman"
-    },
-    {
-      "Kausi": "1925",
-      "Sukunimi": "Karjagin",
-      "Etunimi": "Alexander",
-      "Koko nimi": "Alexander Karjagin"
-    },
-    {
-      "Kausi": "1925",
-      "Sukunimi": "Tornivuori",
-      "Etunimi": "Yrjö",
-      "Koko nimi": "Yrjö Tornivuori"
-    },
-    {
-      "Kausi": "1925",
-      "Sukunimi": "Johansson",
-      "Etunimi": "??",
-      "Koko nimi": "?? Johansson"
-    },
-    {
-      "Kausi": "1925",
-      "Sukunimi": "Kainulainen",
-      "Etunimi": "??",
-      "Koko nimi": "?? Kainulainen"
-    },
-    {
-      "Kausi": "1925",
-      "Sukunimi": "Vickström",
-      "Etunimi": "??",
-      "Koko nimi": "?? Vickström"
-    },
-    {
-      "Kausi": "1925",
-      "Sukunimi": "Mantila",
-      "Etunimi": "??",
-      "Koko nimi": "?? Mantila"
-    },
-    {
-      "Kausi": "1925",
-      "Sukunimi": "Saario",
-      "Etunimi": "Sulo",
-      "Koko nimi": "Sulo Saario"
-    },
-    {
-      "Kausi": "1924",
-      "Sukunimi": "Belewicz (Elevuo)",
-      "Etunimi": "Harald",
-      "Koko nimi": "Harald Belewicz (Elevuo)",
-      "Pelipaikka": "Maalivahti"
-    },
-    {
-      "Kausi": "1924",
-      "Sukunimi": "Koskinen",
-      "Etunimi": "Niilo",
-      "Koko nimi": "Niilo Koskinen"
-    },
-    {
-      "Kausi": "1924",
-      "Sukunimi": "Lydman",
-      "Etunimi": "Sven",
-      "Koko nimi": "Sven Lydman"
-    },
-    {
-      "Kausi": "1924",
-      "Sukunimi": "Virta",
-      "Etunimi": "Lauri",
-      "Koko nimi": "Lauri Virta"
-    },
-    {
-      "Kausi": "1924",
-      "Sukunimi": "Karjagin",
-      "Etunimi": "Alexander",
-      "Koko nimi": "Alexander Karjagin"
-    },
-    {
-      "Kausi": "1924",
-      "Sukunimi": "Linna",
-      "Etunimi": "Aarne",
-      "Koko nimi": "Aarne Linna"
-    },
-    {
-      "Kausi": "1924",
-      "Sukunimi": "Tornivuori",
-      "Etunimi": "Yrjö",
-      "Koko nimi": "Yrjö Tornivuori"
-    },
-    {
-      "Kausi": "1924",
-      "Sukunimi": "Koponen",
-      "Etunimi": "Aulis",
-      "Koko nimi": "Aulis Koponen",
-      "Pelipaikka": "Hyökkääjä"
-    },
-    {
-      "Kausi": "1924",
-      "Sukunimi": "Larsson",
-      "Etunimi": "??",
-      "Koko nimi": "?? Larsson"
-    },
-    {
-      "Kausi": "1924",
-      "Sukunimi": "Kuhlberg",
-      "Etunimi": "Viljo",
-      "Koko nimi": "Viljo Kuhlberg",
-      "Pelipaikka": "Hyökkääjä"
-    },
-    {
-      "Kausi": "1924",
-      "Sukunimi": "Kanerva",
-      "Etunimi": "William",
-      "Koko nimi": "William Kanerva",
-      "Pelipaikka": "Hyökkääjä"
-    },
-    {
-      "Kausi": "1923",
-      "Sukunimi": "Kuhlberg",
-      "Etunimi": "Viljo",
-      "Koko nimi": "Viljo Kuhlberg",
-      "Pelipaikka": "Hyökkääjä"
-    },
-    {
-      "Kausi": "1923",
-      "Sukunimi": "Koponen",
-      "Etunimi": "Aulis",
-      "Koko nimi": "Aulis Koponen",
-      "Pelipaikka": "Hyökkääjä"
-    },
-    {
-      "Kausi": "1923",
-      "Sukunimi": "Linna",
-      "Etunimi": "Aarne",
-      "Koko nimi": "Aarne Linna"
-    },
-    {
-      "Kausi": "1923",
-      "Sukunimi": "Lydman",
-      "Etunimi": "Sven",
-      "Koko nimi": "Sven Lydman"
-    },
-    {
-      "Kausi": "1923",
-      "Sukunimi": "Karjagin",
-      "Etunimi": "Alexander",
-      "Koko nimi": "Alexander Karjagin"
-    },
-    {
-      "Kausi": "1923",
-      "Sukunimi": "Belewicz (Elevuo)",
-      "Etunimi": "Harald",
-      "Koko nimi": "Harald Belewicz (Elevuo)",
-      "Pelipaikka": "Maalivahti"
-    },
-    {
-      "Kausi": "1923",
-      "Sukunimi": "Mantila",
-      "Etunimi": "Hugo",
-      "Koko nimi": "Hugo Mantila"
-    },
-    {
-      "Kausi": "1923",
-      "Sukunimi": "Kanerva",
-      "Etunimi": "William",
-      "Koko nimi": "William Kanerva",
-      "Pelipaikka": "Hyökkääjä"
-    },
-    {
-      "Kausi": "1923",
-      "Sukunimi": "Virta",
-      "Etunimi": "Lauri",
-      "Koko nimi": "Lauri Virta"
-    },
-    {
-      "Kausi": "1923",
-      "Sukunimi": "Tornivuori",
-      "Etunimi": "Yrjö",
-      "Koko nimi": "Yrjö Tornivuori"
-    },
-    {
-      "Kausi": "1922",
-      "Sukunimi": "Belewicz (Elevuo)",
-      "Etunimi": "Harald",
-      "Koko nimi": "Harald Belewicz (Elevuo)",
-      "Pelipaikka": "Maalivahti"
-    },
-    {
-      "Kausi": "1922",
-      "Sukunimi": "Koskinen",
-      "Etunimi": "Niilo",
-      "Koko nimi": "Niilo Koskinen"
-    },
-    {
-      "Kausi": "1922",
-      "Sukunimi": "Lydman",
-      "Etunimi": "Sven",
-      "Koko nimi": "Sven Lydman"
-    },
-    {
-      "Kausi": "1922",
-      "Sukunimi": "Karjagin",
-      "Etunimi": "Alexander",
-      "Koko nimi": "Alexander Karjagin"
-    },
-    {
-      "Kausi": "1922",
-      "Sukunimi": "Mantila",
-      "Etunimi": "Hugo",
-      "Koko nimi": "Hugo Mantila"
-    },
-    {
-      "Kausi": "1922",
-      "Sukunimi": "Virta",
-      "Etunimi": "Lauri",
-      "Koko nimi": "Lauri Virta"
-    },
-    {
-      "Kausi": "1922",
       "Sukunimi": "Katajavuori",
       "Etunimi": "Arvi",
       "Koko nimi": "Arvi Katajavuori",
@@ -16923,345 +16688,790 @@
       "Maalit": "1"
     },
     {
-      "Kausi": "1922",
-      "Sukunimi": "Tornivuori",
-      "Etunimi": "Yrjö",
-      "Koko nimi": "Yrjö Tornivuori"
+      "Kausi": "1925",
+      "Sukunimi": "Virta",
+      "Etunimi": "Lauri",
+      "Koko nimi": "Lauri Virta",
+      "Maalit": "0"
     },
     {
-      "Kausi": "1922",
-      "Sukunimi": "Hirvonen",
-      "Etunimi": "Viljo",
-      "Koko nimi": "Viljo Hirvonen"
-    },
-    {
-      "Kausi": "1922",
-      "Sukunimi": "Mantila",
-      "Etunimi": "Bruno",
-      "Koko nimi": "Bruno Mantila",
+      "Kausi": "1925",
+      "Sukunimi": "Koponen",
+      "Etunimi": "Aulis",
+      "Koko nimi": "Aulis Koponen",
+      "Pelipaikka": "Hyökkääjä",
       "Maalit": "1"
     },
     {
-      "Kausi": "1922",
-      "Sukunimi": "Linna",
-      "Etunimi": "Aarne",
-      "Koko nimi": "Aarne Linna"
+      "Kausi": "1925",
+      "Sukunimi": "Kuhlberg",
+      "Etunimi": "Viljo",
+      "Koko nimi": "Viljo Kuhlberg",
+      "Pelipaikka": "Hyökkääjä",
+      "Maalit": "1"
     },
     {
-      "Kausi": "1921",
-      "Sukunimi": "Katajavuori",
-      "Etunimi": "Arvi",
-      "Koko nimi": "Arvi Katajavuori",
+      "Kausi": "1925",
+      "Sukunimi": "Kanerva",
+      "Etunimi": "William",
+      "Koko nimi": "William Kanerva",
+      "Pelipaikka": "Hyökkääjä",
+      "Maalit": "1"
+    },
+    {
+      "Kausi": "1925",
+      "Sukunimi": "Linna",
+      "Etunimi": "Aarne",
+      "Koko nimi": "Aarne Linna",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1925",
+      "Sukunimi": "Koskinen",
+      "Etunimi": "Niilo",
+      "Koko nimi": "Niilo Koskinen",
+      "Pelipaikka": "Oikea puolustaja",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1925",
+      "Sukunimi": "Lehtonen",
+      "Etunimi": "??",
+      "Koko nimi": "?? Lehtonen",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1925",
+      "Sukunimi": "Belewicz (Elevuo)",
+      "Etunimi": "Harald",
+      "Koko nimi": "Harald Belewicz (Elevuo)",
+      "Pelipaikka": "Maalivahti",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1925",
+      "Sukunimi": "Lydman",
+      "Etunimi": "Sven",
+      "Koko nimi": "Sven Lydman",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1925",
+      "Sukunimi": "Karjagin",
+      "Etunimi": "Alexander",
+      "Koko nimi": "Alexander Karjagin",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1925",
+      "Sukunimi": "Tornivuori",
+      "Etunimi": "Yrjö",
+      "Koko nimi": "Yrjö Tornivuori",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1925",
+      "Sukunimi": "Johansson",
+      "Etunimi": "??",
+      "Koko nimi": "?? Johansson",
+      "Pelipaikka": "Maalivahti",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1925",
+      "Sukunimi": "Kainulainen",
+      "Etunimi": "??",
+      "Koko nimi": "?? Kainulainen",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1925",
+      "Sukunimi": "Vickström",
+      "Etunimi": "??",
+      "Koko nimi": "?? Vickström",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1925",
+      "Sukunimi": "Mantila",
+      "Etunimi": "??",
+      "Koko nimi": "?? Mantila",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1925",
+      "Sukunimi": "Saario",
+      "Etunimi": "Sulo",
+      "Koko nimi": "Sulo Saario",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1925",
+      "Sukunimi": "Korkeamäki",
+      "Etunimi": "??",
+      "Koko nimi": "?? Korkeamäki",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1925",
+      "Sukunimi": "Mantila",
+      "Etunimi": "Aarne",
+      "Koko nimi": "Aarne Mantila",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1924",
+      "Sukunimi": "Belewicz (Elevuo)",
+      "Etunimi": "Harald",
+      "Koko nimi": "Harald Belewicz (Elevuo)",
+      "Pelipaikka": "Maalivahti",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1924",
+      "Sukunimi": "Koskinen",
+      "Etunimi": "Niilo",
+      "Koko nimi": "Niilo Koskinen",
+      "Pelipaikka": "Oikea puolustaja",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1924",
+      "Sukunimi": "Lydman",
+      "Etunimi": "Sven",
+      "Koko nimi": "Sven Lydman",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1924",
+      "Sukunimi": "Virta",
+      "Etunimi": "Lauri",
+      "Koko nimi": "Lauri Virta",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1924",
+      "Sukunimi": "Karjagin",
+      "Etunimi": "Alexander",
+      "Koko nimi": "Alexander Karjagin",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1924",
+      "Sukunimi": "Linna",
+      "Etunimi": "Aarne",
+      "Koko nimi": "Aarne Linna",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1924",
+      "Sukunimi": "Tornivuori",
+      "Etunimi": "Yrjö",
+      "Koko nimi": "Yrjö Tornivuori",
+      "Maalit": "3"
+    },
+    {
+      "Kausi": "1924",
+      "Sukunimi": "Koponen",
+      "Etunimi": "Aulis",
+      "Koko nimi": "Aulis Koponen",
+      "Pelipaikka": "Hyökkääjä",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1924",
+      "Sukunimi": "Larsson",
+      "Etunimi": "??",
+      "Koko nimi": "?? Larsson",
+      "Maalit": "3"
+    },
+    {
+      "Kausi": "1924",
+      "Sukunimi": "Kuhlberg",
+      "Etunimi": "Viljo",
+      "Koko nimi": "Viljo Kuhlberg",
+      "Pelipaikka": "Hyökkääjä",
+      "Maalit": "1"
+    },
+    {
+      "Kausi": "1924",
+      "Sukunimi": "Kanerva",
+      "Etunimi": "William",
+      "Koko nimi": "William Kanerva",
+      "Pelipaikka": "Hyökkääjä",
+      "Maalit": "4"
+    },
+    {
+      "Kausi": "1924",
+      "Sukunimi": "Salonen",
+      "Etunimi": "??",
+      "Koko nimi": "?? Salonen",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1924",
+      "Sukunimi": "Lehtonen",
+      "Etunimi": "??",
+      "Koko nimi": "?? Lehtonen",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1923",
+      "Sukunimi": "Kuhlberg",
+      "Etunimi": "Viljo",
+      "Koko nimi": "Viljo Kuhlberg",
       "Pelipaikka": "Hyökkääjä"
     },
     {
-      "Kausi": "1921",
+      "Kausi": "1923",
+      "Sukunimi": "Koponen",
+      "Etunimi": "Aulis",
+      "Koko nimi": "Aulis Koponen",
+      "Pelipaikka": "Hyökkääjä"
+    },
+    {
+      "Kausi": "1923",
       "Sukunimi": "Linna",
       "Etunimi": "Aarne",
       "Koko nimi": "Aarne Linna"
     },
     {
-      "Kausi": "1921",
-      "Sukunimi": "Mantila",
-      "Etunimi": "Hugo",
-      "Koko nimi": "Hugo Mantila",
-      "Muu rooli": "Kapteeni"
+      "Kausi": "1923",
+      "Sukunimi": "Lydman",
+      "Etunimi": "Sven",
+      "Koko nimi": "Sven Lydman"
     },
     {
-      "Kausi": "1921",
-      "Sukunimi": "Koskinen",
-      "Etunimi": "Niilo",
-      "Koko nimi": "Niilo Koskinen"
+      "Kausi": "1923",
+      "Sukunimi": "Karjagin",
+      "Etunimi": "Alexander",
+      "Koko nimi": "Alexander Karjagin"
     },
     {
-      "Kausi": "1921",
+      "Kausi": "1923",
       "Sukunimi": "Belewicz (Elevuo)",
       "Etunimi": "Harald",
       "Koko nimi": "Harald Belewicz (Elevuo)",
       "Pelipaikka": "Maalivahti"
     },
     {
-      "Kausi": "1921",
-      "Sukunimi": "Lydman",
-      "Etunimi": "Sven",
-      "Koko nimi": "Sven Lydman"
+      "Kausi": "1923",
+      "Sukunimi": "Mantila",
+      "Etunimi": "Hugo",
+      "Koko nimi": "Hugo Mantila"
     },
     {
-      "Kausi": "1921",
-      "Sukunimi": "Karjagin",
-      "Etunimi": "Alexander",
-      "Koko nimi": "Alexander Karjagin"
+      "Kausi": "1923",
+      "Sukunimi": "Kanerva",
+      "Etunimi": "William",
+      "Koko nimi": "William Kanerva",
+      "Pelipaikka": "Hyökkääjä"
     },
     {
-      "Kausi": "1921",
+      "Kausi": "1923",
       "Sukunimi": "Virta",
       "Etunimi": "Lauri",
       "Koko nimi": "Lauri Virta"
     },
     {
-      "Kausi": "1921",
+      "Kausi": "1923",
       "Sukunimi": "Tornivuori",
       "Etunimi": "Yrjö",
       "Koko nimi": "Yrjö Tornivuori"
     },
     {
+      "Kausi": "1922",
+      "Sukunimi": "Belewicz (Elevuo)",
+      "Etunimi": "Harald",
+      "Koko nimi": "Harald Belewicz (Elevuo)",
+      "Pelipaikka": "Maalivahti",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1922",
+      "Sukunimi": "Koskinen",
+      "Etunimi": "Niilo",
+      "Koko nimi": "Niilo Koskinen",
+      "Pelipaikka": "Oikea puolustaja",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1922",
+      "Sukunimi": "Lydman",
+      "Etunimi": "Sven",
+      "Koko nimi": "Sven Lydman",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1922",
+      "Sukunimi": "Karjagin",
+      "Etunimi": "Alexander",
+      "Koko nimi": "Alexander Karjagin",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1922",
+      "Sukunimi": "Mantila",
+      "Etunimi": "Hugo",
+      "Koko nimi": "Hugo Mantila",
+      "Maalit": "1"
+    },
+    {
+      "Kausi": "1922",
+      "Sukunimi": "Virta",
+      "Etunimi": "Lauri",
+      "Koko nimi": "Lauri Virta",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1922",
+      "Sukunimi": "Katajavuori",
+      "Etunimi": "Arvi",
+      "Koko nimi": "Arvi Katajavuori",
+      "Pelipaikka": "Hyökkääjä",
+      "Maalit": "8"
+    },
+    {
+      "Kausi": "1922",
+      "Sukunimi": "Tornivuori",
+      "Etunimi": "Yrjö",
+      "Koko nimi": "Yrjö Tornivuori",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1922",
+      "Sukunimi": "Hirvonen",
+      "Etunimi": "Viljo",
+      "Koko nimi": "Viljo Hirvonen",
+      "Maalit": "2"
+    },
+    {
+      "Kausi": "1922",
+      "Sukunimi": "Mantila",
+      "Etunimi": "Bruno",
+      "Koko nimi": "Bruno Mantila",
+      "Maalit": "4"
+    },
+    {
+      "Kausi": "1922",
+      "Sukunimi": "Linna",
+      "Etunimi": "Aarne",
+      "Koko nimi": "Aarne Linna",
+      "Maalit": "3"
+    },
+    {
+      "Kausi": "1921",
+      "Sukunimi": "Katajavuori",
+      "Etunimi": "Arvi",
+      "Koko nimi": "Arvi Katajavuori",
+      "Pelipaikka": "Hyökkääjä",
+      "Maalit": "3"
+    },
+    {
+      "Kausi": "1921",
+      "Sukunimi": "Linna",
+      "Etunimi": "Aarne",
+      "Koko nimi": "Aarne Linna",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1921",
+      "Sukunimi": "Mantila",
+      "Etunimi": "Hugo",
+      "Koko nimi": "Hugo Mantila",
+      "Muu rooli": "Kapteeni",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1921",
+      "Sukunimi": "Koskinen",
+      "Etunimi": "Niilo",
+      "Koko nimi": "Niilo Koskinen",
+      "Pelipaikka": "Oikea puolustaja",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1921",
+      "Sukunimi": "Belewicz (Elevuo)",
+      "Etunimi": "Harald",
+      "Koko nimi": "Harald Belewicz (Elevuo)",
+      "Pelipaikka": "Maalivahti",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1921",
+      "Sukunimi": "Lydman",
+      "Etunimi": "Sven",
+      "Koko nimi": "Sven Lydman",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1921",
+      "Sukunimi": "Karjagin",
+      "Etunimi": "Alexander",
+      "Koko nimi": "Alexander Karjagin",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1921",
+      "Sukunimi": "Virta",
+      "Etunimi": "Lauri",
+      "Koko nimi": "Lauri Virta",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1921",
+      "Sukunimi": "Tornivuori",
+      "Etunimi": "Yrjö",
+      "Koko nimi": "Yrjö Tornivuori",
+      "Maalit": "1"
+    },
+    {
       "Kausi": "1921",
       "Sukunimi": "Hirvonen",
       "Etunimi": "Viljo",
-      "Koko nimi": "Viljo Hirvonen"
+      "Koko nimi": "Viljo Hirvonen",
+      "Maalit": "2"
     },
     {
       "Kausi": "1921",
       "Sukunimi": "Mantila",
       "Etunimi": "Bruno",
-      "Koko nimi": "Bruno Mantila"
+      "Koko nimi": "Bruno Mantila",
+      "Maalit": "5"
     },
     {
       "Kausi": "1921",
       "Sukunimi": "Mantila",
       "Etunimi": "Toivo",
-      "Koko nimi": "Toivo Mantila"
+      "Koko nimi": "Toivo Mantila",
+      "Maalit": "0"
     },
     {
       "Kausi": "1920",
       "Sukunimi": "Kajanti",
       "Etunimi": "??",
       "Koko nimi": "?? Kajanti",
-      "Pelipaikka": "Maalivahti"
+      "Pelipaikka": "Maalivahti",
+      "Maalit": "0"
     },
     {
       "Kausi": "1920",
       "Sukunimi": "Lydman",
       "Etunimi": "Sven",
-      "Koko nimi": "Sven Lydman"
+      "Koko nimi": "Sven Lydman",
+      "Maalit": "0"
     },
     {
       "Kausi": "1920",
       "Sukunimi": "Koskinen",
       "Etunimi": "Niilo",
-      "Koko nimi": "Niilo Koskinen"
+      "Koko nimi": "Niilo Koskinen",
+      "Pelipaikka": "Oikea puolustaja",
+      "Maalit": "0"
     },
     {
       "Kausi": "1920",
       "Sukunimi": "Karjagin",
       "Etunimi": "Alexander",
-      "Koko nimi": "Alexander Karjagin"
+      "Koko nimi": "Alexander Karjagin",
+      "Maalit": "0"
     },
     {
       "Kausi": "1920",
       "Sukunimi": "Mantila",
       "Etunimi": "Hugo",
-      "Koko nimi": "Hugo Mantila"
+      "Koko nimi": "Hugo Mantila",
+      "Maalit": "0"
     },
     {
       "Kausi": "1920",
       "Sukunimi": "Virta",
       "Etunimi": "Lauri",
-      "Koko nimi": "Lauri Virta"
+      "Koko nimi": "Lauri Virta",
+      "Maalit": "0"
     },
     {
       "Kausi": "1920",
       "Sukunimi": "Tornivuori",
       "Etunimi": "Yrjö",
-      "Koko nimi": "Yrjö Tornivuori"
+      "Koko nimi": "Yrjö Tornivuori",
+      "Maalit": "0"
     },
     {
       "Kausi": "1920",
       "Sukunimi": "Hirvonen",
-      "Etunimi": "U",
-      "Koko nimi": "U Hirvonen"
+      "Etunimi": "Vilho",
+      "Koko nimi": "Vilho Hirvonen",
+      "Maalit": "1"
     },
     {
       "Kausi": "1920",
       "Sukunimi": "Mantila",
       "Etunimi": "Bruno",
-      "Koko nimi": "Bruno Mantila"
+      "Koko nimi": "Bruno Mantila",
+      "Maalit": "7"
+    },
+    {
+      "Kausi": "1920",
+      "Sukunimi": "Mantila",
+      "Etunimi": "Toivo",
+      "Koko nimi": "Toivo Mantila",
+      "Maalit": "0"
     },
     {
       "Kausi": "1920",
       "Sukunimi": "Katajavuori",
       "Etunimi": "Arvi",
-      "Koko nimi": "Arvi Katajavuori"
+      "Koko nimi": "Arvi Katajavuori",
+      "Maalit": "1"
     },
     {
       "Kausi": "1920",
       "Sukunimi": "Linna",
       "Etunimi": "Aarne",
-      "Koko nimi": "Aarne Linna"
+      "Koko nimi": "Aarne Linna",
+      "Maalit": "1"
     },
     {
       "Kausi": "1920",
       "Sukunimi": "Meriö",
-      "Etunimi": "??",
-      "Koko nimi": "?? Meriö"
+      "Etunimi": "Y.",
+      "Koko nimi": "Y. Meriö",
+      "Maalit": "0"
     },
     {
       "Kausi": "1920",
       "Sukunimi": "Kivi",
       "Etunimi": "P",
-      "Koko nimi": "P Kivi"
+      "Koko nimi": "P Kivi",
+      "Maalit": "0"
     },
     {
       "Kausi": "1920",
       "Sukunimi": "Lehtonen",
       "Etunimi": "??",
-      "Koko nimi": "?? Lehtonen"
+      "Koko nimi": "?? Lehtonen",
+      "Maalit": "0"
     },
     {
       "Kausi": "1919",
       "Sukunimi": "Tigerstedt",
       "Etunimi": "Arvid",
       "Koko nimi": "Arvid Tigerstedt",
-      "Pelipaikka": "Maalivahti"
+      "Pelipaikka": "Maalivahti",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1919",
+      "Sukunimi": "Lehtonen",
+      "Etunimi": "??",
+      "Koko nimi": "?? Lehtonen",
+      "Maalit": "0"
     },
     {
       "Kausi": "1919",
       "Sukunimi": "Linna",
       "Etunimi": "Aarne",
-      "Koko nimi": "Aarne Linna"
+      "Koko nimi": "Aarne Linna",
+      "Maalit": "1"
     },
     {
       "Kausi": "1919",
       "Sukunimi": "Katajavuori",
       "Etunimi": "Arvi",
-      "Koko nimi": "Arvi Katajavuori"
+      "Koko nimi": "Arvi Katajavuori",
+      "Maalit": "0"
     },
     {
       "Kausi": "1919",
       "Sukunimi": "Kivi",
       "Etunimi": "P",
-      "Koko nimi": "P Kivi"
+      "Koko nimi": "P Kivi",
+      "Maalit": "0"
     },
     {
       "Kausi": "1919",
       "Sukunimi": "Hirvonen",
       "Etunimi": "Viljo",
-      "Koko nimi": "Viljo Hirvonen"
+      "Koko nimi": "Viljo Hirvonen",
+      "Maalit": "2"
     },
     {
       "Kausi": "1919",
       "Sukunimi": "Mantila",
       "Etunimi": "Bruno",
-      "Koko nimi": "Bruno Mantila"
+      "Koko nimi": "Bruno Mantila",
+      "Maalit": "1"
+    },
+    {
+      "Kausi": "1919",
+      "Sukunimi": "Mantila",
+      "Etunimi": "Toivo",
+      "Koko nimi": "Toivo Mantila",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1919",
+      "Sukunimi": "Mantila",
+      "Etunimi": "Aarne",
+      "Koko nimi": "Aarne Mantila",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1919",
+      "Sukunimi": "Meriö",
+      "Etunimi": "Y.",
+      "Koko nimi": "Y. Meriö",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1919",
+      "Sukunimi": "Larsson",
+      "Etunimi": "??",
+      "Koko nimi": "?? Larsson",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1919",
+      "Sukunimi": "Virta",
+      "Etunimi": "??",
+      "Koko nimi": "?? Virta",
+      "Maalit": "0"
     },
     {
       "Kausi": "1919",
       "Sukunimi": "Tornivuori",
       "Etunimi": "Yrjö",
-      "Koko nimi": "Yrjö Tornivuori"
-    },
-    {
-      "Kausi": "1919",
-      "Sukunimi": "Lydman",
-      "Etunimi": "Sven",
-      "Koko nimi": "Sven Lydman"
-    },
-    {
-      "Kausi": "1919",
-      "Sukunimi": "Karjagin",
-      "Etunimi": "Alexander",
-      "Koko nimi": "Alexander Karjagin"
-    },
-    {
-      "Kausi": "1919",
-      "Sukunimi": "Virta",
-      "Etunimi": "Lauri",
-      "Koko nimi": "Lauri Virta"
+      "Koko nimi": "Yrjö Tornivuori",
+      "Maalit": "1"
     },
     {
       "Kausi": "1919",
       "Sukunimi": "Koskinen",
       "Etunimi": "Niilo",
-      "Koko nimi": "Niilo Koskinen"
-    },
-    {
-      "Kausi": "1919",
-      "Sukunimi": "Meriö",
-      "Etunimi": "??",
-      "Koko nimi": "?? Meriö"
+      "Koko nimi": "Niilo Koskinen",
+      "Pelipaikka": "Oikea puolustaja",
+      "Maalit": "0"
     },
     {
       "Kausi": "1918",
       "Sukunimi": "Lydman",
       "Etunimi": "Sven",
-      "Koko nimi": "Sven Lydman"
+      "Koko nimi": "Sven Lydman",
+      "Maalit": "0"
     },
     {
       "Kausi": "1918",
       "Sukunimi": "Karjagin",
       "Etunimi": "Alexander",
-      "Koko nimi": "Alexander Karjagin"
+      "Koko nimi": "Alexander Karjagin",
+      "Maalit": "0"
     },
     {
       "Kausi": "1918",
       "Sukunimi": "Hirvonen",
-      "Etunimi": "Viljo",
-      "Koko nimi": "Viljo Hirvonen"
+      "Etunimi": "Vilho",
+      "Koko nimi": "Vilho Hirvonen",
+      "Maalit": "0"
     },
     {
       "Kausi": "1918",
       "Sukunimi": "Tornivuori",
       "Etunimi": "Yrjö",
-      "Koko nimi": "Yrjö Tornivuori"
+      "Koko nimi": "Yrjö Tornivuori",
+      "Maalit": "0"
     },
     {
       "Kausi": "1918",
       "Sukunimi": "Linna",
       "Etunimi": "Aarne",
-      "Koko nimi": "Aarne Linna"
+      "Koko nimi": "Aarne Linna",
+      "Maalit": "1"
     },
     {
       "Kausi": "1918",
       "Sukunimi": "Katajavuori",
       "Etunimi": "Arvi",
-      "Koko nimi": "Arvi Katajavuori"
+      "Koko nimi": "Arvi Katajavuori",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1918",
+      "Sukunimi": "Virta",
+      "Etunimi": "A.",
+      "Koko nimi": "A. Virta",
+      "Maalit": "0"
     },
     {
       "Kausi": "1918",
       "Sukunimi": "Virta",
       "Etunimi": "Lauri",
-      "Koko nimi": "Lauri Virta"
+      "Koko nimi": "Lauri Virta",
+      "Maalit": "0"
     },
     {
       "Kausi": "1918",
       "Sukunimi": "Koskinen",
       "Etunimi": "Niilo",
-      "Koko nimi": "Niilo Koskinen"
+      "Koko nimi": "Niilo Koskinen",
+      "Pelipaikka": "Oikea puolustaja",
+      "Maalit": "0"
     },
     {
       "Kausi": "1918",
       "Sukunimi": "Kivi",
       "Etunimi": "P",
-      "Koko nimi": "P Kivi"
+      "Koko nimi": "P Kivi",
+      "Maalit": "0"
     },
     {
       "Kausi": "1918",
       "Sukunimi": "Meriö",
-      "Etunimi": "??",
-      "Koko nimi": "?? Meriö"
+      "Etunimi": "Y.",
+      "Koko nimi": "Y. Meriö",
+      "Maalit": "0"
     },
     {
       "Kausi": "1918",
       "Sukunimi": "Mantila",
       "Etunimi": "Bruno",
-      "Koko nimi": "Bruno Mantila"
+      "Koko nimi": "Bruno Mantila",
+      "Maalit": "3"
+    },
+    {
+      "Kausi": "1918",
+      "Sukunimi": "Mantila",
+      "Etunimi": "Toivo",
+      "Koko nimi": "Toivo Mantila",
+      "Maalit": "0"
     },
     {
       "Kausi": "1918",
       "Sukunimi": "Koponen",
       "Etunimi": "Aulis",
-      "Koko nimi": "Aulis Koponen"
+      "Koko nimi": "Aulis Koponen",
+      "Maalit": "0"
     },
     {
       "Kausi": "1918",
       "Sukunimi": "Saario",
       "Etunimi": "Sulo",
-      "Koko nimi": "Sulo Saario"
+      "Koko nimi": "Sulo Saario",
+      "Maalit": "0"
     },
     {
       "Kausi": "1918",
       "Sukunimi": "Saarilahti",
       "Etunimi": "Heimo",
-      "Koko nimi": "Heimo Saarilahti"
+      "Koko nimi": "Heimo Saarilahti",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1918",
+      "Sukunimi": "Lehtonen",
+      "Etunimi": "??",
+      "Koko nimi": "?? Lehtonen",
+      "Maalit": "0"
     }
   ]
