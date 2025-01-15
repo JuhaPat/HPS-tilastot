@@ -5,6 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pelaajat</title>
     <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* Madalletaan taulukon rivikorkeus ja pienennetään kuvakokoa */
+        .player-table tbody tr {
+            line-height: 1.0em; /* pienempi rivikorkeus */
+        }
+        .player-table td, .player-table th {
+            padding: 2px 4px; /* vähennetään paddingia */
+        }
+        .player-photo {
+            width: 35px;  /* pienempi leveys */
+            height: auto;
+        }
+
+        /* Asetetaan valitsimet allekkain ja keskitetään */
+        .valintalista-container {
+            margin: 10px 0 20px 0; /* ylä- ja ala-margin */
+            display: flex;
+            flex-direction: column;    /* allekkain */
+            align-items: center;       /* keskelle sivusuunnassa */
+            justify-content: center;   /* ei vaikuta kun column, 
+                                          mutta pidetään selkeyden vuoksi */
+            gap: 10px;                 /* pientä väliä valitsimien välille */
+        }
+        .valintalista-container label {
+            font-weight: bold;
+            margin-right: 6px;
+        }
+        .valintalista-container select {
+            margin-right: 10px;
+        }
+    </style>
 </head>
 <body>
     <div class="sidebar">
@@ -26,15 +58,32 @@
     <main>
         <img src="logot/HPS.jpg" alt="HPS Logo" style="width: 100px; height: auto; display: block; margin: 0 auto;">
         <h1>Pelaajat</h1>
-        <p>Valitse järjestys:</p>
-        <select id="sort-options">
-            <option value="alphabetical">Aakkosjärjestys</option>
-            <option value="most-games">Pelimäärän mukaan suurimmasta alkaen</option>
-            <option value="most-goals">Maalimäärän mukaan suurimmasta alkaen</option>
-            <option value="most-seasons">Kausien määrän mukaan suurimmasta alkaen</option>
-            <option value="first-season">Ensimmäisen kauden mukaan pienimmästä alkaen</option>
-            <option value="last-season">Viimeisen kauden mukaan suurimmasta alkaen</option>
-        </select>
+
+        <!-- Yhteinen kontti valitsimille: ne tulevat allekkain ja keskitettyinä -->
+        <div class="valintalista-container">
+            <!-- 1) Järjestysvalinta (oletus: Pelimäärän mukaan) -->
+            <div>
+                <label for="sort-options">Valitse järjestys:</label>
+                <select id="sort-options">
+                    <option value="most-games" selected>Pelimäärän mukaan suurimmasta alkaen</option>
+                    <option value="most-goals">Maalimäärän mukaan suurimmasta alkaen</option>
+                    <option value="most-seasons">Kausien määrän mukaan suurimmasta alkaen</option>
+                    <option value="first-season">Ensimmäisen kauden mukaan pienimmästä alkaen</option>
+                    <option value="last-season">Viimeisen kauden mukaan suurimmasta alkaen</option>
+                    <option value="alphabetical">Aakkosjärjestys</option>
+                </select>
+            </div>
+
+            <!-- 2) Pelityyppi (oletus: Kilpailulliset) -->
+            <div>
+                <label for="pelityyppi">Valitse pelityyppi:</label>
+                <select id="pelityyppi">
+                    <option value="kaikki">Kaikki pelit</option>
+                    <option value="kilpailulliset" selected>Kilpailulliset pelit</option>
+                    <option value="sarja">Sarjapelit</option>
+                </select>
+            </div>
+        </div>
 
         <table id="players-table" class="player-table">
             <thead>
@@ -44,9 +93,9 @@
                     <th>Etunimi</th>
                     <th>Pelipaikka</th>
                     <th>Muu rooli</th>
-                    <th>Pelit yhteensä</th>
-                    <th>Maalit yhteensä</th>
-                    <th>Kaudet yhteensä</th>
+                    <th>Pelit</th>    <!-- Päivittyy valinnan perusteella -->
+                    <th>Maalit</th>   <!-- Päivittyy valinnan perusteella -->
+                    <th>Kausien määrä</th>
                     <th>Ensimmäinen kausi</th>
                     <th>Viimeinen kausi</th>
                 </tr>
@@ -63,39 +112,71 @@
             .then(data => {
                 const tableBody = document.getElementById('players-table').querySelector('tbody');
                 const sortOptions = document.getElementById('sort-options');
+                const pelityyppiSelect = document.getElementById('pelityyppi');
 
+                // Käsitellään tiedot yhteen "playerTotals"-objektiin
                 const playerTotals = {};
+
                 data.forEach(record => {
                     const playerName = record["Koko nimi"];
-                    const kausi = parseInt(record["Kausi"], 10); // Muuntaa kauden numeroksi
+                    const kausi = parseInt(record["Kausi"], 10) || 0;
+
                     if (!playerTotals[playerName]) {
+                        // Alustus
+                        const [etunimi, ...rest] = playerName.split(' ');
+                        const sukunimi = rest.join(' ') || '';
+
                         playerTotals[playerName] = {
-                            sukunimi: playerName.split(' ')[1] || '',
-                            etunimi: playerName.split(' ')[0] || '',
+                            etunimi: etunimi || '',
+                            sukunimi: sukunimi || '',
                             pelipaikka: new Set(),
                             muuRooli: new Set(),
-                            pelit: 0,
-                            maalit: 0,
+
+                            kaikki_pelit: 0,
+                            kaikki_maalit: 0,
+
+                            sk_pelit: 0,
+                            sk_maalit: 0,
+
+                            s_pelit: 0,
+                            s_maalit: 0,
+
                             kaudet: 0,
                             ensimmäinenKausi: Infinity,
-                            viimeinenKausi: -Infinity
+                            viimeinenKausi: -Infinity,
                         };
                     }
-                    playerTotals[playerName].pelit += parseInt(record["Ottelut"] || 0, 10);
-                    playerTotals[playerName].maalit += parseInt(record["Maalit"] || 0, 10);
-                    playerTotals[playerName].kaudet += 1;
+
+                    const p = playerTotals[playerName];
 
                     if (record["Pelipaikka"]) {
-                        playerTotals[playerName].pelipaikka.add(record["Pelipaikka"]);
+                        p.pelipaikka.add(record["Pelipaikka"]);
                     }
                     if (record["Muu rooli"]) {
-                        playerTotals[playerName].muuRooli.add(record["Muu rooli"]);
+                        p.muuRooli.add(record["Muu rooli"]);
                     }
 
-                    if (!isNaN(kausi)) {
-                        playerTotals[playerName].ensimmäinenKausi = Math.min(playerTotals[playerName].ensimmäinenKausi, kausi);
-                        playerTotals[playerName].viimeinenKausi = Math.max(playerTotals[playerName].viimeinenKausi, kausi);
-                    }
+                    p.kaudet += 1;
+                    p.ensimmäinenKausi = Math.min(p.ensimmäinenKausi, kausi);
+                    p.viimeinenKausi = Math.max(p.viimeinenKausi, kausi);
+
+                    const pelitKaikki = parseInt(record["Kaikki pelit"] || 0, 10);
+                    const maalitKaikki = parseInt(record["Kaikki maalit"] || 0, 10);
+
+                    const pelitSK = parseInt(record["S+K pelit"] || 0, 10);
+                    const maalitSK = parseInt(record["S+K maalit"] || 0, 10);
+
+                    const pelitS = parseInt(record["S pelit"] || 0, 10);
+                    const maalitS = parseInt(record["S maalit"] || 0, 10);
+
+                    p.kaikki_pelit += pelitKaikki;
+                    p.kaikki_maalit += maalitKaikki;
+
+                    p.sk_pelit += pelitSK;
+                    p.sk_maalit += maalitSK;
+
+                    p.s_pelit += pelitS;
+                    p.s_maalit += maalitS;
                 });
 
                 const players = Object.values(playerTotals);
@@ -103,16 +184,43 @@
                 function renderTable(sortedPlayers) {
                     tableBody.innerHTML = '';
 
+                    const currentPelityyppi = pelityyppiSelect.value;
+
                     sortedPlayers.forEach(player => {
+                        let pelitCount = 0;
+                        let maalitCount = 0;
+
+                        if (currentPelityyppi === 'kaikki') {
+                            pelitCount = player.kaikki_pelit;
+                            maalitCount = player.kaikki_maalit;
+                        } else if (currentPelityyppi === 'kilpailulliset') {
+                            pelitCount = player.sk_pelit;
+                            maalitCount = player.sk_maalit;
+                        } else {
+                            // 'sarja'
+                            pelitCount = player.s_pelit;
+                            maalitCount = player.s_maalit;
+                        }
+
                         const tr = document.createElement('tr');
                         tr.innerHTML = `
-                            <td><img src="pelaajakuvat/pelaajakuva.jpg" alt="Pelaajan kuva" class="player-photo"></td>
-                            <td><a href="pelaajakortti.html?sukunimi=${encodeURIComponent(player.sukunimi)}&etunimi=${encodeURIComponent(player.etunimi)}">${player.sukunimi}</a></td>
-                            <td><a href="pelaajakortti.html?sukunimi=${encodeURIComponent(player.sukunimi)}&etunimi=${encodeURIComponent(player.etunimi)}">${player.etunimi}</a></td>
+                            <td>
+                                <img src="pelaajakuvat/pelaajakuva.jpg" alt="Pelaajan kuva" class="player-photo">
+                            </td>
+                            <td>
+                                <a href="pelaajakortti.html?sukunimi=${encodeURIComponent(player.sukunimi)}&etunimi=${encodeURIComponent(player.etunimi)}">
+                                    ${player.sukunimi}
+                                </a>
+                            </td>
+                            <td>
+                                <a href="pelaajakortti.html?sukunimi=${encodeURIComponent(player.sukunimi)}&etunimi=${encodeURIComponent(player.etunimi)}">
+                                    ${player.etunimi}
+                                </a>
+                            </td>
                             <td>${[...player.pelipaikka].join(', ')}</td>
                             <td>${[...player.muuRooli].join(', ')}</td>
-                            <td>${player.pelit}</td>
-                            <td>${player.maalit}</td>
+                            <td>${pelitCount}</td>
+                            <td>${maalitCount}</td>
                             <td>${player.kaudet}</td>
                             <td>${player.ensimmäinenKausi === Infinity ? '-' : player.ensimmäinenKausi}</td>
                             <td>${player.viimeinenKausi === -Infinity ? '-' : player.viimeinenKausi}</td>
@@ -124,26 +232,35 @@
                 function sortPlayers(criteria) {
                     let sortedPlayers = [...players];
 
-                    if (criteria === 'alphabetical') {
-                        sortedPlayers.sort((a, b) => a.sukunimi.localeCompare(b.sukunimi));
-                    } else if (criteria === 'most-games') {
-                        sortedPlayers.sort((a, b) => b.pelit - a.pelit);
+                    if (criteria === 'most-games') {
+                        sortedPlayers.sort((a, b) => b.kaikki_pelit - a.kaikki_pelit);
                     } else if (criteria === 'most-goals') {
-                        sortedPlayers.sort((a, b) => b.maalit - a.maalit);
+                        sortedPlayers.sort((a, b) => b.kaikki_maalit - a.kaikki_maalit);
                     } else if (criteria === 'most-seasons') {
                         sortedPlayers.sort((a, b) => b.kaudet - a.kaudet);
                     } else if (criteria === 'first-season') {
                         sortedPlayers.sort((a, b) => a.ensimmäinenKausi - b.ensimmäinenKausi);
                     } else if (criteria === 'last-season') {
                         sortedPlayers.sort((a, b) => b.viimeinenKausi - a.viimeinenKausi);
+                    } else {
+                        // 'alphabetical'
+                        sortedPlayers.sort((a, b) => a.sukunimi.localeCompare(b.sukunimi));
                     }
-
                     renderTable(sortedPlayers);
                 }
 
+                // Käynnistys: järjestys "most-games" (pelimäärän mukaan), 
+                // pelityyppi "kilpailulliset" (valintalistassa selected)
                 sortPlayers('most-games');
 
+                // Vaihdetaan järjestystä
                 sortOptions.addEventListener('change', () => {
+                    sortPlayers(sortOptions.value);
+                });
+
+                // Vaihdetaan pelityyppi
+                pelityyppiSelect.addEventListener('change', () => {
+                    // Säilytetään sama sort-kriteeri
                     sortPlayers(sortOptions.value);
                 });
             })
