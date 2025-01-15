@@ -25,8 +25,7 @@
             display: flex;
             flex-direction: column;    /* allekkain */
             align-items: center;       /* keskelle sivusuunnassa */
-            justify-content: center;   /* ei vaikuta kun column, 
-                                          mutta pidetään selkeyden vuoksi */
+            justify-content: center;   
             gap: 10px;                 /* pientä väliä valitsimien välille */
         }
         .valintalista-container label {
@@ -93,8 +92,8 @@
                     <th>Etunimi</th>
                     <th>Pelipaikka</th>
                     <th>Muu rooli</th>
-                    <th>Pelit</th>    <!-- Päivittyy valinnan perusteella -->
-                    <th>Maalit</th>   <!-- Päivittyy valinnan perusteella -->
+                    <th>Pelit</th>
+                    <th>Maalit</th>
                     <th>Kausien määrä</th>
                     <th>Ensimmäinen kausi</th>
                     <th>Viimeinen kausi</th>
@@ -121,11 +120,18 @@
                     const playerName = record["Koko nimi"];
                     const kausi = parseInt(record["Kausi"], 10) || 0;
 
-                    if (!playerTotals[playerName]) {
-                        // Alustus
-                        const [etunimi, ...rest] = playerName.split(' ');
-                        const sukunimi = rest.join(' ') || '';
+                    // Jos "Koko nimi" puuttuu tai ei ole merkkijono, skipataan tämä rivi 
+                    // (tai käsitellään halutulla tavalla).
+                    if (!playerName || typeof playerName !== 'string') {
+                        console.warn("Puuttuva tai virheellinen 'Koko nimi':", record);
+                        return; 
+                    }
 
+                    // Pilkotaan nimikenttä varoen
+                    const [etunimi, ...rest] = playerName.split(' ');
+                    const sukunimi = rest.join(' ') || '';
+
+                    if (!playerTotals[playerName]) {
                         playerTotals[playerName] = {
                             etunimi: etunimi || '',
                             sukunimi: sukunimi || '',
@@ -249,18 +255,14 @@
                     renderTable(sortedPlayers);
                 }
 
-                // Käynnistys: järjestys "most-games" (pelimäärän mukaan), 
-                // pelityyppi "kilpailulliset" (valintalistassa selected)
+                // Alussa: "most-games" & "kilpailulliset"
                 sortPlayers('most-games');
 
-                // Vaihdetaan järjestystä
                 sortOptions.addEventListener('change', () => {
                     sortPlayers(sortOptions.value);
                 });
 
-                // Vaihdetaan pelityyppi
                 pelityyppiSelect.addEventListener('change', () => {
-                    // Säilytetään sama sort-kriteeri
                     sortPlayers(sortOptions.value);
                 });
             })
