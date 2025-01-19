@@ -1,5 +1,4 @@
-{
-  "Sheet1": [
+[
     {
       "ottelu_id": "202426",
       "Kausi": "2024",
@@ -29876,4 +29875,3 @@
       "maalintekijät_koti": "Bruno Mantila"
     }
   ]
-}
