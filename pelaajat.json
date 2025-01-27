@@ -7543,8 +7543,6 @@
       "Etunimi": "Jari",
       "Koko nimi": "Jari Kuusela",
       "Pelipaikka": "Maalivahti",
-      "Ottelut": "16",
-      "Maalit": "0",
       "Kaikki pelit": "16",
       "Kaikki maalit": "0",
       "S+K pelit": "16",
@@ -7558,8 +7556,6 @@
       "Etunimi": "Vesa",
       "Koko nimi": "Vesa Mattila",
       "Pelipaikka": "Puolustaja",
-      "Ottelut": "22",
-      "Maalit": "0",
       "Kaikki pelit": "22",
       "Kaikki maalit": "0",
       "S+K pelit": "22",
@@ -7573,8 +7569,6 @@
       "Etunimi": "Pasi",
       "Koko nimi": "Pasi Aho",
       "Pelipaikka": "Puolustaja",
-      "Ottelut": "18",
-      "Maalit": "1",
       "Kaikki pelit": "18",
       "Kaikki maalit": "1",
       "S+K pelit": "18",
@@ -7588,8 +7582,6 @@
       "Etunimi": "Petri",
       "Koko nimi": "Petri Pähti",
       "Pelipaikka": "Puolustaja",
-      "Ottelut": "16",
-      "Maalit": "0",
       "Kaikki pelit": "16",
       "Kaikki maalit": "0",
       "S+K pelit": "16",
@@ -7603,8 +7595,6 @@
       "Etunimi": "Kari",
       "Koko nimi": "Kari Soiniemi",
       "Pelipaikka": "Puolustaja",
-      "Ottelut": "20",
-      "Maalit": "0",
       "Kaikki pelit": "20",
       "Kaikki maalit": "0",
       "S+K pelit": "20",
@@ -7618,8 +7608,6 @@
       "Etunimi": "Raine",
       "Koko nimi": "Raine Oksanen",
       "Pelipaikka": "Keskikenttä",
-      "Ottelut": "15",
-      "Maalit": "3",
       "Kaikki pelit": "15",
       "Kaikki maalit": "3",
       "S+K pelit": "15",
@@ -7633,8 +7621,6 @@
       "Etunimi": "Petri",
       "Koko nimi": "Petri Kiuru",
       "Pelipaikka": "Keskikenttä",
-      "Ottelut": "14",
-      "Maalit": "2",
       "Kaikki pelit": "14",
       "Kaikki maalit": "2",
       "S+K pelit": "14",
@@ -7648,8 +7634,6 @@
       "Etunimi": "Joni",
       "Koko nimi": "Joni Hammaren",
       "Pelipaikka": "Keskikenttä",
-      "Ottelut": "21",
-      "Maalit": "3",
       "Kaikki pelit": "21",
       "Kaikki maalit": "3",
       "S+K pelit": "21",
@@ -7660,11 +7644,9 @@
     {
       "Kausi": "1997",
       "Sukunimi": "Sinkkonen",
-      "Etunimi": "Jonni",
-      "Koko nimi": "Jonni Sinkkonen",
+      "Etunimi": "Jouni",
+      "Koko nimi": "Jouni Sinkkonen",
       "Pelipaikka": "Keskikenttä",
-      "Ottelut": "11",
-      "Maalit": "5",
       "Kaikki pelit": "11",
       "Kaikki maalit": "5",
       "S+K pelit": "11",
@@ -7678,8 +7660,6 @@
       "Etunimi": "Kai",
       "Koko nimi": "Kai Aksentjeff",
       "Pelipaikka": "Hyökkääjä",
-      "Ottelut": "20",
-      "Maalit": "7",
       "Kaikki pelit": "20",
       "Kaikki maalit": "7",
       "S+K pelit": "20",
@@ -7693,8 +7673,6 @@
       "Etunimi": "Tero",
       "Koko nimi": "Tero Virrantuomi",
       "Pelipaikka": "Hyökkääjä",
-      "Ottelut": "22",
-      "Maalit": "10",
       "Kaikki pelit": "22",
       "Kaikki maalit": "10",
       "S+K pelit": "22",
@@ -7708,8 +7686,6 @@
       "Etunimi": "Ville",
       "Koko nimi": "Ville Korpelainen",
       "Pelipaikka": "Keskikenttä",
-      "Ottelut": "17",
-      "Maalit": "0",
       "Kaikki pelit": "17",
       "Kaikki maalit": "0",
       "S+K pelit": "17",
@@ -7720,11 +7696,9 @@
     {
       "Kausi": "1997",
       "Sukunimi": "Korhonen",
-      "Etunimi": "Jari",
-      "Koko nimi": "Jari Korhonen",
+      "Etunimi": "Jarmo",
+      "Koko nimi": "Jarmo Korhonen",
       "Pelipaikka": "Keskikenttä",
-      "Ottelut": "20",
-      "Maalit": "3",
       "Kaikki pelit": "20",
       "Kaikki maalit": "3",
       "S+K pelit": "20",
@@ -7738,8 +7712,6 @@
       "Etunimi": "Antti",
       "Koko nimi": "Antti Jokinen",
       "Pelipaikka": "Maalivahti",
-      "Ottelut": "6",
-      "Maalit": "0",
       "Kaikki pelit": "6",
       "Kaikki maalit": "0",
       "S+K pelit": "6",
@@ -7753,8 +7725,6 @@
       "Etunimi": "Hannu",
       "Koko nimi": "Hannu Pulkkanen",
       "Pelipaikka": "Keskikenttä",
-      "Ottelut": "16",
-      "Maalit": "0",
       "Kaikki pelit": "16",
       "Kaikki maalit": "0",
       "S+K pelit": "16",
@@ -7768,8 +7738,6 @@
       "Etunimi": "Mitri",
       "Koko nimi": "Mitri Pakkanen",
       "Pelipaikka": "Keskikenttä",
-      "Ottelut": "12",
-      "Maalit": "0",
       "Kaikki pelit": "12",
       "Kaikki maalit": "0",
       "S+K pelit": "12",
@@ -7783,8 +7751,6 @@
       "Etunimi": "Jussi",
       "Koko nimi": "Jussi Meriläinen",
       "Pelipaikka": "Puolustaja",
-      "Ottelut": "15",
-      "Maalit": "1",
       "Kaikki pelit": "15",
       "Kaikki maalit": "1",
       "S+K pelit": "15",
@@ -7798,8 +7764,6 @@
       "Etunimi": "Antti",
       "Koko nimi": "Antti Tevanlinna",
       "Pelipaikka": "Keskikenttä",
-      "Ottelut": "3",
-      "Maalit": "0",
       "Kaikki pelit": "3",
       "Kaikki maalit": "0",
       "S+K pelit": "3",
@@ -7813,8 +7777,6 @@
       "Etunimi": "Toni",
       "Koko nimi": "Toni Makkonen",
       "Pelipaikka": "Hyökkääjä",
-      "Ottelut": "11",
-      "Maalit": "2",
       "Kaikki pelit": "11",
       "Kaikki maalit": "2",
       "S+K pelit": "11",
@@ -7828,8 +7790,6 @@
       "Etunimi": "Juha",
       "Koko nimi": "Juha Partanen",
       "Pelipaikka": "Keskikenttä",
-      "Ottelut": "1",
-      "Maalit": "0",
       "Kaikki pelit": "1",
       "Kaikki maalit": "0",
       "S+K pelit": "1",
@@ -7843,8 +7803,6 @@
       "Etunimi": "Juha",
       "Koko nimi": "Juha Mallat",
       "Pelipaikka": "Puolustaja",
-      "Ottelut": "1",
-      "Maalit": "0",
       "Kaikki pelit": "1",
       "Kaikki maalit": "0",
       "S+K pelit": "1",
@@ -8030,8 +7988,8 @@
     {
       "Kausi": "1996",
       "Sukunimi": "Sinkkonen",
-      "Etunimi": "Jonni",
-      "Koko nimi": "Jonni Sinkkonen",
+      "Etunimi": "Jouni",
+      "Koko nimi": "Jouni Sinkkonen",
       "Pelipaikka": "Keskikenttä"
     },
     {
@@ -8592,7 +8550,10 @@
       "Numero": "2",
       "Sukunimi": "Nukarinen",
       "Etunimi": "Ari",
-      "Koko nimi": "Ari Nukarinen"
+      "Koko nimi": "Ari Nukarinen",
+      "Kaikki maalit": "5",
+      "S+K maalit": "5",
+      "S maalit": "5"
     },
     {
       "Kausi": "1993",
@@ -8614,14 +8575,20 @@
       "Sukunimi": "Vaahto",
       "Etunimi": "Jyrki",
       "Koko nimi": "Jyrki Vaahto",
-      "Muu rooli": "Valmentaja"
+      "Muu rooli": "Valmentaja",
+      "Kaikki maalit": "1",
+      "S+K maalit": "1",
+      "S maalit": "1"
     },
     {
       "Kausi": "1993",
       "Numero": "6",
       "Sukunimi": "Partanen",
       "Etunimi": "Juha",
-      "Koko nimi": "Juha Partanen"
+      "Koko nimi": "Juha Partanen",
+      "Kaikki maalit": "1",
+      "S+K maalit": "1",
+      "S maalit": "1"
     },
     {
       "Kausi": "1993",
@@ -8635,7 +8602,10 @@
       "Numero": "8",
       "Sukunimi": "Pakkanen",
       "Etunimi": "Mitri",
-      "Koko nimi": "Mitri Pakkanen"
+      "Koko nimi": "Mitri Pakkanen",
+      "Kaikki maalit": "2",
+      "S+K maalit": "2",
+      "S maalit": "2"
     },
     {
       "Kausi": "1993",
@@ -8649,21 +8619,30 @@
       "Numero": "10",
       "Sukunimi": "Keskitalo",
       "Etunimi": "Jussi",
-      "Koko nimi": "Jussi Keskitalo"
+      "Koko nimi": "Jussi Keskitalo",
+      "Kaikki maalit": "9",
+      "S+K maalit": "9",
+      "S maalit": "9"
     },
     {
       "Kausi": "1993",
       "Numero": "11",
       "Sukunimi": "Tiikkainen",
       "Etunimi": "Kimmo",
-      "Koko nimi": "Kimmo Tiikkainen"
+      "Koko nimi": "Kimmo Tiikkainen",
+      "Kaikki maalit": "3",
+      "S+K maalit": "3",
+      "S maalit": "3"
     },
     {
       "Kausi": "1993",
       "Numero": "14",
       "Sukunimi": "Räty",
       "Etunimi": "Heikki",
-      "Koko nimi": "Heikki Räty"
+      "Koko nimi": "Heikki Räty",
+      "Kaikki maalit": "1",
+      "S+K maalit": "1",
+      "S maalit": "1"
     },
     {
       "Kausi": "1993",
@@ -8691,7 +8670,10 @@
       "Numero": "18",
       "Sukunimi": "Meriläinen",
       "Etunimi": "Jussi",
-      "Koko nimi": "Jussi Meriläinen"
+      "Koko nimi": "Jussi Meriläinen",
+      "Kaikki maalit": "1",
+      "S+K maalit": "1",
+      "S maalit": "1"
     },
     {
       "Kausi": "1993",
@@ -8726,7 +8708,28 @@
       "Numero": "25",
       "Sukunimi": "Kinnunen",
       "Etunimi": "Ari",
-      "Koko nimi": "Ari Kinnunen"
+      "Koko nimi": "Ari Kinnunen",
+      "Kaikki maalit": "2",
+      "S+K maalit": "2",
+      "S maalit": "2"
+    },
+    {
+      "Kausi": "1993",
+      "Sukunimi": "Knuutinen",
+      "Etunimi": "Janne",
+      "Koko nimi": "Janne Knuutinen",
+      "Kaikki maalit": "2",
+      "S+K maalit": "2",
+      "S maalit": "2"
+    },
+    {
+      "Kausi": "1993",
+      "Sukunimi": "Lunden",
+      "Etunimi": "Juha",
+      "Koko nimi": "Juha Lunden",
+      "Kaikki maalit": "5",
+      "S+K maalit": "5",
+      "S maalit": "5"
     },
     {
       "Kausi": "1993",
@@ -9257,7 +9260,6 @@
       "Etunimi": "Jan-Erik",
       "Koko nimi": "Jan-Erik Laine",
       "Pelipaikka": "Maalivahti",
-      "Ottelut": "3",
       "Kaikki pelit": "3",
       "S+K pelit": "3",
       "S pelit": "3"
@@ -9268,8 +9270,6 @@
       "Etunimi": "Petri",
       "Koko nimi": "Petri Pähti",
       "Pelipaikka": "Puolustaja",
-      "Ottelut": "17",
-      "Maalit": "5",
       "Kaikki pelit": "17",
       "Kaikki maalit": "5",
       "S+K pelit": "17",
@@ -9283,8 +9283,6 @@
       "Etunimi": "Peter",
       "Koko nimi": "Peter Holmqvist",
       "Pelipaikka": "Puolustaja",
-      "Ottelut": "22",
-      "Maalit": "3",
       "Kaikki pelit": "22",
       "Kaikki maalit": "3",
       "S+K pelit": "22",
@@ -9299,8 +9297,6 @@
       "Koko nimi": "Juha Partanen",
       "Pelipaikka": "Keskikenttä",
       "Muu rooli": "Valmentaja",
-      "Ottelut": "19",
-      "Maalit": "3",
       "Kaikki pelit": "19",
       "Kaikki maalit": "3",
       "S+K pelit": "19",
@@ -9314,7 +9310,6 @@
       "Etunimi": "Jouni",
       "Koko nimi": "Jouni Niiranen",
       "Pelipaikka": "Keskikenttä",
-      "Ottelut": "11",
       "Kaikki pelit": "11",
       "S+K pelit": "11",
       "S pelit": "11"
@@ -9325,8 +9320,6 @@
       "Etunimi": "Marko",
       "Koko nimi": "Marko Lamberg",
       "Pelipaikka": "Keskikenttä",
-      "Ottelut": "18",
-      "Maalit": "2",
       "Kaikki pelit": "18",
       "Kaikki maalit": "2",
       "S+K pelit": "18",
@@ -9340,8 +9333,6 @@
       "Etunimi": "Jussi",
       "Koko nimi": "Jussi Keskitalo",
       "Pelipaikka": "Hyökkääjä",
-      "Ottelut": "18",
-      "Maalit": "10",
       "Kaikki pelit": "18",
       "Kaikki maalit": "10",
       "S+K pelit": "18",
@@ -9355,8 +9346,6 @@
       "Etunimi": "Mika",
       "Koko nimi": "Mika Svahn",
       "Pelipaikka": "Puolustaja",
-      "Ottelut": "7",
-      "Maalit": "1",
       "Kaikki pelit": "7",
       "Kaikki maalit": "1",
       "S+K pelit": "7",
@@ -9370,8 +9359,6 @@
       "Etunimi": "Jari",
       "Koko nimi": "Jari Möykky",
       "Pelipaikka": "Hyökkääjä",
-      "Ottelut": "18",
-      "Maalit": "1",
       "Kaikki pelit": "18",
       "Kaikki maalit": "1",
       "S+K pelit": "18",
@@ -9385,8 +9372,6 @@
       "Etunimi": "Seppo",
       "Koko nimi": "Seppo Posio",
       "Pelipaikka": "Puolustaja",
-      "Ottelut": "15",
-      "Maalit": "1",
       "Kaikki pelit": "15",
       "Kaikki maalit": "1",
       "S+K pelit": "15",
@@ -9400,8 +9385,6 @@
       "Etunimi": "Tommi",
       "Koko nimi": "Tommi Ojala",
       "Pelipaikka": "Keskikenttä",
-      "Ottelut": "22",
-      "Maalit": "1",
       "Kaikki pelit": "22",
       "Kaikki maalit": "1",
       "S+K pelit": "22",
@@ -9415,7 +9398,6 @@
       "Etunimi": "Heikki",
       "Koko nimi": "Heikki Räty",
       "Pelipaikka": "Puolustaja",
-      "Ottelut": "5",
       "Kaikki pelit": "5",
       "S+K pelit": "5",
       "S pelit": "5"
@@ -9426,7 +9408,6 @@
       "Etunimi": "Pekka",
       "Koko nimi": "Pekka Petro",
       "Pelipaikka": "Keskikenttä",
-      "Ottelut": "12",
       "Kaikki pelit": "12",
       "S+K pelit": "12",
       "S pelit": "12"
@@ -9437,8 +9418,6 @@
       "Etunimi": "Mats",
       "Koko nimi": "Mats Lindqvist",
       "Pelipaikka": "Hyökkääjä",
-      "Ottelut": "15",
-      "Maalit": "1",
       "Kaikki pelit": "15",
       "Kaikki maalit": "1",
       "S+K pelit": "15",
@@ -9452,8 +9431,6 @@
       "Etunimi": "Keith",
       "Koko nimi": "Keith Richardson",
       "Pelipaikka": "Hyökkääjä",
-      "Ottelut": "15",
-      "Maalit": "4",
       "Kaikki pelit": "15",
       "Kaikki maalit": "4",
       "S+K pelit": "15",
@@ -9467,7 +9444,6 @@
       "Etunimi": "Timo",
       "Koko nimi": "Timo Hakola",
       "Pelipaikka": "Maalivahti",
-      "Ottelut": "3",
       "Kaikki pelit": "3",
       "S+K pelit": "3",
       "S pelit": "3"
@@ -9478,7 +9454,6 @@
       "Etunimi": "Pasi",
       "Koko nimi": "Pasi Keskinen",
       "Pelipaikka": "Hyökkääjä",
-      "Ottelut": "13",
       "Kaikki pelit": "13",
       "S+K pelit": "13",
       "S pelit": "13"
@@ -9489,8 +9464,6 @@
       "Etunimi": "Marko",
       "Koko nimi": "Marko Haikarainen",
       "Pelipaikka": "Puolustaja",
-      "Ottelut": "10",
-      "Maalit": "1",
       "Kaikki pelit": "10",
       "Kaikki maalit": "1",
       "S+K pelit": "10",
@@ -9504,7 +9477,6 @@
       "Etunimi": "Raimo",
       "Koko nimi": "Raimo Björkberg",
       "Pelipaikka": "Keskikenttä",
-      "Ottelut": "8",
       "Kaikki pelit": "8",
       "S+K pelit": "8",
       "S pelit": "8"
@@ -9515,7 +9487,6 @@
       "Etunimi": "Arto",
       "Koko nimi": "Arto Timonen",
       "Pelipaikka": "Maalivahti",
-      "Ottelut": "16",
       "Kaikki pelit": "16",
       "S+K pelit": "16",
       "S pelit": "16"
@@ -9526,7 +9497,6 @@
       "Etunimi": "Ari",
       "Koko nimi": "Ari Nukarinen",
       "Pelipaikka": "Keskikenttä",
-      "Ottelut": "9",
       "Kaikki pelit": "9",
       "S+K pelit": "9",
       "S pelit": "9"
@@ -9536,7 +9506,6 @@
       "Sukunimi": "Luukka",
       "Etunimi": "Ilpo",
       "Koko nimi": "Ilpo Luukka",
-      "Ottelut": "1",
       "Kaikki pelit": "1",
       "S+K pelit": "1",
       "S pelit": "1"
@@ -9547,7 +9516,6 @@
       "Etunimi": "Sakari",
       "Koko nimi": "Sakari Nieminen",
       "Muu rooli": "Joukkueenjohtaja",
-      "Ottelut": "1",
       "Kaikki pelit": "1",
       "S+K pelit": "1",
       "S pelit": "1"
@@ -9607,192 +9575,6 @@
     },
     {
       "Kausi": "1989",
-      "Sukunimi": "Korhonen",
-      "Etunimi": "Vesa",
-      "Koko nimi": "Vesa Korhonen",
-      "Ottelut": "19",
-      "Maalit": "1",
-      "Kaikki pelit": "19",
-      "Kaikki maalit": "1",
-      "S+K pelit": "19",
-      "S+K maalit": "1",
-      "S pelit": "19",
-      "S maalit": "1"
-    },
-    {
-      "Kausi": "1989",
-      "Sukunimi": "Haga",
-      "Etunimi": "Fredrik",
-      "Koko nimi": "Fredrik Haga",
-      "Ottelut": "20",
-      "Maalit": "3",
-      "Kaikki pelit": "20",
-      "Kaikki maalit": "3",
-      "S+K pelit": "20",
-      "S+K maalit": "3",
-      "S pelit": "20",
-      "S maalit": "3"
-    },
-    {
-      "Kausi": "1989",
-      "Sukunimi": "Koskinen",
-      "Etunimi": "Harri",
-      "Koko nimi": "Harri Koskinen",
-      "Ottelut": "13",
-      "Kaikki pelit": "13",
-      "S+K pelit": "13",
-      "S pelit": "13"
-    },
-    {
-      "Kausi": "1989",
-      "Sukunimi": "Lamberg",
-      "Etunimi": "Marko",
-      "Koko nimi": "Marko Lamberg",
-      "Ottelut": "20",
-      "Maalit": "4",
-      "Kaikki pelit": "20",
-      "Kaikki maalit": "4",
-      "S+K pelit": "20",
-      "S+K maalit": "4",
-      "S pelit": "20",
-      "S maalit": "4"
-    },
-    {
-      "Kausi": "1989",
-      "Sukunimi": "Niiranen",
-      "Etunimi": "Jouni",
-      "Koko nimi": "Jouni Niiranen",
-      "Ottelut": "14",
-      "Maalit": "1",
-      "Kaikki pelit": "14",
-      "Kaikki maalit": "1",
-      "S+K pelit": "14",
-      "S+K maalit": "1",
-      "S pelit": "14",
-      "S maalit": "1"
-    },
-    {
-      "Kausi": "1989",
-      "Sukunimi": "Nyberg",
-      "Etunimi": "Harri",
-      "Koko nimi": "Harri Nyberg",
-      "Ottelut": "18",
-      "Maalit": "2",
-      "Kaikki pelit": "18",
-      "Kaikki maalit": "2",
-      "S+K pelit": "18",
-      "S+K maalit": "2",
-      "S pelit": "18",
-      "S maalit": "2"
-    },
-    {
-      "Kausi": "1989",
-      "Sukunimi": "Nukarinen",
-      "Etunimi": "Ari",
-      "Koko nimi": "Ari Nukarinen",
-      "Ottelut": "17",
-      "Kaikki pelit": "17",
-      "S+K pelit": "17",
-      "S pelit": "17"
-    },
-    {
-      "Kausi": "1989",
-      "Sukunimi": "Holmqvist",
-      "Etunimi": "Peter",
-      "Koko nimi": "Peter Holmqvist",
-      "Ottelut": "21",
-      "Maalit": "1",
-      "Kaikki pelit": "21",
-      "Kaikki maalit": "1",
-      "S+K pelit": "21",
-      "S+K maalit": "1",
-      "S pelit": "21",
-      "S maalit": "1"
-    },
-    {
-      "Kausi": "1989",
-      "Sukunimi": "Petro",
-      "Etunimi": "Pekka",
-      "Koko nimi": "Pekka Petro",
-      "Ottelut": "15",
-      "Kaikki pelit": "15",
-      "S+K pelit": "15",
-      "S pelit": "15"
-    },
-    {
-      "Kausi": "1989",
-      "Sukunimi": "Möykky",
-      "Etunimi": "Jari",
-      "Koko nimi": "Jari Möykky",
-      "Ottelut": "21",
-      "Maalit": "2",
-      "Kaikki pelit": "21",
-      "Kaikki maalit": "2",
-      "S+K pelit": "21",
-      "S+K maalit": "2",
-      "S pelit": "21",
-      "S maalit": "2"
-    },
-    {
-      "Kausi": "1989",
-      "Sukunimi": "Keskinen",
-      "Etunimi": "Pasi",
-      "Koko nimi": "Pasi Keskinen",
-      "Ottelut": "13",
-      "Kaikki pelit": "13",
-      "S+K pelit": "13",
-      "S pelit": "13"
-    },
-    {
-      "Kausi": "1989",
-      "Sukunimi": "Partanen",
-      "Etunimi": "Juha",
-      "Koko nimi": "Juha Partanen",
-      "Ottelut": "20",
-      "Maalit": "2",
-      "Kaikki pelit": "20",
-      "Kaikki maalit": "2",
-      "S+K pelit": "20",
-      "S+K maalit": "2",
-      "S pelit": "20",
-      "S maalit": "2"
-    },
-    {
-      "Kausi": "1989",
-      "Sukunimi": "Mäkinen",
-      "Etunimi": "Jouni",
-      "Koko nimi": "Jouni Mäkinen",
-      "Ottelut": "3",
-      "Kaikki pelit": "3",
-      "S+K pelit": "3",
-      "S pelit": "3"
-    },
-    {
-      "Kausi": "1989",
-      "Sukunimi": "Ryynänen",
-      "Etunimi": "Pentti",
-      "Koko nimi": "Pentti Ryynänen",
-      "Ottelut": "10",
-      "Kaikki pelit": "10",
-      "S+K pelit": "10",
-      "S pelit": "10"
-    },
-    {
-      "Kausi": "1989",
-      "Sukunimi": "Lax",
-      "Etunimi": "Seppo",
-      "Koko nimi": "Seppo Lax",
-      "Ottelut": "15",
-      "Maalit": "1",
-      "Kaikki pelit": "15",
-      "Kaikki maalit": "1",
-      "S+K pelit": "15",
-      "S+K maalit": "1",
-      "S pelit": "15",
-      "S maalit": "1"
-    },
-    {
-      "Kausi": "1989",
       "Sukunimi": "Koskela",
       "Etunimi": "Jari",
       "Koko nimi": "Jari Koskela",
@@ -9805,10 +9587,221 @@
     },
     {
       "Kausi": "1989",
+      "Sukunimi": "Heikkilä",
+      "Etunimi": "Sami",
+      "Koko nimi": "Sami Heikkilä",
+      "Pelipaikka": "Maalivahti"
+    },
+    {
+      "Kausi": "1989",
+      "Sukunimi": "Aapro",
+      "Etunimi": "Seppo",
+      "Koko nimi": "Seppo Aapro",
+      "Pelipaikka": "Puolustaja"
+    },
+    {
+      "Kausi": "1989",
+      "Sukunimi": "Haga",
+      "Etunimi": "Fredrik",
+      "Koko nimi": "Fredrik Haga",
+      "Pelipaikka": "Puolustaja",
+      "Kaikki pelit": "20",
+      "Kaikki maalit": "3",
+      "S+K pelit": "20",
+      "S+K maalit": "3",
+      "S pelit": "20",
+      "S maalit": "3"
+    },
+    {
+      "Kausi": "1989",
+      "Sukunimi": "Korhonen",
+      "Etunimi": "Vesa",
+      "Koko nimi": "Vesa Korhonen",
+      "Pelipaikka": "Puolustaja",
+      "Kaikki pelit": "19",
+      "Kaikki maalit": "1",
+      "S+K pelit": "19",
+      "S+K maalit": "1",
+      "S pelit": "19",
+      "S maalit": "1"
+    },
+    {
+      "Kausi": "1989",
+      "Sukunimi": "Koskinen",
+      "Etunimi": "Harri",
+      "Koko nimi": "Harri Koskinen",
+      "Pelipaikka": "Puolustaja",
+      "Kaikki pelit": "13",
+      "S+K pelit": "13",
+      "S pelit": "13"
+    },
+    {
+      "Kausi": "1989",
+      "Sukunimi": "Nukarinen",
+      "Etunimi": "Ari",
+      "Koko nimi": "Ari Nukarinen",
+      "Pelipaikka": "Puolustaja",
+      "Kaikki pelit": "17",
+      "S+K pelit": "17",
+      "S pelit": "17"
+    },
+    {
+      "Kausi": "1989",
+      "Sukunimi": "Swahn",
+      "Etunimi": "Per-Erik",
+      "Koko nimi": "Per-Erik Swahn",
+      "Pelipaikka": "Puolustaja"
+    },
+    {
+      "Kausi": "1989",
+      "Sukunimi": "Holmqvist",
+      "Etunimi": "Peter",
+      "Koko nimi": "Peter Holmqvist",
+      "Pelipaikka": "Keskikenttä",
+      "Kaikki pelit": "21",
+      "Kaikki maalit": "1",
+      "S+K pelit": "21",
+      "S+K maalit": "1",
+      "S pelit": "21",
+      "S maalit": "1"
+    },
+    {
+      "Kausi": "1989",
+      "Sukunimi": "Lax",
+      "Etunimi": "Seppo",
+      "Koko nimi": "Seppo Lax",
+      "Pelipaikka": "Keskikenttä",
+      "Kaikki pelit": "15",
+      "Kaikki maalit": "1",
+      "S+K pelit": "15",
+      "S+K maalit": "1",
+      "S pelit": "15",
+      "S maalit": "1"
+    },
+    {
+      "Kausi": "1989",
+      "Sukunimi": "Mäkinen",
+      "Etunimi": "Jouni",
+      "Koko nimi": "Jouni Mäkinen",
+      "Pelipaikka": "Keskikenttä",
+      "Kaikki pelit": "3",
+      "S+K pelit": "3",
+      "S pelit": "3"
+    },
+    {
+      "Kausi": "1989",
+      "Sukunimi": "Niiranen",
+      "Etunimi": "Jouni",
+      "Koko nimi": "Jouni Niiranen",
+      "Pelipaikka": "Keskikenttä",
+      "Kaikki pelit": "14",
+      "Kaikki maalit": "1",
+      "S+K pelit": "14",
+      "S+K maalit": "1",
+      "S pelit": "14",
+      "S maalit": "1"
+    },
+    {
+      "Kausi": "1989",
+      "Sukunimi": "Partanen",
+      "Etunimi": "Juha",
+      "Koko nimi": "Juha Partanen",
+      "Pelipaikka": "Keskikenttä",
+      "Kaikki pelit": "20",
+      "Kaikki maalit": "1",
+      "S+K pelit": "20",
+      "S+K maalit": "1",
+      "S pelit": "20",
+      "S maalit": "1"
+    },
+    {
+      "Kausi": "1989",
+      "Sukunimi": "Petro",
+      "Etunimi": "Pekka",
+      "Koko nimi": "Pekka Petro",
+      "Pelipaikka": "Keskikenttä",
+      "Kaikki pelit": "15",
+      "S+K pelit": "15",
+      "S pelit": "15"
+    },
+    {
+      "Kausi": "1989",
+      "Sukunimi": "Ryynänen",
+      "Etunimi": "Pentti",
+      "Koko nimi": "Pentti Ryynänen",
+      "Pelipaikka": "Keskikenttä",
+      "Kaikki pelit": "10",
+      "S+K pelit": "10",
+      "S pelit": "10"
+    },
+    {
+      "Kausi": "1989",
+      "Sukunimi": "Junttila",
+      "Etunimi": "Petri",
+      "Koko nimi": "Petri Junttila",
+      "Pelipaikka": "Hyökkääjä"
+    },
+    {
+      "Kausi": "1989",
+      "Sukunimi": "Keskinen",
+      "Etunimi": "Pasi",
+      "Koko nimi": "Pasi Keskinen",
+      "Pelipaikka": "Hyökkääjä",
+      "Kaikki pelit": "13",
+      "S+K pelit": "13",
+      "S pelit": "13"
+    },
+    {
+      "Kausi": "1989",
+      "Sukunimi": "Lamberg",
+      "Etunimi": "Marko",
+      "Koko nimi": "Marko Lamberg",
+      "Pelipaikka": "Hyökkääjä",
+      "Kaikki pelit": "20",
+      "Kaikki maalit": "5",
+      "S+K pelit": "20",
+      "S+K maalit": "5",
+      "S pelit": "20",
+      "S maalit": "5"
+    },
+    {
+      "Kausi": "1989",
+      "Sukunimi": "Nuuttinen",
+      "Etunimi": "Pekka",
+      "Koko nimi": "Pekka Nuuttinen",
+      "Pelipaikka": "Hyökkääjä"
+    },
+    {
+      "Kausi": "1989",
+      "Sukunimi": "Nyberg",
+      "Etunimi": "Harri",
+      "Koko nimi": "Harri Nyberg",
+      "Pelipaikka": "Hyökkääjä",
+      "Kaikki pelit": "18",
+      "Kaikki maalit": "2",
+      "S+K pelit": "18",
+      "S+K maalit": "2",
+      "S pelit": "18",
+      "S maalit": "2"
+    },
+    {
+      "Kausi": "1989",
+      "Sukunimi": "Möykky",
+      "Etunimi": "Jari",
+      "Koko nimi": "Jari Möykky",
+      "Pelipaikka": "Hyökkääjä",
+      "Kaikki pelit": "21",
+      "Kaikki maalit": "2",
+      "S+K pelit": "21",
+      "S+K maalit": "2",
+      "S pelit": "21",
+      "S maalit": "2"
+    },
+    {
+      "Kausi": "1989",
       "Sukunimi": "Keski-Korhonen",
       "Etunimi": "Hannu",
       "Koko nimi": "Hannu Keski-Korhonen",
-      "Ottelut": "10",
       "Kaikki pelit": "10",
       "S+K pelit": "10",
       "S pelit": "10"
@@ -9818,7 +9811,6 @@
       "Sukunimi": "Räty",
       "Etunimi": "Heikki",
       "Koko nimi": "Heikki Räty",
-      "Ottelut": "7",
       "Kaikki pelit": "7",
       "S+K pelit": "7",
       "S pelit": "7"
@@ -9846,12 +9838,25 @@
       "Muu rooli": "Valmentaja"
     },
     {
+      "Kausi": "1989",
+      "Sukunimi": "Kyntölä",
+      "Etunimi": "Hannu",
+      "Koko nimi": "Hannu Kyntölä",
+      "Muu rooli": "Huoltaja"
+    },
+    {
+      "Kausi": "1989",
+      "Sukunimi": "Kyntölä",
+      "Etunimi": "Kai",
+      "Koko nimi": "Kai Kyntölä",
+      "Muu rooli": "Lääkäri"
+    },
+    {
       "Kausi": "1988",
       "Sukunimi": "Timonen",
       "Etunimi": "Arto",
       "Koko nimi": "Arto Timonen",
       "Pelipaikka": "Maalivahti",
-      "Ottelut": "15",
       "Kaikki pelit": "15",
       "S+K pelit": "15",
       "S pelit": "15"
@@ -9862,7 +9867,6 @@
       "Etunimi": "Tapio",
       "Koko nimi": "Tapio Illi",
       "Pelipaikka": "Puolustaja",
-      "Ottelut": "13",
       "Kaikki pelit": "13",
       "S+K pelit": "13",
       "S pelit": "13"
@@ -9873,7 +9877,6 @@
       "Etunimi": "Heikki",
       "Koko nimi": "Heikki Räty",
       "Pelipaikka": "Puolustaja",
-      "Ottelut": "19",
       "Kaikki pelit": "19",
       "S+K pelit": "19",
       "S pelit": "19"
@@ -9884,8 +9887,6 @@
       "Etunimi": "Matti",
       "Koko nimi": "Matti Immonen",
       "Pelipaikka": "Puolustaja",
-      "Ottelut": "21",
-      "Maalit": "1",
       "Kaikki pelit": "21",
       "Kaikki maalit": "1",
       "S+K pelit": "21",
@@ -9899,8 +9900,6 @@
       "Etunimi": "Harri",
       "Koko nimi": "Harri Koskinen",
       "Pelipaikka": "Puolustaja",
-      "Ottelut": "21",
-      "Maalit": "2",
       "Kaikki pelit": "21",
       "Kaikki maalit": "2",
       "S+K pelit": "21",
@@ -9914,7 +9913,6 @@
       "Etunimi": "Vesa",
       "Koko nimi": "Vesa Korhonen",
       "Pelipaikka": "Puolustaja",
-      "Ottelut": "13",
       "Kaikki pelit": "13",
       "S+K pelit": "13",
       "S pelit": "13"
@@ -9925,8 +9923,6 @@
       "Etunimi": "Seppo",
       "Koko nimi": "Seppo Lax",
       "Pelipaikka": "Keskikenttä",
-      "Ottelut": "12",
-      "Maalit": "2",
       "Kaikki pelit": "12",
       "Kaikki maalit": "2",
       "S+K pelit": "12",
@@ -9940,8 +9936,6 @@
       "Etunimi": "Ari",
       "Koko nimi": "Ari Nukarinen",
       "Pelipaikka": "Keskikenttä",
-      "Ottelut": "20",
-      "Maalit": "3",
       "Kaikki pelit": "20",
       "Kaikki maalit": "3",
       "S+K pelit": "20",
@@ -9955,14 +9949,12 @@
       "Etunimi": "Tapio",
       "Koko nimi": "Tapio Keskitalo",
       "Pelipaikka": "Hyökkääjä",
-      "Ottelut": "21",
-      "Maalit": "6",
       "Kaikki pelit": "21",
-      "Kaikki maalit": "6",
+      "Kaikki maalit": "5",
       "S+K pelit": "21",
-      "S+K maalit": "6",
+      "S+K maalit": "5",
       "S pelit": "21",
-      "S maalit": "6"
+      "S maalit": "5"
     },
     {
       "Kausi": "1988",
@@ -9971,8 +9963,6 @@
       "Koko nimi": "Kenneth Grönroos",
       "Pelipaikka": "Keskikenttä",
       "Muu rooli": "Valmentaja",
-      "Ottelut": "16",
-      "Maalit": "2",
       "Kaikki pelit": "16",
       "Kaikki maalit": "2",
       "S+K pelit": "16",
@@ -9986,7 +9976,6 @@
       "Etunimi": "Jouni",
       "Koko nimi": "Jouni Mäkinen",
       "Pelipaikka": "Keskikenttä",
-      "Ottelut": "2",
       "Kaikki pelit": "2",
       "S+K pelit": "2",
       "S pelit": "2"
@@ -9997,14 +9986,12 @@
       "Etunimi": "Jussi",
       "Koko nimi": "Jussi Keskitalo",
       "Pelipaikka": "Hyökkääjä",
-      "Ottelut": "14",
-      "Maalit": "2",
       "Kaikki pelit": "14",
-      "Kaikki maalit": "2",
+      "Kaikki maalit": "3",
       "S+K pelit": "14",
-      "S+K maalit": "2",
+      "S+K maalit": "3",
       "S pelit": "14",
-      "S maalit": "2"
+      "S maalit": "3"
     },
     {
       "Kausi": "1988",
@@ -10012,8 +9999,6 @@
       "Etunimi": "Jyrki",
       "Koko nimi": "Jyrki Vaahto",
       "Pelipaikka": "Puolustaja",
-      "Ottelut": "17",
-      "Maalit": "1",
       "Kaikki pelit": "17",
       "Kaikki maalit": "1",
       "S+K pelit": "17",
@@ -10027,7 +10012,6 @@
       "Etunimi": "Peter",
       "Koko nimi": "Peter Holmqvist",
       "Pelipaikka": "Keskikenttä",
-      "Ottelut": "12",
       "Kaikki pelit": "12",
       "S+K pelit": "12",
       "S pelit": "12"
@@ -10038,8 +10022,6 @@
       "Etunimi": "Jouni",
       "Koko nimi": "Jouni Niiranen",
       "Pelipaikka": "Hyökkääjä",
-      "Ottelut": "19",
-      "Maalit": "3",
       "Kaikki pelit": "19",
       "Kaikki maalit": "3",
       "S+K pelit": "19",
@@ -10053,7 +10035,6 @@
       "Etunimi": "Juha",
       "Koko nimi": "Juha Partanen",
       "Pelipaikka": "Keskikenttä",
-      "Ottelut": "19",
       "Kaikki pelit": "19",
       "S+K pelit": "19",
       "S pelit": "19"
@@ -10064,7 +10045,6 @@
       "Etunimi": "Pasi",
       "Koko nimi": "Pasi Keskinen",
       "Pelipaikka": "Hyökkääjä",
-      "Ottelut": "2",
       "Kaikki pelit": "2",
       "S+K pelit": "2",
       "S pelit": "2"
@@ -10074,7 +10054,6 @@
       "Sukunimi": "Richardson",
       "Etunimi": "Keith",
       "Koko nimi": "Keith Richardson",
-      "Ottelut": "4",
       "Kaikki pelit": "4",
       "S+K pelit": "4",
       "S pelit": "4"
@@ -10085,7 +10064,6 @@
       "Etunimi": "Jan-Erik",
       "Koko nimi": "Jan-Erik Laine",
       "Pelipaikka": "Maalivahti",
-      "Ottelut": "7",
       "Kaikki pelit": "7",
       "S+K pelit": "7",
       "S pelit": "7"
@@ -10095,8 +10073,6 @@
       "Sukunimi": "Lomotey",
       "Etunimi": "Emmanuel",
       "Koko nimi": "Emmanuel Lomotey",
-      "Ottelut": "9",
-      "Maalit": "3",
       "Kaikki pelit": "9",
       "Kaikki maalit": "3",
       "S+K pelit": "9",
@@ -10109,7 +10085,6 @@
       "Sukunimi": "Aaltonen",
       "Etunimi": "Martti",
       "Koko nimi": "Martti Aaltonen",
-      "Ottelut": "4",
       "Kaikki pelit": "4",
       "S+K pelit": "4",
       "S pelit": "4"
@@ -10231,14 +10206,20 @@
       "Sukunimi": "Holm",
       "Etunimi": "Veli",
       "Koko nimi": "Veli Holm",
-      "Pelipaikka": "Puolustaja"
+      "Pelipaikka": "Puolustaja",
+      "Kaikki maalit": "4",
+      "S+K maalit": "4",
+      "S maalit": "4"
     },
     {
       "Kausi": "1987",
       "Sukunimi": "Illi",
       "Etunimi": "Tapio",
       "Koko nimi": "Tapio Illi",
-      "Pelipaikka": "Puolustaja"
+      "Pelipaikka": "Puolustaja",
+      "Kaikki maalit": "1",
+      "S+K maalit": "1",
+      "S maalit": "1"
     },
     {
       "Kausi": "1987",
@@ -10266,14 +10247,20 @@
       "Sukunimi": "Räty",
       "Etunimi": "Heikki",
       "Koko nimi": "Heikki Räty",
-      "Pelipaikka": "Puolustaja"
+      "Pelipaikka": "Puolustaja",
+      "Kaikki maalit": "2",
+      "S+K maalit": "2",
+      "S maalit": "2"
     },
     {
       "Kausi": "1987",
       "Sukunimi": "Vaahto",
       "Etunimi": "Jyrki",
       "Koko nimi": "Jyrki Vaahto",
-      "Pelipaikka": "Puolustaja"
+      "Pelipaikka": "Puolustaja",
+      "Kaikki maalit": "2",
+      "S+K maalit": "2",
+      "S maalit": "2"
     },
     {
       "Kausi": "1987",
@@ -10322,7 +10309,10 @@
       "Sukunimi": "Partanen",
       "Etunimi": "Juha",
       "Koko nimi": "Juha Partanen",
-      "Pelipaikka": "Keskikenttä"
+      "Pelipaikka": "Keskikenttä",
+      "Kaikki maalit": "3",
+      "S+K maalit": "3",
+      "S maalit": "3"
     },
     {
       "Kausi": "1987",
@@ -10357,14 +10347,29 @@
       "Sukunimi": "Keskinen",
       "Etunimi": "Pasi",
       "Koko nimi": "Pasi Keskinen",
-      "Pelipaikka": "Hyökkääjä"
+      "Pelipaikka": "Hyökkääjä",
+      "Kaikki maalit": "4",
+      "S+K maalit": "4",
+      "S maalit": "4"
     },
     {
       "Kausi": "1987",
       "Sukunimi": "Keskitalo",
       "Etunimi": "Jussi",
       "Koko nimi": "Jussi Keskitalo",
-      "Pelipaikka": "Hyökkääjä"
+      "Pelipaikka": "Hyökkääjä",
+      "Kaikki maalit": "8",
+      "S+K maalit": "8",
+      "S maalit": "8"
+    },
+    {
+      "Kausi": "1987",
+      "Sukunimi": "Keskitalo",
+      "Etunimi": "Tapio",
+      "Koko nimi": "Tapio Keskitalo",
+      "Kaikki maalit": "7",
+      "S+K maalit": "7",
+      "S maalit": "7"
     },
     {
       "Kausi": "1987",
@@ -10378,14 +10383,20 @@
       "Sukunimi": "Mäkinen",
       "Etunimi": "Jouni",
       "Koko nimi": "Jouni Mäkinen",
-      "Pelipaikka": "Hyökkääjä"
+      "Pelipaikka": "Hyökkääjä",
+      "Kaikki maalit": "2",
+      "S+K maalit": "2",
+      "S maalit": "2"
     },
     {
       "Kausi": "1987",
       "Sukunimi": "Nukarinen",
       "Etunimi": "Ari",
       "Koko nimi": "Ari Nukarinen",
-      "Pelipaikka": "Hyökkääjä"
+      "Pelipaikka": "Hyökkääjä",
+      "Kaikki maalit": "5",
+      "S+K maalit": "5",
+      "S maalit": "5"
     },
     {
       "Kausi": "1987",
@@ -10393,6 +10404,15 @@
       "Etunimi": "Petri",
       "Koko nimi": "Petri Wilen",
       "Pelipaikka": "Hyökkääjä"
+    },
+    {
+      "Kausi": "1987",
+      "Sukunimi": "Koskinen",
+      "Etunimi": "Harri",
+      "Koko nimi": "Harri Koskinen",
+      "Kaikki maalit": "2",
+      "S+K maalit": "2",
+      "S maalit": "2"
     },
     {
       "Kausi": "1987",
@@ -10434,77 +10454,110 @@
       "Sukunimi": "Johansson",
       "Etunimi": "Janne",
       "Koko nimi": "Janne Johansson",
-      "Pelipaikka": "Puolustaja"
+      "Pelipaikka": "Puolustaja",
+      "Kaikki maalit": "1",
+      "S+K maalit": "1",
+      "S maalit": "1"
     },
     {
       "Kausi": "1986",
       "Sukunimi": "Ojala",
       "Etunimi": "Tommi",
       "Koko nimi": "Tommi Ojala",
-      "Pelipaikka": "Puolustaja"
+      "Pelipaikka": "Puolustaja",
+      "Kaikki maalit": "1",
+      "S+K maalit": "1",
+      "S maalit": "1"
     },
     {
       "Kausi": "1986",
       "Sukunimi": "Räty",
       "Etunimi": "Heikki",
       "Koko nimi": "Heikki Räty",
-      "Pelipaikka": "Puolustaja"
+      "Pelipaikka": "Puolustaja",
+      "Kaikki maalit": "3",
+      "S+K maalit": "3",
+      "S maalit": "3"
     },
     {
       "Kausi": "1986",
       "Sukunimi": "Vaahto",
       "Etunimi": "Jyrki",
       "Koko nimi": "Jyrki Vaahto",
-      "Pelipaikka": "Puolustaja"
+      "Pelipaikka": "Puolustaja",
+      "Kaikki maalit": "2",
+      "S+K maalit": "2",
+      "S maalit": "2"
     },
     {
       "Kausi": "1986",
-      "Sukunimi": "Öhberg",
+      "Sukunimi": "Öberg",
       "Etunimi": "Klas",
-      "Koko nimi": "Klas Öhberg",
-      "Pelipaikka": "Puolustaja"
+      "Koko nimi": "Klas Öberg",
+      "Pelipaikka": "Puolustaja",
+      "Kaikki maalit": "1",
+      "S+K maalit": "1",
+      "S maalit": "1"
     },
     {
       "Kausi": "1986",
       "Sukunimi": "Laiho",
       "Etunimi": "Risto",
       "Koko nimi": "Risto Laiho",
-      "Pelipaikka": "Keskikenttä"
+      "Pelipaikka": "Keskikenttä",
+      "Kaikki maalit": "4",
+      "S+K maalit": "4",
+      "S maalit": "4"
     },
     {
       "Kausi": "1986",
       "Sukunimi": "Niiranen",
       "Etunimi": "Pertti",
       "Koko nimi": "Pertti Niiranen",
-      "Pelipaikka": "Keskikenttä"
+      "Pelipaikka": "Keskikenttä",
+      "Kaikki maalit": "2",
+      "S+K maalit": "2",
+      "S maalit": "2"
     },
     {
       "Kausi": "1986",
       "Sukunimi": "Partanen",
       "Etunimi": "Juha",
       "Koko nimi": "Juha Partanen",
-      "Pelipaikka": "Keskikenttä"
+      "Pelipaikka": "Keskikenttä",
+      "Kaikki maalit": "2",
+      "S+K maalit": "2",
+      "S maalit": "2"
     },
     {
       "Kausi": "1986",
       "Sukunimi": "Tauru",
       "Etunimi": "Mika",
       "Koko nimi": "Mika Tauru",
-      "Pelipaikka": "Keskikenttä"
+      "Pelipaikka": "Keskikenttä",
+      "Kaikki maalit": "1",
+      "S+K maalit": "1",
+      "S maalit": "1"
     },
     {
       "Kausi": "1986",
       "Sukunimi": "Viitanen",
       "Etunimi": "Timo",
       "Koko nimi": "Timo Viitanen",
-      "Pelipaikka": "Keskikenttä"
+      "Pelipaikka": "Keskikenttä",
+      "Kaikki maalit": "3",
+      "S+K maalit": "3",
+      "S maalit": "3"
     },
     {
       "Kausi": "1986",
       "Sukunimi": "Keskitalo",
       "Etunimi": "Jussi",
       "Koko nimi": "Jussi Keskitalo",
-      "Pelipaikka": "Hyökkääjä"
+      "Pelipaikka": "Hyökkääjä",
+      "Kaikki maalit": "6",
+      "S+K maalit": "6",
+      "S maalit": "6"
     },
     {
       "Kausi": "1986",
@@ -10512,7 +10565,6 @@
       "Etunimi": "Tapio",
       "Koko nimi": "Tapio Keskitalo",
       "Pelipaikka": "Hyökkääjä",
-      "Maalit": "15",
       "Kaikki maalit": "15",
       "S+K maalit": "15",
       "S maalit": "15"
@@ -10522,7 +10574,10 @@
       "Sukunimi": "Grönroos",
       "Etunimi": "Kenneth",
       "Koko nimi": "Kenneth Grönroos",
-      "Pelipaikka": "Hyökkääjä"
+      "Pelipaikka": "Hyökkääjä",
+      "Kaikki maalit": "4",
+      "S+K maalit": "4",
+      "S maalit": "4"
     },
     {
       "Kausi": "1986",
@@ -10540,6 +10595,15 @@
     },
     {
       "Kausi": "1986",
+      "Sukunimi": "Immonen",
+      "Etunimi": "Matti",
+      "Koko nimi": "Matti Immonen",
+      "Kaikki maalit": "1",
+      "S+K maalit": "1",
+      "S maalit": "1"
+    },
+    {
+      "Kausi": "1986",
       "Sukunimi": "Forsblom",
       "Etunimi": "Mauri",
       "Koko nimi": "Mauri Forsblom",
@@ -10550,6 +10614,13 @@
       "Sukunimi": "Nieminen",
       "Etunimi": "Sakari",
       "Koko nimi": "Sakari Nieminen",
+      "Muu rooli": "Valmentaja"
+    },
+    {
+      "Kausi": "1986",
+      "Sukunimi": "Leppänen",
+      "Etunimi": "Seppo",
+      "Koko nimi": "Seppo Leppänen",
       "Muu rooli": "Valmentaja"
     },
     {
@@ -10620,35 +10691,50 @@
       "Sukunimi": "Finska",
       "Etunimi": "Vesa",
       "Koko nimi": "Vesa Finska",
-      "Pelipaikka": "Keskikenttä"
+      "Pelipaikka": "Keskikenttä",
+      "Kaikki maalit": "3",
+      "S+K maalit": "3",
+      "S maalit": "3"
     },
     {
       "Kausi": "1985",
       "Sukunimi": "Keskitalo",
       "Etunimi": "Tapio",
       "Koko nimi": "Tapio Keskitalo",
-      "Pelipaikka": "Keskikenttä"
+      "Pelipaikka": "Keskikenttä",
+      "Kaikki maalit": "6",
+      "S+K maalit": "6",
+      "S maalit": "6"
     },
     {
       "Kausi": "1985",
       "Sukunimi": "Partanen",
       "Etunimi": "Juha",
       "Koko nimi": "Juha Partanen",
-      "Pelipaikka": "Keskikenttä"
+      "Pelipaikka": "Keskikenttä",
+      "Kaikki maalit": "3",
+      "S+K maalit": "3",
+      "S maalit": "3"
     },
     {
       "Kausi": "1985",
       "Sukunimi": "Partanen",
       "Etunimi": "Seppo",
       "Koko nimi": "Seppo Partanen",
-      "Pelipaikka": "Keskikenttä"
+      "Pelipaikka": "Keskikenttä",
+      "Kaikki maalit": "2",
+      "S+K maalit": "2",
+      "S maalit": "2"
     },
     {
       "Kausi": "1985",
       "Sukunimi": "Niiranen",
       "Etunimi": "Pertti",
       "Koko nimi": "Pertti Niiranen",
-      "Pelipaikka": "Keskikenttä"
+      "Pelipaikka": "Keskikenttä",
+      "Kaikki maalit": "7",
+      "S+K maalit": "7",
+      "S maalit": "7"
     },
     {
       "Kausi": "1985",
@@ -10669,7 +10755,10 @@
       "Sukunimi": "Kuusela",
       "Etunimi": "Kari",
       "Koko nimi": "Kari Kuusela",
-      "Pelipaikka": "Hyökkääjä"
+      "Pelipaikka": "Hyökkääjä",
+      "Kaikki maalit": "1",
+      "S+K maalit": "1",
+      "S maalit": "1"
     },
     {
       "Kausi": "1985",
@@ -10697,14 +10786,20 @@
       "Sukunimi": "Partanen",
       "Etunimi": "Tapio",
       "Koko nimi": "Tapio Partanen",
-      "Pelipaikka": "Hyökkääjä"
+      "Pelipaikka": "Hyökkääjä",
+      "Kaikki maalit": "1",
+      "S+K maalit": "1",
+      "S maalit": "1"
     },
     {
       "Kausi": "1985",
       "Sukunimi": "Keskitalo",
       "Etunimi": "Jussi",
       "Koko nimi": "Jussi Keskitalo",
-      "Pelipaikka": "Hyökkääjä"
+      "Pelipaikka": "Hyökkääjä",
+      "Kaikki maalit": "3",
+      "S+K maalit": "3",
+      "S maalit": "3"
     },
     {
       "Kausi": "1985",
@@ -10719,10 +10814,36 @@
       "Etunimi": "Thomas",
       "Koko nimi": "Thomas Shortall",
       "Pelipaikka": "Hyökkääjä",
-      "Maalit": "9",
       "Kaikki maalit": "9",
       "S+K maalit": "9",
       "S maalit": "9"
+    },
+    {
+      "Kausi": "1985",
+      "Sukunimi": "Koivunen",
+      "Etunimi": "Timo",
+      "Koko nimi": "Timo Koivunen",
+      "Kaikki maalit": "3",
+      "S+K maalit": "3",
+      "S maalit": "3"
+    },
+    {
+      "Kausi": "1985",
+      "Sukunimi": "Koskinen",
+      "Etunimi": "Harri",
+      "Koko nimi": "Harri Koskinen",
+      "Kaikki maalit": "2",
+      "S+K maalit": "2",
+      "S maalit": "2"
+    },
+    {
+      "Kausi": "1985",
+      "Sukunimi": "Tauru",
+      "Etunimi": "Mika",
+      "Koko nimi": "Mika Tauru",
+      "Kaikki maalit": "2",
+      "S+K maalit": "2",
+      "S maalit": "2"
     },
     {
       "Kausi": "1985",
@@ -12721,6 +12842,7 @@
       "Sukunimi": "Askolin",
       "Etunimi": "Timo",
       "Koko nimi": "Timo Askolin",
+      "Pelipaikka": "Keskikenttä",
       "Ottelut": "2",
       "Kaikki pelit": "2",
       "S+K pelit": "2",
@@ -12731,6 +12853,7 @@
       "Sukunimi": "Holopainen",
       "Etunimi": "Martti",
       "Koko nimi": "Martti Holopainen",
+      "Pelipaikka": "Puolustaja/keskustuki",
       "Ottelut": "14",
       "Maalit": "5",
       "Kaikki pelit": "14",
@@ -12745,6 +12868,7 @@
       "Sukunimi": "Holtari",
       "Etunimi": "Hannu",
       "Koko nimi": "Hannu Holtari",
+      "Pelipaikka": "Hyökkääjä",
       "Ottelut": "10",
       "Maalit": "5",
       "Kaikki pelit": "10",
@@ -12759,6 +12883,7 @@
       "Sukunimi": "Honkasalo",
       "Etunimi": "Janne",
       "Koko nimi": "Janne Honkasalo",
+      "Pelipaikka": "Puolustaja/keskustuki",
       "Ottelut": "2",
       "Kaikki pelit": "2",
       "S+K pelit": "2",
@@ -12769,6 +12894,7 @@
       "Sukunimi": "Högström",
       "Etunimi": "Dan",
       "Koko nimi": "Dan Högström",
+      "Pelipaikka": "Hyökkääjä",
       "Ottelut": "17",
       "Maalit": "9",
       "Kaikki pelit": "17",
@@ -12783,6 +12909,7 @@
       "Sukunimi": "Janér",
       "Etunimi": "Jan-Henrik",
       "Koko nimi": "Jan-Henrik Janér",
+      "Pelipaikka": "Keskikenttä",
       "Ottelut": "1",
       "Kaikki pelit": "1",
       "S+K pelit": "1",
@@ -12793,6 +12920,7 @@
       "Sukunimi": "Jääskeläinen",
       "Etunimi": "Seppo",
       "Koko nimi": "Seppo Jääskeläinen",
+      "Pelipaikka": "Hyökkääjä",
       "Ottelut": "8",
       "Maalit": "1",
       "Kaikki pelit": "8",
@@ -12807,6 +12935,7 @@
       "Sukunimi": "Laaksonen",
       "Etunimi": "Vesa",
       "Koko nimi": "Vesa Laaksonen",
+      "Pelipaikka": "Hyökkääjä",
       "Ottelut": "7",
       "Kaikki pelit": "7",
       "S+K pelit": "7",
@@ -12817,6 +12946,7 @@
       "Sukunimi": "Multaharju",
       "Etunimi": "Heikki",
       "Koko nimi": "Heikki Multaharju",
+      "Pelipaikka": "Hyökkääjä",
       "Ottelut": "6",
       "Maalit": "2",
       "Kaikki pelit": "6",
@@ -12831,6 +12961,7 @@
       "Sukunimi": "Niemi",
       "Etunimi": "Kalle",
       "Koko nimi": "Kalle Niemi",
+      "Pelipaikka": "Puolustaja/keskustuki",
       "Ottelut": "7",
       "Kaikki pelit": "7",
       "S+K pelit": "7",
@@ -12841,6 +12972,7 @@
       "Sukunimi": "Niskanen",
       "Etunimi": "Mauri",
       "Koko nimi": "Mauri Niskanen",
+      "Pelipaikka": "Keskikenttä",
       "Ottelut": "1",
       "Kaikki pelit": "1",
       "S+K pelit": "1",
@@ -12862,6 +12994,7 @@
       "Sukunimi": "Ojala",
       "Etunimi": "Ari",
       "Koko nimi": "Ari Ojala",
+      "Pelipaikka": "Puolustaja/keskustuki",
       "Ottelut": "19",
       "Maalit": "1",
       "Kaikki pelit": "19",
@@ -12887,6 +13020,7 @@
       "Sukunimi": "Poikulainen",
       "Etunimi": "Erkki",
       "Koko nimi": "Erkki Poikulainen",
+      "Pelipaikka": "Keskikenttä",
       "Ottelut": "3",
       "Maalit": "1",
       "Kaikki pelit": "3",
@@ -12901,6 +13035,7 @@
       "Sukunimi": "Puranen",
       "Etunimi": "Olli",
       "Koko nimi": "Olli Puranen",
+      "Pelipaikka": "Puolustaja/keskustuki",
       "Ottelut": "13",
       "Maalit": "2",
       "Kaikki pelit": "13",
@@ -12926,6 +13061,7 @@
       "Sukunimi": "Salmi",
       "Etunimi": "Juhani",
       "Koko nimi": "Juhani Salmi",
+      "Pelipaikka": "Hyökkääjä",
       "Ottelut": "8",
       "Maalit": "3",
       "Kaikki pelit": "8",
@@ -12940,7 +13076,7 @@
       "Sukunimi": "Sjöstedt",
       "Etunimi": "Bo",
       "Koko nimi": "Bo Sjöstedt",
-      "Muu rooli": "Valmentaja",
+      "Pelipaikka": "Valmentaja",
       "Ottelut": "0",
       "Kaikki pelit": "0",
       "S+K pelit": "0",
@@ -12951,6 +13087,7 @@
       "Sukunimi": "Suvioja",
       "Etunimi": "Hannu",
       "Koko nimi": "Hannu Suvioja",
+      "Pelipaikka": "Keskikenttä",
       "Ottelut": "16",
       "Maalit": "3",
       "Kaikki pelit": "16",
@@ -12965,6 +13102,7 @@
       "Sukunimi": "Virtanen",
       "Etunimi": "Markku",
       "Koko nimi": "Markku Virtanen",
+      "Pelipaikka": "Puolustaja/keskustuki",
       "Ottelut": "11",
       "Kaikki pelit": "11",
       "S+K pelit": "11",
@@ -12996,6 +13134,13 @@
     },
     {
       "Kausi": "1975",
+      "Sukunimi": "Koskinen",
+      "Etunimi": "Tapani",
+      "Koko nimi": "Tapani Koskinen",
+      "Muu rooli": "Joukkueenjohtaja"
+    },
+    {
+      "Kausi": "1975",
       "Sukunimi": "Kyntölä",
       "Etunimi": "Kai",
       "Koko nimi": "Kai Kyntölä",
@@ -13013,8 +13158,6 @@
       "Sukunimi": "Holtari",
       "Etunimi": "Hannu",
       "Koko nimi": "Hannu Holtari",
-      "Ottelut": "22",
-      "Maalit": "4",
       "Kaikki pelit": "22",
       "Kaikki maalit": "4",
       "S+K pelit": "22",
@@ -13027,8 +13170,6 @@
       "Sukunimi": "Honkasalo",
       "Etunimi": "Janne",
       "Koko nimi": "Janne Honkasalo",
-      "Ottelut": "5",
-      "Maalit": "1",
       "Kaikki pelit": "5",
       "Kaikki maalit": "1",
       "S+K pelit": "5",
@@ -13041,8 +13182,6 @@
       "Sukunimi": "Högström",
       "Etunimi": "Dan",
       "Koko nimi": "Dan Högström",
-      "Ottelut": "22",
-      "Maalit": "12",
       "Kaikki pelit": "22",
       "Kaikki maalit": "12",
       "S+K pelit": "22",
@@ -13055,7 +13194,6 @@
       "Sukunimi": "Inkinen",
       "Etunimi": "Sakari",
       "Koko nimi": "Sakari Inkinen",
-      "Ottelut": "3",
       "Kaikki pelit": "3",
       "S+K pelit": "3",
       "S pelit": "3"
@@ -13065,7 +13203,6 @@
       "Sukunimi": "Janér",
       "Etunimi": "Jan-Henrik",
       "Koko nimi": "Jan-Henrik Janér",
-      "Ottelut": "0",
       "Kaikki pelit": "0",
       "S+K pelit": "0",
       "S pelit": "0"
@@ -13075,8 +13212,6 @@
       "Sukunimi": "Kokko",
       "Etunimi": "Reima",
       "Koko nimi": "Reima Kokko",
-      "Ottelut": "13",
-      "Maalit": "4",
       "Kaikki pelit": "13",
       "Kaikki maalit": "4",
       "S+K pelit": "13",
@@ -13089,8 +13224,6 @@
       "Sukunimi": "Laaksonen",
       "Etunimi": "Vesa",
       "Koko nimi": "Vesa Laaksonen",
-      "Ottelut": "6",
-      "Maalit": "3",
       "Kaikki pelit": "6",
       "Kaikki maalit": "3",
       "S+K pelit": "6",
@@ -13103,8 +13236,6 @@
       "Sukunimi": "Lehtolainen",
       "Etunimi": "Kari",
       "Koko nimi": "Kari Lehtolainen",
-      "Ottelut": "20",
-      "Maalit": "19",
       "Kaikki pelit": "20",
       "Kaikki maalit": "19",
       "S+K pelit": "20",
@@ -13118,7 +13249,6 @@
       "Etunimi": "Juhani",
       "Koko nimi": "Juhani Linjamäki",
       "Pelipaikka": "Maalivahti",
-      "Ottelut": "0",
       "Kaikki pelit": "0",
       "S+K pelit": "0",
       "S pelit": "0"
@@ -13128,7 +13258,6 @@
       "Sukunimi": "Niemi",
       "Etunimi": "Kalle",
       "Koko nimi": "Kalle Niemi",
-      "Ottelut": "2",
       "Kaikki pelit": "2",
       "S+K pelit": "2",
       "S pelit": "2"
@@ -13138,7 +13267,6 @@
       "Sukunimi": "Niskanen",
       "Etunimi": "Mauri",
       "Koko nimi": "Mauri Niskanen",
-      "Ottelut": "0",
       "Kaikki pelit": "0",
       "S+K pelit": "0",
       "S pelit": "0"
@@ -13149,7 +13277,6 @@
       "Etunimi": "Max",
       "Koko nimi": "Max Nyberg",
       "Pelipaikka": "Maalivahti",
-      "Ottelut": "6",
       "Kaikki pelit": "6",
       "S+K pelit": "6",
       "S pelit": "6"
@@ -13159,7 +13286,6 @@
       "Sukunimi": "Partanen",
       "Etunimi": "Auvo",
       "Koko nimi": "Auvo Partanen",
-      "Ottelut": "9",
       "Kaikki pelit": "9",
       "S+K pelit": "9",
       "S pelit": "9"
@@ -13170,7 +13296,6 @@
       "Etunimi": "Keijo",
       "Koko nimi": "Keijo Pietarinen",
       "Pelipaikka": "Maalivahti",
-      "Ottelut": "6",
       "Kaikki pelit": "6",
       "S+K pelit": "6",
       "S pelit": "6"
@@ -13180,8 +13305,6 @@
       "Sukunimi": "Puranen",
       "Etunimi": "Olli",
       "Koko nimi": "Olli Puranen",
-      "Ottelut": "22",
-      "Maalit": "4",
       "Kaikki pelit": "22",
       "Kaikki maalit": "4",
       "S+K pelit": "22",
@@ -13194,7 +13317,6 @@
       "Sukunimi": "Rosberg",
       "Etunimi": "Heikki",
       "Koko nimi": "Heikki Rosberg",
-      "Ottelut": "1",
       "Kaikki pelit": "1",
       "S+K pelit": "1",
       "S pelit": "1"
@@ -13204,8 +13326,6 @@
       "Sukunimi": "Sandelin",
       "Etunimi": "Pentti",
       "Koko nimi": "Pentti Sandelin",
-      "Ottelut": "11",
-      "Maalit": "1",
       "Kaikki pelit": "11",
       "Kaikki maalit": "1",
       "S+K pelit": "11",
@@ -13218,7 +13338,6 @@
       "Sukunimi": "Sjöstedt",
       "Etunimi": "Bo",
       "Koko nimi": "Bo Sjöstedt",
-      "Ottelut": "1",
       "Kaikki pelit": "1",
       "S+K pelit": "1",
       "S pelit": "1"
@@ -13228,8 +13347,6 @@
       "Sukunimi": "Suvioja",
       "Etunimi": "Hannu",
       "Koko nimi": "Hannu Suvioja",
-      "Ottelut": "22",
-      "Maalit": "2",
       "Kaikki pelit": "22",
       "Kaikki maalit": "2",
       "S+K pelit": "22",
@@ -13242,7 +13359,6 @@
       "Sukunimi": "Vanninen",
       "Etunimi": "Alpo",
       "Koko nimi": "Alpo Vanninen",
-      "Ottelut": "13",
       "Kaikki pelit": "13",
       "S+K pelit": "13",
       "S pelit": "13"
@@ -13254,8 +13370,6 @@
       "Koko nimi": "Kaj Österberg",
       "Pelipaikka": "Oikea välihyökkääjä",
       "Muu rooli": "Valmentaja",
-      "Ottelut": "5",
-      "Maalit": "2",
       "Kaikki pelit": "5",
       "Kaikki maalit": "2",
       "S+K pelit": "5",
@@ -13268,7 +13382,6 @@
       "Sukunimi": "Österberg",
       "Etunimi": "Veli-Pekka",
       "Koko nimi": "Veli-Pekka Österberg",
-      "Ottelut": "0",
       "Kaikki pelit": "0",
       "S+K pelit": "0",
       "S pelit": "0"
@@ -13893,7 +14006,6 @@
       "Sukunimi": "Avo",
       "Etunimi": "Markku",
       "Koko nimi": "Markku Avo",
-      "Maalit": "8",
       "Kaikki maalit": "8",
       "S+K maalit": "8",
       "S maalit": "8"
@@ -13909,17 +14021,15 @@
       "Sukunimi": "Elo",
       "Etunimi": "Raimo",
       "Koko nimi": "Raimo Elo",
-      "Maalit": "4",
-      "Kaikki maalit": "4",
-      "S+K maalit": "4",
-      "S maalit": "4"
+      "Kaikki maalit": "5",
+      "S+K maalit": "5",
+      "S maalit": "5"
     },
     {
       "Kausi": "1970",
       "Sukunimi": "Harden",
       "Etunimi": "Risto",
       "Koko nimi": "Risto Harden",
-      "Maalit": "1",
       "Kaikki maalit": "1",
       "S+K maalit": "1",
       "S maalit": "1"
@@ -13941,7 +14051,6 @@
       "Sukunimi": "Jokinen",
       "Etunimi": "Timo",
       "Koko nimi": "Timo Jokinen",
-      "Maalit": "4",
       "Kaikki maalit": "4",
       "S+K maalit": "4",
       "S maalit": "4"
@@ -13951,7 +14060,6 @@
       "Sukunimi": "Keränen",
       "Etunimi": "Olli",
       "Koko nimi": "Olli Keränen",
-      "Maalit": "1",
       "Kaikki maalit": "1",
       "S+K maalit": "1",
       "S maalit": "1"
@@ -13979,27 +14087,24 @@
       "Sukunimi": "Laaksonen",
       "Etunimi": "Pentti",
       "Koko nimi": "Pentti Laaksonen",
-      "Maalit": "1",
-      "Kaikki maalit": "1",
-      "S+K maalit": "1",
-      "S maalit": "1"
+      "Kaikki maalit": "2",
+      "S+K maalit": "2",
+      "S maalit": "2"
     },
     {
       "Kausi": "1970",
       "Sukunimi": "Laaksonen",
       "Etunimi": "Vesa",
       "Koko nimi": "Vesa Laaksonen",
-      "Maalit": "5",
-      "Kaikki maalit": "5",
-      "S+K maalit": "5",
-      "S maalit": "5"
+      "Kaikki maalit": "4",
+      "S+K maalit": "4",
+      "S maalit": "4"
     },
     {
       "Kausi": "1970",
       "Sukunimi": "Lehtonen",
       "Etunimi": "Tapio",
       "Koko nimi": "Tapio Lehtonen",
-      "Maalit": "3",
       "Kaikki maalit": "3",
       "S+K maalit": "3",
       "S maalit": "3"
@@ -14013,9 +14118,8 @@
     {
       "Kausi": "1970",
       "Sukunimi": "Lindqvist",
-      "Etunimi": "Timo",
-      "Koko nimi": "Timo Lindqvist",
-      "Maalit": "1",
+      "Etunimi": "Simo",
+      "Koko nimi": "Simo Lindqvist",
       "Kaikki maalit": "1",
       "S+K maalit": "1",
       "S maalit": "1"
@@ -14061,10 +14165,9 @@
       "Sukunimi": "Sandelin",
       "Etunimi": "Pentti",
       "Koko nimi": "Pentti Sandelin",
-      "Maalit": "2",
-      "Kaikki maalit": "2",
-      "S+K maalit": "2",
-      "S maalit": "2"
+      "Kaikki maalit": "1",
+      "S+K maalit": "1",
+      "S maalit": "1"
     },
     {
       "Kausi": "1970",
@@ -14077,7 +14180,6 @@
       "Sukunimi": "Suvioja",
       "Etunimi": "Hannu",
       "Koko nimi": "Hannu Suvioja",
-      "Maalit": "3",
       "Kaikki maalit": "3",
       "S+K maalit": "3",
       "S maalit": "3"
@@ -14087,7 +14189,6 @@
       "Sukunimi": "Vähämaa",
       "Etunimi": "Erkki",
       "Koko nimi": "Erkki Vähämaa",
-      "Maalit": "1",
       "Kaikki maalit": "1",
       "S+K maalit": "1",
       "S maalit": "1"
@@ -14116,7 +14217,6 @@
       "Sukunimi": "Elo",
       "Etunimi": "Raimo",
       "Koko nimi": "Raimo Elo",
-      "Maalit": "3",
       "Kaikki maalit": "3",
       "S+K maalit": "3",
       "S maalit": "3"
@@ -14126,7 +14226,6 @@
       "Sukunimi": "Harden",
       "Etunimi": "Risto",
       "Koko nimi": "Risto Harden",
-      "Maalit": "1",
       "Kaikki maalit": "1",
       "S+K maalit": "1",
       "S maalit": "1"
@@ -14136,16 +14235,18 @@
       "Sukunimi": "Haavisto",
       "Etunimi": "Jarmo",
       "Koko nimi": "Jarmo Haavisto",
-      "Maalit": "3",
-      "Kaikki maalit": "3",
-      "S+K maalit": "3",
-      "S maalit": "3"
+      "Kaikki maalit": "2",
+      "S+K maalit": "2",
+      "S maalit": "2"
     },
     {
       "Kausi": "1969",
       "Sukunimi": "Jokinen",
       "Etunimi": "Tapio",
-      "Koko nimi": "Tapio Jokinen"
+      "Koko nimi": "Tapio Jokinen",
+      "Kaikki maalit": "1",
+      "S+K maalit": "1",
+      "S maalit": "1"
     },
     {
       "Kausi": "1969",
@@ -14189,7 +14290,6 @@
       "Sukunimi": "Laaksonen",
       "Etunimi": "Vesa",
       "Koko nimi": "Vesa Laaksonen",
-      "Maalit": "1",
       "Kaikki maalit": "1",
       "S+K maalit": "1",
       "S maalit": "1"
@@ -14217,7 +14317,6 @@
       "Sukunimi": "Oksanen",
       "Etunimi": "Markku",
       "Koko nimi": "Markku Oksanen",
-      "Maalit": "6",
       "Kaikki maalit": "6",
       "S+K maalit": "6",
       "S maalit": "6"
@@ -14227,7 +14326,6 @@
       "Sukunimi": "Paatelainen",
       "Etunimi": "Heikki",
       "Koko nimi": "Heikki Paatelainen",
-      "Maalit": "3",
       "Kaikki maalit": "3",
       "S+K maalit": "3",
       "S maalit": "3"
@@ -14249,7 +14347,6 @@
       "Sukunimi": "Rautiainen",
       "Etunimi": "Kauko",
       "Koko nimi": "Kauko Rautiainen",
-      "Maalit": "7",
       "Kaikki maalit": "7",
       "S+K maalit": "7",
       "S maalit": "7"
@@ -14302,7 +14399,6 @@
       "Etunimi": "Nils-Erik",
       "Koko nimi": "Nils-Erik Wilen",
       "Pelipaikka": "Oikea tukimies",
-      "Maalit": "1",
       "Kaikki maalit": "1",
       "S+K maalit": "1",
       "S maalit": "1"
@@ -20598,9 +20694,9 @@
     },
     {
       "Kausi": "1942",
-      "Sukunimi": "Sinikari (aik. Präktig)",
+      "Sukunimi": "Sinikari",
       "Etunimi": "Lauri",
-      "Koko nimi": "Lauri Sinikari (aik. Präktig)"
+      "Koko nimi": "Lauri Sinikari"
     },
     {
       "Kausi": "1942",
