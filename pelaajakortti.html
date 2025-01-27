@@ -41,7 +41,8 @@
             table-layout: fixed;
         }
 
-        .league-table th, .league-table td {
+        .league-table th,
+        .league-table td {
             border: 1px solid #ddd;
             padding: 5px;
             text-align: center;
@@ -78,7 +79,11 @@
 
     <main>
         <div class="player-info">
-            <img src="pelaajakuvat/pelaajakuva.jpg" alt="Pelaajan kuva" class="player-photo">
+            <!-- Kuvaelementti, johon asetetaan SRC JavaScriptin avulla. -->
+            <img id="player-photo" 
+                 alt="Pelaajan kuva" 
+                 class="player-photo" 
+                 onerror="this.onerror=null; this.src='pelaajakuvat/pelaajakuva.jpg';">
             <div class="player-details">
                 <h1 id="player-name"></h1>
                 <p id="player-birth">s. -</p>
@@ -116,6 +121,11 @@
         const etunimi = urlParams.get('etunimi');
 
         document.getElementById('player-name').textContent = `${etunimi} ${sukunimi}`;
+
+        // Päivitetään pelaajan kuvan SRC. Jos kuvaa ei ole, onerror-asetus laittaa oletuskuvan.
+        const playerPhoto = document.getElementById('player-photo');
+        // Huom. vaihda tiedostopääte tarpeen mukaan (jpg/png), jos tiedostojen päätteet vaihtelevat.
+        playerPhoto.src = `pelaajakuvat/${etunimi} ${sukunimi}.jpg`;
 
         let sarjataulukot = {};
 
@@ -166,6 +176,7 @@
                     if (record["Muu rooli"]) roles.add(record["Muu rooli"]);
                 });
 
+                // Luodaan taulukon rivit
                 Object.keys(yearStats)
                     .sort((a, b) => a - b)
                     .forEach(year => {
@@ -183,8 +194,10 @@
                 totalGoalsCell.textContent = totalGoals;
 
                 // Päivitetään pelipaikat ja roolit
-                document.getElementById('player-positions').textContent = `Pelipaikat: ${[...positions].join(', ') || '-'}`;
-                document.getElementById('player-roles').textContent = `Muut roolit: ${[...roles].join(', ') || '-'}`;
+                document.getElementById('player-positions').textContent =
+                    `Pelipaikat: ${[...positions].join(', ') || '-'}`;
+                document.getElementById('player-roles').textContent =
+                    `Muut roolit: ${[...roles].join(', ') || '-'}`;
             })
             .catch(error => console.error('Virhe ladattaessa dataa:', error));
     </script>

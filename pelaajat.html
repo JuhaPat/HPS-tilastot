@@ -7,26 +7,34 @@
     <link rel="stylesheet" href="style.css">
 
     <style>
-        /* Madalletaan taulukon rivikorkeus ja pienennetään kuvakokoa */
+        /* Madalletaan rivikorkeus ja lukitaan se 36px:ään */
         .player-table tbody tr {
-            line-height: 1.0em; /* pienempi rivikorkeus */
+            height: 36px; /* noin 20% vähemmän kuin aikaisemmin 45px */
+            line-height: 1em; /* Varmistetaan tekstin pysyminen siistinä */
         }
+
         .player-table td, .player-table th {
-            padding: 2px 4px; /* vähennetään paddingia */
+            padding: 2px 4px;
+            vertical-align: middle; /* Kuvan keskitys pysty- ja sivusuunnassa */
+            text-align: center;
         }
+
+        /* Kuvat samankokoisiksi ja pyöreiksi */
         .player-photo {
-            width: 35px;  /* pienempi leveys */
-            height: auto;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            object-fit: cover;
         }
 
         /* Asetetaan valitsimet allekkain ja keskitetään */
         .valintalista-container {
-            margin: 10px 0 20px 0; /* ylä- ja ala-margin */
+            margin: 10px 0 20px 0;
             display: flex;
-            flex-direction: column;    /* allekkain */
-            align-items: center;       /* keskelle sivusuunnassa */
+            flex-direction: column;
+            align-items: center;
             justify-content: center;   
-            gap: 10px;                 /* pientä väliä valitsimien välille */
+            gap: 10px;
         }
         .valintalista-container label {
             font-weight: bold;
@@ -58,9 +66,7 @@
         <img src="logot/HPS.jpg" alt="HPS Logo" style="width: 100px; height: auto; display: block; margin: 0 auto;">
         <h1>Pelaajat</h1>
 
-        <!-- Yhteinen kontti valitsimille: ne tulevat allekkain ja keskitettyinä -->
         <div class="valintalista-container">
-            <!-- 1) Järjestysvalinta (oletus: Pelimäärän mukaan) -->
             <div>
                 <label for="sort-options">Valitse järjestys:</label>
                 <select id="sort-options">
@@ -73,7 +79,6 @@
                 </select>
             </div>
 
-            <!-- 2) Pelityyppi (oletus: Kilpailulliset) -->
             <div>
                 <label for="pelityyppi">Valitse pelityyppi:</label>
                 <select id="pelityyppi">
@@ -120,14 +125,11 @@
                     const playerName = record["Koko nimi"];
                     const kausi = parseInt(record["Kausi"], 10) || 0;
 
-                    // Jos "Koko nimi" puuttuu tai ei ole merkkijono, skipataan tämä rivi 
-                    // (tai käsitellään halutulla tavalla).
                     if (!playerName || typeof playerName !== 'string') {
                         console.warn("Puuttuva tai virheellinen 'Koko nimi':", record);
                         return; 
                     }
 
-                    // Pilkotaan nimikenttä varoen
                     const [etunimi, ...rest] = playerName.split(' ');
                     const sukunimi = rest.join(' ') || '';
 
@@ -189,7 +191,6 @@
 
                 function renderTable(sortedPlayers) {
                     tableBody.innerHTML = '';
-
                     const currentPelityyppi = pelityyppiSelect.value;
 
                     sortedPlayers.forEach(player => {
@@ -211,7 +212,12 @@
                         const tr = document.createElement('tr');
                         tr.innerHTML = `
                             <td>
-                                <img src="pelaajakuvat/pelaajakuva.jpg" alt="Pelaajan kuva" class="player-photo">
+                                <img
+                                    src="pelaajakuvat/${player.etunimi} ${player.sukunimi}.jpg"
+                                    alt="Pelaajan kuva"
+                                    class="player-photo"
+                                    onerror="this.onerror=null;this.src='pelaajakuvat/pelaajakuva.jpg';"
+                                >
                             </td>
                             <td>
                                 <a href="pelaajakortti.html?sukunimi=${encodeURIComponent(player.sukunimi)}&etunimi=${encodeURIComponent(player.etunimi)}">
@@ -255,7 +261,7 @@
                     renderTable(sortedPlayers);
                 }
 
-                // Alussa: "most-games" & "kilpailulliset"
+                // Alkuasetus: "most-games" & "kilpailulliset"
                 sortPlayers('most-games');
 
                 sortOptions.addEventListener('change', () => {
