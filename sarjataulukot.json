@@ -2964,8 +2964,8 @@
       "Kausi": "2008",
       "Sarjataso": "Nelonen, Helsinki, lohko 2",
       "sij.": "11",
-      "Joukkue": "1PP FC",
-      "Logo": "1PP FC.jpg",
+      "Joukkue": "PP FC",
+      "Logo": "PP FC.jpg",
       "Ottelut": "22",
       "V": "3",
       "T": "2",
@@ -2979,8 +2979,8 @@
       "Kausi": "2008",
       "Sarjataso": "Nelonen, Helsinki, lohko 2",
       "sij.": "12",
-      "Joukkue": "1FC Kosova",
-      "Logo": "1FC Kosova.jpg",
+      "Joukkue": "FC Kosova",
+      "Logo": "FC Kosova.jpg",
       "Ottelut": "22",
       "V": "1",
       "T": "3",
@@ -3627,8 +3627,8 @@
       "Kausi": "2004",
       "Sarjataso": "Vitonen, Helsinki",
       "sij.": "10",
-      "Joukkue": "ToTe/Avauspot",
-      "Logo": "ToTe Avauspot.jpg",
+      "Joukkue": "ToTe/Avauspotku",
+      "Logo": "ToTe Avauspotku.jpg",
       "Ottelut": "17",
       "V": "6",
       "T": "5",
@@ -3828,8 +3828,8 @@
       "Kausi": "2003",
       "Sarjataso": "Kutonen, Helsinki, lohko 2",
       "sij.": "6",
-      "Joukkue": "FC Viikingit/",
-      "Logo": "FC Viikingit .jpg",
+      "Joukkue": "FC Viikingit/2",
+      "Logo": "FC Viikingit 2.jpg",
       "Ottelut": "12",
       "V": "6",
       "T": "2",
@@ -3856,8 +3856,8 @@
       "Kausi": "2003",
       "Sarjataso": "Kutonen, Helsinki, lohko 2",
       "sij.": "8",
-      "Joukkue": "Norsunkaataja",
-      "Logo": "Norsunkaataja.jpg",
+      "Joukkue": "Norsunkaatajat",
+      "Logo": "Norsunkaatajat.jpg",
       "Ottelut": "12",
       "V": "3",
       "T": "4",
@@ -4128,8 +4128,8 @@
       "Kausi": "2001",
       "Sarjataso": "Seiska, Helsinki, lohko 4",
       "sij.": "1",
-      "Joukkue": "Käpylän Sekun",
-      "Logo": "Käpylän Sekun.jpg",
+      "Joukkue": "Käpylän Sekunda",
+      "Logo": "Käpylän Sekunda.jpg",
       "Ottelut": "14",
       "V": "11",
       "T": "2",
@@ -4201,8 +4201,8 @@
       "Kausi": "2001",
       "Sarjataso": "Seiska, Helsinki, lohko 4",
       "sij.": "6",
-      "Joukkue": "AC Arctic/Häm",
-      "Logo": "AC Arctic Häm.jpg",
+      "Joukkue": "AC Arctic/Hämäyspotku",
+      "Logo": "AC Arctic Hämäyspotku.jpg",
       "Ottelut": "14",
       "V": "8",
       "T": "2",
@@ -4229,8 +4229,8 @@
       "Kausi": "2001",
       "Sarjataso": "Seiska, Helsinki, lohko 4",
       "sij.": "8",
-      "Joukkue": "Ellas/4 Soner",
-      "Logo": "Ellas 4 Soner.jpg",
+      "Joukkue": "Ellas/4 Sonera",
+      "Logo": "Ellas 4 Sonera.jpg",
       "Ottelut": "14",
       "V": "7",
       "T": "1",
@@ -15183,7 +15183,71 @@
       "Sarjataso": "SM-kilpailu"
     },
     {
-      "Kausi": "1918",
+      "Kausi": "1920",
+      "Sarjataso": "SM-kilpailu"
+    },
+    {
+      "Kausi": "1921",
+      "Sarjataso": "SM-kilpailu"
+    },
+    {
+      "Kausi": "1922",
+      "Sarjataso": "SM-kilpailu"
+    },
+    {
+      "Kausi": "1923",
+      "Sarjataso": "SM-kilpailu"
+    },
+    {
+      "Kausi": "1924",
+      "Sarjataso": "SM-kilpailu"
+    },
+    {
+      "Kausi": "1925",
+      "Sarjataso": "SM-kilpailu"
+    },
+    {
+      "Kausi": "1926",
+      "Sarjataso": "SM-kilpailu"
+    },
+    {
+      "Kausi": "1927",
+      "Sarjataso": "SM-kilpailu"
+    },
+    {
+      "Kausi": "1928",
+      "Sarjataso": "SM-kilpailu"
+    },
+    {
+      "Kausi": "1929",
+      "Sarjataso": "SM-kilpailu"
+    },
+    {
+      "Kausi": "1930",
+      "Sarjataso": "SM-kilpailu"
+    },
+    {
+      "Kausi": "1931",
+      "Sarjataso": "SM-kilpailu"
+    },
+    {
+      "Kausi": "1932",
+      "Sarjataso": "SM-kilpailu"
+    },
+    {
+      "Kausi": "1933",
+      "Sarjataso": "SM-kilpailu"
+    },
+    {
+      "Kausi": "1934",
+      "Sarjataso": "SM-kilpailu"
+    },
+    {
+      "Kausi": "1935",
+      "Sarjataso": "SM-kilpailu"
+    },
+    {
+      "Kausi": "1936",
       "Sarjataso": "SM-kilpailu"
     }
   ]
