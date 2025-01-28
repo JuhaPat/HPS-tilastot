@@ -7264,7 +7264,9 @@
       "Stadion": "Pirkkola",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "FC Pihlajisto/2"
+      "Vierasjoukkue": "FC Pihlajisto/2",
+      "maalit_koti": "0",
+      "maalit_vieras": "0"
     },
     {
       "ottelu_id": "200113",
@@ -7274,7 +7276,9 @@
       "Stadion": "Pirkkola",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "FC Wartti/WB"
+      "Vierasjoukkue": "FC Wartti/WB",
+      "maalit_koti": "2",
+      "maalit_vieras": "2"
     },
     {
       "ottelu_id": "200112",
@@ -7284,7 +7288,9 @@
       "Stadion": "Pirkkola",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "Projekti 2000/K"
+      "Vierasjoukkue": "Projekti 2000/K",
+      "maalit_koti": "0",
+      "maalit_vieras": "7"
     },
     {
       "ottelu_id": "200111",
@@ -7294,7 +7300,9 @@
       "Stadion": "Pirkkola",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "Suokki"
+      "Vierasjoukkue": "Suokki",
+      "maalit_koti": "0",
+      "maalit_vieras": "5"
     },
     {
       "ottelu_id": "200110",
@@ -7304,7 +7312,9 @@
       "Stadion": "Pirkkola",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "PP FC/2"
+      "Vierasjoukkue": "PP FC/2",
+      "maalit_koti": "0",
+      "maalit_vieras": "4"
     },
     {
       "ottelu_id": "200109",
@@ -7314,7 +7324,9 @@
       "Stadion": "Jakomäki",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "SUMU/2",
-      "Vierasjoukkue": "HPS"
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "0",
+      "maalit_vieras": "0"
     },
     {
       "ottelu_id": "200108",
@@ -7324,7 +7336,9 @@
       "Stadion": "Töölön Pallokenttä",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "Käpylän Sekunda",
-      "Vierasjoukkue": "HPS"
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "1",
+      "maalit_vieras": "0"
     },
     {
       "ottelu_id": "200107",
