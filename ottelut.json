@@ -1258,7 +1258,7 @@
       "Päivämäärä": "19.2.2022",
       "Kilpailu": "Suomen Cup",
       "Kaupunki": "Kauniainen",
-      "Kotijoukkue": "Sexypöxyt/M35(M35)",
+      "Kotijoukkue": "SexyPöxyt",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
       "maalit_vieras": "7",
@@ -3921,7 +3921,7 @@
       "Stadion": "Ala-Malmi",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "Pöxyt",
+      "Vierasjoukkue": "SexyPöxyt",
       "maalit_koti": "0",
       "maalit_vieras": "0"
     },
@@ -4068,7 +4068,7 @@
       "Kilpailu": "Kolmonen",
       "Stadion": "Laaksolahti",
       "Kaupunki": "Espoo",
-      "Kotijoukkue": "Pöxyt",
+      "Kotijoukkue": "SexyPöxyt",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
       "maalit_vieras": "1",
@@ -4309,7 +4309,7 @@
       "Stadion": "Ala-Malmi",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "Pöxyt",
+      "Vierasjoukkue": "SexyPöxyt",
       "maalit_koti": "2",
       "maalit_vieras": "2"
     },
@@ -4440,7 +4440,7 @@
       "Kilpailu": "Kolmonen",
       "Stadion": "Laaksolahti",
       "Kaupunki": "Espoo",
-      "Kotijoukkue": "Pöxyt",
+      "Kotijoukkue": "SexyPöxyt",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
       "maalit_vieras": "1"
@@ -4910,7 +4910,7 @@
       "Stadion": "Pirkkola",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "Pöxyt",
+      "Vierasjoukkue": "SexyPöxyt",
       "maalit_koti": "1",
       "maalit_vieras": "1"
     },
@@ -5053,7 +5053,7 @@
       "Kilpailu": "Kolmonen",
       "Stadion": "Keski-Espoon tekonurmi",
       "Kaupunki": "Espoo",
-      "Kotijoukkue": "Pöxyt",
+      "Kotijoukkue": "SexyPöxyt",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
       "maalit_vieras": "5"
@@ -6064,7 +6064,7 @@
       "Stadion": "Laajasalo",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "Pöxyt",
+      "Vierasjoukkue": "SexyPöxyt",
       "maalit_koti": "3",
       "maalit_vieras": "4"
     },
@@ -9147,7 +9147,7 @@
       "Stadion": "Kumpula",
       "Kaupunki": "Helsinki",
       "Kotijoukkue": "HPS",
-      "Vierasjoukkue": "Sexypöxyt",
+      "Vierasjoukkue": "SexyPöxyt",
       "maalit_koti": "2",
       "maalit_vieras": "3"
     },
@@ -9275,7 +9275,7 @@
       "Kilpailu": "Kolmonen",
       "Stadion": "Laaksolahti",
       "Kaupunki": "Espoo",
-      "Kotijoukkue": "Sexypöxyt",
+      "Kotijoukkue": "SexyPöxyt",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
       "maalit_vieras": "2"
