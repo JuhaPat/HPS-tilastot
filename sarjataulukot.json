@@ -8397,8 +8397,8 @@
       "Kausi": "1977",
       "Sarjataso": "Kakkonen, itälohko",
       "sij.": "8",
-      "Joukkue": "Jyväskylän palloilijat",
-      "Logo": "Jyväskylän palloilijat.jpg",
+      "Joukkue": "JyP-77",
+      "Logo": "JyP.jpg",
       "Ottelut": "22",
       "V": "6",
       "T": "5",
@@ -9004,8 +9004,8 @@
       "Kausi": "1973",
       "Sarjataso": "Kakkonen, itälohko",
       "sij.": "2",
-      "Joukkue": "Savilahden Urheilijat",
-      "Logo": "Savilahden Urheilijat.jpg",
+      "Joukkue": "SavU",
+      "Logo": "SavU.jpg",
       "Ottelut": "22",
       "V": "12",
       "T": "3",
@@ -9088,8 +9088,8 @@
       "Kausi": "1973",
       "Sarjataso": "Kakkonen, itälohko",
       "sij.": "8",
-      "Joukkue": "Pallo-Peikot",
-      "Logo": "Pallo-Peikot.jpg",
+      "Joukkue": "PaPe",
+      "Logo": "PaPe.jpg",
       "Ottelut": "22",
       "V": "8",
       "T": "4",
@@ -9406,8 +9406,8 @@
       "Kausi": "1971",
       "Sarjataso": "Kolmonen, 1. lohko",
       "sij.": "6",
-      "Joukkue": "Kampin Pallo-50",
-      "Logo": "Kampin Pallo-50.jpg",
+      "Joukkue": "KP-50",
+      "Logo": "KP-50.jpg",
       "Ottelut": "20",
       "V": "7",
       "T": "5",
@@ -9420,8 +9420,8 @@
       "Kausi": "1971",
       "Sarjataso": "Kolmonen, 1. lohko",
       "sij.": "7",
-      "Joukkue": "Hyvinkään Apollo",
-      "Logo": "Hyvinkään Apollo.jpg",
+      "Joukkue": "Apollo",
+      "Logo": "Apollo.jpg",
       "Ottelut": "20",
       "V": "6",
       "T": "6",
@@ -9448,8 +9448,8 @@
       "Kausi": "1971",
       "Sarjataso": "Kolmonen, 1. lohko",
       "sij.": "9",
-      "Joukkue": "Käpylän Urheilu-Veikot",
-      "Logo": "Käpylän Urheilu-Veikot.jpg",
+      "Joukkue": "KU-V",
+      "Logo": "KU-V.jpg",
       "Ottelut": "20",
       "V": "5",
       "T": "1",
@@ -13116,8 +13116,8 @@
       "Kausi": "1948",
       "Sarjataso": "SPL + TUL Mestaruussarja, *****",
       "sij.": "12",
-      "Joukkue": "Sudet Helsinki",
-      "Logo": "Sudet Helsinki.jpg",
+      "Joukkue": "Sudet",
+      "Logo": "Sudet.jpg",
       "Ottelut": "15",
       "V": "4",
       "T": "3",
@@ -13735,6 +13735,9 @@
       "TM": "9",
       "PM": "22",
       "Pisteet": "0"
+    },
+    {
+      "Kausi": "1942"
     },
     {
       "Kausi": "1940-41",
@@ -15002,252 +15005,39 @@
       "Lisätiedot": "Putosi"
     },
     {
-      "Kausi": "1929",
-      "Sarjataso": "SM-kilpailu"
+      "Kausi": "1929"
     },
     {
-      "Kausi": "1928",
-      "Sarjataso": "SM-kilpailu"
+      "Kausi": "1928"
     },
     {
-      "Kausi": "1927",
-      "Sarjataso": "SM-kilpailu"
+      "Kausi": "1927"
     },
     {
-      "Kausi": "1926",
-      "Sarjataso": "SM-kilpailu"
+      "Kausi": "1926"
     },
     {
-      "Kausi": "1925",
-      "Sarjataso": "SM-kilpailu"
+      "Kausi": "1925"
     },
     {
-      "Kausi": "1924",
-      "Sarjataso": "SM-kilpailu"
+      "Kausi": "1924"
     },
     {
-      "Kausi": "1923",
-      "Sarjataso": "SM-kilpailu"
+      "Kausi": "1923"
     },
     {
-      "Kausi": "1922",
-      "Sarjataso": "SM-kilpailu"
+      "Kausi": "1922"
     },
     {
-      "Kausi": "1921",
-      "Sarjataso": "SM-kilpailu",
-      "Kauden lisätiedot": "Joukkueet pelasivat eri määrän \"virallisia\" otteluita toisiaan ja muita vastaan, joiden perusteella määriteltiin kaavio SM-kilpailun pudotuspeleihin.",
-      "sij.": "1",
-      "Joukkue": "HPS",
-      "Logo": "HPS.jpg",
-      "Ottelut": "16",
-      "V": "12",
-      "T": "1",
-      "H": "3",
-      "TM": "47",
-      "PM": "15",
-      "Pisteet": "25"
+      "Kausi": "1921"
     },
     {
-      "Kausi": "1921",
-      "Sarjataso": "SM-kilpailu",
-      "sij.": "2",
-      "Joukkue": "HJK",
-      "Logo": "HJK.jpg",
-      "Ottelut": "12",
-      "V": "8",
-      "T": "2",
-      "H": "2",
-      "TM": "35",
-      "PM": "11",
-      "Pisteet": "18"
+      "Kausi": "1920"
     },
     {
-      "Kausi": "1921",
-      "Sarjataso": "SM-kilpailu",
-      "sij.": "3",
-      "Joukkue": "ÅIFK",
-      "Logo": "ÅIFK.jpg",
-      "Ottelut": "13",
-      "V": "9",
-      "T": "1",
-      "H": "3",
-      "TM": "75",
-      "PM": "22",
-      "Pisteet": "19"
+      "Kausi": "1919"
     },
     {
-      "Kausi": "1921",
-      "Sarjataso": "SM-kilpailu",
-      "sij.": "4",
-      "Joukkue": "Vasama",
-      "Logo": "Vasama.jpg",
-      "Ottelut": "10",
-      "V": "6",
-      "T": "1",
-      "H": "3",
-      "TM": "40",
-      "PM": "26",
-      "Pisteet": "13"
-    },
-    {
-      "Kausi": "1921",
-      "Sarjataso": "SM-kilpailu",
-      "sij.": "5",
-      "Joukkue": "HIFK",
-      "Logo": "HIFK.jpg",
-      "Ottelut": "12",
-      "V": "6",
-      "T": "2",
-      "H": "4",
-      "TM": "37",
-      "PM": "21",
-      "Pisteet": "14"
-    },
-    {
-      "Kausi": "1921",
-      "Sarjataso": "SM-kilpailu",
-      "sij.": "6",
-      "Joukkue": "Reipas",
-      "Logo": "Reipas.jpg",
-      "Ottelut": "7",
-      "V": "4",
-      "T": "0",
-      "H": "3",
-      "TM": "14",
-      "PM": "11",
-      "Pisteet": "8"
-    },
-    {
-      "Kausi": "1921",
-      "Sarjataso": "SM-kilpailu",
-      "sij.": "7",
-      "Joukkue": "TaPa",
-      "Logo": "TaPa.jpg",
-      "Ottelut": "8",
-      "V": "4",
-      "T": "1",
-      "H": "3",
-      "TM": "13",
-      "PM": "31",
-      "Pisteet": "9"
-    },
-    {
-      "Kausi": "1921",
-      "Sarjataso": "SM-kilpailu",
-      "sij.": "8",
-      "Joukkue": "KIF",
-      "Logo": "KIF.jpg",
-      "Ottelut": "13",
-      "V": "4",
-      "T": "1",
-      "H": "8",
-      "TM": "21",
-      "PM": "32",
-      "Pisteet": "9"
-    },
-    {
-      "Kausi": "1921",
-      "Sarjataso": "SM-kilpailu",
-      "sij.": "9",
-      "Joukkue": "WBJS",
-      "Logo": "WBJS.jpg",
-      "Ottelut": "4",
-      "V": "1",
-      "T": "0",
-      "H": "3",
-      "TM": "8",
-      "PM": "9",
-      "Pisteet": "2"
-    },
-    {
-      "Kausi": "1921",
-      "Sarjataso": "SM-kilpailu",
-      "sij.": "10",
-      "Joukkue": "Riento",
-      "Logo": "Riento.jpg",
-      "Ottelut": "8",
-      "V": "1",
-      "T": "1",
-      "H": "6",
-      "TM": "13",
-      "PM": "36",
-      "Pisteet": "3"
-    },
-    {
-      "Kausi": "1920",
-      "Sarjataso": "SM-kilpailu"
-    },
-    {
-      "Kausi": "1919",
-      "Sarjataso": "SM-kilpailu"
-    },
-    {
-      "Kausi": "1920",
-      "Sarjataso": "SM-kilpailu"
-    },
-    {
-      "Kausi": "1921",
-      "Sarjataso": "SM-kilpailu"
-    },
-    {
-      "Kausi": "1922",
-      "Sarjataso": "SM-kilpailu"
-    },
-    {
-      "Kausi": "1923",
-      "Sarjataso": "SM-kilpailu"
-    },
-    {
-      "Kausi": "1924",
-      "Sarjataso": "SM-kilpailu"
-    },
-    {
-      "Kausi": "1925",
-      "Sarjataso": "SM-kilpailu"
-    },
-    {
-      "Kausi": "1926",
-      "Sarjataso": "SM-kilpailu"
-    },
-    {
-      "Kausi": "1927",
-      "Sarjataso": "SM-kilpailu"
-    },
-    {
-      "Kausi": "1928",
-      "Sarjataso": "SM-kilpailu"
-    },
-    {
-      "Kausi": "1929",
-      "Sarjataso": "SM-kilpailu"
-    },
-    {
-      "Kausi": "1930",
-      "Sarjataso": "SM-kilpailu"
-    },
-    {
-      "Kausi": "1931",
-      "Sarjataso": "SM-kilpailu"
-    },
-    {
-      "Kausi": "1932",
-      "Sarjataso": "SM-kilpailu"
-    },
-    {
-      "Kausi": "1933",
-      "Sarjataso": "SM-kilpailu"
-    },
-    {
-      "Kausi": "1934",
-      "Sarjataso": "SM-kilpailu"
-    },
-    {
-      "Kausi": "1935",
-      "Sarjataso": "SM-kilpailu"
-    },
-    {
-      "Kausi": "1936",
-      "Sarjataso": "SM-kilpailu"
+      "Kausi": "1918"
     }
   ]
