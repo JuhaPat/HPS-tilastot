@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vastustajakortti</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sidebar">
+        <a href="index.html" class="logo-link">
+            <img src="HPS-logo.jpg" alt="HPS Logo" class="logo">
+            <p class="logo-text">HPS Tilastot<br>1917-2024</p>
+        </a>
+        <nav>
+            <ul class="menu">
+                <li><a href="sijoitukset.html">Sijoitukset</a></li>
+                <li><a href="kaudet.html">Kaudet</a></li>
+                <li><a href="pelaajat.html">Pelaajat</a></li>
+                <li><a href="vastustajat.html" class="active">Vastustajat</a></li>
+                <li><a href="tietoja.html">Tietoja</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <main>
+        <div id="opponent-content">
+            <!-- Vastustajan tiedot haetaan ja asetetaan JavaScriptillä -->
+        </div>
+        <div id="additional-info" style="font-size: 0.9rem; color: #333; text-align: center; margin-bottom: 20px;">
+            <!-- Lisätiedot ja linkki haetaan ja asetetaan JavaScriptillä -->
+        </div>
+        <table class="matches-list" id="opponent-matches-table">
+            <thead>
+                <tr>
+                    <th>Päivämäärä</th>
+                    <th>Kilpailu</th>
+                    <th>Stadion</th>
+                    <th>Kaupunki</th>
+                    <th>Kotijoukkue</th>
+                    <th>Vierasjoukkue</th>
+                    <th>Tulos</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Ottelut täytetään JavaScriptillä -->
+            </tbody>
+        </table>
+    </main>
+
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const opponentShortName = urlParams.get('joukkue');
+
+        if (opponentShortName) {
+            fetch('sarjataulukot.json')
+                .then(response => response.json())
+                .then(teams => {
+                    const teamLogos = teams.reduce((logos, team) => {
+                        logos[team.Joukkue] = team.Logo ? `logot/${team.Logo}` : '';
+                        return logos;
+                    }, {});
+
+                    const opponentLogo = teamLogos[opponentShortName] || '';
+
+                    fetch('vastustajat.json')
+                        .then(response => response.json())
+                        .then(opponents => {
+                            const opponent = opponents.find(o => o.Lyhenne === opponentShortName);
+                            const opponentFullName = opponent ? opponent["Koko nimi"] : '(tieto puuttuu)';
+                            const opponentCity = opponent ? opponent["Kotikaupunki"] : '(tieto puuttuu)';
+                            const opponentFounded = opponent ? opponent["Perustamisvuosi"] : '(tieto puuttuu)';
+                            const opponentDetails = opponent ? opponent["Lisätiedot"] : '(tieto puuttuu)';
+                            const opponentLink = opponent ? opponent["Linkki"] : '';
+
+                            fetch('ottelut.json')
+                                .then(response => response.json())
+                                .then(matches => {
+                                    const opponentMatches = matches.filter(match => 
+                                        match.Kotijoukkue === opponentShortName || match.Vierasjoukkue === opponentShortName
+                                    );
+
+                                    const opponentContent = `
+                                        <div class="opponent-logo">
+                                            <img src="${opponentLogo}" alt="${opponentShortName}" class="team-logo">
+                                        </div>
+                                        <h1 class="opponent-header">${opponentShortName}</h1>
+                                        <p class="opponent-details" style="font-size: 1.5rem;">${opponentFullName}</p>
+                                        <p class="opponent-details" style="font-size: 1.2rem;">${opponentCity}</p>
+                                        <p class="opponent-details" style="font-size: 1.2rem;">Perustettu vuonna ${opponentFounded}</p>
+                                    `;
+
+                                    document.getElementById('opponent-content').innerHTML = opponentContent;
+
+                                    const additionalInfoContent = `${opponentDetails} ${opponentLink ? `<a href="${opponentLink}" target="_blank" style="color: blue;">(Lisätietoja)</a>` : ''}`;
+                                    document.getElementById('additional-info').innerHTML = additionalInfoContent;
+
+                                    const tableBody = document.getElementById('opponent-matches-table').querySelector('tbody');
+                                    tableBody.innerHTML = opponentMatches.map(match => {
+                                        const date = match.Päivämäärä ? match.Päivämäärä : '-';
+                                        return `
+                                            <tr>
+                                                <td>${date}</td>
+                                                <td>${match.Kilpailu || '-'}</td>
+                                                <td>${match.Stadion || '-'}</td>
+                                                <td>${match.Kaupunki || '-'}</td>
+                                                <td>
+                                                    <img src="${teamLogos[match.Kotijoukkue] || ''}" alt="${match.Kotijoukkue}" class="small-logo">
+                                                    ${match.Kotijoukkue || '-'}
+                                                </td>
+                                                <td>
+                                                    <img src="${teamLogos[match.Vierasjoukkue] || ''}" alt="${match.Vierasjoukkue}" class="small-logo">
+                                                    ${match.Vierasjoukkue || '-'}
+                                                </td>
+                                                <td>
+                                                    <a href="ottelukortti.html?ottelu_id=${match.ottelu_id || '#'}" class="match-link">
+                                                        ${match.maalit_koti != null && match.maalit_vieras != null ? `${match.maalit_koti}-${match.maalit_vieras}` : '-'}
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        `;
+                                    }).join('');
+                                })
+                                .catch(error => console.error('Virhe ladattaessa ottelutietoja:', error));
+                        })
+                        .catch(error => console.error('Virhe ladattaessa vastustajatietoja:', error));
+                })
+                .catch(error => console.error('Virhe ladattaessa logotietoja:', error));
+        } else {
+            document.getElementById('opponent-content').innerHTML = '<p>Vastustajan tiedot puuttuvat!</p>';
+        }
+    </script>
+</body>
+</html>

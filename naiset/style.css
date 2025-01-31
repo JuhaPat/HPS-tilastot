@@ -1,0 +1,537 @@
+/* Yleiset tyylit */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: white;
+}
+
+/* Vasemman sivupalkin tyyli */
+.sidebar {
+    width: 250px;
+    background-color: rgb(0, 100, 40);
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.logo-text {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 1.4;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+.menu li {
+    margin: 10px 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    padding: 10px 0;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    background-color: white;
+    color: rgb(0, 100, 40);
+}
+
+/* Oikean puolen sisältö */
+main {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+main h1 {
+    font-size: 1.8rem;
+    color: rgb(0, 100, 40);
+    margin-bottom: 20px;
+}
+
+#sarjataso {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 10px 0;
+    color: rgb(0, 80, 30);
+}
+
+/* Vuoden valitsin */
+.year-selector {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.year-selector span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.arrow-button {
+    background-color: rgb(0, 100, 40);
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.arrow-button:hover {
+    background-color: rgb(0, 80, 30);
+}
+
+/* Sarjataulukko */
+.league-table {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-size: 1rem;
+    table-layout: fixed; /* Taulukon sarakkeet kiinteitä */
+}
+
+.league-table th, .league-table td {
+    border: 1px solid #ddd;
+    padding: 3px;
+    text-align: center;
+    vertical-align: middle; /* Keskitetään sisältö pystysuunnassa */
+    height: 30px; /* Kiinteä rivikorkeus */
+}
+
+.league-table th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Joukkue-sarake */
+.league-table th:nth-child(2), .league-table td:nth-child(2) {
+    width: 30%; /* Levennetty joukkue-sarake */
+    text-align: left;
+    padding-left: 10px; /* Lisää sisennystä */
+    white-space: nowrap; /* Estää rivinvaihdon */
+}
+
+/* Kommentti-sarake */
+.league-table th:nth-child(10), .league-table td:nth-child(10) {
+    width: 20%; /* Levennetty kommentti-sarake */
+    text-align: left;
+    padding-left: 5px;
+}
+
+/* Muut sarakkeet */
+.league-table th:not(:nth-child(2)):not(:nth-child(10)), 
+.league-table td:not(:nth-child(2)):not(:nth-child(10)) {
+    width: 8%; /* Kapeammat muut sarakkeet */
+}
+
+/* Joukkueen logot */
+.team-logo {
+    width: 25px; /* Pienennetty leveys */
+    height: 25px; /* Pienennetty korkeus */
+    margin-right: 5px;
+    object-fit: contain; /* Logon mittasuhteiden säilyttäminen */
+}
+
+/* Korostus HPS-joukkueelle */
+.highlight-hps {
+    background-color: rgb(0, 100, 40);
+    color: white;
+    font-weight: bold;
+}
+
+/* Responsiivisuus */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 200px;
+    }
+
+    .logo {
+        max-width: 120px;
+    }
+
+    .menu a {
+        font-size: 0.9rem;
+        padding: 8px 0;
+    }
+
+    .league-table {
+        width: 90%;
+        font-size: 0.8rem;
+    }
+}
+
+/* Sarakkeiden leveys */
+th.narrow, td.narrow {
+    min-width: 30px; /* Sijaintisarake */
+}
+
+th.medium, td.medium {
+    min-width: 60px; /* Ottelut, V, T, H, TM, PM, Pisteet */
+}
+
+th.wide, td.wide {
+    min-width: 120px; /* Joukkue ja Kommentti */
+}
+/* Pelaajataulukko */
+.player-table {
+    width: 40%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-size: 1rem;
+    table-layout: auto; /* Taulukon sarakkeet automaattisesti säätävä */
+    border: 1px solid #ddd;
+    background-color: #ffffff; /* Taustaväri */
+}
+
+.player-table th, .player-table td {
+    border: 1px solid #ddd;
+    padding: 4px;
+    text-align: center;
+    vertical-align: middle;
+    height: 20px; /* Kiinteä rivikorkeus */
+}
+
+.player-table th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+}
+
+.player-table th, .player-table td {
+    font-size: 1rem;
+}
+
+/* Pelaajan kuvan sarake */
+.player-table th:nth-child(1), .player-table td:nth-child(1) {
+    width: 10%; /* Kuvan sarake */
+    padding: 5px;
+}
+
+/* Pelaajan nimi (sukunimi, etunimi) - linkki */
+.player-table th:nth-child(2), .player-table td:nth-child(2) {
+    width: 20%; /* Nimi-sarake */
+    text-align: left;
+    padding-left: 10px;
+    white-space: nowrap; /* Estää rivinvaihdon */
+}
+
+/* Muut sarakkeet (esim. pelipaikka, maalit jne.) */
+.player-table th:not(:nth-child(1)):not(:nth-child(2)), 
+.player-table td:not(:nth-child(1)):not(:nth-child(2)) {
+    width: 15%; /* Muut sarakkeet */
+}
+
+/* Responsiivisuus (esimerkiksi pienemmille näytöille) */
+@media (max-width: 768px) {
+    .player-table {
+        width: 90%;
+        font-size: 0.9rem;
+    }
+
+    .player-table th, .player-table td {
+        padding: 5px;
+    }
+
+    .player-table th:nth-child(1), .player-table td:nth-child(1) {
+        width: 15%; /* Kuvan sarake pienenee */
+    }
+
+    .player-table th:nth-child(2), .player-table td:nth-child(2) {
+        width: 30%; /* Nimi-sarake kasvaa */
+    }
+
+    .player-table th:not(:nth-child(1)):not(:nth-child(2)), 
+    .player-table td:not(:nth-child(1)):not(:nth-child(2)) {
+        width: 10%; /* Muut sarakkeet pienenevät */
+    }
+}
+
+/* Pelaajataulukon tyyli */
+.player-table {
+    width: 40%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-size: 1rem;
+    table-layout: auto; /* Taulukon sarakkeet automaattisesti säätävä */
+    border: 1px solid #ddd;
+    background-color: #ffffff; /* Taustaväri */
+}
+
+.player-table th, .player-table td {
+    border: 1px solid #ddd;
+    padding: 4px;
+    text-align: center;
+    vertical-align: middle;
+    height: 20px; /* Kiinteä rivikorkeus */
+}
+
+.player-table th {
+    background-color: #f2f2f2; /* Taustaväri otsikoille */
+    color: #333;
+    font-weight: bold;
+}
+
+/* Pelaajan kuvan sarake */
+.player-table th:nth-child(1), .player-table td:nth-child(1) {
+    width: 10%; /* Kuvan sarake */
+    padding: 0;
+}
+
+.player-photo {
+    width: 30px;  /* Pienennetään leveyttä */
+    height: 30px; /* Pienennetään korkeutta */
+    object-fit: cover;
+    border-radius: 50%; /* Pyöristetään kulmat, jotta kuva on ympyränmuotoinen */
+}
+
+/* Linkkien tyyli */
+.player-table a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}
+
+.player-table a:hover {
+    text-decoration: underline;
+}
+/* Match table */
+.match-table {
+    width: 60%; /* Sovitetaan 60% sivun leveydestä */
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+    background-color: #ffffff; /* Taustaväri */
+    table-layout: auto; /* Automaattinen sarakkeiden koon säätö */
+}
+
+.match-table th, .match-table td {
+    border: 1px solid #ddd;
+    padding: 8px; /* Rivikorkeus */
+    text-align: center;
+    vertical-align: middle;
+}
+
+.match-table th {
+    background-color: #f2f2f2; /* Taulukon otsikon taustaväri */
+    color: #333; /* Otsikon tekstin väri */
+    font-weight: bold;
+}
+
+.match-table td {
+    font-size: 0.9rem;
+    color: #333;
+}
+
+/* Responsiivisuus: pienille näytöille */
+@media (max-width: 768px) {
+    .match-table {
+        width: 90%;
+        font-size: 0.8rem;
+    }
+
+    .match-table th, .match-table td {
+        padding: 6px; /* Pienennetään paddingia pienillä näytöillä */
+    }
+}
+.team-logo {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+    object-fit: contain;
+    vertical-align: middle;
+}
+.history-cell {
+    background-color: white; /* Valkoinen pohja ylimmälle riville */
+    text-align: left;
+    font-size: 0.9rem;
+    padding: 10px;
+    line-height: 1.2;
+}
+thead tr:nth-child(2) th {
+    background-color: #f4f4f4; /* Harmaa pohja toiselle riville */
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px;
+}
+#header-container img {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: white;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: rgb(0, 100, 40);
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.logo-text {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 1.4;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+.menu li {
+    margin: 10px 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    padding: 10px 0;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    background-color: white;
+    color: rgb(0, 100, 40);
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.opponent-header {
+    color: rgb(0, 100, 40);
+    font-size: 2rem;
+    text-align: center;
+}
+
+.opponent-details {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.opponent-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.team-logo {
+    width: 100px;
+    height: 100px;
+}
+
+.matches-list {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.matches-list th, .matches-list td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.matches-list th {
+    background-color: #f4f4f4;
+}
+
+.small-logo {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.match-link {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.match-link:hover {
+    text-decoration: underline;
+}
+
+/* Responsiivisuus */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 200px;
+    }
+
+    .logo {
+        max-width: 120px;
+    }
+
+    .menu a {
+        font-size: 0.9rem;
+        padding: 8px 0;
+    }
+
+    .matches-list {
+        width: 90%;
+        font-size: 0.8rem;
+    }
+}
