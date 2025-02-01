@@ -5,27 +5,93 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HPS Tilastot</title>
     <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* Sivun keskittäminen */
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            text-align: center;
+            margin: 0;
+        }
+
+        /* Keskitetty logo */
+        .header-logo img {
+            width: 180px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        /* Pelaajaikonit */
+        .player-icons {
+            display: flex;
+            justify-content: center;
+            gap: 120px;
+            margin-top: 50px;
+        }
+        .icon-card {
+            text-align: center;
+        }
+        .icon-card img {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            object-fit: cover;
+            cursor: pointer; /* Vaihdetaan hiiren osoitin */
+        }
+        .icon-title {
+            font-size: 1.5rem;
+            color: green;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+        /* Hover-efekti */
+        .icon-card img:hover {
+            opacity: 0.8;
+        }
+    </style>
+
+    <script>
+        // Ohjaa käyttäjän sijoitukset.html-sivulle valitun joukkueen perusteella
+        function avaaSijoitukset(joukkue) {
+            window.location.href = `sijoitukset.html?joukkue=${joukkue}`;
+        }
+    </script>
+
 </head>
 <body>
-    <div class="sidebar">
-        <a href="index.html" class="logo-link">
-            <img src="HPS-logo.jpg" alt="HPS Logo" class="logo">
-            <p class="logo-text">HPS Tilastot<br>1917-2024</p>
-        </a>
-        <nav>
-            <ul class="menu">
-                <li><a href="sijoitukset.html">Sijoitukset</a></li>
-                <li><a href="kaudet.html">Kaudet</a></li>
-                <li><a href="pelaajat.html" class="active">Pelaajat</a></li>
-                <li><a href="vastustajat.html">Vastustajat</a></li>
-                <li><a href="tietoja.html">Tietoja</a></li>
-            </ul>
-        </nav>
+
+    <!-- Keskitetty logo -->
+    <div class="header-logo">
+        <img src="HPS-logo.jpg" alt="HPS Logo">
     </div>
+
+    <!-- Tervetulotekstit -->
     <main>
         <h1>Tervetuloa Helsingin Palloseuran viralliselle tilastosivustolle!</h1>
         <p>Täällä voit tutkia sarjasijoituksia, taulukoita, pelaajatietoja ja paljon muuta.</p>
+        <p>Sivusto keskittyy toistaiseksi miesten jalkapalloon, jossa HPS:llä on pitkä ja kunniakas historia.  
+            Mukaan liitetään myöhemmin myös naisten vastaavat tilastot.  
+            Jalkapallon lisäksi HPS:n historiaan kuuluu vahvasti myös muut joukkuelajit aina jääpallosta käsipalloon ja jääkiekkoon asti.
+        </p>
         <p>HUOM: TÄMÄ ON TESTISIVUSTO, TIETO JA TOIMINNALLISUUDET OVAT PUUTTEELLISIA. TESTIKÄYTTÖ VAIN VALITUILLE HENKILÖILLE.</p>
+
+        <!-- Kaksi suurta pelaajaikonia, jotka vievät sijoitukset.html-sivulle -->
+        <div class="player-icons">
+            <div class="icon-card" onclick="avaaSijoitukset('miehet')">
+                <img src="pelaajakuvat/pelaajakuva.jpg" alt="HPS Miehet">
+                <div class="icon-title">HPS miehet</div>
+            </div>
+            <div class="icon-card" onclick="avaaSijoitukset('naiset')">
+                <img src="pelaajakuvat/pelaajakuva.jpg" alt="HPS Naiset">
+                <div class="icon-title">HPS naiset</div>
+            </div>
+        </div>
     </main>
+
 </body>
 </html>

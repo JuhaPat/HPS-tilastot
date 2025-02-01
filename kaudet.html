@@ -102,6 +102,14 @@
             margin-right: 10px;
         }
     </style>
+    <script>
+        function getTeamDataFolder() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const teamParam = urlParams.get('joukkue');
+            return teamParam === 'naiset' ? 'data naiset' : 'data miehet';
+        }
+    </script>
+    
 </head>
 
 <body>
@@ -226,6 +234,9 @@
     </main>
 
     <script>
+
+         const dataFolder = getTeamDataFolder();
+
         function updateURLParameter(param, value) {
             const newURL = new URL(window.location.href);
             newURL.searchParams.set(param, value);
@@ -261,8 +272,8 @@
             document.getElementById('round-loppu').style.display = 'flex';
 
             const [cupResp, teamsResp] = await Promise.all([
-                fetch('cup kaaviot.json'),
-                fetch('vastustajat.json')
+                fetch(`${dataFolder}/cup kaaviot.json`),
+                fetch(`${dataFolder}/vastustajat.json`)
             ]);
             const cupData = await cupResp.json();
             const teamsData = await teamsResp.json();
@@ -381,7 +392,7 @@
         const yearFromUrl = urlParams.get('year');
         let currentYear = yearFromUrl || "2024";
 
-        fetch('sarjataulukot.json')
+        fetch(`${dataFolder}/sarjataulukot.json`)
             .then(response => response.json())
             .then(leagueData => {
                 const yearDropdown = document.getElementById('year-dropdown');
@@ -514,7 +525,7 @@
 
                 // Päivitetään pelaajataulukon Ottelut/Maalit pelityyppivalinnan mukaan
                 function updateExtraTable(year) {
-                    fetch('pelaajat.json')
+                    fetch(`${dataFolder}/pelaajat.json`)
                         .then(response => response.json())
                         .then(playersData => {
                             extraTableBody.innerHTML = '';
@@ -562,7 +573,7 @@
                 }
 
                 function updateMatchTable(year) {
-                    fetch('sarjataulukot.json')
+                    fetch(`${dataFolder}/sarjataulukot.json`)
                         .then(response => response.json())
                         .then(leagueData => {
                             const teamLogos = {};
@@ -572,7 +583,7 @@
                                 }
                             });
 
-                            fetch('ottelut.json')
+                            fetch(`${dataFolder}/ottelut.json`)
                                 .then(response => response.json())
                                 .then(matchData => {
                                     matchTableBody.innerHTML = '';

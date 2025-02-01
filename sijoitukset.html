@@ -11,7 +11,9 @@
         }
         .header {
             text-align: center;
-        
+        }
+        .header a {
+            text-decoration: none;
         }
         .header img {
             width: 100px;
@@ -75,28 +77,17 @@
     </style>
 </head>
 <body>
-    <div class="sidebar">
-        <a href="index.html" class="logo-link">
-            <img src="HPS-logo.jpg" alt="HPS Logo" class="logo">
-            <p class="logo-text">HPS Tilastot<br>1917-2024</p>
-        </a>
-        <nav>
-            <ul class="menu">
-                <li><a href="sijoitukset.html" class="active">Sijoitukset</a></li>
-                <li><a href="kaudet.html">Kaudet</a></li>
-                <li><a href="pelaajat.html">Pelaajat</a></li>
-                <li><a href="vastustajat.html">Vastustajat</a></li>
-                <li><a href="tietoja.html">Tietoja</a></li>
-            </ul>
-        </nav>
-    </div>
     <main>
         <div class="header">
-            <img src="logot/HPS.jpg" alt="HPS Logo">
+            <!-- HPS-logo on nyt linkki takaisin index.html:ään -->
+            <a href="index.html">
+                <img src="logot/HPS.jpg" alt="HPS Logo">
+            </a>
             <h1>Sarjasijoitukset</h1>
             <h1>1918-2024</h1>
-
         </div>
+
+        <!-- Taulukon yläosan sarjatasojen nimiluettelo (säilytetty) -->
         <table class="sijoitus-table">
             <thead>
                 <tr style="background-color: white;">
@@ -149,62 +140,57 @@
                         <span>7. divisioona 1987-1993</span>
                     </th>
                 </tr>
-                <tr style="background-color: #f4f4f4;">
-                    <th>Vuosi</th>
-                    <th><span>1.</span><span>sarjataso</span></th>
-                    <th><span>2.</span><span>sarjataso</span></th>
-                    <th><span>3.</span><span>sarjataso</span></th>
-                    <th><span>4.</span><span>sarjataso</span></th>
-                    <th><span>5.</span><span>sarjataso</span></th>
-                    <th><span>6.</span><span>sarjataso</span></th>
-                    <th><span>7.</span><span>sarjataso</span></th>
-                    <th><span>8.</span><span>sarjataso</span></th>
-                </tr>
             </thead>
-            
-            
             <tbody id="table-body">
-                <!-- Rows will be populated dynamically -->
+                <!-- Taulukon sisältö täytetään JavaScriptillä -->
             </tbody>
         </table>
     </main>
+
     <script>
-fetch('sijoitukset.json')
-    .then(response => response.json())
-    .then(data => {
-        const tableBody = document.getElementById('table-body');
-        const years = [...new Set(data.map(item => item.Vuosi))].sort((a, b) => b - a);
+        const urlParams = new URLSearchParams(window.location.search);
+        const joukkue = urlParams.get('joukkue') || 'miehet'; 
 
-        years.forEach(year => {
-            const row = document.createElement('tr');
-            row.innerHTML = `<td class="year-cell"><a href="kaudet.html?year=${year}" class="link">${year}</a></td>`;
-            for (let i = 1; i <= 8; i++) {
-                const cellData = data.find(item => item.Vuosi === year && item.sarjataso === `${i}. sarjataso`);
-                const cell = document.createElement('td');
+        const dataFolder = joukkue === 'naiset' ? 'data naiset' : 'data miehet';
+        const jsonFile = `${dataFolder}/sijoitukset.json`;
 
-                if (cellData) {
-                    cell.innerHTML = `
-                        <a href="kaudet.html?year=${year}" class="link">
-                            <img src="logot/HPS.jpg" alt="HPS Logo" style="width: 20px; height: 20px; margin-right: 5px;">
-                            ${cellData.Sijoitus}
-                        </a>`;
-                    if (cellData.tulos === 'nousi') {
-                        cell.className = 'highlight-green';
-                    } else if (cellData.tulos === 'säilyi') {
-                        cell.className = 'highlight-gray';
-                    } else if (cellData.tulos === 'putosi') {
-                        cell.className = 'highlight-red';
-                    } else if (cellData.tulos === 'mestari') {
-                        cell.className = 'highlight-gold';
+        fetch(jsonFile)
+            .then(response => response.json())
+            .then(data => {
+                const tableBody = document.getElementById('table-body');
+                const years = [...new Set(data.map(item => item.Vuosi))].sort((a, b) => b - a);
+
+                years.forEach(year => {
+                    const row = document.createElement('tr');
+                    row.innerHTML = `<td class="year-cell"><a href="kaudet.html?year=${year}&joukkue=${joukkue}" class="link">${year}</a></td>`;
+
+                    for (let i = 1; i <= 8; i++) {
+                        const cellData = data.find(item => item.Vuosi === year && item.sarjataso === `${i}. sarjataso`);
+                        const cell = document.createElement('td');
+
+                        if (cellData) {
+                            cell.innerHTML = `
+                                <a href="kaudet.html?year=${year}&joukkue=${joukkue}" class="link">
+                                    <img src="logot/HPS.jpg" alt="HPS Logo" style="width: 20px; height: 20px; margin-right: 5px;">
+                                    ${cellData.Sijoitus}
+                                </a>`;
+
+                            if (cellData.tulos === 'nousi') {
+                                cell.className = 'highlight-green';
+                            } else if (cellData.tulos === 'säilyi') {
+                                cell.className = 'highlight-gray';
+                            } else if (cellData.tulos === 'putosi') {
+                                cell.className = 'highlight-red';
+                            } else if (cellData.tulos === 'mestari') {
+                                cell.className = 'highlight-gold';
+                            }
+                        }
+                        row.appendChild(cell);
                     }
-                }
-                row.appendChild(cell);
-            }
-            tableBody.appendChild(row);
-        });
-    })
-    .catch(error => console.error('Error loading sijoitukset.json:', error));
-
+                    tableBody.appendChild(row);
+                });
+            })
+            .catch(error => console.error('Virhe ladattaessa JSON-dataa:', error));
     </script>
 </body>
 </html>
