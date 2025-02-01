@@ -697,6 +697,7 @@
                                             }
                                             const resultTd = document.createElement('td');
                                             const resultLink = document.createElement('a');
+                                            // Lisätään myös joukkue-parametri dynaamisesti tuloslinkkiin
                                             resultLink.href = `ottelukortti.html?ottelu_id=${match.ottelu_id}`;
                                             resultLink.textContent = resultText;
                                             resultTd.appendChild(resultLink);
@@ -708,6 +709,33 @@
                         });
                 }
             });
+
+        // Funktio, joka lisää URL-parametrin "joukkue" kaikkiin sisäisiin linkkeihin
+        function appendJoukkueParamToLinks() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const joukkue = urlParams.get('joukkue');
+            if (!joukkue) return;
+            const links = document.querySelectorAll("a[href]");
+            links.forEach(link => {
+                let href = link.getAttribute("href");
+                // Päivitetään vain sisäiset linkit (ei ulkoisia tai mailto-linkkejä)
+                if (href && !href.match(/^https?:\/\//) && !href.startsWith("mailto:")) {
+                    // Jos linkissä ei vielä ole kyselyparametreja, lisätään "?" muuten "&"
+                    if (href.indexOf("?") === -1) {
+                        href += `?joukkue=${encodeURIComponent(joukkue)}`;
+                    } else {
+                        // Muodostetaan URL-olio ja asetetaan/korvataan joukkue-parametri
+                        let url = new URL(href, window.location.origin);
+                        url.searchParams.set("joukkue", joukkue);
+                        href = url.pathname + url.search;
+                    }
+                    link.setAttribute("href", href);
+                }
+            });
+        }
+
+        // Kutsutaan funktiota kun DOM on latautunut
+        document.addEventListener("DOMContentLoaded", appendJoukkueParamToLinks);
     </script>
 </body>
 </html>
