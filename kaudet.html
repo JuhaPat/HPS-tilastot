@@ -101,6 +101,49 @@
             font-weight: bold;
             margin-right: 10px;
         }
+
+        /* Menu button */
+        .menu-button {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 40px;
+            height: 40px;
+            background-color: rgb(0, 100, 40);
+            border: none;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+        .menu-button div {
+            width: 25px;
+            height: 3px;
+            background-color: white;
+            margin: 3px 0;
+        }
+        .menu {
+            display: none;
+            position: absolute;
+            top: 50px;
+            right: 10px;
+            background-color: white;
+            border: 1px solid #ccc;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .menu a {
+            display: block;
+            padding: 5px 10px;
+            color: black;
+            text-decoration: none;
+        }
+        .menu a:hover {
+            background-color: #f1f1f1;
+        }
     </style>
     <script>
         function getTeamDataFolder() {
@@ -113,27 +156,29 @@
 </head>
 
 <body>
-    <div class="sidebar">
-        <a href="index.html" class="logo-link">
-            <img src="HPS-logo.jpg" alt="HPS Logo" class="logo">
-            <p class="logo-text">HPS Tilastot<br>1917-2024</p>
-        </a>
-        <nav>
-            <ul class="menu">
-                <li><a href="sijoitukset.html">Sijoitukset</a></li>
-                <li><a href="kaudet.html" class="active">Kaudet</a></li>
-                <li><a href="pelaajat.html">Pelaajat</a></li>
-                <li><a href="vastustajat.html">Vastustajat</a></li>
-                <li><a href="tietoja.html">Tietoja</a></li>
-            </ul>
-        </nav>
+    <!-- Vihreä valikkonappi -->
+    <button class="menu-button" onclick="toggleMenu()">
+        <div></div>
+        <div></div>
+        <div></div>
+    </button>
+    <div class="menu" id="menu">
+        <a href="index.html">Etusivu</a>
+        <a href="sijoitukset.html">Sijoitukset</a>
+        <a href="kaudet.html">Kaudet</a>
+        <a href="joukkueet.html">Joukkueet</a>
+        <a href="pelaajat.html">Pelaajat</a>
+        <a href="vastustajat.html">Vastustajat</a>
+        <a href="tietoja.html">Tietoja</a>
     </div>
 
     <main>
-        <div id="header-container">
-            <img src="logot/HPS.jpg" alt="HPS Logo">
-            <h1 class="main-title" id="main-title"></h1>
-            <h2 class="sub-title" id="sub-title"></h2>
+        <div class="header">
+            <a href="index.html">
+                <img src="logot/HPS.jpg" alt="HPS Logo">
+            </a>
+            <h1 id="team-title"></h1>
+            <h1 id="team-subtitle"></h1>
         </div>
 
         <div class="year-selector">
@@ -234,7 +279,11 @@
     </main>
 
     <script>
-
+        function toggleMenu() {
+            const menu = document.getElementById('menu');
+            menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+        }
+        
          const dataFolder = getTeamDataFolder();
 
         function updateURLParameter(param, value) {

@@ -71,23 +71,68 @@
         .game-type-select select {
             padding: 3px;
         }
+
+        /* Vihreä valikkonappi oikeassa yläkulmassa */
+        .menu-button {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 40px;
+            height: 40px;
+            background-color: rgb(0, 100, 40);
+            border: none;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+        .menu-button div {
+            width: 25px;
+            height: 3px;
+            background-color: white;
+            margin: 3px 0;
+        }
+        .menu {
+            display: none;
+            position: absolute;
+            top: 50px;
+            right: 10px;
+            background-color: white;
+            border: 1px solid #ccc;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .menu a {
+            display: block;
+            padding: 5px 10px;
+            color: black;
+            text-decoration: none;
+        }
+        .menu a:hover {
+            background-color: #f1f1f1;
+        }
     </style>
 </head>
 <body>
-    <div class="sidebar">
-        <a href="index.html" class="logo-link">
-            <img src="HPS-logo.jpg" alt="HPS Logo" class="logo">
-            <p class="logo-text">HPS Tilastot<br>1917-2024</p>
-        </a>
-        <nav>
-            <ul class="menu">
-                <li><a href="sijoitukset.html">Sijoitukset</a></li>
-                <li><a href="kaudet.html">Kaudet</a></li>
-                <li><a href="pelaajat.html">Pelaajat</a></li>
-                <li><a href="vastustajat.html">Vastustajat</a></li>
-                <li><a href="tietoja.html">Tietoja</a></li>
-            </ul>
-        </nav>
+
+    <!-- Vihreä valikkonappi oikeassa yläkulmassa -->
+    <button class="menu-button" onclick="toggleMenu()">
+        <div></div>
+        <div></div>
+        <div></div>
+    </button>
+    <!-- Avautuva valikko -->
+    <div class="menu" id="menu">
+        <a href="index.html">Etusivu</a>
+        <a href="sijoitukset.html">Sijoitukset</a>
+        <a href="kaudet.html">Kaudet</a>
+        <a href="joukkueet.html">Joukkueet</a>
+        <a href="pelaajat.html">Pelaajat</a>
+        <a href="vastustajat.html">Vastustajat</a>
+        <a href="tietoja.html">Tietoja</a>
     </div>
 
     <main>
@@ -141,6 +186,11 @@
     </main>
 
     <script>
+        function toggleMenu() {
+            const menu = document.getElementById('menu');
+            menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+        }
+
         // 1) Haetaan URL-parametreista pelaajan etu- ja sukunimi
         const urlParams = new URLSearchParams(window.location.search);
         const sukunimi = urlParams.get('sukunimi');
@@ -154,9 +204,13 @@
         playerPhoto.src = `pelaajakuvat/${etunimi} ${sukunimi}.jpg`; 
         // Jos kuvatiedostoa ei löydy, "onerror" asettaa oletuskuvan.
 
+        // Luetaan joukkue param
+        const urlParams2 = new URLSearchParams(window.location.search);
+        const joukkueParam2 = (urlParams2.get('joukkue') === 'naiset') ? 'data naiset' : 'data miehet';
+
         // 4) Haetaan sarjatasotiedot ja tallennetaan Kausi -> Sarjataso
         let sarjataulukot = {};
-        fetch('sarjataulukot.json')
+        fetch(`${joukkueParam2}/sarjataulukot.json`)
             .then(response => response.json())
             .then(data => {
                 sarjataulukot = data.reduce((acc, row) => {
@@ -170,7 +224,7 @@
         let positions = new Set();
         let roles = new Set();
 
-        fetch('pelaajat.json')
+        fetch(`${joukkueParam2}/pelaajat.json`)
             .then(response => response.json())
             .then(data => {
                 // Suodatetaan vain valitun pelaajan tietorivit

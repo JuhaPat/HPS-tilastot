@@ -24,6 +24,47 @@
             font-size: 1.5rem;
             margin: 10px 0 0;
         }
+        .menu-button {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 40px;
+            height: 40px;
+            background-color: rgb(0, 100, 40);
+            border: none;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+        .menu-button div {
+            width: 25px;
+            height: 3px;
+            background-color: white;
+            margin: 3px 0;
+        }
+        .menu {
+            display: none;
+            position: absolute;
+            top: 50px;
+            right: 10px;
+            background-color: white;
+            border: 1px solid #ccc;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .menu a {
+            display: block;
+            padding: 5px 10px;
+            color: black;
+            text-decoration: none;
+        }
+        .menu a:hover {
+            background-color: #f1f1f1;
+        }
         .sijoitus-table {
             width: 60%;
             border-collapse: collapse;
@@ -77,6 +118,24 @@
     </style>
 </head>
 <body>
+    <!-- Vihreä valikkonappi oikeassa yläkulmassa -->
+    <button class="menu-button" onclick="toggleMenu()">
+        <div></div>
+        <div></div>
+        <div></div>
+    </button>
+
+    <!-- Avautuva valikko -->
+    <div class="menu" id="menu">
+        <a href="index.html">Etusivu</a>
+        <a href="sijoitukset.html">Sijoitukset</a>
+        <a href="kaudet.html">Kaudet</a>
+        <a href="joukkueet.html">Joukkueet</a>
+        <a href="pelaajat.html">Pelaajat</a>
+        <a href="vastustajat.html">Vastustajat</a>
+        <a href="tietoja.html">Tietoja</a>
+    </div>
+
     <main>
         <div class="header">
             <a href="index.html">
@@ -87,20 +146,37 @@
         </div>
 
         <script>
+            // Kutsutaan onloadissa, jotta parametri joukkue lukee
+            // ja päivitetään otsikot + valikon linkit
             window.onload = function() {
                 const urlParams = new URLSearchParams(window.location.search);
-                const joukkue = urlParams.get('joukkue') || 'miehet'; 
+                const joukkue = urlParams.get('joukkue') || 'miehet';
+
+                // Asetetaan otsikot
                 const teamTitle = document.getElementById('team-title');
                 const teamSubtitle = document.getElementById('team-subtitle');
-                
                 if (joukkue === 'naiset') {
-                    teamTitle.textContent = "Naiset";
-                    teamSubtitle.textContent = "Sarjasijoitukset 1999-2024";
+                    teamTitle.textContent = 'Naiset';
+                    teamSubtitle.textContent = 'Sarjasijoitukset 1999-2024';
                 } else {
-                    teamTitle.textContent = "Miehet";
-                    teamSubtitle.textContent = "Sarjasijoitukset 1918-2024";
+                    teamTitle.textContent = 'Miehet';
+                    teamSubtitle.textContent = 'Sarjasijoitukset 1918-2024';
                 }
+
+                // Päivitetään valikon linkit
+                const menuLinks = document.querySelectorAll('.menu a');
+                menuLinks.forEach(link => {
+                    const linkUrl = new URL(link.href, window.location.origin);
+                    linkUrl.searchParams.set('joukkue', joukkue);
+                    link.href = linkUrl.toString();
+                });
             };
+
+            // Toggle-menu
+            function toggleMenu() {
+                const menu = document.getElementById('menu');
+                menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+            }
         </script>
 
         <!-- Taulukon yläosan sarjatasojen nimiluettelo (säilytetty) -->
@@ -164,22 +240,26 @@
     </main>
 
     <script>
+        // Ladataan data param joukkueen mukaan
         const urlParams = new URLSearchParams(window.location.search);
-        const joukkue = urlParams.get('joukkue') || 'miehet'; 
+        const joukkue = urlParams.get('joukkue') || 'miehet';
 
-        const dataFolder = joukkue === 'naiset' ? 'data naiset' : 'data miehet';
+        const dataFolder = (joukkue === 'naiset') ? 'data naiset' : 'data miehet';
         const jsonFile = `${dataFolder}/sijoitukset.json`;
 
         fetch(jsonFile)
             .then(response => response.json())
             .then(data => {
                 const tableBody = document.getElementById('table-body');
+                // Poimitaan kaikki vuodet ja lajitellaan laskevasti
                 const years = [...new Set(data.map(item => item.Vuosi))].sort((a, b) => b - a);
 
                 years.forEach(year => {
                     const row = document.createElement('tr');
+                    // Ensimmäisessä solussa linkki kaudet.html-sivulle
                     row.innerHTML = `<td class="year-cell"><a href="kaudet.html?year=${year}&joukkue=${joukkue}" class="link">${year}</a></td>`;
 
+                    // 8 sarjatasoa
                     for (let i = 1; i <= 8; i++) {
                         const cellData = data.find(item => item.Vuosi === year && item.sarjataso === `${i}. sarjataso`);
                         const cell = document.createElement('td');
@@ -207,6 +287,12 @@
                 });
             })
             .catch(error => console.error('Virhe ladattaessa JSON-dataa:', error));
+
+        // Toggle-nappi valikolle
+        function toggleMenu() {
+            const menu = document.getElementById('menu');
+            menu.style.display = (menu.style.display === 'block') ? 'none' : 'block';
+        }
     </script>
 </body>
 </html>

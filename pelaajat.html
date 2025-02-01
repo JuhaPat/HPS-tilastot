@@ -7,34 +7,26 @@
     <link rel="stylesheet" href="style.css">
 
     <style>
-        /* Madalletaan rivikorkeus ja lukitaan se 36px:ään */
+        /* Madalletaan taulukon rivikorkeus ja pienennetään kuvakokoa */
         .player-table tbody tr {
-            height: 36px; /* noin 20% vähemmän kuin aikaisemmin 45px */
-            line-height: 1em; /* Varmistetaan tekstin pysyminen siistinä */
+            line-height: 1.0em; /* pienempi rivikorkeus */
         }
-
         .player-table td, .player-table th {
-            padding: 2px 4px;
-            vertical-align: middle; /* Kuvan keskitys pysty- ja sivusuunnassa */
-            text-align: center;
+            padding: 2px 4px; /* vähennetään paddingia */
         }
-
-        /* Kuvat samankokoisiksi ja pyöreiksi */
         .player-photo {
-            width: 35px;
-            height: 35px;
-            border-radius: 50%;
-            object-fit: cover;
+            width: 35px;  /* pienempi leveys */
+            height: auto;
         }
 
         /* Asetetaan valitsimet allekkain ja keskitetään */
         .valintalista-container {
-            margin: 10px 0 20px 0;
+            margin: 10px 0 20px 0; /* ylä- ja ala-margin */
             display: flex;
-            flex-direction: column;
-            align-items: center;
+            flex-direction: column;    /* allekkain */
+            align-items: center;       /* keskelle sivusuunnassa */
             justify-content: center;   
-            gap: 10px;
+            gap: 10px;                 /* pientä väliä valitsimien välille */
         }
         .valintalista-container label {
             font-weight: bold;
@@ -43,30 +35,83 @@
         .valintalista-container select {
             margin-right: 10px;
         }
+
+        /* Vihreä valikkonappi oikeassa yläkulmassa */
+        .menu-button {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 40px;
+            height: 40px;
+            background-color: rgb(0, 100, 40);
+            border: none;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+        .menu-button div {
+            width: 25px;
+            height: 3px;
+            background-color: white;
+            margin: 3px 0;
+        }
+        .menu {
+            display: none;
+            position: absolute;
+            top: 50px;
+            right: 10px;
+            background-color: white;
+            border: 1px solid #ccc;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .menu a {
+            display: block;
+            padding: 5px 10px;
+            color: black;
+            text-decoration: none;
+        }
+        .menu a:hover {
+            background-color: #f1f1f1;
+        }
     </style>
 </head>
 <body>
-    <div class="sidebar">
-        <a href="index.html" class="logo-link">
-            <img src="HPS-logo.jpg" alt="HPS Logo" class="logo">
-            <p class="logo-text">HPS Tilastot<br>1917-2024</p>
-        </a>
-        <nav>
-            <ul class="menu">
-                <li><a href="sijoitukset.html">Sijoitukset</a></li>
-                <li><a href="kaudet.html">Kaudet</a></li>
-                <li><a href="pelaajat.html" class="active">Pelaajat</a></li>
-                <li><a href="vastustajat.html">Vastustajat</a></li>
-                <li><a href="tietoja.html">Tietoja</a></li>
-            </ul>
-        </nav>
+    <!-- Valikkonappi -->
+    <button class="menu-button" onclick="toggleMenu()">
+        <div></div>
+        <div></div>
+        <div></div>
+    </button>
+
+    <!-- Oikean yläkulman valikko -->
+    <div class="menu" id="menu">
+        <a href="index.html">Etusivu</a>
+        <a href="sijoitukset.html">Sijoitukset</a>
+        <a href="kaudet.html">Kaudet</a>
+        <a href="joukkueet.html">Joukkueet</a>
+        <a href="pelaajat.html">Pelaajat</a>
+        <a href="vastustajat.html">Vastustajat</a>
+        <a href="tietoja.html">Tietoja</a>
     </div>
 
     <main>
-        <img src="logot/HPS.jpg" alt="HPS Logo" style="width: 100px; height: auto; display: block; margin: 0 auto;">
+        <div class="header">
+            <a href="index.html">
+                <img src="logot/HPS.jpg" alt="HPS Logo">
+            </a>
+            <h1 id="team-title"></h1>
+            <h1 id="team-subtitle"></h1>
+        </div>
         <h1>Pelaajat</h1>
 
+        <!-- Yhteinen kontti valitsimille: ne tulevat allekkain ja keskitettyinä -->
         <div class="valintalista-container">
+            <!-- 1) Järjestysvalinta (oletus: Pelimäärän mukaan) -->
             <div>
                 <label for="sort-options">Valitse järjestys:</label>
                 <select id="sort-options">
@@ -79,6 +124,7 @@
                 </select>
             </div>
 
+            <!-- 2) Pelityyppi (oletus: Kilpailulliset) -->
             <div>
                 <label for="pelityyppi">Valitse pelityyppi:</label>
                 <select id="pelityyppi">
@@ -111,7 +157,29 @@
     </main>
 
     <script>
-        fetch('pelaajat.json')
+        function toggleMenu() {
+            const menu = document.getElementById('menu');
+            menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+        }
+
+        // Lisää joukkue-parametri menu-linkkeihin
+        window.addEventListener('DOMContentLoaded', () => {
+            const urlParams = new URLSearchParams(window.location.search);
+            const joukkue = urlParams.get('joukkue') || 'miehet';
+
+            const menuLinks = document.querySelectorAll('.menu a');
+            menuLinks.forEach(link => {
+                const linkUrl = new URL(link.href, window.location.origin);
+                linkUrl.searchParams.set('joukkue', joukkue);
+                link.href = linkUrl.toString();
+            });
+        });
+
+        // Haetaan data param joukkueen mukaan
+        const urlParams2 = new URLSearchParams(window.location.search);
+        const joukkueParam2 = (urlParams2.get('joukkue') === 'naiset') ? 'data naiset' : 'data miehet';
+
+        fetch(`${joukkueParam2}/pelaajat.json`)
             .then(response => response.json())
             .then(data => {
                 const tableBody = document.getElementById('players-table').querySelector('tbody');
@@ -191,7 +259,10 @@
 
                 function renderTable(sortedPlayers) {
                     tableBody.innerHTML = '';
+
                     const currentPelityyppi = pelityyppiSelect.value;
+                    // Luetaan \"joukkue\"-param, jotta liitetään se pelaajakorttilinkkeihin
+                    const joukkueParam = (urlParams2.get('joukkue') || 'miehet');
 
                     sortedPlayers.forEach(player => {
                         let pelitCount = 0;
@@ -212,20 +283,15 @@
                         const tr = document.createElement('tr');
                         tr.innerHTML = `
                             <td>
-                                <img
-                                    src="pelaajakuvat/${player.etunimi} ${player.sukunimi}.jpg"
-                                    alt="Pelaajan kuva"
-                                    class="player-photo"
-                                    onerror="this.onerror=null;this.src='pelaajakuvat/pelaajakuva.jpg';"
-                                >
+                                <img src="pelaajakuvat/pelaajakuva.jpg" alt="Pelaajan kuva" class="player-photo">
                             </td>
                             <td>
-                                <a href="pelaajakortti.html?sukunimi=${encodeURIComponent(player.sukunimi)}&etunimi=${encodeURIComponent(player.etunimi)}">
+                                <a href="pelaajakortti.html?sukunimi=${encodeURIComponent(player.sukunimi)}&etunimi=${encodeURIComponent(player.etunimi)}&joukkue=${encodeURIComponent(joukkueParam)}">
                                     ${player.sukunimi}
                                 </a>
                             </td>
                             <td>
-                                <a href="pelaajakortti.html?sukunimi=${encodeURIComponent(player.sukunimi)}&etunimi=${encodeURIComponent(player.etunimi)}">
+                                <a href="pelaajakortti.html?sukunimi=${encodeURIComponent(player.sukunimi)}&etunimi=${encodeURIComponent(player.etunimi)}&joukkue=${encodeURIComponent(joukkueParam)}">
                                     ${player.etunimi}
                                 </a>
                             </td>
@@ -261,7 +327,7 @@
                     renderTable(sortedPlayers);
                 }
 
-                // Alkuasetus: "most-games" & "kilpailulliset"
+                // Alussa: \"most-games\" & \"kilpailulliset\"
                 sortPlayers('most-games');
 
                 sortOptions.addEventListener('change', () => {
