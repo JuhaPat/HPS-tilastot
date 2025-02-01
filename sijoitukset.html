@@ -24,10 +24,12 @@
             font-size: 1.5rem;
             margin: 10px 0 0;
         }
+
+        /* Oikean reunan valikkonappi, samalle tasalle taulukon oikean reunan kanssa */
         .menu-button {
             position: absolute;
             top: 10px;
-            right: 10px;
+            right: 20%;
             width: 40px;
             height: 40px;
             background-color: rgb(0, 100, 40);
@@ -45,32 +47,43 @@
             background-color: white;
             margin: 3px 0;
         }
+
+        /* Kapea vihreä valikko, vihreä teksti, vihreät reunat, nyt leveys 200px */
         .menu {
             display: none;
             position: absolute;
-            top: 50px;
-            right: 10px;
+            top: 55px;
+            right: 20%;
+            width: 200px;
             background-color: white;
-            border: 1px solid #ccc;
-            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-            padding: 10px;
+            border: 2px solid rgb(0, 100, 40);
             border-radius: 5px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 5px;
         }
         .menu a {
             display: block;
-            padding: 5px 10px;
-            color: black;
+            color: rgb(0, 100, 40);
             text-decoration: none;
+            font-weight: bold;
+            border: 1px solid rgb(0, 100, 40);
+            border-radius: 3px;
+            margin: 2px 0;
+            padding: 4px 8px;
+            text-align: center;
         }
         .menu a:hover {
-            background-color: #f1f1f1;
+            background-color: rgb(0, 100, 40);
+            color: white;
         }
+
         .sijoitus-table {
             width: 60%;
             border-collapse: collapse;
             margin: 20px auto;
         }
-        .sijoitus-table th, .sijoitus-table td {
+        .sijoitus-table th,
+        .sijoitus-table td {
             border: 1px solid #ccc;
             padding: 4px;
             text-align: center;
@@ -118,13 +131,12 @@
     </style>
 </head>
 <body>
-    <!-- Vihreä valikkonappi oikeassa yläkulmassa -->
+    <!-- Vihreä valikkonappi oikeassa reunassa -->
     <button class="menu-button" onclick="toggleMenu()">
         <div></div>
         <div></div>
         <div></div>
     </button>
-
     <!-- Avautuva valikko -->
     <div class="menu" id="menu">
         <a href="index.html">Etusivu</a>
@@ -146,13 +158,10 @@
         </div>
 
         <script>
-            // Kutsutaan onloadissa, jotta parametri joukkue lukee
-            // ja päivitetään otsikot + valikon linkit
             window.onload = function() {
                 const urlParams = new URLSearchParams(window.location.search);
                 const joukkue = urlParams.get('joukkue') || 'miehet';
 
-                // Asetetaan otsikot
                 const teamTitle = document.getElementById('team-title');
                 const teamSubtitle = document.getElementById('team-subtitle');
                 if (joukkue === 'naiset') {
@@ -172,14 +181,13 @@
                 });
             };
 
-            // Toggle-menu
             function toggleMenu() {
                 const menu = document.getElementById('menu');
-                menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+                menu.style.display = (menu.style.display === 'block') ? 'none' : 'block';
             }
         </script>
 
-        <!-- Taulukon yläosan sarjatasojen nimiluettelo (säilytetty) -->
+        <!-- Taulukon yläosan sarjatasojen nimiluettelo (täsmälleen sama kuin alkuperäinen) -->
         <table class="sijoitus-table">
             <thead>
                 <tr style="background-color: white;">
@@ -240,9 +248,8 @@
     </main>
 
     <script>
-        // Ladataan data param joukkueen mukaan
-        const urlParams = new URLSearchParams(window.location.search);
-        const joukkue = urlParams.get('joukkue') || 'miehet';
+        const urlParams2 = new URLSearchParams(window.location.search);
+        const joukkue = urlParams2.get('joukkue') || 'miehet';
 
         const dataFolder = (joukkue === 'naiset') ? 'data naiset' : 'data miehet';
         const jsonFile = `${dataFolder}/sijoitukset.json`;
@@ -259,7 +266,7 @@
                     // Ensimmäisessä solussa linkki kaudet.html-sivulle
                     row.innerHTML = `<td class="year-cell"><a href="kaudet.html?year=${year}&joukkue=${joukkue}" class="link">${year}</a></td>`;
 
-                    // 8 sarjatasoa
+                    // 8 sarjatasoa, ennallaan
                     for (let i = 1; i <= 8; i++) {
                         const cellData = data.find(item => item.Vuosi === year && item.sarjataso === `${i}. sarjataso`);
                         const cell = document.createElement('td');
@@ -287,12 +294,6 @@
                 });
             })
             .catch(error => console.error('Virhe ladattaessa JSON-dataa:', error));
-
-        // Toggle-nappi valikolle
-        function toggleMenu() {
-            const menu = document.getElementById('menu');
-            menu.style.display = (menu.style.display === 'block') ? 'none' : 'block';
-        }
     </script>
 </body>
 </html>
