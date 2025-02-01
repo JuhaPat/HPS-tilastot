@@ -2,6 +2,7 @@
     {
       "Kausi": "2024",
       "Sarjataso": "Kansallinen liiga",
+      "Kauden lisätiedot": "Runkosarja",
       "sij.": "1",
       "Joukkue": "HJK",
       "Logo": "HJK.jpg",
@@ -11,12 +12,12 @@
       "H": "0",
       "TM": "56",
       "PM": "10",
-      "Pisteet": "52",
-      "Lisätiedot": "Mestari"
+      "Pisteet": "52"
     },
     {
       "Kausi": "2024",
       "Sarjataso": "Kansallinen liiga",
+      "Kauden lisätiedot": "Runkosarja",
       "sij.": "2",
       "Joukkue": "KuPS",
       "Logo": "KuPS.jpg",
@@ -31,6 +32,7 @@
     {
       "Kausi": "2024",
       "Sarjataso": "Kansallinen liiga",
+      "Kauden lisätiedot": "Runkosarja",
       "sij.": "3",
       "Joukkue": "HPS",
       "Logo": "HPS.jpg",
@@ -45,6 +47,7 @@
     {
       "Kausi": "2024",
       "Sarjataso": "Kansallinen liiga",
+      "Kauden lisätiedot": "Runkosarja",
       "sij.": "4",
       "Joukkue": "Åland United",
       "Logo": "Åland United.jpg",
@@ -59,6 +62,7 @@
     {
       "Kausi": "2024",
       "Sarjataso": "Kansallinen liiga",
+      "Kauden lisätiedot": "Runkosarja",
       "sij.": "5",
       "Joukkue": "PK-35 Vantaa",
       "Logo": "PK-35 Vantaa.jpg",
@@ -73,6 +77,7 @@
     {
       "Kausi": "2024",
       "Sarjataso": "Kansallinen liiga",
+      "Kauden lisätiedot": "Runkosarja",
       "sij.": "6",
       "Joukkue": "FC Honka",
       "Logo": "FC Honka.jpg",
@@ -87,6 +92,7 @@
     {
       "Kausi": "2024",
       "Sarjataso": "Kansallinen liiga",
+      "Kauden lisätiedot": "Runkosarja",
       "sij.": "7",
       "Joukkue": "Ilves",
       "Logo": "Ilves.jpg",
@@ -101,6 +107,7 @@
     {
       "Kausi": "2024",
       "Sarjataso": "Kansallinen liiga",
+      "Kauden lisätiedot": "Runkosarja",
       "sij.": "8",
       "Joukkue": "PK-35",
       "Logo": "PK-35.jpg",
@@ -115,6 +122,7 @@
     {
       "Kausi": "2024",
       "Sarjataso": "Kansallinen liiga",
+      "Kauden lisätiedot": "Runkosarja",
       "sij.": "9",
       "Joukkue": "JyPK",
       "Logo": "JyPK.jpg",
@@ -129,6 +137,7 @@
     {
       "Kausi": "2024",
       "Sarjataso": "Kansallinen liiga",
+      "Kauden lisätiedot": "Runkosarja",
       "sij.": "10",
       "Joukkue": "PKKU",
       "Logo": "PKKU.jpg",
@@ -139,6 +148,67 @@
       "TM": "14",
       "PM": "72",
       "Pisteet": "3"
+    },
+    {
+      "Kausi": "2024",
+      "Sarjataso": "Kansallinen liiga",
+      "Kauden lisätiedot": "Mestaruussarja",
+      "sij.": "1",
+      "Joukkue": "HJK",
+      "Logo": "HJK.jpg",
+      "Ottelut": "24",
+      "V": "20",
+      "T": "2",
+      "H": "2",
+      "TM": "66",
+      "PM": "15",
+      "Pisteet": "62",
+      "Lisätiedot": "Mestari"
+    },
+    {
+      "Kausi": "2024",
+      "Sarjataso": "Kansallinen liiga",
+      "Kauden lisätiedot": "Mestaruussarja",
+      "sij.": "2",
+      "Joukkue": "KuPS",
+      "Logo": "KuPS.jpg",
+      "Ottelut": "24",
+      "V": "14",
+      "T": "7",
+      "H": "3",
+      "TM": "59",
+      "PM": "26",
+      "Pisteet": "49"
+    },
+    {
+      "Kausi": "2024",
+      "Sarjataso": "Kansallinen liiga",
+      "Kauden lisätiedot": "Mestaruussarja",
+      "sij.": "3",
+      "Joukkue": "HPS",
+      "Logo": "HPS.jpg",
+      "Ottelut": "24",
+      "V": "14",
+      "T": "2",
+      "H": "8",
+      "TM": "43",
+      "PM": "28",
+      "Pisteet": "44"
+    },
+    {
+      "Kausi": "2024",
+      "Sarjataso": "Kansallinen liiga",
+      "Kauden lisätiedot": "Mestaruussarja",
+      "sij.": "4",
+      "Joukkue": "Åland United",
+      "Logo": "Åland United.jpg",
+      "Ottelut": "24",
+      "V": "10",
+      "T": "5",
+      "H": "9",
+      "TM": "46",
+      "PM": "37",
+      "Pisteet": "35"
     },
     {
       "Kausi": "2023",
