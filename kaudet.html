@@ -177,6 +177,7 @@
             <a href="index.html">
                 <img src="logot/HPS.jpg" alt="HPS Logo">
             </a>
+            <!-- Käytetään team-title / team-subtitle -->
             <h1 id="team-title"></h1>
             <h1 id="team-subtitle"></h1>
         </div>
@@ -284,7 +285,7 @@
             menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
         }
         
-         const dataFolder = getTeamDataFolder();
+        const dataFolder = getTeamDataFolder();
 
         function updateURLParameter(param, value) {
             const newURL = new URL(window.location.href);
@@ -452,8 +453,10 @@
                 const tableBody = document
                     .getElementById('league-table')
                     .querySelector('tbody');
-                const mainTitle = document.getElementById('main-title');
-                const subTitle = document.getElementById('sub-title');
+                // Käytetään team-title / team-subtitle:
+                const mainTitle = document.getElementById('team-title');
+                const subTitle = document.getElementById('team-subtitle');
+
                 const extraTitle = document.getElementById('extra-title');
                 const matchTitle = document.getElementById('match-title');
                 const matchTableBody = document.getElementById('table-body');
