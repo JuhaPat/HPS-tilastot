@@ -79,13 +79,29 @@
 <body>
     <main>
         <div class="header">
-            <!-- HPS-logo on nyt linkki takaisin index.html:ään -->
             <a href="index.html">
                 <img src="logot/HPS.jpg" alt="HPS Logo">
             </a>
-            <h1>Sarjasijoitukset</h1>
-            <h1>1918-2024</h1>
+            <h1 id="team-title"></h1>
+            <h1 id="team-subtitle"></h1>
         </div>
+
+        <script>
+            window.onload = function() {
+                const urlParams = new URLSearchParams(window.location.search);
+                const joukkue = urlParams.get('joukkue') || 'miehet'; 
+                const teamTitle = document.getElementById('team-title');
+                const teamSubtitle = document.getElementById('team-subtitle');
+                
+                if (joukkue === 'naiset') {
+                    teamTitle.textContent = "Naiset";
+                    teamSubtitle.textContent = "Sarjasijoitukset 1999-2024";
+                } else {
+                    teamTitle.textContent = "Miehet";
+                    teamSubtitle.textContent = "Sarjasijoitukset 1918-2024";
+                }
+            };
+        </script>
 
         <!-- Taulukon yläosan sarjatasojen nimiluettelo (säilytetty) -->
         <table class="sijoitus-table">
