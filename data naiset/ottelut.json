@@ -12,7 +12,7 @@
       "maalit_vieras": "2",
       "yleisömäärä": "684",
       "erotuomari": "Ifeoma Kulmala",
-      "maalintekijät_koti": "Roosa Ariyo 7,Roosa Ariyo 53"
+      "maalintekijät_vieras": "Roosa Ariyo 7,Roosa Ariyo 53"
     },
     {
       "ottelu_id": "202425",
@@ -27,8 +27,8 @@
       "maalit_vieras": "3",
       "yleisömäärä": "267",
       "erotuomari": "Lina Lehtovaara",
-      "kuvateksti": "Olivia Ulenius 40",
-      "maalintekijät_koti": "Henni Rinkinen 7,Oona Jääskeläinen 18,Matilda Kataja 87"
+      "maalintekijät_koti": "Olivia Ulenius 40",
+      "maalintekijät_vieras": "Henni Rinkinen 7,Oona Jääskeläinen 18,Matilda Kataja 87"
     },
     {
       "ottelu_id": "202424",
@@ -43,7 +43,7 @@
       "maalit_vieras": "0",
       "yleisömäärä": "515",
       "erotuomari": "Satu Miettinen",
-      "kuvateksti": "Milja Kiviranta 52,Lilli Halttunen 54,Maaria Roth 66,Aada Mäkelä 76"
+      "maalintekijät_koti": "Milja Kiviranta 52,Lilli Halttunen 54,Maaria Roth 66,Aada Mäkelä 76"
     },
     {
       "ottelu_id": "202423",
@@ -58,7 +58,7 @@
       "maalit_vieras": "1",
       "yleisömäärä": "347",
       "erotuomari": "Ifeoma Kulmala",
-      "maalintekijät_koti": "Abigail Michelle Ostrem 69"
+      "maalintekijät_vieras": "Abigail Michelle Ostrem 69"
     },
     {
       "ottelu_id": "202422",
@@ -73,7 +73,7 @@
       "maalit_vieras": "0",
       "yleisömäärä": "273",
       "erotuomari": "Hassan Soltani",
-      "kuvateksti": "Lavdije Begolli 51,Roosa Ariyo 60"
+      "maalintekijät_koti": "Lavdije Begolli 51,Roosa Ariyo 60"
     },
     {
       "ottelu_id": "202421",
@@ -88,7 +88,7 @@
       "maalit_vieras": "0",
       "yleisömäärä": "358",
       "erotuomari": "Jasmine Kaur",
-      "kuvateksti": "Fanni Sinivuori 67,Aino Kohtamäki 79"
+      "maalintekijät_koti": "Fanni Sinivuori 67,Aino Kohtamäki 79"
     },
     {
       "ottelu_id": "202420",
@@ -103,7 +103,7 @@
       "maalit_vieras": "0",
       "yleisömäärä": "269",
       "erotuomari": "Jasmine Kaur",
-      "kuvateksti": "Ria Karjalainen 67"
+      "maalintekijät_koti": "Ria Karjalainen 67"
     },
     {
       "ottelu_id": "202419",
@@ -118,8 +118,8 @@
       "maalit_vieras": "3",
       "yleisömäärä": "300",
       "erotuomari": "Marit Skurdal",
-      "kuvateksti": "Natalie McNally 43",
-      "maalintekijät_koti": "Ria Karjalainen 27,Ria Karjalainen 36,Oona Jääskeläinen 54"
+      "maalintekijät_koti": "Natalie McNally 43",
+      "maalintekijät_vieras": "Ria Karjalainen 27,Ria Karjalainen 36,Oona Jääskeläinen 54"
     },
     {
       "ottelu_id": "202418",
@@ -133,7 +133,287 @@
       "maalit_vieras": "3",
       "yleisömäärä": "106",
       "erotuomari": "Lassi Matilainen",
-      "kuvateksti": "Jasmina Liukkonen 5",
-      "maalintekijät_koti": "Henni Rinkinenn 15,Peppi Kontturi 29,Julia Vesa 90+2"
+      "maalintekijät_koti": "Jasmina Liukkonen 5",
+      "maalintekijät_vieras": "Henni Rinkinenn 15,Peppi Kontturi 29,Julia Vesa 90+2"
+    },
+    {
+      "ottelu_id": "201518",
+      "Kausi": "2015",
+      "Päivämäärä": "19.9.2015",
+      "Kilpailu": "Naisten Kakkonen",
+      "Stadion": "Tapiola",
+      "Kaupunki": "Espoo",
+      "Kotijoukkue": "FC Honka/2",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "1",
+      "maalit_vieras": "4",
+      "yleisömäärä": "10",
+      "erotuomari": "Markus Riutta",
+      "kuvateksti": "Pihla Filppula 13",
+      "maalintekijät_koti": "Ella Andberg 52,Nelli Rolig 55,Ella Andberg 65,Ella Andberg 80"
+    },
+    {
+      "ottelu_id": "201517",
+      "Kausi": "2015",
+      "Päivämäärä": "12.9.2015",
+      "Kilpailu": "Naisten Kakkonen",
+      "Stadion": "Paloheinä",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "JyPK/2",
+      "maalit_koti": "7",
+      "maalit_vieras": "1",
+      "yleisömäärä": "37",
+      "erotuomari": "Kari Aaltio",
+      "kuvateksti": "Ella Andberg 29,Aino Lehtinen 32,Ella Andberg 37,Ella Andberg 38,Oona Antola 58,Ella Andberg 66,Eevi Holopainen 81",
+      "maalintekijät_koti": "Mira Palmi 4"
+    },
+    {
+      "ottelu_id": "201516",
+      "Kausi": "2015",
+      "Päivämäärä": "5.9.2015",
+      "Kilpailu": "Naisten Kakkonen",
+      "Stadion": "Paloheinä",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "PEPO",
+      "maalit_koti": "3",
+      "maalit_vieras": "1",
+      "yleisömäärä": "41",
+      "erotuomari": "Yahya Malikzay",
+      "kuvateksti": "Ella Andberg 17,Ella Andberg 60,Piipa Kämppi 90+5",
+      "maalintekijät_koti": "Jutta Ruti 87"
+    },
+    {
+      "ottelu_id": "201515",
+      "Kausi": "2015",
+      "Päivämäärä": "30.8.2015",
+      "Kilpailu": "Naisten Kakkonen",
+      "Kaupunki": "Järvenpää",
+      "Kotijoukkue": "JäPS",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "0",
+      "maalit_vieras": "3",
+      "yleisömäärä": "30",
+      "erotuomari": "Jani Koponen",
+      "maalintekijät_koti": "Aino Lehtinen 30,Pinja Forss 58,Aino Lehtinen 82"
+    },
+    {
+      "ottelu_id": "201514",
+      "Kausi": "2015",
+      "Päivämäärä": "22.8.2015",
+      "Kilpailu": "Naisten Kakkonen",
+      "Stadion": "Paloheinä",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "FC Viikingit",
+      "maalit_koti": "4",
+      "maalit_vieras": "1",
+      "yleisömäärä": "38",
+      "erotuomari": "Marco Matinvesi",
+      "kuvateksti": "Aino Lehtinen 4,Pinja Forss 30,Nelli Rolig 43,Piipa Kämppi 90+1",
+      "maalintekijät_koti": "Tuuli Lindholm 65"
+    },
+    {
+      "ottelu_id": "201513",
+      "Kausi": "2015",
+      "Päivämäärä": "15.8.2015",
+      "Kilpailu": "Naisten Kakkonen",
+      "Stadion": "Keski-Espoo",
+      "Kaupunki": "Espoo",
+      "Kotijoukkue": "EBK",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "6",
+      "maalit_vieras": "1",
+      "yleisömäärä": "20",
+      "erotuomari": "Jussi Rekilä",
+      "kuvateksti": "Niina Tyynismaa 14,Niina Tyynismaa 34,Miia Koppanen 52,Miia Koppanen 62,Miia Koppanen 90,Laura Lönnberg 90+2",
+      "maalintekijät_koti": "Ella Andberg 78"
+    },
+    {
+      "ottelu_id": "201512",
+      "Kausi": "2015",
+      "Päivämäärä": "8.8.2015",
+      "Kilpailu": "Naisten Kakkonen",
+      "Stadion": "Paloheinä",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "PU-62",
+      "maalit_koti": "6",
+      "maalit_vieras": "1",
+      "yleisömäärä": "29",
+      "erotuomari": "Eino Väisänen",
+      "kuvateksti": "Eevi Holopainen 12,Ella Andberg 38,Eevi Holopainen 45+1,Ella Andberg 63,Eevi Holopainen 69,Emma Järvinen 72",
+      "maalintekijät_koti": "Iida Muinonen 89"
+    },
+    {
+      "ottelu_id": "201511",
+      "Kausi": "2015",
+      "Päivämäärä": "1.8.2015",
+      "Kilpailu": "Naisten Kakkonen",
+      "Stadion": "Klaukkala",
+      "Kaupunki": "Nurmijärvi",
+      "Kotijoukkue": "NJS",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "2",
+      "maalit_vieras": "1",
+      "yleisömäärä": "50",
+      "erotuomari": "Timo Kettunen",
+      "kuvateksti": "Kaisa Ranki 61,Tytti Kemppainen 72",
+      "maalintekijät_koti": "Nelli Rollig 35"
+    },
+    {
+      "ottelu_id": "201510",
+      "Kausi": "2015",
+      "Päivämäärä": "25.7.2015",
+      "Kilpailu": "Naisten Kakkonen",
+      "Stadion": "Paloheinä",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "MPS/2",
+      "maalit_koti": "1",
+      "maalit_vieras": "0",
+      "yleisömäärä": "36",
+      "erotuomari": "Olli Annala",
+      "kuvateksti": "Ella Andberg 57"
+    },
+    {
+      "ottelu_id": "201509",
+      "Kausi": "2015",
+      "Päivämäärä": "2.7.2015",
+      "Kilpailu": "Naisten Kakkonen",
+      "Stadion": "Paloheinä",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "FC Honka/2",
+      "maalit_koti": "4",
+      "maalit_vieras": "1",
+      "yleisömäärä": "58",
+      "erotuomari": "Sini Hakala",
+      "kuvateksti": "Aino Lehtinen 16,Ella Andberg 58,Pinja Forss 68,Ella Andberg 90+1",
+      "maalintekijät_koti": "Emilia Asikainen 39"
+    },
+    {
+      "ottelu_id": "201508",
+      "Kausi": "2015",
+      "Päivämäärä": "28.6.2015",
+      "Kilpailu": "Naisten Kakkonen",
+      "Stadion": "Viitaniemi",
+      "Kaupunki": "Jyväskylä",
+      "Kotijoukkue": "JyPK/2",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "3",
+      "maalit_vieras": "1",
+      "erotuomari": "Ali Moradi",
+      "kuvateksti": "Anna Vanhala 17,Anna Vanhala 36,Anna Vanhala 73",
+      "maalintekijät_koti": "Sivu Kankaanpää 41"
+    },
+    {
+      "ottelu_id": "201507",
+      "Kausi": "2015",
+      "Päivämäärä": "13.6.2015",
+      "Kilpailu": "Naisten Kakkonen",
+      "Stadion": "Kimpinen",
+      "Kaupunki": "Lappeenranta",
+      "Kotijoukkue": "PEPO",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "1",
+      "maalit_vieras": "0",
+      "yleisömäärä": "57",
+      "erotuomari": "Jukka Karhu",
+      "kuvateksti": "Hannele Kiuru 16"
+    },
+    {
+      "ottelu_id": "201506",
+      "Kausi": "2015",
+      "Päivämäärä": "6.6.2015",
+      "Kilpailu": "Naisten Kakkonen",
+      "Stadion": "Paloheinä",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "JäPS",
+      "maalit_koti": "2",
+      "maalit_vieras": "1",
+      "yleisömäärä": "35",
+      "erotuomari": "Marco Matinvesi",
+      "kuvateksti": "Eeva Neuvonen 67,Nelli Rolig 88",
+      "maalintekijät_koti": "Mirka Hiltunen 57"
+    },
+    {
+      "ottelu_id": "201505",
+      "Kausi": "2015",
+      "Päivämäärä": "24.5.2015",
+      "Kilpailu": "Naisten Kakkonen",
+      "Stadion": "Myllypuro",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "FC Viikingit",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "1",
+      "maalit_vieras": "0",
+      "yleisömäärä": "36",
+      "erotuomari": "Sini Hakala",
+      "kuvateksti": "Roosa Lampinen 47"
+    },
+    {
+      "ottelu_id": "201504",
+      "Kausi": "2015",
+      "Päivämäärä": "16.5.2015",
+      "Kilpailu": "Naisten Kakkonen",
+      "Stadion": "Paloheinä",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "EBK",
+      "maalit_koti": "1",
+      "maalit_vieras": "3",
+      "yleisömäärä": "65",
+      "erotuomari": "Markus Lehtola",
+      "kuvateksti": "Piipa Kämppi 85",
+      "maalintekijät_koti": "Anniina Tynjälä 33,Johanna Muhonen 47,Niina Tyynismaa 88"
+    },
+    {
+      "ottelu_id": "201503",
+      "Kausi": "2015",
+      "Päivämäärä": "14.5.2015",
+      "Kilpailu": "Naisten Kakkonen",
+      "Stadion": "Hänninkenttä",
+      "Kaupunki": "Mikkeli",
+      "Kotijoukkue": "PU-62",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "0",
+      "maalit_vieras": "4",
+      "yleisömäärä": "123",
+      "erotuomari": "Jorma Halme",
+      "maalintekijät_koti": "Aino Lehtinen 18,Ella Andberg 46,Nelli Rolig 50,Nelli Rolig 68"
+    },
+    {
+      "ottelu_id": "201502",
+      "Kausi": "2015",
+      "Päivämäärä": "9.5.2015",
+      "Kilpailu": "Naisten Kakkonen",
+      "Stadion": "Paloheinä",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "NJS",
+      "maalit_koti": "2",
+      "maalit_vieras": "2",
+      "yleisömäärä": "166",
+      "erotuomari": "Jarmo Luhtanen",
+      "kuvateksti": "Aino Lehtinen 37, Aino Lehtinen 90+2",
+      "maalintekijät_koti": "Emma Rantamaa 6,Tytti Kemppainen 39"
+    },
+    {
+      "ottelu_id": "201501",
+      "Kausi": "2015",
+      "Päivämäärä": "3.5.2015",
+      "Kilpailu": "Naisten Kakkonen",
+      "Stadion": "Tali halli",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "MPS/2",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "2",
+      "maalit_vieras": "2",
+      "erotuomari": "Joel Kujala",
+      "kuvateksti": "Rosa Lappi-Seppälä 74, Rosa Lappi-Seppälä 80",
+      "maalintekijät_koti": "Ella Andberg 52,Nelli Rolig 63"
     }
   ]
