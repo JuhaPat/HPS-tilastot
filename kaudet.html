@@ -158,6 +158,7 @@
         }
     </style>
     <script>
+        // Funktio, joka palauttaa JSON-tiedostojen kansion nimen sen mukaan, mikä URL-parametri "joukkue" on
         function getTeamDataFolder() {
             const urlParams = new URLSearchParams(window.location.search);
             const teamParam = urlParams.get('joukkue');
@@ -697,8 +698,10 @@
                                             }
                                             const resultTd = document.createElement('td');
                                             const resultLink = document.createElement('a');
-                                            // Lisätään myös joukkue-parametri dynaamisesti tuloslinkkiin
-                                            resultLink.href = `ottelukortti.html?ottelu_id=${match.ottelu_id}`;
+                                            // Haetaan URL-parametri "joukkue" ja lisätään se linkkiin
+                                            const urlParams = new URLSearchParams(window.location.search);
+                                            const joukkue = urlParams.get('joukkue');
+                                            resultLink.href = `ottelukortti.html?ottelu_id=${match.ottelu_id}${joukkue ? `&joukkue=${encodeURIComponent(joukkue)}` : ''}`;
                                             resultLink.textContent = resultText;
                                             resultTd.appendChild(resultLink);
                                             tr.appendChild(resultTd);
@@ -720,11 +723,9 @@
                 let href = link.getAttribute("href");
                 // Päivitetään vain sisäiset linkit (ei ulkoisia tai mailto-linkkejä)
                 if (href && !href.match(/^https?:\/\//) && !href.startsWith("mailto:")) {
-                    // Jos linkissä ei vielä ole kyselyparametreja, lisätään "?" muuten "&"
                     if (href.indexOf("?") === -1) {
                         href += `?joukkue=${encodeURIComponent(joukkue)}`;
                     } else {
-                        // Muodostetaan URL-olio ja asetetaan/korvataan joukkue-parametri
                         let url = new URL(href, window.location.origin);
                         url.searchParams.set("joukkue", joukkue);
                         href = url.pathname + url.search;
