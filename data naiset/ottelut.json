@@ -149,8 +149,8 @@
       "maalit_vieras": "1",
       "yleisömäärä": "180",
       "erotuomari": "Kari Mantere",
-      "kuvateksti": "Lois Edvardsson 41,Aino Lehtinen (rp) 44,Lois Edvardsson 51,Eevi Holopainen 77",
-      "maalintekijät_koti": "Maija-Leena Kottari 45"
+      "maalintekijät_koti": "Lois Edvardsson 41,Aino Lehtinen (rp) 44,Lois Edvardsson 51,Eevi Holopainen 77",
+      "maalintekijät_vieras": "Maija-Leena Kottari 45"
     },
     {
       "ottelu_id": "201620",
@@ -165,8 +165,8 @@
       "maalit_vieras": "4",
       "yleisömäärä": "62",
       "erotuomari": "Tomi Keipi",
-      "kuvateksti": "Tiia Tikkanen 19,Tiia Tikkanen 41",
-      "maalintekijät_koti": "Aino Lehtinen (rp) 43,Piipa Kämppi 57,Aino Lehtinen 63,Ella Andberg 66"
+      "maalintekijät_koti": "Tiia Tikkanen 19,Tiia Tikkanen 41",
+      "maalintekijät_vieras": "Aino Lehtinen (rp) 43,Piipa Kämppi 57,Aino Lehtinen 63,Ella Andberg 66"
     },
     {
       "ottelu_id": "201619",
@@ -181,7 +181,7 @@
       "maalit_vieras": "0",
       "yleisömäärä": "72",
       "erotuomari": "Juha-Pekka Mitjonen",
-      "kuvateksti": "Aino Lehtinen 86,Sara Niemistö 90+2"
+      "maalintekijät_koti": "Aino Lehtinen 86,Sara Niemistö 90+2"
     },
     {
       "ottelu_id": "201618",
@@ -196,7 +196,7 @@
       "maalit_vieras": "1",
       "yleisömäärä": "47",
       "erotuomari": "Jukka Karhu",
-      "maalintekijät_koti": "Aino Lehtinen 88"
+      "maalintekijät_vieras": "Aino Lehtinen 88"
     },
     {
       "ottelu_id": "201617",
@@ -211,7 +211,7 @@
       "maalit_vieras": "0",
       "yleisömäärä": "45",
       "erotuomari": "Olli-Oskari Jaakkola",
-      "kuvateksti": "Kaisa Aalto 68,Piipa Kämppi 71,Aino Lehtinen 90+1"
+      "maalintekijät_koti": "Kaisa Aalto 68,Piipa Kämppi 71,Aino Lehtinen 90+1"
     },
     {
       "ottelu_id": "201616",
@@ -226,7 +226,7 @@
       "maalit_vieras": "0",
       "yleisömäärä": "66",
       "erotuomari": "Esa Kallio",
-      "kuvateksti": "Aino Lehtinen 17,Ella Andberg 90+2"
+      "maalintekijät_koti": "Aino Lehtinen 17,Ella Andberg 90+2"
     },
     {
       "ottelu_id": "201615",
@@ -241,8 +241,8 @@
       "maalit_vieras": "4",
       "yleisömäärä": "50",
       "erotuomari": "Juha Isosomppi",
-      "kuvateksti": "Hanna Harju 17,Anna Karvonen 22,Saida Saarinen 70",
-      "maalintekijät_koti": "Ella Andberg 46,Aino Lehtinen 48,Kaisa Aalto 54,Ella Andberg 89"
+      "maalintekijät_koti": "Hanna Harju 17,Anna Karvonen 22,Saida Saarinen 70",
+      "maalintekijät_vieras": "Ella Andberg 46,Aino Lehtinen 48,Kaisa Aalto 54,Ella Andberg 89"
     },
     {
       "ottelu_id": "201614",
@@ -256,8 +256,8 @@
       "maalit_vieras": "1",
       "yleisömäärä": "32",
       "erotuomari": "Hung Vuong",
-      "kuvateksti": "Siiri Melartin 7,Lidia Belardinelli 51",
-      "maalintekijät_koti": "Piipa Kämppi 75"
+      "maalintekijät_koti": "Siiri Melartin 7,Lidia Belardinelli 51",
+      "maalintekijät_vieras": "Piipa Kämppi 75"
     },
     {
       "ottelu_id": "201613",
@@ -272,8 +272,8 @@
       "maalit_vieras": "2",
       "yleisömäärä": "67",
       "erotuomari": "Juha Isosomppi",
-      "kuvateksti": "Piipa Kämppi 13,Lois Edvardsson 48",
-      "maalintekijät_koti": "Oma maali 26,Aurora Troberg 62"
+      "maalintekijät_koti": "Piipa Kämppi 13,Lois Edvardsson 48",
+      "maalintekijät_vieras": "Oma maali 26,Aurora Troberg 62"
     },
     {
       "ottelu_id": "201612",
@@ -287,8 +287,8 @@
       "maalit_koti": "1",
       "maalit_vieras": "1",
       "erotuomari": "Juha Isosomppi",
-      "kuvateksti": "Sari Tuunainen 15",
-      "maalintekijät_koti": "Ella Andberg 45"
+      "maalintekijät_koti": "Sari Tuunainen 15",
+      "maalintekijät_vieras": "Ella Andberg 45"
     },
     {
       "ottelu_id": "201611",
@@ -303,8 +303,8 @@
       "maalit_vieras": "3",
       "yleisömäärä": "64",
       "erotuomari": "Timo Marin",
-      "kuvateksti": "Aino Lehtinen 41,Aino Lehtinen 56,Kaisa Aalto 63",
-      "maalintekijät_koti": "Emma Rantamaa 44,Tytti Kemppainen 60,Kaisa Ranki 62"
+      "maalintekijät_koti": "Aino Lehtinen 41,Aino Lehtinen 56,Kaisa Aalto 63",
+      "maalintekijät_vieras": "Emma Rantamaa 44,Tytti Kemppainen 60,Kaisa Ranki 62"
     },
     {
       "ottelu_id": "201610",
@@ -318,7 +318,7 @@
       "maalit_koti": "0",
       "maalit_vieras": "6",
       "erotuomari": "Markus Lehtola",
-      "maalintekijät_koti": "Ella Andberg 21,Aino Lehtinen 40,Piipa Kämppi 45,Sini Hakala 60,Lois Edvardsson 62,Lois Edvardsson 80"
+      "maalintekijät_vieras": "Ella Andberg 21,Aino Lehtinen 40,Piipa Kämppi 45,Sini Hakala 60,Lois Edvardsson 62,Lois Edvardsson 80"
     },
     {
       "ottelu_id": "201609",
@@ -333,8 +333,8 @@
       "maalit_vieras": "1",
       "yleisömäärä": "45",
       "erotuomari": "Sami Juselius",
-      "kuvateksti": "Aino Lehtinen (rp) 13,Ella Andberg 37,Aino Lehtinen 45+1,Aino Lehtinen 56",
-      "maalintekijät_koti": "Netta Jaakkola 23"
+      "maalintekijät_koti": "Aino Lehtinen (rp) 13,Ella Andberg 37,Aino Lehtinen 45+1,Aino Lehtinen 56",
+      "maalintekijät_vieras": "Netta Jaakkola 23"
     },
     {
       "ottelu_id": "201608",
@@ -363,7 +363,7 @@
       "maalit_vieras": "0",
       "yleisömäärä": "69",
       "erotuomari": "Hanna Peltonen",
-      "kuvateksti": "Maija Meronen 80"
+      "maalintekijät_koti": "Maija Meronen 80"
     },
     {
       "ottelu_id": "201606",
@@ -378,7 +378,7 @@
       "maalit_vieras": "2",
       "yleisömäärä": "23",
       "erotuomari": "Henri Ojalehto",
-      "maalintekijät_koti": "Eeva Neuvonen 28,Ella Andberg 34"
+      "maalintekijät_vieras": "Eeva Neuvonen 28,Ella Andberg 34"
     },
     {
       "ottelu_id": "201605",
@@ -393,7 +393,7 @@
       "maalit_vieras": "0",
       "yleisömäärä": "45",
       "erotuomari": "Juha-Pekka Mitjonen",
-      "kuvateksti": "Eevi Holopainen 33,Lois Edvardsson 67"
+      "maalintekijät_koti": "Eevi Holopainen 33,Lois Edvardsson 67"
     },
     {
       "ottelu_id": "201604",
@@ -408,8 +408,8 @@
       "maalit_vieras": "4",
       "yleisömäärä": "20",
       "erotuomari": "Henri Ojalehto",
-      "kuvateksti": "Petra Pitkänen 50",
-      "maalintekijät_koti": "Aino Lehtinen 21,Piipa Kämppi 37,Aino Lehtinen 38,Eevi Holopainen 79"
+      "maalintekijät_koti": "Petra Pitkänen 50",
+      "maalintekijät_vieras": "Aino Lehtinen 21,Piipa Kämppi 37,Aino Lehtinen 38,Eevi Holopainen 79"
     },
     {
       "ottelu_id": "201603",
@@ -424,7 +424,7 @@
       "maalit_vieras": "0",
       "yleisömäärä": "63",
       "erotuomari": "Timo Erävuori",
-      "kuvateksti": "Ella Andberg (rp) 22,Ella Andberg 23,Lois Edvardsson 54"
+      "maalintekijät_koti": "Ella Andberg (rp) 22,Ella Andberg 23,Lois Edvardsson 54"
     },
     {
       "ottelu_id": "201602",
@@ -439,7 +439,7 @@
       "maalit_vieras": "3",
       "yleisömäärä": "40",
       "erotuomari": "Petteri Pennanen",
-      "maalintekijät_koti": "Eevi Holopainen 35,Piipa Kämppi 53,Sara Niemistö 86"
+      "maalintekijät_vieras": "Eevi Holopainen 35,Piipa Kämppi 53,Sara Niemistö 86"
     },
     {
       "ottelu_id": "201601",
@@ -454,7 +454,7 @@
       "maalit_vieras": "5",
       "yleisömäärä": "120",
       "erotuomari": "Larbi Boughdiri",
-      "kuvateksti": "Oma maali 1,Roosa Bröijer 5,Roosa Bröijer 30,Hanne Ojanperä 40,Hanne Ojanperä 82"
+      "maalintekijät_koti": "Oma maali 1,Roosa Bröijer 5,Roosa Bröijer 30,Hanne Ojanperä 40,Hanne Ojanperä 82"
     },
     {
       "ottelu_id": "201518",
@@ -469,8 +469,8 @@
       "maalit_vieras": "4",
       "yleisömäärä": "10",
       "erotuomari": "Markus Riutta",
-      "kuvateksti": "Pihla Filppula 13",
-      "maalintekijät_koti": "Ella Andberg 52,Nelli Rolig 55,Ella Andberg 65,Ella Andberg 80"
+      "maalintekijät_koti": "Pihla Filppula 13",
+      "maalintekijät_vieras": "Ella Andberg 52,Nelli Rolig 55,Ella Andberg 65,Ella Andberg 80"
     },
     {
       "ottelu_id": "201517",
@@ -485,8 +485,8 @@
       "maalit_vieras": "1",
       "yleisömäärä": "37",
       "erotuomari": "Kari Aaltio",
-      "kuvateksti": "Ella Andberg 29,Aino Lehtinen 32,Ella Andberg 37,Ella Andberg 38,Oona Antola 58,Ella Andberg 66,Eevi Holopainen 81",
-      "maalintekijät_koti": "Mira Palmi 4"
+      "maalintekijät_koti": "Ella Andberg 29,Aino Lehtinen 32,Ella Andberg 37,Ella Andberg 38,Oona Antola 58,Ella Andberg 66,Eevi Holopainen 81",
+      "maalintekijät_vieras": "Mira Palmi 4"
     },
     {
       "ottelu_id": "201516",
@@ -501,8 +501,8 @@
       "maalit_vieras": "1",
       "yleisömäärä": "41",
       "erotuomari": "Yahya Malikzay",
-      "kuvateksti": "Ella Andberg 17,Ella Andberg 60,Piipa Kämppi 90+5",
-      "maalintekijät_koti": "Jutta Ruti 87"
+      "maalintekijät_koti": "Ella Andberg 17,Ella Andberg 60,Piipa Kämppi 90+5",
+      "maalintekijät_vieras": "Jutta Ruti 87"
     },
     {
       "ottelu_id": "201515",
@@ -516,7 +516,7 @@
       "maalit_vieras": "3",
       "yleisömäärä": "30",
       "erotuomari": "Jani Koponen",
-      "maalintekijät_koti": "Aino Lehtinen 30,Pinja Forss 58,Aino Lehtinen 82"
+      "maalintekijät_vieras": "Aino Lehtinen 30,Pinja Forss 58,Aino Lehtinen 82"
     },
     {
       "ottelu_id": "201514",
@@ -531,8 +531,8 @@
       "maalit_vieras": "1",
       "yleisömäärä": "38",
       "erotuomari": "Marco Matinvesi",
-      "kuvateksti": "Aino Lehtinen 4,Pinja Forss 30,Nelli Rolig 43,Piipa Kämppi 90+1",
-      "maalintekijät_koti": "Tuuli Lindholm 65"
+      "maalintekijät_koti": "Aino Lehtinen 4,Pinja Forss 30,Nelli Rolig 43,Piipa Kämppi 90+1",
+      "maalintekijät_vieras": "Tuuli Lindholm 65"
     },
     {
       "ottelu_id": "201513",
@@ -547,8 +547,8 @@
       "maalit_vieras": "1",
       "yleisömäärä": "20",
       "erotuomari": "Jussi Rekilä",
-      "kuvateksti": "Niina Tyynismaa 14,Niina Tyynismaa 34,Miia Koppanen 52,Miia Koppanen 62,Miia Koppanen 90,Laura Lönnberg 90+2",
-      "maalintekijät_koti": "Ella Andberg 78"
+      "maalintekijät_koti": "Niina Tyynismaa 14,Niina Tyynismaa 34,Miia Koppanen 52,Miia Koppanen 62,Miia Koppanen 90,Laura Lönnberg 90+2",
+      "maalintekijät_vieras": "Ella Andberg 78"
     },
     {
       "ottelu_id": "201512",
@@ -563,8 +563,8 @@
       "maalit_vieras": "1",
       "yleisömäärä": "29",
       "erotuomari": "Eino Väisänen",
-      "kuvateksti": "Eevi Holopainen 12,Ella Andberg 38,Eevi Holopainen 45+1,Ella Andberg 63,Eevi Holopainen 69,Emma Järvinen 72",
-      "maalintekijät_koti": "Iida Muinonen 89"
+      "maalintekijät_koti": "Eevi Holopainen 12,Ella Andberg 38,Eevi Holopainen 45+1,Ella Andberg 63,Eevi Holopainen 69,Emma Järvinen 72",
+      "maalintekijät_vieras": "Iida Muinonen 89"
     },
     {
       "ottelu_id": "201511",
@@ -579,8 +579,8 @@
       "maalit_vieras": "1",
       "yleisömäärä": "50",
       "erotuomari": "Timo Kettunen",
-      "kuvateksti": "Kaisa Ranki 61,Tytti Kemppainen 72",
-      "maalintekijät_koti": "Nelli Rollig 35"
+      "maalintekijät_koti": "Kaisa Ranki 61,Tytti Kemppainen 72",
+      "maalintekijät_vieras": "Nelli Rollig 35"
     },
     {
       "ottelu_id": "201510",
@@ -595,7 +595,7 @@
       "maalit_vieras": "0",
       "yleisömäärä": "36",
       "erotuomari": "Olli Annala",
-      "kuvateksti": "Ella Andberg 57"
+      "maalintekijät_koti": "Ella Andberg 57"
     },
     {
       "ottelu_id": "201509",
@@ -610,8 +610,8 @@
       "maalit_vieras": "1",
       "yleisömäärä": "58",
       "erotuomari": "Sini Hakala",
-      "kuvateksti": "Aino Lehtinen 16,Ella Andberg 58,Pinja Forss 68,Ella Andberg 90+1",
-      "maalintekijät_koti": "Emilia Asikainen 39"
+      "maalintekijät_koti": "Aino Lehtinen 16,Ella Andberg 58,Pinja Forss 68,Ella Andberg 90+1",
+      "maalintekijät_vieras": "Emilia Asikainen 39"
     },
     {
       "ottelu_id": "201508",
@@ -625,8 +625,8 @@
       "maalit_koti": "3",
       "maalit_vieras": "1",
       "erotuomari": "Ali Moradi",
-      "kuvateksti": "Anna Vanhala 17,Anna Vanhala 36,Anna Vanhala 73",
-      "maalintekijät_koti": "Sivu Kankaanpää 41"
+      "maalintekijät_koti": "Anna Vanhala 17,Anna Vanhala 36,Anna Vanhala 73",
+      "maalintekijät_vieras": "Sivu Kankaanpää 41"
     },
     {
       "ottelu_id": "201507",
@@ -641,7 +641,7 @@
       "maalit_vieras": "0",
       "yleisömäärä": "57",
       "erotuomari": "Jukka Karhu",
-      "kuvateksti": "Hannele Kiuru 16"
+      "maalintekijät_koti": "Hannele Kiuru 16"
     },
     {
       "ottelu_id": "201506",
@@ -656,8 +656,8 @@
       "maalit_vieras": "1",
       "yleisömäärä": "35",
       "erotuomari": "Marco Matinvesi",
-      "kuvateksti": "Eeva Neuvonen 67,Nelli Rolig 88",
-      "maalintekijät_koti": "Mirka Hiltunen 57"
+      "maalintekijät_koti": "Eeva Neuvonen 67,Nelli Rolig 88",
+      "maalintekijät_vieras": "Mirka Hiltunen 57"
     },
     {
       "ottelu_id": "201505",
@@ -672,7 +672,7 @@
       "maalit_vieras": "0",
       "yleisömäärä": "36",
       "erotuomari": "Sini Hakala",
-      "kuvateksti": "Roosa Lampinen 47"
+      "maalintekijät_koti": "Roosa Lampinen 47"
     },
     {
       "ottelu_id": "201504",
@@ -687,8 +687,8 @@
       "maalit_vieras": "3",
       "yleisömäärä": "65",
       "erotuomari": "Markus Lehtola",
-      "kuvateksti": "Piipa Kämppi 85",
-      "maalintekijät_koti": "Anniina Tynjälä 33,Johanna Muhonen 47,Niina Tyynismaa 88"
+      "maalintekijät_koti": "Piipa Kämppi 85",
+      "maalintekijät_vieras": "Anniina Tynjälä 33,Johanna Muhonen 47,Niina Tyynismaa 88"
     },
     {
       "ottelu_id": "201503",
@@ -703,7 +703,7 @@
       "maalit_vieras": "4",
       "yleisömäärä": "123",
       "erotuomari": "Jorma Halme",
-      "maalintekijät_koti": "Aino Lehtinen 18,Ella Andberg 46,Nelli Rolig 50,Nelli Rolig 68"
+      "maalintekijät_vieras": "Aino Lehtinen 18,Ella Andberg 46,Nelli Rolig 50,Nelli Rolig 68"
     },
     {
       "ottelu_id": "201502",
@@ -718,8 +718,8 @@
       "maalit_vieras": "2",
       "yleisömäärä": "166",
       "erotuomari": "Jarmo Luhtanen",
-      "kuvateksti": "Aino Lehtinen 37, Aino Lehtinen 90+2",
-      "maalintekijät_koti": "Emma Rantamaa 6,Tytti Kemppainen 39"
+      "maalintekijät_koti": "Aino Lehtinen 37, Aino Lehtinen 90+2",
+      "maalintekijät_vieras": "Emma Rantamaa 6,Tytti Kemppainen 39"
     },
     {
       "ottelu_id": "201501",
@@ -733,7 +733,786 @@
       "maalit_koti": "2",
       "maalit_vieras": "2",
       "erotuomari": "Joel Kujala",
-      "kuvateksti": "Rosa Lappi-Seppälä 74, Rosa Lappi-Seppälä 80",
-      "maalintekijät_koti": "Ella Andberg 52,Nelli Rolig 63"
+      "maalintekijät_koti": "Rosa Lappi-Seppälä 74, Rosa Lappi-Seppälä 80",
+      "maalintekijät_vieras": "Ella Andberg 52,Nelli Rolig 63"
+    },
+    {
+      "ottelu_id": "200618",
+      "Kausi": "2006",
+      "Päivämäärä": "19.9.2006",
+      "Kilpailu": "Naisten Kolmonen, Helsinki & Uusimaa",
+      "Stadion": "Pirkkola",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "Ponnistus",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "0",
+      "maalit_vieras": "2"
+    },
+    {
+      "ottelu_id": "200617",
+      "Kausi": "2006",
+      "Päivämäärä": "14.9.2006",
+      "Kilpailu": "Naisten Kolmonen, Helsinki & Uusimaa",
+      "Stadion": "Pirkkola",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "FC POHU",
+      "maalit_koti": "0",
+      "maalit_vieras": "4"
+    },
+    {
+      "ottelu_id": "200616",
+      "Kausi": "2006",
+      "Päivämäärä": "10.9.2006",
+      "Kilpailu": "Naisten Kolmonen, Helsinki & Uusimaa",
+      "Stadion": "Peltosaari",
+      "Kaupunki": "Riihimäki",
+      "Kotijoukkue": "RIlves",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "1",
+      "maalit_vieras": "2"
+    },
+    {
+      "ottelu_id": "200615",
+      "Kausi": "2006",
+      "Päivämäärä": "30.8.2006",
+      "Kilpailu": "Naisten Kolmonen, Helsinki & Uusimaa",
+      "Stadion": "Pirkkola",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "VJS",
+      "maalit_koti": "4",
+      "maalit_vieras": "1"
+    },
+    {
+      "ottelu_id": "200614",
+      "Kausi": "2006",
+      "Päivämäärä": "21.8.2006",
+      "Kilpailu": "Naisten Kolmonen, Helsinki & Uusimaa",
+      "Stadion": "Kirkonkylä",
+      "Kaupunki": "Vihti",
+      "Kotijoukkue": "NuPS",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "7",
+      "maalit_vieras": "3"
+    },
+    {
+      "ottelu_id": "200613",
+      "Kausi": "2006",
+      "Päivämäärä": "16.8.2006",
+      "Kilpailu": "Naisten Kolmonen, Helsinki & Uusimaa",
+      "Stadion": "Pirkkola",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "PuVe",
+      "maalit_koti": "1",
+      "maalit_vieras": "5"
+    },
+    {
+      "ottelu_id": "200612",
+      "Kausi": "2006",
+      "Päivämäärä": "8.8.2006",
+      "Kilpailu": "Naisten Kolmonen, Helsinki & Uusimaa",
+      "Stadion": "Hamari",
+      "Kaupunki": "Porvoo",
+      "Kotijoukkue": "Futura",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "6",
+      "maalit_vieras": "1"
+    },
+    {
+      "ottelu_id": "200611",
+      "Kausi": "2006",
+      "Päivämäärä": "2.8.2006",
+      "Kilpailu": "Naisten Kolmonen, Helsinki & Uusimaa",
+      "Stadion": "Pirkkola",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "Valtti",
+      "maalit_koti": "1",
+      "maalit_vieras": "2"
+    },
+    {
+      "ottelu_id": "200610",
+      "Kausi": "2006",
+      "Päivämäärä": "25.7.2006",
+      "Kilpailu": "Naisten Kolmonen, Helsinki & Uusimaa",
+      "Stadion": "Rekola",
+      "Kaupunki": "Vantaa",
+      "Kotijoukkue": "PK-50",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "2",
+      "maalit_vieras": "2"
+    },
+    {
+      "ottelu_id": "200609",
+      "Kausi": "2006",
+      "Päivämäärä": "29.6.2006",
+      "Kilpailu": "Naisten Kolmonen, Helsinki & Uusimaa",
+      "Stadion": "Käpylä",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "Ponnistus",
+      "maalit_koti": "6",
+      "maalit_vieras": "5"
+    },
+    {
+      "ottelu_id": "200608",
+      "Kausi": "2006",
+      "Päivämäärä": "21.6.2006",
+      "Kilpailu": "Naisten Kolmonen, Helsinki & Uusimaa",
+      "Stadion": "Lassila",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "FC POHU",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "3",
+      "maalit_vieras": "0"
+    },
+    {
+      "ottelu_id": "200607",
+      "Kausi": "2006",
+      "Päivämäärä": "14.6.2006",
+      "Kilpailu": "Naisten Kolmonen, Helsinki & Uusimaa",
+      "Stadion": "Tali",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "RIlves",
+      "maalit_koti": "8",
+      "maalit_vieras": "1"
+    },
+    {
+      "ottelu_id": "200606",
+      "Kausi": "2006",
+      "Päivämäärä": "8.6.2006",
+      "Kilpailu": "Naisten Kolmonen, Helsinki & Uusimaa",
+      "Stadion": "Vapaala",
+      "Kaupunki": "Vantaa",
+      "Kotijoukkue": "VJS",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "3",
+      "maalit_vieras": "1"
+    },
+    {
+      "ottelu_id": "200605",
+      "Kausi": "2006",
+      "Päivämäärä": "31.5.2006",
+      "Kilpailu": "Naisten Kolmonen, Helsinki & Uusimaa",
+      "Stadion": "Pirkkola",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "NuPS",
+      "maalit_koti": "2",
+      "maalit_vieras": "1"
+    },
+    {
+      "ottelu_id": "200604",
+      "Kausi": "2006",
+      "Päivämäärä": "22.5.2006",
+      "Kilpailu": "Naisten Kolmonen, Helsinki & Uusimaa",
+      "Stadion": "Pukinmäki",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "PuVe",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "8",
+      "maalit_vieras": "0"
+    },
+    {
+      "ottelu_id": "200603",
+      "Kausi": "2006",
+      "Päivämäärä": "18.5.2006",
+      "Kilpailu": "Naisten Kolmonen, Helsinki & Uusimaa",
+      "Stadion": "Pirkkola",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "Futura",
+      "maalit_koti": "0",
+      "maalit_vieras": "3"
+    },
+    {
+      "ottelu_id": "200602",
+      "Kausi": "2006",
+      "Päivämäärä": "11.5.2006",
+      "Kilpailu": "Naisten Kolmonen, Helsinki & Uusimaa",
+      "Stadion": "Puotila",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "Valtti",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "2",
+      "maalit_vieras": "0"
+    },
+    {
+      "ottelu_id": "200601",
+      "Kausi": "2006",
+      "Päivämäärä": "2.5.2006",
+      "Kilpailu": "Naisten Kolmonen, Helsinki & Uusimaa",
+      "Stadion": "Pirkkola",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "PK-50",
+      "maalit_koti": "0",
+      "maalit_vieras": "3"
+    },
+    {
+      "ottelu_id": "200516",
+      "Kausi": "2005",
+      "Päivämäärä": "20.9.2005",
+      "Kilpailu": "Naisten Kakkonen",
+      "Stadion": "Pirkkola",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "PuiU/2",
+      "maalit_koti": "0",
+      "maalit_vieras": "7"
+    },
+    {
+      "ottelu_id": "200515",
+      "Kausi": "2005",
+      "Päivämäärä": "14.9.2005",
+      "Kilpailu": "Naisten Kakkonen",
+      "Stadion": "Kaivoksela",
+      "Kaupunki": "Vantaa",
+      "Kotijoukkue": "SC OldStars",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "3",
+      "maalit_vieras": "0"
+    },
+    {
+      "ottelu_id": "200514",
+      "Kausi": "2005",
+      "Päivämäärä": "8.9.2005",
+      "Kilpailu": "Naisten Kakkonen",
+      "Stadion": "Pirkkola",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "Kelohonka",
+      "maalit_koti": "1",
+      "maalit_vieras": "4"
+    },
+    {
+      "ottelu_id": "200513",
+      "Kausi": "2005",
+      "Päivämäärä": "1.9.2005",
+      "Kilpailu": "Naisten Kakkonen",
+      "Stadion": "Pirkkola",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "Ponnistus",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "0",
+      "maalit_vieras": "0"
+    },
+    {
+      "ottelu_id": "200512",
+      "Kausi": "2005",
+      "Päivämäärä": "23.8.2005",
+      "Kilpailu": "Naisten Kakkonen",
+      "Stadion": "Pirkkola",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "VJS",
+      "maalit_koti": "3",
+      "maalit_vieras": "0"
+    },
+    {
+      "ottelu_id": "200511",
+      "Kausi": "2005",
+      "Päivämäärä": "16.8.2005",
+      "Kilpailu": "Naisten Kakkonen",
+      "Stadion": "Pihlajamäki",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "PK-35",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "5",
+      "maalit_vieras": "0"
+    },
+    {
+      "ottelu_id": "200510",
+      "Kausi": "2005",
+      "Päivämäärä": "9.8.2005",
+      "Kilpailu": "Naisten Kakkonen",
+      "Stadion": "Pirkkola",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "FC HIK",
+      "maalit_koti": "0",
+      "maalit_vieras": "4"
+    },
+    {
+      "ottelu_id": "200509",
+      "Kausi": "2005",
+      "Päivämäärä": "4.8.2005",
+      "Kilpailu": "Naisten Kakkonen",
+      "Stadion": "Urheilukenttä",
+      "Kaupunki": "Tuusula",
+      "Kotijoukkue": "TuPS",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "7",
+      "maalit_vieras": "0"
+    },
+    {
+      "ottelu_id": "200508",
+      "Kausi": "2005",
+      "Päivämäärä": "27.6.2005",
+      "Kilpailu": "Naisten Kakkonen",
+      "Stadion": "Puistola",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "PuiU/2",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "2",
+      "maalit_vieras": "0"
+    },
+    {
+      "ottelu_id": "200507",
+      "Kausi": "2005",
+      "Päivämäärä": "22.6.2005",
+      "Kilpailu": "Naisten Kakkonen",
+      "Stadion": "Pirkkola",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "SC OldStars",
+      "maalit_koti": "0",
+      "maalit_vieras": "1"
+    },
+    {
+      "ottelu_id": "200506",
+      "Kausi": "2005",
+      "Päivämäärä": "14.6.2005",
+      "Kilpailu": "Naisten Kakkonen",
+      "Stadion": "Tapiola",
+      "Kaupunki": "Espoo",
+      "Kotijoukkue": "Kelohonka",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "0",
+      "maalit_vieras": "0"
+    },
+    {
+      "ottelu_id": "200505",
+      "Kausi": "2005",
+      "Päivämäärä": "7.6.2005",
+      "Kilpailu": "Naisten Kakkonen",
+      "Stadion": "Pirkkola",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "Ponnistus",
+      "maalit_koti": "3",
+      "maalit_vieras": "0"
+    },
+    {
+      "ottelu_id": "200504",
+      "Kausi": "2005",
+      "Päivämäärä": "30.5.2005",
+      "Kilpailu": "Naisten Kakkonen",
+      "Stadion": "Myyrmäki",
+      "Kaupunki": "Vantaa",
+      "Kotijoukkue": "VJS",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "3",
+      "maalit_vieras": "0"
+    },
+    {
+      "ottelu_id": "200503",
+      "Kausi": "2005",
+      "Päivämäärä": "24.5.2005",
+      "Kilpailu": "Naisten Kakkonen",
+      "Stadion": "Siltamäki",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "PK-35",
+      "maalit_koti": "0",
+      "maalit_vieras": "3"
+    },
+    {
+      "ottelu_id": "200502",
+      "Kausi": "2005",
+      "Päivämäärä": "22.5.2005",
+      "Kilpailu": "Naisten Kakkonen",
+      "Stadion": "Rukki Arena",
+      "Kaupunki": "Hanko",
+      "Kotijoukkue": "FC HIK",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "2",
+      "maalit_vieras": "1"
+    },
+    {
+      "ottelu_id": "200501",
+      "Kausi": "2005",
+      "Päivämäärä": "11.5.2005",
+      "Kilpailu": "Naisten Kakkonen",
+      "Stadion": "Töölön Pallokenttä",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "TuPS",
+      "maalit_koti": "0",
+      "maalit_vieras": "0"
+    },
+    {
+      "ottelu_id": "200415",
+      "Kausi": "2004",
+      "Päivämäärä": "29.9.2004",
+      "Kilpailu": "Naisten Kolmonen, nousulohko",
+      "Stadion": "Pirkkola",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "Valtti",
+      "maalit_koti": "3",
+      "maalit_vieras": "0"
+    },
+    {
+      "ottelu_id": "200414",
+      "Kausi": "2004",
+      "Päivämäärä": "20.9.2004",
+      "Kilpailu": "Naisten Kolmonen, nousulohko",
+      "Stadion": "Puistola",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "PuiU/2",
+      "maalit_koti": "2",
+      "maalit_vieras": "2"
+    },
+    {
+      "ottelu_id": "200413",
+      "Kausi": "2004",
+      "Päivämäärä": "13.9.2004",
+      "Kilpailu": "Naisten Kolmonen, nousulohko",
+      "Stadion": "Lassila",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "FC POHU",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "1",
+      "maalit_vieras": "5"
+    },
+    {
+      "ottelu_id": "200412",
+      "Kausi": "2004",
+      "Päivämäärä": "8.9.2004",
+      "Kilpailu": "Naisten Kolmonen, nousulohko",
+      "Stadion": "Pirkkola",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "PK-35/2",
+      "maalit_koti": "0",
+      "maalit_vieras": "2"
+    },
+    {
+      "ottelu_id": "200411",
+      "Kausi": "2004",
+      "Päivämäärä": "31.8.2004",
+      "Kilpailu": "Naisten Kolmonen, nousulohko",
+      "Stadion": "Kurkimäki",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "FC Kontu",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "4",
+      "maalit_vieras": "1"
+    },
+    {
+      "ottelu_id": "200410",
+      "Kausi": "2004",
+      "Päivämäärä": "25.8.2004",
+      "Kilpailu": "Naisten Kolmonen, nousulohko",
+      "Stadion": "Pirkkola",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "SC OldStars",
+      "maalit_koti": "2",
+      "maalit_vieras": "2"
+    },
+    {
+      "ottelu_id": "200409",
+      "Kausi": "2004",
+      "Päivämäärä": "16.8.2004",
+      "Kilpailu": "Naisten Kolmonen, nousulohko",
+      "Stadion": "Kannelmäki",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HJK-j/Kmäki",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "0",
+      "maalit_vieras": "4"
+    },
+    {
+      "ottelu_id": "200408",
+      "Kausi": "2004",
+      "Päivämäärä": "17.6.2004",
+      "Kilpailu": "Naisten Kolmonen, lohko 1",
+      "Stadion": "Pirkkola",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "FC Kontu/Ladies",
+      "maalit_koti": "0",
+      "maalit_vieras": "0"
+    },
+    {
+      "ottelu_id": "200407",
+      "Kausi": "2004",
+      "Päivämäärä": "10.6.2004",
+      "Kilpailu": "Naisten Kolmonen, lohko 1",
+      "Stadion": "Alapk",
+      "Kaupunki": "Hyvinkää",
+      "Kotijoukkue": "HyPS",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "2",
+      "maalit_vieras": "2"
+    },
+    {
+      "ottelu_id": "200406",
+      "Kausi": "2004",
+      "Päivämäärä": "31.5.2004",
+      "Kilpailu": "Naisten Kolmonen, lohko 1",
+      "Kaupunki": "Orimattila",
+      "Kotijoukkue": "OPedot",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "1",
+      "maalit_vieras": "5"
+    },
+    {
+      "ottelu_id": "200405",
+      "Kausi": "2004",
+      "Päivämäärä": "27.5.2004",
+      "Kilpailu": "Naisten Kolmonen, lohko 1",
+      "Stadion": "Oulunkylä",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "Rilves",
+      "maalit_koti": "3",
+      "maalit_vieras": "2"
+    },
+    {
+      "ottelu_id": "200404",
+      "Kausi": "2004",
+      "Päivämäärä": "17.5.2004",
+      "Kilpailu": "Naisten Kolmonen, lohko 1",
+      "Stadion": "Pitäjänmäki",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HJK-j/Kmäki",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "1",
+      "maalit_vieras": "7"
+    },
+    {
+      "ottelu_id": "200403",
+      "Kausi": "2004",
+      "Päivämäärä": "13.5.2004",
+      "Kilpailu": "Naisten Kolmonen, lohko 1",
+      "Stadion": "Pirkkola",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "IVU",
+      "maalit_koti": "7",
+      "maalit_vieras": "0"
+    },
+    {
+      "ottelu_id": "200402",
+      "Kausi": "2004",
+      "Päivämäärä": "6.5.2004",
+      "Kilpailu": "Naisten Kolmonen, lohko 1",
+      "Stadion": "Jakomäki",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "PuiU/2",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "1",
+      "maalit_vieras": "0"
+    },
+    {
+      "ottelu_id": "200401",
+      "Kausi": "2004",
+      "Päivämäärä": "29.4.2004",
+      "Kilpailu": "Naisten Kolmonen, lohko 1",
+      "Stadion": "Pirkkola",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "Nateva",
+      "maalit_koti": "1",
+      "maalit_vieras": "0"
+    },
+    {
+      "ottelu_id": "200316",
+      "Kausi": "2003",
+      "Päivämäärä": "4.10.2003",
+      "Kilpailu": "Naisten Kolmonen, peruslohko",
+      "Stadion": "Keskuskenttä",
+      "Kaupunki": "Riihimäki",
+      "Kotijoukkue": "RIlves",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "12",
+      "maalit_vieras": "1"
+    },
+    {
+      "ottelu_id": "200315",
+      "Kausi": "2003",
+      "Päivämäärä": "2.10.2003",
+      "Kilpailu": "Naisten Kolmonen, peruslohko",
+      "Stadion": "Pirkkola",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "Team VanPa",
+      "maalit_koti": "1",
+      "maalit_vieras": "2"
+    },
+    {
+      "ottelu_id": "200314",
+      "Kausi": "2003",
+      "Päivämäärä": "25.9.2003",
+      "Kilpailu": "Naisten Kolmonen, peruslohko",
+      "Stadion": "Puistola",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "PuiU/2",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "6",
+      "maalit_vieras": "0"
+    },
+    {
+      "ottelu_id": "200313",
+      "Kausi": "2003",
+      "Päivämäärä": "13.9.2003",
+      "Kilpailu": "Naisten Kolmonen, peruslohko",
+      "Stadion": "Lassila",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "FC POHU",
+      "maalit_koti": "0",
+      "maalit_vieras": "3"
+    },
+    {
+      "ottelu_id": "200312",
+      "Kausi": "2003",
+      "Päivämäärä": "5.9.2003",
+      "Kilpailu": "Naisten Kolmonen, peruslohko",
+      "Stadion": "Lassila",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "Zyklon FC Merja",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "4",
+      "maalit_vieras": "0"
+    },
+    {
+      "ottelu_id": "200311",
+      "Kausi": "2003",
+      "Päivämäärä": "29.8.2003",
+      "Kilpailu": "Naisten Kolmonen, peruslohko",
+      "Stadion": "Pirkkola",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "OPedot",
+      "maalit_koti": "0",
+      "maalit_vieras": "4"
+    },
+    {
+      "ottelu_id": "200310",
+      "Kausi": "2003",
+      "Päivämäärä": "14.8.2003",
+      "Kilpailu": "Naisten Kolmonen, peruslohko",
+      "Stadion": "Siltamäki",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "PK-35/2",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "11",
+      "maalit_vieras": "0"
+    },
+    {
+      "ottelu_id": "200309",
+      "Kausi": "2003",
+      "Päivämäärä": "11.8.2003",
+      "Kilpailu": "Naisten Kolmonen, peruslohko",
+      "Stadion": "Käpylä",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "IVU",
+      "maalit_koti": "1",
+      "maalit_vieras": "5"
+    },
+    {
+      "ottelu_id": "200308",
+      "Kausi": "2003",
+      "Päivämäärä": "15.6.2003",
+      "Kilpailu": "Naisten Kolmonen, lohko 1",
+      "Stadion": "Uimahalli",
+      "Kaupunki": "Vihti",
+      "Kotijoukkue": "NuPS",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "2",
+      "maalit_vieras": "0"
+    },
+    {
+      "ottelu_id": "200307",
+      "Kausi": "2003",
+      "Päivämäärä": "12.6.2003",
+      "Kilpailu": "Naisten Kolmonen, lohko 1",
+      "Stadion": "Pirkkola",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "LoPa",
+      "maalit_koti": "0",
+      "maalit_vieras": "5"
+    },
+    {
+      "ottelu_id": "200306",
+      "Kausi": "2003",
+      "Päivämäärä": "5.6.2003",
+      "Kilpailu": "Naisten Kolmonen, lohko 1",
+      "Stadion": "Pirkkola",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "Team VanPa",
+      "maalit_koti": "1",
+      "maalit_vieras": "2"
+    },
+    {
+      "ottelu_id": "200305",
+      "Kausi": "2003",
+      "Päivämäärä": "2.6.2003",
+      "Kilpailu": "Naisten Kolmonen, lohko 1",
+      "Stadion": "Pirkkola",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "Ponnistus",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "1",
+      "maalit_vieras": "0"
+    },
+    {
+      "ottelu_id": "200304",
+      "Kausi": "2003",
+      "Päivämäärä": "26.5.2003",
+      "Kilpailu": "Naisten Kolmonen, lohko 1",
+      "Stadion": "Vantaankoski",
+      "Kaupunki": "Vantaa",
+      "Kotijoukkue": "SC OldStars",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "3",
+      "maalit_vieras": "0"
+    },
+    {
+      "ottelu_id": "200303",
+      "Kausi": "2003",
+      "Päivämäärä": "20.5.2003",
+      "Kilpailu": "Naisten Kolmonen, lohko 1",
+      "Stadion": "Pirkkola",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "FC Viikingit/2",
+      "maalit_koti": "0",
+      "maalit_vieras": "4"
+    },
+    {
+      "ottelu_id": "200302",
+      "Kausi": "2003",
+      "Päivämäärä": "14.5.2003",
+      "Kilpailu": "Naisten Kolmonen, lohko 1",
+      "Stadion": "Kannelmäki",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "FC POHU",
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "2",
+      "maalit_vieras": "0"
+    },
+    {
+      "ottelu_id": "200301",
+      "Kausi": "2003",
+      "Päivämäärä": "8.5.2003",
+      "Kilpailu": "Naisten Kolmonen, lohko 1",
+      "Stadion": "Pirkkola",
+      "Kaupunki": "Helsinki",
+      "Kotijoukkue": "HPS",
+      "Vierasjoukkue": "Zyklon FC Merja",
+      "maalit_koti": "1",
+      "maalit_vieras": "2"
     }
   ]
