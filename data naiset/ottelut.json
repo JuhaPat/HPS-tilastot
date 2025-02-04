@@ -747,8 +747,8 @@
       "Vierasjoukkue": "HPS",
       "maalit_koti": "5",
       "maalit_vieras": "2",
-      "kuvateksti": "Suvi Savolainen,Milla Punsar,Milla Punsar,Milla Punsar,Milla Punsar",
-      "maalintekijät_koti": "Anni Eloranta,Heidi Raitanen"
+      "maalintekijät_koti": "Suvi Savolainen,Milla Punsar,Milla Punsar,Milla Punsar,Milla Punsar",
+      "maalintekijät_vieras": "Anni Eloranta,Heidi Raitanen"
     },
     {
       "ottelu_id": "201421",
@@ -762,7 +762,7 @@
       "maalit_koti": "2",
       "maalit_vieras": "0",
       "erotuomari": "Heli Saario",
-      "kuvateksti": "Anni Eloranta,Nelli Rolig"
+      "maalintekijät_koti": "Anni Eloranta,Nelli Rolig"
     },
     {
       "ottelu_id": "201420",
@@ -776,7 +776,7 @@
       "maalit_koti": "0",
       "maalit_vieras": "1",
       "erotuomari": "Sander Mosel",
-      "maalintekijät_koti": "Pia Lingren"
+      "maalintekijät_vieras": "Pia Lingren"
     },
     {
       "ottelu_id": "201419",
@@ -790,8 +790,8 @@
       "maalit_koti": "6",
       "maalit_vieras": "2",
       "erotuomari": "Yahya Malikzay",
-      "kuvateksti": "Anni Eloranta,Anni Eloranta,Eevi Holopainen,Eevi Holopainen,Venla Anttonen,Maiju Jokihaara",
-      "maalintekijät_koti": "Ella Andberg,Ella Andberg"
+      "maalintekijät_koti": "Anni Eloranta,Anni Eloranta,Eevi Holopainen,Eevi Holopainen,Venla Anttonen,Maiju Jokihaara",
+      "maalintekijät_vieras": "Ella Andberg,Ella Andberg"
     },
     {
       "ottelu_id": "201418",
@@ -804,7 +804,7 @@
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
       "maalit_vieras": "1",
-      "maalintekijät_koti": "Venla Anttonen"
+      "maalintekijät_vieras": "Venla Anttonen"
     },
     {
       "ottelu_id": "201417",
@@ -818,8 +818,8 @@
       "maalit_koti": "2",
       "maalit_vieras": "1",
       "erotuomari": "Mikko Nikula",
-      "kuvateksti": "Sara Niemistö,Piipa Kämppi",
-      "maalintekijät_koti": "Teija Laiho"
+      "maalintekijät_koti": "Sara Niemistö,Piipa Kämppi",
+      "maalintekijät_vieras": "Teija Laiho"
     },
     {
       "ottelu_id": "201416",
@@ -832,7 +832,7 @@
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
       "maalit_vieras": "4",
-      "maalintekijät_koti": "Eevi Holopainen,Eevi Holopainen,Pinja Forss,Venla Anttonen"
+      "maalintekijät_vieras": "Eevi Holopainen,Eevi Holopainen,Pinja Forss,Venla Anttonen"
     },
     {
       "ottelu_id": "201415",
@@ -846,7 +846,7 @@
       "maalit_koti": "1",
       "maalit_vieras": "0",
       "erotuomari": "Riku Isola",
-      "kuvateksti": "Aino Lehtinen"
+      "maalintekijät_koti": "Aino Lehtinen"
     },
     {
       "ottelu_id": "201414",
@@ -860,7 +860,7 @@
       "maalit_koti": "0",
       "maalit_vieras": "5",
       "erotuomari": "Olli Annala",
-      "maalintekijät_koti": "Anni Eloranta,Maiju Jokihaara,Maiju Jokihaara,Pinja Forss,Pia Lingren"
+      "maalintekijät_vieras": "Anni Eloranta,Maiju Jokihaara,Maiju Jokihaara,Pinja Forss,Pia Lingren"
     },
     {
       "ottelu_id": "201413",
@@ -873,8 +873,8 @@
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
       "maalit_vieras": "2",
-      "kuvateksti": "Tytti Kemppainen,Rosa-Amanda Lesch",
-      "maalintekijät_koti": "Aino Lehtinen,Venla Anttonen"
+      "maalintekijät_koti": "Tytti Kemppainen,Rosa-Amanda Lesch",
+      "maalintekijät_vieras": "Aino Lehtinen,Venla Anttonen"
     },
     {
       "ottelu_id": "201412",
@@ -888,8 +888,8 @@
       "maalit_koti": "4",
       "maalit_vieras": "2",
       "erotuomari": "Theo Tyrväinen",
-      "kuvateksti": "Anni Eloranta,Anni Eloranta,Maiju Jokihaara,Aino Lehtinen",
-      "maalintekijät_koti": "Miina Sarén,Anu Vanhanen"
+      "maalintekijät_koti": "Anni Eloranta,Anni Eloranta,Maiju Jokihaara,Aino Lehtinen",
+      "maalintekijät_vieras": "Miina Sarén,Anu Vanhanen"
     },
     {
       "ottelu_id": "201411",
@@ -903,7 +903,7 @@
       "maalit_koti": "4",
       "maalit_vieras": "0",
       "erotuomari": "Heli Saario",
-      "kuvateksti": "Anni Eloranta,Aino Lehtinen,Nelli Rolig,Venla Anttonen"
+      "maalintekijät_koti": "Anni Eloranta,Aino Lehtinen,Nelli Rolig,Venla Anttonen"
     },
     {
       "ottelu_id": "201410",
@@ -917,8 +917,8 @@
       "maalit_koti": "5",
       "maalit_vieras": "2",
       "erotuomari": "Markus Valtonen",
-      "kuvateksti": "Sara Niemistö,Eevi Holopainen,Piipa Kämppi,Piipa Kämppi,Piipa Kämppi",
-      "maalintekijät_koti": "Daniela Tjeder,Tytti Saarinen"
+      "maalintekijät_koti": "Sara Niemistö,Eevi Holopainen,Piipa Kämppi,Piipa Kämppi,Piipa Kämppi",
+      "maalintekijät_vieras": "Daniela Tjeder,Tytti Saarinen"
     },
     {
       "ottelu_id": "201409",
@@ -932,8 +932,8 @@
       "maalit_koti": "2",
       "maalit_vieras": "3",
       "erotuomari": "Pekka Lahti-Nuuttila",
-      "kuvateksti": "Ella Andberg,Iiris Kolunsarka",
-      "maalintekijät_koti": "Anni Eloranta,Eevi Holopainen,Venla Anttonen"
+      "maalintekijät_koti": "Ella Andberg,Iiris Kolunsarka",
+      "maalintekijät_vieras": "Anni Eloranta,Eevi Holopainen,Venla Anttonen"
     },
     {
       "ottelu_id": "201408",
@@ -947,7 +947,7 @@
       "maalit_koti": "0",
       "maalit_vieras": "4",
       "erotuomari": "Joel Lindqvist",
-      "maalintekijät_koti": "Eevi Holopainen,Nelli Rolig,Venla Anttonen,Pia Lingren"
+      "maalintekijät_vieras": "Eevi Holopainen,Nelli Rolig,Venla Anttonen,Pia Lingren"
     },
     {
       "ottelu_id": "201407",
@@ -961,8 +961,8 @@
       "maalit_koti": "2",
       "maalit_vieras": "1",
       "erotuomari": "Yahya Malikzay",
-      "kuvateksti": "Anni Eloranta,Pia Lingren",
-      "maalintekijät_koti": "Jonna Sanden"
+      "maalintekijät_koti": "Anni Eloranta,Pia Lingren",
+      "maalintekijät_vieras": "Jonna Sanden"
     },
     {
       "ottelu_id": "201406",
@@ -975,8 +975,8 @@
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
       "maalit_vieras": "2",
-      "kuvateksti": "Taija Savolainen,Essi Valtonen",
-      "maalintekijät_koti": "Anni Eloranta,Aino Lehtinen"
+      "maalintekijät_koti": "Taija Savolainen,Essi Valtonen",
+      "maalintekijät_vieras": "Anni Eloranta,Aino Lehtinen"
     },
     {
       "ottelu_id": "201405",
@@ -990,7 +990,7 @@
       "maalit_koti": "7",
       "maalit_vieras": "0",
       "erotuomari": "Kari Pellikka",
-      "kuvateksti": "Anni Eloranta,Anni Eloranta,Anni Eloranta,Anni Eloranta,Eevi Holopainen,Eevi Holopainen,Aino Lehtinen"
+      "maalintekijät_koti": "Anni Eloranta,Anni Eloranta,Anni Eloranta,Anni Eloranta,Eevi Holopainen,Eevi Holopainen,Aino Lehtinen"
     },
     {
       "ottelu_id": "201404",
@@ -1004,8 +1004,8 @@
       "maalit_koti": "1",
       "maalit_vieras": "2",
       "erotuomari": "Jaakko Rusama",
-      "kuvateksti": "Katja Pekkanen",
-      "maalintekijät_koti": "Sara Niemistö,Aino Lehtinen"
+      "maalintekijät_koti": "Katja Pekkanen",
+      "maalintekijät_vieras": "Sara Niemistö,Aino Lehtinen"
     },
     {
       "ottelu_id": "201403",
@@ -1019,7 +1019,7 @@
       "maalit_koti": "1",
       "maalit_vieras": "0",
       "erotuomari": "Juha Tuomainen",
-      "kuvateksti": "Venla Anttonen"
+      "maalintekijät_koti": "Venla Anttonen"
     },
     {
       "ottelu_id": "201402",
@@ -1033,7 +1033,7 @@
       "maalit_koti": "0",
       "maalit_vieras": "1",
       "erotuomari": "Joona Isosomppi",
-      "maalintekijät_koti": "Tytti Kemppainen"
+      "maalintekijät_vieras": "Tytti Kemppainen"
     },
     {
       "ottelu_id": "201401",
@@ -1046,8 +1046,8 @@
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
       "maalit_vieras": "1",
-      "kuvateksti": "Minna Lauronen",
-      "maalintekijät_koti": "Venla Anttonen"
+      "maalintekijät_koti": "Minna Lauronen",
+      "maalintekijät_vieras": "Venla Anttonen"
     },
     {
       "ottelu_id": "201318",
@@ -1061,8 +1061,8 @@
       "maalit_koti": "2",
       "maalit_vieras": "1",
       "erotuomari": "Theo Tyrväinen",
-      "kuvateksti": "Sara Niemistö,Sara Niemistö",
-      "maalintekijät_koti": "Jenni Niemelä"
+      "maalintekijät_koti": "Sara Niemistö,Sara Niemistö",
+      "maalintekijät_vieras": "Jenni Niemelä"
     },
     {
       "ottelu_id": "201317",
@@ -1076,8 +1076,8 @@
       "maalit_koti": "1",
       "maalit_vieras": "2",
       "erotuomari": "Idris Cicek",
-      "kuvateksti": "Janna Niemi",
-      "maalintekijät_koti": "Oma maali,Aino Lehtinen"
+      "maalintekijät_koti": "Janna Niemi",
+      "maalintekijät_vieras": "Oma maali,Aino Lehtinen"
     },
     {
       "ottelu_id": "201316",
@@ -1102,7 +1102,7 @@
       "maalit_koti": "2",
       "maalit_vieras": "0",
       "erotuomari": "Mika Dahlström",
-      "kuvateksti": "Anni Hartikainen,Cecilia Oksanen"
+      "maalintekijät_koti": "Anni Hartikainen,Cecilia Oksanen"
     },
     {
       "ottelu_id": "201314",
@@ -1116,7 +1116,7 @@
       "maalit_koti": "2",
       "maalit_vieras": "0",
       "erotuomari": "Juha Isosomppi",
-      "kuvateksti": "Sara Niemistö,Jutta Kaivola"
+      "maalintekijät_koti": "Sara Niemistö,Jutta Kaivola"
     },
     {
       "ottelu_id": "201313",
@@ -1130,7 +1130,7 @@
       "maalit_koti": "1",
       "maalit_vieras": "0",
       "erotuomari": "Jorge Calvo",
-      "kuvateksti": "Nelli Rolig"
+      "maalintekijät_koti": "Nelli Rolig"
     },
     {
       "ottelu_id": "201312",
@@ -1144,7 +1144,7 @@
       "maalit_koti": "5",
       "maalit_vieras": "0",
       "erotuomari": "Sini Manninen",
-      "kuvateksti": "Anni Eloranta,Nelli Rolig,Nelli Rolig,Piipa Kämppi,Venla Anttonen"
+      "maalintekijät_koti": "Anni Eloranta,Nelli Rolig,Nelli Rolig,Piipa Kämppi,Venla Anttonen"
     },
     {
       "ottelu_id": "201311",
@@ -1158,7 +1158,7 @@
       "maalit_koti": "2",
       "maalit_vieras": "0",
       "erotuomari": "Marco Matinvesi",
-      "kuvateksti": "Anni Eloranta,Anni Eloranta"
+      "maalintekijät_koti": "Anni Eloranta,Anni Eloranta"
     },
     {
       "ottelu_id": "201310",
@@ -1171,8 +1171,8 @@
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
       "maalit_vieras": "4",
-      "kuvateksti": "Vilma Kurki,Outi Jakobsson,Anni Rusanen",
-      "maalintekijät_koti": "Aino Lehtinen,Aino Lehtinen,Heidi Raitanen,Heidi Raitanen"
+      "maalintekijät_koti": "Vilma Kurki,Outi Jakobsson,Anni Rusanen",
+      "maalintekijät_vieras": "Aino Lehtinen,Aino Lehtinen,Heidi Raitanen,Heidi Raitanen"
     },
     {
       "ottelu_id": "201309",
@@ -1186,7 +1186,7 @@
       "maalit_koti": "3",
       "maalit_vieras": "0",
       "erotuomari": "Kari Silvennoinen",
-      "kuvateksti": "Katri Hirvonen,Aino Lehtinen,Venla Anttonen"
+      "maalintekijät_koti": "Katri Hirvonen,Aino Lehtinen,Venla Anttonen"
     },
     {
       "ottelu_id": "201308",
@@ -1199,7 +1199,7 @@
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
       "maalit_vieras": "2",
-      "maalintekijät_koti": "Anni Eloranta,Aino Lehtinen"
+      "maalintekijät_vieras": "Anni Eloranta,Aino Lehtinen"
     },
     {
       "ottelu_id": "201307",
@@ -1213,8 +1213,8 @@
       "maalit_koti": "2",
       "maalit_vieras": "1",
       "erotuomari": "Mika Itkonen",
-      "kuvateksti": "Dahlia Wolfram,Jenni Rantonen",
-      "maalintekijät_koti": "Nelli Rolig"
+      "maalintekijät_koti": "Dahlia Wolfram,Jenni Rantonen",
+      "maalintekijät_vieras": "Nelli Rolig"
     },
     {
       "ottelu_id": "201306",
@@ -1228,8 +1228,8 @@
       "maalit_koti": "4",
       "maalit_vieras": "1",
       "erotuomari": "David Shinyella Mkina",
-      "kuvateksti": "Katri Hirvonen,Sara Niemistö,Nelli Rolig,Pia Lingren",
-      "maalintekijät_koti": "Oma maali"
+      "maalintekijät_koti": "Katri Hirvonen,Sara Niemistö,Nelli Rolig,Pia Lingren",
+      "maalintekijät_vieras": "Oma maali"
     },
     {
       "ottelu_id": "201305",
@@ -1242,7 +1242,7 @@
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
       "maalit_vieras": "1",
-      "maalintekijät_koti": "Anni Eloranta"
+      "maalintekijät_vieras": "Anni Eloranta"
     },
     {
       "ottelu_id": "201304",
@@ -1269,7 +1269,7 @@
       "maalit_koti": "0",
       "maalit_vieras": "2",
       "erotuomari": "Muhamed Bashir",
-      "maalintekijät_koti": "Sara Niemistö,Mirella Poikonen"
+      "maalintekijät_vieras": "Sara Niemistö,Mirella Poikonen"
     },
     {
       "ottelu_id": "201302",
@@ -1309,8 +1309,8 @@
       "maalit_koti": "4",
       "maalit_vieras": "1",
       "erotuomari": "Baki Onat",
-      "kuvateksti": "Ella Andberg,Ella Andberg,Ella Andberg,Roosa Salmenkylä",
-      "maalintekijät_koti": "Sara Niemistö"
+      "maalintekijät_koti": "Ella Andberg,Ella Andberg,Ella Andberg,Roosa Salmenkylä",
+      "maalintekijät_vieras": "Sara Niemistö"
     },
     {
       "ottelu_id": "201216",
@@ -1336,7 +1336,7 @@
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
       "maalit_vieras": "2",
-      "maalintekijät_koti": "Katri Hirvonen,Venla Anttonen"
+      "maalintekijät_vieras": "Katri Hirvonen,Venla Anttonen"
     },
     {
       "ottelu_id": "201214",
@@ -1350,8 +1350,8 @@
       "maalit_koti": "1",
       "maalit_vieras": "1",
       "erotuomari": "Joel Lindqvist",
-      "kuvateksti": "Piipa Kämppi",
-      "maalintekijät_koti": "Elina Terävä"
+      "maalintekijät_koti": "Piipa Kämppi",
+      "maalintekijät_vieras": "Elina Terävä"
     },
     {
       "ottelu_id": "201213",
@@ -1364,8 +1364,8 @@
       "Vierasjoukkue": "HPS",
       "maalit_koti": "3",
       "maalit_vieras": "2",
-      "kuvateksti": "Tanja Teitto,Saana Niemelä,Pinja Leppänen",
-      "maalintekijät_koti": "Oma maali,Oma maali"
+      "maalintekijät_koti": "Tanja Teitto,Saana Niemelä,Pinja Leppänen",
+      "maalintekijät_vieras": "Oma maali,Oma maali"
     },
     {
       "ottelu_id": "201212",
@@ -1379,8 +1379,8 @@
       "maalit_koti": "1",
       "maalit_vieras": "2",
       "erotuomari": "Heli Saario",
-      "kuvateksti": "Veera Anttila",
-      "maalintekijät_koti": "Anna Nieminen,Karoliina Hakala"
+      "maalintekijät_koti": "Veera Anttila",
+      "maalintekijät_vieras": "Anna Nieminen,Karoliina Hakala"
     },
     {
       "ottelu_id": "201211",
@@ -1406,7 +1406,7 @@
       "maalit_koti": "0",
       "maalit_vieras": "4",
       "erotuomari": "Heli Saario",
-      "maalintekijät_koti": "Sara Hopsu,Katariina Pirinen,Katariina Pirinen,Katariina Pirinen"
+      "maalintekijät_vieras": "Sara Hopsu,Katariina Pirinen,Katariina Pirinen,Katariina Pirinen"
     },
     {
       "ottelu_id": "201209",
@@ -1419,7 +1419,7 @@
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
       "maalit_vieras": "0",
-      "kuvateksti": "Petra Arvela,Suvi Savolainen"
+      "maalintekijät_koti": "Petra Arvela,Suvi Savolainen"
     },
     {
       "ottelu_id": "201208",
@@ -1432,7 +1432,7 @@
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
       "maalit_vieras": "1",
-      "maalintekijät_koti": "Hanna Honkanen"
+      "maalintekijät_vieras": "Hanna Honkanen"
     },
     {
       "ottelu_id": "201207",
@@ -1445,7 +1445,7 @@
       "Vierasjoukkue": "HPS",
       "maalit_koti": "0",
       "maalit_vieras": "1",
-      "maalintekijät_koti": "Sara Niemistö"
+      "maalintekijät_vieras": "Sara Niemistö"
     },
     {
       "ottelu_id": "201206",
@@ -1459,8 +1459,8 @@
       "maalit_koti": "2",
       "maalit_vieras": "1",
       "erotuomari": "Jukka Tavastila",
-      "kuvateksti": "Sanna Helminen,Ulla Koskinen",
-      "maalintekijät_koti": "Katja Nuutinen"
+      "maalintekijät_koti": "Sanna Helminen,Ulla Koskinen",
+      "maalintekijät_vieras": "Katja Nuutinen"
     },
     {
       "ottelu_id": "201205",
@@ -1487,7 +1487,7 @@
       "maalit_koti": "0",
       "maalit_vieras": "4",
       "erotuomari": "Mustafa Sari",
-      "maalintekijät_koti": "Silja Lehtonen,Marjaana Määttä,Marjaana Määttä,Ulla Koskinen"
+      "maalintekijät_vieras": "Silja Lehtonen,Marjaana Määttä,Marjaana Määttä,Ulla Koskinen"
     },
     {
       "ottelu_id": "201203",
@@ -1501,7 +1501,7 @@
       "maalit_koti": "2",
       "maalit_vieras": "0",
       "erotuomari": "Gennaro Liguori",
-      "kuvateksti": "Sara Niemistö,Sanna Hakala"
+      "maalintekijät_koti": "Sara Niemistö,Sanna Hakala"
     },
     {
       "ottelu_id": "201202",
@@ -1514,8 +1514,8 @@
       "Vierasjoukkue": "HPS",
       "maalit_koti": "1",
       "maalit_vieras": "2",
-      "kuvateksti": "Ella Seppälä",
-      "maalintekijät_koti": "Anni Eloranta,Ulla Koskinen"
+      "maalintekijät_koti": "Ella Seppälä",
+      "maalintekijät_vieras": "Anni Eloranta,Ulla Koskinen"
     },
     {
       "ottelu_id": "201201",
@@ -1529,7 +1529,7 @@
       "maalit_koti": "15",
       "maalit_vieras": "0",
       "erotuomari": "Jaakko Rusama",
-      "kuvateksti": "Silja Lehtonen,Silja Lehtonen,Sara Niemistö,Sara Niemistö,Sara Niemistö,Sara Niemistö,Linda Laine,Linda Laine,Ulla Koskinen,Ulla Koskinen,Ulla Koskinen,Ulla Koskinen,Jessika Elo,Jessika Elo,Piipa Kämppi"
+      "maalintekijät_koti": "Silja Lehtonen,Silja Lehtonen,Sara Niemistö,Sara Niemistö,Sara Niemistö,Sara Niemistö,Linda Laine,Linda Laine,Ulla Koskinen,Ulla Koskinen,Ulla Koskinen,Ulla Koskinen,Jessika Elo,Jessika Elo,Piipa Kämppi"
     },
     {
       "ottelu_id": "201116",
@@ -1542,7 +1542,7 @@
       "maalit_koti": "0",
       "maalit_vieras": "4",
       "erotuomari": "Hannu Utriainen",
-      "maalintekijät_koti": "Silja Lehtonen,Sara Niemistö,Minna Malmberg,Piipa Kämppi"
+      "maalintekijät_vieras": "Silja Lehtonen,Sara Niemistö,Minna Malmberg,Piipa Kämppi"
     },
     {
       "ottelu_id": "201115",
@@ -1556,7 +1556,7 @@
       "maalit_koti": "0",
       "maalit_vieras": "3",
       "erotuomari": "Elias Juvonen",
-      "maalintekijät_koti": "Vilma Lanki,Vilma Lanki,Susanna Olin"
+      "maalintekijät_vieras": "Vilma Lanki,Vilma Lanki,Susanna Olin"
     },
     {
       "ottelu_id": "201114",
@@ -1570,7 +1570,7 @@
       "maalit_koti": "1",
       "maalit_vieras": "0",
       "erotuomari": "Markus Terämaa",
-      "kuvateksti": "Ulla Koskinen"
+      "maalintekijät_koti": "Ulla Koskinen"
     },
     {
       "ottelu_id": "201113",
@@ -1584,7 +1584,7 @@
       "maalit_koti": "0",
       "maalit_vieras": "1",
       "erotuomari": "Kai Galkin",
-      "maalintekijät_koti": "Ulla Koskinen"
+      "maalintekijät_vieras": "Ulla Koskinen"
     },
     {
       "ottelu_id": "201112",
@@ -1611,7 +1611,7 @@
       "maalit_koti": "1",
       "maalit_vieras": "0",
       "erotuomari": "Oliver Reitala",
-      "kuvateksti": "Anni Eloranta"
+      "maalintekijät_koti": "Anni Eloranta"
     },
     {
       "ottelu_id": "201110",
@@ -1625,7 +1625,7 @@
       "maalit_koti": "1",
       "maalit_vieras": "0",
       "erotuomari": "Pekka Lahti-Nuuttila",
-      "kuvateksti": "Annika Mieho"
+      "maalintekijät_koti": "Annika Mieho"
     },
     {
       "ottelu_id": "201109",
@@ -1639,7 +1639,7 @@
       "maalit_koti": "0",
       "maalit_vieras": "2",
       "erotuomari": "Robert Metsälä",
-      "maalintekijät_koti": "Anetta Tihveräinen,Nea Sunila"
+      "maalintekijät_vieras": "Anetta Tihveräinen,Nea Sunila"
     },
     {
       "ottelu_id": "201108",
@@ -1653,7 +1653,7 @@
       "maalit_koti": "2",
       "maalit_vieras": "0",
       "erotuomari": "Anni Saarela",
-      "kuvateksti": "Minna Pohtola,Minna Pohtola"
+      "maalintekijät_koti": "Minna Pohtola,Minna Pohtola"
     },
     {
       "ottelu_id": "201107",
@@ -1667,7 +1667,7 @@
       "maalit_koti": "0",
       "maalit_vieras": "2",
       "erotuomari": "Younes Bouraga",
-      "maalintekijät_koti": "Sara Niemistö,Ulla Koskinen"
+      "maalintekijät_vieras": "Sara Niemistö,Ulla Koskinen"
     },
     {
       "ottelu_id": "201106",
@@ -1681,7 +1681,7 @@
       "maalit_koti": "2",
       "maalit_vieras": "0",
       "erotuomari": "Younes Bouraga",
-      "kuvateksti": "Piipa Kämppi,Hanna Honkanen"
+      "maalintekijät_koti": "Piipa Kämppi,Hanna Honkanen"
     },
     {
       "ottelu_id": "201105",
@@ -1695,7 +1695,7 @@
       "maalit_koti": "0",
       "maalit_vieras": "1",
       "erotuomari": "Matti Matilainen",
-      "maalintekijät_koti": "Hanna Honkanen"
+      "maalintekijät_vieras": "Hanna Honkanen"
     },
     {
       "ottelu_id": "201104",
@@ -1709,8 +1709,8 @@
       "maalit_koti": "1",
       "maalit_vieras": "2",
       "erotuomari": "Jaakko Rusama",
-      "kuvateksti": "Piipa Kämppi",
-      "maalintekijät_koti": "Maria Aholainen,Emma Jokinen"
+      "maalintekijät_koti": "Piipa Kämppi",
+      "maalintekijät_vieras": "Maria Aholainen,Emma Jokinen"
     },
     {
       "ottelu_id": "201103",
@@ -1736,8 +1736,8 @@
       "maalit_koti": "2",
       "maalit_vieras": "1",
       "erotuomari": "Antti Grönlund",
-      "kuvateksti": "Sanna Helminen,Ulla Koskinen",
-      "maalintekijät_koti": "Satu Mäkijärvi"
+      "maalintekijät_koti": "Sanna Helminen,Ulla Koskinen",
+      "maalintekijät_vieras": "Satu Mäkijärvi"
     },
     {
       "ottelu_id": "201101",
@@ -1751,7 +1751,7 @@
       "maalit_koti": "0",
       "maalit_vieras": "2",
       "erotuomari": "Tony Lindström",
-      "maalintekijät_koti": "Minna Malmberg,Minna Malmberg"
+      "maalintekijät_vieras": "Minna Malmberg,Minna Malmberg"
     },
     {
       "ottelu_id": "200618",
