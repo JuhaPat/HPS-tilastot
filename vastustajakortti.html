@@ -5,23 +5,163 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vastustajakortti</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* Header-osion tyylit (HPS-logoa ei näytetä) */
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+            position: relative;
+        }
+        /* Valikkonappi sijoitetaan nyt fixed-tyylillä oikeaan yläkulmaan */
+        .menu-button {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            width: 40px;
+            height: 40px;
+            background-color: rgb(0, 100, 40);
+            border: none;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            z-index: 1000;
+        }
+        .menu-button div {
+            width: 25px;
+            height: 3px;
+            background-color: white;
+            margin: 3px 0;
+        }
+        .menu {
+            position: fixed;
+            top: 55px;
+            right: 10px;
+            width: 200px;
+            background-color: white;
+            border: 2px solid rgb(0, 100, 40);
+            border-radius: 5px;
+            box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+            padding: 5px;
+            z-index: 1000;
+            display: none;
+        }
+        .menu a {
+            display: block;
+            color: rgb(0, 100, 40);
+            text-decoration: none;
+            font-weight: bold;
+            border: 1px solid rgb(0, 100, 40);
+            border-radius: 3px;
+            margin: 2px 0;
+            padding: 4px 8px;
+            text-align: center;
+        }
+        .menu a:hover {
+            background-color: rgb(0, 100, 40);
+            color: white;
+        }
+        /* Loput alkuperäiset tyylit pysyvät ennallaan */
+        .extra-table {
+            margin-top: 20px;
+        }
+        .match-table a {
+            color: black;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .cup-bracket {
+            display: flex;
+            justify-content: space-evenly; 
+            align-items: flex-start;       
+            margin-top: 20px;
+        }
+        .bracket-round {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;  
+            margin: 0 10px;
+        }
+        #round-vali, 
+        #round-loppu {
+            justify-content: center;
+            align-items: center; 
+        }
+        .match-pair {
+            text-align: center;
+            margin-bottom: 5px; 
+        }
+        .round-content .match-pair:nth-child(2n) {
+            margin-bottom: 30px; 
+        }
+        .match-pair .team {
+            margin: 2px 0;
+            background-color: #f1f1f1;
+            padding: 4px 10px;
+            border-radius: 3px;
+            font-weight: normal;
+            width: 160px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .match-pair .team img {
+            width: 25px;
+            height: 25px;
+            margin-right: 5px;
+        }
+        .team .score {
+            font-size: 1.1rem;
+            font-weight: bold;
+            margin-left: 0.3em;
+        }
+        .additional-info {
+            font-size: 0.75rem; 
+            color: #666;
+            margin-top: 3px;   
+            line-height: 1.2;  
+        }
+        #cup-bracket {
+            display: none;
+        }
+        .pelivalitsin-container {
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        .pelivalitsin-label {
+            font-weight: bold;
+            margin-right: 10px;
+        }
+    </style>
+    <script>
+        // Palautetaan JSON-tiedostojen kansio URL-parametrin "joukkue" perusteella
+        function getTeamDataFolder() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const teamParam = urlParams.get('joukkue');
+            return teamParam === 'naiset' ? 'data naiset' : 'data miehet';
+        }
+    </script>
 </head>
 <body>
-    <div class="sidebar">
-        <a href="index.html" class="logo-link">
-            <img src="HPS-logo.jpg" alt="HPS Logo" class="logo">
-            <p class="logo-text">HPS Tilastot<br>1917-2024</p>
-        </a>
-        <nav>
-            <ul class="menu">
-                <li><a href="sijoitukset.html">Sijoitukset</a></li>
-                <li><a href="kaudet.html">Kaudet</a></li>
-                <li><a href="pelaajat.html">Pelaajat</a></li>
-                <li><a href="vastustajat.html" class="active">Vastustajat</a></li>
-                <li><a href="tietoja.html">Tietoja</a></li>
-            </ul>
-        </nav>
-    </div>
+    <!-- Header: Valikkonappi näkyy oikeassa yläkulmassa -->
+    <header>
+        <button class="menu-button" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </button>
+        <div class="menu" id="menu">
+            <a href="index.html">Etusivu</a>
+            <a href="sijoitukset.html">Sijoitukset</a>
+            <a href="kaudet.html">Kaudet</a>
+            <a href="joukkueet.html">Joukkueet</a>
+            <a href="pelaajat.html">Pelaajat</a>
+            <a href="vastustajat.html" class="active">Vastustajat</a>
+            <a href="tietoja.html">Tietoja</a>
+        </div>
+    </header>
 
     <main>
         <div id="opponent-content">
@@ -49,21 +189,49 @@
     </main>
 
     <script>
+        function toggleMenu() {
+            const menu = document.getElementById('menu');
+            menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+        }
+        
+        // Varmistetaan, että URL-parametri "joukkue" säilyy kaikissa linkeissä
+        function appendJoukkueParamToLinks() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const joukkue = urlParams.get("joukkue");
+            if (!joukkue) return;
+            const links = document.querySelectorAll("a[href]");
+            links.forEach(link => {
+                let href = link.getAttribute("href");
+                if (href && !href.match(/^https?:\/\//) && !href.startsWith("mailto:")) {
+                    if (href.indexOf("?") === -1) {
+                        href += `?joukkue=${encodeURIComponent(joukkue)}`;
+                    } else {
+                        let url = new URL(href, window.location.origin);
+                        url.searchParams.set("joukkue", joukkue);
+                        href = url.pathname + url.search;
+                    }
+                    link.setAttribute("href", href);
+                }
+            });
+        }
+        document.addEventListener("DOMContentLoaded", appendJoukkueParamToLinks);
+
         const urlParams = new URLSearchParams(window.location.search);
         const opponentShortName = urlParams.get('joukkue');
+        const dataFolder = getTeamDataFolder();
 
         if (opponentShortName) {
-            fetch('sarjataulukot.json')
+            fetch(`${dataFolder}/sarjataulukot.json`)
                 .then(response => response.json())
                 .then(teams => {
                     const teamLogos = teams.reduce((logos, team) => {
                         logos[team.Joukkue] = team.Logo ? `logot/${team.Logo}` : '';
                         return logos;
                     }, {});
-
+                    // Näytetään vain vastustajan logo
                     const opponentLogo = teamLogos[opponentShortName] || '';
 
-                    fetch('vastustajat.json')
+                    fetch(`${dataFolder}/vastustajat.json`)
                         .then(response => response.json())
                         .then(opponents => {
                             const opponent = opponents.find(o => o.Lyhenne === opponentShortName);
@@ -73,7 +241,7 @@
                             const opponentDetails = opponent ? opponent["Lisätiedot"] : '(tieto puuttuu)';
                             const opponentLink = opponent ? opponent["Linkki"] : '';
 
-                            fetch('ottelut.json')
+                            fetch(`${dataFolder}/ottelut.json`)
                                 .then(response => response.json())
                                 .then(matches => {
                                     const opponentMatches = matches.filter(match => 
@@ -89,7 +257,6 @@
                                         <p class="opponent-details" style="font-size: 1.2rem;">${opponentCity}</p>
                                         <p class="opponent-details" style="font-size: 1.2rem;">Perustettu vuonna ${opponentFounded}</p>
                                     `;
-
                                     document.getElementById('opponent-content').innerHTML = opponentContent;
 
                                     const additionalInfoContent = `${opponentDetails} ${opponentLink ? `<a href="${opponentLink}" target="_blank" style="color: blue;">(Lisätietoja)</a>` : ''}`;
