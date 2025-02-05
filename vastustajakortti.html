@@ -1,148 +1,148 @@
 <!DOCTYPE html>
 <html lang="fi">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vastustajakortti</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-        /* Header-osion tyylit (HPS-logoa ei näytetä) */
-        header {
-            text-align: center;
-            margin-bottom: 20px;
-            position: relative;
-        }
-        /* Valikkonappi sijoitetaan nyt fixed-tyylillä oikeaan yläkulmaan */
-        .menu-button {
-            position: fixed;
-            top: 10px;
-            right: 10px;
-            width: 40px;
-            height: 40px;
-            background-color: rgb(0, 100, 40);
-            border: none;
-            border-radius: 5px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            cursor: pointer;
-            z-index: 1000;
-        }
-        .menu-button div {
-            width: 25px;
-            height: 3px;
-            background-color: white;
-            margin: 3px 0;
-        }
-        .menu {
-            position: fixed;
-            top: 55px;
-            right: 10px;
-            width: 200px;
-            background-color: white;
-            border: 2px solid rgb(0, 100, 40);
-            border-radius: 5px;
-            box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
-            padding: 5px;
-            z-index: 1000;
-            display: none;
-        }
-        .menu a {
-            display: block;
-            color: rgb(0, 100, 40);
-            text-decoration: none;
-            font-weight: bold;
-            border: 1px solid rgb(0, 100, 40);
-            border-radius: 3px;
-            margin: 2px 0;
-            padding: 4px 8px;
-            text-align: center;
-        }
-        .menu a:hover {
-            background-color: rgb(0, 100, 40);
-            color: white;
-        }
-        /* Loput alkuperäiset tyylit pysyvät ennallaan */
-        .extra-table {
-            margin-top: 20px;
-        }
-        .match-table a {
-            color: black;
-            font-weight: bold;
-            text-decoration: none;
-        }
-        .cup-bracket {
-            display: flex;
-            justify-content: space-evenly; 
-            align-items: flex-start;       
-            margin-top: 20px;
-        }
-        .bracket-round {
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;  
-            margin: 0 10px;
-        }
-        #round-vali, 
-        #round-loppu {
-            justify-content: center;
-            align-items: center; 
-        }
-        .match-pair {
-            text-align: center;
-            margin-bottom: 5px; 
-        }
-        .round-content .match-pair:nth-child(2n) {
-            margin-bottom: 30px; 
-        }
-        .match-pair .team {
-            margin: 2px 0;
-            background-color: #f1f1f1;
-            padding: 4px 10px;
-            border-radius: 3px;
-            font-weight: normal;
-            width: 160px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .match-pair .team img {
-            width: 25px;
-            height: 25px;
-            margin-right: 5px;
-        }
-        .team .score {
-            font-size: 1.1rem;
-            font-weight: bold;
-            margin-left: 0.3em;
-        }
-        .additional-info {
-            font-size: 0.75rem; 
-            color: #666;
-            margin-top: 3px;   
-            line-height: 1.2;  
-        }
-        #cup-bracket {
-            display: none;
-        }
-        .pelivalitsin-container {
-            margin-top: 10px;
-            margin-bottom: 20px;
-        }
-        .pelivalitsin-label {
-            font-weight: bold;
-            margin-right: 10px;
-        }
-    </style>
-    <script>
-        // Palautetaan JSON-tiedostojen kansio URL-parametrin "joukkue" perusteella
-        function getTeamDataFolder() {
-            const urlParams = new URLSearchParams(window.location.search);
-            const teamParam = urlParams.get('joukkue');
-            return teamParam === 'naiset' ? 'data naiset' : 'data miehet';
-        }
-    </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vastustajakortti</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Header-osion tyylit (HPS-logoa ei näytetä) */
+    header {
+      text-align: center;
+      margin-bottom: 20px;
+      position: relative;
+    }
+    /* Valikkonappi sijoitetaan nyt fixed-tyylillä oikeaan yläkulmaan */
+    .menu-button {
+      position: fixed;
+      top: 10px;
+      right: 10px;
+      width: 40px;
+      height: 40px;
+      background-color: rgb(0, 100, 40);
+      border: none;
+      border-radius: 5px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      z-index: 1000;
+    }
+    .menu-button div {
+      width: 25px;
+      height: 3px;
+      background-color: white;
+      margin: 3px 0;
+    }
+    .menu {
+      position: fixed;
+      top: 55px;
+      right: 10px;
+      width: 200px;
+      background-color: white;
+      border: 2px solid rgb(0, 100, 40);
+      border-radius: 5px;
+      box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+      padding: 5px;
+      z-index: 1000;
+      display: none;
+    }
+    .menu a {
+      display: block;
+      color: rgb(0, 100, 40);
+      text-decoration: none;
+      font-weight: bold;
+      border: 1px solid rgb(0, 100, 40);
+      border-radius: 3px;
+      margin: 2px 0;
+      padding: 4px 8px;
+      text-align: center;
+    }
+    .menu a:hover {
+      background-color: rgb(0, 100, 40);
+      color: white;
+    }
+    /* Loput alkuperäiset tyylit pysyvät ennallaan */
+    .extra-table {
+      margin-top: 20px;
+    }
+    .match-table a {
+      color: black;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .cup-bracket {
+      display: flex;
+      justify-content: space-evenly; 
+      align-items: flex-start;       
+      margin-top: 20px;
+    }
+    .bracket-round {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;  
+      margin: 0 10px;
+    }
+    #round-vali, 
+    #round-loppu {
+      justify-content: center;
+      align-items: center; 
+    }
+    .match-pair {
+      text-align: center;
+      margin-bottom: 5px; 
+    }
+    .round-content .match-pair:nth-child(2n) {
+      margin-bottom: 30px; 
+    }
+    .match-pair .team {
+      margin: 2px 0;
+      background-color: #f1f1f1;
+      padding: 4px 10px;
+      border-radius: 3px;
+      font-weight: normal;
+      width: 160px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .match-pair .team img {
+      width: 25px;
+      height: 25px;
+      margin-right: 5px;
+    }
+    .team .score {
+      font-size: 1.1rem;
+      font-weight: bold;
+      margin-left: 0.3em;
+    }
+    .additional-info {
+      font-size: 0.75rem; 
+      color: #666;
+      margin-top: 3px;   
+      line-height: 1.2;  
+    }
+    #cup-bracket {
+      display: none;
+    }
+    .pelivalitsin-container {
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+    .pelivalitsin-label {
+      font-weight: bold;
+      margin-right: 10px;
+    }
+  </style>
+  <script>
+    // Palautetaan JSON-tiedostojen kansio URL-parametrin "joukkue" perusteella
+    function getTeamDataFolder() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const teamParam = urlParams.get('joukkue');
+      return teamParam === 'naiset' ? 'data naiset' : 'data miehet';
+    }
+  </script>
 </head>
 <body>
     <!-- Header: Valikkonappi näkyy oikeassa yläkulmassa -->
@@ -216,11 +216,16 @@
         }
         document.addEventListener("DOMContentLoaded", appendJoukkueParamToLinks);
 
+        // Haetaan parametrit
         const urlParams = new URLSearchParams(window.location.search);
-        const opponentShortName = urlParams.get('joukkue');
+        const teamParam = urlParams.get('joukkue');         // miehet / naiset
+        const opponentShortName = urlParams.get('vastustaja'); // mm. HIFK, TPS jne.
+
+        // Määritetään dataFolder joukkue-parametrin perusteella
         const dataFolder = getTeamDataFolder();
 
         if (opponentShortName) {
+            // Ladataan sarjataulukot (mm. logoja varten)
             fetch(`${dataFolder}/sarjataulukot.json`)
                 .then(response => response.json())
                 .then(teams => {
@@ -228,9 +233,8 @@
                         logos[team.Joukkue] = team.Logo ? `logot/${team.Logo}` : '';
                         return logos;
                     }, {});
-                    // Näytetään vain vastustajan logo
-                    const opponentLogo = teamLogos[opponentShortName] || '';
 
+                    // Ladataan vastustajat
                     fetch(`${dataFolder}/vastustajat.json`)
                         .then(response => response.json())
                         .then(opponents => {
@@ -241,13 +245,19 @@
                             const opponentDetails = opponent ? opponent["Lisätiedot"] : '(tieto puuttuu)';
                             const opponentLink = opponent ? opponent["Linkki"] : '';
 
+                            // Logo suodattuu sarjataulukon pohjalta
+                            const opponentLogo = teamLogos[opponentShortName] || '';
+
+                            // Ladataan ottelut
                             fetch(`${dataFolder}/ottelut.json`)
                                 .then(response => response.json())
                                 .then(matches => {
-                                    const opponentMatches = matches.filter(match => 
+                                    // Filtteröidään vain ne ottelut, joissa ko. vastustaja
+                                    const opponentMatches = matches.filter(match =>
                                         match.Kotijoukkue === opponentShortName || match.Vierasjoukkue === opponentShortName
                                     );
 
+                                    // Rakennetaan vastustajan perusinfot
                                     const opponentContent = `
                                         <div class="opponent-logo">
                                             <img src="${opponentLogo}" alt="${opponentShortName}" class="team-logo">
@@ -259,12 +269,21 @@
                                     `;
                                     document.getElementById('opponent-content').innerHTML = opponentContent;
 
-                                    const additionalInfoContent = `${opponentDetails} ${opponentLink ? `<a href="${opponentLink}" target="_blank" style="color: blue;">(Lisätietoja)</a>` : ''}`;
+                                    const additionalInfoContent = `
+                                        ${opponentDetails} 
+                                        ${opponentLink ? `<a href="${opponentLink}" target="_blank" style="color: blue;">(Lisätietoja)</a>` : ''}
+                                    `;
                                     document.getElementById('additional-info').innerHTML = additionalInfoContent;
 
+                                    // Rakennetaan ottelutaulukko
                                     const tableBody = document.getElementById('opponent-matches-table').querySelector('tbody');
                                     tableBody.innerHTML = opponentMatches.map(match => {
                                         const date = match.Päivämäärä ? match.Päivämäärä : '-';
+                                        const homeLogo = teamLogos[match.Kotijoukkue] || '';
+                                        const awayLogo = teamLogos[match.Vierasjoukkue] || '';
+
+                                        // Huom! Lisätään "joukkue" -parametri Tulos-linkkiin
+                                        // -> ottelukortti.html?ottelu_id=123&joukkue=xxx
                                         return `
                                             <tr>
                                                 <td>${date}</td>
@@ -272,16 +291,20 @@
                                                 <td>${match.Stadion || '-'}</td>
                                                 <td>${match.Kaupunki || '-'}</td>
                                                 <td>
-                                                    <img src="${teamLogos[match.Kotijoukkue] || ''}" alt="${match.Kotijoukkue}" class="small-logo">
+                                                    <img src="${homeLogo}" alt="${match.Kotijoukkue}" class="small-logo">
                                                     ${match.Kotijoukkue || '-'}
                                                 </td>
                                                 <td>
-                                                    <img src="${teamLogos[match.Vierasjoukkue] || ''}" alt="${match.Vierasjoukkue}" class="small-logo">
+                                                    <img src="${awayLogo}" alt="${match.Vierasjoukkue}" class="small-logo">
                                                     ${match.Vierasjoukkue || '-'}
                                                 </td>
                                                 <td>
-                                                    <a href="ottelukortti.html?ottelu_id=${match.ottelu_id || '#'}" class="match-link">
-                                                        ${match.maalit_koti != null && match.maalit_vieras != null ? `${match.maalit_koti}-${match.maalit_vieras}` : '-'}
+                                                    <a href="ottelukortti.html?ottelu_id=${match.ottelu_id || '#'}&joukkue=${encodeURIComponent(teamParam)}" class="match-link">
+                                                        ${
+                                                            match.maalit_koti != null && match.maalit_vieras != null
+                                                            ? `${match.maalit_koti}-${match.maalit_vieras}`
+                                                            : '-'
+                                                        }
                                                     </a>
                                                 </td>
                                             </tr>
@@ -292,8 +315,9 @@
                         })
                         .catch(error => console.error('Virhe ladattaessa vastustajatietoja:', error));
                 })
-                .catch(error => console.error('Virhe ladattaessa logotietoja:', error));
+                .catch(error => console.error('Virhe ladattaessa sarjataulukot.json -logoja:', error));
         } else {
+            // Jos "vastustaja"-parametri puuttuu:
             document.getElementById('opponent-content').innerHTML = '<p>Vastustajan tiedot puuttuvat!</p>';
         }
     </script>

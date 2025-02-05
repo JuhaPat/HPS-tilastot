@@ -1,326 +1,336 @@
 <!DOCTYPE html>
 <html lang="fi">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vastustajat</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-        .opponent-table {
-            width: 60%;
-            margin: 0 auto;
-            border-collapse: collapse;
-        }
-        .opponent-table th, .opponent-table td {
-            border: 1px solid #ccc;
-            padding: 10px;
-            text-align: center;
-        }
-        .opponent-table th {
-            background-color: #f4f4f4;
-        }
-        .filter-container {
-            text-align: center;
-            margin: 20px;
-        }
-        .filter-container select {
-            padding: 5px;
-            font-size: 1rem;
-        }
-        .team-logo {
-            width: 25px;
-            height: 25px;
-            margin-right: 5px;
-            vertical-align: middle;
-        }
-               /* Pienennetty HPS-logo */
-               .header img {
-            width: 100px;
-            height: auto;
-        }
-        .team-name-link {
-            text-decoration: none;
-            color: black;
-            font-weight: bold;
-        }
-        /* Valikkonappi oikeassa yläkulmassa */
-        .menu-button {
-            position: absolute;
-            top: 10px;
-            right: 20%;
-            width: 40px;
-            height: 40px;
-            background-color: rgb(0, 100, 40);
-            border: none;
-            border-radius: 5px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            cursor: pointer;
-        }
-        .menu-button div {
-            width: 25px;
-            height: 3px;
-            background-color: white;
-            margin: 3px 0;
-        }
-        .menu {
-            display: none;
-            position: absolute;
-            top: 55px;
-            right: 20%;
-            width: 200px;
-            background-color: white;
-            border: 2px solid rgb(0, 100, 40);
-            border-radius: 5px;
-            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-            padding: 5px;
-        }
-        .menu a {
-            display: block;
-            color: rgb(0, 100, 40);
-            text-decoration: none;
-            font-weight: bold;
-            border: 1px solid rgb(0, 100, 40);
-            border-radius: 3px;
-            margin: 2px 0;
-            padding: 4px 8px;
-            text-align: center;
-        }
-        .menu a:hover {
-            background-color: rgb(0, 100, 40);
-            color: white;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vastustajat</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .opponent-table {
+      width: 60%;
+      margin: 0 auto;
+      border-collapse: collapse;
+    }
+    .opponent-table th, .opponent-table td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: center;
+    }
+    .opponent-table th {
+      background-color: #f4f4f4;
+    }
+    .filter-container {
+      text-align: center;
+      margin: 20px;
+    }
+    .filter-container select {
+      padding: 5px;
+      font-size: 1rem;
+    }
+    .team-logo {
+      width: 25px;
+      height: 25px;
+      margin-right: 5px;
+      vertical-align: middle;
+    }
+    /* Pienennetty HPS-logo */
+    .header img {
+      width: 100px;
+      height: auto;
+    }
+    .team-name-link {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+    }
+    /* Valikkonappi oikeassa yläkulmassa */
+    .menu-button {
+      position: absolute;
+      top: 10px;
+      right: 20%;
+      width: 40px;
+      height: 40px;
+      background-color: rgb(0, 100, 40);
+      border: none;
+      border-radius: 5px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+    }
+    .menu-button div {
+      width: 25px;
+      height: 3px;
+      background-color: white;
+      margin: 3px 0;
+    }
+    .menu {
+      display: none;
+      position: absolute;
+      top: 55px;
+      right: 20%;
+      width: 200px;
+      background-color: white;
+      border: 2px solid rgb(0, 100, 40);
+      border-radius: 5px;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 5px;
+    }
+    .menu a {
+      display: block;
+      color: rgb(0, 100, 40);
+      text-decoration: none;
+      font-weight: bold;
+      border: 1px solid rgb(0, 100, 40);
+      border-radius: 3px;
+      margin: 2px 0;
+      padding: 4px 8px;
+      text-align: center;
+    }
+    .menu a:hover {
+      background-color: rgb(0, 100, 40);
+      color: white;
+    }
+  </style>
 </head>
 <body>
-    <!-- Valikkonappi oikeassa yläkulmassa -->
-    <button class="menu-button" onclick="toggleMenu()">
-        <div></div>
-        <div></div>
-        <div></div>
-    </button>
-    <!-- Avautuva valikko -->
-    <div class="menu" id="menu">
-        <a href="index.html">Etusivu</a>
-        <a href="sijoitukset.html">Sijoitukset</a>
-        <a href="kaudet.html">Kaudet</a>
-        <a href="joukkueet.html">Joukkueet</a>
-        <a href="pelaajat.html">Pelaajat</a>
-        <a href="vastustajat.html">Vastustajat</a>
-        <a href="tietoja.html">Tietoja</a>
+  <!-- Valikkonappi oikeassa yläkulmassa -->
+  <button class="menu-button" onclick="toggleMenu()">
+    <div></div>
+    <div></div>
+    <div></div>
+  </button>
+  <!-- Avautuva valikko -->
+  <div class="menu" id="menu">
+    <a href="index.html">Etusivu</a>
+    <a href="sijoitukset.html">Sijoitukset</a>
+    <a href="kaudet.html">Kaudet</a>
+    <a href="joukkueet.html">Joukkueet</a>
+    <a href="pelaajat.html">Pelaajat</a>
+    <a href="vastustajat.html" class="active">Vastustajat</a>
+    <a href="tietoja.html">Tietoja</a>
+  </div>
+
+  <main>
+    <div class="header">
+      <a href="index.html">
+        <img src="logot/HPS.jpg" alt="HPS Logo">
+      </a>
+      <h1 id="team-title"></h1>
+      <h1 id="team-subtitle"></h1>
     </div>
+    <h1 style="text-align: center;">Vastustajat</h1>
+    <div class="filter-container">
+      <label for="sort-select">Järjestä:</label>
+      <select id="sort-select">
+        <option value="encounters">Eniten kohtaamisia</option>
+        <option value="name">Aakkosjärjestys</option>
+        <option value="wins">Eniten voittoja</option>
+        <option value="draws">Eniten tasapelejä</option>
+        <option value="losses">Eniten tappioita</option>
+        <option value="oldest-first">Vanhin ensimmäinen kohtaaminen</option>
+        <option value="newest-first">Uusin ensimmäinen kohtaaminen</option>
+      </select>
+    </div>
+    <table class="opponent-table">
+      <thead>
+        <tr>
+          <th>Vastustaja</th>
+          <th>Kohtaamiset</th>
+          <th>Voitot</th>
+          <th>Tasapelit</th>
+          <th>Tappiot</th>
+          <th>Ensimmäinen kohtaaminen</th>
+          <th>Viimeisin kohtaaminen</th>
+        </tr>
+      </thead>
+      <tbody id="opponent-table-body">
+        <!-- Data täytetään JavaScriptillä -->
+      </tbody>
+    </table>
+  </main>
+  <script>
+    // Valikon toggle-funktio
+    function toggleMenu() {
+      const menu = document.getElementById('menu');
+      menu.style.display = (menu.style.display === 'block') ? 'none' : 'block';
+    }
 
-    <main>
-        <div class="header">
-            <a href="index.html">
-                <img src="logot/HPS.jpg" alt="HPS Logo">
-            </a>
-            <h1 id="team-title"></h1>
-            <h1 id="team-subtitle"></h1>
-        </div>
-        <h1 style="text-align: center;">Vastustajat</h1>
-        <div class="filter-container">
-            <label for="sort-select">Järjestä:</label>
-            <select id="sort-select">
-                <option value="encounters">Eniten kohtaamisia</option>
-                <option value="name">Aakkosjärjestys</option>
-                <option value="wins">Eniten voittoja</option>
-                <option value="draws">Eniten tasapelejä</option>
-                <option value="losses">Eniten tappioita</option>
-                <option value="oldest-first">Vanhin ensimmäinen kohtaaminen</option>
-                <option value="newest-first">Uusin ensimmäinen kohtaaminen</option>
-            </select>
-        </div>
-        <table class="opponent-table">
-            <thead>
-                <tr>
-                    <th>Vastustaja</th>
-                    <th>Kohtaamiset</th>
-                    <th>Voitot</th>
-                    <th>Tasapelit</th>
-                    <th>Tappiot</th>
-                    <th>Ensimmäinen kohtaaminen</th>
-                    <th>Viimeisin kohtaaminen</th>
-                </tr>
-            </thead>
-            <tbody id="opponent-table-body">
-                <!-- Data täytetään JavaScriptillä -->
-            </tbody>
-        </table>
-    </main>
-    <script>
-        // Valikon toggle-funktio
-        function toggleMenu() {
-            const menu = document.getElementById('menu');
-            menu.style.display = (menu.style.display === 'block') ? 'none' : 'block';
-        }
-
-        // Säilyttää url-parametrin "joukkue"
-        window.addEventListener('DOMContentLoaded', () => {
-            const urlParams = new URLSearchParams(window.location.search);
-            const joukkueParam = urlParams.get('joukkue');
-
-            if (joukkueParam) {
-                const menuLinks = document.querySelectorAll('.menu a');
-                menuLinks.forEach(link => {
-                    const linkUrl = new URL(link.href, window.location.origin);
-                    linkUrl.searchParams.set('joukkue', joukkueParam);
-                    link.href = linkUrl.toString();
-                });
-            }
+    // Säilyttää url-parametrin "joukkue" menu-linkeissä
+    window.addEventListener('DOMContentLoaded', () => {
+      const urlParams = new URLSearchParams(window.location.search);
+      const joukkueParam = urlParams.get('joukkue');
+      if (joukkueParam) {
+        const menuLinks = document.querySelectorAll('.menu a');
+        menuLinks.forEach(link => {
+          const linkUrl = new URL(link.href, window.location.origin);
+          linkUrl.searchParams.set('joukkue', joukkueParam);
+          link.href = linkUrl.toString();
         });
+      }
+    });
 
-        const logos = {};
+    const logos = {};
 
-        // Määritetään dataFolder joukkue- parametrin perusteella
-        const urlParams = new URLSearchParams(window.location.search);
-        const teamParam = urlParams.get('joukkue') === 'naiset' ? 'data naiset' : 'data miehet';
+    // Määritetään dataFolder joukkue-parametrin perusteella
+    const urlParams = new URLSearchParams(window.location.search);
+    const teamParam = urlParams.get('joukkue');
+    const dataFolder = teamParam === 'naiset' ? 'data naiset' : 'data miehet';
 
-        // Ladataan joukkueen logot
-        fetch(`${teamParam}/sarjataulukot.json`)
-            .then(response => response.json())
-            .then(teams => {
-                teams.forEach(team => {
-                    if (team.Joukkue && team.Logo) {
-                        logos[team.Joukkue] = team.Logo;
-                    }
-                });
-            })
-            .catch(error => console.error('Virhe ladattaessa logoja:', error))
-            .then(() => {
-                // Ladataan otteludata
-                fetch(`${teamParam}/ottelut.json`)
-                    .then(response => response.json())
-                    .then(data => {
-                        const tableBody = document.getElementById('opponent-table-body');
-                        const sortSelect = document.getElementById('sort-select');
+    // Ladataan joukkueen logot
+    fetch(`${dataFolder}/sarjataulukot.json`)
+      .then(response => response.json())
+      .then(teams => {
+        teams.forEach(team => {
+          if (team.Joukkue && team.Logo) {
+            logos[team.Joukkue] = team.Logo;
+          }
+        });
+      })
+      .catch(error => console.error('Virhe ladattaessa logoja:', error))
+      .then(() => {
+        // Ladataan otteludata
+        fetch(`${dataFolder}/ottelut.json`)
+          .then(response => response.json())
+          .then(data => {
+            const tableBody = document.getElementById('opponent-table-body');
+            const sortSelect = document.getElementById('sort-select');
 
-                        const opponents = {};
+            const opponents = {};
 
-                        data.forEach(match => {
-                            if (!match.Päivämäärä || typeof match.Päivämäärä !== 'string') {
-                                console.error('Invalid or missing Päivämäärä:', match);
-                                return;
-                            }
+            data.forEach(match => {
+              if (!match.Päivämäärä || typeof match.Päivämäärä !== 'string') {
+                console.error('Invalid or missing Päivämäärä:', match);
+                return;
+              }
 
-                            const dateParts = match.Päivämäärä.split('.');
-                            if (dateParts.length !== 3) {
-                                console.error('Invalid date format:', match.Päivämäärä);
-                                return;
-                            }
+              const dateParts = match.Päivämäärä.split('.');
+              if (dateParts.length !== 3) {
+                console.error('Invalid date format:', match.Päivämäärä);
+                return;
+              }
 
-                            const [day, month, year] = dateParts.map(Number);
-                            const matchDate = new Date(year, month - 1, day);
+              const [day, month, year] = dateParts.map(Number);
+              const matchDate = new Date(year, month - 1, day);
 
-                            if (isNaN(matchDate.getTime())) {
-                                console.error('Invalid date object for Päivämäärä:', match.Päivämäärä);
-                                return;
-                            }
+              if (isNaN(matchDate.getTime())) {
+                console.error('Invalid date object for Päivämäärä:', match.Päivämäärä);
+                return;
+              }
 
-                            const isHPSHome = match.Kotijoukkue === 'HPS';
-                            const opponent = isHPSHome ? match.Vierasjoukkue : match.Kotijoukkue;
+              const isHPSHome = match.Kotijoukkue === 'HPS';
+              const opponent = isHPSHome ? match.Vierasjoukkue : match.Kotijoukkue;
 
-                            if (!opponents[opponent]) {
-                                opponents[opponent] = {
-                                    name: opponent,
-                                    encounters: 0,
-                                    wins: 0,
-                                    draws: 0,
-                                    losses: 0,
-                                    firstMeeting: matchDate,
-                                    lastMeeting: matchDate,
-                                };
-                            }
+              if (!opponents[opponent]) {
+                opponents[opponent] = {
+                  name: opponent,
+                  encounters: 0,
+                  wins: 0,
+                  draws: 0,
+                  losses: 0,
+                  firstMeeting: matchDate,
+                  lastMeeting: matchDate,
+                };
+              }
 
-                            const opponentData = opponents[opponent];
-                            opponentData.encounters++;
+              const opponentData = opponents[opponent];
+              opponentData.encounters++;
 
-                            if (
-                                (isHPSHome && match.maalit_koti > match.maalit_vieras) ||
-                                (!isHPSHome && match.maalit_vieras > match.maalit_koti)
-                            ) {
-                                opponentData.wins++;
-                            } else if (match.maalit_koti === match.maalit_vieras) {
-                                opponentData.draws++;
-                            } else {
-                                opponentData.losses++;
-                            }
+              if (
+                (isHPSHome && match.maalit_koti > match.maalit_vieras) ||
+                (!isHPSHome && match.maalit_vieras > match.maalit_koti)
+              ) {
+                opponentData.wins++;
+              } else if (match.maalit_koti === match.maalit_vieras) {
+                opponentData.draws++;
+              } else {
+                opponentData.losses++;
+              }
 
-                            if (matchDate < opponentData.firstMeeting) {
-                                opponentData.firstMeeting = matchDate;
-                            }
-                            if (matchDate > opponentData.lastMeeting) {
-                                opponentData.lastMeeting = matchDate;
-                            }
-                        });
-
-                        const opponentArray = Object.values(opponents);
-
-                        function formatDate(date) {
-                            return isNaN(date) ? '-' : date.toLocaleDateString('fi-FI');
-                        }
-
-                        function renderTable(data) {
-                            tableBody.innerHTML = '';
-                            data.forEach(opponent => {
-                                const row = document.createElement('tr');
-                                const logo = logos[opponent.name]
-                                    ? `<img src="logot/${logos[opponent.name]}" alt="${opponent.name}" class="team-logo">`
-                                    : '';
-                                row.innerHTML = `
-                                    <td>
-                                        ${logo}
-                                        <a href="vastustajakortti.html?joukkue=${encodeURIComponent(opponent.name)}" class="team-name-link">${opponent.name}</a>
-                                    </td>
-                                    <td>${opponent.encounters}</td>
-                                    <td>${opponent.wins}</td>
-                                    <td>${opponent.draws}</td>
-                                    <td>${opponent.losses}</td>
-                                    <td>${formatDate(opponent.firstMeeting)}</td>
-                                    <td>${formatDate(opponent.lastMeeting)}</td>
-                                `;
-                                tableBody.appendChild(row);
-                            });
-                        }
-
-                        function sortTable(criteria) {
-                            const sortedData = [...opponentArray];
-                            switch (criteria) {
-                                case 'name':
-                                    sortedData.sort((a, b) => a.name.localeCompare(b.name));
-                                    break;
-                                case 'encounters':
-                                    sortedData.sort((a, b) => b.encounters - a.encounters);
-                                    break;
-                                case 'wins':
-                                    sortedData.sort((a, b) => b.wins - a.wins);
-                                    break;
-                                case 'draws':
-                                    sortedData.sort((a, b) => b.draws - a.draws);
-                                    break;
-                                case 'losses':
-                                    sortedData.sort((a, b) => b.losses - a.losses);
-                                    break;
-                                case 'oldest-first':
-                                    sortedData.sort((a, b) => a.firstMeeting - b.firstMeeting);
-                                    break;
-                                case 'newest-first':
-                                    sortedData.sort((a, b) => b.lastMeeting - a.lastMeeting);
-                                    break;
-                            }
-                            renderTable(sortedData);
-                        }
-
-                        sortSelect.addEventListener('change', () => {
-                            sortTable(sortSelect.value);
-                        });
-
-                        sortTable('encounters');
-                    })
-                    .catch(error => console.error('Virhe ladattaessa ottelutietoja:', error));
+              if (matchDate < opponentData.firstMeeting) {
+                opponentData.firstMeeting = matchDate;
+              }
+              if (matchDate > opponentData.lastMeeting) {
+                opponentData.lastMeeting = matchDate;
+              }
             });
-    </script>
+
+            const opponentArray = Object.values(opponents);
+
+            function formatDate(date) {
+              return isNaN(date) ? '-' : date.toLocaleDateString('fi-FI');
+            }
+
+            function renderTable(data) {
+              tableBody.innerHTML = '';
+              data.forEach(opponent => {
+                const row = document.createElement('tr');
+                const logo = logos[opponent.name]
+                  ? `<img src="logot/${logos[opponent.name]}" alt="${opponent.name}" class="team-logo">`
+                  : '';
+                
+                // Lisätään linkki vastustajakortti.html -sivulle
+                // URL-parametreissa säilytetään "joukkue" (miehet/naiset)
+                // sekä luodaan uusi parametri "vastustaja" = opponent.name
+                row.innerHTML = `
+                  <td>
+                    ${logo}
+                    <a href="vastustajakortti.html?joukkue=${encodeURIComponent(teamParam)}&vastustaja=${encodeURIComponent(opponent.name)}" class="team-name-link">
+                      ${opponent.name}
+                    </a>
+                  </td>
+                  <td>${opponent.encounters}</td>
+                  <td>${opponent.wins}</td>
+                  <td>${opponent.draws}</td>
+                  <td>${opponent.losses}</td>
+                  <td>${formatDate(opponent.firstMeeting)}</td>
+                  <td>${formatDate(opponent.lastMeeting)}</td>
+                `;
+                tableBody.appendChild(row);
+              });
+              // Käytetään funktiota, joka lisää "joukkue" -parametrin kaikkiin linkkeihin (jos se puuttuu):
+              appendJoukkueParamToLinks();
+            }
+
+            function sortTable(criteria) {
+              const sortedData = [...opponentArray];
+              switch (criteria) {
+                case 'name':
+                  sortedData.sort((a, b) => a.name.localeCompare(b.name));
+                  break;
+                case 'encounters':
+                  sortedData.sort((a, b) => b.encounters - a.encounters);
+                  break;
+                case 'wins':
+                  sortedData.sort((a, b) => b.wins - a.wins);
+                  break;
+                case 'draws':
+                  sortedData.sort((a, b) => b.draws - a.draws);
+                  break;
+                case 'losses':
+                  sortedData.sort((a, b) => b.losses - a.losses);
+                  break;
+                case 'oldest-first':
+                  sortedData.sort((a, b) => a.firstMeeting - b.firstMeeting);
+                  break;
+                case 'newest-first':
+                  sortedData.sort((a, b) => b.lastMeeting - a.lastMeeting);
+                  break;
+              }
+              renderTable(sortedData);
+            }
+
+            sortSelect.addEventListener('change', () => {
+              sortTable(sortSelect.value);
+            });
+
+            // Alustavasti järjestetään "eniten kohtaamisia"
+            sortTable('encounters');
+          })
+          .catch(error => console.error('Virhe ladattaessa ottelutietoja:', error));
+      })
+      .catch(error => console.error('Virhe ladattaessa logoja:', error));
+  </script>
 </body>
 </html>
