@@ -15,11 +15,13 @@
             padding: 2px 4px; /* vähennetään paddingia */
         }
         .player-photo {
-            width: 35px;  /* pienempi leveys */
-            height: auto;
+            width: 35px;  
+            height: 35px; 
+            border-radius: 50%;   /* Pyöreä muoto */
+            object-fit: cover;    /* Kuva rajataan täyttämään annettu koko */
         }
        /* Pienennetty HPS-logo */
-       .header img {
+        .header img {
             width: 100px;
             height: auto;
         }
@@ -29,7 +31,7 @@
             display: flex;
             flex-direction: column;    /* allekkain */
             align-items: center;       /* keskelle sivusuunnassa */
-            justify-content: center;   
+            justify-content: center;
             gap: 10px;                 /* pientä väliä valitsimien välille */
         }
         .valintalista-container label {
@@ -206,7 +208,7 @@
 
                     if (!playerName || typeof playerName !== 'string') {
                         console.warn("Puuttuva tai virheellinen 'Koko nimi':", record);
-                        return; 
+                        return;
                     }
 
                     const [etunimi, ...rest] = playerName.split(' ');
@@ -291,10 +293,18 @@
                             maalitCount = player.s_maalit;
                         }
 
+                        // Luodaan polku pelaajan kuvalle: "Etunimi Sukunimi.jpg"
+                        const playerImageSrc = `pelaajakuvat/${player.etunimi} ${player.sukunimi}.jpg`;
+
                         const tr = document.createElement('tr');
                         tr.innerHTML = `
                             <td>
-                                <img src="pelaajakuvat/pelaajakuva.jpg" alt="Pelaajan kuva" class="player-photo">
+                                <img
+                                  src="${playerImageSrc}"
+                                  alt="Pelaajan kuva"
+                                  class="player-photo"
+                                  onerror="this.onerror=null;this.src='pelaajakuvat/pelaajakuva.jpg';"
+                                >
                             </td>
                             <td>
                                 <a href="pelaajakortti.html?sukunimi=${encodeURIComponent(player.sukunimi)}&etunimi=${encodeURIComponent(player.etunimi)}&joukkue=${encodeURIComponent(joukkueParam)}">
