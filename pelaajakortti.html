@@ -24,19 +24,16 @@
             object-fit: cover;
             margin-bottom: 10px;
         }
-
         .player-details h1 {
             margin: 0;
             font-size: 1.8rem;
             color: rgb(0, 100, 40);
         }
-
         .player-details p {
             margin: 5px 0;
             font-size: 0.9rem;
             color: #555;
         }
-
         .league-table {
             width: 50%;
             margin: 20px auto;
@@ -44,25 +41,21 @@
             font-size: 0.9rem;
             table-layout: fixed;
         }
-
         .league-table th,
         .league-table td {
             border: 1px solid #ddd;
             padding: 5px;
             text-align: center;
         }
-
         .league-table th {
             background-color: #f2f2f2;
             color: #333;
             font-weight: bold;
         }
-
         .total-row {
             font-weight: bold;
             background-color: #e6e6e6;
         }
-
         /* Valikon perusmuotoilua */
         .game-type-select {
             margin: 0 auto 20px auto;
@@ -75,7 +68,6 @@
         .game-type-select select {
             padding: 3px;
         }
-
         /* Vihreä valikkonappi oikeassa yläkulmassa */
         .menu-button {
             position: absolute;
@@ -213,98 +205,88 @@
         // 3) Yritetään näyttää pelaajan kuva nimellä "Etunimi Sukunimi.jpg"
         const playerPhoto = document.getElementById('player-photo');
         playerPhoto.src = `pelaajakuvat/${etunimi} ${sukunimi}.jpg`; 
-        // Jos kuvatiedostoa ei löydy, "onerror" asettaa oletuskuvan.
 
-        // Luetaan joukkue param
+        // 4) Määritellään data-kansion polku URL-parametrin "joukkue" perusteella
         const urlParams2 = new URLSearchParams(window.location.search);
         const joukkueParam2 = (urlParams2.get('joukkue') === 'naiset') ? 'data naiset' : 'data miehet';
 
-        // 4) Haetaan sarjatasotiedot ja tallennetaan Kausi -> Sarjataso
+        // 5) Yhdistetään sarjataulukot.json:n ja pelaajat.json:n lataus Promise.allilla,
+        // jotta varmistetaan, että sarjataulukkodata on ladattu ennen tilastojen renderöintiä.
         let sarjataulukot = {};
-        fetch(`${joukkueParam2}/sarjataulukot.json`)
-            .then(response => response.json())
-            .then(data => {
-                sarjataulukot = data.reduce((acc, row) => {
-                    acc[row.Kausi] = row.Sarjataso;
-                    return acc;
-                }, {});
-            });
-
-        // 5) Haetaan pelaajadata
-        let yearStats = {}; // Tänne kerätään yhteen paikkaan kaikista peleistä
+        let yearStats = {}; // Kaikkien pelien tilastot
         let positions = new Set();
         let roles = new Set();
 
-        fetch(`${joukkueParam2}/pelaajat.json`)
-            .then(response => response.json())
-            .then(data => {
-                // Suodatetaan vain valitun pelaajan tietorivit
-                const filteredData = data.filter(record =>
-                    record["Koko nimi"] === `${etunimi} ${sukunimi}`
-                );
+        Promise.all([
+            fetch(`${joukkueParam2}/sarjataulukot.json`).then(response => response.json()),
+            fetch(`${joukkueParam2}/pelaajat.json`).then(response => response.json())
+        ])
+        .then(([sarjataulukotData, pelaajatData]) => {
+            // Muutetaan sarjataulukot-data sanakirjaksi: { Kausi: Sarjataso, ... }
+            sarjataulukot = sarjataulukotData.reduce((acc, row) => {
+                acc[row.Kausi] = row.Sarjataso;
+                return acc;
+            }, {});
 
-                // Rakennetaan "yearStats" = { 1955: { pelitKaikki, maalitKaikki, pelitKilpa, maalitKilpa, pelitSarja, maalitSarja, sarjataulo }, ... }
-                // Ensin alusta rakenne
-                filteredData.forEach(record => {
-                    const year = record["Kausi"];
-                    if (!yearStats[year]) {
-                        yearStats[year] = {
-                            sarjataulo: 'Ei tietoa',  // Täydennetään myöhemmin
-                            pelitKaikki: 0,
-                            maalitKaikki: 0,
-                            pelitKilpa: 0,
-                            maalitKilpa: 0,
-                            pelitSarja: 0,
-                            maalitSarja: 0
-                        };
-                    }
+            // Suodatetaan vain kyseisen pelaajan tietorivit
+            const filteredData = pelaajatData.filter(record =>
+                record["Koko nimi"] === `${etunimi} ${sukunimi}`
+            );
 
-                    // Täydennä sarjatason tiedot, jos saatavilla
-                    if (sarjataulukot[year]) {
-                        yearStats[year].sarjataulo = sarjataulukot[year];
-                    }
+            // Rakennetaan yearStats–objekti: kerätään yhteen tilastot vuosittain
+            filteredData.forEach(record => {
+                const year = record["Kausi"];
+                if (!yearStats[year]) {
+                    yearStats[year] = {
+                        sarjataulo: 'Ei tietoa',  // Päivitetään, jos saatavilla
+                        pelitKaikki: 0,
+                        maalitKaikki: 0,
+                        pelitKilpa: 0,
+                        maalitKilpa: 0,
+                        pelitSarja: 0,
+                        maalitSarja: 0
+                    };
+                }
 
-                    // Haetaan jokaiselta riviltä halutut pelimäärät (oletus: 0, jos puuttuu)
-                    const pKaikki = parseInt(record["Kaikki pelit"] || 0, 10);
-                    const mKaikki = parseInt(record["Kaikki maalit"] || 0, 10);
+                // Täydennetään sarjatason tiedot, jos saatavilla
+                if (sarjataulukot[year]) {
+                    yearStats[year].sarjataulo = sarjataulukot[year];
+                }
 
-                    const pKilpa = parseInt(record["S+K pelit"] || 0, 10);
-                    const mKilpa = parseInt(record["S+K maalit"] || 0, 10);
+                const pKaikki = parseInt(record["Kaikki pelit"] || 0, 10);
+                const mKaikki = parseInt(record["Kaikki maalit"] || 0, 10);
+                const pKilpa = parseInt(record["S+K pelit"] || 0, 10);
+                const mKilpa = parseInt(record["S+K maalit"] || 0, 10);
+                const pSarja = parseInt(record["S pelit"] || 0, 10);
+                const mSarja = parseInt(record["S maalit"] || 0, 10);
 
-                    const pSarja = parseInt(record["S pelit"] || 0, 10);
-                    const mSarja = parseInt(record["S maalit"] || 0, 10);
+                yearStats[year].pelitKaikki += pKaikki;
+                yearStats[year].maalitKaikki += mKaikki;
+                yearStats[year].pelitKilpa += pKilpa;
+                yearStats[year].maalitKilpa += mKilpa;
+                yearStats[year].pelitSarja += pSarja;
+                yearStats[year].maalitSarja += mSarja;
 
-                    yearStats[year].pelitKaikki += pKaikki;
-                    yearStats[year].maalitKaikki += mKaikki;
+                if (record["Pelipaikka"]) positions.add(record["Pelipaikka"]);
+                if (record["Muu rooli"]) roles.add(record["Muu rooli"]);
+            });
 
-                    yearStats[year].pelitKilpa += pKilpa;
-                    yearStats[year].maalitKilpa += mKilpa;
+            // Päivitetään pelaajan pelipaikat ja muut roolit
+            document.getElementById('player-positions').textContent =
+                `Pelipaikat: ${[...positions].join(', ') || '-'}`;
+            document.getElementById('player-roles').textContent =
+                `Muut roolit: ${[...roles].join(', ') || '-'}`;
 
-                    yearStats[year].pelitSarja += pSarja;
-                    yearStats[year].maalitSarja += mSarja;
+            // Renderöidään tilastotaulukko
+            renderTable();
 
-                    // Pelipaikat & roolit
-                    if (record["Pelipaikka"]) positions.add(record["Pelipaikka"]);
-                    if (record["Muu rooli"]) roles.add(record["Muu rooli"]);
-                });
-
-                // Päivitetään pelipaikat & roolit sivulle
-                document.getElementById('player-positions').textContent =
-                    `Pelipaikat: ${[...positions].join(', ') || '-'}`;
-                document.getElementById('player-roles').textContent =
-                    `Muut roolit: ${[...roles].join(', ') || '-'}`;
-
-                // Kun sarjataulukot ja yearStats on tehty, päivitetään taulukko
-                // (Huom. jos sarjataulukot-fetchi ei ole ehtinyt valmistua, meillä on jo "Ei tietoa" valmiiksi.)
+            // Lisätään event-kuuntelija pelityypin valintaan
+            const pelityyppiSelect = document.getElementById('pelityyppi');
+            pelityyppiSelect.addEventListener('change', () => {
                 renderTable();
-
-                // Lisätään event-kuuntelija valikkoon:
-                const pelityyppiSelect = document.getElementById('pelityyppi');
-                pelityyppiSelect.addEventListener('change', () => {
-                    renderTable();
-                });
-            })
-            .catch(error => console.error('Virhe ladattaessa dataa:', error));
+            });
+        })
+        .catch(error => console.error('Virhe ladattaessa dataa:', error));
 
         // 6) Funktio taulukon renderöintiin valitun pelityypin perusteella
         function renderTable() {
@@ -315,16 +297,14 @@
             // Tyhjennetään mahdolliset vanhat rivit
             tbody.innerHTML = '';
 
-            // Luetaan valinta (kaikki/kilpailulliset/sarja)
+            // Luetaan pelityypin valinta: kaikki / kilpailulliset / sarja
             const pelityyppi = document.getElementById('pelityyppi').value;
 
-            // Lasketaan totalit
             let totalGames = 0;
             let totalGoals = 0;
 
-            // Käydään vuodet järjestyksessä
+            // Käydään vuodet läpi järjestyksessä
             const sortedYears = Object.keys(yearStats).sort((a, b) => parseInt(a) - parseInt(b));
-
             sortedYears.forEach(year => {
                 const rowData = yearStats[year];
 
@@ -338,7 +318,6 @@
                     pelit = rowData.pelitKilpa;
                     maalit = rowData.maalitKilpa;
                 } else {
-                    // 'sarja'
                     pelit = rowData.pelitSarja;
                     maalit = rowData.maalitSarja;
                 }
@@ -346,7 +325,6 @@
                 totalGames += pelit;
                 totalGoals += maalit;
 
-                // Rakennetaan rivin HTML
                 const tr = document.createElement('tr');
                 tr.innerHTML = `
                     <td>${year}</td>
@@ -357,7 +335,6 @@
                 tbody.appendChild(tr);
             });
 
-            // Päivitetään taulukon viimeisen rivin "Yhteensä"
             totalGamesCell.textContent = totalGames;
             totalGoalsCell.textContent = totalGoals;
         }
