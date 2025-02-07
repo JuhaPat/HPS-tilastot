@@ -159,7 +159,7 @@
             <a href="joukkueet.html">Joukkueet</a>
             <a href="pelaajat.html">Pelaajat</a>
             <a href="vastustajat.html" class="active">Vastustajat</a>
-            <a href="tietoja.html">Tietoja</a>
+            <a href="tilastot.html">Tilastot</a>
         </div>
     </header>
 
@@ -260,7 +260,9 @@
                                     // Rakennetaan vastustajan perusinfot
                                     const opponentContent = `
                                         <div class="opponent-logo">
+                                            <a href="index.html">
                                             <img src="${opponentLogo}" alt="${opponentShortName}" class="team-logo">
+                                            </a>
                                         </div>
                                         <h1 class="opponent-header">${opponentShortName}</h1>
                                         <p class="opponent-details" style="font-size: 1.5rem;">${opponentFullName}</p>
