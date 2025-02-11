@@ -126,9 +126,10 @@
             text-decoration: underline;
         }
         /* Responsiiviset säädöt mobiililaitteille */
-        @media screen and (max-width: 1200px) {
+        @media screen and (max-width: 768px) {
             .sijoitus-table {
                 width: 95%;
+                font-size: 0.8rem;
             }
             .menu-button {
                 right: 5%;
@@ -175,7 +176,7 @@
             <thead>
                 <tr style="background-color: white;">
                     <th></th>
-                    <!-- Oletuksena miehet-version sarjatasot; tätä päivitetään JavaScriptillä, jos joukkue=naiset -->
+                    <!-- Oletuksena miehet-version sarjatasot; päivitetään jos joukkue=naiset -->
                     <th class="history-cell">
                         <span>Veikkausliiga 1992-</span>
                         <span>Futisliiga 1990-91</span>
