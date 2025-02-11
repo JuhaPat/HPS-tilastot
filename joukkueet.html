@@ -94,12 +94,6 @@
       cursor: pointer;
       margin: 0 10px;
     }
-    /* Otsikko "Joukkue XXXX" */
-    #team-heading {
-      text-align: center;
-      margin-bottom: 20px;
-      font-size: 2rem;
-    }
     /* Pelaajatiedot-taulukko */
     table.player-table {
       width: 60%;
@@ -169,8 +163,6 @@
       <span id="current-year">2024</span>
       <button id="next-year" class="arrow-button">&gt;</button>
     </div>
-    <!-- Otsikko "Joukkue XXXX" -->
-    <h2 id="team-heading"></h2>
     <!-- Joukkuekuva sijoitetaan nyt ennen pelaajatiedot-taulukkoa -->
     <div id="team-image">
       <img id="team-photo" src="" alt="Joukkuekuva">
@@ -233,10 +225,6 @@
     // Näytetään vuosi nuolinavigaation kohdalla
     const currentYearElem = document.getElementById('current-year');
     currentYearElem.textContent = vuosiParam;
-
-    // Aseta otsikko "Joukkue XXXX"
-    const teamHeadingElem = document.getElementById('team-heading');
-    teamHeadingElem.textContent = "Joukkue " + vuosiParam;
 
     // Nuolinavigaatio vuosille (esimerkkinä vuodet 1917–2024)
     const years = [];
