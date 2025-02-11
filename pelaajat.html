@@ -7,32 +7,32 @@
     <link rel="stylesheet" href="style.css">
 
     <style>
-        /* Madalletaan taulukon rivikorkeus ja pienennetään kuvakokoa */
+        /* Taulukon rivikorkeus ja solujen padding pienennetty */
         .player-table tbody tr {
-            line-height: 1.0em; /* pienempi rivikorkeus */
+            line-height: 1.0em;
         }
         .player-table td, .player-table th {
-            padding: 2px 4px; /* vähennetään paddingia */
+            padding: 2px 4px;
         }
         .player-photo {
-            width: 35px;  
-            height: 35px; 
-            border-radius: 50%;   /* Pyöreä muoto */
-            object-fit: cover;    /* Kuva rajataan täyttämään annettu koko */
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            object-fit: cover;
         }
-       /* Pienennetty HPS-logo */
+        /* Pienennetty HPS-logo */
         .header img {
             width: 100px;
             height: auto;
         }
-        /* Asetetaan valitsimet allekkain ja keskitetään */
+        /* Valitsimet allekkain ja keskitetty */
         .valintalista-container {
-            margin: 10px 0 20px 0; /* ylä- ja ala-margin */
+            margin: 10px 0 20px 0;
             display: flex;
-            flex-direction: column;    /* allekkain */
-            align-items: center;       /* keskelle sivusuunnassa */
+            flex-direction: column;
+            align-items: center;
             justify-content: center;
-            gap: 10px;                 /* pientä väliä valitsimien välille */
+            gap: 10px;
         }
         .valintalista-container label {
             font-weight: bold;
@@ -41,7 +41,6 @@
         .valintalista-container select {
             margin-right: 10px;
         }
-
         /* Vihreä valikkonappi oikeassa yläkulmassa */
         .menu-button {
             position: absolute;
@@ -91,6 +90,10 @@
             background-color: rgb(0, 100, 40);
             color: white;
         }
+        /* Klikattavat otsikot */
+        th.sortable {
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
@@ -122,22 +125,8 @@
         </div>
         <h1>Pelaajat</h1>
 
-        <!-- Yhteinen kontti valitsimille: ne tulevat allekkain ja keskitettyinä -->
+        <!-- Säilytetään vain Valitse pelityyppi -valikko -->
         <div class="valintalista-container">
-            <!-- 1) Järjestysvalinta (oletus: Pelimäärän mukaan) -->
-            <div>
-                <label for="sort-options">Valitse järjestys:</label>
-                <select id="sort-options">
-                    <option value="most-games" selected>Pelimäärän mukaan suurimmasta alkaen</option>
-                    <option value="most-goals">Maalimäärän mukaan suurimmasta alkaen</option>
-                    <option value="most-seasons">Kausien määrän mukaan suurimmasta alkaen</option>
-                    <option value="first-season">Ensimmäisen kauden mukaan pienimmästä alkaen</option>
-                    <option value="last-season">Viimeisen kauden mukaan suurimmasta alkaen</option>
-                    <option value="alphabetical">Aakkosjärjestys</option>
-                </select>
-            </div>
-
-            <!-- 2) Pelityyppi (oletus: Kilpailulliset) -->
             <div>
                 <label for="pelityyppi">Valitse pelityyppi:</label>
                 <select id="pelityyppi">
@@ -152,15 +141,16 @@
             <thead>
                 <tr>
                     <th>Kuva</th>
-                    <th>Sukunimi</th>
+                    <!-- Klikattavien sarakkeiden data-sort määrittelee lajitteluperusteen -->
+                    <th data-sort="alphabetical" class="sortable">Sukunimi</th>
                     <th>Etunimi</th>
                     <th>Pelipaikka</th>
                     <th>Muu rooli</th>
-                    <th>Pelit</th>
-                    <th>Maalit</th>
-                    <th>Kausien määrä</th>
-                    <th>Ensimmäinen kausi</th>
-                    <th>Viimeinen kausi</th>
+                    <th data-sort="most-games" class="sortable">Pelit</th>
+                    <th data-sort="most-goals" class="sortable">Maalit</th>
+                    <th data-sort="most-seasons" class="sortable">Kausien määrä</th>
+                    <th data-sort="first-season" class="sortable">Ensimmäinen kausi</th>
+                    <th data-sort="last-season" class="sortable">Viimeisin kausi</th>
                 </tr>
             </thead>
             <tbody>
@@ -188,7 +178,7 @@
             });
         });
 
-        // Haetaan data param joukkueen mukaan
+        // Haetaan data joukkue-parametrin mukaan
         const urlParams2 = new URLSearchParams(window.location.search);
         const joukkueParam2 = (urlParams2.get('joukkue') === 'naiset') ? 'data naiset' : 'data miehet';
 
@@ -196,10 +186,9 @@
             .then(response => response.json())
             .then(data => {
                 const tableBody = document.getElementById('players-table').querySelector('tbody');
-                const sortOptions = document.getElementById('sort-options');
                 const pelityyppiSelect = document.getElementById('pelityyppi');
 
-                // Käsitellään tiedot yhteen "playerTotals"-objektiin
+                // Käsitellään data yhteen "playerTotals"-objektiin
                 const playerTotals = {};
 
                 data.forEach(record => {
@@ -270,11 +259,22 @@
 
                 const players = Object.values(playerTotals);
 
-                function renderTable(sortedPlayers) {
-                    tableBody.innerHTML = '';
+                // Nykyiset lajitteluperuste ja -suunta
+                let currentSortCriteria = 'most-games';
+                let currentSortDirection = 'desc';
 
+                function defaultDirection(criteria) {
+                    if (criteria === 'alphabetical' || criteria === 'first-season') {
+                        return 'asc';
+                    } else {
+                        return 'desc';
+                    }
+                }
+
+                function renderTable(sortedPlayers) {
+                    // Käytetään dokumenttifragmenttia, jotta päivitys tapahtuu kerralla
+                    const fragment = document.createDocumentFragment();
                     const currentPelityyppi = pelityyppiSelect.value;
-                    // Luetaan \"joukkue\"-param, jotta liitetään se pelaajakorttilinkkeihin
                     const joukkueParam = (urlParams2.get('joukkue') || 'miehet');
 
                     sortedPlayers.forEach(player => {
@@ -288,12 +288,10 @@
                             pelitCount = player.sk_pelit;
                             maalitCount = player.sk_maalit;
                         } else {
-                            // 'sarja'
                             pelitCount = player.s_pelit;
                             maalitCount = player.s_maalit;
                         }
 
-                        // Luodaan polku pelaajan kuvalle: "Etunimi Sukunimi.jpg"
                         const playerImageSrc = `pelaajakuvat/${player.etunimi} ${player.sukunimi}.jpg`;
 
                         const tr = document.createElement('tr');
@@ -324,39 +322,88 @@
                             <td>${player.ensimmäinenKausi === Infinity ? '-' : player.ensimmäinenKausi}</td>
                             <td>${player.viimeinenKausi === -Infinity ? '-' : player.viimeinenKausi}</td>
                         `;
-                        tableBody.appendChild(tr);
+                        fragment.appendChild(tr);
                     });
+                    // Päivitetään taulukon sisältö kerralla
+                    tableBody.innerHTML = '';
+                    tableBody.appendChild(fragment);
                 }
 
-                function sortPlayers(criteria) {
+                function sortPlayers(criteria, direction) {
                     let sortedPlayers = [...players];
-
+                    const currentPelityyppi = pelityyppiSelect.value;
+                    
                     if (criteria === 'most-games') {
-                        sortedPlayers.sort((a, b) => b.kaikki_pelit - a.kaikki_pelit);
+                        const getGames = (player) => {
+                            if (currentPelityyppi === 'kaikki') return player.kaikki_pelit;
+                            else if (currentPelityyppi === 'kilpailulliset') return player.sk_pelit;
+                            else return player.s_pelit;
+                        };
+                        if (direction === 'desc') {
+                            sortedPlayers.sort((a, b) => getGames(b) - getGames(a));
+                        } else {
+                            sortedPlayers.sort((a, b) => getGames(a) - getGames(b));
+                        }
                     } else if (criteria === 'most-goals') {
-                        sortedPlayers.sort((a, b) => b.kaikki_maalit - a.kaikki_maalit);
+                        const getGoals = (player) => {
+                            if (currentPelityyppi === 'kaikki') return player.kaikki_maalit;
+                            else if (currentPelityyppi === 'kilpailulliset') return player.sk_maalit;
+                            else return player.s_maalit;
+                        };
+                        if (direction === 'desc') {
+                            sortedPlayers.sort((a, b) => getGoals(b) - getGoals(a));
+                        } else {
+                            sortedPlayers.sort((a, b) => getGoals(a) - getGoals(b));
+                        }
                     } else if (criteria === 'most-seasons') {
-                        sortedPlayers.sort((a, b) => b.kaudet - a.kaudet);
+                        if (direction === 'desc') {
+                            sortedPlayers.sort((a, b) => b.kaudet - a.kaudet);
+                        } else {
+                            sortedPlayers.sort((a, b) => a.kaudet - b.kaudet);
+                        }
                     } else if (criteria === 'first-season') {
-                        sortedPlayers.sort((a, b) => a.ensimmäinenKausi - b.ensimmäinenKausi);
+                        if (direction === 'asc') {
+                            sortedPlayers.sort((a, b) => a.ensimmäinenKausi - b.ensimmäinenKausi);
+                        } else {
+                            sortedPlayers.sort((a, b) => b.ensimmäinenKausi - a.ensimmäinenKausi);
+                        }
                     } else if (criteria === 'last-season') {
-                        sortedPlayers.sort((a, b) => b.viimeinenKausi - a.viimeinenKausi);
-                    } else {
-                        // 'alphabetical'
-                        sortedPlayers.sort((a, b) => a.sukunimi.localeCompare(b.sukunimi));
+                        if (direction === 'desc') {
+                            sortedPlayers.sort((a, b) => b.viimeinenKausi - a.viimeinenKausi);
+                        } else {
+                            sortedPlayers.sort((a, b) => a.viimeinenKausi - b.viimeinenKausi);
+                        }
+                    } else if (criteria === 'alphabetical') {
+                        if (direction === 'asc') {
+                            sortedPlayers.sort((a, b) => a.sukunimi.localeCompare(b.sukunimi));
+                        } else {
+                            sortedPlayers.sort((a, b) => b.sukunimi.localeCompare(a.sukunimi));
+                        }
                     }
                     renderTable(sortedPlayers);
                 }
 
-                // Alussa: \"most-games\" & \"kilpailulliset\"
-                sortPlayers('most-games');
+                // Alustetaan taulukko oletusarvoilla
+                sortPlayers(currentSortCriteria, currentSortDirection);
 
-                sortOptions.addEventListener('change', () => {
-                    sortPlayers(sortOptions.value);
+                // Kun pelityyppi muuttuu, päivitetään lajittelu nykyisen sarakkeen mukaisesti
+                pelityyppiSelect.addEventListener('change', () => {
+                    sortPlayers(currentSortCriteria, currentSortDirection);
                 });
 
-                pelityyppiSelect.addEventListener('change', () => {
-                    sortPlayers(sortOptions.value);
+                // Lisätään tapahtumankäsittelijät klikattaville otsikoille
+                const sortableHeaders = document.querySelectorAll('th.sortable');
+                sortableHeaders.forEach(header => {
+                    header.addEventListener('click', () => {
+                        const criteria = header.getAttribute('data-sort');
+                        if (currentSortCriteria === criteria) {
+                            currentSortDirection = (currentSortDirection === 'desc') ? 'asc' : 'desc';
+                        } else {
+                            currentSortCriteria = criteria;
+                            currentSortDirection = defaultDirection(criteria);
+                        }
+                        sortPlayers(currentSortCriteria, currentSortDirection);
+                    });
                 });
             })
             .catch(error => console.error('Virhe ladattaessa dataa:', error));
