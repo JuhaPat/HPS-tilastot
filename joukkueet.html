@@ -105,13 +105,20 @@
       padding: 8px;
       text-align: left;
     }
-    /* Pelaajien nimien lihavointi ja linkittäminen */
+    /* Ensimmäinen sarake (Kuva) – kiinteä leveys */
+    table.player-table th:first-child,
+    table.player-table td:first-child {
+      width: 35px;
+      text-align: center;
+      padding: 0;
+    }
+    /* Linkitetyt nimet */
     table.player-table a {
       text-decoration: none;
       color: inherit;
       font-weight: bold;
     }
-    /* Joukkuekuvan alue, asetettu 80% leveäksi */
+    /* Joukkuekuvan alue */
     #team-image {
       width: 60%;
       margin: 20px auto;
@@ -121,9 +128,38 @@
       width: 100%;
       height: auto;
     }
+    /* Pelaajakuvat: pyöreät, kokoa 35×35px, object-fit: cover */
+    table.player-table td:first-child .player-image {
+      border-radius: 50%;
+      width: 35px;
+      height: 35px;
+      object-fit: cover;
+      display: block;
+      margin: 0 auto;
+    }
+    /* Valikko pelityypin valintaa varten */
+    .valintalista-container {
+      margin: 10px 0 20px 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+    .valintalista-container label {
+      font-weight: bold;
+      margin-right: 6px;
+    }
+    .valintalista-container select {
+      margin-right: 10px;
+    }
+    /* Klikattavat otsikot */
+    th.sortable {
+      cursor: pointer;
+    }
   </style>
   <script>
-    // Palautetaan JSON-tiedostojen kansio URL-parametrin "joukkue" perusteella
+    // Palauttaa JSON-tiedostojen kansion URL-parametrin "joukkue" perusteella
     function getTeamDataFolder() {
       const urlParams = new URLSearchParams(window.location.search);
       const teamParam = urlParams.get('joukkue');
@@ -133,7 +169,7 @@
 </head>
 <body>
   <header>
-    <!-- Valikkonappi näkyy oikeassa yläkulmassa -->
+    <!-- Valikkonappi -->
     <button class="menu-button" onclick="toggleMenu()">
       <div></div>
       <div></div>
@@ -151,11 +187,10 @@
   </header>
 
   <main>
-      <!-- HPS-logo lisätään nyt keskelle sivun yläosaa ennen joukkue-otsikkoa -->
-  <div style="text-align: center; margin-bottom: 20px;">
-    <a href="index.html"><img src="logot/HPS.jpg" alt="HPS Logo" style="width: 100px; height: auto;"></a>
-  </div>
-    <!-- Näytetään joukkue-parametrin perusteella "Miehet" tai "Naiset" -->
+    <div style="text-align: center; margin-bottom: 20px;">
+      <a href="index.html"><img src="logot/HPS.jpg" alt="HPS Logo" style="width: 100px; height: auto;"></a>
+    </div>
+    <!-- Näytetään joukkue-parametrin perusteella Miehet tai Naiset -->
     <h1 id="team-type"></h1>
     <!-- Vuosi ja nuolinavigaatio -->
     <div class="year-selector">
@@ -163,20 +198,32 @@
       <span id="current-year">2024</span>
       <button id="next-year" class="arrow-button">&gt;</button>
     </div>
-    <!-- Joukkuekuva sijoitetaan nyt ennen pelaajatiedot-taulukkoa -->
+    <!-- Joukkuekuva -->
     <div id="team-image">
       <img id="team-photo" src="" alt="Joukkuekuva">
+    </div>
+    <!-- Valitse pelityyppi -valikko; sama logiikka kuin pelaajat.html:ssä -->
+    <div class="valintalista-container">
+      <div>
+        <label for="pelityyppi">Valitse pelityyppi:</label>
+        <select id="pelityyppi">
+          <option value="kaikki">Kaikki pelit</option>
+          <option value="kilpailulliset" selected>Kilpailulliset pelit</option>
+          <option value="sarja">Sarjapelit</option>
+        </select>
+      </div>
     </div>
     <!-- Pelaajatiedot-taulukko -->
     <table id="players-table" class="player-table">
       <thead>
         <tr>
-          <th>Sukunimi</th>
-          <th>Etunimi</th>
+          <th>Kuva</th>
+          <th data-sort="sukunimi" class="sortable">Sukunimi</th>
+          <th data-sort="etunimi" class="sortable">Etunimi</th>
           <th>Pelipaikka</th>
           <th>Muut roolit</th>
-          <th>Pelit</th>
-          <th>Maalit</th>
+          <th data-sort="pelit" class="sortable">Pelit</th>
+          <th data-sort="maalit" class="sortable">Maalit</th>
         </tr>
       </thead>
       <tbody>
@@ -186,12 +233,13 @@
   </main>
 
   <script>
+    // Näytä/piilota valikkopaneeli
     function toggleMenu() {
       const menu = document.getElementById('menu');
       menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
     }
 
-    // Funktio, joka lisää URL-parametrit "joukkue" ja "vuosi" kaikkiin sisäisiin linkkeihin
+    // Lisää URL-parametrit kaikkiin sisäisiin linkkeihin
     function appendParamsToLinks() {
       const urlParams = new URLSearchParams(window.location.search);
       const joukkue = urlParams.get('joukkue');
@@ -212,28 +260,24 @@
     }
     document.addEventListener("DOMContentLoaded", appendParamsToLinks);
 
-    // Oletusparametrit: jos vuosi-parametriä ei anneta, käytetään 2024.
+    // Aseta joukkue- ja vuosi-parametrit
     const urlParams = new URLSearchParams(window.location.search);
     const teamParam = urlParams.get('joukkue');
     const vuosiParam = urlParams.get('vuosi') || "2024";
     const dataFolder = getTeamDataFolder();
 
-    // Näytetään joukkue-otsikko (Miehet/Naiset) isolla vihreällä fontilla
+    // Näytä joukkueen nimi
     const teamTypeElem = document.getElementById('team-type');
     teamTypeElem.textContent = teamParam === 'naiset' ? "Naiset" : "Miehet";
 
-    // Näytetään vuosi nuolinavigaation kohdalla
+    // Vuoden asetus nuolinavigaation avulla
     const currentYearElem = document.getElementById('current-year');
     currentYearElem.textContent = vuosiParam;
-
-    // Nuolinavigaatio vuosille (esimerkkinä vuodet 1917–2024)
-    const years = [];
-    for (let y = 1917; y <= 2024; y++) {
-      years.push(y.toString());
-    }
     const prevYearButton = document.getElementById('prev-year');
     const nextYearButton = document.getElementById('next-year');
     prevYearButton.addEventListener('click', () => {
+      const years = [];
+      for (let y = 1917; y <= 2024; y++) { years.push(y.toString()); }
       const index = years.indexOf(vuosiParam);
       if (index > 0) {
         const newYear = years[index - 1];
@@ -241,6 +285,8 @@
       }
     });
     nextYearButton.addEventListener('click', () => {
+      const years = [];
+      for (let y = 1917; y <= 2024; y++) { years.push(y.toString()); }
       const index = years.indexOf(vuosiParam);
       if (index < years.length - 1) {
         const newYear = years[index + 1];
@@ -248,30 +294,124 @@
       }
     });
 
-    // Hae pelaajatiedot ja täytä pelaajat-taulukko.
-    // Käytetään kenttiä "Kaikki pelit" ja "Kaikki maalit" sarakkeissa "Pelit" ja "Maalit".
+    // Globaalit muuttujat taulukon tietojen hallintaan
+    const pelityyppiSelect = document.getElementById('pelityyppi');
+    let currentPlayers = [];
+    // Oletusjärjestys: "Pelit" –sarakkeessa (laskettuna laskevasti)
+    let currentSortCriteria = "pelit";
+    let currentSortDirection = "desc";
+
+    // Renderöidään taulukko; pelityypin mukaan näytetään oikeat pelien ja maalien määrät
+    function renderTable(players) {
+      const tableBody = document.querySelector("#players-table tbody");
+      tableBody.innerHTML = players.map(player => {
+        let pelitCount, maalitCount;
+        if (pelityyppiSelect.value === "kaikki") {
+          pelitCount = player["Kaikki pelit"] || 0;
+          maalitCount = player["Kaikki maalit"] || 0;
+        } else if (pelityyppiSelect.value === "kilpailulliset") {
+          pelitCount = player["S+K pelit"] || 0;
+          maalitCount = player["S+K maalit"] || 0;
+        } else {
+          pelitCount = player["S pelit"] || 0;
+          maalitCount = player["S maalit"] || 0;
+        }
+        const surnameLink = `<a href="pelaajakortti.html?sukunimi=${encodeURIComponent(player["Sukunimi"])}&etunimi=${encodeURIComponent(player["Etunimi"])}&joukkue=${encodeURIComponent(teamParam)}&vuosi=${encodeURIComponent(vuosiParam)}"><strong>${player["Sukunimi"] || ""}</strong></a>`;
+        const firstnameLink = `<a href="pelaajakortti.html?sukunimi=${encodeURIComponent(player["Sukunimi"])}&etunimi=${encodeURIComponent(player["Etunimi"])}&joukkue=${encodeURIComponent(teamParam)}&vuosi=${encodeURIComponent(vuosiParam)}"><strong>${player["Etunimi"] || ""}</strong></a>`;
+        const playerImage = `<img src="pelaajakuvat/${player["Etunimi"]} ${player["Sukunimi"]}.jpg" alt="Pelaajan kuva" onerror="this.onerror=null;this.src='pelaajakuvat/pelaajakuva.jpg';" class="player-image">`;
+        return `
+          <tr>
+            <td>${playerImage}</td>
+            <td>${surnameLink}</td>
+            <td>${firstnameLink}</td>
+            <td>${player["Pelipaikka"] || ""}</td>
+            <td>${player["Muut roolit"] || ""}</td>
+            <td>${pelitCount}</td>
+            <td>${maalitCount}</td>
+          </tr>
+        `;
+      }).join('');
+    }
+
+    // Funktio pelaajien vertaamiseen; käsitellään sukunimi, etunimi sekä pelit/maalit käyttäen pelityyppiä
+    function comparePlayers(a, b, key, order) {
+      let valA, valB;
+      const currentPelityyppi = pelityyppiSelect.value;
+      if (key === "sukunimi") {
+        valA = (a["Sukunimi"] || "").toString().toLowerCase();
+        valB = (b["Sukunimi"] || "").toString().toLowerCase();
+      } else if (key === "etunimi") {
+        valA = (a["Etunimi"] || "").toString().toLowerCase();
+        valB = (b["Etunimi"] || "").toString().toLowerCase();
+      } else if (key === "pelit") {
+        if (currentPelityyppi === "kaikki") {
+          valA = Number(a["Kaikki pelit"] || 0);
+          valB = Number(b["Kaikki pelit"] || 0);
+        } else if (currentPelityyppi === "kilpailulliset") {
+          valA = Number(a["S+K pelit"] || 0);
+          valB = Number(b["S+K pelit"] || 0);
+        } else {
+          valA = Number(a["S pelit"] || 0);
+          valB = Number(b["S pelit"] || 0);
+        }
+      } else if (key === "maalit") {
+        if (currentPelityyppi === "kaikki") {
+          valA = Number(a["Kaikki maalit"] || 0);
+          valB = Number(b["Kaikki maalit"] || 0);
+        } else if (currentPelityyppi === "kilpailulliset") {
+          valA = Number(a["S+K maalit"] || 0);
+          valB = Number(b["S+K maalit"] || 0);
+        } else {
+          valA = Number(a["S maalit"] || 0);
+          valB = Number(b["S maalit"] || 0);
+        }
+      } else {
+        return 0;
+      }
+      if(valA < valB) return order === "asc" ? -1 : 1;
+      if(valA > valB) return order === "asc" ? 1 : -1;
+      return 0;
+    }
+
+    // Oletusjärjestyksen suuntatoiminto: sukunimi ja etunimi nousevasti, muut laskevasti
+    function defaultDirection(criteria) {
+      if (criteria === 'sukunimi' || criteria === 'etunimi') {
+        return 'asc';
+      } else {
+        return 'desc';
+      }
+    }
+
+    // Lisätään klikkaustapahtumat vain niihin otsikoihin, jotka ovat järjestettäviä
+    document.querySelectorAll("#players-table thead th.sortable").forEach((th) => {
+      th.style.cursor = "pointer";
+      th.addEventListener("click", () => {
+        const criteria = th.getAttribute("data-sort");
+        if (currentSortCriteria === criteria) {
+          currentSortDirection = currentSortDirection === "asc" ? "desc" : "asc";
+        } else {
+          currentSortCriteria = criteria;
+          currentSortDirection = defaultDirection(criteria);
+        }
+        currentPlayers.sort((a, b) => comparePlayers(a, b, criteria, currentSortDirection));
+        renderTable(currentPlayers);
+      });
+    });
+
+    // Kun pelityyppi muuttuu, lajitellaan uudelleen nykyisen järjestyksen mukaisesti
+    pelityyppiSelect.addEventListener('change', () => {
+      currentPlayers.sort((a, b) => comparePlayers(a, b, currentSortCriteria, currentSortDirection));
+      renderTable(currentPlayers);
+    });
+
+    // Haetaan pelaajatiedot ja suodatetaan kauden mukaan.
     fetch(`${dataFolder}/pelaajat.json`)
       .then(response => response.json())
       .then(playersData => {
-        const tableBody = document.querySelector("#players-table tbody");
-        const filteredPlayers = playersData.filter(player => player.Kausi === vuosiParam);
-        tableBody.innerHTML = filteredPlayers.map(player => {
-          // Pelaajakortti-linkit: sukunimi ja etunimi lihavoituina
-          const surnameLink = `<a href="pelaajakortti.html?sukunimi=${encodeURIComponent(player["Sukunimi"])}&etunimi=${encodeURIComponent(player["Etunimi"])}&joukkue=${encodeURIComponent(teamParam)}&vuosi=${encodeURIComponent(vuosiParam)}">
-                                <strong>${player["Sukunimi"] || ""}</strong></a>`;
-          const firstnameLink = `<a href="pelaajakortti.html?sukunimi=${encodeURIComponent(player["Sukunimi"])}&etunimi=${encodeURIComponent(player["Etunimi"])}&joukkue=${encodeURIComponent(teamParam)}&vuosi=${encodeURIComponent(vuosiParam)}">
-                                <strong>${player["Etunimi"] || ""}</strong></a>`;
-          return `
-            <tr>
-              <td>${surnameLink}</td>
-              <td>${firstnameLink}</td>
-              <td>${player["Pelipaikka"] || ""}</td>
-              <td>${player["Muut roolit"] || ""}</td>
-              <td>${player["Kaikki pelit"] || 0}</td>
-              <td>${player["Kaikki maalit"] || 0}</td>
-            </tr>
-          `;
-        }).join('');
+        currentPlayers = playersData.filter(player => player.Kausi === vuosiParam);
+        // Oletusarvona lajitellaan "Pelit"-sarakkeen mukaan (suurimmasta pienimpään)
+        currentPlayers.sort((a, b) => comparePlayers(a, b, "pelit", "desc"));
+        renderTable(currentPlayers);
       })
       .catch(error => console.error('Virhe ladattaessa pelaajatietoja:', error));
 
