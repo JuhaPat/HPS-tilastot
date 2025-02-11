@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HPS Tilastot</title>
     <link rel="stylesheet" href="style.css">
-
     <style>
         /* Sivun keskittäminen */
         body {
@@ -49,7 +48,6 @@
             margin-top: 20px;
             font-weight: bold;
         }
-
         /* Hover-efekti */
         .icon-card img:hover {
             opacity: 0.8;
@@ -61,23 +59,40 @@
             margin: 50px auto 0;
             text-align: left;
         }
-    </style>
 
+        /* Responsiiviset säädöt mobiililaitteille */
+        @media screen and (max-width: 600px) {
+            .player-icons, .info-column {
+                width: 95%;
+                margin: 20px auto;
+            }
+            .player-icons {
+                flex-direction: column;
+                gap: 20px;
+            }
+            .icon-card img {
+                width: 90%;
+                height: auto;
+            }
+            .header-logo img {
+                width: 150px;
+            }
+        }
+    </style>
     <script>
         // Ohjaa käyttäjän sijoitukset.html-sivulle valitun joukkueen perusteella
         function avaaSijoitukset(joukkue) {
             window.location.href = `sijoitukset.html?joukkue=${joukkue}`;
         }
     </script>
-
 </head>
 <body>
-
     <!-- Keskitetty logo -->
     <div class="header-logo">
-        <img src="HPS-logo.jpg" alt="HPS Logo">
+        <a href="index.html">
+            <img src="HPS-logo.jpg" alt="HPS Logo">
+        </a>
     </div>
-
     <main>
         <h1>Helsingin Palloseura - jalkapallotilastot</h1>
         <p>Tämä sivusto on tarkoitettu kaikille Helsingin Palloseurasta ja suomalaisesta jalkapallohistoriasta kiinnostuneille.</p>
@@ -121,6 +136,5 @@
             <p>HPS tilastonikkarit</p>
         </div>
     </main>
-
 </body>
 </html>
