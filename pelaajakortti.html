@@ -148,8 +148,6 @@
             >
             <div class="player-details">
                 <h1 id="player-name"></h1>
-                <p id="player-birth">s. -</p>
-                <p id="player-death">k. -</p>
                 <p id="player-positions"><strong>Pelipaikat:</strong> -</p>
                 <p id="player-roles"><strong>Muut roolit:</strong> -</p>
             </div>
@@ -338,6 +336,30 @@
             totalGamesCell.textContent = totalGames;
             totalGoalsCell.textContent = totalGoals;
         }
+
+        // Lisätään funktio, joka varmistaa, että kaikki sisäiset linkit saavat URL-parametrin "joukkue"
+        function appendJoukkueParamToLinks() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const joukkue = urlParams.get("joukkue");
+            if (!joukkue) return;
+            const links = document.querySelectorAll("a[href]");
+            links.forEach(link => {
+                let href = link.getAttribute("href");
+                // Päivitetään vain sisäiset linkit (ei ulkoisia tai mailto-linkkejä)
+                if (href && !href.match(/^https?:\/\//) && !href.startsWith("mailto:")) {
+                    if (href.indexOf("?") === -1) {
+                        href += `?joukkue=${encodeURIComponent(joukkue)}`;
+                    } else {
+                        let url = new URL(href, window.location.origin);
+                        url.searchParams.set("joukkue", joukkue);
+                        href = url.pathname + url.search;
+                    }
+                    link.setAttribute("href", href);
+                }
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", appendJoukkueParamToLinks);
     </script>
 </body>
 </html>
