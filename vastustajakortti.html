@@ -5,136 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Vastustajakortti</title>
   <link rel="stylesheet" href="style.css">
-  <style>
-    /* Header-osion tyylit (HPS-logoa ei näytetä) */
-    header {
-      text-align: center;
-      margin-bottom: 20px;
-      position: relative;
-    }
-    /* Valikkonappi sijoitetaan nyt fixed-tyylillä oikeaan yläkulmaan */
-    .menu-button {
-      position: fixed;
-      top: 10px;
-      right: 10px;
-      width: 40px;
-      height: 40px;
-      background-color: rgb(0, 100, 40);
-      border: none;
-      border-radius: 5px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      cursor: pointer;
-      z-index: 1000;
-    }
-    .menu-button div {
-      width: 25px;
-      height: 3px;
-      background-color: white;
-      margin: 3px 0;
-    }
-    .menu {
-      position: fixed;
-      top: 55px;
-      right: 10px;
-      width: 200px;
-      background-color: white;
-      border: 2px solid rgb(0, 100, 40);
-      border-radius: 5px;
-      box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
-      padding: 5px;
-      z-index: 1000;
-      display: none;
-    }
-    .menu a {
-      display: block;
-      color: rgb(0, 100, 40);
-      text-decoration: none;
-      font-weight: bold;
-      border: 1px solid rgb(0, 100, 40);
-      border-radius: 3px;
-      margin: 2px 0;
-      padding: 4px 8px;
-      text-align: center;
-    }
-    .menu a:hover {
-      background-color: rgb(0, 100, 40);
-      color: white;
-    }
-    /* Loput alkuperäiset tyylit pysyvät ennallaan */
-    .extra-table {
-      margin-top: 20px;
-    }
-    .match-table a {
-      color: black;
-      font-weight: bold;
-      text-decoration: none;
-    }
-    .cup-bracket {
-      display: flex;
-      justify-content: space-evenly; 
-      align-items: flex-start;       
-      margin-top: 20px;
-    }
-    .bracket-round {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;  
-      margin: 0 10px;
-    }
-    #round-vali, 
-    #round-loppu {
-      justify-content: center;
-      align-items: center; 
-    }
-    .match-pair {
-      text-align: center;
-      margin-bottom: 5px; 
-    }
-    .round-content .match-pair:nth-child(2n) {
-      margin-bottom: 30px; 
-    }
-    .match-pair .team {
-      margin: 2px 0;
-      background-color: #f1f1f1;
-      padding: 4px 10px;
-      border-radius: 3px;
-      font-weight: normal;
-      width: 160px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    .match-pair .team img {
-      width: 25px;
-      height: 25px;
-      margin-right: 5px;
-    }
-    .team .score {
-      font-size: 1.1rem;
-      font-weight: bold;
-      margin-left: 0.3em;
-    }
-    .additional-info {
-      font-size: 0.75rem; 
-      color: #666;
-      margin-top: 3px;   
-      line-height: 1.2;  
-    }
-    #cup-bracket {
-      display: none;
-    }
-    .pelivalitsin-container {
-      margin-top: 10px;
-      margin-bottom: 20px;
-    }
-    .pelivalitsin-label {
-      font-weight: bold;
-      margin-right: 10px;
-    }
-  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
   <script>
     // Palautetaan JSON-tiedostojen kansio URL-parametrin "joukkue" perusteella
     function getTeamDataFolder() {
@@ -145,24 +16,29 @@
   </script>
 </head>
 <body>
-    <!-- Header: Valikkonappi näkyy oikeassa yläkulmassa -->
-    <header>
-        <button class="menu-button" onclick="toggleMenu()">
-            <div></div>
-            <div></div>
-            <div></div>
-        </button>
-        <div class="menu" id="menu">
-            <a href="index.html">Etusivu</a>
-            <a href="sijoitukset.html">Sijoitukset</a>
-            <a href="kaudet.html">Kaudet</a>
-            <a href="joukkueet.html">Joukkueet</a>
-            <a href="pelaajat.html">Pelaajat</a>
-            <a href="vastustajat.html" class="active">Vastustajat</a>
-            <a href="tilastot.html">Tilastot</a>
-        </div>
-    </header>
-
+  <header class="header">
+    <div class="header-logo">
+        <a href="index.html">
+            <img src="logot/HPS.jpg" alt="HPS Logo">
+        </a>
+    </div>
+    <h1 class="page-title" id="team-title"></h1>
+    <h1 id="team-subtitle"></h1>
+    <button class="menu-button" onclick="toggleMenu()">
+      <div></div>
+      <div></div>
+      <div></div>
+    </button>
+    <div class="menu" id="menu">
+      <a href="index.html">Etusivu</a>
+      <a href="sijoitukset.html">Sijoitukset</a>
+      <a href="kaudet.html">Kaudet</a>
+      <a href="joukkueet.html" class="active">Joukkueet</a>
+      <a href="pelaajat.html">Pelaajat</a>
+      <a href="vastustajat.html">Vastustajat</a>
+      <a href="tilastot.html">Tilastot</a>
+    </div>
+  </header>
     <main>
         <div id="opponent-content">
             <!-- Vastustajan tiedot haetaan ja asetetaan JavaScriptillä -->

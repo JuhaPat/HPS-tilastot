@@ -1,321 +1,291 @@
-/* Yleiset tyylit */
-body {
+/* style.css - Yleiskäyttöinen tyylitiedosto kaikille projektin HTML-sivuille */
+
+/* Reset kaikille elementeille */
+* {
     margin: 0;
     padding: 0;
-    display: flex;
-    font-family: Arial, sans-serif;
-    color: #333;
-    background-color: white;
+    box-sizing: border-box;
 }
 
-/* Vasemman sivupalkin tyyli */
-.sidebar {
-    width: 250px;
-    background-color: rgb(0, 100, 40);
-    color: white;
-    padding: 20px;
-    box-sizing: border-box;
-    height: 100vh;
+/* CSS-muuttujat */
+:root {
+    --primary-color: rgb(0, 100, 40);
+    --secondary-color: rgb(0, 80, 30);
+    --text-color: #333;
+    --background-color: white;
+    --light-bg: #f4f4f4;
+    --table-header-bg: #f2f2f2;
+    --font-family: Lato, sans-serif;
+}
+
+/* HEADER-OSIO - SAMA KAIKILLA SIVUILLA */
+
+.header {
+    width: 60%;
+    max-width: 1800px; /* Voit säätää tarpeen mukaan */
+    margin: 0 auto;
+    position: relative; /* Tärkeää: mahdollistaa sisäisten absoluuttisten elementtien sijoittelun headerin sisällä */
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px 0;
+    background-color: var(--background-color); /* Voit muokata taustaväriä tarpeen mukaan */
 }
 
-.logo {
-    max-width: 150px;
+/* HPS-logo headerissa */
+.header-logo img {
+    width: 100px; /* Säädä kokoa tarpeen mukaan */
     height: auto;
-    margin-bottom: 10px;
+    margin-bottom: 1px;
 }
 
-.logo-text {
+/* Sivun pääotsikko headerissa */
+.page-title {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin: 0;
     text-align: center;
-    margin: 10px 0;
-    font-size: 1.2rem;
-    font-weight: bold;
-    line-height: 1.4;
+}
+
+/* HEADER-OSIO - SAMA KAIKILLA SIVUILLA */
+
+/* VALIKKONAPPI JA SIITÄ AVAUTUVA VALIKKO - SAMA KAIKILLA SIVUILLA */
+.menu-button {
+    position: absolute; /* Absoluuttinen sijainti suhteessa .header -elementtiin */
+    top: 10px;
+    right: 30px;  /* Säädä arvoa tarpeen mukaan */
+    width: 40px;
+    height: 40px;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1000; /* Pysyy muiden päällä */
+}
+
+.menu-button div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 3px 0;
 }
 
 .menu {
-    list-style: none;
-    padding: 0;
-    width: 100%;
-}
-
-.menu li {
-    margin: 10px 0;
+    display: none;
+    position: absolute; /* Sijoitetaan headerin sisälle */
+    top: 55px; /* Napin alapuolelle */
+    right: 10px; /* Säädetty vastaamaan napin sijaintia */
+    width: 200px;
+    background-color: white;
+    border: 2px solid var(--primary-color);
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    z-index: 1000;
 }
 
 .menu a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    text-align: center;
     display: block;
-    padding: 10px 0;
-    border: 1px solid white;
-    border-radius: 5px;
-    transition: 0.3s;
+    color: rgb(0, 100, 40);
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid rgb(0, 100, 40);
+    border-radius: 3px;
+    margin: 2px 0;
+    padding: 4px 8px;
+    text-align: center;
 }
 
 .menu a:hover {
-    background-color: white;
-    color: rgb(0, 100, 40);
-}
-
-/* Oikean puolen sisältö */
-main {
-    flex: 1;
-    padding: 20px;
-    text-align: center;
-}
-
-main h1 {
-    font-size: 1.8rem;
-    color: rgb(0, 100, 40);
-    margin-bottom: 20px;
-}
-
-#sarjataso {
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin: 10px 0;
-    color: rgb(0, 80, 30);
-}
-
-/* Vuoden valitsin */
-.year-selector {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
-.year-selector span {
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin: 0 10px;
-}
-
-.arrow-button {
     background-color: rgb(0, 100, 40);
     color: white;
-    font-size: 1.2rem;
-    border: none;
-    border-radius: 5px;
-    padding: 5px 10px;
-    cursor: pointer;
-    transition: 0.3s;
 }
 
-.arrow-button:hover {
-    background-color: rgb(0, 80, 30);
+/* VALIKKONAPPI JA SIITÄ AVAUTUVA VALIKKO - SAMA KAIKILLA SIVUILLA */
+
+/* YLEISET ASETUKSET - SAMA KAIKILLA SIVUILLA */
+
+body {
+    margin: 0;
+    display: flex;
+    font-family: var(--font-family);
+    color: var(--text-color);
+    background-color: var(--background-color);
+    text-align: center;
+    flex-direction: column;
 }
 
-/* Sarjataulukko */
+/* YLEISET ASETUKSET - SAMA KAIKILLA SIVUILLA */
+
+
+
+/* SARJATAULUKKO */
+
 .league-table {
-    width: 60%;
+    width: 50%;
     margin: 20px auto;
     border-collapse: collapse;
     font-size: 1rem;
-    table-layout: fixed; /* Taulukon sarakkeet kiinteitä */
+    table-layout: fixed;
 }
 
-.league-table th, .league-table td {
+.league-table th,
+.league-table td {
     border: 1px solid #ddd;
-    padding: 3px;
+    padding: 5px;
     text-align: center;
-    vertical-align: middle; /* Keskitetään sisältö pystysuunnassa */
-    height: 30px; /* Kiinteä rivikorkeus */
+    vertical-align: middle;
+    height: 30px;
 }
 
 .league-table th {
-    background-color: #f2f2f2;
-    color: #333;
+    background-color: var(--table-header-bg);
+    color: var(--text-color);
     font-weight: bold;
 }
 
+.league-table th:nth-child(1),
+.league-table td:nth-child(1) {
+    width: 8%;
+    text-align: center;
+}
+
 /* Joukkue-sarake */
-.league-table th:nth-child(2), .league-table td:nth-child(2) {
-    width: 30%; /* Levennetty joukkue-sarake */
+.league-table th:nth-child(2),
+.league-table td:nth-child(2) {
+    width: 30%;
     text-align: left;
-    padding-left: 10px; /* Lisää sisennystä */
-    white-space: nowrap; /* Estää rivinvaihdon */
+    padding-left: 10px;
+    white-space: nowrap;
 }
 
 /* Kommentti-sarake */
-.league-table th:nth-child(10), .league-table td:nth-child(10) {
-    width: 20%; /* Levennetty kommentti-sarake */
+.league-table th:nth-child(10),
+.league-table td:nth-child(10) {
+    width: 20%;
     text-align: left;
     padding-left: 5px;
 }
 
 /* Muut sarakkeet */
-.league-table th:not(:nth-child(2)):not(:nth-child(10)), 
+.league-table th:not(:nth-child(2)):not(:nth-child(10)),
 .league-table td:not(:nth-child(2)):not(:nth-child(10)) {
-    width: 8%; /* Kapeammat muut sarakkeet */
+    width: 8%;
 }
 
-/* Joukkueen logot */
-.team-logo {
-    width: 25px; /* Pienennetty leveys */
-    height: 25px; /* Pienennetty korkeus */
-    margin-right: 5px;
-    object-fit: contain; /* Logon mittasuhteiden säilyttäminen */
-}
-
-/* Korostus HPS-joukkueelle */
+/* HPS-joukkueen korostus */
 .highlight-hps {
-    background-color: rgb(0, 100, 40);
-    color: white;
+    background-color: var(--primary-color);
+    color: var(--background-color);
     font-weight: bold;
 }
 
-/* Responsiivisuus */
-@media (max-width: 768px) {
-    .sidebar {
-        width: 200px;
-    }
+/* SARJATAULUKKO */
 
-    .logo {
-        max-width: 120px;
-    }
+/* OTTELUTAULUKKO */
 
-    .menu a {
-        font-size: 0.9rem;
-        padding: 8px 0;
-    }
-
-    .league-table {
-        width: 90%;
-        font-size: 0.8rem;
-    }
+.match-table {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-size: 1.0rem;
+    background-color: var(--background-color);
+    table-layout: auto;
 }
 
-/* Sarakkeiden leveys */
-th.narrow, td.narrow {
-    min-width: 30px; /* Sijaintisarake */
+.match-table th,
+.match-table td {
+    border: 1px solid #ddd;
+    padding: 5px;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
 }
 
-th.medium, td.medium {
-    min-width: 60px; /* Ottelut, V, T, H, TM, PM, Pisteet */
+.match-table th {
+    background-color: var(--table-header-bg);
+    color: var(--text-color);
+    font-weight: bold;
 }
 
-th.wide, td.wide {
-    min-width: 120px; /* Joukkue ja Kommentti */
+.match-table td {
+    font-size: 1.0rem;
+    color: var(--text-color);
 }
-/* Pelaajataulukko */
+
+.match-table a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.match-table td img {
+    vertical-align: middle;
+}
+
+/* OTTELUTAULUKKO */
+
+/* PELAAJATAULUKKO */
+
 .player-table {
     width: 40%;
     margin: 20px auto;
     border-collapse: collapse;
     font-size: 1rem;
-    table-layout: auto; /* Taulukon sarakkeet automaattisesti säätävä */
+    table-layout: auto;
     border: 1px solid #ddd;
-    background-color: #ffffff; /* Taustaväri */
+    background-color: var(--background-color);
 }
 
-.player-table th, .player-table td {
+.player-table th,
+.player-table td {
     border: 1px solid #ddd;
     padding: 4px;
     text-align: center;
     vertical-align: middle;
-    height: 20px; /* Kiinteä rivikorkeus */
+    height: 20px;
 }
 
 .player-table th {
-    background-color: #f2f2f2;
-    color: #333;
+    background-color: var(--table-header-bg);
+    color: var(--text-color);
     font-weight: bold;
 }
 
-.player-table th, .player-table td {
-    font-size: 1rem;
-}
-
 /* Pelaajan kuvan sarake */
-.player-table th:nth-child(1), .player-table td:nth-child(1) {
-    width: 10%; /* Kuvan sarake */
+.player-table th:nth-child(1),
+.player-table td:nth-child(1) {
+    width: 10%;
     padding: 5px;
 }
 
-/* Pelaajan nimi (sukunimi, etunimi) - linkki */
-.player-table th:nth-child(2), .player-table td:nth-child(2) {
-    width: 20%; /* Nimi-sarake */
+.player-photo {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* Pelaajan nimi */
+.player-table th:nth-child(2),
+.player-table td:nth-child(2) {
+    width: 20%;
     text-align: left;
     padding-left: 10px;
-    white-space: nowrap; /* Estää rivinvaihdon */
+    white-space: nowrap;
 }
 
-/* Muut sarakkeet (esim. pelipaikka, maalit jne.) */
-.player-table th:not(:nth-child(1)):not(:nth-child(2)), 
+/* Muut sarakkeet */
+.player-table th:not(:nth-child(1)):not(:nth-child(2)),
 .player-table td:not(:nth-child(1)):not(:nth-child(2)) {
-    width: 15%; /* Muut sarakkeet */
+    width: 15%;
 }
 
-/* Responsiivisuus (esimerkiksi pienemmille näytöille) */
-@media (max-width: 768px) {
-    .player-table {
-        width: 90%;
-        font-size: 0.9rem;
-    }
-
-    .player-table th, .player-table td {
-        padding: 5px;
-    }
-
-    .player-table th:nth-child(1), .player-table td:nth-child(1) {
-        width: 15%; /* Kuvan sarake pienenee */
-    }
-
-    .player-table th:nth-child(2), .player-table td:nth-child(2) {
-        width: 30%; /* Nimi-sarake kasvaa */
-    }
-
-    .player-table th:not(:nth-child(1)):not(:nth-child(2)), 
-    .player-table td:not(:nth-child(1)):not(:nth-child(2)) {
-        width: 10%; /* Muut sarakkeet pienenevät */
-    }
-}
-
-/* Pelaajataulukon tyyli */
-.player-table {
-    width: 40%;
-    margin: 20px auto;
-    border-collapse: collapse;
-    font-size: 1rem;
-    table-layout: auto; /* Taulukon sarakkeet automaattisesti säätävä */
-    border: 1px solid #ddd;
-    background-color: #ffffff; /* Taustaväri */
-}
-
-.player-table th, .player-table td {
-    border: 1px solid #ddd;
-    padding: 4px;
-    text-align: center;
-    vertical-align: middle;
-    height: 20px; /* Kiinteä rivikorkeus */
-}
-
-.player-table th {
-    background-color: #f2f2f2; /* Taustaväri otsikoille */
-    color: #333;
-    font-weight: bold;
-}
-
-/* Pelaajan kuvan sarake */
-.player-table th:nth-child(1), .player-table td:nth-child(1) {
-    width: 10%; /* Kuvan sarake */
-    padding: 0;
-}
-
-.player-photo {
-    width: 30px;  /* Pienennetään leveyttä */
-    height: 30px; /* Pienennetään korkeutta */
-    object-fit: cover;
-    border-radius: 50%; /* Pyöristetään kulmat, jotta kuva on ympyränmuotoinen */
-}
-
-/* Linkkien tyyli */
+/* Linkkien tyyli pelaajataulukossa */
 .player-table a {
     text-decoration: none;
     color: inherit;
@@ -325,163 +295,39 @@ th.wide, td.wide {
 .player-table a:hover {
     text-decoration: underline;
 }
-/* Match table */
-.match-table {
-    width: 60%; /* Sovitetaan 60% sivun leveydestä */
-    margin: 20px auto;
-    border-collapse: collapse;
-    font-size: 0.9rem;
-    background-color: #ffffff; /* Taustaväri */
-    table-layout: auto; /* Automaattinen sarakkeiden koon säätö */
-}
 
-.match-table th, .match-table td {
-    border: 1px solid #ddd;
-    padding: 8px; /* Rivikorkeus */
-    text-align: center;
-    vertical-align: middle;
+/* Pelaajataulukon suodatin */
+.pelivalitsin-container {
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
-
-.match-table th {
-    background-color: #f2f2f2; /* Taulukon otsikon taustaväri */
-    color: #333; /* Otsikon tekstin väri */
+.pelivalitsin-label {
     font-weight: bold;
+    margin-right: 10px;
 }
 
-.match-table td {
-    font-size: 0.9rem;
-    color: #333;
-}
 
-/* Responsiivisuus: pienille näytöille */
-@media (max-width: 768px) {
-    .match-table {
-        width: 90%;
-        font-size: 0.8rem;
-    }
+/* PELAAJATAULUKKO */
 
-    .match-table th, .match-table td {
-        padding: 6px; /* Pienennetään paddingia pienillä näytöillä */
-    }
-}
-.team-logo {
-    width: 25px;
-    height: 25px;
-    margin-right: 5px;
-    object-fit: contain;
-    vertical-align: middle;
-}
+
+/* Historia- ja lisäsolut */
 .history-cell {
-    background-color: white; /* Valkoinen pohja ylimmälle riville */
+    background-color: var(--background-color);
     text-align: left;
     font-size: 0.9rem;
     padding: 10px;
     line-height: 1.2;
 }
+
 thead tr:nth-child(2) th {
-    background-color: #f4f4f4; /* Harmaa pohja toiselle riville */
+    background-color: var(--light-bg);
     text-align: center;
     vertical-align: middle;
     padding: 5px;
 }
-#header-container img {
-    width: 100px;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-}
-body {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    font-family: Arial, sans-serif;
-    color: #333;
-    background-color: white;
-}
 
-.sidebar {
-    width: 250px;
-    background-color: rgb(0, 100, 40);
-    color: white;
-    padding: 20px;
-    box-sizing: border-box;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
-.logo {
-    max-width: 150px;
-    height: auto;
-    margin-bottom: 10px;
-}
-
-.logo-text {
-    text-align: center;
-    margin: 10px 0;
-    font-size: 1.2rem;
-    font-weight: bold;
-    line-height: 1.4;
-}
-
-.menu {
-    list-style: none;
-    padding: 0;
-    width: 100%;
-}
-
-.menu li {
-    margin: 10px 0;
-}
-
-.menu a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    text-align: center;
-    display: block;
-    padding: 10px 0;
-    border: 1px solid white;
-    border-radius: 5px;
-    transition: 0.3s;
-}
-
-.menu a:hover {
-    background-color: white;
-    color: rgb(0, 100, 40);
-}
-
-main {
-    flex: 1;
-    padding: 20px;
-    text-align: center;
-}
-
-.opponent-header {
-    color: rgb(0, 100, 40);
-    font-size: 2rem;
-    text-align: center;
-}
-
-.opponent-details {
-    font-size: 1.2rem;
-    text-align: center;
-    margin-top: 10px;
-}
-
-.opponent-logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-}
-
-.team-logo {
-    width: 100px;
-    height: 100px;
-}
-
+/* Ottelulista (vastustajasivut) */
 .matches-list {
     width: 60%;
     margin: 20px auto;
@@ -489,15 +335,17 @@ main {
     text-align: center;
 }
 
-.matches-list th, .matches-list td {
+.matches-list th,
+.matches-list td {
     border: 1px solid #ccc;
     padding: 10px;
 }
 
 .matches-list th {
-    background-color: #f4f4f4;
+    background-color: var(--light-bg);
 }
 
+/* Pienet logot ottelulistassa */
 .small-logo {
     width: 20px;
     height: 20px;
@@ -505,8 +353,9 @@ main {
     vertical-align: middle;
 }
 
+/* Ottelulinkit */
 .match-link {
-    color: black;
+    color: var(--text-color);
     font-weight: bold;
     text-decoration: none;
 }
@@ -515,23 +364,682 @@ main {
     text-decoration: underline;
 }
 
-/* Responsiivisuus */
-@media (max-width: 768px) {
-    .sidebar {
-        width: 200px;
-    }
-
-    .logo {
-        max-width: 120px;
-    }
-
-    .menu a {
-        font-size: 0.9rem;
-        padding: 8px 0;
-    }
-
-    .matches-list {
-        width: 90%;
-        font-size: 0.8rem;
-    }
+/* INDEX.HTML - Sivun erityistyylit */
+  
+/* Yläosan tekstikenttä */
+.top-text {
+    width: 720px;
+    margin: 1px auto 0; /* Vähennetty yläreunan marginaalia, jotta teksti tulee lähempänä HPS-logoa */
+    text-align: center;
 }
+  
+.main-title {
+    color: green;
+    font-size: 2.5rem;
+    margin: 0;
+}
+  
+.subtitle {
+    color: black;
+    font-size: 1rem;
+    margin-top: 5px;
+}
+  
+.warning {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.player-icons {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    margin: 50px auto 0;
+    width: 720px;
+}
+  
+.icon-card {
+    text-align: center;
+}
+  
+.icon-card img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+  
+.icon-title {
+    font-size: 1.5rem;
+    color: green;
+    margin-top: 20px;
+    font-weight: bold;
+}
+  
+.icon-card img:hover {
+    opacity: 0.8;
+}
+ 
+/* Palsta Tietoja sivustosta -osiolle */
+.info-column {
+    width: 720px;
+    margin: 50px auto 0;
+    text-align: left;
+}
+
+.info-column p {
+    margin-bottom: 1em;
+}
+
+/* INDEX.HTML - Sivun erityistyylit */
+
+
+/* SIJOITUKSET.HTML - Sivun erityistyylit */
+
+.sijoitus-table {
+    width: 60%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    table-layout: fixed;
+}
+
+.sijoitus-table th,
+.sijoitus-table td {
+    border: 1px solid #ccc;
+    padding: 4px;
+    text-align: center;
+}
+
+.sijoitus-table th {
+    background-color: #ffffff;
+}
+
+/* Uusitut history-cell -tyylit */
+.history-cell {
+    vertical-align: top;
+}
+
+/* Varmistetaan, että kursivoidut tekstit eivät perisi lihavointia */
+.history-cell em {
+    font-weight: normal;
+}
+
+/* Muut tyylit säilyvät ennallaan */
+.sijoitus-table th span {
+    display: block;
+}
+
+.year-cell {
+    font-weight: bold;
+}
+
+.year-cell a {
+    color: black;
+    text-decoration: none;
+}
+
+.year-cell a:hover {
+    text-decoration: underline;
+}
+
+.highlight-green {
+    background-color: rgb(0, 100, 40);
+    color: white;
+    font-weight: bold;
+}
+
+.highlight-gray {
+    background-color: lightgray;
+}
+
+.highlight-red {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+.highlight-gold {
+    background-color: #ffd700;
+    font-weight: bold;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+
+/* KAUDUT.HTML - Sivun erityistyylit */
+.main-title {
+    font-size: 2rem;
+    color: rgb(0, 100, 40);
+    margin: 0;
+}
+.sub-title {
+    font-size: 1rem;
+    color: rgb(100, 100, 100);
+    margin: 0;
+}
+.spacer {
+    height: 100px;
+}
+
+/* Cup-kaavion peruslayout, korkeus dynaaminen */
+.cup-bracket {
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: flex-start;       
+    margin-top: 20px;
+}
+
+.bracket-round {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;  
+    margin: 0 10px;
+}
+
+/* Välierät ja Loppuottelu keskitetään pystysuunnassa */
+#round-vali, 
+#round-loppu {
+    justify-content: center;
+    align-items: center; 
+}
+
+.match-pair {
+    text-align: center;
+    margin-bottom: 5px; 
+}
+.round-content .match-pair:nth-child(2n) {
+    margin-bottom: 30px; 
+}
+
+.match-pair .team {
+    margin: 2px 0;
+    background-color: #f1f1f1;
+    padding: 4px 10px;
+    border-radius: 3px;
+    font-weight: normal;
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.match-pair .team img {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+.team .score {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-left: 0.3em;
+}
+
+.additional-info {
+    font-size: 0.75rem; 
+    color: #666;
+    margin-top: 3px;   
+    line-height: 1.2;  
+}
+
+#cup-bracket {
+    display: none;
+}
+
+
+/* JOUKKUEET.HTML - Sivun erityistyylit */
+
+/* Näytettävä joukkue-tyyppi (Miehet/Naiset) */
+#team-type {
+    text-align: center;
+    color: green;
+    font-size: 2.5rem;
+    margin: 10px 0;
+}
+/* Vuosi ja nuolinavigaatio */
+.year-selector {
+    text-align: center;
+    margin: 20px 0;
+}
+.arrow-button {
+    background-color: rgb(0,100,40);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin: 0 10px;
+}
+/* Pelaajatiedot-taulukko */
+table.player-table {
+    width: 60%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+table.player-table th, table.player-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+/* Ensimmäinen sarake (Kuva) – kiinteä leveys */
+table.player-table th:first-child,
+table.player-table td:first-child {
+    width: 35px;
+    text-align: center;
+    padding: 0;
+}
+/* Linkitetyt nimet */
+table.player-table a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}
+/* Joukkuekuvan alue */
+#team-image {
+    width: 60%;
+    margin: 20px auto;
+    text-align: center;
+}
+#team-image img {
+    width: 100%;
+    height: auto;
+}
+/* Pelaajakuvat: pyöreät, kokoa 35×35px, object-fit: cover */
+table.player-table td:first-child .player-image {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+/* Valikko pelityypin valintaa varten */
+.valintalista-container {
+    margin: 10px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.valintalista-container label {
+    font-weight: bold;
+    margin-right: 6px;
+}
+.valintalista-container select {
+    margin-right: 10px;
+}
+/* Klikattavat otsikot */
+th.sortable {
+    cursor: pointer;
+}
+
+/* OTTELUKORTTI.HTML - Sivun erityistyylit */
+:root {
+    --table-width: 40%; /* Taulukon leveys maalintekijöille */
+    --result-table-width: 60%; /* Taulukon leveys tulokselle */
+    --col-width-1: 20%; /* Ensimmäisen sarakkeen leveys */
+    --col-width-2: 5%;  /* Toisen sarakkeen leveys */
+    --col-width-3: 15%; /* Kolmannen sarakkeen leveys */
+    --col-width-4: 5%;  /* Neljännen sarakkeen leveys */
+    --col-width-5: 20%; /* Viidennen sarakkeen leveys */
+}
+.section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: none;
+    background-color: transparent;
+}
+.match-details {
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+    color: rgb(0, 100, 40);
+}
+.stadium-city,
+.date,
+.officials {
+    font-size: 1.2rem;
+}
+
+.result-table {
+    width: var(--result-table-width);
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+.result-table td {
+    padding: 10px;
+    border: none;
+    vertical-align: middle;
+}
+.result-table td:first-child {
+    width: var(--col-width-1);
+    text-align: right;
+}
+.result-table td:nth-child(2) {
+    width: var(--col-width-2);
+}
+.result-table td:nth-child(3) {
+    width: var(--col-width-3);
+}
+.result-table td:nth-child(4) {
+    width: var(--col-width-4);
+}
+.result-table td:last-child {
+    width: var(--col-width-5);
+    text-align: left;
+}
+.team-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.team-logo {
+    width: 75px;
+    height: 75px;
+}
+.score {
+    font-size: 3rem;
+    font-weight: bold;
+}
+.additional-info {
+    font-size: 0.8rem;
+    margin-top: 10px;
+    color: #666;
+    text-align: center;
+}
+.scorer-table {
+    width: var(--table-width);
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+.scorer-table td {
+    padding: 10px 20px;
+    border: none;
+    vertical-align: top;
+}
+.scorer {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+.scorer img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+/* Kuvan ja kuvatekstin tyylit */
+.match-image {
+    display: block;
+    max-width: 80%;
+    margin: 0 auto;
+}
+.image-caption {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #333;
+    margin-top: 5px;
+}
+.image-container {
+    margin-bottom: 20px;
+}
+/* Vihreät linkit nuolineen */
+.arrow-links {
+    text-align: center;
+    margin-top: 15px;
+}
+.arrow-link {
+    background-color: green;
+    color: white;
+    padding: 6px 12px;
+    margin: 0 8px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.arrow-link:hover {
+    background-color: #005500;
+}
+
+        /* Taulukon rivikorkeus ja solujen padding pienennetty */
+        .player-table tbody tr {
+            line-height: 1.0em;
+        }
+        .player-table td, .player-table th {
+            padding: 2px 4px;
+        }
+        .player-icon {
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        /* Valitsimet allekkain ja keskitetty */
+        .valintalista-container {
+            margin: 10px 0 20px 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+        .valintalista-container label {
+            font-weight: bold;
+            margin-right: 6px;
+        }
+        .valintalista-container select {
+            margin-right: 10px;
+        }
+
+        /* Klikattavat otsikot */
+        th.sortable {
+            cursor: pointer;
+        }
+ 
+        .player-info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+
+        .player-details h1 {
+            margin: 0;
+            font-size: 1.8rem;
+            color: rgb(0, 100, 40);
+        }
+        .player-details p {
+            margin: 5px 0;
+            font-size: 0.9rem;
+            color: #555;
+        }
+
+        .total-row {
+            font-weight: bold;
+            background-color: #e6e6e6;
+        }
+        /* Valikon perusmuotoilua */
+        .game-type-select {
+            margin: 0 auto 20px auto;
+            text-align: center;
+        }
+        .game-type-select label {
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        .game-type-select select {
+            padding: 3px;
+        }
+
+  
+        .opponent-table {
+            width: 60%;
+            margin: 0 auto;
+            border-collapse: collapse;
+          }
+          /* Päivitetty: lisätty paddingia soluihin, jolloin rivikorkeus kasvaa */
+          .opponent-table th, .opponent-table td {
+            border: 1px solid #ccc;
+            padding: 5px;
+            text-align: center;
+          }
+          .opponent-table th {
+            background-color: #f4f4f4;
+            cursor: pointer;
+            position: relative;
+            transition: background-color 0.3s, color 0.3s;
+          }
+          .team-icon {
+            width: 25px;
+            height: 25px;
+            margin-right: 5px;
+            vertical-align: middle;
+          }
+
+          .team-name-link {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+          }
+
+      /* Loput alkuperäiset tyylit pysyvät ennallaan */
+
+      .cup-bracket {
+        display: flex;
+        justify-content: space-evenly; 
+        align-items: flex-start;       
+        margin-top: 20px;
+      }
+      .bracket-round {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;  
+        margin: 0 10px;
+      }
+      #round-vali, 
+      #round-loppu {
+        justify-content: center;
+        align-items: center; 
+      }
+      .match-pair {
+        text-align: center;
+        margin-bottom: 5px; 
+      }
+      .round-content .match-pair:nth-child(2n) {
+        margin-bottom: 30px; 
+      }
+      .match-pair .team {
+        margin: 2px 0;
+        background-color: #f1f1f1;
+        padding: 4px 10px;
+        border-radius: 3px;
+        font-weight: normal;
+        width: 160px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .match-pair .team img {
+        width: 25px;
+        height: 25px;
+        margin-right: 5px;
+      }
+      .team .score {
+        font-size: 1.1rem;
+        font-weight: bold;
+        margin-left: 0.3em;
+      }
+      .additional-info {
+        font-size: 0.75rem; 
+        color: #666;
+        margin-top: 3px;   
+        line-height: 1.2;  
+      }
+      #cup-bracket {
+        display: none;
+      }
+      .pelivalitsin-container {
+        margin-top: 10px;
+        margin-bottom: 20px;
+      }
+      .pelivalitsin-label {
+        font-weight: bold;
+        margin-right: 10px;
+      }
+ 
+    /* Yleinen ulkoasu: yksi keskitetty sisältökohde */
+
+
+      /* Pääsisältö */
+
+      .logo {
+        max-width: 150px;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    
+    .logo-text {
+        text-align: center;
+        margin: 10px 0;
+        font-size: 1.2rem;
+        font-weight: bold;
+        line-height: 1.4;
+    }
+    
+    /* Pääsisältö */
+    main {
+        flex: 1;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    main h1,
+    .opponent-header {
+        font-size: 1.8rem;
+        color: var(--primary-color);
+        margin-bottom: 20px;
+    }
+    
+    /* Vuoden valitsin */
+    .year-selector {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    
+    .year-selector span {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin: 0 10px;
+    }
+    
+    .arrow-button {
+        background-color: var(--primary-color);
+        color: var(--background-color);
+        font-size: 1.2rem;
+        border: none;
+        border-radius: 5px;
+        padding: 5px 10px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    
+    .arrow-button:hover {
+        background-color: var(--secondary-color);
+    }

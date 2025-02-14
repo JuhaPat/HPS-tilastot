@@ -5,159 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Joukkue</title>
   <link rel="stylesheet" href="style.css">
-  <style>
-    /* Yleiset asetukset */
-    body {
-      margin: 0;
-      font-family: sans-serif;
-    }
-    /* Header: keskitetty HPS-logo, valikkonappi oikeassa yläkulmassa */
-    header {
-      text-align: center;
-      padding: 20px 0;
-      position: relative;
-    }
-    header img {
-      width: 100px;
-      height: auto;
-      cursor: pointer;
-    }
-    /* Valikkonappi */
-    .menu-button {
-      position: fixed;
-      top: 10px;
-      right: 10px;
-      width: 40px;
-      height: 40px;
-      background-color: rgb(0,100,40);
-      border: none;
-      border-radius: 5px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      cursor: pointer;
-      z-index: 1000;
-    }
-    .menu-button div {
-      width: 25px;
-      height: 3px;
-      background-color: white;
-      margin: 3px 0;
-    }
-    .menu {
-      position: fixed;
-      top: 55px;
-      right: 10px;
-      width: 200px;
-      background-color: white;
-      border: 2px solid rgb(0,100,40);
-      border-radius: 5px;
-      box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
-      padding: 5px;
-      z-index: 1000;
-      display: none;
-    }
-    .menu a {
-      display: block;
-      color: rgb(0,100,40);
-      text-decoration: none;
-      font-weight: bold;
-      border: 1px solid rgb(0,100,40);
-      border-radius: 3px;
-      margin: 2px 0;
-      padding: 4px 8px;
-      text-align: center;
-    }
-    .menu a:hover {
-      background-color: rgb(0,100,40);
-      color: white;
-    }
-    /* Näytettävä joukkue-tyyppi (Miehet/Naiset) */
-    #team-type {
-      text-align: center;
-      color: green;
-      font-size: 2.5rem;
-      margin: 10px 0;
-    }
-    /* Vuosi ja nuolinavigaatio */
-    .year-selector {
-      text-align: center;
-      margin: 20px 0;
-    }
-    .arrow-button {
-      background-color: rgb(0,100,40);
-      color: white;
-      border: none;
-      padding: 5px 10px;
-      font-size: 1.2rem;
-      cursor: pointer;
-      margin: 0 10px;
-    }
-    /* Pelaajatiedot-taulukko */
-    table.player-table {
-      width: 60%;
-      margin: 0 auto;
-      border-collapse: collapse;
-    }
-    table.player-table th, table.player-table td {
-      border: 1px solid #ccc;
-      padding: 8px;
-      text-align: left;
-    }
-    /* Ensimmäinen sarake (Kuva) – kiinteä leveys */
-    table.player-table th:first-child,
-    table.player-table td:first-child {
-      width: 35px;
-      text-align: center;
-      padding: 0;
-    }
-    /* Linkitetyt nimet */
-    table.player-table a {
-      text-decoration: none;
-      color: inherit;
-      font-weight: bold;
-    }
-    /* Joukkuekuvan alue */
-    #team-image {
-      width: 60%;
-      margin: 20px auto;
-      text-align: center;
-    }
-    #team-image img {
-      width: 100%;
-      height: auto;
-    }
-    /* Pelaajakuvat: pyöreät, kokoa 35×35px, object-fit: cover */
-    table.player-table td:first-child .player-image {
-      border-radius: 50%;
-      width: 35px;
-      height: 35px;
-      object-fit: cover;
-      display: block;
-      margin: 0 auto;
-    }
-    /* Valikko pelityypin valintaa varten */
-    .valintalista-container {
-      margin: 10px 0 20px 0;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      gap: 10px;
-    }
-    .valintalista-container label {
-      font-weight: bold;
-      margin-right: 6px;
-    }
-    .valintalista-container select {
-      margin-right: 10px;
-    }
-    /* Klikattavat otsikot */
-    th.sortable {
-      cursor: pointer;
-    }
-  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
   <script>
     // Palauttaa JSON-tiedostojen kansion URL-parametrin "joukkue" perusteella
     function getTeamDataFolder() {
@@ -168,8 +16,13 @@
   </script>
 </head>
 <body>
-  <header>
-    <!-- Valikkonappi -->
+  <header class="header">
+    <div class="header-logo">
+        <a href="index.html">
+            <img src="logot/HPS.jpg" alt="HPS Logo">
+        </a>
+    </div>
+    <h1 class="page-title" id="team-type"></h1>
     <button class="menu-button" onclick="toggleMenu()">
       <div></div>
       <div></div>
@@ -187,22 +40,14 @@
   </header>
 
   <main>
-    <div style="text-align: center; margin-bottom: 20px;">
-      <a href="index.html"><img src="logot/HPS.jpg" alt="HPS Logo" style="width: 100px; height: auto;"></a>
-    </div>
-    <!-- Näytetään joukkue-parametrin perusteella Miehet tai Naiset -->
-    <h1 id="team-type"></h1>
-    <!-- Vuosi ja nuolinavigaatio -->
     <div class="year-selector">
       <button id="prev-year" class="arrow-button">&lt;</button>
       <span id="current-year">2024</span>
       <button id="next-year" class="arrow-button">&gt;</button>
     </div>
-    <!-- Joukkuekuva -->
     <div id="team-image">
       <img id="team-photo" src="" alt="Joukkuekuva">
     </div>
-    <!-- Valitse pelityyppi -valikko; sama logiikka kuin pelaajat.html:ssä -->
     <div class="valintalista-container">
       <div>
         <label for="pelityyppi">Valitse pelityyppi:</label>
@@ -213,7 +58,6 @@
         </select>
       </div>
     </div>
-    <!-- Pelaajatiedot-taulukko -->
     <table id="players-table" class="player-table">
       <thead>
         <tr>
@@ -297,11 +141,9 @@
     // Globaalit muuttujat taulukon tietojen hallintaan
     const pelityyppiSelect = document.getElementById('pelityyppi');
     let currentPlayers = [];
-    // Oletusjärjestys: "Pelit" –sarakkeessa (laskettuna laskevasti)
     let currentSortCriteria = "pelit";
     let currentSortDirection = "desc";
 
-    // Renderöidään taulukko; pelityypin mukaan näytetään oikeat pelien ja maalien määrät
     function renderTable(players) {
       const tableBody = document.querySelector("#players-table tbody");
       tableBody.innerHTML = players.map(player => {
@@ -318,7 +160,7 @@
         }
         const surnameLink = `<a href="pelaajakortti.html?sukunimi=${encodeURIComponent(player["Sukunimi"])}&etunimi=${encodeURIComponent(player["Etunimi"])}&joukkue=${encodeURIComponent(teamParam)}&vuosi=${encodeURIComponent(vuosiParam)}"><strong>${player["Sukunimi"] || ""}</strong></a>`;
         const firstnameLink = `<a href="pelaajakortti.html?sukunimi=${encodeURIComponent(player["Sukunimi"])}&etunimi=${encodeURIComponent(player["Etunimi"])}&joukkue=${encodeURIComponent(teamParam)}&vuosi=${encodeURIComponent(vuosiParam)}"><strong>${player["Etunimi"] || ""}</strong></a>`;
-        const playerImage = `<img src="pelaajakuvat/${player["Etunimi"]} ${player["Sukunimi"]}.jpg" alt="Pelaajan kuva" onerror="this.onerror=null;this.src='pelaajakuvat/pelaajakuva.jpg';" class="player-image">`;
+        const playerImage = `<img src="pelaajakuvat/${player["Etunimi"]} ${player["Sukunimi"]}.jpg" alt="Pelaajan kuva" onerror="this.onerror=null;this.src='pelaajakuvat/pelaajakuva.jpg';" class="player-icon">`;
         return `
           <tr>
             <td>${playerImage}</td>
@@ -333,7 +175,6 @@
       }).join('');
     }
 
-    // Funktio pelaajien vertaamiseen; käsitellään sukunimi, etunimi sekä pelit/maalit käyttäen pelityyppiä
     function comparePlayers(a, b, key, order) {
       let valA, valB;
       const currentPelityyppi = pelityyppiSelect.value;
@@ -373,7 +214,6 @@
       return 0;
     }
 
-    // Oletusjärjestyksen suuntatoiminto: sukunimi ja etunimi nousevasti, muut laskevasti
     function defaultDirection(criteria) {
       if (criteria === 'sukunimi' || criteria === 'etunimi') {
         return 'asc';
@@ -382,7 +222,6 @@
       }
     }
 
-    // Lisätään klikkaustapahtumat vain niihin otsikoihin, jotka ovat järjestettäviä
     document.querySelectorAll("#players-table thead th.sortable").forEach((th) => {
       th.style.cursor = "pointer";
       th.addEventListener("click", () => {
@@ -398,24 +237,20 @@
       });
     });
 
-    // Kun pelityyppi muuttuu, lajitellaan uudelleen nykyisen järjestyksen mukaisesti
     pelityyppiSelect.addEventListener('change', () => {
       currentPlayers.sort((a, b) => comparePlayers(a, b, currentSortCriteria, currentSortDirection));
       renderTable(currentPlayers);
     });
 
-    // Haetaan pelaajatiedot ja suodatetaan kauden mukaan.
     fetch(`${dataFolder}/pelaajat.json`)
       .then(response => response.json())
       .then(playersData => {
         currentPlayers = playersData.filter(player => player.Kausi === vuosiParam);
-        // Oletusarvona lajitellaan "Pelit"-sarakkeen mukaan (suurimmasta pienimpään)
         currentPlayers.sort((a, b) => comparePlayers(a, b, "pelit", "desc"));
         renderTable(currentPlayers);
       })
       .catch(error => console.error('Virhe ladattaessa pelaajatietoja:', error));
 
-    // Aseta joukkuekuva: tiedostonimi on "AAA BBB.jpg", missä AAA on "Miehet" tai "Naiset" ja BBB on vuosiParam
     const teamPhotoElem = document.getElementById('team-photo');
     teamPhotoElem.src = `Kuvat/${teamParam === 'naiset' ? 'Naiset' : 'Miehet'} ${vuosiParam}.jpg`;
   </script>
