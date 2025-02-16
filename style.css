@@ -1043,3 +1043,45 @@ th.sortable {
     .arrow-button:hover {
         background-color: var(--secondary-color);
     }
+
+    /* tilastot.html taulukon rakenne */    
+
+        /* Taulukon leveys 50% ja keskitys */
+        .custom-table {
+            width: 50%;
+            margin: 0 auto;
+            border-collapse: collapse;
+            table-layout: auto;
+        }
+        
+        /* Oletuksena keskitetyt solut */
+        .custom-table th,
+        .custom-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        
+        /* Toisen sarakkeen (Stadion) solut vasemmalle */
+        .custom-table th:nth-child(2),
+        .custom-table td:nth-child(2) {
+            text-align: left;
+        }
+        
+        /* Päivämääräsarakkeille kiinteä leveys ja ei rivittymistä */
+        .custom-table th.date-column,
+        .custom-table td.date-column {
+            width: 150px;
+            white-space: nowrap;
+        }
+        
+        /* Otsikon tyyli */
+        .table-title {
+            font-size: 2em;
+            color: green;
+            margin: 20px 0 10px 0;
+            text-align: center;
+        }
+        
+
+    /* tilastot.html taulukon rakenne */   
