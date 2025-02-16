@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tilastot - HPS</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="header-logo">
+      <a href="index.html">
+        <img src="logot/HPS.jpg" alt="HPS Logo">
+      </a>
+    </div>
+    <button class="menu-button" onclick="toggleMenu()">
+      <div></div>
+      <div></div>
+      <div></div>
+    </button>
+    <div class="menu" id="menu">
+      <a href="index.html">Etusivu</a>
+      <a href="sijoitukset.html">Sijoitukset</a>
+      <a href="kaudet.html">Kaudet</a>
+      <a href="joukkueet.html" class="active">Joukkueet</a>
+      <a href="pelaajat.html">Pelaajat</a>
+      <a href="vastustajat.html">Vastustajat</a>
+      <a href="stadionit.html">Stadionit</a>
+      <a href="tilastot.html">Tilastot</a>
+    </div>
+  </header>
+
+  <main>
+    <script>
+      // Näytetään/piilotetaan valikko painikkeella
+      function toggleMenu() {
+        var menu = document.getElementById('menu');
+        menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+      }
+      
+      // Palautetaan URL-parametrin "joukkue" perusteella oikea data-kansio
+      function getTeamDataFolder() {
+        var urlParams = new URLSearchParams(window.location.search);
+        var teamParam = urlParams.get('joukkue');
+        return teamParam === 'naiset' ? 'data naiset' : 'data miehet';
+      }
+      
+      // Lisää URL-parametrin "joukkue" kaikkiin sisäisiin linkkeihin
+      function appendJoukkueParamToLinks() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const joukkue = urlParams.get("joukkue");
+        if (!joukkue) return;
+        const links = document.querySelectorAll("a[href]");
+        links.forEach(link => {
+          let href = link.getAttribute("href");
+          if (href && !href.match(/^https?:\/\//) && !href.startsWith("mailto:")) {
+            if (href.indexOf("?") === -1) {
+              href += `?joukkue=${encodeURIComponent(joukkue)}`;
+            } else {
+              let url = new URL(href, window.location.origin);
+              url.searchParams.set("joukkue", joukkue);
+              href = url.pathname + url.search;
+            }
+            link.setAttribute("href", href);
+          }
+        });
+      }
+      
+      // Muuntaa DD.MM.YYYY -merkkijonon Date-olioksi. Palauttaa null, jos tietoa ei ole.
+      function parseFinnishDate(dateStr) {
+        if (!dateStr) return null;
+        var parts = dateStr.split('.');
+        if (parts.length !== 3) return null;
+        return new Date(parts[2], parts[1] - 1, parts[0]);
+      }
+      
+      // Muotoilee Date-olion takaisin muotoon DD.MM.YYYY
+      function formatFinnishDate(date) {
+        if (!date) return '';
+        var day = date.getDate();
+        var month = date.getMonth() + 1;
+        var year = date.getFullYear();
+        if (day < 10) day = '0' + day;
+        if (month < 10) month = '0' + month;
+        return day + '.' + month + '.' + year;
+      }
+      
+      // Tietääkö taulukko onko laajennettu
+      var expanded = false;
+      
+      // Luo yksittäinen rivi
+      function createRow(data, index) {
+        var tr = document.createElement('tr');
+        // Ensimmäinen solu: järjestysnumero
+        var tdIndex = document.createElement('td');
+        tdIndex.textContent = (index + 1) + '.';
+        tr.appendChild(tdIndex);
+        // Toinen solu: yhdistetty tieto (Stadion, Kaupunki)
+        var tdStadium = document.createElement('td');
+        var strongElem = document.createElement('strong');
+        strongElem.textContent = data.name;
+        tdStadium.appendChild(strongElem);
+        tdStadium.appendChild(document.createTextNode(', ' + data.kaupunki));
+        tr.appendChild(tdStadium);
+        // Kolmas solu: pelien lukumäärä
+        var tdCount = document.createElement('td');
+        tdCount.textContent = data.count;
+        tr.appendChild(tdCount);
+        // Neljäs solu: ensimmäinen peli
+        var tdFirst = document.createElement('td');
+        tdFirst.className = "date-column";
+        tdFirst.textContent = formatFinnishDate(data.firstDate);
+        tr.appendChild(tdFirst);
+        // Viides solu: viimeisin peli
+        var tdLast = document.createElement('td');
+        tdLast.className = "date-column";
+        tdLast.textContent = formatFinnishDate(data.lastDate);
+        tr.appendChild(tdLast);
+        return tr;
+      }
+      
+      // Renderöi taulukon rivit
+      // stadiumArray: käsitellyt stadionit
+      // missingCount: niiden otteluiden määrä, joista puuttuu stadionin nimi
+      function renderTableRows(stadiumArray, missingCount) {
+        var tbody = document.getElementById('stadionit-table').getElementsByTagName('tbody')[0];
+        tbody.innerHTML = '';
+        var totalRows = stadiumArray.length;
+        var visibleCount = expanded ? totalRows : Math.min(15, totalRows);
+        // Näytetään normaalit rivit
+        for (var i = 0; i < visibleCount; i++) {
+          var tr = createRow(stadiumArray[i], i);
+          tbody.appendChild(tr);
+        }
+        // Jos taulukossa on yli 15 riviä ja taulukko on suljettu, lisätään erikoisrivi "Muut kentät (näytä)"
+        if (!expanded && totalRows > 15) {
+          var sumExtra = 0;
+          for (var i = 15; i < totalRows; i++) {
+            sumExtra += stadiumArray[i].count;
+          }
+          var summaryRow = document.createElement('tr');
+          // Ensimmäinen solu: tyhjä
+          summaryRow.appendChild(document.createElement('td'));
+          // Toinen solu: "Muut kentät (näytä)" –linkki (Muut kentät lihavoitu, fontti musta)
+          var tdStadium = document.createElement('td');
+          var link = document.createElement('a');
+          link.href = "#";
+          link.style.color = "black";
+          link.innerHTML = "<strong>Muut kentät</strong> (näytä)";
+          link.addEventListener('click', function(e) {
+            e.preventDefault();
+            expanded = true;
+            renderTableRows(stadiumArray, missingCount);
+          });
+          tdStadium.appendChild(link);
+          summaryRow.appendChild(tdStadium);
+          // Kolmas solu: kaikkien muiden rivien pelimäärien summa
+          var tdCount = document.createElement('td');
+          tdCount.textContent = sumExtra;
+          summaryRow.appendChild(tdCount);
+          // Neljäs ja viides solu: tyhjiä
+          summaryRow.appendChild(document.createElement('td'));
+          summaryRow.appendChild(document.createElement('td'));
+          tbody.appendChild(summaryRow);
+        }
+        // Lisätään seuraavaksi rivi, jossa näytetään puuttuvien otteluiden määrä (tieto puuttuu)
+        if (missingCount > 0) {
+          var missingRow = document.createElement('tr');
+          // Ensimmäinen solu: tyhjä
+          missingRow.appendChild(document.createElement('td'));
+          // Toinen solu: "(tieto puuttuu)"
+          var tdMissing = document.createElement('td');
+          tdMissing.textContent = "(tieto puuttuu)";
+          missingRow.appendChild(tdMissing);
+          // Kolmas solu: puuttuvien otteluiden määrä
+          var tdMissingCount = document.createElement('td');
+          tdMissingCount.textContent = missingCount;
+          missingRow.appendChild(tdMissingCount);
+          // Neljäs ja viides solu: tyhjiä
+          missingRow.appendChild(document.createElement('td'));
+          missingRow.appendChild(document.createElement('td'));
+          tbody.appendChild(missingRow);
+        }
+        // Lasketaan kokonaispelimäärä: summa kaikista stadiumArray:n riveistä sekä puuttuvista otteluista
+        var totalSum = missingCount;
+        for (var i = 0; i < totalRows; i++) {
+          totalSum += stadiumArray[i].count;
+        }
+        // Lisätään alimmaiseksi rivi "Pelejä yhteensä"
+        var bottomRow = document.createElement('tr');
+        // Ensimmäinen solu: tyhjä
+        bottomRow.appendChild(document.createElement('td'));
+        // Toinen solu: lihavoitu "Pelejä yhteensä"
+        var tdLabel = document.createElement('td');
+        var strongLabel = document.createElement('strong');
+        strongLabel.textContent = "Pelejä yhteensä";
+        tdLabel.appendChild(strongLabel);
+        bottomRow.appendChild(tdLabel);
+        // Kolmas solu: lihavoitu kokonaispelimäärä
+        var tdTotal = document.createElement('td');
+        var strongTotal = document.createElement('strong');
+        strongTotal.textContent = totalSum;
+        tdTotal.appendChild(strongTotal);
+        bottomRow.appendChild(tdTotal);
+        // Neljäs ja viides solu: tyhjiä
+        bottomRow.appendChild(document.createElement('td'));
+        bottomRow.appendChild(document.createElement('td'));
+        tbody.appendChild(bottomRow);
+      }
+      
+      // Haetaan ottelut.json ja generoidaan taulukko
+      document.addEventListener('DOMContentLoaded', function() {
+        appendJoukkueParamToLinks();
+        var dataFolder = getTeamDataFolder();
+        fetch(dataFolder + '/ottelut.json')
+          .then(response => response.json())
+          .then(matches => {
+            // Päivitetään "Pelejä tietokannassa" -taulukkoon kokonaismäärä
+            var yhteensaEl = document.getElementById('yhteensa');
+            if (yhteensaEl) {
+              yhteensaEl.textContent = matches.length;
+            } else {
+              console.warn('Elementti id "yhteensa" ei löytynyt.');
+            }
+            
+            // Käsitellään stadionit ja kaupunki
+            var stadiums = {}; // Muodossa: { stadionNimi: { count, firstDate, lastDate, kaupunki } }
+            var missingCount = 0; // Lasketaan ne ottelut, joista puuttuu stadionin nimi
+            matches.forEach(match => {
+              var stadion = match.Stadion;
+              var kaupunki = match.Kaupunki;
+              var dateStr = match["Päivämäärä"];
+              // Jos päivämäärä puuttuu, asetetaan peliPvm nulliksi, mutta otetaan ottelu huomioon
+              var peliPvm = dateStr ? parseFinnishDate(dateStr) : null;
+              if (!stadion) {
+                missingCount++;
+                return;
+              }
+              if (!stadiums[stadion]) {
+                stadiums[stadion] = {
+                  count: 1,
+                  firstDate: peliPvm, // voi olla null
+                  lastDate: peliPvm,
+                  kaupunki: kaupunki
+                };
+              } else {
+                stadiums[stadion].count++;
+                // Päivitä ensimmäinen/viimeisin peli vain, jos peliPvm on olemassa
+                if (peliPvm) {
+                  if (!stadiums[stadion].firstDate || peliPvm < stadiums[stadion].firstDate) {
+                    stadiums[stadion].firstDate = peliPvm;
+                  }
+                  if (!stadiums[stadion].lastDate || peliPvm > stadiums[stadion].lastDate) {
+                    stadiums[stadion].lastDate = peliPvm;
+                  }
+                }
+              }
+            });
+            var stadiumArray = Object.keys(stadiums).map(key => ({
+              name: key,
+              kaupunki: stadiums[key].kaupunki,
+              count: stadiums[key].count,
+              firstDate: stadiums[key].firstDate,
+              lastDate: stadiums[key].lastDate
+            }));
+            stadiumArray.sort((a, b) => b.count - a.count);
+            renderTableRows(stadiumArray, missingCount);
+          })
+          .catch(error => {
+            console.error('Virhe ladattaessa ottelut.json:', error);
+            var yhteensaEl = document.getElementById('yhteensa');
+            if (yhteensaEl) {
+              yhteensaEl.textContent = '0';
+            }
+          });
+      });
+    </script>
+
+    <!-- Stadionit-taulukko -->
+    <section>
+      <h2 class="table-title">Stadionit</h2>
+      <table class="custom-table" id="stadionit-table">
+        <thead>
+          <tr class="header-row">
+            <th></th>
+            <th>Stadion</th>
+            <th>Pelejä</th>
+            <th class="date-column">Ensimmäinen peli</th>
+            <th class="date-column">Viimeisin peli</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Rivit generoidaan JavaScriptillä -->
+        </tbody>
+      </table>
+    </section>
+  
+  </main>
+</body>
+</html>
