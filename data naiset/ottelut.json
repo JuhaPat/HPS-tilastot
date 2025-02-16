@@ -651,7 +651,8 @@
       "Kotijoukkue": "FC Flora",
       "Vierasjoukkue": "HPS",
       "maalit_koti": "2",
-      "maalit_vieras": "2"
+      "maalit_vieras": "2",
+      "kv-ottelu": "kyllä"
     },
     {
       "ottelu_id": "202353",
@@ -1097,6 +1098,7 @@
       "Vierasjoukkue": "FC Flora",
       "maalit_koti": "2",
       "maalit_vieras": "1",
+      "kv-ottelu": "kyllä",
       "maalintekijät_koti": "Hanna Onufriew,Ella Andberg"
     },
     {
