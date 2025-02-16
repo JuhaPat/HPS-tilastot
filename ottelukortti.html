@@ -107,7 +107,7 @@
         // muuten (tai jos parametria ei ole) käytetään "data miehet".
         const dataFolder = teamParam === 'naiset' ? 'data naiset' : 'data miehet';
 
-        // Apu-funktio: Hakee HEAD-pyynnöllä annetut polut ja palauttaa ensimmäisen löytyneen
+        // Korvataan HEAD-pyyntöjen käyttö kuvan latauksella
         function findExistingImage(paths) {
             let i = 0;
             return new Promise(resolve => {
@@ -116,19 +116,10 @@
                         resolve(null);
                         return;
                     }
-                    fetch(paths[i], { method: 'HEAD' })
-                        .then(resp => {
-                            if (resp.ok) {
-                                resolve(paths[i]);
-                            } else {
-                                i++;
-                                tryNext();
-                            }
-                        })
-                        .catch(() => {
-                            i++;
-                            tryNext();
-                        });
+                    const img = new Image();
+                    img.onload = () => resolve(paths[i]);
+                    img.onerror = () => { i++; tryNext(); };
+                    img.src = paths[i];
                 }
                 tryNext();
             });
