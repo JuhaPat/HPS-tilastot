@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>KV-ottelut - HPS</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <script>
+    // Näppärä funktio määrittämään data-kansion nimen URL-parametrin perusteella (naiset/miehet)
+    function getTeamDataFolder() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const teamParam = urlParams.get('joukkue');
+      return teamParam === 'naiset' ? 'data naiset' : 'data miehet';
+    }
+    const dataFolder = getTeamDataFolder();
+
+    // Valikon näyttö/hide-toiminto
+    function toggleMenu() {
+      const menu = document.getElementById('menu');
+      menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+    }
+
+    // Päivitetään ottelutaulukko haettamalla ensin joukkueiden logot ja sitten ottelutiedot
+    async function updateMatchTable() {
+      const teamLogos = {};
+      try {
+        // Haetaan joukkueiden tiedot logojen saamiseksi
+        const leagueResp = await fetch(`${dataFolder}/sarjataulukot.json`);
+        const leagueData = await leagueResp.json();
+        leagueData.forEach(row => {
+          if (row.Joukkue && row.Logo) {
+            teamLogos[row.Joukkue] = row.Logo;
+          }
+        });
+      } catch (err) {
+        console.error("Virhe sarjataulukkodataa haettaessa:", err);
+      }
+      
+      try {
+        // Haetaan ottelutiedot
+        const matchResp = await fetch(`${dataFolder}/ottelut.json`);
+        const matchData = await matchResp.json();
+        const matchTableBody = document.getElementById("table-body");
+        matchTableBody.innerHTML = "";
+
+        // Suodatetaan ottelut: näytetään vain ne, joissa kentän "kv-ottelu" arvo on "kyllä"
+        const filteredMatches = matchData.filter(match => 
+          match["kv-ottelu"] && match["kv-ottelu"].toLowerCase() === "kyllä"
+        );
+
+        // Rakennetaan taulukon rivit suodatetuista otteluista
+        filteredMatches.forEach(match => {
+          const tr = document.createElement("tr");
+
+          // Päivämäärä-solu, linkitetty ottelukorttiin
+          const tdDate = document.createElement("td");
+          const dateLink = document.createElement("a");
+          dateLink.href = `ottelukortti.html?ottelu_id=${match.ottelu_id}`;
+          dateLink.textContent = match["Päivämäärä"] || "";
+          tdDate.appendChild(dateLink);
+          tr.appendChild(tdDate);
+
+          // Muut solut: Kilpailu, Stadion, Kaupunki
+          ["Kilpailu", "Stadion", "Kaupunki"].forEach(col => {
+            const td = document.createElement("td");
+            td.textContent = match[col] || "";
+            tr.appendChild(td);
+          });
+
+          // Kotijoukkue: lisätään mahdollinen logo ja joukkueen nimi
+          const tdHome = document.createElement("td");
+          if (match.Kotijoukkue && teamLogos[match.Kotijoukkue]) {
+            const homeLogo = document.createElement("img");
+            homeLogo.src = `logot/${teamLogos[match.Kotijoukkue]}`;
+            homeLogo.alt = match.Kotijoukkue;
+            homeLogo.className = "team-icon";
+            tdHome.appendChild(homeLogo);
+          }
+          tdHome.appendChild(document.createTextNode(match.Kotijoukkue || ""));
+          tr.appendChild(tdHome);
+
+          // Vierasjoukkue: lisätään mahdollinen logo ja joukkueen nimi
+          const tdAway = document.createElement("td");
+          if (match.Vierasjoukkue && teamLogos[match.Vierasjoukkue]) {
+            const awayLogo = document.createElement("img");
+            awayLogo.src = `logot/${teamLogos[match.Vierasjoukkue]}`;
+            awayLogo.alt = match.Vierasjoukkue;
+            awayLogo.className = "team-icon";
+            tdAway.appendChild(awayLogo);
+          }
+          tdAway.appendChild(document.createTextNode(match.Vierasjoukkue || ""));
+          tr.appendChild(tdAway);
+
+          // Tulos-solu: linkki ottelukorttiin, tulos muodostetaan maalien perusteella
+          const tdResult = document.createElement("td");
+          const resultLink = document.createElement("a");
+          resultLink.href = `ottelukortti.html?ottelu_id=${match.ottelu_id}`;
+          let resultText = "-";
+          if (typeof match.maalit_koti !== "undefined" && typeof match.maalit_vieras !== "undefined") {
+            resultText = `${match.maalit_koti}-${match.maalit_vieras}`;
+          }
+          resultLink.textContent = resultText;
+          tdResult.appendChild(resultLink);
+          tr.appendChild(tdResult);
+
+          matchTableBody.appendChild(tr);
+        });
+      } catch (err) {
+        console.error("Virhe otteludataa haettaessa:", err);
+      }
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+      updateMatchTable();
+    });
+  </script>
+</head>
+<body>
+  <header class="header">
+    <div class="header-logo">
+      <a href="index.html">
+        <img src="logot/HPS.jpg" alt="HPS Logo">
+      </a>
+    </div>
+    <button class="menu-button" onclick="toggleMenu()">
+      <div></div>
+      <div></div>
+      <div></div>
+    </button>
+    <div class="menu" id="menu">
+      <a href="index.html">Etusivu</a>
+      <a href="sijoitukset.html">Sijoitukset</a>
+      <a href="kaudet.html">Kaudet</a>
+      <a href="joukkueet.html">Joukkueet</a>
+      <a href="pelaajat.html">Pelaajat</a>
+      <a href="vastustajat.html">Vastustajat</a>
+      <a href="stadionit.html">Stadionit</a>
+      <a href="kv-ottelut.html" class="active">KV-ottelut</a>
+      <a href="tilastot.html">Tilastot</a>
+    </div>
+  </header>
+  <main>
+    <h2 id="match-title">KV-ottelut</h2>
+    <table id="match-table" class="match-table">
+      <thead>
+        <tr>
+          <th>Pvm</th>
+          <th>Kilpailu</th>
+          <th>Stadion</th>
+          <th>Kaupunki</th>
+          <th>Kotijoukkue</th>
+          <th>Vierasjoukkue</th>
+          <th>Tulos</th>
+        </tr>
+      </thead>
+      <tbody id="table-body">
+        <!-- Ottelutiedot täytetään JavaScriptillä -->
+      </tbody>
+    </table>
+  </main>
+</body>
+</html>
