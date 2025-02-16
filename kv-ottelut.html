@@ -79,7 +79,7 @@
   async function updateMatchTable() {
     const teamLogos = {};
     try {
-      // Haetaan joukkueiden tiedot logojen saamiseksi
+      // Haetaan joukkueiden tiedot logojen saamiseksi sarjataulukot.json:sta
       const leagueResp = await fetch(`${dataFolder}/sarjataulukot.json`);
       const leagueData = await leagueResp.json();
       leagueData.forEach(row => {
@@ -89,6 +89,23 @@
       });
     } catch (err) {
       console.error("Virhe sarjataulukkodataa haettaessa:", err);
+    }
+    
+    try {
+      // Jos logoa ei löytynyt, haetaan se vastustajat.json:sta.
+      // Vastustajat.json:ssa joukkueen nimi löytyy "Lyhenne"-kentästä ja logon nimi "Logo"-kentästä.
+      const oppResp = await fetch(`${dataFolder}/vastustajat.json`);
+      const oppData = await oppResp.json();
+      oppData.forEach(row => {
+        if (row.Lyhenne && row.Logo) {
+          // Lisätään vain jos samaa avainta ei ole vielä lisätty
+          if (!teamLogos[row.Lyhenne]) {
+            teamLogos[row.Lyhenne] = row.Logo;
+          }
+        }
+      });
+    } catch (err) {
+      console.error("Virhe vastustajat.json-tiedostoa haettaessa:", err);
     }
     
     try {
