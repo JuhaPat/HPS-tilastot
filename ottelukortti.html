@@ -32,10 +32,9 @@
           <a href="kv-ottelut.html">KV-ottelut</a>
           <a href="tilastot.html">Tilastot</a>
         </div>
-      </header>
+    </header>
 
     <main>
-
         <!-- Ottelun tiedot -->
         <div class="section">
             <p class="match-details" id="competition"></p>
@@ -201,70 +200,85 @@
                     fetch(`${dataFolder}/sarjataulukot.json`)
                         .then(response => response.json())
                         .then(leagueData => {
-                            // Luodaan sanakirja, jossa avaimena on joukkueen nimi (kenttä "Joukkue")
-                            // ja arvona objekti, joka sisältää muun muassa logon tiedostonimen (kenttä "Logo").
                             const teamData = {};
                             leagueData.forEach(team => {
                                 if (team.Joukkue && team.Logo) {
                                     teamData[team.Joukkue] = { logo: team.Logo, name: team.Joukkue };
                                 }
                             });
-                            const homeData = teamData[match.Kotijoukkue] || { name: match.Kotijoukkue, logo: 'placeholder.png' };
-                            const awayData = teamData[match.Vierasjoukkue] || { name: match.Vierasjoukkue, logo: 'placeholder.png' };
+                            // Yritetään hakea kotijoukkueen ja vierasjoukkueen tiedot
+                            let homeData = teamData[match.Kotijoukkue];
+                            let awayData = teamData[match.Vierasjoukkue];
 
-                            // Asetetaan joukkueiden nimet ja logot sivulle
-                            document.getElementById('home-name').textContent = homeData.name;
-                            document.getElementById('home-logo').src = `logot/${homeData.logo}`;
-                            document.getElementById('score').textContent = `${match.maalit_koti} - ${match.maalit_vieras}`;
-                            document.getElementById('away-logo').src = `logot/${awayData.logo}`;
-                            document.getElementById('away-name').textContent = awayData.name;
-                            document.getElementById('result-additional-info').textContent = match.lisätietoja || '';
-
-                            // Asetetaan ottelun muut tiedot
-                            document.getElementById('competition').textContent = match.Kilpailu;
-                            document.getElementById('stadium-city').textContent = `${match.Stadion}, ${match.Kaupunki}`;
-                            document.getElementById('date').textContent = match.Päivämäärä;
-                            document.getElementById('referee').textContent = `Erotuomari: ${match.erotuomari || 'Tieto puuttuu'}`;
-                            document.getElementById('attendance').textContent = `Yleisömäärä: ${match.yleisömäärä || 'Tieto puuttuu'}`;
-
-                            // Käsitellään maalintekijöiden tiedot
-                            const parseScorers = (scorersString) => {
-                                if (!scorersString) {
-                                    return '<p>Ei maalintekijöitä</p>';
-                                }
-                                return scorersString.split(',').map(s => {
-                                    const parts = s.trim().split(' ');
-                                    const time = isNaN(parts[parts.length - 1]) ? '' : parts.pop();
-                                    const name = parts.join(' ');
-                                    return `<div class="scorer"><img src="logot/Pallo.jpg" alt="Pallo">${name}${time ? ` ${time}'` : ''}</div>`;
-                                }).join('');
-                            };
-
-                            document.getElementById('home-scorers').innerHTML = parseScorers(match.maalintekijät_koti);
-                            document.getElementById('away-scorers').innerHTML = parseScorers(match.maalintekijät_vieras);
-
-                            // Haetaan lisäkuvat
-                            fetchImages(otteluId).then(foundPaths => {
-                                if (!foundPaths || foundPaths.length === 0) {
-                                    return;
-                                }
-                                let extraContent = '';
-                                foundPaths.forEach(path => {
-                                    extraContent += `
-                                        <div class="image-container">
-                                            <img src="${path}" alt="Ottelun lisäkuva" class="match-image">
-                                            ${match.kuvateksti && match.kuvateksti.trim() !== '' ? `<p class="image-caption">${match.kuvateksti}</p>` : ''}
-                                        </div>
-                                    `;
-                                });
-                                document.getElementById('extra-info').innerHTML = extraContent;
-                            });
+                            // Jos jompikumpi puuttuu, yritetään hakea tiedot vastustajat.json:sta
+                            if (!homeData || !awayData) {
+                                fetch(`${dataFolder}/vastustajat.json`)
+                                    .then(response => {
+                                        if (!response.ok) {
+                                            throw new Error("vastustajat.json not found");
+                                        }
+                                        return response.json();
+                                    })
+                                    .then(vastustajatData => {
+                                        const vastustajatDict = {};
+                                        vastustajatData.forEach(team => {
+                                            if (team.Lyhenne && team.Logo) {
+                                                vastustajatDict[team.Lyhenne] = { logo: team.Logo, name: team.Lyhenne };
+                                            }
+                                        });
+                                        if (!homeData) {
+                                            homeData = vastustajatDict[match.Kotijoukkue];
+                                        }
+                                        if (!awayData) {
+                                            awayData = vastustajatDict[match.Vierasjoukkue];
+                                        }
+                                        asetaTiedot(homeData, awayData, match);
+                                    })
+                                    .catch(error => {
+                                        console.error('Virhe vastustajat.json-tiedoston haussa:', error);
+                                        asetaTiedot(homeData, awayData, match);
+                                    });
+                            } else {
+                                asetaTiedot(homeData, awayData, match);
+                            }
                         })
                         .catch(error => console.error('Virhe ladattaessa sarjataulukot.json-tiedostoa:', error));
                 })
                 .catch(error => console.error('Virhe ladattaessa ottelut.json-tiedostoa:', error));
         } else {
             document.getElementById('match-result').innerHTML = '<p>Ottelun tiedot puuttuvat!</p>';
+        }
+
+        // Funktio, joka asettaa joukkueiden tiedot ja muut ottelun tiedot sivulle
+        function asetaTiedot(homeData, awayData, match) {
+            const finalHomeData = homeData || { name: match.Kotijoukkue, logo: 'placeholder.png' };
+            const finalAwayData = awayData || { name: match.Vierasjoukkue, logo: 'placeholder.png' };
+
+            document.getElementById('home-name').textContent = finalHomeData.name;
+            document.getElementById('home-logo').src = `logot/${finalHomeData.logo}`;
+            document.getElementById('score').textContent = `${match.maalit_koti} - ${match.maalit_vieras}`;
+            document.getElementById('away-logo').src = `logot/${finalAwayData.logo}`;
+            document.getElementById('away-name').textContent = finalAwayData.name;
+            document.getElementById('result-additional-info').textContent = match.lisätietoja || '';
+
+            document.getElementById('competition').textContent = match.Kilpailu;
+            document.getElementById('stadium-city').textContent = `${match.Stadion}, ${match.Kaupunki}`;
+            document.getElementById('date').textContent = match.Päivämäärä;
+            document.getElementById('referee').textContent = `Erotuomari: ${match.erotuomari || 'Tieto puuttuu'}`;
+            document.getElementById('attendance').textContent = `Yleisömäärä: ${match.yleisömäärä || 'Tieto puuttuu'}`;
+        }
+
+        // Käsitellään maalintekijöiden tiedot
+        function parseScorers(scorersString) {
+            if (!scorersString) {
+                return '<p>Ei maalintekijöitä</p>';
+            }
+            return scorersString.split(',').map(s => {
+                const parts = s.trim().split(' ');
+                const time = isNaN(parts[parts.length - 1]) ? '' : parts.pop();
+                const name = parts.join(' ');
+                return `<div class="scorer"><img src="logot/Pallo.jpg" alt="Pallo">${name}${time ? ` ${time}'` : ''}</div>`;
+            }).join('');
         }
 
         // Funktio, joka lisää URL-parametrin "joukkue" kaikkiin sisäisiin linkkeihin
@@ -275,7 +289,6 @@
             const links = document.querySelectorAll("a[href]");
             links.forEach(link => {
                 let href = link.getAttribute("href");
-                // Päivitetään vain sisäiset linkit (ei ulkoisia tai mailto-linkkejä)
                 if (href && !href.match(/^https?:\/\//) && !href.startsWith("mailto:")) {
                     if (href.indexOf("?") === -1) {
                         href += `?joukkue=${encodeURIComponent(joukkue)}`;
