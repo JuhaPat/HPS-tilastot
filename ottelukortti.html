@@ -1,298 +1,324 @@
 <!DOCTYPE html>
 <html lang="fi">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ottelukortti</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ottelukortti</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
-        <div class="header-logo">
-            <a href="index.html">
-                <img src="logot/HPS.jpg" alt="HPS Logo">
-            </a>
-        </div>
-        <h1 class="page-title" id="team-title"></h1>
-        <h1 id="team-subtitle"></h1>
-        <button class="menu-button" onclick="toggleMenu()">
-          <div></div>
-          <div></div>
-          <div></div>
-        </button>
-        <div class="menu" id="menu">
-          <a href="index.html">Etusivu</a>
-          <a href="sijoitukset.html">Sijoitukset</a>
-          <a href="kaudet.html">Kaudet</a>
-          <a href="joukkueet.html" class="active">Joukkueet</a>
-          <a href="pelaajat.html">Pelaajat</a>
-          <a href="vastustajat.html">Vastustajat</a>
-          <a href="stadionit.html">Stadionit</a>
-          <a href="kv-ottelut.html">KV-ottelut</a>
-          <a href="tilastot.html">Tilastot</a>
-        </div>
-    </header>
+  <header class="header">
+    <div class="header-logo">
+      <a href="index.html">
+        <img src="logot/HPS.jpg" alt="HPS Logo">
+      </a>
+    </div>
+    <h1 class="page-title" id="team-title"></h1>
+    <h1 id="team-subtitle"></h1>
+    <button class="menu-button" onclick="toggleMenu()">
+      <div></div>
+      <div></div>
+      <div></div>
+    </button>
+    <div class="menu" id="menu">
+      <a href="index.html">Etusivu</a>
+      <a href="sijoitukset.html">Sijoitukset</a>
+      <a href="kaudet.html">Kaudet</a>
+      <a href="joukkueet.html" class="active">Joukkueet</a>
+      <a href="pelaajat.html">Pelaajat</a>
+      <a href="vastustajat.html">Vastustajat</a>
+      <a href="stadionit.html">Stadionit</a>
+      <a href="kv-ottelut.html">KV-ottelut</a>
+      <a href="tilastot.html">Tilastot</a>
+    </div>
+  </header>
 
-    <main>
-        <!-- Ottelun tiedot -->
-        <div class="section">
-            <p class="match-details" id="competition"></p>
-            <p class="stadium-city" id="stadium-city"></p>
-            <p class="date" id="date"></p>
-            <p class="officials" id="referee"></p>
-            <p class="officials" id="attendance"></p>
-            <p class="officials" id="additional-info"></p>
+  <main>
+    <!-- Ottelun tiedot -->
+    <div class="section">
+      <p class="match-details" id="competition"></p>
+      <p class="stadium-city" id="stadium-city"></p>
+      <p class="date" id="date"></p>
+      <p class="officials" id="referee"></p>
+      <p class="officials" id="attendance"></p>
+      <p class="officials" id="additional-info"></p>
 
-            <!-- Vihreät nuolinavigaatiolinkit -->
-            <div class="arrow-links">
-                <a id="prev-arrow" class="arrow-link" href="#">
-                    Edellinen ottelu
-                </a>
-                <a id="next-arrow" class="arrow-link" href="#">
-                    Seuraava ottelu
-                </a>
-            </div>
-        </div>
+      <!-- Vihreät nuolinavigaatiolinkit -->
+      <div class="arrow-links">
+        <a id="prev-arrow" class="arrow-link" href="#">
+          Edellinen ottelu
+        </a>
+        <a id="next-arrow" class="arrow-link" href="#">
+          Seuraava ottelu
+        </a>
+      </div>
+    </div>
 
-        <!-- Ottelun tulos -->
-        <div class="section">
-            <table class="result-table">
-                <tr>
-                    <td class="team-name" id="home-name"></td>
-                    <td><img src="" alt="Kotijoukkueen logo" class="team-logo" id="home-logo"></td>
-                    <td class="score" id="score"></td>
-                    <td><img src="" alt="Vierasjoukkueen logo" class="team-logo" id="away-logo"></td>
-                    <td class="team-name" id="away-name"></td>
-                </tr>
-            </table>
-            <p class="additional-info" id="result-additional-info"></p>
-        </div>
+    <!-- Ottelun tulos -->
+    <div class="section">
+      <table class="result-table">
+        <tr>
+          <td class="team-name" id="home-name"></td>
+          <td><img src="" alt="Kotijoukkueen logo" class="team-logo" id="home-logo"></td>
+          <td class="score" id="score"></td>
+          <td><img src="" alt="Vierasjoukkueen logo" class="team-logo" id="away-logo"></td>
+          <td class="team-name" id="away-name"></td>
+        </tr>
+      </table>
+      <p class="additional-info" id="result-additional-info"></p>
+    </div>
 
-        <!-- Maalintekijät -->
-        <div class="section">
-            <table class="scorer-table">
-                <tr>
-                    <td id="home-scorers"></td>
-                    <td id="away-scorers"></td>
-                </tr>
-            </table>
-        </div>
+    <!-- Maalintekijät -->
+    <div class="section">
+      <table class="scorer-table">
+        <tr>
+          <td id="home-scorers"></td>
+          <td id="away-scorers"></td>
+        </tr>
+      </table>
+    </div>
 
-        <!-- Joukkueiden kokoonpanot -->
-        <div class="section">
-            <div class="team-roster">
-                <div id="home-roster"></div>
-                <div id="away-roster"></div>
-            </div>
-        </div>
+    <!-- Joukkueiden kokoonpanot -->
+    <div class="section">
+      <div class="team-roster">
+        <div id="home-roster"></div>
+        <div id="away-roster"></div>
+      </div>
+    </div>
 
-        <!-- Ottelun lisätiedot -->
-        <div class="section">
-            <div class="extra-info" id="extra-info"></div>
-        </div>
-    </main>
+    <!-- Ottelun lisätiedot ja lisäkuvat -->
+    <div class="section">
+      <div class="extra-info" id="extra-info"></div>
+    </div>
+  </main>
 
-    <script>
-        // Navigointipainikkeen toiminto
-        function toggleMenu() {
-            const menu = document.getElementById('menu');
-            menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+  <script>
+    // Navigointipainikkeen toiminto
+    function toggleMenu() {
+      const menu = document.getElementById('menu');
+      menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+    }
+
+    // Käsitellään URL-parametrit
+    const urlParams = new URLSearchParams(window.location.search);
+    const teamParam = urlParams.get('joukkue');
+    // Jos parametri on "naiset", käytetään kansiota "data naiset",
+    // muuten (tai jos parametria ei ole) käytetään "data miehet".
+    const dataFolder = teamParam === 'naiset' ? 'data naiset' : 'data miehet';
+
+    // Korvataan HEAD-pyyntöjen käyttö kuvan latauksella
+    function findExistingImage(paths) {
+      let i = 0;
+      return new Promise(resolve => {
+        function tryNext() {
+          if (i >= paths.length) {
+            resolve(null);
+            return;
+          }
+          const img = new Image();
+          img.onload = () => resolve(paths[i]);
+          img.onerror = () => { i++; tryNext(); };
+          img.src = paths[i];
         }
+        tryNext();
+      });
+    }
 
-        // Käsitellään URL-parametrit
-        const urlParams = new URLSearchParams(window.location.search);
-        const teamParam = urlParams.get('joukkue');
-        // Jos parametri on "naiset", käytetään kansiota "data naiset",
-        // muuten (tai jos parametria ei ole) käytetään "data miehet".
-        const dataFolder = teamParam === 'naiset' ? 'data naiset' : 'data miehet';
+    // Hakee kuvat (testaa useita tiedostopäätteitä ja kansioita)
+    async function fetchImages(otteluId) {
+      const suffixes = ['', ...'abc'];
+      const foundPaths = [];
+      for (const suffix of suffixes) {
+        const possiblePaths = [
+          `Lehtileikkeet/${otteluId}${suffix}.jpg`,
+          `Lehtileikkeet/${otteluId}${suffix}.JPG`,
+          `Kuvat/${otteluId}${suffix}.jpg`,
+          `Kuvat/${otteluId}${suffix}.JPG`
+        ];
+        const found = await findExistingImage(possiblePaths);
+        if (found) {
+          foundPaths.push(found);
+        }
+      }
+      return foundPaths;
+    }
 
-        // Korvataan HEAD-pyyntöjen käyttö kuvan latauksella
-        function findExistingImage(paths) {
-            let i = 0;
-            return new Promise(resolve => {
-                function tryNext() {
-                    if (i >= paths.length) {
-                        resolve(null);
-                        return;
-                    }
-                    const img = new Image();
-                    img.onload = () => resolve(paths[i]);
-                    img.onerror = () => { i++; tryNext(); };
-                    img.src = paths[i];
+    const otteluId = parseInt(urlParams.get('ottelu_id'), 10);
+
+    // Globaali muuttuja ottelujen tallentamiseen navigointia varten
+    let allMatches = [];
+
+    if (otteluId) {
+      // Ladataan ottelut .json-tiedostosta määritellystä data-kansiosta
+      fetch(`${dataFolder}/ottelut.json`)
+        .then(response => response.json())
+        .then(matches => {
+          allMatches = matches;
+          const match = matches.find(m => parseInt(m.ottelu_id, 10) === otteluId);
+          if (!match) {
+            document.body.innerHTML = '<p>Ottelua ei löytynyt!</p>';
+            return;
+          }
+          const sortedMatches = [...matches].sort((a, b) => parseInt(a.ottelu_id) - parseInt(b.ottelu_id));
+          const currentIndex = sortedMatches.findIndex(m => parseInt(m.ottelu_id) === otteluId);
+
+          // Haetaan URL-parametri "joukkue", jotta se voidaan lisätä linkkeihin
+          const joukkue = urlParams.get('joukkue');
+
+          // Asetetaan edellisen ja seuraavan ottelun linkit niin, että myös "joukkue" kulkee mukana
+          const prevArrow = document.getElementById('prev-arrow');
+          const nextArrow = document.getElementById('next-arrow');
+
+          if (currentIndex > 0) {
+            const prevId = sortedMatches[currentIndex - 1].ottelu_id;
+            prevArrow.href = `ottelukortti.html?ottelu_id=${prevId}${joukkue ? `&joukkue=${encodeURIComponent(joukkue)}` : ''}`;
+          } else {
+            prevArrow.style.display = 'none';
+          }
+          if (currentIndex < sortedMatches.length - 1) {
+            const nextId = sortedMatches[currentIndex + 1].ottelu_id;
+            nextArrow.href = `ottelukortti.html?ottelu_id=${nextId}${joukkue ? `&joukkue=${encodeURIComponent(joukkue)}` : ''}`;
+          } else {
+            nextArrow.style.display = 'none';
+          }
+
+          // Haetaan joukkueen tiedot sarjataulukot.json-tiedostosta.
+          fetch(`${dataFolder}/sarjataulukot.json`)
+            .then(response => response.json())
+            .then(leagueData => {
+              const teamData = {};
+              leagueData.forEach(team => {
+                if (team.Joukkue && team.Logo) {
+                  teamData[team.Joukkue] = { logo: team.Logo, name: team.Joukkue };
                 }
-                tryNext();
-            });
-        }
+              });
+              // Yritetään hakea kotijoukkueen ja vierasjoukkueen tiedot
+              let homeData = teamData[match.Kotijoukkue];
+              let awayData = teamData[match.Vierasjoukkue];
 
-        // Hakee kuvat (testaa useita tiedostopäätteitä ja kansioita)
-        async function fetchImages(otteluId) {
-            const suffixes = ['', ...'abc'];
-            const foundPaths = [];
-            for (const suffix of suffixes) {
-                const possiblePaths = [
-                    `Lehtileikkeet/${otteluId}${suffix}.jpg`,
-                    `Lehtileikkeet/${otteluId}${suffix}.JPG`,
-                    `Kuvat/${otteluId}${suffix}.jpg`,
-                    `Kuvat/${otteluId}${suffix}.JPG`
-                ];
-                const found = await findExistingImage(possiblePaths);
-                if (found) {
-                    foundPaths.push(found);
-                }
-            }
-            return foundPaths;
-        }
-
-        const otteluId = parseInt(urlParams.get('ottelu_id'), 10);
-
-        // Globaali muuttuja ottelujen tallentamiseen navigointia varten
-        let allMatches = [];
-
-        if (otteluId) {
-            // Ladataan ottelut .json-tiedostosta määritellystä data-kansiosta
-            fetch(`${dataFolder}/ottelut.json`)
-                .then(response => response.json())
-                .then(matches => {
-                    allMatches = matches;
-                    const match = matches.find(m => parseInt(m.ottelu_id, 10) === otteluId);
-                    if (!match) {
-                        document.body.innerHTML = '<p>Ottelua ei löytynyt!</p>';
-                        return;
+              // Jos jompikumpi puuttuu, yritetään hakea tiedot vastustajat.json:sta
+              if (!homeData || !awayData) {
+                fetch(`${dataFolder}/vastustajat.json`)
+                  .then(response => {
+                    if (!response.ok) {
+                      throw new Error("vastustajat.json not found");
                     }
-                    const sortedMatches = [...matches].sort(
-                        (a, b) => parseInt(a.ottelu_id) - parseInt(b.ottelu_id)
-                    );
-                    const currentIndex = sortedMatches.findIndex(
-                        m => parseInt(m.ottelu_id) === otteluId
-                    );
-
-                    // Haetaan URL-parametri "joukkue", jotta se voidaan lisätä linkkeihin
-                    const joukkue = urlParams.get('joukkue');
-
-                    // Asetetaan edellisen ja seuraavan ottelun linkit niin, että myös "joukkue" kulkee mukana
-                    const prevArrow = document.getElementById('prev-arrow');
-                    const nextArrow = document.getElementById('next-arrow');
-
-                    if (currentIndex > 0) {
-                        const prevId = sortedMatches[currentIndex - 1].ottelu_id;
-                        prevArrow.href = `ottelukortti.html?ottelu_id=${prevId}${joukkue ? `&joukkue=${encodeURIComponent(joukkue)}` : ''}`;
-                    } else {
-                        prevArrow.style.display = 'none';
+                    return response.json();
+                  })
+                  .then(vastustajatData => {
+                    const vastustajatDict = {};
+                    vastustajatData.forEach(team => {
+                      if (team.Lyhenne && team.Logo) {
+                        vastustajatDict[team.Lyhenne] = { logo: team.Logo, name: team.Lyhenne };
+                      }
+                    });
+                    if (!homeData) {
+                      homeData = vastustajatDict[match.Kotijoukkue];
                     }
-                    if (currentIndex < sortedMatches.length - 1) {
-                        const nextId = sortedMatches[currentIndex + 1].ottelu_id;
-                        nextArrow.href = `ottelukortti.html?ottelu_id=${nextId}${joukkue ? `&joukkue=${encodeURIComponent(joukkue)}` : ''}`;
-                    } else {
-                        nextArrow.style.display = 'none';
+                    if (!awayData) {
+                      awayData = vastustajatDict[match.Vierasjoukkue];
                     }
+                    asetaTiedot(homeData, awayData, match);
+                    // Hae myös otteluun liittyvät lisäkuvat
+                    fetchImages(otteluId).then(foundPaths => {
+                      if (foundPaths && foundPaths.length > 0) {
+                        let extraContent = '';
+                        foundPaths.forEach(path => {
+                          extraContent += `
+                            <div class="image-container">
+                              <img src="${path}" alt="Ottelun lisäkuva" class="match-image">
+                              ${match.kuvateksti && match.kuvateksti.trim() !== '' ? `<p class="image-caption">${match.kuvateksti}</p>` : ''}
+                            </div>
+                          `;
+                        });
+                        document.getElementById('extra-info').innerHTML = extraContent;
+                      }
+                    });
+                  })
+                  .catch(error => {
+                    console.error('Virhe vastustajat.json-tiedoston haussa:', error);
+                    asetaTiedot(homeData, awayData, match);
+                  });
+              } else {
+                asetaTiedot(homeData, awayData, match);
+                // Hae myös otteluun liittyvät lisäkuvat
+                fetchImages(otteluId).then(foundPaths => {
+                  if (foundPaths && foundPaths.length > 0) {
+                    let extraContent = '';
+                    foundPaths.forEach(path => {
+                      extraContent += `
+                        <div class="image-container">
+                          <img src="${path}" alt="Ottelun lisäkuva" class="match-image">
+                          ${match.kuvateksti && match.kuvateksti.trim() !== '' ? `<p class="image-caption">${match.kuvateksti}</p>` : ''}
+                        </div>
+                      `;
+                    });
+                    document.getElementById('extra-info').innerHTML = extraContent;
+                  }
+                });
+              }
+            })
+            .catch(error => console.error('Virhe ladattaessa sarjataulukot.json-tiedostoa:', error));
+        })
+        .catch(error => console.error('Virhe ladattaessa ottelut.json-tiedostoa:', error));
+    } else {
+      document.getElementById('match-result').innerHTML = '<p>Ottelun tiedot puuttuvat!</p>';
+    }
 
-                    // Haetaan joukkueen tiedot sarjataulukot.json-tiedostosta.
-                    fetch(`${dataFolder}/sarjataulukot.json`)
-                        .then(response => response.json())
-                        .then(leagueData => {
-                            const teamData = {};
-                            leagueData.forEach(team => {
-                                if (team.Joukkue && team.Logo) {
-                                    teamData[team.Joukkue] = { logo: team.Logo, name: team.Joukkue };
-                                }
-                            });
-                            // Yritetään hakea kotijoukkueen ja vierasjoukkueen tiedot
-                            let homeData = teamData[match.Kotijoukkue];
-                            let awayData = teamData[match.Vierasjoukkue];
+    // Funktio, joka asettaa joukkueiden tiedot ja muut ottelun tiedot sivulle
+    function asetaTiedot(homeData, awayData, match) {
+      const finalHomeData = homeData || { name: match.Kotijoukkue, logo: 'placeholder.png' };
+      const finalAwayData = awayData || { name: match.Vierasjoukkue, logo: 'placeholder.png' };
 
-                            // Jos jompikumpi puuttuu, yritetään hakea tiedot vastustajat.json:sta
-                            if (!homeData || !awayData) {
-                                fetch(`${dataFolder}/vastustajat.json`)
-                                    .then(response => {
-                                        if (!response.ok) {
-                                            throw new Error("vastustajat.json not found");
-                                        }
-                                        return response.json();
-                                    })
-                                    .then(vastustajatData => {
-                                        const vastustajatDict = {};
-                                        vastustajatData.forEach(team => {
-                                            if (team.Lyhenne && team.Logo) {
-                                                vastustajatDict[team.Lyhenne] = { logo: team.Logo, name: team.Lyhenne };
-                                            }
-                                        });
-                                        if (!homeData) {
-                                            homeData = vastustajatDict[match.Kotijoukkue];
-                                        }
-                                        if (!awayData) {
-                                            awayData = vastustajatDict[match.Vierasjoukkue];
-                                        }
-                                        asetaTiedot(homeData, awayData, match);
-                                    })
-                                    .catch(error => {
-                                        console.error('Virhe vastustajat.json-tiedoston haussa:', error);
-                                        asetaTiedot(homeData, awayData, match);
-                                    });
-                            } else {
-                                asetaTiedot(homeData, awayData, match);
-                            }
-                        })
-                        .catch(error => console.error('Virhe ladattaessa sarjataulukot.json-tiedostoa:', error));
-                })
-                .catch(error => console.error('Virhe ladattaessa ottelut.json-tiedostoa:', error));
-        } else {
-            document.getElementById('match-result').innerHTML = '<p>Ottelun tiedot puuttuvat!</p>';
+      document.getElementById('home-name').textContent = finalHomeData.name;
+      document.getElementById('home-logo').src = `logot/${finalHomeData.logo}`;
+      document.getElementById('score').textContent = `${match.maalit_koti} - ${match.maalit_vieras}`;
+      document.getElementById('away-logo').src = `logot/${finalAwayData.logo}`;
+      document.getElementById('away-name').textContent = finalAwayData.name;
+      document.getElementById('result-additional-info').textContent = match.lisätietoja || '';
+
+      document.getElementById('competition').textContent = match.Kilpailu;
+      document.getElementById('stadium-city').textContent = `${match.Stadion}, ${match.Kaupunki}`;
+      document.getElementById('date').textContent = match.Päivämäärä;
+      document.getElementById('referee').textContent = `Erotuomari: ${match.erotuomari || 'Tieto puuttuu'}`;
+      document.getElementById('attendance').textContent = `Yleisömäärä: ${match.yleisömäärä || 'Tieto puuttuu'}`;
+    }
+
+    // Käsitellään maalintekijöiden tiedot
+    function parseScorers(scorersString) {
+      if (!scorersString) {
+        return '<p>Ei maalintekijöitä</p>';
+      }
+      return scorersString.split(',').map(s => {
+        const parts = s.trim().split(' ');
+        const time = isNaN(parts[parts.length - 1]) ? '' : parts.pop();
+        const name = parts.join(' ');
+        return `<div class="scorer"><img src="logot/Pallo.jpg" alt="Pallo">${name}${time ? ` ${time}'` : ''}</div>`;
+      }).join('');
+    }
+
+    // Funktio, joka lisää URL-parametrin "joukkue" kaikkiin sisäisiin linkkeihin
+    function appendJoukkueParamToLinks() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const joukkue = urlParams.get('joukkue');
+      if (!joukkue) return;
+      const links = document.querySelectorAll("a[href]");
+      links.forEach(link => {
+        let href = link.getAttribute("href");
+        if (href && !href.match(/^https?:\/\//) && !href.startsWith("mailto:")) {
+          if (href.indexOf("?") === -1) {
+            href += `?joukkue=${encodeURIComponent(joukkue)}`;
+          } else {
+            let url = new URL(href, window.location.origin);
+            url.searchParams.set("joukkue", joukkue);
+            href = url.pathname + url.search;
+          }
+          link.setAttribute("href", href);
         }
-
-        // Funktio, joka asettaa joukkueiden tiedot ja muut ottelun tiedot sivulle
-        function asetaTiedot(homeData, awayData, match) {
-            const finalHomeData = homeData || { name: match.Kotijoukkue, logo: 'placeholder.png' };
-            const finalAwayData = awayData || { name: match.Vierasjoukkue, logo: 'placeholder.png' };
-
-            document.getElementById('home-name').textContent = finalHomeData.name;
-            document.getElementById('home-logo').src = `logot/${finalHomeData.logo}`;
-            document.getElementById('score').textContent = `${match.maalit_koti} - ${match.maalit_vieras}`;
-            document.getElementById('away-logo').src = `logot/${finalAwayData.logo}`;
-            document.getElementById('away-name').textContent = finalAwayData.name;
-            document.getElementById('result-additional-info').textContent = match.lisätietoja || '';
-
-            document.getElementById('competition').textContent = match.Kilpailu;
-            document.getElementById('stadium-city').textContent = `${match.Stadion}, ${match.Kaupunki}`;
-            document.getElementById('date').textContent = match.Päivämäärä;
-            document.getElementById('referee').textContent = `Erotuomari: ${match.erotuomari || 'Tieto puuttuu'}`;
-            document.getElementById('attendance').textContent = `Yleisömäärä: ${match.yleisömäärä || 'Tieto puuttuu'}`;
-        }
-
-        // Käsitellään maalintekijöiden tiedot
-        function parseScorers(scorersString) {
-            if (!scorersString) {
-                return '<p>Ei maalintekijöitä</p>';
-            }
-            return scorersString.split(',').map(s => {
-                const parts = s.trim().split(' ');
-                const time = isNaN(parts[parts.length - 1]) ? '' : parts.pop();
-                const name = parts.join(' ');
-                return `<div class="scorer"><img src="logot/Pallo.jpg" alt="Pallo">${name}${time ? ` ${time}'` : ''}</div>`;
-            }).join('');
-        }
-
-        // Funktio, joka lisää URL-parametrin "joukkue" kaikkiin sisäisiin linkkeihin
-        function appendJoukkueParamToLinks() {
-            const urlParams = new URLSearchParams(window.location.search);
-            const joukkue = urlParams.get('joukkue');
-            if (!joukkue) return;
-            const links = document.querySelectorAll("a[href]");
-            links.forEach(link => {
-                let href = link.getAttribute("href");
-                if (href && !href.match(/^https?:\/\//) && !href.startsWith("mailto:")) {
-                    if (href.indexOf("?") === -1) {
-                        href += `?joukkue=${encodeURIComponent(joukkue)}`;
-                    } else {
-                        let url = new URL(href, window.location.origin);
-                        url.searchParams.set("joukkue", joukkue);
-                        href = url.pathname + url.search;
-                    }
-                    link.setAttribute("href", href);
-                }
-            });
-        }
-        document.addEventListener("DOMContentLoaded", appendJoukkueParamToLinks);
-    </script>
+      });
+    }
+    document.addEventListener("DOMContentLoaded", appendJoukkueParamToLinks);
+  </script>
 </body>
 </html>
