@@ -4,12 +4,12 @@
       "Logo": "Vesa.jpg"
     },
     {
-      "Lyhenne": "1FC Kosova",
-      "Logo": "1FC Kosova.jpg"
+      "Lyhenne": "FC Kosova",
+      "Logo": "FC Kosova.jpg"
     },
     {
-      "Lyhenne": "1PP FC",
-      "Logo": "1PP FC.jpg"
+      "Lyhenne": "PP FC",
+      "Logo": "PP FC.jpg"
     },
     {
       "Lyhenne": "AC Arctic/Häm",
@@ -26,6 +26,10 @@
     {
       "Lyhenne": "AC Vantaa",
       "Logo": "AC Vantaa.jpg"
+    },
+    {
+      "Lyhenne": "AIK",
+      "Logo": "AIK.jpg"
     },
     {
       "Lyhenne": "Ajaks",
@@ -84,6 +88,10 @@
       "Logo": "Dal.jpg"
     },
     {
+      "Lyhenne": "Djurgården",
+      "Logo": "Djurgården.jpg"
+    },
+    {
       "Lyhenne": "Drott",
       "Logo": "Drott.jpg"
     },
@@ -120,8 +128,8 @@
       "Logo": "Ellas.jpg"
     },
     {
-      "Lyhenne": "Ellas/4 Soner",
-      "Logo": "Ellas 4 Soner.jpg"
+      "Lyhenne": "Ellas/4 Sonera",
+      "Logo": "Ellas 4 Sonera.jpg"
     },
     {
       "Lyhenne": "Ellas/Juniors",
@@ -373,6 +381,10 @@
     {
       "Lyhenne": "GrIFK",
       "Logo": "GrIFK.jpg"
+    },
+    {
+      "Lyhenne": "Göteborg IFK",
+      "Logo": "Göteborg IFK.jpg"
     },
     {
       "Lyhenne": "HAIK",
@@ -642,10 +654,6 @@
       "Logo": "JyP-77.jpg"
     },
     {
-      "Lyhenne": "Jyväskylän palloilijat",
-      "Logo": "Jyväskylän palloilijat.jpg"
-    },
-    {
       "Lyhenne": "Jäntevä",
       "Logo": "Jäntevä.jpg"
     },
@@ -660,6 +668,10 @@
     {
       "Lyhenne": "KaaPo",
       "Logo": "KaaPo.jpg"
+    },
+    {
+      "Lyhenne": "Kalev",
+      "Logo": "Kalev.jpg"
     },
     {
       "Lyhenne": "Kampin Ilves",
@@ -1340,6 +1352,10 @@
     {
       "Lyhenne": "SibboV",
       "Logo": "SibboV.jpg"
+    },
+    {
+      "Lyhenne": "Sleipner",
+      "Logo": "Sleipner.jpg"
     },
     {
       "Lyhenne": "SLU",
