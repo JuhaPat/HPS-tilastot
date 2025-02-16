@@ -51,10 +51,16 @@
       </tbody>
     </table>
 
-
-
-
 <script>
+  // Palauttaa polkuprefiksin GitHub Pages -ympäristössä
+  function getBasePath() {
+    // Jos hostname sisältää "github.io", oletetaan että sivusto sijaitsee /HPS-tilastot/ -alikansiossa.
+    if (window.location.hostname.includes("github.io")) {
+      return "/HPS-tilastot/";
+    }
+    return "";
+  }
+
   // Näppärä funktio määrittämään data-kansion nimen URL-parametrin perusteella (naiset/miehet)
   function getTeamDataFolder() {
     const urlParams = new URLSearchParams(window.location.search);
@@ -101,10 +107,10 @@
       filteredMatches.forEach(match => {
         const tr = document.createElement("tr");
 
-        // Päivämäärä-solu, linkitetty ottelukorttiin
+        // Päivämäärä-solu, linkitetty ottelukorttiin käyttäen getBasePath()-funktiota
         const tdDate = document.createElement("td");
         const dateLink = document.createElement("a");
-        dateLink.href = `ottelukortti.html?ottelu_id=${match.ottelu_id}`;
+        dateLink.href = `${getBasePath()}ottelukortti.html?ottelu_id=${match.ottelu_id}`;
         dateLink.textContent = match["Päivämäärä"] || "";
         tdDate.appendChild(dateLink);
         tr.appendChild(tdDate);
@@ -140,10 +146,10 @@
         tdAway.appendChild(document.createTextNode(match.Vierasjoukkue || ""));
         tr.appendChild(tdAway);
 
-        // Tulos-solu: linkki ottelukorttiin, tulos muodostetaan maalien perusteella
+        // Tulos-solu: linkki ottelukorttiin käyttäen getBasePath()-funktiota
         const tdResult = document.createElement("td");
         const resultLink = document.createElement("a");
-        resultLink.href = `ottelukortti.html?ottelu_id=${match.ottelu_id}`;
+        resultLink.href = `${getBasePath()}ottelukortti.html?ottelu_id=${match.ottelu_id}`;
         let resultText = "-";
         if (typeof match.maalit_koti !== "undefined" && typeof match.maalit_vieras !== "undefined") {
           resultText = `${match.maalit_koti}-${match.maalit_vieras}`;
@@ -186,6 +192,6 @@
     appendJoukkueParamToLinks();
   });
 </script>
-</main>
+  </main>
 </body>
 </html>
