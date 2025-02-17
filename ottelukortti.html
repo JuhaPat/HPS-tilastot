@@ -100,14 +100,12 @@
       menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
     }
 
-    // Käsitellään URL-parametrit
+    // URL-parametrien käsittely
     const urlParams = new URLSearchParams(window.location.search);
     const teamParam = urlParams.get('joukkue');
-    // Jos parametri on "naiset", käytetään kansiota "data naiset",
-    // muuten (tai jos parametria ei ole) käytetään "data miehet".
     const dataFolder = teamParam === 'naiset' ? 'data naiset' : 'data miehet';
 
-    // Korvataan HEAD-pyyntöjen käyttö kuvan latauksella
+    // Käytetään Image-oliota kuvan latauksen tarkistamiseen HEAD-pyyntöjen sijaan
     function findExistingImage(paths) {
       let i = 0;
       return new Promise(resolve => {
@@ -125,9 +123,9 @@
       });
     }
 
-    // Hakee kuvat (testaa useita tiedostopäätteitä ja kansioita)
+    // Funktio, joka hakee kuvatiedostot useilla mahdollisilla suffikseilla
     async function fetchImages(otteluId) {
-      const suffixes = ['', ...'abc'];
+      const suffixes = ['', ...'abc']; // Tämä muodostaa taulukon ['','a','b','c']
       const foundPaths = [];
       for (const suffix of suffixes) {
         const possiblePaths = [
@@ -145,12 +143,9 @@
     }
 
     const otteluId = parseInt(urlParams.get('ottelu_id'), 10);
-
-    // Globaali muuttuja ottelujen tallentamiseen navigointia varten
     let allMatches = [];
 
     if (otteluId) {
-      // Ladataan ottelut .json-tiedostosta määritellystä data-kansiosta
       fetch(`${dataFolder}/ottelut.json`)
         .then(response => response.json())
         .then(matches => {
@@ -162,11 +157,8 @@
           }
           const sortedMatches = [...matches].sort((a, b) => parseInt(a.ottelu_id) - parseInt(b.ottelu_id));
           const currentIndex = sortedMatches.findIndex(m => parseInt(m.ottelu_id) === otteluId);
-
-          // Haetaan URL-parametri "joukkue", jotta se voidaan lisätä linkkeihin
           const joukkue = urlParams.get('joukkue');
 
-          // Asetetaan edellisen ja seuraavan ottelun linkit niin, että myös "joukkue" kulkee mukana
           const prevArrow = document.getElementById('prev-arrow');
           const nextArrow = document.getElementById('next-arrow');
 
@@ -183,7 +175,7 @@
             nextArrow.style.display = 'none';
           }
 
-          // Haetaan joukkueen tiedot sarjataulukot.json-tiedostosta.
+          // Haetaan joukkueiden tiedot sarjataulukot.json:sta
           fetch(`${dataFolder}/sarjataulukot.json`)
             .then(response => response.json())
             .then(leagueData => {
@@ -193,11 +185,10 @@
                   teamData[team.Joukkue] = { logo: team.Logo, name: team.Joukkue };
                 }
               });
-              // Yritetään hakea kotijoukkueen ja vierasjoukkueen tiedot
               let homeData = teamData[match.Kotijoukkue];
               let awayData = teamData[match.Vierasjoukkue];
 
-              // Jos jompikumpi puuttuu, yritetään hakea tiedot vastustajat.json:sta
+              // Jos jompikumpi tiedoista puuttuu, haetaan myös vastustajat.json:sta
               if (!homeData || !awayData) {
                 fetch(`${dataFolder}/vastustajat.json`)
                   .then(response => {
@@ -220,7 +211,7 @@
                       awayData = vastustajatDict[match.Vierasjoukkue];
                     }
                     asetaTiedot(homeData, awayData, match);
-                    // Hae myös otteluun liittyvät lisäkuvat
+                    // Haetaan lisäkuvat
                     fetchImages(otteluId).then(foundPaths => {
                       if (foundPaths && foundPaths.length > 0) {
                         let extraContent = '';
@@ -242,7 +233,7 @@
                   });
               } else {
                 asetaTiedot(homeData, awayData, match);
-                // Hae myös otteluun liittyvät lisäkuvat
+                // Haetaan lisäkuvat
                 fetchImages(otteluId).then(foundPaths => {
                   if (foundPaths && foundPaths.length > 0) {
                     let extraContent = '';
@@ -266,7 +257,7 @@
       document.getElementById('match-result').innerHTML = '<p>Ottelun tiedot puuttuvat!</p>';
     }
 
-    // Funktio, joka asettaa joukkueiden tiedot ja muut ottelun tiedot sivulle
+    // Funktio, joka asettaa joukkueiden tiedot, maalintekijöiden tiedot ja muut ottelun tiedot sivulle
     function asetaTiedot(homeData, awayData, match) {
       const finalHomeData = homeData || { name: match.Kotijoukkue, logo: 'placeholder.png' };
       const finalAwayData = awayData || { name: match.Vierasjoukkue, logo: 'placeholder.png' };
@@ -278,6 +269,18 @@
       document.getElementById('away-name').textContent = finalAwayData.name;
       document.getElementById('result-additional-info').textContent = match.lisätietoja || '';
 
+      // Asetetaan maalintekijöiden tiedot
+      if (match.maalintekijät_koti) {
+        document.getElementById('home-scorers').innerHTML = parseScorers(match.maalintekijät_koti);
+      } else {
+        document.getElementById('home-scorers').innerHTML = '<p>Ei maalintekijöitä</p>';
+      }
+      if (match.maalintekijät_vieras) {
+        document.getElementById('away-scorers').innerHTML = parseScorers(match.maalintekijät_vieras);
+      } else {
+        document.getElementById('away-scorers').innerHTML = '<p>Ei maalintekijöitä</p>';
+      }
+
       document.getElementById('competition').textContent = match.Kilpailu;
       document.getElementById('stadium-city').textContent = `${match.Stadion}, ${match.Kaupunki}`;
       document.getElementById('date').textContent = match.Päivämäärä;
@@ -285,7 +288,7 @@
       document.getElementById('attendance').textContent = `Yleisömäärä: ${match.yleisömäärä || 'Tieto puuttuu'}`;
     }
 
-    // Käsitellään maalintekijöiden tiedot
+    // Funktio, joka käsittelee maalintekijöiden tiedot
     function parseScorers(scorersString) {
       if (!scorersString) {
         return '<p>Ei maalintekijöitä</p>';
