@@ -14,6 +14,7 @@
         <img src="logot/HPS.jpg" alt="HPS Logo">
       </a>
     </div>
+    <!-- Asetetaan otsikko "Miehet" tai "Naiset" URL-parametrin mukaan -->
     <h1 class="page-title" id="team-title"></h1>
     <h1 id="team-subtitle"></h1>
     <button class="menu-button" onclick="toggleMenu()">
@@ -100,9 +101,11 @@
       menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
     }
 
-    // URL-parametrien käsittely
+    // Käsitellään URL-parametrit
     const urlParams = new URLSearchParams(window.location.search);
     const teamParam = urlParams.get('joukkue');
+    // Asetetaan otsikon tekstiksi "Naiset" jos joukkue-parametri on "naiset", muuten "Miehet"
+    document.getElementById('team-title').textContent = teamParam === 'naiset' ? "Naiset" : "Miehet";
     const dataFolder = teamParam === 'naiset' ? 'data naiset' : 'data miehet';
 
     // Käytetään Image-oliota kuvan latauksen tarkistamiseen HEAD-pyyntöjen sijaan
@@ -188,7 +191,7 @@
               let homeData = teamData[match.Kotijoukkue];
               let awayData = teamData[match.Vierasjoukkue];
 
-              // Jos jompikumpi tiedoista puuttuu, haetaan myös vastustajat.json:sta
+              // Jos tiedot puuttuvat, haetaan myös vastustajat.json:sta
               if (!homeData || !awayData) {
                 fetch(`${dataFolder}/vastustajat.json`)
                   .then(response => {

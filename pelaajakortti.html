@@ -14,6 +14,7 @@
                 <img src="logot/HPS.jpg" alt="HPS Logo">
             </a>
         </div>
+        <!-- Otsikko, joka asetetaan joukkue-parametrin perusteella -->
         <h1 class="page-title" id="team-title"></h1>
         <h1 id="team-subtitle"></h1>
         <button class="menu-button" onclick="toggleMenu()">
@@ -88,23 +89,26 @@
             menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
         }
 
-        // 1) Haetaan URL-parametreista pelaajan etu- ja sukunimi
+        // Haetaan URL-parametreista pelaajan etu- ja sukunimi sekä joukkue-parametri
         const urlParams = new URLSearchParams(window.location.search);
         const sukunimi = urlParams.get('sukunimi');
         const etunimi = urlParams.get('etunimi');
+        const joukkueParam = urlParams.get('joukkue');
 
-        // 2) Asetetaan pelaajan nimi otsikkokenttään
+        // Asetetaan HPS-logon alapuolelle otsikko "Naiset" tai "Miehet" joukkue-parametrin perusteella
+        document.getElementById('team-title').textContent = (joukkueParam === 'naiset' ? 'Naiset' : 'Miehet');
+
+        // Asetetaan pelaajan nimi otsikkokenttään
         document.getElementById('player-name').textContent = `${etunimi} ${sukunimi}`;
 
-        // 3) Yritetään näyttää pelaajan kuva nimellä "Etunimi Sukunimi.jpg"
+        // Yritetään näyttää pelaajan kuva nimellä "Etunimi Sukunimi.jpg"
         const playerPhoto = document.getElementById('player-photo');
-        playerPhoto.src = `pelaajakuvat/${etunimi} ${sukunimi}.jpg`; 
+        playerPhoto.src = `pelaajakuvat/${etunimi} ${sukunimi}.jpg`;
 
-        // 4) Määritellään data-kansion polku URL-parametrin "joukkue" perusteella
-        const urlParams2 = new URLSearchParams(window.location.search);
-        const joukkueParam2 = (urlParams2.get('joukkue') === 'naiset') ? 'data naiset' : 'data miehet';
+        // Määritellään data-kansion polku URL-parametrin "joukkue" perusteella
+        const joukkueDataFolder = (joukkueParam === 'naiset') ? 'data naiset' : 'data miehet';
 
-        // 5) Yhdistetään sarjataulukot.json:n ja pelaajat.json:n lataus Promise.allilla,
+        // Yhdistetään sarjataulukot.json:n ja pelaajat.json:n lataus Promise.allilla,
         // jotta varmistetaan, että sarjataulukkodata on ladattu ennen tilastojen renderöintiä.
         let sarjataulukot = {};
         let yearStats = {}; // Kaikkien pelien tilastot
@@ -112,8 +116,8 @@
         let roles = new Set();
 
         Promise.all([
-            fetch(`${joukkueParam2}/sarjataulukot.json`).then(response => response.json()),
-            fetch(`${joukkueParam2}/pelaajat.json`).then(response => response.json())
+            fetch(`${joukkueDataFolder}/sarjataulukot.json`).then(response => response.json()),
+            fetch(`${joukkueDataFolder}/pelaajat.json`).then(response => response.json())
         ])
         .then(([sarjataulukotData, pelaajatData]) => {
             // Muutetaan sarjataulukot-data sanakirjaksi: { Kausi: Sarjataso, ... }
@@ -182,7 +186,7 @@
         })
         .catch(error => console.error('Virhe ladattaessa dataa:', error));
 
-        // 6) Funktio taulukon renderöintiin valitun pelityypin perusteella
+        // Funktio taulukon renderöintiin valitun pelityypin perusteella
         function renderTable() {
             const tbody = document.getElementById('player-stats').querySelector('tbody');
             const totalGamesCell = document.getElementById('total-games');
@@ -201,7 +205,6 @@
             const sortedYears = Object.keys(yearStats).sort((a, b) => parseInt(a) - parseInt(b));
             sortedYears.forEach(year => {
                 const rowData = yearStats[year];
-
                 let pelit = 0;
                 let maalit = 0;
 
@@ -233,7 +236,7 @@
             totalGoalsCell.textContent = totalGoals;
         }
 
-        // Lisätään funktio, joka varmistaa, että kaikki sisäiset linkit saavat URL-parametrin "joukkue"
+        // Funktio, joka varmistaa, että kaikki sisäiset linkit saavat URL-parametrin "joukkue"
         function appendJoukkueParamToLinks() {
             const urlParams = new URLSearchParams(window.location.search);
             const joukkue = urlParams.get("joukkue");

@@ -14,25 +14,26 @@
                 <img src="logot/HPS.jpg" alt="HPS Logo">
             </a>
         </div>
-        <h1 class="page-title" id="team-title"></h1>
+        <!-- Päivitetty otsikko HPS-logon alle käyttämään page-title -tyyliä -->
+        <h2 id="team-title" class="page-title"></h2>
         <h1 id="team-subtitle"></h1>
         <button class="menu-button" onclick="toggleMenu()">
-          <div></div>
-          <div></div>
-          <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
         </button>
         <div class="menu" id="menu">
-          <a href="index.html">Etusivu</a>
-          <a href="sijoitukset.html">Sijoitukset</a>
-          <a href="kaudet.html">Kaudet</a>
-          <a href="joukkueet.html" class="active">Joukkueet</a>
-          <a href="pelaajat.html">Pelaajat</a>
-          <a href="vastustajat.html">Vastustajat</a>
-          <a href="stadionit.html">Stadionit</a>
-          <a href="kv-ottelut.html">KV-ottelut</a>
-          <a href="tilastot.html">Tilastot</a>
+            <a href="index.html">Etusivu</a>
+            <a href="sijoitukset.html">Sijoitukset</a>
+            <a href="kaudet.html">Kaudet</a>
+            <a href="joukkueet.html" class="active">Joukkueet</a>
+            <a href="pelaajat.html">Pelaajat</a>
+            <a href="vastustajat.html">Vastustajat</a>
+            <a href="stadionit.html">Stadionit</a>
+            <a href="kv-ottelut.html">KV-ottelut</a>
+            <a href="tilastot.html">Tilastot</a>
         </div>
-      </header>
+    </header>
 
     <main>
         <h1>Pelaajat</h1>
@@ -76,6 +77,19 @@
             const menu = document.getElementById('menu');
             menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
         }
+
+        // Päivitetään HPS-logon alle tuleva otsikko URL-parametrin mukaan
+        window.addEventListener('DOMContentLoaded', () => {
+            const urlParams = new URLSearchParams(window.location.search);
+            const joukkue = urlParams.get('joukkue') || 'miehet';
+            const teamTitle = document.getElementById('team-title');
+
+            if (joukkue === 'naiset') {
+                teamTitle.textContent = "Naiset";
+            } else {
+                teamTitle.textContent = "Miehet";
+            }
+        });
 
         // Lisää joukkue-parametri menu-linkkeihin
         window.addEventListener('DOMContentLoaded', () => {
@@ -236,7 +250,6 @@
                         `;
                         fragment.appendChild(tr);
                     });
-                    // Päivitetään taulukon sisältö kerralla
                     tableBody.innerHTML = '';
                     tableBody.appendChild(fragment);
                 }

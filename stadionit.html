@@ -13,6 +13,8 @@
       <a href="index.html">
         <img src="logot/HPS.jpg" alt="HPS Logo">
       </a>
+      <!-- Uusi otsikko HPS-logon alapuolella -->
+      <h1 class="page-title"></h1>
     </div>
     <button class="menu-button" onclick="toggleMenu()">
       <div></div>
@@ -213,6 +215,16 @@
       // Haetaan ottelut.json ja generoidaan taulukko
       document.addEventListener('DOMContentLoaded', function() {
         appendJoukkueParamToLinks();
+        
+        // Aseta HPS-logon alle otsikko "Miehet" tai "Naiset" url-parametrin mukaan
+        var urlParams = new URLSearchParams(window.location.search);
+        var joukkue = urlParams.get("joukkue");
+        var titleText = (joukkue === "naiset") ? "Naiset" : "Miehet";
+        var pageTitleElem = document.querySelector(".page-title");
+        if (pageTitleElem) {
+          pageTitleElem.textContent = titleText;
+        }
+        
         var dataFolder = getTeamDataFolder();
         fetch(dataFolder + '/ottelut.json')
           .then(response => response.json())

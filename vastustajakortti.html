@@ -22,6 +22,7 @@
             <img src="logot/HPS.jpg" alt="HPS Logo">
         </a>
     </div>
+    <!-- Otsikko HPS-logon alapuolella -->
     <h1 class="page-title" id="team-title"></h1>
     <h1 id="team-subtitle"></h1>
     <button class="menu-button" onclick="toggleMenu()">
@@ -99,6 +100,9 @@
         const teamParam = urlParams.get('joukkue');         // miehet / naiset
         const opponentShortName = urlParams.get('vastustaja'); // mm. HIFK, TPS jne.
 
+        // Päivitetään HPS-logon alapuolella oleva otsikko sen mukaan, mikä joukkue-parametri on
+        document.getElementById("team-title").textContent = teamParam === "naiset" ? "Naiset" : "Miehet";
+
         // Määritetään dataFolder joukkue-parametrin perusteella
         const dataFolder = getTeamDataFolder();
 
@@ -162,8 +166,7 @@
                                         const homeLogo = teamLogos[match.Kotijoukkue] || '';
                                         const awayLogo = teamLogos[match.Vierasjoukkue] || '';
 
-                                        // Huom! Lisätään "joukkue" -parametri Tulos-linkkiin
-                                        // -> ottelukortti.html?ottelu_id=123&joukkue=xxx
+                                        // Lisätään "joukkue" -parametri Tulos-linkkiin
                                         return `
                                             <tr>
                                                 <td>${date}</td>

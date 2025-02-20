@@ -18,10 +18,11 @@
 <body>
   <header class="header">
     <div class="header-logo">
-        <a href="index.html">
-            <img src="logot/HPS.jpg" alt="HPS Logo">
-        </a>
+      <a href="index.html">
+        <img src="logot/HPS.jpg" alt="HPS Logo">
+      </a>
     </div>
+    <!-- HPS-logon alapuolella oleva otsikko, jonka sisältö asetetaan JavaScriptillä -->
     <h1 class="page-title" id="team-type"></h1>
     <button class="menu-button" onclick="toggleMenu()">
       <div></div>
@@ -112,7 +113,7 @@
     const vuosiParam = urlParams.get('vuosi') || "2024";
     const dataFolder = getTeamDataFolder();
 
-    // Näytä joukkueen nimi
+    // Aseta HPS-logon alapuolella oleva otsikko "Miehet" tai "Naiset"
     const teamTypeElem = document.getElementById('team-type');
     teamTypeElem.textContent = teamParam === 'naiset' ? "Naiset" : "Miehet";
 

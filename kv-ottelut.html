@@ -12,6 +12,8 @@
         <img src="logot/HPS.jpg" alt="HPS Logo">
       </a>
     </div>
+    <!-- Uusi otsikko, jonka sisältö määräytyy URL-parametrin "joukkue" mukaan -->
+    <h1 id="team-title" class="page-title"></h1>
     <button class="menu-button" onclick="toggleMenu()">
       <div></div>
       <div></div>
@@ -203,10 +205,18 @@
     });
   }
 
-  // Kun DOM on ladattu, päivitetään ottelutaulukko ja liitetään URL-parametri linkkeihin
+  // Kun DOM on ladattu, päivitetään ottelutaulukko, liitetään URL-parametri linkkeihin ja asetetaan otsikon sisältö
   document.addEventListener("DOMContentLoaded", async () => {
     await updateMatchTable();
     appendJoukkueParamToLinks();
+
+    // Asetetaan headerin "page-title" -otsikko URL-parametrin "joukkue" mukaan
+    const urlParams = new URLSearchParams(window.location.search);
+    const teamParam = urlParams.get('joukkue');
+    const teamTitleElem = document.getElementById("team-title");
+    if (teamTitleElem) {
+      teamTitleElem.textContent = teamParam === "naiset" ? "Naiset" : "Miehet";
+    }
   });
 </script>
   </main>

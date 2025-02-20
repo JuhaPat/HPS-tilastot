@@ -619,7 +619,7 @@ thead tr:nth-child(2) th {
 }
 /* Pelaajatiedot-taulukko */
 table.player-table {
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
     border-collapse: collapse;
 }

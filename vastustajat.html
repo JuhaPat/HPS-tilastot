@@ -35,10 +35,11 @@
 <body>
   <header class="header">
     <div class="header-logo">
-        <a href="index.html">
-            <img src="logot/HPS.jpg" alt="HPS Logo">
-        </a>
+      <a href="index.html">
+        <img src="logot/HPS.jpg" alt="HPS Logo">
+      </a>
     </div>
+    <!-- Tämä otsikko asetetaan URL-parametrin "joukkue" mukaan -->
     <h1 class="page-title" id="team-title"></h1>
     <h1 id="team-subtitle"></h1>
     <button class="menu-button" onclick="toggleMenu()">
@@ -86,24 +87,30 @@
       menu.style.display = (menu.style.display === 'block') ? 'none' : 'block';
     }
     
-    // Säilytetään URL-parametri "joukkue" menu-linkeissä
+    // Asetetaan sivun otsikko "Miehet" tai "Naiset" URL-parametrin "joukkue" mukaan
     window.addEventListener('DOMContentLoaded', () => {
       const urlParams = new URLSearchParams(window.location.search);
-      const joukkueParam = urlParams.get('joukkue');
-      if (joukkueParam) {
-        const menuLinks = document.querySelectorAll('.menu a');
-        menuLinks.forEach(link => {
-          const linkUrl = new URL(link.href, window.location.origin);
-          linkUrl.searchParams.set('joukkue', joukkueParam);
-          link.href = linkUrl.toString();
-        });
+      const joukkueParam = urlParams.get('joukkue') || 'miehet';
+      const teamTitle = document.getElementById('team-title');
+      if (joukkueParam === 'naiset') {
+        teamTitle.textContent = 'Naiset';
+      } else {
+        teamTitle.textContent = 'Miehet';
       }
+      
+      // Säilytetään URL-parametri "joukkue" menu-linkeissä
+      const menuLinks = document.querySelectorAll('.menu a');
+      menuLinks.forEach(link => {
+        const linkUrl = new URL(link.href, window.location.origin);
+        linkUrl.searchParams.set('joukkue', joukkueParam);
+        link.href = linkUrl.toString();
+      });
     });
     
     const logos = {};
     // Määritetään dataFolder joukkue-parametrin perusteella
-    const urlParams = new URLSearchParams(window.location.search);
-    const teamParam = urlParams.get('joukkue');
+    const urlParams2 = new URLSearchParams(window.location.search);
+    const teamParam = urlParams2.get('joukkue');
     const dataFolder = teamParam === 'naiset' ? 'data naiset' : 'data miehet';
     
     // Ladataan joukkueen logot ensin sarjataulukot.json:sta ja tarvittaessa vastustajat.json:sta
