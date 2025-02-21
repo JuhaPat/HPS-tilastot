@@ -487,11 +487,15 @@
     },
     {
       "Kausi": "1922",
-      "Kierros": "Neljännesvälierät"
+      "Kierros": "Neljännesvälierät",
+      "Joukkue": "Vasama",
+      "Maalit": "7"
     },
     {
       "Kausi": "1922",
-      "Kierros": "Neljännesvälierät"
+      "Kierros": "Neljännesvälierät",
+      "Joukkue": "IS Vaasa",
+      "Maalit": "0"
     },
     {
       "Kausi": "1922",
@@ -817,6 +821,86 @@
     },
     {
       "Kausi": "1924",
+      "Kierros": "Neljännesvälierät",
+      "Joukkue": "ÅIFK",
+      "Maalit": "4"
+    },
+    {
+      "Kausi": "1924",
+      "Kierros": "Neljännesvälierät",
+      "Joukkue": "GBK",
+      "Maalit": "1"
+    },
+    {
+      "Kausi": "1924",
+      "Kierros": "Neljännesvälierät"
+    },
+    {
+      "Kausi": "1924",
+      "Kierros": "Neljännesvälierät"
+    },
+    {
+      "Kausi": "1924",
+      "Kierros": "Neljännesvälierät"
+    },
+    {
+      "Kausi": "1924",
+      "Kierros": "Neljännesvälierät"
+    },
+    {
+      "Kausi": "1924",
+      "Kierros": "Neljännesvälierät",
+      "Joukkue": "HJK"
+    },
+    {
+      "Kausi": "1924",
+      "Kierros": "Neljännesvälierät",
+      "Joukkue": "KIF"
+    },
+    {
+      "Kausi": "1924",
+      "Kierros": "Neljännesvälierät",
+      "Joukkue": "Toverit",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1924",
+      "Kierros": "Neljännesvälierät",
+      "Joukkue": "HPS",
+      "Maalit": "18"
+    },
+    {
+      "Kausi": "1924",
+      "Kierros": "Neljännesvälierät"
+    },
+    {
+      "Kausi": "1924",
+      "Kierros": "Neljännesvälierät"
+    },
+    {
+      "Kausi": "1924",
+      "Kierros": "Neljännesvälierät",
+      "Joukkue": "Viritys",
+      "Maalit": "1"
+    },
+    {
+      "Kausi": "1924",
+      "Kierros": "Neljännesvälierät",
+      "Joukkue": "Sudet",
+      "Maalit": "3"
+    },
+    {
+      "Kausi": "1924",
+      "Kierros": "Neljännesvälierät",
+      "Joukkue": "LLS"
+    },
+    {
+      "Kausi": "1924",
+      "Kierros": "Neljännesvälierät",
+      "Joukkue": "Reipas"
+    },
+    {
+      "Kausi": "1924",
       "Kierros": "Puolivälierät",
       "Joukkue": "ÅIFK",
       "Maalit": "4"
@@ -903,6 +987,78 @@
     },
     {
       "Kausi": "1925",
+      "Kierros": "Neljännesvälierät"
+    },
+    {
+      "Kausi": "1925",
+      "Kierros": "Neljännesvälierät"
+    },
+    {
+      "Kausi": "1925",
+      "Kierros": "Neljännesvälierät"
+    },
+    {
+      "Kausi": "1925",
+      "Kierros": "Neljännesvälierät"
+    },
+    {
+      "Kausi": "1925",
+      "Kierros": "Neljännesvälierät"
+    },
+    {
+      "Kausi": "1925",
+      "Kierros": "Neljännesvälierät"
+    },
+    {
+      "Kausi": "1925",
+      "Kierros": "Neljännesvälierät"
+    },
+    {
+      "Kausi": "1925",
+      "Kierros": "Neljännesvälierät"
+    },
+    {
+      "Kausi": "1925",
+      "Kierros": "Neljännesvälierät",
+      "Joukkue": "VPS"
+    },
+    {
+      "Kausi": "1925",
+      "Kierros": "Neljännesvälierät",
+      "Joukkue": "IS Vaasa"
+    },
+    {
+      "Kausi": "1925",
+      "Kierros": "Neljännesvälierät",
+      "Joukkue": "Toverit"
+    },
+    {
+      "Kausi": "1925",
+      "Kierros": "Neljännesvälierät",
+      "Joukkue": "TPS"
+    },
+    {
+      "Kausi": "1925",
+      "Kierros": "Neljännesvälierät",
+      "Joukkue": "Sudet"
+    },
+    {
+      "Kausi": "1925",
+      "Kierros": "Neljännesvälierät",
+      "Joukkue": "HIFK"
+    },
+    {
+      "Kausi": "1925",
+      "Kierros": "Neljännesvälierät",
+      "Joukkue": "ÅIFK"
+    },
+    {
+      "Kausi": "1925",
+      "Kierros": "Neljännesvälierät",
+      "Joukkue": "Reipas"
+    },
+    {
+      "Kausi": "1925",
       "Kierros": "Puolivälierät",
       "Joukkue": "HJK",
       "Maalit": "2"
@@ -986,6 +1142,78 @@
       "Kierros": "Loppuottelu",
       "Joukkue": "TPS",
       "Maalit": "2"
+    },
+    {
+      "Kausi": "1926",
+      "Kierros": "Neljännesvälierät"
+    },
+    {
+      "Kausi": "1926",
+      "Kierros": "Neljännesvälierät"
+    },
+    {
+      "Kausi": "1926",
+      "Kierros": "Neljännesvälierät"
+    },
+    {
+      "Kausi": "1926",
+      "Kierros": "Neljännesvälierät"
+    },
+    {
+      "Kausi": "1926",
+      "Kierros": "Neljännesvälierät",
+      "Joukkue": "GBK"
+    },
+    {
+      "Kausi": "1926",
+      "Kierros": "Neljännesvälierät",
+      "Joukkue": "VPS"
+    },
+    {
+      "Kausi": "1926",
+      "Kierros": "Neljännesvälierät"
+    },
+    {
+      "Kausi": "1926",
+      "Kierros": "Neljännesvälierät"
+    },
+    {
+      "Kausi": "1926",
+      "Kierros": "Neljännesvälierät"
+    },
+    {
+      "Kausi": "1926",
+      "Kierros": "Neljännesvälierät"
+    },
+    {
+      "Kausi": "1926",
+      "Kierros": "Neljännesvälierät",
+      "Joukkue": "ÅIFK"
+    },
+    {
+      "Kausi": "1926",
+      "Kierros": "Neljännesvälierät",
+      "Joukkue": "TPS"
+    },
+    {
+      "Kausi": "1926",
+      "Kierros": "Neljännesvälierät",
+      "Joukkue": "Reipas"
+    },
+    {
+      "Kausi": "1926",
+      "Kierros": "Neljännesvälierät",
+      "Joukkue": "Viritys"
+    },
+    {
+      "Kausi": "1926",
+      "Kierros": "Neljännesvälierät",
+      "Joukkue": "Sudet"
+    },
+    {
+      "Kausi": "1926",
+      "Kierros": "Neljännesvälierät",
+      "Joukkue": "KuPS"
     },
     {
       "Kausi": "1926",
@@ -1376,7 +1604,7 @@
       "Kausi": "1928",
       "Kierros": "Puolivälierät",
       "Joukkue": "HPS",
-      "Maalit": "5"
+      "Maalit": "4"
     },
     {
       "Kausi": "1928",
@@ -1517,5 +1745,173 @@
       "Kierros": "Loppuottelu",
       "Joukkue": "HIFK",
       "Maalit": "0"
+    },
+    {
+      "Kausi": "1942",
+      "Kierros": "Neljännesvälierät",
+      "Joukkue": "VPV",
+      "Maalit": "3"
+    },
+    {
+      "Kausi": "1942",
+      "Kierros": "Neljännesvälierät",
+      "Joukkue": "Ilves",
+      "Maalit": "1"
+    },
+    {
+      "Kausi": "1942",
+      "Kierros": "Neljännesvälierät",
+      "Joukkue": "KPV",
+      "Maalit": "2"
+    },
+    {
+      "Kausi": "1942",
+      "Kierros": "Neljännesvälierät",
+      "Joukkue": "VPS",
+      "Maalit": "8"
+    },
+    {
+      "Kausi": "1942",
+      "Kierros": "Neljännesvälierät",
+      "Joukkue": "HJK",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1942",
+      "Kierros": "Neljännesvälierät",
+      "Joukkue": "Toverit",
+      "Maalit": "3"
+    },
+    {
+      "Kausi": "1942",
+      "Kierros": "Neljännesvälierät",
+      "Joukkue": "Sudet",
+      "Maalit": "14"
+    },
+    {
+      "Kausi": "1942",
+      "Kierros": "Neljännesvälierät",
+      "Joukkue": "YVPS",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1942",
+      "Kierros": "Neljännesvälierät",
+      "Joukkue": "KuPS",
+      "Maalit": "4"
+    },
+    {
+      "Kausi": "1942",
+      "Kierros": "Neljännesvälierät",
+      "Joukkue": "Pallo-Pojat",
+      "Maalit": "1"
+    },
+    {
+      "Kausi": "1942",
+      "Kierros": "Neljännesvälierät",
+      "Joukkue": "HPS",
+      "Maalit": "6"
+    },
+    {
+      "Kausi": "1942",
+      "Kierros": "Neljännesvälierät",
+      "Joukkue": "HIFK",
+      "Maalit": "1"
+    },
+    {
+      "Kausi": "1942",
+      "Kierros": "Neljännesvälierät",
+      "Joukkue": "KIF",
+      "Maalit": "2"
+    },
+    {
+      "Kausi": "1942",
+      "Kierros": "Neljännesvälierät",
+      "Joukkue": "Kullervo",
+      "Maalit": "2"
+    },
+    {
+      "Kausi": "1942",
+      "Kierros": "Puolivälierät",
+      "Joukkue": "VPV",
+      "Maalit": "2"
+    },
+    {
+      "Kausi": "1942",
+      "Kierros": "Puolivälierät",
+      "Joukkue": "VPS",
+      "Maalit": "4"
+    },
+    {
+      "Kausi": "1942",
+      "Kierros": "Puolivälierät",
+      "Joukkue": "Toverit",
+      "Maalit": "3"
+    },
+    {
+      "Kausi": "1942",
+      "Kierros": "Puolivälierät",
+      "Joukkue": "TPS",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1942",
+      "Kierros": "Puolivälierät",
+      "Joukkue": "Sudet",
+      "Maalit": "5"
+    },
+    {
+      "Kausi": "1942",
+      "Kierros": "Puolivälierät",
+      "Joukkue": "KuPS",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1942",
+      "Kierros": "Puolivälierät",
+      "Joukkue": "HPS",
+      "Maalit": "1"
+    },
+    {
+      "Kausi": "1942",
+      "Kierros": "Puolivälierät",
+      "Joukkue": "KIF",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1942",
+      "Kierros": "Välierät",
+      "Joukkue": "VPS",
+      "Maalit": "1"
+    },
+    {
+      "Kausi": "1942",
+      "Kierros": "Välierät",
+      "Joukkue": "Toverit",
+      "Maalit": "4"
+    },
+    {
+      "Kausi": "1942",
+      "Kierros": "Välierät",
+      "Joukkue": "Sudet",
+      "Maalit": "3"
+    },
+    {
+      "Kausi": "1942",
+      "Kierros": "Välierät",
+      "Joukkue": "HPS",
+      "Maalit": "0"
+    },
+    {
+      "Kausi": "1942",
+      "Kierros": "Loppuottelu",
+      "Joukkue": "Toverit",
+      "Maalit": "6"
+    },
+    {
+      "Kausi": "1942",
+      "Kierros": "Loppuottelu",
+      "Joukkue": "Sudet",
+      "Maalit": "4"
     }
   ]
