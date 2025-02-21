@@ -20652,149 +20652,337 @@
     },
     {
       "Kausi": "1942",
-      "Sukunimi": "Vepsäläinen",
-      "Etunimi": "Rauno",
-      "Koko nimi": "Rauno Vepsäläinen",
-      "Pelipaikka": "Vasen laitahyökkääjä"
-    },
-    {
-      "Kausi": "1942",
-      "Sukunimi": "Kaukonen",
-      "Etunimi": "Kaiho",
-      "Koko nimi": "Kaiho Kaukonen"
-    },
-    {
-      "Kausi": "1942",
-      "Sukunimi": "Salonen",
-      "Etunimi": "Veikko",
-      "Koko nimi": "Veikko Salonen",
-      "Pelipaikka": "Oikea puolustaja"
-    },
-    {
-      "Kausi": "1942",
-      "Sukunimi": "Lahtinen",
-      "Etunimi": "Lassi",
-      "Koko nimi": "Lassi Lahtinen",
-      "Pelipaikka": "Oikea laitahyökkääjä"
-    },
-    {
-      "Kausi": "1942",
       "Sukunimi": "Sarnola",
       "Etunimi": "Thure",
       "Koko nimi": "Thure Sarnola",
-      "Pelipaikka": "Maalivahti"
+      "Pelipaikka": "Maalivahti",
+      "Kaikki pelit": "7",
+      "Kaikki maalit": "0",
+      "S+K pelit": "4",
+      "S+K maalit": "0",
+      "S pelit": "1",
+      "S maalit": "0"
+    },
+    {
+      "Kausi": "1942",
+      "Sukunimi": "Koskimaa",
+      "Etunimi": "??",
+      "Koko nimi": "?? Koskimaa",
+      "Pelipaikka": "Maalivahti",
+      "Kaikki pelit": "9",
+      "Kaikki maalit": "0",
+      "S+K pelit": "8",
+      "S+K maalit": "0",
+      "S pelit": "1",
+      "S maalit": "0"
+    },
+    {
+      "Kausi": "1942",
+      "Sukunimi": "Niironen",
+      "Etunimi": "??",
+      "Koko nimi": "?? Niironen",
+      "Pelipaikka": "Maalivahti",
+      "Kaikki pelit": "1",
+      "Kaikki maalit": "0",
+      "S+K pelit": "1",
+      "S+K maalit": "0",
+      "S pelit": "0",
+      "S maalit": "0"
     },
     {
       "Kausi": "1942",
       "Sukunimi": "Lönnberg",
       "Etunimi": "H",
-      "Koko nimi": "H Lönnberg"
+      "Koko nimi": "H Lönnberg",
+      "Kaikki pelit": "6",
+      "Kaikki maalit": "0",
+      "S+K pelit": "3",
+      "S+K maalit": "0",
+      "S pelit": "0",
+      "S maalit": "0"
     },
     {
       "Kausi": "1942",
       "Sukunimi": "Hämäläinen",
       "Etunimi": "Ensio",
-      "Koko nimi": "Ensio Hämäläinen"
+      "Koko nimi": "Ensio Hämäläinen",
+      "Kaikki pelit": "6",
+      "Kaikki maalit": "0",
+      "S+K pelit": "5",
+      "S+K maalit": "0",
+      "S pelit": "1",
+      "S maalit": "0"
     },
     {
       "Kausi": "1942",
       "Sukunimi": "Saarinen",
-      "Etunimi": "V",
-      "Koko nimi": "V Saarinen"
+      "Etunimi": "Viljo",
+      "Koko nimi": "Viljo Saarinen",
+      "Kaikki pelit": "11",
+      "Kaikki maalit": "0",
+      "S+K pelit": "8",
+      "S+K maalit": "0",
+      "S pelit": "0",
+      "S maalit": "0"
     },
     {
       "Kausi": "1942",
       "Sukunimi": "Virtanen",
       "Etunimi": "Paavo",
       "Koko nimi": "Paavo Virtanen",
-      "Pelipaikka": "Keskuspuolustaja"
+      "Pelipaikka": "Keskuspuolustaja",
+      "Kaikki pelit": "19",
+      "Kaikki maalit": "5",
+      "S+K pelit": "15",
+      "S+K maalit": "5",
+      "S pelit": "2",
+      "S maalit": "0"
     },
     {
       "Kausi": "1942",
       "Sukunimi": "Viinioksa",
       "Etunimi": "Max",
-      "Koko nimi": "Max Viinioksa"
+      "Koko nimi": "Max Viinioksa",
+      "Kaikki pelit": "6",
+      "Kaikki maalit": "2",
+      "S+K pelit": "4",
+      "S+K maalit": "2",
+      "S pelit": "0",
+      "S maalit": "0"
     },
     {
       "Kausi": "1942",
       "Sukunimi": "Ronkanen",
       "Etunimi": "Eero",
-      "Koko nimi": "Eero Ronkanen"
+      "Koko nimi": "Eero Ronkanen",
+      "Kaikki pelit": "15",
+      "Kaikki maalit": "8",
+      "S+K pelit": "10",
+      "S+K maalit": "4",
+      "S pelit": "1",
+      "S maalit": "0"
     },
     {
       "Kausi": "1942",
       "Sukunimi": "Lievonen",
       "Etunimi": "Yrjö",
       "Koko nimi": "Yrjö Lievonen",
-      "Pelipaikka": "Vasen tukimies"
+      "Pelipaikka": "Vasen tukimies",
+      "Kaikki pelit": "20",
+      "Kaikki maalit": "20",
+      "S+K pelit": "14",
+      "S+K maalit": "14",
+      "S pelit": "2",
+      "S maalit": "3"
     },
     {
       "Kausi": "1942",
       "Sukunimi": "Kilpi",
       "Etunimi": "Eino",
       "Koko nimi": "Eino Kilpi",
-      "Pelipaikka": "Oikea tukimies"
-    },
-    {
-      "Kausi": "1942",
-      "Sukunimi": "Rytkönen",
-      "Koko nimi": " Rytkönen"
-    },
-    {
-      "Kausi": "1942",
-      "Sukunimi": "Vaahtera",
-      "Etunimi": "V",
-      "Koko nimi": "V Vaahtera"
-    },
-    {
-      "Kausi": "1942",
-      "Sukunimi": "Koskimaa",
-      "Koko nimi": " Koskimaa",
-      "Pelipaikka": "Maalivahti"
-    },
-    {
-      "Kausi": "1942",
-      "Sukunimi": "Sinikari",
-      "Etunimi": "Lauri",
-      "Koko nimi": "Lauri Sinikari"
+      "Pelipaikka": "Oikea tukimies",
+      "Kaikki pelit": "11",
+      "Kaikki maalit": "0",
+      "S+K pelit": "8",
+      "S+K maalit": "0",
+      "S pelit": "0",
+      "S maalit": "0"
     },
     {
       "Kausi": "1942",
       "Sukunimi": "Lahti",
       "Etunimi": "Eino",
-      "Koko nimi": "Eino Lahti"
-    },
-    {
-      "Kausi": "1942",
-      "Sukunimi": "Helinen",
-      "Etunimi": "Viljo",
-      "Koko nimi": "Viljo Helinen"
-    },
-    {
-      "Kausi": "1942",
-      "Sukunimi": "Hasso",
-      "Etunimi": "Anatol",
-      "Koko nimi": "Anatol Hasso",
-      "Pelipaikka": "Oikea välihyökkääjä"
+      "Koko nimi": "Eino Lahti",
+      "Kaikki pelit": "13",
+      "Kaikki maalit": "0",
+      "S+K pelit": "11",
+      "S+K maalit": "0",
+      "S pelit": "1",
+      "S maalit": "0"
     },
     {
       "Kausi": "1942",
       "Sukunimi": "Sotiola",
       "Etunimi": "Yrjö",
       "Koko nimi": "Yrjö Sotiola",
-      "Pelipaikka": "Välihyökkääjä"
+      "Pelipaikka": "Välihyökkääjä",
+      "Kaikki pelit": "17",
+      "Kaikki maalit": "15",
+      "S+K pelit": "14",
+      "S+K maalit": "12",
+      "S pelit": "2",
+      "S maalit": "2"
     },
     {
       "Kausi": "1942",
       "Sukunimi": "Herrman",
       "Etunimi": "Börje",
-      "Koko nimi": "Börje Herrman"
+      "Koko nimi": "Börje Herrman",
+      "Kaikki pelit": "12",
+      "Kaikki maalit": "9",
+      "S+K pelit": "9",
+      "S+K maalit": "7",
+      "S pelit": "1",
+      "S maalit": "0"
+    },
+    {
+      "Kausi": "1942",
+      "Sukunimi": "Rytkönen",
+      "Koko nimi": " Rytkönen",
+      "Kaikki pelit": "7",
+      "Kaikki maalit": "6",
+      "S+K pelit": "5",
+      "S+K maalit": "4",
+      "S pelit": "0",
+      "S maalit": "0"
+    },
+    {
+      "Kausi": "1942",
+      "Sukunimi": "Vaahtera",
+      "Etunimi": "V",
+      "Koko nimi": "V Vaahtera",
+      "Kaikki pelit": "2",
+      "Kaikki maalit": "0",
+      "S+K pelit": "0",
+      "S+K maalit": "0",
+      "S pelit": "0",
+      "S maalit": "0"
+    },
+    {
+      "Kausi": "1942",
+      "Sukunimi": "Sinikari",
+      "Etunimi": "Lauri",
+      "Koko nimi": "Lauri Sinikari",
+      "Kaikki pelit": "13",
+      "Kaikki maalit": "0",
+      "S+K pelit": "12",
+      "S+K maalit": "0",
+      "S pelit": "2",
+      "S maalit": "0"
+    },
+    {
+      "Kausi": "1942",
+      "Sukunimi": "Vepsäläinen",
+      "Etunimi": "Rauno",
+      "Koko nimi": "Rauno Vepsäläinen",
+      "Pelipaikka": "Vasen laitahyökkääjä",
+      "Kaikki pelit": "7",
+      "Kaikki maalit": "1",
+      "S+K pelit": "7",
+      "S+K maalit": "1",
+      "S pelit": "2",
+      "S maalit": "1"
+    },
+    {
+      "Kausi": "1942",
+      "Sukunimi": "Kaukonen",
+      "Etunimi": "Kaiho",
+      "Koko nimi": "Kaiho Kaukonen",
+      "Kaikki pelit": "7",
+      "Kaikki maalit": "2",
+      "S+K pelit": "7",
+      "S+K maalit": "2",
+      "S pelit": "1",
+      "S maalit": "0"
+    },
+    {
+      "Kausi": "1942",
+      "Sukunimi": "Salonen",
+      "Etunimi": "Veikko",
+      "Koko nimi": "Veikko Salonen",
+      "Pelipaikka": "Oikea puolustaja",
+      "Kaikki pelit": "8",
+      "Kaikki maalit": "0",
+      "S+K pelit": "8",
+      "S+K maalit": "0",
+      "S pelit": "2",
+      "S maalit": "0"
+    },
+    {
+      "Kausi": "1942",
+      "Sukunimi": "Lahtinen",
+      "Etunimi": "Lassi",
+      "Koko nimi": "Lassi Lahtinen",
+      "Pelipaikka": "Oikea laitahyökkääjä",
+      "Kaikki pelit": "1",
+      "Kaikki maalit": "0",
+      "S+K pelit": "1",
+      "S+K maalit": "0",
+      "S pelit": "0",
+      "S maalit": "0"
+    },
+    {
+      "Kausi": "1942",
+      "Sukunimi": "Helinen",
+      "Etunimi": "Viljo",
+      "Koko nimi": "Viljo Helinen",
+      "Kaikki pelit": "2",
+      "Kaikki maalit": "0",
+      "S+K pelit": "2",
+      "S+K maalit": "0",
+      "S pelit": "1",
+      "S maalit": "0"
+    },
+    {
+      "Kausi": "1942",
+      "Sukunimi": "Lehto",
+      "Etunimi": "Ville",
+      "Koko nimi": "Ville Lehto",
+      "Kaikki pelit": "3",
+      "Kaikki maalit": "0",
+      "S+K pelit": "2",
+      "S+K maalit": "0",
+      "S pelit": "0",
+      "S maalit": "0"
+    },
+    {
+      "Kausi": "1942",
+      "Sukunimi": "Hasso",
+      "Etunimi": "Anatol",
+      "Koko nimi": "Anatol Hasso",
+      "Pelipaikka": "Oikea välihyökkääjä",
+      "Kaikki pelit": "4",
+      "Kaikki maalit": "1",
+      "S+K pelit": "4",
+      "S+K maalit": "1",
+      "S pelit": "2",
+      "S maalit": "1"
+    },
+    {
+      "Kausi": "1942",
+      "Sukunimi": "Pietikäinen",
+      "Etunimi": "??",
+      "Koko nimi": "?? Pietikäinen",
+      "Kaikki pelit": "1",
+      "Kaikki maalit": "0",
+      "S+K pelit": "1",
+      "S+K maalit": "0",
+      "S pelit": "0",
+      "S maalit": "0"
+    },
+    {
+      "Kausi": "1942",
+      "Sukunimi": "Rännäli",
+      "Etunimi": "Eino",
+      "Koko nimi": "Eino Rännäli",
+      "Kaikki pelit": "1",
+      "Kaikki maalit": "0",
+      "S+K pelit": "1",
+      "S+K maalit": "0",
+      "S pelit": "0",
+      "S maalit": "0"
     },
     {
       "Kausi": "1942",
       "Sukunimi": "Kanerva",
       "Etunimi": "William",
-      "Koko nimi": "William Kanerva"
+      "Koko nimi": "William Kanerva",
+      "Kaikki pelit": "2",
+      "Kaikki maalit": "0",
+      "S+K pelit": "2",
+      "S+K maalit": "0",
+      "S pelit": "0",
+      "S maalit": "0"
     },
     {
       "Kausi": "1940-41",
