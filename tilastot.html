@@ -184,7 +184,7 @@
         // Pvm: Klikattava linkki, joka ohjaa tuloskortille
         const tdPvm = document.createElement("td");
         const aPvm = document.createElement("a");
-        aPvm.href = "tuloskortti.html?ottelu_id=" + match["ottelu_id"];
+        aPvm.href = "ottelukortti.html?ottelu_id=" + match["ottelu_id"];
         aPvm.textContent = match["Päivämäärä"];
         tdPvm.appendChild(aPvm);
         tr.appendChild(tdPvm);
@@ -225,7 +225,7 @@
         // Tulos: Klikattava linkki, joka ohjaa tuloskortille
         const tdTulos = document.createElement("td");
         const aTulos = document.createElement("a");
-        aTulos.href = "tuloskortti.html?ottelu_id=" + match["ottelu_id"];
+        aTulos.href = "ottelukortti.html?ottelu_id=" + match["ottelu_id"];
         aTulos.textContent = match["maalit_koti"] + "-" + match["maalit_vieras"];
         tdTulos.appendChild(aTulos);
         tr.appendChild(tdTulos);
