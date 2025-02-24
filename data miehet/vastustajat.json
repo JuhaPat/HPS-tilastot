@@ -64,6 +64,10 @@
       "Logo": "Atlantis FC Akatemia.jpg"
     },
     {
+      "Lyhenne": "Austria Wien",
+      "Logo": "Austria Wien.jpg"
+    },
+    {
       "Lyhenne": "BK-46",
       "Logo": "BK-46.jpg"
     },
@@ -409,6 +413,10 @@
     {
       "Lyhenne": "HaRi",
       "Logo": "HaRi.jpg"
+    },
+    {
+      "Lyhenne": "Harkov Avangard",
+      "Logo": "Harkov Avangard.jpg"
     },
     {
       "Lyhenne": "HDS/Cosmos Ju",
@@ -961,6 +969,10 @@
       "Logo": "Merris.jpg"
     },
     {
+      "Lyhenne": "Metallurgia",
+      "Logo": "Metallurgia.jpg"
+    },
+    {
       "Lyhenne": "MIFK",
       "Logo": "MIFK.jpg"
     },
@@ -1354,8 +1366,16 @@
       "Logo": "SibboV.jpg"
     },
     {
+      "Lyhenne": "SKBO Odessa",
+      "Logo": "SKBO Odessa.jpg"
+    },
+    {
       "Lyhenne": "Sleipner",
       "Logo": "Sleipner.jpg"
+    },
+    {
+      "Lyhenne": "Slovan Bratislava (CZE)",
+      "Logo": "Slovan Bratislava (CZE).jpg"
     },
     {
       "Lyhenne": "SLU",
