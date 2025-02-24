@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>KV-ottelut - HPS</title>
+  <title>HPS - tilastot</title>
   <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
 </head>
@@ -34,7 +34,52 @@
   </header>
 
   <main>
-    <!-- Muu sisältö tähän -->
+    <!-- Tilasto-osio: Yleisömäärät -->
+    <section class="stat-section">
+      <h2 class="table-title">Yleisömäärät</h2>
+      <div class="table-container">
+        <!-- Taulukko 1: Yleisöennätykset kotiotteluissa -->
+        <div class="stat-table">
+          <h3>Yleisöennätykset kotiotteluissa</h3>
+          <table class="match-table">
+            <thead>
+              <tr>
+                <th>Pvm</th>
+                <th>Kilpailu</th>
+                <th>Stadion</th>
+                <th>Kaupunki</th>
+                <th>Ottelu</th>
+                <th>Tulos</th>
+                <th>Yleisömäärä</th>
+              </tr>
+            </thead>
+            <tbody id="koti-tbody">
+              <!-- Data lisätään JavaScriptin avulla -->
+            </tbody>
+          </table>
+        </div>
+        <!-- Taulukko 2: Yleisöennätykset vierasotteluissa -->
+        <div class="stat-table">
+          <h3>Yleisöennätykset vierasotteluissa</h3>
+          <table class="match-table">
+            <thead>
+              <tr>
+                <th>Pvm</th>
+                <th>Kilpailu</th>
+                <th>Stadion</th>
+                <th>Kaupunki</th>
+                <th>Ottelu</th>
+                <th>Tulos</th>
+                <th>yleisömäärä</th>
+              </tr>
+            </thead>
+            <tbody id="vieras-tbody">
+              <!-- Data lisätään JavaScriptin avulla -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
   </main>
 
   <script>
@@ -67,9 +112,7 @@
 
     // Lisätään HPS-logon alapuolelle otsikko perustuen URL-parametriin "joukkue"
     document.addEventListener("DOMContentLoaded", function() {
-      // Ensiksi lisätään URL-parametri kaikkiin linkkeihin
       appendJoukkueParamToLinks();
-
       var urlParams = new URLSearchParams(window.location.search);
       var teamParam = urlParams.get("joukkue");
       var headerLogo = document.querySelector(".header-logo");
@@ -83,7 +126,120 @@
         }
         headerLogo.insertAdjacentElement("afterend", h1);
       }
+      fetchData();
     });
+
+    // Funktio, joka muuntaa arvon numeroiksi poistamalla ei-numeraaliset merkit
+    function toNumber(value) {
+      return parseInt(String(value).replace(/\D/g, '')) || 0;
+    }
+
+    // Palauttaa oikean data-kansion URL-parametrin "joukkue" perusteella
+    function getTeamDataFolder() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const teamParam = urlParams.get("joukkue");
+      return teamParam === "naiset" ? "data naiset" : "data miehet";
+    }
+
+    // Hakee JSON-datan ja täyttää taulukot
+    function fetchData() {
+      const dataFolder = getTeamDataFolder();
+      fetch(`${dataFolder}/ottelut.json`)
+        .then(response => response.json())
+        .then(matches => {
+          console.log("Fetched matches:", matches);
+          // Suodata kotiottelut: Kotijoukkue on "HPS" ja yleisömäärä on määritelty
+          const kotiMatches = matches.filter(match => match["Kotijoukkue"] === "HPS" && match["yleisömäärä"])
+            .sort((a, b) => {
+              return toNumber(b["yleisömäärä"]) - toNumber(a["yleisömäärä"]);
+            })
+            .slice(0, 10);
+          console.log("KotiMatches:", kotiMatches);
+
+          // Suodata vierasottelut: Vierasjoukkue on "HPS" ja yleisömäärä on määritelty
+          const vierasMatches = matches.filter(match => match["Vierasjoukkue"] === "HPS" && match["yleisömäärä"])
+            .sort((a, b) => {
+              return toNumber(b["yleisömäärä"]) - toNumber(a["yleisömäärä"]);
+            })
+            .slice(0, 10);
+          console.log("VierasMatches:", vierasMatches);
+
+          fillTable("koti-tbody", kotiMatches);
+          fillTable("vieras-tbody", vierasMatches);
+        })
+        .catch(error => {
+          console.error("Virhe ladattaessa ottelut.json:", error);
+        });
+    }
+
+    // Täyttää taulukon rivit annetun ottelulistan perusteella
+    // Sarakkeiden järjestys: Pvm, Kilpailu, Stadion, Kaupunki, Ottelu, Tulos, yleisömäärä
+    // Pvm ja Tulos on toteutettu klikattavina linkkeinä, jotka avaavat tuloskortin.
+    function fillTable(tbodyId, matches) {
+      const tbody = document.getElementById(tbodyId);
+      tbody.innerHTML = "";
+      matches.forEach(match => {
+        const tr = document.createElement("tr");
+        
+        // Pvm: Klikattava linkki, joka ohjaa tuloskortille
+        const tdPvm = document.createElement("td");
+        const aPvm = document.createElement("a");
+        aPvm.href = "tuloskortti.html?ottelu_id=" + match["ottelu_id"];
+        aPvm.textContent = match["Päivämäärä"];
+        tdPvm.appendChild(aPvm);
+        tr.appendChild(tdPvm);
+        
+        // Kilpailu
+        const tdKilpailu = document.createElement("td");
+        tdKilpailu.textContent = match["Kilpailu"];
+        tr.appendChild(tdKilpailu);
+
+        // Stadion
+        const tdStadion = document.createElement("td");
+        tdStadion.textContent = match["Stadion"];
+        tr.appendChild(tdStadion);
+
+        // Kaupunki
+        const tdKaupunki = document.createElement("td");
+        tdKaupunki.textContent = match["Kaupunki"];
+        tr.appendChild(tdKaupunki);
+
+        // Ottelu: Näytä "Kotijoukkue - Vierasjoukkue" ja lisää logot
+        const tdOttelu = document.createElement("td");
+        // Kotijoukkueen logo
+        const imgKoti = document.createElement("img");
+        imgKoti.src = `logot/${match["Kotijoukkue"]}.jpg`;
+        imgKoti.alt = `${match["Kotijoukkue"]} Logo`;
+        imgKoti.classList.add("small-logo"); // oletetaan, että .small-logo määritellään CSS:ssä
+        tdOttelu.appendChild(imgKoti);
+        tdOttelu.appendChild(document.createTextNode(" " + match["Kotijoukkue"] + " - "));
+        // Vierasjoukkueen logo
+        const imgVieras = document.createElement("img");
+        imgVieras.src = `logot/${match["Vierasjoukkue"]}.jpg`;
+        imgVieras.alt = `${match["Vierasjoukkue"]} Logo`;
+        imgVieras.classList.add("small-logo");
+        tdOttelu.appendChild(imgVieras);
+        tdOttelu.appendChild(document.createTextNode(" " + match["Vierasjoukkue"]));
+        tr.appendChild(tdOttelu);
+
+        // Tulos: Klikattava linkki, joka ohjaa tuloskortille
+        const tdTulos = document.createElement("td");
+        const aTulos = document.createElement("a");
+        aTulos.href = "tuloskortti.html?ottelu_id=" + match["ottelu_id"];
+        aTulos.textContent = match["maalit_koti"] + "-" + match["maalit_vieras"];
+        tdTulos.appendChild(aTulos);
+        tr.appendChild(tdTulos);
+
+        // yleisömäärä: Näytetään lihavoituna
+        const tdYleisö = document.createElement("td");
+        const strongYleisö = document.createElement("strong");
+        strongYleisö.textContent = match["yleisömäärä"];
+        tdYleisö.appendChild(strongYleisö);
+        tr.appendChild(tdYleisö);
+
+        tbody.appendChild(tr);
+      });
+    }
   </script>
 </body>
 </html>
