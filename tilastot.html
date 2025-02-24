@@ -34,7 +34,7 @@
   </header>
 
   <main>
-    <!-- Tilasto-osio: Yleisömäärät -->
+    <!-- Ensimmäinen tilasto-osio: Yleisömäärät -->
     <section class="stat-section">
       <h2 class="table-title">Yleisömäärät</h2>
       <div class="table-container">
@@ -50,7 +50,7 @@
                 <th>Kaupunki</th>
                 <th>Ottelu</th>
                 <th>Tulos</th>
-                <th>Yleisömäärä</th>
+                <th>yleisömäärä</th>
               </tr>
             </thead>
             <tbody id="koti-tbody">
@@ -80,16 +80,120 @@
         </div>
       </div>
     </section>
+
+    <!-- Toinen tilasto-osio: Maalijuhlat -->
+    <section class="stat-section">
+      <h2 class="table-title" style="color: green;">Maalijuhlat</h2>
+      <div class="table-container">
+        <!-- Taulukko 1: Suurimmat voittolukemat -->
+        <div class="stat-table">
+          <h3>Suurimmat voittolukemat</h3>
+          <table class="match-table">
+            <thead>
+              <tr>
+                <th>Pvm</th>
+                <th>Kilpailu</th>
+                <th>Stadion</th>
+                <th>Kaupunki</th>
+                <th>Ottelu</th>
+                <th>Tulos</th>
+              </tr>
+            </thead>
+            <tbody id="wins-tbody">
+              <!-- Data lisätään JavaScriptin avulla -->
+            </tbody>
+          </table>
+        </div>
+        <!-- Taulukko 2: Eniten maaleja -->
+        <div class="stat-table">
+          <h3>Eniten maaleja</h3>
+          <table class="match-table">
+            <thead>
+              <tr>
+                <th>Pvm</th>
+                <th>Kilpailu</th>
+                <th>Stadion</th>
+                <th>Kaupunki</th>
+                <th>Ottelu</th>
+                <th>Tulos</th>
+              </tr>
+            </thead>
+            <tbody id="mostgoals-tbody">
+              <!-- Data lisätään JavaScriptin avulla -->
+            </tbody>
+          </table>
+        </div>
+        <!-- Taulukko 3: Suurimmat tappiolukemat -->
+        <div class="stat-table">
+          <h3>Suurimmat tappiolukemat</h3>
+          <table class="match-table">
+            <thead>
+              <tr>
+                <th>Pvm</th>
+                <th>Kilpailu</th>
+                <th>Stadion</th>
+                <th>Kaupunki</th>
+                <th>Ottelu</th>
+                <th>Tulos</th>
+              </tr>
+            </thead>
+            <tbody id="losses-tbody">
+              <!-- Data lisätään JavaScriptin avulla -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
   </main>
 
   <script>
+    // Globaalit muuttujat logo-datan tallentamiseen
+    let sarjataulukotData = null;
+    let vastustajatData = null;
+
+    // Ladataan logo-datat kansiosta, joka määräytyy URL-parametrin "joukkue" perusteella
+    function loadLogoData(callback) {
+      const dataFolder = getTeamDataFolder();
+      Promise.all([
+        fetch(`${dataFolder}/sarjataulukot.json`).then(response => response.json()),
+        fetch(`${dataFolder}/vastustajat.json`).then(response => response.json())
+      ])
+      .then(values => {
+        sarjataulukotData = values[0];
+        vastustajatData = values[1];
+        callback();
+      })
+      .catch(error => {
+        console.error("Virhe logo-datan lataamisessa:", error);
+        callback();
+      });
+    }
+
+    // Palauttaa joukkueen logon tiedostonimen; etsitään ensin sarjataulukot.json:sta, sitten vastustajat.json:sta,
+    // ja jos logoa ei löydy, käytetään geneeristä "pallo.jpg"
+    function getTeamLogo(teamName) {
+      if (sarjataulukotData) {
+        let found = sarjataulukotData.find(item => item["Joukkue"] === teamName);
+        if (found && found["Logo"]) {
+          return found["Logo"];
+        }
+      }
+      if (vastustajatData) {
+        let found = vastustajatData.find(item => item["Lyhenne"] === teamName);
+        if (found && found["Logo"]) {
+          return found["Logo"];
+        }
+      }
+      return "pallo.jpg";
+    }
+
     // Näytetään/piilotetaan valikko
     function toggleMenu() {
       var menu = document.getElementById('menu');
       menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
     }
 
-    // Funktio, joka lisää URL-parametrin "joukkue" kaikkiin sisäisiin linkkeihin
+    // Lisää URL-parametrin "joukkue" kaikkiin sisäisiin linkkeihin
     function appendJoukkueParamToLinks() {
       const urlParams = new URLSearchParams(window.location.search);
       const joukkue = urlParams.get("joukkue");
@@ -110,26 +214,22 @@
       });
     }
 
-    // Lisätään HPS-logon alapuolelle otsikko perustuen URL-parametriin "joukkue"
+    // DOMContentLoaded: asetetaan otsikko ja ladataan logo-datat ennen päädatan hakua
     document.addEventListener("DOMContentLoaded", function() {
       appendJoukkueParamToLinks();
-      var urlParams = new URLSearchParams(window.location.search);
-      var teamParam = urlParams.get("joukkue");
-      var headerLogo = document.querySelector(".header-logo");
+      const urlParams = new URLSearchParams(window.location.search);
+      const teamParam = urlParams.get("joukkue");
+      const headerLogo = document.querySelector(".header-logo");
       if (headerLogo && teamParam) {
-        var h1 = document.createElement("h1");
+        const h1 = document.createElement("h1");
         h1.classList.add("page-title");
-        if (teamParam === "miehet") {
-          h1.textContent = "Miehet";
-        } else if (teamParam === "naiset") {
-          h1.textContent = "Naiset";
-        }
+        h1.textContent = (teamParam === "miehet") ? "Miehet" : (teamParam === "naiset" ? "Naiset" : "");
         headerLogo.insertAdjacentElement("afterend", h1);
       }
-      fetchData();
+      loadLogoData(fetchData);
     });
 
-    // Funktio, joka muuntaa arvon numeroiksi poistamalla ei-numeraaliset merkit
+    // Muuntaa arvon numeroiksi poistamalla ei-numeraaliset merkit
     function toNumber(value) {
       return parseInt(String(value).replace(/\D/g, '')) || 0;
     }
@@ -141,54 +241,154 @@
       return teamParam === "naiset" ? "data naiset" : "data miehet";
     }
 
-    // Hakee JSON-datan ja täyttää taulukot
+    // Hakee JSON-datan ja täyttää kaikki taulukot
     function fetchData() {
       const dataFolder = getTeamDataFolder();
       fetch(`${dataFolder}/ottelut.json`)
         .then(response => response.json())
         .then(matches => {
           console.log("Fetched matches:", matches);
-          // Suodata kotiottelut: Kotijoukkue on "HPS" ja yleisömäärä on määritelty
+          // Yleisömäärät -taulukot:
           const kotiMatches = matches.filter(match => match["Kotijoukkue"] === "HPS" && match["yleisömäärä"])
-            .sort((a, b) => {
-              return toNumber(b["yleisömäärä"]) - toNumber(a["yleisömäärä"]);
-            })
+            .sort((a, b) => toNumber(b["yleisömäärä"]) - toNumber(a["yleisömäärä"]))
             .slice(0, 10);
           console.log("KotiMatches:", kotiMatches);
 
-          // Suodata vierasottelut: Vierasjoukkue on "HPS" ja yleisömäärä on määritelty
           const vierasMatches = matches.filter(match => match["Vierasjoukkue"] === "HPS" && match["yleisömäärä"])
-            .sort((a, b) => {
-              return toNumber(b["yleisömäärä"]) - toNumber(a["yleisömäärä"]);
-            })
+            .sort((a, b) => toNumber(b["yleisömäärä"]) - toNumber(a["yleisömäärä"]))
             .slice(0, 10);
           console.log("VierasMatches:", vierasMatches);
 
           fillTable("koti-tbody", kotiMatches);
           fillTable("vieras-tbody", vierasMatches);
+
+          // Maalijuhlat -osio:
+          // Lasketaan goalDiff HPS:n näkökulmasta kaikissa otteluissa:
+          matches.forEach(match => {
+            if (match["Kotijoukkue"] === "HPS") {
+              match.goalDiff = toNumber(match["maalit_koti"]) - toNumber(match["maalit_vieras"]);
+            } else if (match["Vierasjoukkue"] === "HPS") {
+              match.goalDiff = toNumber(match["maalit_vieras"]) - toNumber(match["maalit_koti"]);
+            } else {
+              match.goalDiff = 0;
+            }
+          });
+
+          // Suurimmat voittolukemat: goalDiff > 0, järjestä laskevasti
+          let wins = matches.filter(match => (match["Kotijoukkue"] === "HPS" || match["Vierasjoukkue"] === "HPS") && match.goalDiff > 0);
+          wins.sort((a, b) => b.goalDiff - a.goalDiff);
+          wins = wins.slice(0, 10);
+          console.log("Wins:", wins);
+
+          // Suurimmat tappiolukemat: goalDiff < 0, järjestä kasvavassa järjestyksessä
+          let losses = matches.filter(match => (match["Kotijoukkue"] === "HPS" || match["Vierasjoukkue"] === "HPS") && match.goalDiff < 0);
+          losses.sort((a, b) => a.goalDiff - b.goalDiff);
+          losses = losses.slice(0, 10);
+          console.log("Losses:", losses);
+
+          // Eniten maaleja: Järjestä ottelut kokonaismaalimäärän mukaan (maalit_koti + maalit_vieras)
+          let mostGoals = matches.slice();
+          mostGoals.sort((a, b) => {
+            let totalA = toNumber(a["maalit_koti"]) + toNumber(a["maalit_vieras"]);
+            let totalB = toNumber(b["maalit_koti"]) + toNumber(b["maalit_vieras"]);
+            return totalB - totalA;
+          });
+          mostGoals = mostGoals.slice(0, 10);
+          console.log("Most Goals:", mostGoals);
+
+          fillTableMaalijuhlat("wins-tbody", wins);
+          fillTableMostGoals("mostgoals-tbody", mostGoals);
+          fillTableMaalijuhlat("losses-tbody", losses);
         })
         .catch(error => {
           console.error("Virhe ladattaessa ottelut.json:", error);
         });
     }
 
-    // Täyttää taulukon rivit annetun ottelulistan perusteella
+    // Täyttää Yleisömäärät -taulukoiden rivit
     // Sarakkeiden järjestys: Pvm, Kilpailu, Stadion, Kaupunki, Ottelu, Tulos, yleisömäärä
-    // Pvm ja Tulos on toteutettu klikattavina linkkeinä, jotka avaavat tuloskortin.
+    // Pvm ja Tulos ovat klikattavia linkkejä, jotka ohjaavat ottelukortti.html-sivulle.
     function fillTable(tbodyId, matches) {
       const tbody = document.getElementById(tbodyId);
       tbody.innerHTML = "";
       matches.forEach(match => {
         const tr = document.createElement("tr");
-        
-        // Pvm: Klikattava linkki, joka ohjaa tuloskortille
+
+        // Pvm: Klikattava linkki
+        const tdPvm = document.createElement("td");
+        const aPvm = document.createElement("a");
+        aPvm.href = "ottelukortti.html?ottelu_id=" + match["ottelu_id"];
+        aPvm.textContent = match["Päivämäärä"];
+        tdPvm.appendChild(aPvm);
+
+        // Kilpailu
+        const tdKilpailu = document.createElement("td");
+        tdKilpailu.textContent = match["Kilpailu"];
+
+        // Stadion
+        const tdStadion = document.createElement("td");
+        tdStadion.textContent = match["Stadion"];
+
+        // Kaupunki
+        const tdKaupunki = document.createElement("td");
+        tdKaupunki.textContent = match["Kaupunki"];
+
+        // Ottelu: Näytä "Kotijoukkue - Vierasjoukkue" ja logot
+        const tdOttelu = document.createElement("td");
+        const imgKoti = document.createElement("img");
+        imgKoti.src = "logot/" + getTeamLogo(match["Kotijoukkue"]);
+        imgKoti.alt = match["Kotijoukkue"] + " Logo";
+        imgKoti.classList.add("small-logo");
+        const imgVieras = document.createElement("img");
+        imgVieras.src = "logot/" + getTeamLogo(match["Vierasjoukkue"]);
+        imgVieras.alt = match["Vierasjoukkue"] + " Logo";
+        imgVieras.classList.add("small-logo");
+        tdOttelu.appendChild(imgKoti);
+        tdOttelu.appendChild(document.createTextNode(" " + match["Kotijoukkue"] + " - "));
+        tdOttelu.appendChild(imgVieras);
+        tdOttelu.appendChild(document.createTextNode(" " + match["Vierasjoukkue"]));
+
+        // Tulos: Klikattava linkki
+        const tdTulos = document.createElement("td");
+        const aTulos = document.createElement("a");
+        aTulos.href = "ottelukortti.html?ottelu_id=" + match["ottelu_id"];
+        aTulos.textContent = match["maalit_koti"] + "-" + match["maalit_vieras"];
+        tdTulos.appendChild(aTulos);
+
+        // yleisömäärä
+        const tdYleisö = document.createElement("td");
+        const strongYleisö = document.createElement("strong");
+        strongYleisö.textContent = match["yleisömäärä"];
+        tdYleisö.appendChild(strongYleisö);
+
+        tr.appendChild(tdPvm);
+        tr.appendChild(tdKilpailu);
+        tr.appendChild(tdStadion);
+        tr.appendChild(tdKaupunki);
+        tr.appendChild(tdOttelu);
+        tr.appendChild(tdTulos);
+        tr.appendChild(tdYleisö);
+        tbody.appendChild(tr);
+      });
+    }
+
+    // Täyttää Maalijuhlat -taulukoiden rivit (Wins ja Losses)
+    // Sarakkeiden järjestys: Pvm, Kilpailu, Stadion, Kaupunki, Ottelu, Tulos
+    // Pvm ja Tulos ovat klikattavia linkkejä, jotka ohjaavat ottelukortti.html-sivulle.
+    function fillTableMaalijuhlat(tbodyId, matches) {
+      const tbody = document.getElementById(tbodyId);
+      tbody.innerHTML = "";
+      matches.forEach(match => {
+        const tr = document.createElement("tr");
+
+        // Pvm: Klikattava linkki
         const tdPvm = document.createElement("td");
         const aPvm = document.createElement("a");
         aPvm.href = "ottelukortti.html?ottelu_id=" + match["ottelu_id"];
         aPvm.textContent = match["Päivämäärä"];
         tdPvm.appendChild(aPvm);
         tr.appendChild(tdPvm);
-        
+
         // Kilpailu
         const tdKilpailu = document.createElement("td");
         tdKilpailu.textContent = match["Kilpailu"];
@@ -204,25 +404,23 @@
         tdKaupunki.textContent = match["Kaupunki"];
         tr.appendChild(tdKaupunki);
 
-        // Ottelu: Näytä "Kotijoukkue - Vierasjoukkue" ja lisää logot
+        // Ottelu: Näytä "Kotijoukkue - Vierasjoukkue" ja logot
         const tdOttelu = document.createElement("td");
-        // Kotijoukkueen logo
         const imgKoti = document.createElement("img");
-        imgKoti.src = `logot/${match["Kotijoukkue"]}.jpg`;
-        imgKoti.alt = `${match["Kotijoukkue"]} Logo`;
-        imgKoti.classList.add("small-logo"); // oletetaan, että .small-logo määritellään CSS:ssä
+        imgKoti.src = "logot/" + getTeamLogo(match["Kotijoukkue"]);
+        imgKoti.alt = match["Kotijoukkue"] + " Logo";
+        imgKoti.classList.add("small-logo");
+        const imgVieras = document.createElement("img");
+        imgVieras.src = "logot/" + getTeamLogo(match["Vierasjoukkue"]);
+        imgVieras.alt = match["Vierasjoukkue"] + " Logo";
+        imgVieras.classList.add("small-logo");
         tdOttelu.appendChild(imgKoti);
         tdOttelu.appendChild(document.createTextNode(" " + match["Kotijoukkue"] + " - "));
-        // Vierasjoukkueen logo
-        const imgVieras = document.createElement("img");
-        imgVieras.src = `logot/${match["Vierasjoukkue"]}.jpg`;
-        imgVieras.alt = `${match["Vierasjoukkue"]} Logo`;
-        imgVieras.classList.add("small-logo");
         tdOttelu.appendChild(imgVieras);
         tdOttelu.appendChild(document.createTextNode(" " + match["Vierasjoukkue"]));
         tr.appendChild(tdOttelu);
 
-        // Tulos: Klikattava linkki, joka ohjaa tuloskortille
+        // Tulos: Klikattava linkki (näytetään aina kotijoukkueen maalit ensin)
         const tdTulos = document.createElement("td");
         const aTulos = document.createElement("a");
         aTulos.href = "ottelukortti.html?ottelu_id=" + match["ottelu_id"];
@@ -230,12 +428,65 @@
         tdTulos.appendChild(aTulos);
         tr.appendChild(tdTulos);
 
-        // yleisömäärä: Näytetään lihavoituna
-        const tdYleisö = document.createElement("td");
-        const strongYleisö = document.createElement("strong");
-        strongYleisö.textContent = match["yleisömäärä"];
-        tdYleisö.appendChild(strongYleisö);
-        tr.appendChild(tdYleisö);
+        tbody.appendChild(tr);
+      });
+    }
+
+    // Täyttää "Eniten maaleja" -taulukoiden rivit
+    // Sarakkeiden järjestys: Pvm, Kilpailu, Stadion, Kaupunki, Ottelu, Tulos
+    // Järjestää ottelut kokonaismaalimäärän mukaan (maalit_koti + maalit_vieras)
+    function fillTableMostGoals(tbodyId, matches) {
+      const tbody = document.getElementById(tbodyId);
+      tbody.innerHTML = "";
+      matches.forEach(match => {
+        const tr = document.createElement("tr");
+
+        // Pvm: Klikattava linkki
+        const tdPvm = document.createElement("td");
+        const aPvm = document.createElement("a");
+        aPvm.href = "ottelukortti.html?ottelu_id=" + match["ottelu_id"];
+        aPvm.textContent = match["Päivämäärä"];
+        tdPvm.appendChild(aPvm);
+        tr.appendChild(tdPvm);
+
+        // Kilpailu
+        const tdKilpailu = document.createElement("td");
+        tdKilpailu.textContent = match["Kilpailu"];
+        tr.appendChild(tdKilpailu);
+
+        // Stadion
+        const tdStadion = document.createElement("td");
+        tdStadion.textContent = match["Stadion"];
+        tr.appendChild(tdStadion);
+
+        // Kaupunki
+        const tdKaupunki = document.createElement("td");
+        tdKaupunki.textContent = match["Kaupunki"];
+        tr.appendChild(tdKaupunki);
+
+        // Ottelu: Näytä "Kotijoukkue - Vierasjoukkue" ja logot
+        const tdOttelu = document.createElement("td");
+        const imgKoti = document.createElement("img");
+        imgKoti.src = "logot/" + getTeamLogo(match["Kotijoukkue"]);
+        imgKoti.alt = match["Kotijoukkue"] + " Logo";
+        imgKoti.classList.add("small-logo");
+        const imgVieras = document.createElement("img");
+        imgVieras.src = "logot/" + getTeamLogo(match["Vierasjoukkue"]);
+        imgVieras.alt = match["Vierasjoukkue"] + " Logo";
+        imgVieras.classList.add("small-logo");
+        tdOttelu.appendChild(imgKoti);
+        tdOttelu.appendChild(document.createTextNode(" " + match["Kotijoukkue"] + " - "));
+        tdOttelu.appendChild(imgVieras);
+        tdOttelu.appendChild(document.createTextNode(" " + match["Vierasjoukkue"]));
+        tr.appendChild(tdOttelu);
+
+        // Tulos: Klikattava linkki
+        const tdTulos = document.createElement("td");
+        const aTulos = document.createElement("a");
+        aTulos.href = "ottelukortti.html?ottelu_id=" + match["ottelu_id"];
+        aTulos.textContent = match["maalit_koti"] + "-" + match["maalit_vieras"];
+        tdTulos.appendChild(aTulos);
+        tr.appendChild(tdTulos);
 
         tbody.appendChild(tr);
       });
