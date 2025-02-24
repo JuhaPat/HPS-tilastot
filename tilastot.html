@@ -253,8 +253,9 @@
       return url;
     }
 
-    // Määritellään putkien laskennan ehdot
+    // Määritellään putkien laskennan ehdot. Päivitetään siten, että jos tuloskentät puuttuvat, ottelua ohitetaan.
     function conditionWin(match) {
+      if (!match["maalit_koti"] || !match["maalit_vieras"]) return null;
       if (match["Kotijoukkue"] === "HPS") {
         return toNumber(match["maalit_koti"]) > toNumber(match["maalit_vieras"]);
       } else if (match["Vierasjoukkue"] === "HPS") {
@@ -263,6 +264,7 @@
       return false;
     }
     function conditionNoLoss(match) {
+      if (!match["maalit_koti"] || !match["maalit_vieras"]) return null;
       if (match["Kotijoukkue"] === "HPS") {
         return toNumber(match["maalit_koti"]) >= toNumber(match["maalit_vieras"]);
       } else if (match["Vierasjoukkue"] === "HPS") {
@@ -271,6 +273,7 @@
       return false;
     }
     function conditionNoWin(match) {
+      if (!match["maalit_koti"] || !match["maalit_vieras"]) return null;
       if (match["Kotijoukkue"] === "HPS") {
         return toNumber(match["maalit_koti"]) <= toNumber(match["maalit_vieras"]);
       } else if (match["Vierasjoukkue"] === "HPS") {
@@ -279,6 +282,7 @@
       return false;
     }
     function conditionLoss(match) {
+      if (!match["maalit_koti"] || !match["maalit_vieras"]) return null;
       if (match["Kotijoukkue"] === "HPS") {
         return toNumber(match["maalit_koti"]) < toNumber(match["maalit_vieras"]);
       } else if (match["Vierasjoukkue"] === "HPS") {
@@ -287,12 +291,21 @@
       return false;
     }
 
-    // Funktio computeStreaks: laskee peräkkäiset ottelusarjat annetulla ehdolla ja tallentaa ensimmäisen sekä viimeisen ottelun
+    // computeStreaks päivitetty niin, että jos tulos puuttuu, ottelua ei käsitellä eikä se katkaise putkea.
     function computeStreaks(matches, condition) {
       let streaks = [];
       let current = null;
       matches.forEach(match => {
-        if (condition(match)) {
+        // Jos ottelun tulos puuttuu, ohitetaan ottelu.
+        if (!match["maalit_koti"] || !match["maalit_vieras"]) {
+          return; // siirrytään seuraavaan otteluun ilman että current katkeaa
+        }
+        const cond = condition(match);
+        if (cond === null) {
+          // tulos puuttuu – ohitetaan
+          return;
+        }
+        if (cond) {
           if (!current) {
             current = { count: 1, startMatch: match, endMatch: match };
           } else {
@@ -321,10 +334,8 @@
       aDate.textContent = match["Päivämäärä"];
       container.appendChild(aDate);
       
-      // Lisää 4 non-breaking spacea
       container.appendChild(document.createTextNode("\u00A0\u00A0\u00A0\u00A0"));
       
-      // Joukkueiden tiedot (ei linkkeinä)
       const imgKoti = document.createElement("img");
       imgKoti.src = "logot/" + getTeamLogo(match["Kotijoukkue"]);
       imgKoti.alt = match["Kotijoukkue"] + " Logo";
@@ -338,7 +349,6 @@
       container.appendChild(imgVieras);
       container.appendChild(document.createTextNode(" " + match["Vierasjoukkue"]));
       
-      // Lisää 4 non-breaking spacea ennen tulosta
       container.appendChild(document.createTextNode("\u00A0\u00A0\u00A0\u00A0"));
       
       const aResult = document.createElement("a");
@@ -421,7 +431,6 @@
       const urlParams = new URLSearchParams(window.location.search);
       const teamParam = urlParams.get("joukkue");
       const headerLogo = document.querySelector(".header-logo");
-      // Tarkistetaan, ettei "page-title" -elementtiä jo ole
       if (headerLogo && teamParam && !document.querySelector(".page-title")) {
         const h1 = document.createElement("h1");
         h1.classList.add("page-title");
@@ -459,6 +468,8 @@
           fillTable("vieras-tbody", vierasMatches);
 
           matches.forEach(match => {
+            // Jos tulos puuttuu, ei lisätä tätä ottelua streakin laskuun.
+            if (!match["maalit_koti"] || !match["maalit_vieras"]) return;
             if (match["Kotijoukkue"] === "HPS") {
               match.goalDiff = toNumber(match["maalit_koti"]) - toNumber(match["maalit_vieras"]);
             } else if (match["Vierasjoukkue"] === "HPS") {
@@ -468,7 +479,7 @@
             }
           });
 
-          const hpsMatches = matches.filter(match => match["Kotijoukkue"] === "HPS" || match["Vierasjoukkue"] === "HPS");
+          const hpsMatches = matches.filter(match => (match["Kotijoukkue"] === "HPS" || match["Vierasjoukkue"] === "HPS") && match["maalit_koti"] && match["maalit_vieras"]);
 
           const winStreaks = computeStreaks(hpsMatches, conditionWin).sort((a, b) => b.count - a.count).slice(0, 10);
           const noLossStreaks = computeStreaks(hpsMatches, conditionNoLoss).sort((a, b) => b.count - a.count).slice(0, 10);
@@ -479,15 +490,15 @@
           console.log("No Win Streaks:", noWinStreaks);
           console.log("Loss Streaks:", lossStreaks);
 
-          let winMatches = matches.filter(match => match["Kotijoukkue"] === "HPS" && toNumber(match["maalit_koti"]) > toNumber(match["maalit_vieras"]));
+          let winMatches = matches.filter(match => match["Kotijoukkue"] === "HPS" && match["maalit_koti"] && match["maalit_vieras"] && toNumber(match["maalit_koti"]) > toNumber(match["maalit_vieras"]));
           winMatches.sort((a, b) => (toNumber(b["maalit_koti"]) - toNumber(b["maalit_vieras"])) - (toNumber(a["maalit_koti"]) - toNumber(a["maalit_vieras"])));
           winMatches = winMatches.slice(0, 10);
 
-          let losses = matches.filter(match => match["Vierasjoukkue"] === "HPS" && toNumber(match["maalit_vieras"]) < toNumber(match["maalit_koti"]));
+          let losses = matches.filter(match => match["Vierasjoukkue"] === "HPS" && match["maalit_koti"] && match["maalit_vieras"] && toNumber(match["maalit_vieras"]) < toNumber(match["maalit_koti"]));
           losses.sort((a, b) => (toNumber(b["maalit_koti"]) - toNumber(b["maalit_vieras"])) - (toNumber(a["maalit_koti"]) - toNumber(a["maalit_vieras"])));
           losses = losses.slice(0, 10);
 
-          let mostGoals = matches.slice();
+          let mostGoals = matches.filter(match => match["maalit_koti"] && match["maalit_vieras"]);
           mostGoals.sort((a, b) => {
             let totalA = toNumber(a["maalit_koti"]) + toNumber(a["maalit_vieras"]);
             let totalB = toNumber(b["maalit_koti"]) + toNumber(b["maalit_vieras"]);
