@@ -2073,7 +2073,9 @@
       "Stadion": "Korso",
       "Kaupunki": "Vantaa",
       "Kotijoukkue": "TiPS",
-      "Vierasjoukkue": "HPS"
+      "Vierasjoukkue": "HPS",
+      "maalit_koti": "4",
+      "maalit_vieras": "0"
     },
     {
       "ottelu_id": "202150",
