@@ -72,6 +72,21 @@
             <tbody id="vieras-tbody"></tbody>
           </table>
         </div>
+        <!-- Uusi taulukko: Yleisömäärä/ottelu kausittain -->
+        <div class="stat-table">
+          <h3>Yleisömäärä/ottelu kausittain</h3>
+          <table class="match-table">
+            <thead>
+              <tr>
+                <th>Kausi</th>
+                <th>Yleisömäärä/ottelu kotona</th>
+                <th>Yleisömäärä/ottelu vieraissa</th>
+                <th>Yleisömäärä/ottelu keskimäärin</th>
+              </tr>
+            </thead>
+            <tbody id="kausi-tbody"></tbody>
+          </table>
+        </div>
       </div>
       <br><br>
     </section>
@@ -325,7 +340,7 @@
       return url;
     }
 
-    // Ehto-funktiot putkien laskemiseen. Jos tulos puuttuu, palautetaan null.
+    // Ehto- ja laskentafunktiot putkien laskemiseen.
     function conditionWin(match) {
       if (!match["maalit_koti"] || !match["maalit_vieras"]) return null;
       if (match["Kotijoukkue"] === "HPS") {
@@ -363,7 +378,7 @@
       return false;
     }
 
-    // Uudet ehdot maaliputkille
+    // Ehdot maaliputkille
     function conditionScored(match) {
       if (!match["maalit_koti"] || !match["maalit_vieras"]) return null;
       if (match["Kotijoukkue"] === "HPS") {
@@ -496,7 +511,7 @@
           return found["Logo"];
         }
       }
-      return "Pallo.jpg";
+      return "pallo.jpg";
     }
 
     function toggleMenu() {
@@ -532,28 +547,89 @@
     }
 
     // Funktio, joka palauttaa arvioidun päivämäärän tekstimuodossa "??.??.YYYY"
-    // Käytetään ottelun "Kausi" kenttää, mikäli alkuperäinen päivämäärä puuttuu.
     function estimateDateDisplay(match) {
       const year = match["Kausi"] || "1970";
       return "??.??." + year;
     }
 
     // Ennen lajittelua, käydään ottelut läpi ja asetetaan kenttä _date:
-    // Jos "Päivämäärä" puuttuu, asetetaan _date:ksi oletusarvo (1. tammikuuta kyseiseltä vuodelta) ja päivämääränä näytetään "??.??.YYYY"
     function processMatchDates(matches) {
       // Järjestetään ensin ottelut ottelu_id:n mukaan (oletetaan numeerinen)
       matches.sort((a, b) => toNumber(a["ottelu_id"]) - toNumber(b["ottelu_id"]));
       for(let i = 0; i < matches.length; i++){
         let d = parseFinnishDate(matches[i]["Päivämäärä"]);
         if(!d) {
-          // Arvioidaan päivämäärä: asetetaan _date:ksi 1. tammikuuta kyseiseltä vuodelta
           const year = matches[i]["Kausi"] || "1970";
           d = new Date(year, 0, 1);
-          // Näytettävä päivämäärä on "??.??.YYYY"
-          matches[i]["Päivämäärä"] = "??.??." + year;
+          matches[i]["Päivämäärä"] = estimateDateDisplay(matches[i]);
         }
         matches[i]._date = d;
       }
+    }
+
+    // Uusi funktio kausittaisten yleisömäärien laskentaan
+    function computeSeasonAudience(matches) {
+      let seasonStats = {};
+      matches.forEach(match => {
+        let season = match["Kausi"];
+        if (!season) return;
+        let audience = toNumber(match["yleisömäärä"]);
+        if (!audience) return;
+        if (!seasonStats[season]) {
+          seasonStats[season] = { homeTotal: 0, homeCount: 0, awayTotal: 0, awayCount: 0, overallTotal: 0, overallCount: 0 };
+        }
+        seasonStats[season].overallTotal += audience;
+        seasonStats[season].overallCount++;
+        if (match["Kotijoukkue"] === "HPS") {
+          seasonStats[season].homeTotal += audience;
+          seasonStats[season].homeCount++;
+        }
+        if (match["Vierasjoukkue"] === "HPS") {
+          seasonStats[season].awayTotal += audience;
+          seasonStats[season].awayCount++;
+        }
+      });
+      let seasonsArray = [];
+      for (let season in seasonStats) {
+        let stats = seasonStats[season];
+        let avgHome = stats.homeCount > 0 ? stats.homeTotal / stats.homeCount : 0;
+        let avgAway = stats.awayCount > 0 ? stats.awayTotal / stats.awayCount : 0;
+        let avgOverall = stats.overallCount > 0 ? stats.overallTotal / stats.overallCount : 0;
+        seasonsArray.push({ season: season, avgHome: avgHome, avgAway: avgAway, avgOverall: avgOverall });
+      }
+      seasonsArray.sort((a, b) => b.avgOverall - a.avgOverall);
+      return seasonsArray.slice(0, 10);
+    }
+
+    // Päivitetty funktio täyttää kausittaisten yleisömäärien taulukon
+    function fillSeasonTable(tbodyId, seasonsArray) {
+      const tbody = document.getElementById(tbodyId);
+      tbody.innerHTML = "";
+      seasonsArray.forEach(item => {
+        const tr = document.createElement("tr");
+        // Ensimmäinen sarake: Kausi boldattuna
+        const tdSeason = document.createElement("td");
+        tdSeason.innerHTML = `<strong>${item.season}</strong>`;
+        // Toinen sarake: keskiarvo kotona
+        const tdHome = document.createElement("td");
+        tdHome.textContent = Math.round(item.avgHome);
+        // Kolmas sarake: keskiarvo vieraissa
+        const tdAway = document.createElement("td");
+        tdAway.textContent = Math.round(item.avgAway);
+        // Neljäs sarake: kokonaiskeskiarvo – jos nolla, näytetään kursivoituna "(tieto puuttuu)", muuten lihavoituna
+        const tdOverall = document.createElement("td");
+        const overallValue = Math.round(item.avgOverall);
+        if (overallValue === 0) {
+          tdOverall.innerHTML = `<em>(tieto puuttuu)</em>`;
+        } else {
+          tdOverall.innerHTML = `<strong>${overallValue}</strong>`;
+        }
+        tr.appendChild(tdSeason);
+        tr.appendChild(tdHome);
+        tr.appendChild(tdAway);
+        tr.appendChild(tdOverall);
+        tbody.appendChild(tr);
+      });
     }
 
     document.addEventListener("DOMContentLoaded", function() {
@@ -587,7 +663,6 @@
         .then(matches => {
           console.log("Fetched matches:", matches);
           processMatchDates(matches);
-          // Järjestetään ottelut _date-kentän mukaan
           matches.sort((a, b) => a._date - b._date);
 
           const kotiMatches = matches.filter(match => match["Kotijoukkue"] === "HPS" && match["yleisömäärä"])
@@ -599,7 +674,6 @@
           fillTable("koti-tbody", kotiMatches);
           fillTable("vieras-tbody", vierasMatches);
 
-          // Lasketaan goalDiff kaikille otteluille, mikäli tulos on tiedossa
           matches.forEach(match => {
             if (!match["maalit_koti"] || !match["maalit_vieras"]) return;
             if (match["Kotijoukkue"] === "HPS") {
@@ -616,14 +690,12 @@
             match["maalit_koti"] && match["maalit_vieras"]
           );
 
-          // Suurimmat voittolukemat: kaikki ottelut, joissa goalDiff > 0
           let winMatches = matches.filter(match =>
             match["maalit_koti"] && match["maalit_vieras"] && match.goalDiff > 0
           );
           winMatches.sort((a, b) => b.goalDiff - a.goalDiff);
           winMatches = winMatches.slice(0, 10);
 
-          // Suurimmat tappiolukemat: kaikki ottelut, joissa goalDiff < 0
           let losses = matches.filter(match =>
             match["maalit_koti"] && match["maalit_vieras"] && match.goalDiff < 0
           );
@@ -642,13 +714,10 @@
           fillTableMostGoals("mostgoals-tbody", mostGoals);
           fillTableMaalijuhlat("losses-tbody", losses);
 
-          // Putkien laskenta (vain ottelut, joissa tulos tiedossa)
           const winStreaks = computeStreaks(hpsMatches, conditionWin).sort((a, b) => b.count - a.count).slice(0, 10);
           const noLossStreaks = computeStreaks(hpsMatches, conditionNoLoss).sort((a, b) => b.count - a.count).slice(0, 10);
           const noWinStreaks = computeStreaks(hpsMatches, conditionNoWin).sort((a, b) => b.count - a.count).slice(0, 10);
           const lossStreaks = computeStreaks(hpsMatches, conditionLoss).sort((a, b) => b.count - a.count).slice(0, 10);
-
-          // Maaliputkien laskenta
           const scoredStreaks = computeStreaks(hpsMatches, conditionScored).sort((a, b) => b.count - a.count).slice(0, 10);
           const noScoreStreaks = computeStreaks(hpsMatches, conditionNotScored).sort((a, b) => b.count - a.count).slice(0, 10);
           const concededStreaks = computeStreaks(hpsMatches, conditionConceded).sort((a, b) => b.count - a.count).slice(0, 10);
@@ -671,10 +740,40 @@
           fillPutketTable("no-score-putket-tbody", noScoreStreaks);
           fillPutketTable("conceded-putket-tbody", concededStreaks);
           fillPutketTable("clean-putket-tbody", cleanStreaks);
+
+          // Kausittaisten yleisömäärien laskenta
+          const seasonsArray = computeSeasonAudience(matches);
+          fillSeasonTable("kausi-tbody", seasonsArray);
         })
         .catch(error => {
           console.error("Virhe ladattaessa ottelut.json:", error);
         });
+    }
+
+    function fillSeasonTable(tbodyId, seasonsArray) {
+      const tbody = document.getElementById(tbodyId);
+      tbody.innerHTML = "";
+      seasonsArray.forEach(item => {
+        const tr = document.createElement("tr");
+        const tdSeason = document.createElement("td");
+        tdSeason.innerHTML = `<strong>${item.season}</strong>`;
+        const tdHome = document.createElement("td");
+        tdHome.textContent = Math.round(item.avgHome);
+        const tdAway = document.createElement("td");
+        tdAway.textContent = Math.round(item.avgAway);
+        const tdOverall = document.createElement("td");
+        const overallValue = Math.round(item.avgOverall);
+        if (overallValue === 0) {
+          tdOverall.innerHTML = `<em>(tieto puuttuu)</em>`;
+        } else {
+          tdOverall.innerHTML = `<strong>${overallValue}</strong>`;
+        }
+        tr.appendChild(tdSeason);
+        tr.appendChild(tdHome);
+        tr.appendChild(tdAway);
+        tr.appendChild(tdOverall);
+        tbody.appendChild(tr);
+      });
     }
 
     function fillTable(tbodyId, matches) {
