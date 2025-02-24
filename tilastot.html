@@ -421,7 +421,8 @@
       const urlParams = new URLSearchParams(window.location.search);
       const teamParam = urlParams.get("joukkue");
       const headerLogo = document.querySelector(".header-logo");
-      if (headerLogo && teamParam) {
+      // Tarkistetaan, ettei "page-title" -elementtiä jo ole
+      if (headerLogo && teamParam && !document.querySelector(".page-title")) {
         const h1 = document.createElement("h1");
         h1.classList.add("page-title");
         h1.textContent = (teamParam === "miehet") ? "Miehet" : (teamParam === "naiset" ? "Naiset" : "");
@@ -672,7 +673,6 @@
       streaks.forEach(streak => {
          const tr = document.createElement("tr");
          const tdCount = document.createElement("td");
-         // Lihavoi ottelumäärä
          tdCount.innerHTML = "<strong>" + streak.count + "</strong>";
          const tdStart = document.createElement("td");
          tdStart.appendChild(createStreakCell(streak.startMatch));
@@ -695,7 +695,7 @@
       const urlParams = new URLSearchParams(window.location.search);
       const teamParam = urlParams.get("joukkue");
       const headerLogo = document.querySelector(".header-logo");
-      if (headerLogo && teamParam) {
+      if (headerLogo && teamParam && !document.querySelector(".page-title")) {
         const h1 = document.createElement("h1");
         h1.classList.add("page-title");
         h1.textContent = (teamParam === "miehet") ? "Miehet" : (teamParam === "naiset" ? "Naiset" : "");
