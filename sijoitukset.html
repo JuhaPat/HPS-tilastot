@@ -1,279 +1,285 @@
 <!DOCTYPE html>
 <html lang="fi">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sijoitukset</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sijoitukset</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="https://www.hps-tilastot.fi/logot/HPS.png">
 </head>
 <body>
-    <header class="header">
-        <div class="header-content">
-          <div class="header-logo">
-            <a href="index.html">
-              <img src="logot/HPS.jpg" alt="HPS Logo">
-            </a>
-          </div>
-          <h1 class="page-title" id="team-title"></h1>
-          <h2 id="team-subtitle"></h2>
-          <div class="menu-container">
-            <button class="menu-button" onclick="toggleMenu()">
-              <div></div>
-              <div></div>
-              <div></div>
-            </button>
-            <nav class="menu" id="menu">
-              <a href="index.html">Etusivu</a>
-              <a href="sijoitukset.html">Sijoitukset</a>
-              <a href="kaudet.html">Kaudet</a>
-              <a href="joukkueet.html" class="active">Joukkueet</a>
-              <a href="pelaajat.html">Pelaajat</a>
-              <a href="vastustajat.html">Vastustajat</a>
-              <a href="stadionit.html">Stadionit</a>
-              <a href="kv-ottelut.html">KV-ottelut</a>
-              <a href="tilastot.html">Tilastot</a>
-            </nav>
-          </div>
-        </div>
-      </header>      
+  <header class="header">
+    <div class="header-content">
+      <div class="header-logo">
+        <a href="index.html">
+          <img src="logot/HPS.jpg" alt="HPS Logo">
+        </a>
+      </div>
+      <!-- Uusi pääotsikko, joka sijoitetaan HPS-logon alapuolelle -->
+      <h1 class="main-heading" id="main-heading"></h1>
+      <h1 class="page-title" id="team-title"></h1>
+      <h2 class="page-subtitle" id="team-subtitle"></h2>
+      <div class="menu-container">
+        <button class="menu-button" onclick="toggleMenu()">
+          <div></div>
+          <div></div>
+          <div></div>
+        </button>
+        <nav class="menu" id="menu">
+          <a href="index.html">Etusivu</a>
+          <a href="sijoitukset.html">Sijoitukset</a>
+          <a href="kaudet.html">Kaudet</a>
+          <a href="joukkueet.html" class="active">Joukkueet</a>
+          <a href="pelaajat.html">Pelaajat</a>
+          <a href="vastustajat.html">Vastustajat</a>
+          <a href="stadionit.html">Stadionit</a>
+          <a href="kv-ottelut.html">KV-ottelut</a>
+          <a href="tilastot.html">Tilastot</a>
+        </nav>
+      </div>
+    </div>
+  </header>
 
-    <main>
-        <!-- Taulukon yläosan sarjatasojen nimiluettelo -->
-        <table class="sijoitus-table">
-            <colgroup id="sijoitus-colgroup">
-                <col id="year-col">
-                <!-- Lisätään dynaamisesti muut sarakkeet -->
-            </colgroup>
-            <thead>
-                <tr style="background-color: white;">
-                    <th></th>
-                    <!-- Oletuksena miehet-version sarjatasot, muokattu vaatimusten mukaisesti -->
-                    <th class="history-cell">
-                        <span><strong>Veikkausliiga</strong><br><em>1992-</em></span>
-                        <span><strong>Futisliiga</strong><br><em>1990-91</em></span>
-                        <span><strong>SM-sarja</strong><br><em>1980-89</em></span>
-                        <span><strong>Mestaruussarja</strong><br><em>-1979</em></span>
-                    </th>
-                    <th class="history-cell">
-                        <span><strong>Ykkösliiga</strong><br><em>2024-</em></span>
-                        <span><strong>Ykkönen</strong><br><em>1994-2023</em></span>
-                        <span><strong>1. divisioona</strong><br><em>1973-1993</em></span>
-                        <span><strong>2. divisioona</strong><br><em>1970-72</em></span>
-                        <span><strong>Suomensarja</strong><br><em>-1969</em></span>
-                    </th>
-                    <th class="history-cell">
-                        <span><strong>Ykkönen</strong><br><em>2024-</em></span>
-                        <span><strong>Kakkonen</strong><br><em>1994-2023</em></span>
-                        <span><strong>2. divisioona</strong><br><em>1973-1993</em></span>
-                        <span><strong>3. divisioona</strong><br><em>1970-72</em></span>
-                        <span><strong>Maakuntasarja</strong><br><em>-1969</em></span>
-                    </th>
-                    <th class="history-cell">
-                        <span><strong>Kakkonen</strong><br><em>2024-</em></span>
-                        <span><strong>Kolmonen</strong><br><em>1994-2023</em></span>
-                        <span><strong>3. divisioona</strong><br><em>1973-1993</em></span>
-                        <span><strong>4. divisioona</strong><br><em>1970-72</em></span>
-                        <span><strong>Aluesarja</strong><br><em>-1969</em></span>
-                    </th>
-                    <th class="history-cell">
-                        <span><strong>Kolmonen</strong><br><em>2024-</em></span>
-                        <span><strong>Nelonen</strong><br><em>1994-2023</em></span>
-                        <span><strong>4. divisioona</strong><br><em>1973-1993</em></span>
-                    </th>
-                    <th class="history-cell">
-                        <span><strong>Nelonen</strong><br><em>2024-</em></span>
-                        <span><strong>Vitonen</strong><br><em>1994-2023</em></span>
-                        <span><strong>5. divisioona</strong><br><em>1978-1993</em></span>
-                    </th>
-                    <th class="history-cell">
-                        <span><strong>Vitonen</strong><br><em>2024-</em></span>
-                        <span><strong>Kutonen</strong><br><em>1994-2023</em></span>
-                        <span><strong>6. divisioona</strong><br><em>1979-1993</em></span>
-                    </th>
-                    <th class="history-cell">
-                        <span><strong>Kutonen</strong><br><em>2024-</em></span>
-                        <span><strong>Seiska</strong><br><em>1994-2023</em></span>
-                        <span><strong>7. divisioona</strong><br><em>1987-1993</em></span>
-                    </th>
-                </tr>
-            </thead>
-            <tbody id="table-body">
-                <!-- Taulukon sisältö täytetään JavaScriptillä -->
-            </tbody>
-        </table>
-    </main>
+  <main>
+    <!-- Taulukon yläosan sarjatasojen nimiluettelo -->
+    <table class="sijoitus-table">
+      <colgroup id="sijoitus-colgroup">
+        <col id="year-col">
+        <!-- Lisätään dynaamisesti muut sarakkeet -->
+      </colgroup>
+      <thead>
+        <tr style="background-color: white;">
+          <th></th>
+          <!-- Oletuksena miehet-version sarjatasot, muokattu vaatimusten mukaisesti -->
+          <th class="history-cell">
+            <span><strong>Veikkausliiga</strong><br><em>1992-</em></span>
+            <span><strong>Futisliiga</strong><br><em>1990-91</em></span>
+            <span><strong>SM-sarja</strong><br><em>1980-89</em></span>
+            <span><strong>Mestaruussarja</strong><br><em>-1979</em></span>
+          </th>
+          <th class="history-cell">
+            <span><strong>Ykkösliiga</strong><br><em>2024-</em></span>
+            <span><strong>Ykkönen</strong><br><em>1994-2023</em></span>
+            <span><strong>1. divisioona</strong><br><em>1973-1993</em></span>
+            <span><strong>2. divisioona</strong><br><em>1970-72</em></span>
+            <span><strong>Suomensarja</strong><br><em>-1969</em></span>
+          </th>
+          <th class="history-cell">
+            <span><strong>Ykkönen</strong><br><em>2024-</em></span>
+            <span><strong>Kakkonen</strong><br><em>1994-2023</em></span>
+            <span><strong>2. divisioona</strong><br><em>1973-1993</em></span>
+            <span><strong>3. divisioona</strong><br><em>1970-72</em></span>
+            <span><strong>Maakuntasarja</strong><br><em>-1969</em></span>
+          </th>
+          <th class="history-cell">
+            <span><strong>Kakkonen</strong><br><em>2024-</em></span>
+            <span><strong>Kolmonen</strong><br><em>1994-2023</em></span>
+            <span><strong>3. divisioona</strong><br><em>1973-1993</em></span>
+            <span><strong>4. divisioona</strong><br><em>1970-72</em></span>
+            <span><strong>Aluesarja</strong><br><em>-1969</em></span>
+          </th>
+          <th class="history-cell">
+            <span><strong>Kolmonen</strong><br><em>2024-</em></span>
+            <span><strong>Nelonen</strong><br><em>1994-2023</em></span>
+            <span><strong>4. divisioona</strong><br><em>1973-1993</em></span>
+          </th>
+          <th class="history-cell">
+            <span><strong>Nelonen</strong><br><em>2024-</em></span>
+            <span><strong>Vitonen</strong><br><em>1994-2023</em></span>
+            <span><strong>5. divisioona</strong><br><em>1978-1993</em></span>
+          </th>
+          <th class="history-cell">
+            <span><strong>Vitonen</strong><br><em>2024-</em></span>
+            <span><strong>Kutonen</strong><br><em>1994-2023</em></span>
+            <span><strong>6. divisioona</strong><br><em>1979-1993</em></span>
+          </th>
+          <th class="history-cell">
+            <span><strong>Kutonen</strong><br><em>2024-</em></span>
+            <span><strong>Seiska</strong><br><em>1994-2023</em></span>
+            <span><strong>7. divisioona</strong><br><em>1987-1993</em></span>
+          </th>
+        </tr>
+      </thead>
+      <tbody id="table-body">
+        <!-- Taulukon sisältö täytetään JavaScriptillä -->
+      </tbody>
+    </table>
+  </main>
 
-    <script>
-        // Valikkonapin toiminto
-        function toggleMenu() {
-            const menu = document.getElementById('menu');
-            menu.style.display = (menu.style.display === 'block') ? 'none' : 'block';
-        }
+  <script>
+    // Valikkonapin toiminto
+    function toggleMenu() {
+      const menu = document.getElementById('menu');
+      menu.style.display = (menu.style.display === 'block') ? 'none' : 'block';
+    }
 
-        // Päivitetään sivun otsikot ja valikon linkit URL-parametrin "joukkue" perusteella
-        window.onload = function() {
-            const urlParams = new URLSearchParams(window.location.search);
-            const joukkue = urlParams.get('joukkue') || 'miehet';
+    // Päivitetään sivun otsikot ja valikon linkit URL-parametrin "joukkue" perusteella
+    window.onload = function() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const joukkue = urlParams.get('joukkue') || 'miehet';
 
-            const teamTitle = document.getElementById('team-title');
-            const teamSubtitle = document.getElementById('team-subtitle');
-            if (joukkue === 'naiset') {
-                teamTitle.textContent = 'Naiset';
-                teamSubtitle.textContent = 'Sarjasijoitukset 1973-2024';
+      const teamTitle = document.getElementById('team-title');
+      const teamSubtitle = document.getElementById('team-subtitle');
+      const mainHeading = document.getElementById('main-heading');
 
-                // Päivitetään taulukon header naisten sarjatasojen nimiluetteloon
-                const headerRow = document.querySelector('.sijoitus-table thead tr');
-                headerRow.innerHTML = `
-                    <th></th>
-                    <th class="history-cell">
-                        <span><strong>Kansallinen liiga</strong><br><em>2020-</em></span>
-                        <span><strong>Naisten liiga</strong><br><em>2007-2019</em></span>
-                        <span><strong>Naisten SM-sarja</strong><br><em>1981-2006</em></span>
-                        <span><strong>Naisten Mestaruussarja</strong><br><em>1972-1980</em></span>
-                    </th>
-                    <th class="history-cell">
-                        <span><strong>Naisten Ykkönen</strong><br><em>1996-2024</em></span>
-                        <span><strong>Naisten I divisioona</strong><br><em>1984-1995</em></span>
-                        <span><strong>Naisten Aluesarja</strong><br><em>1981-1983</em></span>
-                        <span><strong>Naisten Perussarja</strong><br><em>1974-1980</em></span>
-                    </th>
-                    <th class="history-cell">
-                        <span><strong>Naisten Kakkonen</strong><br><em>1996-</em></span>
-                        <span><strong>Naisten Piirisarja</strong><br><em>1990-1995</em></span>
-                        <span><strong>Naisten Aluesarja</strong><br><em>1984-19889</em></span>
-                    </th>
-                    <th class="history-cell">
-                        <span><strong>Naisten Kolmonen</strong><br><em>1999-</em></span>
-                    </th>
-                    <th class="history-cell">
-                        <span><strong>Naisten Nelonen</strong><br><em>2006-</em></span>
-                    </th>
-                    <th class="history-cell">
-                        <span><strong>Naisten Vitonen</strong><br><em>2011-</em></span>
-                    </th>
-                `;
-            } else {
-                teamTitle.textContent = 'Miehet';
-                teamSubtitle.textContent = 'Sarjasijoitukset 1918-2024';
-                // Miehet-version header säilyy sellaisenaan HTML:ssä.
-            }
+      if (joukkue === 'naiset') {
+        teamTitle.textContent = 'Naiset';
+        teamSubtitle.textContent = 'Sarjasijoitukset 1973-2024';
+        mainHeading.textContent = 'Naiset';
+        // Päivitetään taulukon header naisten sarjatasojen nimiluetteloon
+        const headerRow = document.querySelector('.sijoitus-table thead tr');
+        headerRow.innerHTML = `
+          <th></th>
+          <th class="history-cell">
+            <span><strong>Kansallinen liiga</strong><br><em>2020-</em></span>
+            <span><strong>Naisten liiga</strong><br><em>2007-2019</em></span>
+            <span><strong>Naisten SM-sarja</strong><br><em>1981-2006</em></span>
+            <span><strong>Naisten Mestaruussarja</strong><br><em>1972-1980</em></span>
+          </th>
+          <th class="history-cell">
+            <span><strong>Naisten Ykkönen</strong><br><em>1996-2024</em></span>
+            <span><strong>Naisten I divisioona</strong><br><em>1984-1995</em></span>
+            <span><strong>Naisten Aluesarja</strong><br><em>1981-1983</em></span>
+            <span><strong>Naisten Perussarja</strong><br><em>1974-1980</em></span>
+          </th>
+          <th class="history-cell">
+            <span><strong>Naisten Kakkonen</strong><br><em>1996-</em></span>
+            <span><strong>Naisten Piirisarja</strong><br><em>1990-1995</em></span>
+            <span><strong>Naisten Aluesarja</strong><br><em>1984-19889</em></span>
+          </th>
+          <th class="history-cell">
+            <span><strong>Naisten Kolmonen</strong><br><em>1999-</em></span>
+          </th>
+          <th class="history-cell">
+            <span><strong>Naisten Nelonen</strong><br><em>2006-</em></span>
+          </th>
+          <th class="history-cell">
+            <span><strong>Naisten Vitonen</strong><br><em>2011-</em></span>
+          </th>
+        `;
+      } else {
+        teamTitle.textContent = 'Miehet';
+        teamSubtitle.textContent = 'Sarjasijoitukset 1918-2024';
+        mainHeading.textContent = 'Miehet';
+        // Miehet-version header säilyy sellaisenaan HTML:ssä.
+      }
 
-            // Päivitetään valikon linkit, jotta URL-parametri "joukkue" liitetään kaikkiin sisäisiin linkkeihin
-            const menuLinks = document.querySelectorAll('.menu a');
-            menuLinks.forEach(link => {
-                const linkUrl = new URL(link.href, window.location.origin);
-                linkUrl.searchParams.set('joukkue', joukkue);
-                link.href = linkUrl.toString();
+      // Päivitetään valikon linkit, jotta URL-parametri "joukkue" liitetään kaikkiin sisäisiin linkkeihin
+      const menuLinks = document.querySelectorAll('.menu a');
+      menuLinks.forEach(link => {
+        const linkUrl = new URL(link.href, window.location.origin);
+        linkUrl.searchParams.set('joukkue', joukkue);
+        link.href = linkUrl.toString();
+      });
+    };
+
+    // Ladataan sijoitukset.json-datan perusteella rakennettu taulukko
+    (function() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const joukkue = urlParams.get('joukkue') || 'miehet';
+      const dataFolder = (joukkue === 'naiset') ? 'data naiset' : 'data miehet';
+      const jsonFile = `${dataFolder}/sijoitukset.json`;
+
+      fetch(jsonFile)
+        .then(response => response.json())
+        .then(data => {
+          const tableBody = document.getElementById('table-body');
+          tableBody.innerHTML = '';
+
+          // Määritellään sarjatasojen maksimimäärä: miehet 8, naiset 6
+          const maxColumns = (joukkue === 'naiset') ? 6 : 8;
+
+          // Luodaan availableColumns täyteen lukujoukkoon 1...maxColumns
+          const availableColumns = [];
+          for (let i = 1; i <= maxColumns; i++) {
+            availableColumns.push(i);
+          }
+
+          // Päivitetään colgroup sarakkeiden leveyksiä varten
+          const colgroup = document.getElementById('sijoitus-colgroup');
+          // Poistetaan mahdolliset ylimääräiset <col>-elementit ensimmäisen jälkeen
+          while (colgroup.children.length > 1) {
+            colgroup.removeChild(colgroup.lastChild);
+          }
+          availableColumns.forEach(() => {
+            const col = document.createElement('col');
+            colgroup.appendChild(col);
+          });
+
+          // Lisätään extra-otsikkorivi (sarjataso-otsikot) headeriin alle alkuperäisen headerin
+          const thead = document.querySelector('.sijoitus-table thead');
+          const existingExtraRow = document.getElementById('extra-header-row');
+          if (existingExtraRow) {
+            existingExtraRow.remove();
+          }
+          const extraRow = document.createElement('tr');
+          extraRow.id = 'extra-header-row';
+          extraRow.style.backgroundColor = 'lightgray';
+          const emptyCell = document.createElement('th');
+          emptyCell.textContent = '';
+          extraRow.appendChild(emptyCell);
+          availableColumns.forEach(col => {
+            const th = document.createElement('th');
+            th.textContent = col + ". sarjataso";
+            extraRow.appendChild(th);
+          });
+          thead.appendChild(extraRow);
+
+          // Poimitaan kaikki vuodet ja lajitellaan laskevasti
+          const years = [...new Set(data.map(item => item.Vuosi))].sort((a, b) => b - a);
+          years.forEach(year => {
+            const row = document.createElement('tr');
+            // Ensimmäisessä solussa linkki kaudet.html-sivulle
+            row.innerHTML = `<td class="year-cell"><a href="kaudet.html?year=${year}&joukkue=${joukkue}" class="link">${year}</a></td>`;
+            // Käydään läpi kaikki sarjataso-indeksit 1...maxColumns
+            availableColumns.forEach(col => {
+              const cell = document.createElement('td');
+              // Etsitään dataa, jossa sarjataso on täsmälleen "col. sarjataso"
+              const cellData = data.find(item => item.Vuosi === year && item.sarjataso === `${col}. sarjataso`);
+              if (cellData) {
+                cell.innerHTML = `
+                  <a href="kaudet.html?year=${year}&joukkue=${joukkue}" class="link">
+                    <img src="logot/HPS.jpg" alt="HPS Logo" style="width: 20px; height: 20px; margin-right: 5px;">
+                    ${cellData.Sijoitus}
+                  </a>`;
+                if (cellData.tulos === 'nousi') {
+                  cell.className = 'highlight-green';
+                } else if (cellData.tulos === 'säilyi') {
+                  cell.className = 'highlight-gray';
+                } else if (cellData.tulos === 'putosi') {
+                  cell.className = 'highlight-red';
+                } else if (cellData.tulos === 'mestari') {
+                  cell.className = 'highlight-gold';
+                }
+              }
+              row.appendChild(cell);
             });
-        };
+            tableBody.appendChild(row);
+          });
 
-        // Ladataan sijoitukset.json-datan perusteella rakennettu taulukko
-        (function() {
-            const urlParams = new URLSearchParams(window.location.search);
-            const joukkue = urlParams.get('joukkue') || 'miehet';
-            const dataFolder = (joukkue === 'naiset') ? 'data naiset' : 'data miehet';
-            const jsonFile = `${dataFolder}/sijoitukset.json`;
-
-            fetch(jsonFile)
-                .then(response => response.json())
-                .then(data => {
-                    const tableBody = document.getElementById('table-body');
-                    tableBody.innerHTML = '';
-
-                    // Määritellään sarjatasojen maksimimäärä: miehet 8, naiset 6
-                    const maxColumns = (joukkue === 'naiset') ? 6 : 8;
-
-                    // Luodaan availableColumns täyteen lukujoukkoon 1...maxColumns
-                    const availableColumns = [];
-                    for (let i = 1; i <= maxColumns; i++) {
-                        availableColumns.push(i);
-                    }
-
-                    // Päivitetään colgroup sarakkeiden leveyksiä varten
-                    const colgroup = document.getElementById('sijoitus-colgroup');
-                    // Poistetaan mahdolliset ylimääräiset <col>-elementit ensimmäisen jälkeen
-                    while (colgroup.children.length > 1) {
-                        colgroup.removeChild(colgroup.lastChild);
-                    }
-                    availableColumns.forEach(() => {
-                        const col = document.createElement('col');
-                        colgroup.appendChild(col);
-                    });
-
-                    // Lisätään extra-otsikkorivi (sarjataso-otsikot) headeriin alle alkuperäisen headerin
-                    const thead = document.querySelector('.sijoitus-table thead');
-                    const existingExtraRow = document.getElementById('extra-header-row');
-                    if (existingExtraRow) {
-                        existingExtraRow.remove();
-                    }
-                    const extraRow = document.createElement('tr');
-                    extraRow.id = 'extra-header-row';
-                    extraRow.style.backgroundColor = 'lightgray';
-                    const emptyCell = document.createElement('th');
-                    emptyCell.textContent = '';
-                    extraRow.appendChild(emptyCell);
-                    availableColumns.forEach(col => {
-                        const th = document.createElement('th');
-                        th.textContent = col + ". sarjataso";
-                        extraRow.appendChild(th);
-                    });
-                    thead.appendChild(extraRow);
-
-                    // Poimitaan kaikki vuodet ja lajitellaan laskevasti
-                    const years = [...new Set(data.map(item => item.Vuosi))].sort((a, b) => b - a);
-                    years.forEach(year => {
-                        const row = document.createElement('tr');
-                        // Ensimmäisessä solussa linkki kaudet.html-sivulle
-                        row.innerHTML = `<td class="year-cell"><a href="kaudet.html?year=${year}&joukkue=${joukkue}" class="link">${year}</a></td>`;
-                        // Käydään läpi kaikki sarjataso-indeksit 1...maxColumns
-                        availableColumns.forEach(col => {
-                            const cell = document.createElement('td');
-                            // Etsitään dataa, jossa sarjataso on täsmälleen "col. sarjataso"
-                            const cellData = data.find(item => item.Vuosi === year && item.sarjataso === `${col}. sarjataso`);
-                            if (cellData) {
-                                cell.innerHTML = `
-                                    <a href="kaudet.html?year=${year}&joukkue=${joukkue}" class="link">
-                                        <img src="logot/HPS.jpg" alt="HPS Logo" style="width: 20px; height: 20px; margin-right: 5px;">
-                                        ${cellData.Sijoitus}
-                                    </a>`;
-                                if (cellData.tulos === 'nousi') {
-                                    cell.className = 'highlight-green';
-                                } else if (cellData.tulos === 'säilyi') {
-                                    cell.className = 'highlight-gray';
-                                } else if (cellData.tulos === 'putosi') {
-                                    cell.className = 'highlight-red';
-                                } else if (cellData.tulos === 'mestari') {
-                                    cell.className = 'highlight-gold';
-                                }
-                            }
-                            row.appendChild(cell);
-                        });
-                        tableBody.appendChild(row);
-                    });
-
-                    // Funktio sarakkeiden leveyksien säätämiseksi:
-                    function adjustColumnWidths() {
-                        const table = document.querySelector('.sijoitus-table');
-                        const tableWidth = table.clientWidth;
-                        let firstCell = table.querySelector('tbody tr td:first-child');
-                        if (!firstCell) {
-                            firstCell = table.querySelector('thead th:first-child');
-                        }
-                        const firstColWidth = firstCell.offsetWidth;
-                        document.getElementById('year-col').style.width = firstColWidth + 'px';
-                        const remainingWidth = tableWidth - firstColWidth;
-                        const otherCols = colgroup.children.length - 1;
-                        const colWidth = remainingWidth / otherCols;
-                        for (let i = 1; i < colgroup.children.length; i++) {
-                            colgroup.children[i].style.width = colWidth + 'px';
-                        }
-                    }
-                    // Asetetaan sarakkeiden leveydet heti, kun layout on päivittynyt
-                    setTimeout(adjustColumnWidths, 0);
-                })
-                .catch(error => console.error('Virhe ladattaessa JSON-dataa:', error));
-        })();
-    </script>
+          // Funktio sarakkeiden leveyksien säätämiseksi:
+          function adjustColumnWidths() {
+            const table = document.querySelector('.sijoitus-table');
+            const tableWidth = table.clientWidth;
+            let firstCell = table.querySelector('tbody tr td:first-child');
+            if (!firstCell) {
+              firstCell = table.querySelector('thead th:first-child');
+            }
+            const firstColWidth = firstCell.offsetWidth;
+            document.getElementById('year-col').style.width = firstColWidth + 'px';
+            const remainingWidth = tableWidth - firstColWidth;
+            const otherCols = colgroup.children.length - 1;
+            const colWidth = remainingWidth / otherCols;
+            for (let i = 1; i < colgroup.children.length; i++) {
+              colgroup.children[i].style.width = colWidth + 'px';
+            }
+          }
+          // Asetetaan sarakkeiden leveydet heti, kun layout on päivittynyt
+          setTimeout(adjustColumnWidths, 0);
+        })
+        .catch(error => console.error('Virhe ladattaessa JSON-dataa:', error));
+    })();
+  </script>
 </body>
 </html>
