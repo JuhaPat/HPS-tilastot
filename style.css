@@ -126,7 +126,7 @@ body {
 
 .league-table {
     width: 50%;
-    min-width: 800px; /* Tai muu haluamasi minimileveys */
+    min-width: 700px; /* Tämä pakottaa leveyden suuremmaksi, muuten "periytyy" 60% jonkun edeltävän elementin leveydestä... */
     margin: 20px auto;
     border-collapse: collapse;
     font-size: 1rem;
@@ -439,7 +439,7 @@ thead tr:nth-child(2) th {
 
 .sijoitus-table {
     width: 60%;
-    min-width: 800px; /* Tai muu haluamasi minimileveys */
+    min-width: 700px; /* Tämä pakottaa leveyden suuremmaksi, muuten "periytyy" 60% jonkun edeltävän elementin leveydestä... */
     border-collapse: collapse;
     margin: 20px auto;
     table-layout: fixed;
