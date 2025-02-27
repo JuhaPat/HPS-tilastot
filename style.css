@@ -126,6 +126,7 @@ body {
 
 .league-table {
     width: 50%;
+    min-width: 800px; /* Tai muu haluamasi minimileveys */
     margin: 20px auto;
     border-collapse: collapse;
     font-size: 1rem;
@@ -434,29 +435,11 @@ thead tr:nth-child(2) th {
     margin-bottom: 1em;
 }
 
-/* Responsiivisuus mobiililaitteille: leveys 95% */
-@media screen and (max-width: 600px) {
-    .top-text,
-    .player-icons,
-    .info-column {
-        width: 95%;
-        margin: 1em auto;
-    }
-    .player-icons {
-        flex-direction: column;
-        gap: 1em;
-    }
-    .icon-card img {
-        width: 100%;
-        max-width: none;
-    }
-}
-
-
 /* SIJOITUKSET.HTML - Sivun erityistyylit */
 
 .sijoitus-table {
     width: 60%;
+    min-width: 800px; /* Tai muu haluamasi minimileveys */
     border-collapse: collapse;
     margin: 20px auto;
     table-layout: fixed;
@@ -530,14 +513,6 @@ thead tr:nth-child(2) th {
 .link:hover {
     text-decoration: underline;
 }
-
-@media screen and (max-width: 600px) {
-    .sijoitus-table {
-      width: 95%;
-      font-size: 0.8rem;
-    }
-  }
-  
 
 /* KAUDUT.HTML - Sivun erityistyylit */
 .main-title {
