@@ -2,7 +2,8 @@
 <html lang="fi">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=800">
+  <!-- Muuta viewport-määritys responsiivisemmaksi -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sijoitukset</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
@@ -47,9 +48,10 @@
         <!-- Lisätään dynaamisesti muut sarakkeet -->
       </colgroup>
       <thead>
-        <tr style="background-color: white;">
+        <!-- Pääotsikkorivi, jonka id on main-header-row -->
+        <tr id="main-header-row" style="background-color: white;">
           <th></th>
-          <!-- Oletuksena miehet-version sarjatasot, muokattu vaatimusten mukaisesti -->
+          <!-- Alkuperäiset miehet-version tiedot; nämä päivitetään JS:llä tarvittaessa -->
           <th class="history-cell">
             <span><strong>Veikkausliiga</strong><br><em>1992-</em></span>
             <span><strong>Futisliiga</strong><br><em>1990-91</em></span>
@@ -98,6 +100,7 @@
             <span><strong>7. divisioona</strong><br><em>1987-1993</em></span>
           </th>
         </tr>
+        <!-- Extra-otsikkorivi lisätään JS:llä -->
       </thead>
       <tbody id="table-body">
         <!-- Taulukon sisältö täytetään JavaScriptillä -->
@@ -112,25 +115,23 @@
       menu.style.display = (menu.style.display === 'block') ? 'none' : 'block';
     }
 
-    // Päivitetään sivun otsikot ja valikon linkit URL-parametrin "joukkue" perusteella
+    // Päivitetään sivun otsikot ja taulukon header-rivi URL-parametrin "joukkue" perusteella
     window.onload = function() {
       const urlParams = new URLSearchParams(window.location.search);
       const joukkue = urlParams.get('joukkue') || 'miehet';
 
       const teamTitle = document.getElementById('team-title');
       const teamSubtitle = document.getElementById('team-subtitle');
-      const mainHeading = document.getElementById('main-heading');
+      const mainHeaderRow = document.getElementById('main-header-row');
 
       if (joukkue === 'naiset') {
         teamTitle.textContent = 'Naiset';
         teamSubtitle.textContent = 'Sarjasijoitukset 1973-2024';
-        mainHeading.textContent = 'Naiset';
-        // Päivitetään taulukon header naisten sarjatasojen nimiluetteloon
-        const headerRow = document.querySelector('.sijoitus-table thead tr');
-        headerRow.innerHTML = `
+        // Päivitetään pääotsikkorivi naisten tiedoilla
+        mainHeaderRow.innerHTML = `
           <th></th>
           <th class="history-cell">
-            <span><strong>Kansallinen liiga</strong><br><em>2020-</em></span>
+            <span><strong>Naisten Kansallinen liiga</strong><br><em>2020-</em></span>
             <span><strong>Naisten liiga</strong><br><em>2007-2019</em></span>
             <span><strong>Naisten SM-sarja</strong><br><em>1981-2006</em></span>
             <span><strong>Naisten Mestaruussarja</strong><br><em>1972-1980</em></span>
@@ -159,11 +160,10 @@
       } else {
         teamTitle.textContent = 'Miehet';
         teamSubtitle.textContent = 'Sarjasijoitukset 1918-2024';
-        mainHeading.textContent = 'Miehet';
-        // Miehet-version header säilyy sellaisenaan HTML:ssä.
+        // Miehet-version tiedot ovat jo oletuksena HTML:ssä, joten ei tehdä päivitystä
       }
 
-      // Päivitetään valikon linkit, jotta URL-parametri "joukkue" liitetään kaikkiin sisäisiin linkkeihin
+      // Päivitetään valikon linkit URL-parametrin "joukkue" mukaan
       const menuLinks = document.querySelectorAll('.menu a');
       menuLinks.forEach(link => {
         const linkUrl = new URL(link.href, window.location.origin);
@@ -185,18 +185,13 @@
           const tableBody = document.getElementById('table-body');
           tableBody.innerHTML = '';
 
-          // Määritellään sarjatasojen maksimimäärä: miehet 8, naiset 6
           const maxColumns = (joukkue === 'naiset') ? 6 : 8;
-
-          // Luodaan availableColumns täyteen lukujoukkoon 1...maxColumns
           const availableColumns = [];
           for (let i = 1; i <= maxColumns; i++) {
             availableColumns.push(i);
           }
 
-          // Päivitetään colgroup sarakkeiden leveyksiä varten
           const colgroup = document.getElementById('sijoitus-colgroup');
-          // Poistetaan mahdolliset ylimääräiset <col>-elementit ensimmäisen jälkeen
           while (colgroup.children.length > 1) {
             colgroup.removeChild(colgroup.lastChild);
           }
@@ -205,7 +200,7 @@
             colgroup.appendChild(col);
           });
 
-          // Lisätään extra-otsikkorivi (sarjataso-otsikot) headeriin alle alkuperäisen headerin
+          // Lisätään extra-otsikkorivi alle pääotsikkorivin
           const thead = document.querySelector('.sijoitus-table thead');
           const existingExtraRow = document.getElementById('extra-header-row');
           if (existingExtraRow) {
@@ -224,16 +219,12 @@
           });
           thead.appendChild(extraRow);
 
-          // Poimitaan kaikki vuodet ja lajitellaan laskevasti
           const years = [...new Set(data.map(item => item.Vuosi))].sort((a, b) => b - a);
           years.forEach(year => {
             const row = document.createElement('tr');
-            // Ensimmäisessä solussa linkki kaudet.html-sivulle
             row.innerHTML = `<td class="year-cell"><a href="kaudet.html?year=${year}&joukkue=${joukkue}" class="link">${year}</a></td>`;
-            // Käydään läpi kaikki sarjataso-indeksit 1...maxColumns
             availableColumns.forEach(col => {
               const cell = document.createElement('td');
-              // Etsitään dataa, jossa sarjataso on täsmälleen "col. sarjataso"
               const cellData = data.find(item => item.Vuosi === year && item.sarjataso === `${col}. sarjataso`);
               if (cellData) {
                 cell.innerHTML = `
@@ -256,7 +247,6 @@
             tableBody.appendChild(row);
           });
 
-          // Funktio sarakkeiden leveyksien säätämiseksi:
           function adjustColumnWidths() {
             const table = document.querySelector('.sijoitus-table');
             const tableWidth = table.clientWidth;
@@ -273,7 +263,6 @@
               colgroup.children[i].style.width = colWidth + 'px';
             }
           }
-          // Asetetaan sarakkeiden leveydet heti, kun layout on päivittynyt
           setTimeout(adjustColumnWidths, 0);
         })
         .catch(error => console.error('Virhe ladattaessa JSON-dataa:', error));
