@@ -367,10 +367,9 @@ thead tr:nth-child(2) th {
 }
 
 /* INDEX.HTML - Sivun erityistyylit */
-/* Päivitetty: PC-näkymässä käytetään 60% leveys, korvaten kiinteän 720px-määrittelyn */
 
 .top-text {
-    width: 60%;
+    width: 720px;
     margin: 1em auto 0; /* Yläreunan marginaali */
     text-align: center;
 }
@@ -426,7 +425,7 @@ thead tr:nth-child(2) th {
  
 /* Palsta Tietoja sivustosta -osiolle */
 .info-column {
-    width: 60%;
+    width: 720px;
     margin: 2em auto 0;
     text-align: left;
 }
