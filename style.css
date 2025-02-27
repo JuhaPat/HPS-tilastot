@@ -122,7 +122,6 @@ body {
 /* YLEISET ASETUKSET - SAMA KAIKILLA SIVUILLA */
 
 
-
 /* SARJATAULUKKO */
 
 .league-table {
@@ -186,6 +185,7 @@ body {
 
 /* SARJATAULUKKO */
 
+
 /* OTTELUTAULUKKO */
 
 .match-table {
@@ -228,6 +228,7 @@ body {
 }
 
 /* OTTELUTAULUKKO */
+
 
 /* PELAAJATAULUKKO */
 
@@ -365,11 +366,11 @@ thead tr:nth-child(2) th {
 }
 
 /* INDEX.HTML - Sivun erityistyylit */
-  
-/* Yläosan tekstikenttä */
+/* Päivitetty: PC-näkymässä käytetään 60% leveys, korvaten kiinteän 720px-määrittelyn */
+
 .top-text {
-    width: 720px;
-    margin: 1px auto 0; /* Vähennetty yläreunan marginaalia, jotta teksti tulee lähempänä HPS-logoa */
+    width: 60%;
+    margin: 1em auto 0; /* Yläreunan marginaali */
     text-align: center;
 }
   
@@ -395,8 +396,8 @@ thead tr:nth-child(2) th {
     display: flex;
     justify-content: center;
     gap: 120px;
-    margin: 50px auto 0;
-    width: 720px;
+    margin: 2em auto 0;
+    width: 60%;
 }
   
 .icon-card {
@@ -424,8 +425,8 @@ thead tr:nth-child(2) th {
  
 /* Palsta Tietoja sivustosta -osiolle */
 .info-column {
-    width: 720px;
-    margin: 50px auto 0;
+    width: 60%;
+    margin: 2em auto 0;
     text-align: left;
 }
 
@@ -433,7 +434,23 @@ thead tr:nth-child(2) th {
     margin-bottom: 1em;
 }
 
-/* INDEX.HTML - Sivun erityistyylit */
+/* Responsiivisuus mobiililaitteille: leveys 95% */
+@media screen and (max-width: 600px) {
+    .top-text,
+    .player-icons,
+    .info-column {
+        width: 95%;
+        margin: 1em auto;
+    }
+    .player-icons {
+        flex-direction: column;
+        gap: 1em;
+    }
+    .icon-card img {
+        width: 100%;
+        max-width: none;
+    }
+}
 
 
 /* SIJOITUKSET.HTML - Sivun erityistyylit */
@@ -593,6 +610,14 @@ thead tr:nth-child(2) th {
     display: none;
 }
 
+.pelivalitsin-container {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.pelivalitsin-label {
+    font-weight: bold;
+    margin-right: 10px;
+}
 
 /* JOUKKUEET.HTML - Sivun erityistyylit */
 
@@ -918,7 +943,7 @@ th.sortable {
           }
 
       /* Loput alkuperäiset tyylit pysyvät ennallaan */
-
+      
       .cup-bracket {
         display: flex;
         justify-content: space-evenly; 
@@ -1083,5 +1108,4 @@ th.sortable {
             text-align: center;
         }
         
-
-    /* tilastot.html taulukon rakenne */   
+    /* tilastot.html taulukon rakenne */    
