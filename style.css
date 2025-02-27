@@ -531,6 +531,13 @@ thead tr:nth-child(2) th {
     text-decoration: underline;
 }
 
+@media screen and (max-width: 600px) {
+    .sijoitus-table {
+      width: 95%;
+      font-size: 0.8rem;
+    }
+  }
+  
 
 /* KAUDUT.HTML - Sivun erityistyylit */
 .main-title {
