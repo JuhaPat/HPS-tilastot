@@ -107,7 +107,7 @@
         const dataFolder = getTeamDataFolder();
 
         if (opponentShortName) {
-            // Ladataan sarjataulukot (mm. logoja varten)
+            // Ladataan sarjataulukot (logoja varten)
             fetch(`${dataFolder}/sarjataulukot.json`)
                 .then(response => response.json())
                 .then(teams => {
@@ -127,14 +127,20 @@
                             const opponentDetails = opponent ? opponent["Lisätiedot"] : '(tieto puuttuu)';
                             const opponentLink = opponent ? opponent["Linkki"] : '';
 
-                            // Logo suodattuu sarjataulukon pohjalta
-                            const opponentLogo = teamLogos[opponentShortName] || '';
+                            // Haetaan logo ensin sarjataulukosta, sitten vastustajista
+                            let opponentLogo = teamLogos[opponentShortName];
+                            if (!opponentLogo && opponent && opponent.Logo) {
+                                opponentLogo = `logot/${opponent.Logo}`;
+                            }
+                            if (!opponentLogo) {
+                                opponentLogo = "logot/Pallo.jpg";
+                            }
 
                             // Ladataan ottelut
                             fetch(`${dataFolder}/ottelut.json`)
                                 .then(response => response.json())
                                 .then(matches => {
-                                    // Filtteröidään vain ne ottelut, joissa ko. vastustaja
+                                    // Filtteröidään vain ne ottelut, joissa kyseinen vastustaja
                                     const opponentMatches = matches.filter(match =>
                                         match.Kotijoukkue === opponentShortName || match.Vierasjoukkue === opponentShortName
                                     );
@@ -163,10 +169,10 @@
                                     const tableBody = document.getElementById('opponent-matches-table').querySelector('tbody');
                                     tableBody.innerHTML = opponentMatches.map(match => {
                                         const date = match.Päivämäärä ? match.Päivämäärä : '-';
-                                        const homeLogo = teamLogos[match.Kotijoukkue] || '';
-                                        const awayLogo = teamLogos[match.Vierasjoukkue] || '';
+                                        // Haetaan kotijoukkueen ja vierasjoukkueen logot samalla periaatteella
+                                        const homeLogo = teamLogos[match.Kotijoukkue] || "logot/Pallo.jpg";
+                                        const awayLogo = teamLogos[match.Vierasjoukkue] || "logot/Pallo.jpg";
 
-                                        // Lisätään "joukkue" -parametri Tulos-linkkiin
                                         return `
                                             <tr>
                                                 <td>${date}</td>

@@ -14,7 +14,7 @@
         <img src="logot/HPS.jpg" alt="HPS Logo">
       </a>
     </div>
-    <!-- Asetetaan otsikko "Miehet" tai "Naiset" URL-parametrin mukaan -->
+    <!-- Asetetaan otsikko "Naiset" tai "Miehet" URL-parametrin mukaan -->
     <h1 class="page-title" id="team-title"></h1>
     <h1 id="team-subtitle"></h1>
     <button class="menu-button" onclick="toggleMenu()">
@@ -101,7 +101,7 @@
       menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
     }
 
-    // Käsitellään URL-parametrit
+    // URL-parametrien käsittely
     const urlParams = new URLSearchParams(window.location.search);
     const teamParam = urlParams.get('joukkue');
     // Asetetaan otsikon tekstiksi "Naiset" jos joukkue-parametri on "naiset", muuten "Miehet"
@@ -191,7 +191,7 @@
               let homeData = teamData[match.Kotijoukkue];
               let awayData = teamData[match.Vierasjoukkue];
 
-              // Jos tiedot puuttuvat, haetaan myös vastustajat.json:sta
+              // Jos logotiedot puuttuvat sarjataulukot.json:sta, haetaan vastustajat.json:sta
               if (!homeData || !awayData) {
                 fetch(`${dataFolder}/vastustajat.json`)
                   .then(response => {
@@ -262,8 +262,9 @@
 
     // Funktio, joka asettaa joukkueiden tiedot, maalintekijöiden tiedot ja muut ottelun tiedot sivulle
     function asetaTiedot(homeData, awayData, match) {
-      const finalHomeData = homeData || { name: match.Kotijoukkue, logo: 'placeholder.png' };
-      const finalAwayData = awayData || { name: match.Vierasjoukkue, logo: 'placeholder.png' };
+      // Jos logoa ei löydy kummastakaan tiedostosta, käytetään geneeristä "Pallo.jpg"
+      const finalHomeData = homeData || { name: match.Kotijoukkue, logo: 'Pallo.jpg' };
+      const finalAwayData = awayData || { name: match.Vierasjoukkue, logo: 'Pallo.jpg' };
 
       document.getElementById('home-name').textContent = finalHomeData.name;
       document.getElementById('home-logo').src = `logot/${finalHomeData.logo}`;
