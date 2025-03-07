@@ -64,7 +64,8 @@
         <tr>
           <td class="team-name" id="home-name"></td>
           <td><img src="" alt="Kotijoukkueen logo" class="team-logo" id="home-logo"></td>
-          <td class="score" id="score"></td>
+          <!-- Lisätty min-width ja white-space nowrap score-soluun -->
+          <td class="score" id="score" style="min-width: 120px; white-space: nowrap;"></td>
           <td><img src="" alt="Vierasjoukkueen logo" class="team-logo" id="away-logo"></td>
           <td class="team-name" id="away-name"></td>
         </tr>
@@ -106,7 +107,7 @@
     // URL-parametrien käsittely
     const urlParams = new URLSearchParams(window.location.search);
     const teamParam = urlParams.get('joukkue');
-    // Asetetaan otsikon tekstiksi "Naiset" jos joukkue-parametri on "naiset", muuten "Miehet"
+    // Asetetaan otsikon tekstiksi "Naiset" jos joukkue on "naiset", muuten "Miehet"
     document.getElementById('team-title').textContent = teamParam === 'naiset' ? "Naiset" : "Miehet";
     const dataFolder = teamParam === 'naiset' ? 'data naiset' : 'data miehet';
 
@@ -193,7 +194,7 @@
               let homeData = teamData[match.Kotijoukkue];
               let awayData = teamData[match.Vierasjoukkue];
 
-              // Jos logotiedot puuttuvat sarjataulukot.json:sta, haetaan vastustajat.json:sta
+              // Jos logotiedot puuttuvat, haetaan myös vastustajat.json:sta
               if (!homeData || !awayData) {
                 fetch(`${dataFolder}/vastustajat.json`)
                   .then(response => {
